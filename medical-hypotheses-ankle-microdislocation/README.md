@@ -40,3 +40,7 @@
 
 - 原稿中“These results have preliminarily verified the validity”与“we are currently testing”自相矛盾，已在改稿中删除；在拿到真实数据前，请勿写“已初步验证”。
 - 原稿中的拼写错误（opinoin、Referrence、ffnancial、inffuence）已在改稿中修正。
+
+## 更新记录
+
+- **v2（本轮）**：按“审稿人视角”二次打磨。新增 `reviewer_pass_notes.md`；正文补强“新颖性四主张”与“Prediction 0 + Table 2 因果/附带现象判别表”；修正引文错配与未引用文献；删除 Crema、Dubois 两条多余参考文献。详见 `reviewer_pass_notes.md`。
