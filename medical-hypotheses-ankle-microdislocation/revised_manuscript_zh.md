@@ -37,7 +37,7 @@ Bin Yang，Youkui Lyu*
 3. 韧带松弛降低了距骨平移的被动约束，使位置性错位在活动中增大或复发。
 4. 由此产生的力学失衡，连同关节周围机械感受器传入信号的中断，削弱了动态稳定性，导致反复扭伤和持续性疼痛、肿胀与“打软腿” [4,14]。
 
-该模型的核心并不是“位移存在”这一观察，而是位移与松弛构成一个 **闭合的、自我强化的循环**——微脱位 → 韧带异常张力 → 韧带松弛 → 更大的微脱位——而该循环正是手法复位所作用的靶点（图 1）。
+该模型的核心并不是“位移存在”这一观察，而是位移与松弛构成一个 **闭合的、自我强化的循环**——微脱位 → 韧带异常张力 → 韧带松弛 → 更大的微脱位——而该循环正是手法复位所作用的靶点。
 
 ### 2.2 与既有概念的关系
 
@@ -158,23 +158,21 @@ Bin Yang，Youkui Lyu*
 10. Vicenzino B, Branjerdporn M, Teys P, Jordan K. Initial changes in posterior talar glide and dorsiflexion of the ankle after mobilization with movement in individuals with recurrent ankle sprain. J Orthop Sports Phys Ther. 2006;36(7):464–471.
 11. Yang YS, Lai PC, Liu ZW, et al. What will deliver the best bang-for-your-treatment-buck? Treatment effects of physical therapy approaches to managing chronic ankle instability: a network meta-analysis of randomized controlled trials. J Orthop Sports Phys Ther. 2025;55(1):26–44.
 12. Slaven EJ, Alarcio N, Fields C, Hayes M, Weiss E, Eckert NR. An investigation of neurological and/or biomechanical factors underpinning the effect of a thrust manipulation on chronic ankle symptoms: an observational study. J Man Manip Ther. 2024;32(2):198–205.
-13. Rochelle DC, Herbert A, Ktistakis I, et al. Mechanical characterisation of the lateral collateral ligament complex of the ankle at realistic sprain-like strain rates. J Mech Behav Biomed Mater. 2020;102:103473.
+13. Rochelle DC, Herbert A, Ktistakis I, Redmond AC, Chapman GJ, Brockett CL. Mechanical characterisation of the lateral collateral ligament complex of the ankle at realistic sprain-like strain rates. J Mech Behav Biomed Mater. 2020;102:103473.
 14. Miklovic TM, Donovan L, Protzuk OA, Kang MS, Feger MA. Acute lateral ankle sprain to chronic ankle instability: a pathway of dysfunction. Phys Sportsmed. 2018;46(1):116–122.
 15. Vega J, Malagelada F, Dalmau-Pastor M. Ankle microinstability: arthroscopic findings reveal four types of lesion to the anterior talofibular ligament's superior fascicle. Knee Surg Sports Traumatol Arthrosc. 2021;29(4):1294–1303.
 16. Vega J, Dalmau-Pastor M. Ankle joint microinstability: you might have never seen it but it has definitely seen you. Foot Ankle Clin. 2023;28(2):333–344.
 17. Croy T, Saliba S, Saliba E, Anderson MW, Hertel J. Talofibular interval changes after acute ankle sprain: a stress ultrasonography study of ankle laxity. J Sport Rehabil. 2013;22(4):257–263.
 18. Croy T, Cosby NL, Hertel J. Active ankle motion may result in changes to the talofibular interval in individuals with chronic ankle instability and ankle sprain copers: a preliminary study. J Man Manip Ther. 2013;21(3):127–133.
-19. Yuan C, Zhu G, Wang Z, et al. The fibula and talus position difference in functional and mechanical ankle instability: MRI findings. J Orthop Surg (Hong Kong). 2021;29(1):2309499020984575.
+19. Yuan C, Zhu G, Wang Z, Wang C, Wang X, Ma X. The fibula and talus position difference in functional and mechanical ankle instability: MRI findings. J Orthop Surg (Hong Kong). 2021;29(1):2309499020984575.
 20. Loudon JK, Reiman MP, Sylvain J. The efficacy of manual joint mobilisation/manipulation in treatment of lateral ankle sprains: a systematic review. Br J Sports Med. 2014;48(5):365–370.
 21. Beazell JR, Grindstaff TL, Sauer LD, Magrum EM, Ingersoll CD, Hertel J. Effects of a proximal or distal tibiofibular joint manipulation on ankle range of motion and functional outcomes in individuals with chronic ankle instability. J Orthop Sports Phys Ther. 2012;42(2):125–134.
-22. Lubbe D, Lakhani E, Brantingham JW, et al. Manipulative therapy and rehabilitation for recurrent ankle sprain with functional instability: a short-term, assessor-blind, parallel-group randomized trial. J Manipulative Physiol Ther. 2015;38(1):22–34.
+22. Lubbe D, Lakhani E, Brantingham JW, Parkin-Smith GF, Cassa TK, Globe GA, et al. Manipulative therapy and rehabilitation for recurrent ankle sprain with functional instability: a short-term, assessor-blind, parallel-group randomized trial. J Manipulative Physiol Ther. 2015;38(1):22–34.
 23. López-Rodríguez S, Fernández-de-Las-Peñas C, Alburquerque-Sendín F, Rodríguez-Blanco C, Palomeque-del-Cerro L. Immediate effects of manipulation of the talocrural joint on stabilometry and baropodometry in patients with ankle sprain. J Manipulative Physiol Ther. 2007;30(3):186–192.
-24. ElMeligie MM, Abdeen HA, Atef H, et al. The effectiveness of Mulligan mobilization with movement (MWM) on outcomes of patients with ankle sprain: a systematic review and meta-analysis. BMC Sports Sci Med Rehabil. 2025;17(1):105.
+24. ElMeligie MM, Abdeen HA, Atef H, Marques-Sule E, Karkosha RN. The effectiveness of Mulligan mobilization with movement (MWM) on outcomes of patients with ankle sprain: a systematic review and meta-analysis. BMC Sports Sci Med Rehabil. 2025;17(1):105.
 25. Cruz-Díaz D, Lomas Vega R, Osuna-Pérez MC, Hita-Contreras F, Martínez-Amat A. Effects of joint mobilization on chronic ankle instability: a randomized controlled trial. Disabil Rehabil. 2015;37(7):601–610.
 26. Gogate N, Satpute K, Hall T. The effectiveness of mobilization with movement on pain, balance and function following acute and sub acute inversion ankle sprain—a randomized, placebo controlled trial. Phys Ther Sport. 2021;48:91–100.
-27. Nguyen AP, Pitance L, Mahaudens P, et al. Effects of Mulligan mobilization with movement in subacute lateral ankle sprains: a pragmatic randomized trial. J Man Manip Ther. 2021;29(6):341–352.
+27. Nguyen AP, Pitance L, Mahaudens P, Detrembleur C, David Y, Hall T, et al. Effects of Mulligan mobilization with movement in subacute lateral ankle sprains: a pragmatic randomized trial. J Man Manip Ther. 2021;29(6):341–352.
 28. Hubbard TJ, Hertel J, Sherbondy P. Fibular position in individuals with self-reported chronic ankle instability. J Orthop Sports Phys Ther. 2006;36(1):3–9.
 
 ---
-
-**图 1.** 见 `figure1_microdislocation_cycle.png`（慢性踝关节扭伤中微脱位恶性循环及其被手法复位所打断的机制）。
