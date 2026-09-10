@@ -136,7 +136,7 @@ We propose that a reducible 1–3 mm micro-dislocation of the talus relative to 
 
 **Consent:** Not applicable.
 
-**Declaration of generative AI and AI-assisted technologies in the writing process:** None of these technologies were employed in the preparation of the manuscript.
+**Declaration of generative AI and AI-assisted technologies in the writing process:** During the preparation of this work the authors used an AI-assisted language model to help with literature retrieval, English language editing and drafting of the schematic figure. After using this tool/service, the authors reviewed and edited the content as needed and take full responsibility for the content of the publication.
 
 **CRediT authorship contribution statement:** Bin Yang: Conceptualization, Methodology, Investigation, Writing – original draft, Writing – review & editing. Youkui Lyu: Conceptualization, Methodology, Investigation, Writing – original draft, Writing – review & editing.
 
