@@ -1,0 +1,2516 @@
+{
+  "source": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/结果分析.xls",
+  "source_sha256": "b0e6c87353acd4b25919348f7888df5904b84830fdc7317aa6c237fda03c4357",
+  "date": "2026-10-12",
+  "authorization_provenance": {
+    "confirmed_by_human_user_via_parent": "qPCR每组6只独立大鼠，每只各测一次；靶基因与β-actin同列Ct属于同一只大鼠。WB每组3只。",
+    "biological_n_per_group": 6,
+    "qpcr_measurements_per_animal": 1,
+    "target_reference_matching": "same column within group",
+    "statistical_groups_independent": true
+  },
+  "methods": {
+    "reference_gene": "β-actin",
+    "animal_delta_ct": "target Ct - β-actin Ct from the same animal/column",
+    "assumed_amplification_efficiency": "100% for each target and reference (E=2); unverified assumption",
+    "animal_relative_quantity_Q": "2^(-animal ΔCt)",
+    "calibrator": "arithmetic mean Q in the six sham animals, calculated separately for each gene",
+    "animal_fold": "animal Q / arithmetic mean Q of sham group; sham-group arithmetic mean fold equals 1",
+    "descriptive_reporting": "animal fold arithmetic mean ± sample SD (ddof=1), n=6 biological animals per group",
+    "inferential_scale": "animal ΔCt",
+    "primary_tests": "independent-group, two-sided Welch t tests for model vs sham, reset vs sham, and reset vs model, separately for each of six genes",
+    "multiplicity": "single Holm step-down family across all 18 primary pairwise tests; alpha=0.05",
+    "confidence_intervals": "two-sided 95% Welch intervals for ΔCt mean differences, unadjusted for multiplicity; expression ratio intervals obtained by monotone transformation 2^(-ΔCt difference)",
+    "effect_size_definition": "2^(-difference of group mean ΔCt) is a geometric expression ratio; also report ratio of arithmetic mean Q/fold. These two summaries need not be identical.",
+    "diagnostics": "Shapiro-Wilk within each group/endpoint and median-centered Levene per endpoint, diagnostic only; not used to switch tests mechanically. n=6 gives limited normality-diagnostic power.",
+    "secondary_test": "gene-wise Welch ANOVA on ΔCt, presented as unadjusted secondary diagnostics; not pooled across genes."
+  },
+  "software": {
+    "python_runtime": "bundled Codex Python",
+    "numpy_version": "2.5.4",
+    "scipy_version": "1.18.1",
+    "verification": "Welch t, df, P and CI independently computed from sample means/variances and cross-checked against scipy.stats.ttest_ind; Welch ANOVA manual formula cross-checked against scipy.stats.f_oneway(equal_var=False)."
+  },
+  "reference_gene_diagnostics": {
+    "groups": [
+      {
+        "group": "伪手术组",
+        "source_range": "C2:H2",
+        "ct": [
+          16.4,
+          16.4,
+          16.12,
+          16.37,
+          16.39,
+          16.38
+        ],
+        "statistics": {
+          "n": 6,
+          "mean": 16.343333333333334,
+          "sample_sd": 0.1100302988574807,
+          "min": 16.12,
+          "max": 16.4
+        },
+        "shapiro_wilk": {
+          "W": 0.5922036623308579,
+          "p_diagnostic": 0.0003689613912888204
+        }
+      },
+      {
+        "group": "模型组",
+        "source_range": "C3:H3",
+        "ct": [
+          16.57,
+          16.22,
+          16.45,
+          16.44,
+          16.47,
+          16.57
+        ],
+        "statistics": {
+          "n": 6,
+          "mean": 16.453333333333333,
+          "sample_sd": 0.12816655830077825,
+          "min": 16.22,
+          "max": 16.57
+        },
+        "shapiro_wilk": {
+          "W": 0.8440620259335857,
+          "p_diagnostic": 0.14081565502635268
+        }
+      },
+      {
+        "group": "复位组",
+        "source_range": "C4:H4",
+        "ct": [
+          16.54,
+          16.47,
+          16.32,
+          16.48,
+          16.29,
+          16.29
+        ],
+        "statistics": {
+          "n": 6,
+          "mean": 16.39833333333333,
+          "sample_sd": 0.11089033621856624,
+          "min": 16.29,
+          "max": 16.54
+        },
+        "shapiro_wilk": {
+          "W": 0.8404324169044372,
+          "p_diagnostic": 0.1314440659788313
+        }
+      }
+    ],
+    "welch_anova": {
+      "method": "Welch one-way ANOVA on individual animal ΔCt",
+      "F": 1.2024747886885978,
+      "df1": 2.0,
+      "df2": 9.956087891153457,
+      "p_raw": 0.3405901799466027,
+      "multiplicity_adjusted": false,
+      "role": "secondary global diagnostic; primary inference uses 18 Holm-adjusted pairwise tests"
+    },
+    "levene_median": {
+      "statistic": 0.48140601120735066,
+      "p_diagnostic": 0.6271391992596724
+    },
+    "interpretation": "Diagnostic only. Stability cannot be established by non-significance or a single reference gene."
+  },
+  "genes": [
+    {
+      "gene": "AT1-R",
+      "calibrator_control_arithmetic_mean_Q": 4.481962532140513e-06,
+      "groups": [
+        {
+          "group": "伪手术组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C17",
+              "reference_ct_cell": "C2",
+              "target_ct": 33.73,
+              "reference_ct": 16.4,
+              "delta_ct": 17.33,
+              "Q": 6.069461698569638e-06,
+              "fold": 1.3541973309783473
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D17",
+              "reference_ct_cell": "D2",
+              "target_ct": 34.14,
+              "reference_ct": 16.4,
+              "delta_ct": 17.740000000000002,
+              "Q": 4.568018740153988e-06,
+              "fold": 1.0192005639039503
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E17",
+              "reference_ct_cell": "E2",
+              "target_ct": 34.63,
+              "reference_ct": 16.12,
+              "delta_ct": 18.51,
+              "Q": 2.6787660135993876e-06,
+              "fold": 0.597677020811696
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F17",
+              "reference_ct_cell": "F2",
+              "target_ct": 34.83,
+              "reference_ct": 16.37,
+              "delta_ct": 18.459999999999997,
+              "Q": 2.7732324930578485e-06,
+              "fold": 0.6187540554323637
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G17",
+              "reference_ct_cell": "G2",
+              "target_ct": 33.96,
+              "reference_ct": 16.39,
+              "delta_ct": 17.57,
+              "Q": 5.139288241827736e-06,
+              "fold": 1.1466602420197598
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H17",
+              "reference_ct_cell": "H2",
+              "target_ct": 33.81,
+              "reference_ct": 16.38,
+              "delta_ct": 17.430000000000003,
+              "Q": 5.663008005634483e-06,
+              "fold": 1.2635107868538833
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 34.18333333333333,
+            "sample_sd": 0.45040722315108006,
+            "min": 33.73,
+            "max": 34.83
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 17.84,
+            "sample_sd": 0.5185364018080114,
+            "min": 17.33,
+            "max": 18.51
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.0000000000000002,
+            "sample_sd": 0.3237232837274092,
+            "min": 0.597677020811696,
+            "max": 1.3541973309783473
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.840252070019963,
+            "p_diagnostic": 0.13099301540965763
+          }
+        },
+        {
+          "group": "模型组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C18",
+              "reference_ct_cell": "C3",
+              "target_ct": 33.12,
+              "reference_ct": 16.57,
+              "delta_ct": 16.549999999999997,
+              "Q": 1.042206006434935e-05,
+              "fold": 2.325334044988534
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D18",
+              "reference_ct_cell": "D3",
+              "target_ct": 32.16,
+              "reference_ct": 16.22,
+              "delta_ct": 15.939999999999998,
+              "Q": 1.5906765149553268e-05,
+              "fold": 3.5490625000732554
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E18",
+              "reference_ct_cell": "E3",
+              "target_ct": 32.56,
+              "reference_ct": 16.45,
+              "delta_ct": 16.110000000000003,
+              "Q": 1.4138611784215834e-05,
+              "fold": 3.1545582281928315
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F18",
+              "reference_ct_cell": "F3",
+              "target_ct": 32.39,
+              "reference_ct": 16.44,
+              "delta_ct": 15.95,
+              "Q": 1.5796889096700715e-05,
+              "fold": 3.524547334659751
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G18",
+              "reference_ct_cell": "G3",
+              "target_ct": 32.73,
+              "reference_ct": 16.47,
+              "delta_ct": 16.259999999999998,
+              "Q": 1.27424304111995e-05,
+              "fold": 2.8430470624916
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H18",
+              "reference_ct_cell": "H3",
+              "target_ct": 33.04,
+              "reference_ct": 16.57,
+              "delta_ct": 16.47,
+              "Q": 1.1016305507831553e-05,
+              "fold": 2.457920035884446
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 32.666666666666664,
+            "sample_sd": 0.3724334392433989,
+            "min": 32.16,
+            "max": 33.12
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 16.213333333333335,
+            "sample_sd": 0.25928105728468925,
+            "min": 15.939999999999998,
+            "max": 16.549999999999997
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 2.9757448677150697,
+            "sample_sd": 0.5235717669000234,
+            "min": 2.325334044988534,
+            "max": 3.5490625000732554
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.9045961305551612,
+            "p_diagnostic": 0.40180945707169435
+          }
+        },
+        {
+          "group": "复位组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C19",
+              "reference_ct_cell": "C4",
+              "target_ct": 33.13,
+              "reference_ct": 16.54,
+              "delta_ct": 16.590000000000003,
+              "Q": 1.0137068283817356e-05,
+              "fold": 2.26174766324431
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D19",
+              "reference_ct_cell": "D4",
+              "target_ct": 33.25,
+              "reference_ct": 16.47,
+              "delta_ct": 16.78,
+              "Q": 8.886212054965629e-06,
+              "fold": 1.9826609417731382
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E19",
+              "reference_ct_cell": "E4",
+              "target_ct": 33.6,
+              "reference_ct": 16.32,
+              "delta_ct": 17.28,
+              "Q": 6.2835008031278415e-06,
+              "fold": 1.4019529967214925
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F19",
+              "reference_ct_cell": "F4",
+              "target_ct": 33.35,
+              "reference_ct": 16.48,
+              "delta_ct": 16.87,
+              "Q": 8.348798379980002e-06,
+              "fold": 1.8627550587739408
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G19",
+              "reference_ct_cell": "G4",
+              "target_ct": 33.51,
+              "reference_ct": 16.29,
+              "delta_ct": 17.22,
+              "Q": 6.550334445478473e-06,
+              "fold": 1.4614879973907633
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H19",
+              "reference_ct_cell": "H4",
+              "target_ct": 33.49,
+              "reference_ct": 16.29,
+              "delta_ct": 17.200000000000003,
+              "Q": 6.641773706788044e-06,
+              "fold": 1.4818896095537057
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 33.38833333333333,
+            "sample_sd": 0.17736027364284956,
+            "min": 33.13,
+            "max": 33.6
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 16.990000000000002,
+            "sample_sd": 0.28270125574535315,
+            "min": 16.590000000000003,
+            "max": 17.28
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.7420823779095584,
+            "sample_sd": 0.34773939354364025,
+            "min": 1.4019529967214925,
+            "max": 2.26174766324431
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8897851202980329,
+            "p_diagnostic": 0.3170634494262852
+          }
+        }
+      ],
+      "welch_anova_delta_ct": {
+        "method": "Welch one-way ANOVA on individual animal ΔCt",
+        "F": 26.338141735688378,
+        "df1": 2.0,
+        "df2": 9.49149948683046,
+        "p_raw": 0.00013377472638073732,
+        "multiplicity_adjusted": false,
+        "role": "secondary global diagnostic; primary inference uses 18 Holm-adjusted pairwise tests"
+      },
+      "levene_median_delta_ct": {
+        "statistic": 1.1921557884163327,
+        "p_diagnostic": 0.3307525597950129
+      }
+    },
+    {
+      "gene": "NOX1",
+      "calibrator_control_arithmetic_mean_Q": 6.130568614697139e-05,
+      "groups": [
+        {
+          "group": "伪手术组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C7",
+              "reference_ct_cell": "C2",
+              "target_ct": 30.22,
+              "reference_ct": 16.4,
+              "delta_ct": 13.82,
+              "Q": 6.914574495213613e-05,
+              "fold": 1.127884692235062
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D7",
+              "reference_ct_cell": "D2",
+              "target_ct": 30.28,
+              "reference_ct": 16.4,
+              "delta_ct": 13.880000000000003,
+              "Q": 6.632903213660011e-05,
+              "fold": 1.081939315997312
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E7",
+              "reference_ct_cell": "E2",
+              "target_ct": 30.39,
+              "reference_ct": 16.12,
+              "delta_ct": 14.27,
+              "Q": 5.0617648059963495e-05,
+              "fold": 0.8256599222886946
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F7",
+              "reference_ct_cell": "F2",
+              "target_ct": 30.24,
+              "reference_ct": 16.37,
+              "delta_ct": 13.869999999999997,
+              "Q": 6.679038703984018e-05,
+              "fold": 1.0894647990680673
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G7",
+              "reference_ct_cell": "G2",
+              "target_ct": 30.33,
+              "reference_ct": 16.39,
+              "delta_ct": 13.939999999999998,
+              "Q": 6.362706059821307e-05,
+              "fold": 1.0378655651235438
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H7",
+              "reference_ct_cell": "H2",
+              "target_ct": 30.63,
+              "reference_ct": 16.38,
+              "delta_ct": 14.25,
+              "Q": 5.132424409507535e-05,
+              "fold": 0.8371857052873204
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 30.34833333333333,
+            "sample_sd": 0.1511842143435176,
+            "min": 30.22,
+            "max": 30.63
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 14.005,
+            "sample_sd": 0.2012709616412661,
+            "min": 13.82,
+            "max": 14.27
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.0,
+            "sample_sd": 0.13372303808076616,
+            "min": 0.8256599222886946,
+            "max": 1.127884692235062
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.7950829644878299,
+            "p_diagnostic": 0.05305769218201117
+          }
+        },
+        {
+          "group": "模型组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C8",
+              "reference_ct_cell": "C3",
+              "target_ct": 30.09,
+              "reference_ct": 16.57,
+              "delta_ct": 13.52,
+              "Q": 8.512839760439489e-05,
+              "fold": 1.3885889377424476
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D8",
+              "reference_ct_cell": "D3",
+              "target_ct": 29.82,
+              "reference_ct": 16.22,
+              "delta_ct": 13.600000000000001,
+              "Q": 8.053637150713457e-05,
+              "fold": 1.3136851827098133
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E8",
+              "reference_ct_cell": "E3",
+              "target_ct": 30.01,
+              "reference_ct": 16.45,
+              "delta_ct": 13.560000000000002,
+              "Q": 8.280055709519469e-05,
+              "fold": 1.3506179002171592
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F8",
+              "reference_ct_cell": "F3",
+              "target_ct": 29.89,
+              "reference_ct": 16.44,
+              "delta_ct": 13.45,
+              "Q": 8.936069921543128e-05,
+              "fold": 1.4576249746426801
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G8",
+              "reference_ct_cell": "G3",
+              "target_ct": 29.88,
+              "reference_ct": 16.47,
+              "delta_ct": 13.41,
+              "Q": 9.187297042303876e-05,
+              "fold": 1.498604390509337
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H8",
+              "reference_ct_cell": "H3",
+              "target_ct": 29.76,
+              "reference_ct": 16.57,
+              "delta_ct": 13.190000000000001,
+              "Q": 0.00010700753434033622,
+              "fold": 1.745474866455313
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 29.90833333333333,
+            "sample_sd": 0.1218879266648942,
+            "min": 29.76,
+            "max": 30.09
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 13.455,
+            "sample_sd": 0.14734313692873527,
+            "min": 13.190000000000001,
+            "max": 13.600000000000001
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.4590993753794583,
+            "sample_sd": 0.15585825718632776,
+            "min": 1.3136851827098133,
+            "max": 1.745474866455313
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8962075110351206,
+            "p_diagnostic": 0.351998365451424
+          }
+        },
+        {
+          "group": "复位组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C9",
+              "reference_ct_cell": "C4",
+              "target_ct": 30.21,
+              "reference_ct": 16.54,
+              "delta_ct": 13.670000000000002,
+              "Q": 7.672200772227947e-05,
+              "fold": 1.2514664225166603
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D9",
+              "reference_ct_cell": "D4",
+              "target_ct": 30.15,
+              "reference_ct": 16.47,
+              "delta_ct": 13.68,
+              "Q": 7.619205010385816e-05,
+              "fold": 1.2428219124927318
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E9",
+              "reference_ct_cell": "E4",
+              "target_ct": 30.12,
+              "reference_ct": 16.32,
+              "delta_ct": 13.8,
+              "Q": 7.011098358136196e-05,
+              "fold": 1.1436293758018004
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F9",
+              "reference_ct_cell": "F4",
+              "target_ct": 30.12,
+              "reference_ct": 16.48,
+              "delta_ct": 13.64,
+              "Q": 7.833410019304832e-05,
+              "fold": 1.2777623923049128
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G9",
+              "reference_ct_cell": "G4",
+              "target_ct": 30.14,
+              "reference_ct": 16.29,
+              "delta_ct": 13.850000000000001,
+              "Q": 6.772274609789087e-05,
+              "fold": 1.104673160912603
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H9",
+              "reference_ct_cell": "H4",
+              "target_ct": 30.2,
+              "reference_ct": 16.29,
+              "delta_ct": 13.91,
+              "Q": 6.496400039388182e-05,
+              "fold": 1.059673326845085
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 30.156666666666666,
+            "sample_sd": 0.03932768321000671,
+            "min": 30.12,
+            "max": 30.21
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 13.758333333333335,
+            "sample_sd": 0.11052903087726167,
+            "min": 13.64,
+            "max": 13.91
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.1800044318122989,
+            "sample_sd": 0.08953992487365975,
+            "min": 1.059673326845085,
+            "max": 1.2777623923049128
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.9019455784635801,
+            "p_diagnostic": 0.3855578493785595
+          }
+        }
+      ],
+      "welch_anova_delta_ct": {
+        "method": "Welch one-way ANOVA on individual animal ΔCt",
+        "F": 14.948666106578536,
+        "df1": 2.0,
+        "df2": 9.489940779889832,
+        "p_raw": 0.0011672659372964265,
+        "multiplicity_adjusted": false,
+        "role": "secondary global diagnostic; primary inference uses 18 Holm-adjusted pairwise tests"
+      },
+      "levene_median_delta_ct": {
+        "statistic": 0.3986772000734794,
+        "p_diagnostic": 0.6781124738850508
+      }
+    },
+    {
+      "gene": "NOX4",
+      "calibrator_control_arithmetic_mean_Q": 2.4593769811614237e-06,
+      "groups": [
+        {
+          "group": "伪手术组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C12",
+              "reference_ct_cell": "C2",
+              "target_ct": 35.31,
+              "reference_ct": 16.4,
+              "delta_ct": 18.910000000000004,
+              "Q": 2.030125012308802e-06,
+              "fold": 0.8254631265801673
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D12",
+              "reference_ct_cell": "D2",
+              "target_ct": 35.26,
+              "reference_ct": 16.4,
+              "delta_ct": 18.86,
+              "Q": 2.1017172162563536e-06,
+              "fold": 0.8545730208728848
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E12",
+              "reference_ct_cell": "E2",
+              "target_ct": 35.15,
+              "reference_ct": 16.12,
+              "delta_ct": 19.029999999999998,
+              "Q": 1.86809596555124e-06,
+              "fold": 0.7595809751252712
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F12",
+              "reference_ct_cell": "F2",
+              "target_ct": 34.69,
+              "reference_ct": 16.37,
+              "delta_ct": 18.319999999999997,
+              "Q": 3.0558390716156917e-06,
+              "fold": 1.2425256863925729
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G12",
+              "reference_ct_cell": "G2",
+              "target_ct": 34.62,
+              "reference_ct": 16.39,
+              "delta_ct": 18.229999999999997,
+              "Q": 3.2525439902036995e-06,
+              "fold": 1.3225072915286489
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H12",
+              "reference_ct_cell": "H2",
+              "target_ct": 35.02,
+              "reference_ct": 16.38,
+              "delta_ct": 18.640000000000004,
+              "Q": 2.447940631032754e-06,
+              "fold": 0.9953498995004544
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 35.00833333333333,
+            "sample_sd": 0.29212440272368095,
+            "min": 34.62,
+            "max": 35.31
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 18.665,
+            "sample_sd": 0.3286791748803093,
+            "min": 18.229999999999997,
+            "max": 19.029999999999998
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.0,
+            "sample_sd": 0.2333515455474482,
+            "min": 0.7595809751252712,
+            "max": 1.3225072915286489
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.9056343514405159,
+            "p_diagnostic": 0.40830375114360795
+          }
+        },
+        {
+          "group": "模型组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C13",
+              "reference_ct_cell": "C3",
+              "target_ct": 33.44,
+              "reference_ct": 16.57,
+              "delta_ct": 16.869999999999997,
+              "Q": 8.348798379980022e-06,
+              "fold": 3.394680215327282
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D13",
+              "reference_ct_cell": "D3",
+              "target_ct": 33.76,
+              "reference_ct": 16.22,
+              "delta_ct": 17.54,
+              "Q": 5.2472756124105244e-06,
+              "fold": 2.133579216445514
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E13",
+              "reference_ct_cell": "E3",
+              "target_ct": 33.28,
+              "reference_ct": 16.45,
+              "delta_ct": 16.830000000000002,
+              "Q": 8.583515050421203e-06,
+              "fold": 3.4901176664537608
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F13",
+              "reference_ct_cell": "F3",
+              "target_ct": 33.46,
+              "reference_ct": 16.44,
+              "delta_ct": 17.02,
+              "Q": 7.524358402201534e-06,
+              "fold": 3.059457114479541
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G13",
+              "reference_ct_cell": "G3",
+              "target_ct": 33.51,
+              "reference_ct": 16.47,
+              "delta_ct": 17.04,
+              "Q": 7.420768336580552e-06,
+              "fold": 3.0173366642946076
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H13",
+              "reference_ct_cell": "H3",
+              "target_ct": 33.99,
+              "reference_ct": 16.57,
+              "delta_ct": 17.42,
+              "Q": 5.702397341289279e-06,
+              "fold": 2.3186349164723667
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 33.57333333333333,
+            "sample_sd": 0.25656708024738256,
+            "min": 33.28,
+            "max": 33.99
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 17.119999999999997,
+            "sample_sd": 0.29305289624912456,
+            "min": 16.830000000000002,
+            "max": 17.54
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 2.902300965578845,
+            "sample_sd": 0.5581211787769389,
+            "min": 2.133579216445514,
+            "max": 3.4901176664537608
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8741505067787134,
+            "p_diagnostic": 0.24325632531266783
+          }
+        },
+        {
+          "group": "复位组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C14",
+              "reference_ct_cell": "C4",
+              "target_ct": 34.47,
+              "reference_ct": 16.54,
+              "delta_ct": 17.93,
+              "Q": 4.004351362697859e-06,
+              "fold": 1.6281974635734096
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D14",
+              "reference_ct_cell": "D4",
+              "target_ct": 34.14,
+              "reference_ct": 16.47,
+              "delta_ct": 17.67,
+              "Q": 4.795125482642467e-06,
+              "fold": 1.9497317895437087
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E14",
+              "reference_ct_cell": "E4",
+              "target_ct": 34.03,
+              "reference_ct": 16.32,
+              "delta_ct": 17.71,
+              "Q": 4.6640025241549215e-06,
+              "fold": 1.8964162712266985
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F14",
+              "reference_ct_cell": "F4",
+              "target_ct": 34.51,
+              "reference_ct": 16.48,
+              "delta_ct": 18.029999999999998,
+              "Q": 3.73619193110248e-06,
+              "fold": 1.5191619502505425
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G14",
+              "reference_ct_cell": "G4",
+              "target_ct": 34.4,
+              "reference_ct": 16.29,
+              "delta_ct": 18.11,
+              "Q": 3.5346529460539674e-06,
+              "fold": 1.437214779649093
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H14",
+              "reference_ct_cell": "H4",
+              "target_ct": 34.4,
+              "reference_ct": 16.29,
+              "delta_ct": 18.11,
+              "Q": 3.5346529460539674e-06,
+              "fold": 1.437214779649093
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 34.325,
+            "sample_sd": 0.1937782237507598,
+            "min": 34.03,
+            "max": 34.51
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 17.926666666666666,
+            "sample_sd": 0.1953117166650947,
+            "min": 17.67,
+            "max": 18.11
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.6446561723154243,
+            "sample_sd": 0.22739297758675475,
+            "min": 1.437214779649093,
+            "max": 1.9497317895437087
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8558032502140747,
+            "p_diagnostic": 0.17522634371528562
+          }
+        }
+      ],
+      "welch_anova_delta_ct": {
+        "method": "Welch one-way ANOVA on individual animal ΔCt",
+        "F": 34.98733506917509,
+        "df1": 2.0,
+        "df2": 9.46130257664268,
+        "p_raw": 4.2517197655669175e-05,
+        "multiplicity_adjusted": false,
+        "role": "secondary global diagnostic; primary inference uses 18 Holm-adjusted pairwise tests"
+      },
+      "levene_median_delta_ct": {
+        "statistic": 0.672942399168583,
+        "p_diagnostic": 0.5249539276908619
+      }
+    },
+    {
+      "gene": "RhoA",
+      "calibrator_control_arithmetic_mean_Q": 0.013055349169203334,
+      "groups": [
+        {
+          "group": "伪手术组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C22",
+              "reference_ct_cell": "C2",
+              "target_ct": 22.8,
+              "reference_ct": 16.4,
+              "delta_ct": 6.400000000000002,
+              "Q": 0.011841535675862467,
+              "fold": 0.9070255818048766
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D22",
+              "reference_ct_cell": "D2",
+              "target_ct": 22.48,
+              "reference_ct": 16.4,
+              "delta_ct": 6.080000000000002,
+              "Q": 0.014782150730087417,
+              "fold": 1.1322677424022858
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E22",
+              "reference_ct_cell": "E2",
+              "target_ct": 22.57,
+              "reference_ct": 16.12,
+              "delta_ct": 6.449999999999999,
+              "Q": 0.011438169499575204,
+              "fold": 0.8761289607295264
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F22",
+              "reference_ct_cell": "F2",
+              "target_ct": 22.57,
+              "reference_ct": 16.37,
+              "delta_ct": 6.199999999999999,
+              "Q": 0.013602352551501946,
+              "fold": 1.0418987937594926
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G22",
+              "reference_ct_cell": "G2",
+              "target_ct": 22.68,
+              "reference_ct": 16.39,
+              "delta_ct": 6.289999999999999,
+              "Q": 0.012779719664965338,
+              "fold": 0.9788876191156811
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H22",
+              "reference_ct_cell": "H2",
+              "target_ct": 22.55,
+              "reference_ct": 16.38,
+              "delta_ct": 6.170000000000002,
+              "Q": 0.013888166893227643,
+              "fold": 1.0637913021881382
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 22.608333333333334,
+            "sample_sd": 0.11373946837693003,
+            "min": 22.48,
+            "max": 22.8
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 6.265000000000001,
+            "sample_sd": 0.14180973168298383,
+            "min": 6.080000000000002,
+            "max": 6.449999999999999
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.0,
+            "sample_sd": 0.09772778956758385,
+            "min": 0.8761289607295264,
+            "max": 1.1322677424022858
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.9582481651940531,
+            "p_diagnostic": 0.8061425096023425
+          }
+        },
+        {
+          "group": "模型组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C23",
+              "reference_ct_cell": "C3",
+              "target_ct": 22.14,
+              "reference_ct": 16.57,
+              "delta_ct": 5.57,
+              "Q": 0.021050524638526406,
+              "fold": 1.6124061000362317
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D23",
+              "reference_ct_cell": "D3",
+              "target_ct": 22.15,
+              "reference_ct": 16.22,
+              "delta_ct": 5.93,
+              "Q": 0.01640182318161043,
+              "fold": 1.256329721176757
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E23",
+              "reference_ct_cell": "E3",
+              "target_ct": 22.12,
+              "reference_ct": 16.45,
+              "delta_ct": 5.670000000000002,
+              "Q": 0.019640833976903544,
+              "fold": 1.5044280870890006
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F23",
+              "reference_ct_cell": "F3",
+              "target_ct": 22.12,
+              "reference_ct": 16.44,
+              "delta_ct": 5.68,
+              "Q": 0.01950516482658769,
+              "fold": 1.4940362432127838
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G23",
+              "reference_ct_cell": "G3",
+              "target_ct": 22.19,
+              "reference_ct": 16.47,
+              "delta_ct": 5.720000000000002,
+              "Q": 0.018971795068672574,
+              "fold": 1.4531817435741763
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H23",
+              "reference_ct_cell": "H3",
+              "target_ct": 22.19,
+              "reference_ct": 16.57,
+              "delta_ct": 5.620000000000001,
+              "Q": 0.0203334664912802,
+              "fold": 1.5574816290050242
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 22.151666666666667,
+            "sample_sd": 0.03188521078284851,
+            "min": 22.12,
+            "max": 22.19
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 5.698333333333334,
+            "sample_sd": 0.12480651692386337,
+            "min": 5.57,
+            "max": 5.93
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.4796439206823289,
+            "sample_sd": 0.12253601713303619,
+            "min": 1.256329721176757,
+            "max": 1.6124061000362317
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8707942087689177,
+            "p_diagnostic": 0.22938915611978733
+          }
+        },
+        {
+          "group": "复位组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C24",
+              "reference_ct_cell": "C4",
+              "target_ct": 22.45,
+              "reference_ct": 16.54,
+              "delta_ct": 5.91,
+              "Q": 0.016630784100833747,
+              "fold": 1.2738674305291364
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D24",
+              "reference_ct_cell": "D4",
+              "target_ct": 22.46,
+              "reference_ct": 16.47,
+              "delta_ct": 5.990000000000002,
+              "Q": 0.01573368046963621,
+              "fold": 1.2051520235667745
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E24",
+              "reference_ct_cell": "E4",
+              "target_ct": 22.25,
+              "reference_ct": 16.32,
+              "delta_ct": 5.93,
+              "Q": 0.01640182318161043,
+              "fold": 1.256329721176757
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F24",
+              "reference_ct_cell": "F4",
+              "target_ct": 22.38,
+              "reference_ct": 16.48,
+              "delta_ct": 5.899999999999999,
+              "Q": 0.016746460352129598,
+              "fold": 1.282727879207807
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G24",
+              "reference_ct_cell": "G4",
+              "target_ct": 22.28,
+              "reference_ct": 16.29,
+              "delta_ct": 5.990000000000002,
+              "Q": 0.01573368046963621,
+              "fold": 1.2051520235667745
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H24",
+              "reference_ct_cell": "H4",
+              "target_ct": 22.29,
+              "reference_ct": 16.29,
+              "delta_ct": 6.0,
+              "Q": 0.015625,
+              "fold": 1.1968274304649233
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 22.351666666666663,
+            "sample_sd": 0.09108603991099104,
+            "min": 22.25,
+            "max": 22.46
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 5.953333333333333,
+            "sample_sd": 0.04501851470969201,
+            "min": 5.899999999999999,
+            "max": 6.0
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.2366760847520288,
+            "sample_sd": 0.03864111156201794,
+            "min": 1.1968274304649233,
+            "max": 1.282727879207807
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8361580333947655,
+            "p_diagnostic": 0.12111308219779027
+          }
+        }
+      ],
+      "welch_anova_delta_ct": {
+        "method": "Welch one-way ANOVA on individual animal ΔCt",
+        "F": 24.919839861513207,
+        "df1": 2.0,
+        "df2": 7.946415386755246,
+        "p_raw": 0.00037711804019371193,
+        "multiplicity_adjusted": false,
+        "role": "secondary global diagnostic; primary inference uses 18 Holm-adjusted pairwise tests"
+      },
+      "levene_median_delta_ct": {
+        "statistic": 1.8416585838990596,
+        "p_diagnostic": 0.19265467164402553
+      }
+    },
+    {
+      "gene": "ROCK1",
+      "calibrator_control_arithmetic_mean_Q": 0.004198546651522116,
+      "groups": [
+        {
+          "group": "伪手术组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C27",
+              "reference_ct_cell": "C2",
+              "target_ct": 24.36,
+              "reference_ct": 16.4,
+              "delta_ct": 7.960000000000001,
+              "Q": 0.004016069635375257,
+              "fold": 0.9565380520231437
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D27",
+              "reference_ct_cell": "D2",
+              "target_ct": 24.37,
+              "reference_ct": 16.4,
+              "delta_ct": 7.970000000000002,
+              "Q": 0.003988328616043717,
+              "fold": 0.9499307610641441
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E27",
+              "reference_ct_cell": "E2",
+              "target_ct": 24.13,
+              "reference_ct": 16.12,
+              "delta_ct": 8.009999999999998,
+              "Q": 0.003879267560300927,
+              "fold": 0.9239548544481602
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F27",
+              "reference_ct_cell": "F2",
+              "target_ct": 24.21,
+              "reference_ct": 16.37,
+              "delta_ct": 7.84,
+              "Q": 0.0043644028830946095,
+              "fold": 1.0395032484663151
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G27",
+              "reference_ct_cell": "G2",
+              "target_ct": 24.19,
+              "reference_ct": 16.39,
+              "delta_ct": 7.800000000000001,
+              "Q": 0.004487102949207166,
+              "fold": 1.0687276626021145
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H27",
+              "reference_ct_cell": "H2",
+              "target_ct": 24.19,
+              "reference_ct": 16.38,
+              "delta_ct": 7.810000000000002,
+              "Q": 0.004456108265111023,
+              "fold": 1.0613454213961233
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 24.241666666666664,
+            "sample_sd": 0.09928074670683472,
+            "min": 24.13,
+            "max": 24.37
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 7.898333333333333,
+            "sample_sd": 0.09196013629103952,
+            "min": 7.800000000000001,
+            "max": 8.009999999999998
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.0000000000000002,
+            "sample_sd": 0.06360187535594962,
+            "min": 0.9239548544481602,
+            "max": 1.0687276626021145
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8585182840381067,
+            "p_diagnostic": 0.18414039607407157
+          }
+        },
+        {
+          "group": "模型组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C28",
+              "reference_ct_cell": "C3",
+              "target_ct": 22.42,
+              "reference_ct": 16.57,
+              "delta_ct": 5.850000000000001,
+              "Q": 0.017337023001060062,
+              "fold": 4.129291500137268
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D28",
+              "reference_ct_cell": "D3",
+              "target_ct": 22.73,
+              "reference_ct": 16.22,
+              "delta_ct": 6.510000000000002,
+              "Q": 0.010972225591703091,
+              "fold": 2.613338972362088
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E28",
+              "reference_ct_cell": "E3",
+              "target_ct": 22.13,
+              "reference_ct": 16.45,
+              "delta_ct": 5.68,
+              "Q": 0.01950516482658769,
+              "fold": 4.6456944379828204
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F28",
+              "reference_ct_cell": "F3",
+              "target_ct": 22.46,
+              "reference_ct": 16.44,
+              "delta_ct": 6.02,
+              "Q": 0.015409886007708741,
+              "fold": 3.6702905283003426
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G28",
+              "reference_ct_cell": "G3",
+              "target_ct": 22.58,
+              "reference_ct": 16.47,
+              "delta_ct": 6.109999999999999,
+              "Q": 0.01447793846703705,
+              "fold": 3.4483214475628863
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H28",
+              "reference_ct_cell": "H3",
+              "target_ct": 22.48,
+              "reference_ct": 16.57,
+              "delta_ct": 5.91,
+              "Q": 0.016630784100833747,
+              "fold": 3.96108117431648
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 22.46666666666667,
+            "sample_sd": 0.19896398334036924,
+            "min": 22.13,
+            "max": 22.73
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 6.013333333333333,
+            "sample_sd": 0.2844409722010296,
+            "min": 5.68,
+            "max": 6.510000000000002
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 3.7446696767769807,
+            "sample_sd": 0.6899097327935962,
+            "min": 2.613338972362088,
+            "max": 4.6456944379828204
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.9391032982329522,
+            "p_diagnostic": 0.6519821144128459
+          }
+        },
+        {
+          "group": "复位组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C29",
+              "reference_ct_cell": "C4",
+              "target_ct": 23.57,
+              "reference_ct": 16.54,
+              "delta_ct": 7.030000000000001,
+              "Q": 0.00765172107489786,
+              "fold": 1.82246898986435
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D29",
+              "reference_ct_cell": "D4",
+              "target_ct": 23.47,
+              "reference_ct": 16.47,
+              "delta_ct": 7.0,
+              "Q": 0.0078125,
+              "fold": 1.8607629373768428
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E29",
+              "reference_ct_cell": "E4",
+              "target_ct": 23.34,
+              "reference_ct": 16.32,
+              "delta_ct": 7.02,
+              "Q": 0.0077049430038543705,
+              "fold": 1.8351452641501713
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F29",
+              "reference_ct_cell": "F4",
+              "target_ct": 23.54,
+              "reference_ct": 16.48,
+              "delta_ct": 7.059999999999999,
+              "Q": 0.007494250932228635,
+              "fold": 1.784963120395891
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G29",
+              "reference_ct_cell": "G4",
+              "target_ct": 23.26,
+              "reference_ct": 16.29,
+              "delta_ct": 6.970000000000002,
+              "Q": 0.007976657232087434,
+              "fold": 1.8998615221282882
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H29",
+              "reference_ct_cell": "H4",
+              "target_ct": 23.13,
+              "reference_ct": 16.29,
+              "delta_ct": 6.84,
+              "Q": 0.008728805766189219,
+              "fold": 2.0790064969326303
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 23.385,
+            "sample_sd": 0.17213366899011928,
+            "min": 23.13,
+            "max": 23.57
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 6.986666666666667,
+            "sample_sd": 0.07788880963698595,
+            "min": 6.84,
+            "max": 7.059999999999999
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.8803680551413622,
+            "sample_sd": 0.10461461715627156,
+            "min": 1.784963120395891,
+            "max": 2.0790064969326303
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.844604633462909,
+            "p_diagnostic": 0.14226567253282807
+          }
+        }
+      ],
+      "welch_anova_delta_ct": {
+        "method": "Welch one-way ANOVA on individual animal ΔCt",
+        "F": 220.58424594676512,
+        "df1": 2.0,
+        "df2": 9.050460524062153,
+        "p_raw": 2.0979809902784102e-08,
+        "multiplicity_adjusted": false,
+        "role": "secondary global diagnostic; primary inference uses 18 Holm-adjusted pairwise tests"
+      },
+      "levene_median_delta_ct": {
+        "statistic": 2.8209092428547464,
+        "p_diagnostic": 0.09121678943306018
+      }
+    },
+    {
+      "gene": "ROCK2",
+      "calibrator_control_arithmetic_mean_Q": 0.00010867409460037962,
+      "groups": [
+        {
+          "group": "伪手术组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C32",
+              "reference_ct_cell": "C2",
+              "target_ct": 29.9,
+              "reference_ct": 16.4,
+              "delta_ct": 13.5,
+              "Q": 8.631674575031098e-05,
+              "fold": 0.7942715885300733
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D32",
+              "reference_ct_cell": "D2",
+              "target_ct": 29.39,
+              "reference_ct": 16.4,
+              "delta_ct": 12.990000000000002,
+              "Q": 0.00012291937866903288,
+              "fold": 1.131082611003446
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E32",
+              "reference_ct_cell": "E2",
+              "target_ct": 29.32,
+              "reference_ct": 16.12,
+              "delta_ct": 13.2,
+              "Q": 0.00010626837930860896,
+              "fold": 0.9778630288973922
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F32",
+              "reference_ct_cell": "F2",
+              "target_ct": 29.35,
+              "reference_ct": 16.37,
+              "delta_ct": 12.98,
+              "Q": 0.00012377435056030626,
+              "fold": 1.138949912722566
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G32",
+              "reference_ct_cell": "G2",
+              "target_ct": 29.36,
+              "reference_ct": 16.39,
+              "delta_ct": 12.969999999999999,
+              "Q": 0.00012463526925136646,
+              "fold": 1.1468719358526045
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H32",
+              "reference_ct_cell": "H2",
+              "target_ct": 29.85,
+              "reference_ct": 16.38,
+              "delta_ct": 13.470000000000002,
+              "Q": 8.813044406265221e-05,
+              "fold": 0.8109609229939179
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 29.528333333333332,
+            "sample_sd": 0.2699197411577496,
+            "min": 29.32,
+            "max": 29.9
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 13.185,
+            "sample_sd": 0.24777005468780963,
+            "min": 12.969999999999999,
+            "max": 13.5
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 1.0,
+            "sample_sd": 0.16529433874457383,
+            "min": 0.7942715885300733,
+            "max": 1.1468719358526045
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.804257262886519,
+            "p_diagnostic": 0.06417063772874676
+          }
+        },
+        {
+          "group": "模型组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C33",
+              "reference_ct_cell": "C3",
+              "target_ct": 28.14,
+              "reference_ct": 16.57,
+              "delta_ct": 11.57,
+              "Q": 0.0003289144474769751,
+              "fold": 3.0266131840018673
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D33",
+              "reference_ct_cell": "D3",
+              "target_ct": 28.08,
+              "reference_ct": 16.22,
+              "delta_ct": 11.86,
+              "Q": 0.00026901980368081326,
+              "fold": 2.475473153653249
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E33",
+              "reference_ct_cell": "E3",
+              "target_ct": 28.11,
+              "reference_ct": 16.45,
+              "delta_ct": 11.66,
+              "Q": 0.0003090226059497753,
+              "fold": 2.843571939440808
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F33",
+              "reference_ct_cell": "F3",
+              "target_ct": 27.93,
+              "reference_ct": 16.44,
+              "delta_ct": 11.489999999999998,
+              "Q": 0.0003476685047844417,
+              "fold": 3.1991847372908984
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G33",
+              "reference_ct_cell": "G3",
+              "target_ct": 28.3,
+              "reference_ct": 16.47,
+              "delta_ct": 11.830000000000002,
+              "Q": 0.0002746724816134785,
+              "fold": 2.527488106742589
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H33",
+              "reference_ct_cell": "H3",
+              "target_ct": 28.16,
+              "reference_ct": 16.57,
+              "delta_ct": 11.59,
+              "Q": 0.00032438618508215617,
+              "fold": 2.984944905913419
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 28.12,
+            "sample_sd": 0.12016655108639887,
+            "min": 27.93,
+            "max": 28.3
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 11.666666666666666,
+            "sample_sd": 0.14868310820892483,
+            "min": 11.489999999999998,
+            "max": 11.86
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 2.842879337840472,
+            "sample_sd": 0.28821995144823237,
+            "min": 2.475473153653249,
+            "max": 3.1991847372908984
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.9094856958526039,
+            "p_diagnostic": 0.4330214737302801
+          }
+        },
+        {
+          "group": "复位组",
+          "n_biological_animals": 6,
+          "samples": [
+            {
+              "source_column": "C",
+              "sample_index_within_group": 1,
+              "target_ct_cell": "C34",
+              "reference_ct_cell": "C4",
+              "target_ct": 28.51,
+              "reference_ct": 16.54,
+              "delta_ct": 11.970000000000002,
+              "Q": 0.0002492705385027323,
+              "fold": 2.2937438717052037
+            },
+            {
+              "source_column": "D",
+              "sample_index_within_group": 2,
+              "target_ct_cell": "D34",
+              "reference_ct_cell": "D4",
+              "target_ct": 28.22,
+              "reference_ct": 16.47,
+              "delta_ct": 11.75,
+              "Q": 0.0002903337683112112,
+              "fold": 2.6716005261312477
+            },
+            {
+              "source_column": "E",
+              "sample_index_within_group": 3,
+              "target_ct_cell": "E34",
+              "reference_ct_cell": "E4",
+              "target_ct": 28.49,
+              "reference_ct": 16.32,
+              "delta_ct": 12.169999999999998,
+              "Q": 0.00021700260770668244,
+              "fold": 1.9968200195700034
+            },
+            {
+              "source_column": "F",
+              "sample_index_within_group": 4,
+              "target_ct_cell": "F34",
+              "reference_ct_cell": "F4",
+              "target_ct": 28.31,
+              "reference_ct": 16.48,
+              "delta_ct": 11.829999999999998,
+              "Q": 0.0002746724816134792,
+              "fold": 2.527488106742595
+            },
+            {
+              "source_column": "G",
+              "sample_index_within_group": 5,
+              "target_ct_cell": "G34",
+              "reference_ct_cell": "G4",
+              "target_ct": 28.32,
+              "reference_ct": 16.29,
+              "delta_ct": 12.030000000000001,
+              "Q": 0.00023911628359055812,
+              "fold": 2.2003061950490164
+            },
+            {
+              "source_column": "H",
+              "sample_index_within_group": 6,
+              "target_ct_cell": "H34",
+              "reference_ct_cell": "H4",
+              "target_ct": 29.09,
+              "reference_ct": 16.29,
+              "delta_ct": 12.8,
+              "Q": 0.00014022196716272393,
+              "fold": 1.290298002282451
+            }
+          ],
+          "target_ct_statistics": {
+            "n": 6,
+            "mean": 28.49,
+            "sample_sd": 0.314515500412937,
+            "min": 28.22,
+            "max": 29.09
+          },
+          "delta_ct_statistics": {
+            "n": 6,
+            "mean": 12.091666666666667,
+            "sample_sd": 0.3772753194507518,
+            "min": 11.75,
+            "max": 12.8
+          },
+          "fold_statistics": {
+            "n": 6,
+            "mean": 2.163376120246753,
+            "sample_sd": 0.48974187103668404,
+            "min": 1.290298002282451,
+            "max": 2.6716005261312477
+          },
+          "shapiro_wilk_delta_ct": {
+            "W": 0.8458177152126398,
+            "p_diagnostic": 0.14555457642296538
+          }
+        }
+      ],
+      "welch_anova_delta_ct": {
+        "method": "Welch one-way ANOVA on individual animal ΔCt",
+        "F": 77.05157745309566,
+        "df1": 2.0,
+        "df2": 8.874578205201093,
+        "p_raw": 2.462367503126241e-06,
+        "multiplicity_adjusted": false,
+        "role": "secondary global diagnostic; primary inference uses 18 Holm-adjusted pairwise tests"
+      },
+      "levene_median_delta_ct": {
+        "statistic": 0.6702844086344714,
+        "p_diagnostic": 0.5262361340317872
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "gene": "AT1-R",
+      "numerator_group": "模型组",
+      "denominator_group": "伪手术组",
+      "comparison": "模型组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -1.6266666666666652,
+      "standard_error_of_difference": 0.23668075075463493,
+      "t_statistic": -6.872830432894045,
+      "degrees_of_freedom": 7.353147076164709,
+      "p_raw": 0.00018943288059886212,
+      "delta_ct_difference_CI95_unadjusted": [
+        -2.1809247450654383,
+        -1.072408588267892
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 3.0879869734486682,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        2.1029413116526143,
+        4.53444111604569
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 2.9757448677150697,
+      "arithmetic_fold_mean_numerator": 2.9757448677150697,
+      "arithmetic_fold_mean_denominator": 1.0000000000000002,
+      "p_holm_18_test_family": 0.0024626274477852076,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "AT1-R",
+      "numerator_group": "复位组",
+      "denominator_group": "伪手术组",
+      "comparison": "复位组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -0.8499999999999979,
+      "standard_error_of_difference": 0.24110855093366798,
+      "t_statistic": -3.5253830555094816,
+      "degrees_of_freedom": 7.731048527930202,
+      "p_raw": 0.008223111578699475,
+      "delta_ct_difference_CI95_unadjusted": [
+        -1.4093821661739279,
+        -0.2906178338260679
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.8025009252216577,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.2231639852462162,
+        2.6562338530355967
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 1.7420823779095584,
+      "arithmetic_fold_mean_numerator": 1.7420823779095584,
+      "arithmetic_fold_mean_denominator": 1.0000000000000002,
+      "p_holm_18_test_family": 0.024669334736098426,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "AT1-R",
+      "numerator_group": "复位组",
+      "denominator_group": "模型组",
+      "comparison": "复位组 vs 模型组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": 0.7766666666666673,
+      "standard_error_of_difference": 0.15660282387123264,
+      "t_statistic": 4.959467827382761,
+      "degrees_of_freedom": 9.926136352522745,
+      "p_raw": 0.00058325149828434,
+      "delta_ct_difference_CI95_unadjusted": [
+        0.42738155511612097,
+        1.1259517782172135
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5837139018784856,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        0.45819963730965335,
+        0.743610189756534
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 0.5854273317615495,
+      "arithmetic_fold_mean_numerator": 1.7420823779095584,
+      "arithmetic_fold_mean_denominator": 2.9757448677150697,
+      "p_holm_18_test_family": 0.00466601198627472,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "NOX1",
+      "numerator_group": "模型组",
+      "denominator_group": "伪手术组",
+      "comparison": "模型组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -0.5500000000000007,
+      "standard_error_of_difference": 0.10183319694480776,
+      "t_statistic": -5.400989230438218,
+      "degrees_of_freedom": 9.163409762296084,
+      "p_raw": 0.000406600320882398,
+      "delta_ct_difference_CI95_unadjusted": [
+        -0.7797380050916953,
+        -0.3202619949083061
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.464085695945626,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.2485572676031385,
+        1.7168190684497526
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 1.4590993753794586,
+      "arithmetic_fold_mean_numerator": 1.4590993753794583,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 0.0037132651528660066,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "NOX1",
+      "numerator_group": "复位组",
+      "denominator_group": "伪手术组",
+      "comparison": "复位组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -0.24666666666666615,
+      "standard_error_of_difference": 0.09374314789774119,
+      "t_statistic": -2.63130343068637,
+      "degrees_of_freedom": 7.764314468863857,
+      "p_raw": 0.030900127165819365,
+      "delta_ct_difference_CI95_unadjusted": [
+        -0.46398628393749,
+        -0.02934704939584229
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.1864626349084866,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.0205501294961352,
+        1.3793478079601962
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 1.1800044318122989,
+      "arithmetic_fold_mean_numerator": 1.1800044318122989,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 0.06180025433163873,
+      "significant_at_holm_0_05": false
+    },
+    {
+      "gene": "NOX1",
+      "numerator_group": "复位组",
+      "denominator_group": "模型组",
+      "comparison": "复位组 vs 模型组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": 0.30333333333333456,
+      "standard_error_of_difference": 0.07519604008486383,
+      "t_statistic": 4.033900362186657,
+      "degrees_of_freedom": 9.273867363095714,
+      "p_raw": 0.0027796840432579456,
+      "delta_ct_difference_CI95_unadjusted": [
+        0.13399074559881466,
+        0.4726759210678545
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.8103778612099424,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        0.7206267337912853,
+        0.9113071263456676
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 0.8087210862559809,
+      "arithmetic_fold_mean_numerator": 1.1800044318122989,
+      "arithmetic_fold_mean_denominator": 1.4590993753794583,
+      "p_holm_18_test_family": 0.013898420216289727,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "NOX4",
+      "numerator_group": "模型组",
+      "denominator_group": "伪手术组",
+      "comparison": "模型组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -1.5450000000000017,
+      "standard_error_of_difference": 0.1797730050183662,
+      "t_statistic": -8.594171298644973,
+      "degrees_of_freedom": 9.871199667257784,
+      "p_raw": 6.814739369078998e-06,
+      "delta_ct_difference_CI95_unadjusted": [
+        -1.9462687973733597,
+        -1.1437312026266437
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.918040688480354,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        2.209517262516283,
+        3.8537655279188607
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 2.902300965578845,
+      "arithmetic_fold_mean_numerator": 2.902300965578845,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 0.00010222109053618496,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "NOX4",
+      "numerator_group": "复位组",
+      "denominator_group": "伪手术组",
+      "comparison": "复位组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -0.7383333333333333,
+      "standard_error_of_difference": 0.15608580261438854,
+      "t_statistic": -4.7303042363013175,
+      "degrees_of_freedom": 8.139642371649964,
+      "p_raw": 0.0014138277512050575,
+      "delta_ct_difference_CI95_unadjusted": [
+        -1.0971958294003867,
+        -0.37947083726627984
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.6682474901395274,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.3008646268380348,
+        2.1393845531194833
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 1.6446561723154238,
+      "arithmetic_fold_mean_numerator": 1.6446561723154243,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 0.009896794258435402,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "NOX4",
+      "numerator_group": "复位组",
+      "denominator_group": "模型组",
+      "comparison": "复位组 vs 模型组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": 0.8066666666666684,
+      "standard_error_of_difference": 0.14377451481786008,
+      "t_statistic": 5.610637376788157,
+      "degrees_of_freedom": 8.709891781256463,
+      "p_raw": 0.00037132651528660066,
+      "delta_ct_difference_CI95_unadjusted": [
+        0.4797672572302515,
+        1.1335660761030852
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5717012434834522,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        0.4557877083980616,
+        0.717093299749712
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 0.5666731988932125,
+      "arithmetic_fold_mean_numerator": 1.6446561723154243,
+      "arithmetic_fold_mean_denominator": 2.902300965578845,
+      "p_holm_18_test_family": 0.0037132651528660066,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "RhoA",
+      "numerator_group": "模型组",
+      "denominator_group": "伪手术组",
+      "comparison": "模型组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -0.5666666666666664,
+      "standard_error_of_difference": 0.07712183723030556,
+      "t_statistic": -7.347681111051006,
+      "degrees_of_freedom": 9.841192479625917,
+      "p_raw": 2.6846083336049148e-05,
+      "delta_ct_difference_CI95_unadjusted": [
+        -0.7388814412030816,
+        -0.3944518921302512
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.481097552286564,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.3144432827948787,
+        1.668881410177646
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 1.4796439206823293,
+      "arithmetic_fold_mean_numerator": 1.4796439206823289,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 0.00037584516670468806,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "RhoA",
+      "numerator_group": "复位组",
+      "denominator_group": "伪手术组",
+      "comparison": "复位组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -0.3116666666666674,
+      "standard_error_of_difference": 0.06074079719961237,
+      "t_statistic": -5.1310927915950435,
+      "degrees_of_freedom": 5.99765785681433,
+      "p_raw": 0.0021572124104184387,
+      "delta_ct_difference_CI95_unadjusted": [
+        -0.46030811346582756,
+        -0.16302521986750731
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.2411406940043308,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.1196324608678498,
+        1.3758356211997758
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 1.2366760847520288,
+      "arithmetic_fold_mean_numerator": 1.2366760847520288,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 0.012943274462510632,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "RhoA",
+      "numerator_group": "复位组",
+      "denominator_group": "模型组",
+      "comparison": "复位组 vs 模型组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": 0.254999999999999,
+      "standard_error_of_difference": 0.05416538460021208,
+      "t_statistic": 4.707803736318353,
+      "degrees_of_freedom": 6.279432644170195,
+      "p_raw": 0.0029250227683994046,
+      "delta_ct_difference_CI95_unadjusted": [
+        0.12387870015210711,
+        0.3861212998478909
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.8379871346679492,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        0.7651840465668553,
+        0.917717039475215
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 0.8357930360581233,
+      "arithmetic_fold_mean_numerator": 1.2366760847520288,
+      "arithmetic_fold_mean_denominator": 1.4796439206823289,
+      "p_holm_18_test_family": 0.013898420216289727,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "ROCK1",
+      "numerator_group": "模型组",
+      "denominator_group": "伪手术组",
+      "comparison": "模型组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -1.8850000000000007,
+      "standard_error_of_difference": 0.12204052150367478,
+      "t_statistic": -15.445689487185952,
+      "degrees_of_freedom": 6.033941284456664,
+      "p_raw": 4.4352725635613866e-06,
+      "delta_ct_difference_CI95_unadjusted": [
+        -2.183215690244159,
+        -1.5867843097558425
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 3.693529242917581,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        3.0037907383216758,
+        4.541647357202279
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 3.7446696767769803,
+      "arithmetic_fold_mean_numerator": 3.7446696767769807,
+      "arithmetic_fold_mean_denominator": 1.0000000000000002,
+      "p_holm_18_test_family": 7.096436101698218e-05,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "ROCK1",
+      "numerator_group": "复位组",
+      "denominator_group": "伪手术组",
+      "comparison": "复位组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -0.9116666666666662,
+      "standard_error_of_difference": 0.049199141817266825,
+      "t_statistic": -18.530133514375848,
+      "degrees_of_freedom": 9.736331325524292,
+      "p_raw": 6.45221709682362e-09,
+      "delta_ct_difference_CI95_unadjusted": [
+        -1.021692921382373,
+        -0.8016404119509593
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.8812175112725753,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.7430819662038706,
+        2.0303000050111604
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 1.8803680551413622,
+      "arithmetic_fold_mean_numerator": 1.8803680551413622,
+      "arithmetic_fold_mean_denominator": 1.0000000000000002,
+      "p_holm_18_test_family": 1.1613990774282516e-07,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "ROCK1",
+      "numerator_group": "复位组",
+      "denominator_group": "模型组",
+      "comparison": "复位组 vs 模型组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": 0.9733333333333345,
+      "standard_error_of_difference": 0.12039748982248587,
+      "t_statistic": 8.08433244553867,
+      "degrees_of_freedom": 5.745642803300849,
+      "p_raw": 0.0002389203556481727,
+      "delta_ct_difference_CI95_unadjusted": [
+        0.6755408276842165,
+        1.2711258389824525
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5093279049786458,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        0.41433631020968015,
+        0.6260974681621705
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 0.5021452404207214,
+      "arithmetic_fold_mean_numerator": 1.8803680551413622,
+      "arithmetic_fold_mean_denominator": 3.7446696767769807,
+      "p_holm_18_test_family": 0.0028670442677780723,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "ROCK2",
+      "numerator_group": "模型组",
+      "denominator_group": "伪手术组",
+      "comparison": "模型组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -1.5183333333333344,
+      "standard_error_of_difference": 0.11796656776863168,
+      "t_statistic": -12.870878267063325,
+      "degrees_of_freedom": 8.187665083190012,
+      "p_raw": 1.0185302550438863e-06,
+      "delta_ct_difference_CI95_unadjusted": [
+        -1.7892832379778532,
+        -1.2473834286888157
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.8645992689156636,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        2.374104483191439,
+        3.45643126895627
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 2.8428793378404715,
+      "arithmetic_fold_mean_numerator": 2.842879337840472,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 1.7315014335746067e-05,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "ROCK2",
+      "numerator_group": "复位组",
+      "denominator_group": "伪手术组",
+      "comparison": "复位组 vs 伪手术组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": -1.0933333333333337,
+      "standard_error_of_difference": 0.18426731789561734,
+      "t_statistic": -5.933408842216278,
+      "degrees_of_freedom": 8.636541172897816,
+      "p_raw": 0.00025854211940903095,
+      "delta_ct_difference_CI95_unadjusted": [
+        -1.5128644238807532,
+        -0.6738022427859143
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.1336644858907157,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        1.5952717929798759,
+        2.853760818930697
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 2.163376120246753,
+      "arithmetic_fold_mean_numerator": 2.163376120246753,
+      "arithmetic_fold_mean_denominator": 1.0,
+      "p_holm_18_test_family": 0.0028670442677780723,
+      "significant_at_holm_0_05": true
+    },
+    {
+      "gene": "ROCK2",
+      "numerator_group": "复位组",
+      "denominator_group": "模型组",
+      "comparison": "复位组 vs 模型组",
+      "n_numerator": 6,
+      "n_denominator": 6,
+      "delta_ct_difference": 0.4250000000000007,
+      "standard_error_of_difference": 0.1655512676551354,
+      "t_statistic": 2.5671805841156736,
+      "degrees_of_freedom": 6.516543195708527,
+      "p_raw": 0.0395153992102046,
+      "delta_ct_difference_CI95_unadjusted": [
+        0.027568338313717022,
+        0.8224316616862843
+      ],
+      "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.7448387315613507,
+      "geometric_expression_ratio_CI95_unadjusted": [
+        0.5654880092226485,
+        0.9810725019555413
+      ],
+      "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+      "arithmetic_mean_expression_ratio": 0.7609806337718548,
+      "arithmetic_fold_mean_numerator": 2.163376120246753,
+      "arithmetic_fold_mean_denominator": 2.842879337840472,
+      "p_holm_18_test_family": 0.06180025433163873,
+      "significant_at_holm_0_05": false
+    }
+  ],
+  "limitations": [
+    "The 100% equal-efficiency assumption requires experimental confirmation; a shared efficiency does not substitute for measured amplification-efficiency and assay-specificity validation.",
+    "Amplification/melting curves, no-template/no-RT controls, and assay detection/quantification limits are unavailable in supplied files. High Ct values for NOX4/AT1-R warrant review of raw curves and assay qualification; no values excluded.",
+    "β-actin is the only reference gene. Lack of a significant between-group β-actin Ct difference would not establish reference-gene stability or justify unverified normalization assumptions.",
+    "PCR report does not list RhoA/ROCK1/ROCK2 primers although the XLS contains those results. Their assay identities remain to be documented.",
+    "SCG group lacks original Ct data and is excluded from reanalysis.",
+    "The user supplied the biological-repeat and matching confirmation; original XLS does not itself contain specimen identifiers. Source columns are retained for traceability.",
+    "Each animal has one recorded qPCR measurement; technical repeat precision cannot be assessed from this workbook.",
+    "The 95% effect intervals are nominal, not simultaneous family-wise intervals; statistical significance is judged by the 18-test Holm-adjusted P values.",
+    "Results are an exploratory retrospective reanalysis of supplied data; they do not establish causal activation/inhibition of a pathway or mediation by the sympathetic nervous system."
+  ],
+  "multiplicity_summary": {
+    "test_count": 18,
+    "alpha": 0.05,
+    "significant_comparison_count": 16,
+    "adjustment_formula": "For sorted p_(j), adjusted p_(j)=min(1,max_{k<=j}((18-k+1)*p_(k))); restore original order."
+  },
+  "method_references": [
+    {
+      "title": "SciPy ttest_ind (Welch independent two-sample t test and confidence interval)",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html"
+    },
+    {
+      "title": "statsmodels multipletests (Holm step-down Bonferroni)",
+      "url": "https://www.statsmodels.org/stable/_modules/statsmodels/stats/multitest.html"
+    }
+  ]
+}
