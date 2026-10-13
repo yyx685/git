@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-14",
+  "processing": "Deterministic conventional figure assembly and plotting. No experimental pixel enhancement or generative image processing.",
+  "figures": {
+    "Fig1": {
+      "source_unchanged": true,
+      "sha256": "c30b9ab81d248cadb5c3e7819124f7ffe2563e89b7bc505c3acbda14554c4211",
+      "status": "Retained source plot; individual-level records, timing, units and original significance symbols require verification."
+    },
+    "Fig2": {
+      "source_unchanged": true,
+      "sha256": "8b19aa7cf203dca092e48519ba42cd4787af66ab0854792667977ff0ea82b3ac",
+      "status": "Retained source plot; individual-level records, timing, units and original significance symbols require verification."
+    },
+    "Fig3": {
+      "source": "57a1a5cb48bbfe94a681c9520f65ec30.jpg",
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468",
+      "dimensions": [
+        5335,
+        1229
+      ],
+      "replaced_header_rows": [
+        0,
+        230
+      ],
+      "unchanged_tissue_rows": [
+        240,
+        1228
+      ],
+      "resampling": false,
+      "note": "Larger supplied composite, not a verified microscope raw export. Original100um scale bars retained."
+    },
+    "Fig5": {
+      "source": "wb条带.docx",
+      "native_rows": [
+        "image3.png",
+        "image4.png",
+        "image1.png"
+      ],
+      "dimensions": [
+        810,
+        420
+      ],
+      "resampling": false,
+      "pixel_equality_checked": true,
+      "note": "Representative cropped bands only. Biological n=3 per group confirmed; raw membranes/molecular weights/densitometry missing. Native cropped resolution is not upgraded by assembly."
+    },
+    "Fig4": {
+      "data": "S1_Data_RVLM_Processed_Values.csv",
+      "n": 6,
+      "numerical_values_unchanged": true,
+      "markers": "individual points and arithmetic mean ± sampleSD",
+      "fluorescence_units": "arbitrary protein-normalized fluorescence index"
+    },
+    "Fig7": {
+      "method": "Matplotlib vector diagram",
+      "experimental_images": false,
+      "generative_image_artwork": false,
+      "note": "Replaces previous illustration to match current transcript-only quantitative evidence and declared BP sharing."
+    },
+    "Fig6": {
+      "source": "S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "statistical_record": "S4_File_RTqPCR_Statistical_Outputs.json",
+      "n_per_group": 6,
+      "family_tests": 18,
+      "method": "Matplotlib individual points and arithmetic mean±sampleSD",
+      "generative_image_artwork": false
+    }
+  }
+}
