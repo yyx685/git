@@ -1,0 +1,2301 @@
+{
+  "source_path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/血压动态变化.xlsx",
+  "source_sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d",
+  "file_size": 15741,
+  "workbook_inventory": [
+    {
+      "sheet": "Sheet1",
+      "state": "visible",
+      "max_row": 33,
+      "max_column": 20,
+      "nonempty_count": 297,
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "merged_ranges": [],
+      "chart_count": 2,
+      "image_count": 0,
+      "table_names": [],
+      "auto_filter": null,
+      "comments": []
+    },
+    {
+      "sheet": "Sheet2",
+      "state": "visible",
+      "max_row": 1,
+      "max_column": 1,
+      "nonempty_count": 0,
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "merged_ranges": [],
+      "chart_count": 0,
+      "image_count": 0,
+      "table_names": [],
+      "auto_filter": null,
+      "comments": []
+    },
+    {
+      "sheet": "Sheet3",
+      "state": "visible",
+      "max_row": 1,
+      "max_column": 1,
+      "nonempty_count": 0,
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "merged_ranges": [],
+      "chart_count": 0,
+      "image_count": 0,
+      "table_names": [],
+      "auto_filter": null,
+      "comments": []
+    }
+  ],
+  "zip_members": [
+    "[Content_Types].xml",
+    "_rels/.rels",
+    "xl/_rels/workbook.xml.rels",
+    "xl/workbook.xml",
+    "xl/theme/theme1.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/_rels/sheet1.xml.rels",
+    "xl/drawings/_rels/drawing1.xml.rels",
+    "xl/worksheets/_rels/sheet2.xml.rels",
+    "xl/worksheets/_rels/sheet3.xml.rels",
+    "xl/worksheets/sheet3.xml",
+    "xl/worksheets/sheet1.xml",
+    "xl/styles.xml",
+    "xl/drawings/drawing1.xml",
+    "xl/charts/chart1.xml",
+    "xl/charts/chart2.xml",
+    "xl/sharedStrings.xml",
+    "xl/printerSettings/printerSettings3.bin",
+    "xl/printerSettings/printerSettings2.bin",
+    "xl/printerSettings/printerSettings1.bin",
+    "docProps/core.xml",
+    "docProps/app.xml"
+  ],
+  "formulas": [],
+  "defined_names": {},
+  "metadata": {
+    "created": "2006-09-13T11:21:51",
+    "modified": "2021-03-16T14:46:08",
+    "creator": null,
+    "last_modified_by": null
+  },
+  "raw_records": {
+    "model_all_recorded_rows": [
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 2,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": "10号",
+        "animal_label_cell": "A2",
+        "reading_cells": {
+          "pre_model": "B2",
+          "week1": "C2",
+          "week2": "D2",
+          "week3": "E2",
+          "week4": "F2"
+        },
+        "readings": {
+          "pre_model": 114,
+          "week1": 124,
+          "week2": 126,
+          "week3": 132,
+          "week4": 140
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 3,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": "14号",
+        "animal_label_cell": "A3",
+        "reading_cells": {
+          "pre_model": "B3",
+          "week1": "C3",
+          "week2": "D3",
+          "week3": "E3",
+          "week4": "F3"
+        },
+        "readings": {
+          "pre_model": 105,
+          "week1": 117,
+          "week2": 130,
+          "week3": 140,
+          "week4": 140
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 4,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": "25号",
+        "animal_label_cell": "A4",
+        "reading_cells": {
+          "pre_model": "B4",
+          "week1": "C4",
+          "week2": "D4",
+          "week3": "E4",
+          "week4": "F4"
+        },
+        "readings": {
+          "pre_model": 115,
+          "week1": 129,
+          "week2": 130,
+          "week3": 135,
+          "week4": 147
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 5,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": "36号",
+        "animal_label_cell": "A5",
+        "reading_cells": {
+          "pre_model": "B5",
+          "week1": "C5",
+          "week2": "D5",
+          "week3": "E5",
+          "week4": "F5"
+        },
+        "readings": {
+          "pre_model": 108,
+          "week1": 112,
+          "week2": 127,
+          "week3": 127,
+          "week4": 145
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 6,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 52,
+        "animal_label_cell": "A6",
+        "reading_cells": {
+          "pre_model": "B6",
+          "week1": "C6",
+          "week2": "D6",
+          "week3": "E6",
+          "week4": "F6"
+        },
+        "readings": {
+          "pre_model": 121,
+          "week1": 131,
+          "week2": 123,
+          "week3": null,
+          "week4": 154
+        },
+        "missing_periods": [
+          "week3"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 7,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 53,
+        "animal_label_cell": "A7",
+        "reading_cells": {
+          "pre_model": "B7",
+          "week1": "C7",
+          "week2": "D7",
+          "week3": "E7",
+          "week4": "F7"
+        },
+        "readings": {
+          "pre_model": 117,
+          "week1": 129,
+          "week2": 131,
+          "week3": null,
+          "week4": 160
+        },
+        "missing_periods": [
+          "week3"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 8,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 54,
+        "animal_label_cell": "A8",
+        "reading_cells": {
+          "pre_model": "B8",
+          "week1": "C8",
+          "week2": "D8",
+          "week3": "E8",
+          "week4": "F8"
+        },
+        "readings": {
+          "pre_model": 107,
+          "week1": 148,
+          "week2": null,
+          "week3": null,
+          "week4": 152
+        },
+        "missing_periods": [
+          "week2",
+          "week3"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 9,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 55,
+        "animal_label_cell": "A9",
+        "reading_cells": {
+          "pre_model": "B9",
+          "week1": "C9",
+          "week2": "D9",
+          "week3": "E9",
+          "week4": "F9"
+        },
+        "readings": {
+          "pre_model": 113,
+          "week1": 126,
+          "week2": null,
+          "week3": 154,
+          "week4": 160
+        },
+        "missing_periods": [
+          "week2"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 10,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 61,
+        "animal_label_cell": "A10",
+        "reading_cells": {
+          "pre_model": "B10",
+          "week1": "C10",
+          "week2": "D10",
+          "week3": "E10",
+          "week4": "F10"
+        },
+        "readings": {
+          "pre_model": 90,
+          "week1": 142,
+          "week2": null,
+          "week3": 150,
+          "week4": 140
+        },
+        "missing_periods": [
+          "week2"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 11,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 63,
+        "animal_label_cell": "A11",
+        "reading_cells": {
+          "pre_model": "B11",
+          "week1": "C11",
+          "week2": "D11",
+          "week3": "E11",
+          "week4": "F11"
+        },
+        "readings": {
+          "pre_model": 94,
+          "week1": 109,
+          "week2": null,
+          "week3": 140,
+          "week4": 160
+        },
+        "missing_periods": [
+          "week2"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 12,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 65,
+        "animal_label_cell": "A12",
+        "reading_cells": {
+          "pre_model": "B12",
+          "week1": "C12",
+          "week2": "D12",
+          "week3": "E12",
+          "week4": "F12"
+        },
+        "readings": {
+          "pre_model": 108,
+          "week1": 161,
+          "week2": 142,
+          "week3": 160,
+          "week4": 143
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 13,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 72,
+        "animal_label_cell": "A13",
+        "reading_cells": {
+          "pre_model": "B13",
+          "week1": "C13",
+          "week2": "D13",
+          "week3": "E13",
+          "week4": "F13"
+        },
+        "readings": {
+          "pre_model": null,
+          "week1": 94,
+          "week2": null,
+          "week3": 110,
+          "week4": 170
+        },
+        "missing_periods": [
+          "pre_model",
+          "week2"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 14,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": "？21",
+        "animal_label_cell": "A14",
+        "reading_cells": {
+          "pre_model": "B14",
+          "week1": "C14",
+          "week2": "D14",
+          "week3": "E14",
+          "week4": "F14"
+        },
+        "readings": {
+          "pre_model": 103,
+          "week1": 142,
+          "week2": 124,
+          "week3": 133,
+          "week4": 140
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 15,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 74,
+        "animal_label_cell": "A15",
+        "reading_cells": {
+          "pre_model": "B15",
+          "week1": "C15",
+          "week2": "D15",
+          "week3": "E15",
+          "week4": "F15"
+        },
+        "readings": {
+          "pre_model": null,
+          "week1": null,
+          "week2": 130,
+          "week3": null,
+          "week4": 160
+        },
+        "missing_periods": [
+          "pre_model",
+          "week1",
+          "week3"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 16,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 10,
+        "animal_label_cell": "A16",
+        "reading_cells": {
+          "pre_model": "B16",
+          "week1": "C16",
+          "week2": "D16",
+          "week3": "E16",
+          "week4": "F16"
+        },
+        "readings": {
+          "pre_model": 118,
+          "week1": null,
+          "week2": null,
+          "week3": 122,
+          "week4": 114
+        },
+        "missing_periods": [
+          "week1",
+          "week2"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 17,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 22,
+        "animal_label_cell": "A17",
+        "reading_cells": {
+          "pre_model": "B17",
+          "week1": "C17",
+          "week2": "D17",
+          "week3": "E17",
+          "week4": "F17"
+        },
+        "readings": {
+          "pre_model": 75,
+          "week1": 115,
+          "week2": null,
+          "week3": 120,
+          "week4": 122
+        },
+        "missing_periods": [
+          "week2"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 18,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 23,
+        "animal_label_cell": "A18",
+        "reading_cells": {
+          "pre_model": "B18",
+          "week1": "C18",
+          "week2": "D18",
+          "week3": "E18",
+          "week4": "F18"
+        },
+        "readings": {
+          "pre_model": 110,
+          "week1": 110,
+          "week2": 116,
+          "week3": 116,
+          "week4": 135
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 19,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 25,
+        "animal_label_cell": "A19",
+        "reading_cells": {
+          "pre_model": "B19",
+          "week1": "C19",
+          "week2": "D19",
+          "week3": "E19",
+          "week4": "F19"
+        },
+        "readings": {
+          "pre_model": 85,
+          "week1": 115,
+          "week2": 100,
+          "week3": 136,
+          "week4": 140
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 20,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 6,
+        "animal_label_cell": "A20",
+        "reading_cells": {
+          "pre_model": "B20",
+          "week1": "C20",
+          "week2": "D20",
+          "week3": "E20",
+          "week4": "F20"
+        },
+        "readings": {
+          "pre_model": 80,
+          "week1": 99,
+          "week2": 120,
+          "week3": 111,
+          "week4": 125
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 21,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 7,
+        "animal_label_cell": "A21",
+        "reading_cells": {
+          "pre_model": "B21",
+          "week1": "C21",
+          "week2": "D21",
+          "week3": "E21",
+          "week4": "F21"
+        },
+        "readings": {
+          "pre_model": 92,
+          "week1": 108,
+          "week2": 135,
+          "week3": 132,
+          "week4": 138
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 22,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 13,
+        "animal_label_cell": "A22",
+        "reading_cells": {
+          "pre_model": "B22",
+          "week1": "C22",
+          "week2": "D22",
+          "week3": "E22",
+          "week4": "F22"
+        },
+        "readings": {
+          "pre_model": 110,
+          "week1": 102,
+          "week2": 100,
+          "week3": 106,
+          "week4": 136
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 23,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 15,
+        "animal_label_cell": "A23",
+        "reading_cells": {
+          "pre_model": "B23",
+          "week1": "C23",
+          "week2": "D23",
+          "week3": "E23",
+          "week4": "F23"
+        },
+        "readings": {
+          "pre_model": 116,
+          "week1": 108,
+          "week2": 130,
+          "week3": 117,
+          "week4": 128
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 24,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 20,
+        "animal_label_cell": "A24",
+        "reading_cells": {
+          "pre_model": "B24",
+          "week1": "C24",
+          "week2": "D24",
+          "week3": "E24",
+          "week4": "F24"
+        },
+        "readings": {
+          "pre_model": 120,
+          "week1": 100,
+          "week2": 120,
+          "week3": 115,
+          "week4": 135
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 25,
+        "group_label_as_recorded": "模型组",
+        "animal_label_as_recorded": 21,
+        "animal_label_cell": "A25",
+        "reading_cells": {
+          "pre_model": "B25",
+          "week1": "C25",
+          "week2": "D25",
+          "week3": "E25",
+          "week4": "F25"
+        },
+        "readings": {
+          "pre_model": 108,
+          "week1": 120,
+          "week2": 129,
+          "week3": 127,
+          "week4": 129
+        },
+        "missing_periods": []
+      }
+    ],
+    "control_recorded_rows": [
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 2,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": "7号",
+        "animal_label_cell": "H2",
+        "reading_cells": {
+          "pre_model": "I2",
+          "week1": "J2",
+          "week2": "K2",
+          "week3": "L2",
+          "week4": "M2"
+        },
+        "readings": {
+          "pre_model": 107,
+          "week1": 95,
+          "week2": 109,
+          "week3": 115,
+          "week4": 129
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 3,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": "8号",
+        "animal_label_cell": "H3",
+        "reading_cells": {
+          "pre_model": "I3",
+          "week1": "J3",
+          "week2": "K3",
+          "week3": "L3",
+          "week4": "M3"
+        },
+        "readings": {
+          "pre_model": 90,
+          "week1": 93,
+          "week2": 110,
+          "week3": 124,
+          "week4": 120
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 4,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": "11号",
+        "animal_label_cell": "H4",
+        "reading_cells": {
+          "pre_model": "I4",
+          "week1": "J4",
+          "week2": "K4",
+          "week3": "L4",
+          "week4": "M4"
+        },
+        "readings": {
+          "pre_model": 100,
+          "week1": 120,
+          "week2": 119,
+          "week3": 127,
+          "week4": 136
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 5,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": "12号",
+        "animal_label_cell": "H5",
+        "reading_cells": {
+          "pre_model": "I5",
+          "week1": "J5",
+          "week2": "K5",
+          "week3": "L5",
+          "week4": "M5"
+        },
+        "readings": {
+          "pre_model": 97,
+          "week1": 118,
+          "week2": 120,
+          "week3": 127,
+          "week4": 130
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 6,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": "16号",
+        "animal_label_cell": "H6",
+        "reading_cells": {
+          "pre_model": "I6",
+          "week1": "J6",
+          "week2": "K6",
+          "week3": "L6",
+          "week4": "M6"
+        },
+        "readings": {
+          "pre_model": 108,
+          "week1": 114,
+          "week2": 120,
+          "week3": 135,
+          "week4": 135
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 7,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": "23号",
+        "animal_label_cell": "H7",
+        "reading_cells": {
+          "pre_model": "I7",
+          "week1": "J7",
+          "week2": "K7",
+          "week3": "L7",
+          "week4": "M7"
+        },
+        "readings": {
+          "pre_model": 110,
+          "week1": 114,
+          "week2": 110,
+          "week3": 120,
+          "week4": 120
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 8,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 62,
+        "animal_label_cell": "H8",
+        "reading_cells": {
+          "pre_model": "I8",
+          "week1": "J8",
+          "week2": "K8",
+          "week3": "L8",
+          "week4": "M8"
+        },
+        "readings": {
+          "pre_model": 75,
+          "week1": 114,
+          "week2": null,
+          "week3": null,
+          "week4": 134
+        },
+        "missing_periods": [
+          "week2",
+          "week3"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 9,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 69,
+        "animal_label_cell": "H9",
+        "reading_cells": {
+          "pre_model": "I9",
+          "week1": "J9",
+          "week2": "K9",
+          "week3": "L9",
+          "week4": "M9"
+        },
+        "readings": {
+          "pre_model": null,
+          "week1": null,
+          "week2": 131,
+          "week3": null,
+          "week4": null
+        },
+        "missing_periods": [
+          "pre_model",
+          "week1",
+          "week3",
+          "week4"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 10,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 71,
+        "animal_label_cell": "H10",
+        "reading_cells": {
+          "pre_model": "I10",
+          "week1": "J10",
+          "week2": "K10",
+          "week3": "L10",
+          "week4": "M10"
+        },
+        "readings": {
+          "pre_model": 110,
+          "week1": null,
+          "week2": 109,
+          "week3": null,
+          "week4": 132
+        },
+        "missing_periods": [
+          "week1",
+          "week3"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 11,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 77,
+        "animal_label_cell": "H11",
+        "reading_cells": {
+          "pre_model": "I11",
+          "week1": "J11",
+          "week2": "K11",
+          "week3": "L11",
+          "week4": "M11"
+        },
+        "readings": {
+          "pre_model": 105,
+          "week1": null,
+          "week2": 110,
+          "week3": null,
+          "week4": null
+        },
+        "missing_periods": [
+          "week1",
+          "week3",
+          "week4"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 12,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 78,
+        "animal_label_cell": "H12",
+        "reading_cells": {
+          "pre_model": "I12",
+          "week1": "J12",
+          "week2": "K12",
+          "week3": "L12",
+          "week4": "M12"
+        },
+        "readings": {
+          "pre_model": 100,
+          "week1": null,
+          "week2": 120,
+          "week3": null,
+          "week4": null
+        },
+        "missing_periods": [
+          "week1",
+          "week3",
+          "week4"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 13,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 79,
+        "animal_label_cell": "H13",
+        "reading_cells": {
+          "pre_model": "I13",
+          "week1": "J13",
+          "week2": "K13",
+          "week3": "L13",
+          "week4": "M13"
+        },
+        "readings": {
+          "pre_model": null,
+          "week1": null,
+          "week2": 83,
+          "week3": null,
+          "week4": 68
+        },
+        "missing_periods": [
+          "pre_model",
+          "week1",
+          "week3"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 14,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 83,
+        "animal_label_cell": "H14",
+        "reading_cells": {
+          "pre_model": "I14",
+          "week1": "J14",
+          "week2": "K14",
+          "week3": "L14",
+          "week4": "M14"
+        },
+        "readings": {
+          "pre_model": null,
+          "week1": null,
+          "week2": null,
+          "week3": null,
+          "week4": null
+        },
+        "missing_periods": [
+          "pre_model",
+          "week1",
+          "week2",
+          "week3",
+          "week4"
+        ]
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 15,
+        "group_label_as_recorded": "对照组",
+        "animal_label_as_recorded": 84,
+        "animal_label_cell": "H15",
+        "reading_cells": {
+          "pre_model": "I15",
+          "week1": "J15",
+          "week2": "K15",
+          "week3": "L15",
+          "week4": "M15"
+        },
+        "readings": {
+          "pre_model": null,
+          "week1": null,
+          "week2": null,
+          "week3": null,
+          "week4": 110
+        },
+        "missing_periods": [
+          "pre_model",
+          "week1",
+          "week2",
+          "week3"
+        ]
+      }
+    ],
+    "sham_recorded_rows": [
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 2,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 1,
+        "animal_label_cell": "O2",
+        "reading_cells": {
+          "pre_model": "P2",
+          "week1": "Q2",
+          "week2": "R2",
+          "week3": "S2",
+          "week4": "T2"
+        },
+        "readings": {
+          "pre_model": 104,
+          "week1": 108,
+          "week2": 100,
+          "week3": 105,
+          "week4": 110
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 3,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 2,
+        "animal_label_cell": "O3",
+        "reading_cells": {
+          "pre_model": "P3",
+          "week1": "Q3",
+          "week2": "R3",
+          "week3": "S3",
+          "week4": "T3"
+        },
+        "readings": {
+          "pre_model": 87,
+          "week1": 100,
+          "week2": 102,
+          "week3": 101,
+          "week4": 110
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 4,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 3,
+        "animal_label_cell": "O4",
+        "reading_cells": {
+          "pre_model": "P4",
+          "week1": "Q4",
+          "week2": "R4",
+          "week3": "S4",
+          "week4": "T4"
+        },
+        "readings": {
+          "pre_model": 109,
+          "week1": 109,
+          "week2": 110,
+          "week3": 115,
+          "week4": 120
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 5,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 4,
+        "animal_label_cell": "O5",
+        "reading_cells": {
+          "pre_model": "P5",
+          "week1": "Q5",
+          "week2": "R5",
+          "week3": "S5",
+          "week4": "T5"
+        },
+        "readings": {
+          "pre_model": 100,
+          "week1": 95,
+          "week2": 110,
+          "week3": 105,
+          "week4": 110
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 6,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 5,
+        "animal_label_cell": "O6",
+        "reading_cells": {
+          "pre_model": "P6",
+          "week1": "Q6",
+          "week2": "R6",
+          "week3": "S6",
+          "week4": "T6"
+        },
+        "readings": {
+          "pre_model": 108,
+          "week1": 100,
+          "week2": 110,
+          "week3": 115,
+          "week4": 115
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 7,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 6,
+        "animal_label_cell": "O7",
+        "reading_cells": {
+          "pre_model": "P7",
+          "week1": "Q7",
+          "week2": "R7",
+          "week3": "S7",
+          "week4": "T7"
+        },
+        "readings": {
+          "pre_model": 95,
+          "week1": 90,
+          "week2": 100,
+          "week3": 112,
+          "week4": 115
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 8,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 7,
+        "animal_label_cell": "O8",
+        "reading_cells": {
+          "pre_model": "P8",
+          "week1": "Q8",
+          "week2": "R8",
+          "week3": "S8",
+          "week4": "T8"
+        },
+        "readings": {
+          "pre_model": 113,
+          "week1": 110,
+          "week2": 115,
+          "week3": 120,
+          "week4": 120
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 9,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 8,
+        "animal_label_cell": "O9",
+        "reading_cells": {
+          "pre_model": "P9",
+          "week1": "Q9",
+          "week2": "R9",
+          "week3": "S9",
+          "week4": "T9"
+        },
+        "readings": {
+          "pre_model": 107,
+          "week1": 110,
+          "week2": 115,
+          "week3": 111,
+          "week4": 120
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 10,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 9,
+        "animal_label_cell": "O10",
+        "reading_cells": {
+          "pre_model": "P10",
+          "week1": "Q10",
+          "week2": "R10",
+          "week3": "S10",
+          "week4": "T10"
+        },
+        "readings": {
+          "pre_model": 112,
+          "week1": 106,
+          "week2": 110,
+          "week3": 120,
+          "week4": 125
+        },
+        "missing_periods": []
+      },
+      {
+        "source_sheet": "Sheet1",
+        "source_row": 11,
+        "group_label_as_recorded": "伪手术组",
+        "animal_label_as_recorded": 10,
+        "animal_label_cell": "O11",
+        "reading_cells": {
+          "pre_model": "P11",
+          "week1": "Q11",
+          "week2": "R11",
+          "week3": "S11",
+          "week4": "T11"
+        },
+        "readings": {
+          "pre_model": 75,
+          "week1": 95,
+          "week2": 100,
+          "week3": 100,
+          "week4": 100
+        },
+        "missing_periods": []
+      }
+    ]
+  },
+  "model_visual_block_descriptions": {
+    "model_rows2_to15": "Exploratory row segment only; no batch or group allocation label separates these rows in the workbook.",
+    "model_rows16_to25": "Exploratory row segment only; no batch or group allocation label separates these rows in the workbook."
+  },
+  "descriptive_counts_and_statistics": {
+    "model_all_recorded_rows": {
+      "row_count": 24,
+      "complete_row_count": 14,
+      "zero_measurement_row_count": 0,
+      "periods": {
+        "pre_model": {
+          "available_numeric_count": 22,
+          "missing_count": 2,
+          "mean": 104.95454545454545,
+          "sample_sd": 13.246660936780483,
+          "min": 75,
+          "max": 121,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week1": {
+          "available_numeric_count": 22,
+          "missing_count": 2,
+          "mean": 120.04545454545455,
+          "sample_sd": 17.239150550079657,
+          "min": 94,
+          "max": 161,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week2": {
+          "available_numeric_count": 17,
+          "missing_count": 7,
+          "mean": 124.29411764705883,
+          "sample_sd": 10.964514956681581,
+          "min": 100,
+          "max": 142,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week3": {
+          "available_numeric_count": 20,
+          "missing_count": 4,
+          "mean": 129.15,
+          "sample_sd": 14.953524492133688,
+          "min": 106,
+          "max": 160,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week4": {
+          "available_numeric_count": 24,
+          "missing_count": 0,
+          "mean": 142.20833333333334,
+          "sample_sd": 13.777673075026815,
+          "min": 114,
+          "max": 170,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        }
+      }
+    },
+    "control_recorded_rows": {
+      "row_count": 14,
+      "complete_row_count": 6,
+      "zero_measurement_row_count": 1,
+      "periods": {
+        "pre_model": {
+          "available_numeric_count": 10,
+          "missing_count": 4,
+          "mean": 100.2,
+          "sample_sd": 10.911767348448494,
+          "min": 75,
+          "max": 110,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week1": {
+          "available_numeric_count": 7,
+          "missing_count": 7,
+          "mean": 109.71428571428571,
+          "sample_sd": 10.995670143504757,
+          "min": 93,
+          "max": 120,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week2": {
+          "available_numeric_count": 11,
+          "missing_count": 3,
+          "mean": 112.81818181818181,
+          "sample_sd": 12.106346945451232,
+          "min": 83,
+          "max": 131,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week3": {
+          "available_numeric_count": 6,
+          "missing_count": 8,
+          "mean": 124.66666666666667,
+          "sample_sd": 6.831300510639732,
+          "min": 115,
+          "max": 135,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week4": {
+          "available_numeric_count": 10,
+          "missing_count": 4,
+          "mean": 121.4,
+          "sample_sd": 20.51124352912595,
+          "min": 68,
+          "max": 136,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        }
+      }
+    },
+    "sham_recorded_rows": {
+      "row_count": 10,
+      "complete_row_count": 10,
+      "zero_measurement_row_count": 0,
+      "periods": {
+        "pre_model": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 101,
+          "sample_sd": 12.165525060596439,
+          "min": 75,
+          "max": 113,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week1": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 102.3,
+          "sample_sd": 7.288499312082167,
+          "min": 90,
+          "max": 110,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week2": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 107.2,
+          "sample_sd": 6.106462878695726,
+          "min": 100,
+          "max": 115,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week3": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 110.4,
+          "sample_sd": 7.3363630105265525,
+          "min": 100,
+          "max": 120,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week4": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 114.5,
+          "sample_sd": 7.245688373094719,
+          "min": 100,
+          "max": 125,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        }
+      }
+    },
+    "model_rows2_to15": {
+      "row_count": 14,
+      "complete_row_count": 6,
+      "zero_measurement_row_count": 0,
+      "periods": {
+        "pre_model": {
+          "available_numeric_count": 12,
+          "missing_count": 2,
+          "mean": 107.91666666666667,
+          "sample_sd": 9.119991360974112,
+          "min": 90,
+          "max": 121,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week1": {
+          "available_numeric_count": 13,
+          "missing_count": 1,
+          "mean": 128,
+          "sample_sd": 17.809173666025796,
+          "min": 94,
+          "max": 161,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week2": {
+          "available_numeric_count": 9,
+          "missing_count": 5,
+          "mean": 129.22222222222223,
+          "sample_sd": 5.585198693372013,
+          "min": 123,
+          "max": 142,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week3": {
+          "available_numeric_count": 10,
+          "missing_count": 4,
+          "mean": 138.1,
+          "sample_sd": 14.402546071210233,
+          "min": 110,
+          "max": 160,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week4": {
+          "available_numeric_count": 14,
+          "missing_count": 0,
+          "mean": 150.78571428571428,
+          "sample_sd": 9.978273100388366,
+          "min": 140,
+          "max": 170,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        }
+      }
+    },
+    "model_rows16_to25": {
+      "row_count": 10,
+      "complete_row_count": 8,
+      "zero_measurement_row_count": 0,
+      "periods": {
+        "pre_model": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 101.4,
+          "sample_sd": 16.794178885686684,
+          "min": 75,
+          "max": 120,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week1": {
+          "available_numeric_count": 9,
+          "missing_count": 1,
+          "mean": 108.55555555555556,
+          "sample_sd": 7.282017424984493,
+          "min": 99,
+          "max": 120,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week2": {
+          "available_numeric_count": 8,
+          "missing_count": 2,
+          "mean": 118.75,
+          "sample_sd": 13.144797993339962,
+          "min": 100,
+          "max": 135,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week3": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 120.2,
+          "sample_sd": 9.307106006822004,
+          "min": 106,
+          "max": 136,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        },
+        "week4": {
+          "available_numeric_count": 10,
+          "missing_count": 0,
+          "mean": 130.2,
+          "sample_sd": 8.162243700247023,
+          "min": 114,
+          "max": 140,
+          "note": "Descriptive of recorded cells; counts are not verified independent biological sample sizes."
+        }
+      }
+    }
+  },
+  "duplicate_candidate_labels": {
+    "10": [
+      {
+        "group": "model_all_recorded_rows",
+        "source_row": 2,
+        "original_label": "10号"
+      },
+      {
+        "group": "model_all_recorded_rows",
+        "source_row": 16,
+        "original_label": 10
+      },
+      {
+        "group": "sham_recorded_rows",
+        "source_row": 11,
+        "original_label": 10
+      }
+    ],
+    "25": [
+      {
+        "group": "model_all_recorded_rows",
+        "source_row": 4,
+        "original_label": "25号"
+      },
+      {
+        "group": "model_all_recorded_rows",
+        "source_row": 19,
+        "original_label": 25
+      }
+    ],
+    "23": [
+      {
+        "group": "model_all_recorded_rows",
+        "source_row": 18,
+        "original_label": 23
+      },
+      {
+        "group": "control_recorded_rows",
+        "source_row": 7,
+        "original_label": "23号"
+      }
+    ],
+    "6": [
+      {
+        "group": "model_all_recorded_rows",
+        "source_row": 20,
+        "original_label": 6
+      },
+      {
+        "group": "sham_recorded_rows",
+        "source_row": 7,
+        "original_label": 6
+      }
+    ],
+    "7": [
+      {
+        "group": "model_all_recorded_rows",
+        "source_row": 21,
+        "original_label": 7
+      },
+      {
+        "group": "control_recorded_rows",
+        "source_row": 2,
+        "original_label": "7号"
+      },
+      {
+        "group": "sham_recorded_rows",
+        "source_row": 8,
+        "original_label": 7
+      }
+    ],
+    "8": [
+      {
+        "group": "control_recorded_rows",
+        "source_row": 3,
+        "original_label": "8号"
+      },
+      {
+        "group": "sham_recorded_rows",
+        "source_row": 9,
+        "original_label": 8
+      }
+    ]
+  },
+  "summary_row_26": {
+    "range": "Sheet1!B26:F26",
+    "values": [
+      99.7552685786722,
+      106.32370402837,
+      118.997771339425,
+      116.608396489829,
+      129.93115942029
+    ],
+    "note": "Hardcoded numeric cells, no formulas or documented provenance."
+  },
+  "charts": [
+    {
+      "zip_member": "xl/charts/chart1.xml",
+      "types": [],
+      "series": [
+        {
+          "name": {
+            "range_formula": "Sheet1!$A$31",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "模型组"
+              }
+            ],
+            "cached_pt_count": "1"
+          },
+          "categories": {
+            "range_formula": "Sheet1!$B$30:$F$30",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "造模前"
+              },
+              {
+                "index": 1,
+                "value": "1W"
+              },
+              {
+                "index": 2,
+                "value": "2W"
+              },
+              {
+                "index": 3,
+                "value": "3W"
+              },
+              {
+                "index": 4,
+                "value": "4W"
+              }
+            ],
+            "cached_pt_count": "5"
+          },
+          "values": {
+            "range_formula": "Sheet1!$B$31:$F$31",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "99.7"
+              },
+              {
+                "index": 1,
+                "value": "106.3"
+              },
+              {
+                "index": 2,
+                "value": "119"
+              },
+              {
+                "index": 3,
+                "value": "116.6"
+              },
+              {
+                "index": 4,
+                "value": "142.4"
+              }
+            ],
+            "cached_pt_count": "5"
+          }
+        },
+        {
+          "name": {
+            "range_formula": "Sheet1!$A$32",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "伪手术组"
+              }
+            ],
+            "cached_pt_count": "1"
+          },
+          "categories": {
+            "range_formula": "Sheet1!$B$30:$F$30",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "造模前"
+              },
+              {
+                "index": 1,
+                "value": "1W"
+              },
+              {
+                "index": 2,
+                "value": "2W"
+              },
+              {
+                "index": 3,
+                "value": "3W"
+              },
+              {
+                "index": 4,
+                "value": "4W"
+              }
+            ],
+            "cached_pt_count": "5"
+          },
+          "values": {
+            "range_formula": "Sheet1!$B$32:$F$32",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "100.2"
+              },
+              {
+                "index": 1,
+                "value": "109.7"
+              },
+              {
+                "index": 2,
+                "value": "112.8"
+              },
+              {
+                "index": 3,
+                "value": "124.7"
+              },
+              {
+                "index": 4,
+                "value": "121.4"
+              }
+            ],
+            "cached_pt_count": "5"
+          }
+        }
+      ],
+      "error_bars_count": 0,
+      "axis_unit_or_title_text": []
+    },
+    {
+      "zip_member": "xl/charts/chart2.xml",
+      "types": [],
+      "series": [
+        {
+          "name": {
+            "range_formula": "Sheet1!$A$31",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "模型组"
+              }
+            ],
+            "cached_pt_count": "1"
+          },
+          "categories": {
+            "range_formula": "Sheet1!$B$30:$J$30",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "造模前"
+              },
+              {
+                "index": 1,
+                "value": "1W"
+              },
+              {
+                "index": 2,
+                "value": "2W"
+              },
+              {
+                "index": 3,
+                "value": "3W"
+              },
+              {
+                "index": 4,
+                "value": "4W"
+              },
+              {
+                "index": 5,
+                "value": "5W"
+              },
+              {
+                "index": 6,
+                "value": "6W"
+              },
+              {
+                "index": 7,
+                "value": "7W"
+              },
+              {
+                "index": 8,
+                "value": "8W"
+              }
+            ],
+            "cached_pt_count": "9"
+          },
+          "values": {
+            "range_formula": "Sheet1!$B$31:$J$31",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "99.7"
+              },
+              {
+                "index": 1,
+                "value": "106.3"
+              },
+              {
+                "index": 2,
+                "value": "119"
+              },
+              {
+                "index": 3,
+                "value": "116.6"
+              },
+              {
+                "index": 4,
+                "value": "142.4"
+              }
+            ],
+            "cached_pt_count": "9"
+          }
+        },
+        {
+          "name": {
+            "range_formula": "Sheet1!$A$32",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "伪手术组"
+              }
+            ],
+            "cached_pt_count": "1"
+          },
+          "categories": {
+            "range_formula": "Sheet1!$B$30:$J$30",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "造模前"
+              },
+              {
+                "index": 1,
+                "value": "1W"
+              },
+              {
+                "index": 2,
+                "value": "2W"
+              },
+              {
+                "index": 3,
+                "value": "3W"
+              },
+              {
+                "index": 4,
+                "value": "4W"
+              },
+              {
+                "index": 5,
+                "value": "5W"
+              },
+              {
+                "index": 6,
+                "value": "6W"
+              },
+              {
+                "index": 7,
+                "value": "7W"
+              },
+              {
+                "index": 8,
+                "value": "8W"
+              }
+            ],
+            "cached_pt_count": "9"
+          },
+          "values": {
+            "range_formula": "Sheet1!$B$32:$J$32",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "100.2"
+              },
+              {
+                "index": 1,
+                "value": "109.7"
+              },
+              {
+                "index": 2,
+                "value": "112.8"
+              },
+              {
+                "index": 3,
+                "value": "124.7"
+              },
+              {
+                "index": 4,
+                "value": "121.4"
+              }
+            ],
+            "cached_pt_count": "9"
+          }
+        },
+        {
+          "name": {
+            "range_formula": "Sheet1!$A$33",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "复位组"
+              }
+            ],
+            "cached_pt_count": "1"
+          },
+          "categories": {
+            "range_formula": "Sheet1!$B$30:$J$30",
+            "cached_points": [
+              {
+                "index": 0,
+                "value": "造模前"
+              },
+              {
+                "index": 1,
+                "value": "1W"
+              },
+              {
+                "index": 2,
+                "value": "2W"
+              },
+              {
+                "index": 3,
+                "value": "3W"
+              },
+              {
+                "index": 4,
+                "value": "4W"
+              },
+              {
+                "index": 5,
+                "value": "5W"
+              },
+              {
+                "index": 6,
+                "value": "6W"
+              },
+              {
+                "index": 7,
+                "value": "7W"
+              },
+              {
+                "index": 8,
+                "value": "8W"
+              }
+            ],
+            "cached_pt_count": "9"
+          },
+          "values": {
+            "range_formula": "Sheet1!$B$33:$J$33",
+            "cached_points": [
+              {
+                "index": 5,
+                "value": "138"
+              },
+              {
+                "index": 6,
+                "value": "120"
+              },
+              {
+                "index": 7,
+                "value": "110"
+              },
+              {
+                "index": 8,
+                "value": "100"
+              }
+            ],
+            "cached_pt_count": "9"
+          }
+        }
+      ],
+      "error_bars_count": 0,
+      "axis_unit_or_title_text": []
+    }
+  ],
+  "typed_chart_input_summary": [
+    {
+      "group": "模型组",
+      "row": 31,
+      "readings": [
+        {
+          "cell": "B31",
+          "period": "造模前",
+          "value": 99.7
+        },
+        {
+          "cell": "C31",
+          "period": "1W",
+          "value": 106.3
+        },
+        {
+          "cell": "D31",
+          "period": "2W",
+          "value": 119
+        },
+        {
+          "cell": "E31",
+          "period": "3W",
+          "value": 116.6
+        },
+        {
+          "cell": "F31",
+          "period": "4W",
+          "value": 142.4
+        },
+        {
+          "cell": "G31",
+          "period": "5W",
+          "value": null
+        },
+        {
+          "cell": "H31",
+          "period": "6W",
+          "value": null
+        },
+        {
+          "cell": "I31",
+          "period": "7W",
+          "value": null
+        },
+        {
+          "cell": "J31",
+          "period": "8W",
+          "value": null
+        }
+      ]
+    },
+    {
+      "group": "伪手术组",
+      "row": 32,
+      "readings": [
+        {
+          "cell": "B32",
+          "period": "造模前",
+          "value": 100.2
+        },
+        {
+          "cell": "C32",
+          "period": "1W",
+          "value": 109.7
+        },
+        {
+          "cell": "D32",
+          "period": "2W",
+          "value": 112.8
+        },
+        {
+          "cell": "E32",
+          "period": "3W",
+          "value": 124.7
+        },
+        {
+          "cell": "F32",
+          "period": "4W",
+          "value": 121.4
+        },
+        {
+          "cell": "G32",
+          "period": "5W",
+          "value": null
+        },
+        {
+          "cell": "H32",
+          "period": "6W",
+          "value": null
+        },
+        {
+          "cell": "I32",
+          "period": "7W",
+          "value": null
+        },
+        {
+          "cell": "J32",
+          "period": "8W",
+          "value": null
+        }
+      ]
+    },
+    {
+      "group": "复位组",
+      "row": 33,
+      "readings": [
+        {
+          "cell": "B33",
+          "period": "造模前",
+          "value": null
+        },
+        {
+          "cell": "C33",
+          "period": "1W",
+          "value": null
+        },
+        {
+          "cell": "D33",
+          "period": "2W",
+          "value": null
+        },
+        {
+          "cell": "E33",
+          "period": "3W",
+          "value": null
+        },
+        {
+          "cell": "F33",
+          "period": "4W",
+          "value": null
+        },
+        {
+          "cell": "G33",
+          "period": "5W",
+          "value": 138
+        },
+        {
+          "cell": "H33",
+          "period": "6W",
+          "value": 120
+        },
+        {
+          "cell": "I33",
+          "period": "7W",
+          "value": 110
+        },
+        {
+          "cell": "J33",
+          "period": "8W",
+          "value": 100
+        }
+      ]
+    }
+  ],
+  "chart_input_vs_recorded_rows_reconciliation": [
+    {
+      "group": "模型组",
+      "period": "pre_model",
+      "typed_chart_input_cell": "B31",
+      "typed_chart_input_mean": 99.7,
+      "all_labelled_source_row_mean": 104.95454545454545,
+      "difference_chart_minus_raw_row_mean": -5.25454545454545,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "模型组",
+      "period": "week1",
+      "typed_chart_input_cell": "C31",
+      "typed_chart_input_mean": 106.3,
+      "all_labelled_source_row_mean": 120.04545454545455,
+      "difference_chart_minus_raw_row_mean": -13.74545454545455,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "模型组",
+      "period": "week2",
+      "typed_chart_input_cell": "D31",
+      "typed_chart_input_mean": 119,
+      "all_labelled_source_row_mean": 124.29411764705883,
+      "difference_chart_minus_raw_row_mean": -5.294117647058826,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "模型组",
+      "period": "week3",
+      "typed_chart_input_cell": "E31",
+      "typed_chart_input_mean": 116.6,
+      "all_labelled_source_row_mean": 129.15,
+      "difference_chart_minus_raw_row_mean": -12.550000000000011,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "模型组",
+      "period": "week4",
+      "typed_chart_input_cell": "F31",
+      "typed_chart_input_mean": 142.4,
+      "all_labelled_source_row_mean": 142.20833333333334,
+      "difference_chart_minus_raw_row_mean": 0.19166666666666288,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "伪手术组",
+      "period": "pre_model",
+      "typed_chart_input_cell": "B32",
+      "typed_chart_input_mean": 100.2,
+      "all_labelled_source_row_mean": 101,
+      "difference_chart_minus_raw_row_mean": -0.7999999999999972,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "伪手术组",
+      "period": "week1",
+      "typed_chart_input_cell": "C32",
+      "typed_chart_input_mean": 109.7,
+      "all_labelled_source_row_mean": 102.3,
+      "difference_chart_minus_raw_row_mean": 7.400000000000006,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "伪手术组",
+      "period": "week2",
+      "typed_chart_input_cell": "D32",
+      "typed_chart_input_mean": 112.8,
+      "all_labelled_source_row_mean": 107.2,
+      "difference_chart_minus_raw_row_mean": 5.599999999999994,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "伪手术组",
+      "period": "week3",
+      "typed_chart_input_cell": "E32",
+      "typed_chart_input_mean": 124.7,
+      "all_labelled_source_row_mean": 110.4,
+      "difference_chart_minus_raw_row_mean": 14.299999999999997,
+      "matches_at_one_decimal": false
+    },
+    {
+      "group": "伪手术组",
+      "period": "week4",
+      "typed_chart_input_cell": "F32",
+      "typed_chart_input_mean": 121.4,
+      "all_labelled_source_row_mean": 114.5,
+      "difference_chart_minus_raw_row_mean": 6.900000000000006,
+      "matches_at_one_decimal": false
+    }
+  ],
+  "chart_sham_label_input_vs_control_block_reconciliation": [
+    {
+      "period": "pre_model",
+      "control_reading_cells": "I2:I15",
+      "control_numeric_count": 10,
+      "control_raw_mean": 100.2,
+      "chart_sham_label_input_cell": "B32",
+      "chart_sham_label_input": 100.2,
+      "matches_at_one_decimal": true
+    },
+    {
+      "period": "week1",
+      "control_reading_cells": "J2:J15",
+      "control_numeric_count": 7,
+      "control_raw_mean": 109.71428571428571,
+      "chart_sham_label_input_cell": "C32",
+      "chart_sham_label_input": 109.7,
+      "matches_at_one_decimal": true
+    },
+    {
+      "period": "week2",
+      "control_reading_cells": "K2:K15",
+      "control_numeric_count": 11,
+      "control_raw_mean": 112.81818181818181,
+      "chart_sham_label_input_cell": "D32",
+      "chart_sham_label_input": 112.8,
+      "matches_at_one_decimal": true
+    },
+    {
+      "period": "week3",
+      "control_reading_cells": "L2:L15",
+      "control_numeric_count": 6,
+      "control_raw_mean": 124.66666666666667,
+      "chart_sham_label_input_cell": "E32",
+      "chart_sham_label_input": 124.7,
+      "matches_at_one_decimal": true
+    },
+    {
+      "period": "week4",
+      "control_reading_cells": "M2:M15",
+      "control_numeric_count": 10,
+      "control_raw_mean": 121.4,
+      "chart_sham_label_input_cell": "F32",
+      "chart_sham_label_input": 121.4,
+      "matches_at_one_decimal": true
+    }
+  ],
+  "model_rows_below_author_confirmed_week4_20percent_rule": [
+    {
+      "source_row": 16,
+      "label": 10,
+      "baseline": 118,
+      "week4": 114,
+      "percentage_change": -3.3898305084745783,
+      "note": "Below previously author-confirmed >=20% selection rule. Does not justify post-hoc exclusion; source cohort/subset and rule application require reconciliation."
+    },
+    {
+      "source_row": 23,
+      "label": 15,
+      "baseline": 116,
+      "week4": 128,
+      "percentage_change": 10.344827586206895,
+      "note": "Below previously author-confirmed >=20% selection rule. Does not justify post-hoc exclusion; source cohort/subset and rule application require reconciliation."
+    },
+    {
+      "source_row": 24,
+      "label": 20,
+      "baseline": 120,
+      "week4": 135,
+      "percentage_change": 12.5,
+      "note": "Below previously author-confirmed >=20% selection rule. Does not justify post-hoc exclusion; source cohort/subset and rule application require reconciliation."
+    },
+    {
+      "source_row": 25,
+      "label": 21,
+      "baseline": 108,
+      "week4": 129,
+      "percentage_change": 19.444444444444443,
+      "note": "Below previously author-confirmed >=20% selection rule. Does not justify post-hoc exclusion; source cohort/subset and rule application require reconciliation."
+    }
+  ],
+  "findings": [
+    "All three sheets visible; Sheet2 and Sheet3 empty. No hidden rows, hidden columns, notes, formulas, external-link packages, embedded objects or additional chart data sources found.",
+    "Sheet1 records animal labels and individual numeric readings at pre-model and weeks1–4 for model, another control-labelled block, and sham. It records no measurement dates, BP subtype, unit, batch labels, failure/exclusion reasons, or technical-read averaging status.",
+    "Model has 24 labelled rows; control has 14 labelled rows (including one with no readings); sham has 10 complete labelled rows. Independent sample size and allocation into current model/restoration/SCG cohorts cannot be established from these labels alone.",
+    "Normalizing only the suffix 号 flags model labels10 and25 twice within the model-labelled block; ?21 remains ambiguous. Repeated labels across blocks may reflect reused identifiers/batches rather than identical animals and cannot be merged without confirmation.",
+    "Model and control contain time-specific missing cells. Missingness causes are unrecorded. Empty cells must not be replaced by zero or treated as deaths/exclusions.",
+    "Restoration has only hardcoded week5–8 values138,120,110,100 in G33:J33. No individual restoration records, sample sizes, SD/SEM, or pre-restoration same-animal baseline values are provided.",
+    "Both native line charts use typed summary rows31–33 rather than the individual-reading blocks. Chart caches agree with referenced summary cells, but summary model/sham values disagree with arithmetic means of the labelled numeric cells. No formulas connect these roles.",
+    "All five chart-labelled sham inputs in B32:F32 exactly match, to one decimal, the available-reading means of the differently labelled control block I2:M15, with time-specific counts10,7,11,6,10. They do not match the separate sham10 rowsP2:T11. This numerical match identifies a candidate source, not proof which control-labelled block belongs to the manuscript.",
+    "Four model-labelled rows16,23,24,25 have baseline and week4 readings with <20% increase (approximately -3.39%,10.34%,12.5%,19.44%), inconsistent with including every labelled row as a successfully selected animal under the previously confirmed criterion. No post-hoc exclusions applied.",
+    "Neither chart contains error bars. No endpoint-specific SD/SEM or effective n is saved with typed summary rows.",
+    "Worksheet contains labels up to84; arbitrary animal label numbers do not by themselves establish total cohort size or invalidate60-rat design, but do not identify the manuscript subset either.",
+    "Legacy early Fig1 is a three-bar endpoint image with approximately sham111/model142/restoration124mmHg. This workbook terminal summary values sham121.4/model142.4/restoration100 are not a matching three-group numeric source; approximate image heights are not exact recovered data.",
+    "The author-confirmed current endpoint schedule is sham/modelday28 and restorationday56. This workbook can describe weeks0–4 source rows, but it cannot verify the manuscript endpoint restoration distribution or source subset. A full contemporaneous day56 model vs restoration comparison is absent."
+  ],
+  "analysis_strategy_without_p_values": [
+    "Before inference, author/source mapping must identify which labelled animals/batch are used in this manuscript, clarify duplicate labels and the additional control-labelled block, confirm mmHg/SBP, and explain missing values and technical averaging.",
+    "If row identifiers are confirmed stable same animals across weeks and selected groups identified, use a longitudinal model with animal random intercept and categorical group/time; mixed models can include observed values under a defensible missing-data mechanism. Assess residuals/model assumptions and multiplicity. Do not silently select complete cases or treat weeks as independent animals.",
+    "For current terminal sham/modelday28 and restorationday56, report each group own time and valid n. Any between-terminal-group test is an exploratory group-and-time contrast and cannot isolate restoration treatment from elapsed time; missing day56 contemporaneous model/sham controls cannot be created.",
+    "A within-restoration day28-to56 paired change requires both readings tied to each same animal. The four group summary means alone do not support paired variance or a longitudinal test.",
+    "Some unpaired tests could use actual means/SD/n summary inputs if genuine and source-matched; these restoration summary inputs contain neither SD nor n. No formal test or p value calculated in this audit.",
+    "Disclose BP overlap with prior2026AngII publication and avoid presenting shared readings as independent replication."
+  ]
+}

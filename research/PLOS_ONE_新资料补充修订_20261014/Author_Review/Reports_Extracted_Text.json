@@ -1,0 +1,1122 @@
+[
+  {
+    "file": "实验报告.docx",
+    "sha256": "133d8d090784d9228cf2ba5c59b8047246a0cbe64d6c40cfc9a1d53fa85d094f",
+    "body": [
+      {
+        "index": 0,
+        "type": "paragraph",
+        "text": "Western blot实验报告"
+      },
+      {
+        "index": 1,
+        "type": "paragraph",
+        "text": "一、Western blot实验步骤"
+      },
+      {
+        "index": 2,
+        "type": "paragraph",
+        "text": "1.组织匀浆及蛋白的提取   剪取组织，称重，每个样品重量在100mg左右，加入RIPA细胞裂解液1ml（内含1mM PMSF）进行裂解。12,000rpm离心10min。收集上清液，即含有组织总蛋白。"
+      },
+      {
+        "index": 3,
+        "type": "paragraph",
+        "text": "2. 电泳(1) SDS-PAGE凝胶配制    使用碧云天生产的SDS-PAGE凝胶配制试剂盒。浓缩胶和分离胶的配方分别如下："
+      },
+      {
+        "index": 4,
+        "type": "paragraph",
+        "text": "浓缩胶（2ml）                              10%分离胶（5ml）"
+      },
+      {
+        "index": 5,
+        "type": "paragraph",
+        "text": "双蒸水               1.4ml                   双蒸水               1.9ml"
+      },
+      {
+        "index": 6,
+        "type": "paragraph",
+        "text": "30%丙烯酰胺混合液    330ul                   30%丙烯酰胺混合液    1.7ml"
+      },
+      {
+        "index": 7,
+        "type": "paragraph",
+        "text": "1.0molTris(PH6.8)    250ul                   1.5molTris(PH8.8)    1.3ml"
+      },
+      {
+        "index": 8,
+        "type": "paragraph",
+        "text": "10%SDS               20ul                    10%SDS               50ul"
+      },
+      {
+        "index": 9,
+        "type": "paragraph",
+        "text": "10%AP                20ul                    10%AP                50ul"
+      },
+      {
+        "index": 10,
+        "type": "paragraph",
+        "text": "TEMED                2ul                     TEMED                2ul"
+      },
+      {
+        "index": 11,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 12,
+        "type": "paragraph",
+        "text": "(2) 样品处理"
+      },
+      {
+        "index": 13,
+        "type": "paragraph",
+        "text": "   在收集的蛋白样品中按照1:4加入5X SDS-PAGE蛋白上样缓冲液。沸水浴加热10分钟，以充分变性蛋白。"
+      },
+      {
+        "index": 14,
+        "type": "paragraph",
+        "text": "(3) 上样与电泳"
+      },
+      {
+        "index": 15,
+        "type": "paragraph",
+        "text": "    待样品冷却到室温后，把蛋白样品直接上样到SDS-PAGE胶加样孔内即可。每孔加5-10ul。浓缩胶所用电压为80v，时间为30分钟；分离胶所用电压为120v，时间为1小时。"
+      },
+      {
+        "index": 16,
+        "type": "paragraph",
+        "text": "3. 转膜"
+      },
+      {
+        "index": 17,
+        "type": "paragraph",
+        "text": "将预先裁好与胶条同样大小的滤纸和PVDF膜（预先在甲醇中浸泡2-3分钟），浸入转膜缓冲液中5分钟。转膜装置从上至下依次按阳极板、3层滤纸、PVDF膜、凝胶、3层滤纸、阴极板的顺序放好，滤纸、凝胶、PVDF膜精确对齐，每一步都要去除气泡。恒流转膜，具体转模时间如下。"
+      },
+      {
+        "index": 18,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 19,
+        "type": "table",
+        "rows": [
+          [
+            "蛋白名称",
+            "分子量",
+            "转膜时间（min）"
+          ],
+          [
+            "AT1R",
+            "39kDa",
+            "40"
+          ],
+          [
+            "RhoA",
+            "22 kDa",
+            "25"
+          ],
+          [
+            "Rock1",
+            "158kDa",
+            "90"
+          ],
+          [
+            "Rock2",
+            "161kDa",
+            "90"
+          ],
+          [
+            "Nox1",
+            "62kDa",
+            "55"
+          ],
+          [
+            "Nox4",
+            "64kDa",
+            "55"
+          ]
+        ]
+      },
+      {
+        "index": 20,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 21,
+        "type": "paragraph",
+        "text": "4. 封闭"
+      },
+      {
+        "index": 22,
+        "type": "paragraph",
+        "text": "   转膜完毕后，立即把蛋白膜放置到预先准备好的Western洗涤液中，漂洗5分钟，以洗去膜上的转膜液。加入Western封闭液（5%脱脂奶粉），在摇床上缓慢摇动,室温封闭2小时。"
+      },
+      {
+        "index": 23,
+        "type": "paragraph",
+        "text": "5. 一抗孵育"
+      },
+      {
+        "index": 24,
+        "type": "paragraph",
+        "text": "   参考一抗的说明书，按照合适的比例用一抗稀释液进行稀释,4℃缓慢摇动孵育过夜。加入洗涤液（PBST），每次洗涤10分钟，共洗涤3次。"
+      },
+      {
+        "index": 25,
+        "type": "table",
+        "rows": [
+          [
+            "抗体名称",
+            "稀释比例",
+            "种属"
+          ],
+          [
+            "AT1R",
+            "1：1000",
+            "Rabbit"
+          ],
+          [
+            "RhoA",
+            "1：5000",
+            "Rabbit"
+          ],
+          [
+            "Rock1",
+            "1：1000",
+            "Rabbit"
+          ],
+          [
+            "Rock2",
+            "1：1000",
+            "Rabbit"
+          ],
+          [
+            "Nox1",
+            "1：1000",
+            "Rabbit"
+          ],
+          [
+            "Nox4",
+            "1：1000",
+            "Rabbit"
+          ]
+        ]
+      },
+      {
+        "index": 26,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 27,
+        "type": "paragraph",
+        "text": "6. 二抗孵育"
+      },
+      {
+        "index": 28,
+        "type": "paragraph",
+        "text": "参考二抗的说明书，按照1:20000用二抗稀释液稀释辣根过氧化物酶(HRP)标记的二抗。室温孵育1.2小时。加入洗涤液（PBST），每次洗涤10分钟，共洗涤3次。"
+      },
+      {
+        "index": 29,
+        "type": "paragraph",
+        "text": "7. 蛋白检测"
+      },
+      {
+        "index": 30,
+        "type": "paragraph",
+        "text": "参考相关说明书，使用ECL发光试剂盒来检测蛋白。"
+      },
+      {
+        "index": 31,
+        "type": "paragraph",
+        "text": "附录：试剂配方"
+      },
+      {
+        "index": 32,
+        "type": "paragraph",
+        "text": "1. 10％SDS "
+      },
+      {
+        "index": 33,
+        "type": "paragraph",
+        "text": "SDS                  10g "
+      },
+      {
+        "index": 34,
+        "type": "paragraph",
+        "text": "蒸馏水至                  100ml "
+      },
+      {
+        "index": 35,
+        "type": "paragraph",
+        "text": "50℃水浴下溶解，室温保存。 "
+      },
+      {
+        "index": 36,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 37,
+        "type": "paragraph",
+        "text": "2. 10％过硫酸胺（10%AP） "
+      },
+      {
+        "index": 38,
+        "type": "paragraph",
+        "text": "APS                       0.1g "
+      },
+      {
+        "index": 39,
+        "type": "paragraph",
+        "text": "超纯水                  1.0ml "
+      },
+      {
+        "index": 40,
+        "type": "paragraph",
+        "text": "溶解后，4℃保存，保存时间为1周。"
+      },
+      {
+        "index": 41,
+        "type": "paragraph",
+        "text": " "
+      },
+      {
+        "index": 42,
+        "type": "paragraph",
+        "text": "3. 30％(w/v)丙烯酰胺溶液"
+      },
+      {
+        "index": 43,
+        "type": "paragraph",
+        "text": "Acrylamide                29g"
+      },
+      {
+        "index": 44,
+        "type": "paragraph",
+        "text": "Bis-Acrylamide                  1g"
+      },
+      {
+        "index": 45,
+        "type": "paragraph",
+        "text": "加去离子水，定容至 100ml 调整溶液 pH 值不超过 7.0，置棕色瓶中贮存于4℃。"
+      },
+      {
+        "index": 46,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 47,
+        "type": "paragraph",
+        "text": "4. 5×电泳液配方(1000ml)"
+      },
+      {
+        "index": 48,
+        "type": "paragraph",
+        "text": "Tris      15.1g"
+      },
+      {
+        "index": 49,
+        "type": "paragraph",
+        "text": "Glycine   94g"
+      },
+      {
+        "index": 50,
+        "type": "paragraph",
+        "text": "SDS       5.0g"
+      },
+      {
+        "index": 51,
+        "type": "paragraph",
+        "text": "加去离子水，定容至 1000ml"
+      },
+      {
+        "index": 52,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 53,
+        "type": "paragraph",
+        "text": "5.转膜液配方（1000ml）"
+      },
+      {
+        "index": 54,
+        "type": "paragraph",
+        "text": "Tris      5.8g"
+      },
+      {
+        "index": 55,
+        "type": "paragraph",
+        "text": "Glycine   2.9g"
+      },
+      {
+        "index": 56,
+        "type": "paragraph",
+        "text": "SDS       0.37g"
+      },
+      {
+        "index": 57,
+        "type": "paragraph",
+        "text": "甲醇      200ml"
+      },
+      {
+        "index": 58,
+        "type": "paragraph",
+        "text": "加去离子水，定容至 1000ml"
+      },
+      {
+        "index": 59,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 60,
+        "type": "paragraph",
+        "text": "6.1.0M Tris（pH 6.8）"
+      },
+      {
+        "index": 61,
+        "type": "paragraph",
+        "text": "Tris  121.1g"
+      },
+      {
+        "index": 62,
+        "type": "paragraph",
+        "text": "加入约800mL去离子水，加入浓盐酸调整溶液 pH 值为6.8，定容至1000mL，高温高压灭菌后室温保存。"
+      },
+      {
+        "index": 63,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 64,
+        "type": "paragraph",
+        "text": "7.1.5M Tris（pH 8.8）"
+      },
+      {
+        "index": 65,
+        "type": "paragraph",
+        "text": "Tris  181.7g"
+      },
+      {
+        "index": 66,
+        "type": "paragraph",
+        "text": "加入约800mL去离子水，加入浓盐酸调整溶液 pH 值为8.8，定容至1000mL，高温高压灭菌后室温保存。"
+      },
+      {
+        "index": 67,
+        "type": "paragraph",
+        "text": "二、实验主要试剂"
+      },
+      {
+        "index": 68,
+        "type": "table",
+        "rows": [
+          [
+            "品名",
+            "厂家",
+            "货号",
+            "批号",
+            "分子量"
+          ],
+          [
+            "RIPA细胞裂解液（强）",
+            "Beyotime",
+            "P0013B",
+            "040920200709",
+            ""
+          ],
+          [
+            "SDS",
+            "Solarbio",
+            "S8010",
+            "723T033",
+            ""
+          ],
+          [
+            "Glycine",
+            "Solarbio",
+            "G8200",
+            "516V061",
+            ""
+          ],
+          [
+            "PAGE胶促凝剂",
+            "Solarbio",
+            "T8090",
+            "1017M021",
+            ""
+          ],
+          [
+            "Tris",
+            "Solarbio",
+            "T8060",
+            "809C0730",
+            ""
+          ],
+          [
+            "Tween-20",
+            "Solarbio",
+            "T8220",
+            "1121S012",
+            ""
+          ],
+          [
+            "PVDF膜",
+            "Millipore",
+            "IPVH00010",
+            "ROBB27121",
+            ""
+          ],
+          [
+            "APS",
+            "BBI Life Sciences",
+            "A600072-0025",
+            "E508BA1004",
+            ""
+          ],
+          [
+            "Acrylamide",
+            "BBI Life Sciences",
+            "A601032-0250",
+            "FB08BA1001",
+            ""
+          ],
+          [
+            "Bis-Acrylamide",
+            "sigma",
+            "Bs0317",
+            "528J0214",
+            ""
+          ],
+          [
+            "PBS缓冲液粉末",
+            "Zs-BIO",
+            "ZLI-9062",
+            "20042001",
+            ""
+          ],
+          [
+            "预染蛋白Marker",
+            "Thermo",
+            "26616",
+            "00784045",
+            ""
+          ],
+          [
+            "Western一抗二抗去除液",
+            "Beyotime",
+            "P0025",
+            "051418180626",
+            ""
+          ],
+          [
+            "ECL超敏发光试剂盒",
+            "Thermo",
+            "34095",
+            "Vc298015",
+            ""
+          ],
+          [
+            "β-Actin",
+            "Zsbio",
+            "TA-09",
+            "201050615",
+            "42kDa"
+          ],
+          [
+            "山羊抗小鼠IgG",
+            "Zsbio",
+            "ZB-2305",
+            "140193",
+            ""
+          ],
+          [
+            "山羊抗兔IgG",
+            "Zsbio",
+            "ZB-2301",
+            "202700514",
+            ""
+          ],
+          [
+            "AT1R",
+            "Bioss",
+            "bs-0630R",
+            "AD10285711",
+            "39kDa"
+          ],
+          [
+            "RhoA",
+            "abcam",
+            "ab187027",
+            "GR3350077-2",
+            "22 kDa"
+          ],
+          [
+            "Rock1",
+            "Bioss",
+            "bs-1166R",
+            "AG10266562",
+            "158kDa"
+          ],
+          [
+            "Rock2",
+            "Bioss",
+            "bs-1205R",
+            "AH16220613",
+            "161kDa"
+          ],
+          [
+            "Nox1",
+            "Bioss",
+            "bs-3682R",
+            "AT19260015",
+            "62kDa"
+          ],
+          [
+            "Nox4",
+            "Bioss",
+            "bs-1091R",
+            "AF10371186",
+            "64kDa"
+          ]
+        ]
+      },
+      {
+        "index": 69,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 70,
+        "type": "paragraph",
+        "text": "三、实验器材"
+      },
+      {
+        "index": 71,
+        "type": "table",
+        "rows": [
+          [
+            "名称",
+            "厂家",
+            "型号"
+          ],
+          [
+            "自动制冰机",
+            "常熟市雪科电器有限公司 ",
+            "IMS-20"
+          ],
+          [
+            "电泳仪",
+            "上海天能科技有限公司(Tanon)",
+            "EPS300"
+          ],
+          [
+            "电泳槽",
+            "上海天能科技有限公司(Tanon)",
+            "VE-180"
+          ],
+          [
+            "转膜仪",
+            "上海天能科技有限公司(Tanon)",
+            "VE-186"
+          ],
+          [
+            "常温微量离心机",
+            "海门市其林贝尔仪器制造有限公司",
+            "LX 300"
+          ],
+          [
+            "高速冷冻离心机",
+            "安徽嘉文仪器装备有限公司",
+            "JW-3021HR"
+          ],
+          [
+            "pH计",
+            "梅特勒-托利多仪器（上海）有限公司",
+            ""
+          ],
+          [
+            "水平摇床",
+            "海门市其林贝尔仪器制造有限公司",
+            "TS-1000"
+          ],
+          [
+            "纯水机",
+            "上海和泰仪器有限公司",
+            "Master-S30 UF"
+          ],
+          [
+            "电热恒温鼓风干燥箱",
+            "上海三发科学仪器有限公司",
+            "DHG-9070"
+          ],
+          [
+            "电子天平",
+            "上海菁海仪器有限公司",
+            "FA2004N"
+          ],
+          [
+            "微量移液器",
+            "德国Eppendorf",
+            ""
+          ],
+          [
+            "磁力加热搅拌器",
+            "常州市人和仪器厂",
+            "JJ-79-1"
+          ],
+          [
+            "自动曝光仪",
+            "上海培清科技有限公司",
+            "JS-1070P"
+          ],
+          [
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "index": 72,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 73,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 74,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 75,
+        "type": "paragraph",
+        "text": "四、Western blot结果判读"
+      },
+      {
+        "index": 76,
+        "type": "paragraph",
+        "text": "    Image J软件进行胶片条带的分析，具体结果见结果分析！"
+      },
+      {
+        "index": 77,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 78,
+        "type": "paragraph",
+        "text": ""
+      }
+    ],
+    "media": []
+  },
+  {
+    "file": "实时荧光定量PCR报告.docx",
+    "sha256": "b2f784e07841135e48e6c98dcb3f245ab2f68f011be90f0458a71fbae4cc798e",
+    "body": [
+      {
+        "index": 0,
+        "type": "paragraph",
+        "text": "实时荧光定量PCR实验报告"
+      },
+      {
+        "index": 1,
+        "type": "paragraph",
+        "text": "实时荧光定量PCR实验步骤"
+      },
+      {
+        "index": 2,
+        "type": "paragraph",
+        "text": "RNA提取"
+      },
+      {
+        "index": 3,
+        "type": "paragraph",
+        "text": "1）称取组织50-100mg，剪碎，液氮研磨，加入1ml TRIzol裂解。"
+      },
+      {
+        "index": 4,
+        "type": "paragraph",
+        "text": "2）加入0.2mL氯仿，剧烈振荡15秒，室温放置5分钟。 "
+      },
+      {
+        "index": 5,
+        "type": "paragraph",
+        "text": "3）4℃ 12000rpm 离心10分钟，取上清（约500ul）加入到另一EP管中。"
+      },
+      {
+        "index": 6,
+        "type": "paragraph",
+        "text": "4）加入0.5mL预冷的异丙醇，温和混匀，冰上孵育30分钟。 "
+      },
+      {
+        "index": 7,
+        "type": "paragraph",
+        "text": "5）4℃ 12000rpm 离心15分钟，弃去上清。 "
+      },
+      {
+        "index": 8,
+        "type": "paragraph",
+        "text": "6）加入1mL预冷的 75℅乙醇。4℃ 12000rpm离心5分钟，弃上清。 "
+      },
+      {
+        "index": 9,
+        "type": "paragraph",
+        "text": "7）重复步骤6）。"
+      },
+      {
+        "index": 10,
+        "type": "paragraph",
+        "text": "8）室温干燥RNA沉淀，加入20-50 μL DEPC水, -80℃保存备用。 "
+      },
+      {
+        "index": 11,
+        "type": "paragraph",
+        "text": "RT反应"
+      },
+      {
+        "index": 12,
+        "type": "paragraph",
+        "text": "1） 去除基因组 DNA 反应：在0.2mL EP管中，加入总RNA（质量为1µg）、5×gDNA Eraser Buffer 2.0μL，gDNA Eraser 1.0μL，DEPC水补足至10μL，轻轻混匀、点动离心。"
+      },
+      {
+        "index": 13,
+        "type": "paragraph",
+        "text": "PCR仪上42℃加热2min，立即冰浴1min。"
+      },
+      {
+        "index": 14,
+        "type": "paragraph",
+        "text": "在上述EP管中加入PrimeScript RT Enzyme Mix I 1.0μL、RT Primer Mix 1.0μL、RNase Free dH2O 4.0μL、RevertAidTM M-MuLV Reverse Transcniptase 4.0μL。"
+      },
+      {
+        "index": 15,
+        "type": "paragraph",
+        "text": "37℃，15min；85℃，5s 。"
+      },
+      {
+        "index": 16,
+        "type": "paragraph",
+        "text": "取出上述反应液，即为cDNA，-80℃ 保存备用。"
+      },
+      {
+        "index": 17,
+        "type": "paragraph",
+        "text": "荧光定量PCR反应"
+      },
+      {
+        "index": 18,
+        "type": "paragraph",
+        "text": "1）取出cDNA作为荧光定量的模板，反应体系如下："
+      },
+      {
+        "index": 19,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 20,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 21,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 22,
+        "type": "table",
+        "rows": [
+          [
+            "体系",
+            "体积"
+          ],
+          [
+            "2×SYBR Green mixture",
+            "5uL"
+          ],
+          [
+            "Forward primer（10uM）Reverse primer （10uM）",
+            "1uL1uL"
+          ],
+          [
+            "cDNA",
+            "1uL"
+          ],
+          [
+            "RNase Free water",
+            "2uL"
+          ],
+          [
+            "Total",
+            "10uL"
+          ]
+        ]
+      },
+      {
+        "index": 23,
+        "type": "paragraph",
+        "text": "2）反应条件如下："
+      },
+      {
+        "index": 24,
+        "type": "table",
+        "rows": [
+          [
+            "温度",
+            "时间"
+          ],
+          [
+            "95℃",
+            "1min"
+          ],
+          [
+            "95℃",
+            "40 cycles",
+            "20s"
+          ],
+          [
+            "60℃",
+            "",
+            "1min"
+          ]
+        ]
+      },
+      {
+        "index": 25,
+        "type": "paragraph",
+        "text": "3）各检测指标引物"
+      },
+      {
+        "index": 26,
+        "type": "table",
+        "rows": [
+          [
+            "Gene",
+            "Amplicon Size（bp）",
+            "Forward primer（5'→3'）",
+            "Reverse primer（5'→3'）"
+          ],
+          [
+            "β-actin",
+            "150",
+            "CCCATCTATGAGGGTTACGC",
+            "TTTAATGTCACGCACGATTTC"
+          ],
+          [
+            "AT1-R",
+            "99",
+            "CTGGCATTTTGTCTGGAT",
+            "TTTTCTGGGTTGAGTTGG"
+          ],
+          [
+            "Nox1",
+            "84",
+            "GCTCCAGACCTCCATTTG",
+            "CAGCCCCAACCAAGAAAC"
+          ],
+          [
+            "Nox4",
+            "95",
+            "GGGTTAAACACCTCTGTC",
+            "GTAGTATTCTGGCCCTTG"
+          ],
+          [
+            "ROCK1",
+            "150",
+            "TCACAAGTAGCAGCATCA",
+            "CAGGAAAATCCAAATCAT"
+          ],
+          [
+            "ROCK2",
+            "95",
+            "GTCAGAGGAAGCTGGAGG",
+            "CAAATCAAGGACCAAGGA"
+          ],
+          [
+            "RhoA",
+            "88",
+            "GTTTATGTGCCCACGGTGTT",
+            "CAGCTGTGTCCCATAAAGCC"
+          ]
+        ]
+      },
+      {
+        "index": 27,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 28,
+        "type": "paragraph",
+        "text": "实验主要试剂"
+      },
+      {
+        "index": 29,
+        "type": "table",
+        "rows": [
+          [
+            "试剂",
+            "厂家",
+            "货号",
+            "批号"
+          ],
+          [
+            "Trizol",
+            "Life technogies",
+            "15596026",
+            "251804"
+          ],
+          [
+            "氯仿",
+            "上海苏懿化学试剂有限公司",
+            "",
+            "20161013"
+          ],
+          [
+            "无水乙醇",
+            "上海苏懿化学试剂有限公司",
+            "",
+            "20200101"
+          ],
+          [
+            "异丙醇",
+            "上海苏懿化学试剂有限公司",
+            "",
+            "20171030"
+          ],
+          [
+            "DEPC-H2O",
+            "Generay Biotech",
+            "D1007",
+            "1910G08"
+          ],
+          [
+            "Novostart SYBR qPCR SuperMix Plus",
+            "novoprotein",
+            "E096-01B",
+            "0516511"
+          ],
+          [
+            "PrimeScript™RT reagent Kitwith gDNA Eraser",
+            "TaKaRa",
+            " RR047A",
+            "AJ51485A"
+          ],
+          [
+            "引物合成",
+            "Sangon Biotech",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "index": 30,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 31,
+        "type": "paragraph",
+        "text": "实验器材"
+      },
+      {
+        "index": 32,
+        "type": "table",
+        "rows": [
+          [
+            "名称",
+            "厂家",
+            "型号"
+          ],
+          [
+            "普通PCR仪",
+            "杭州晶格科学仪器有限公司  ",
+            "K960"
+          ],
+          [
+            "低速迷你离心机",
+            "海门市其林贝尔仪器制造有限公司",
+            "LX 300"
+          ],
+          [
+            "高速台式冷冻离心机",
+            "安徽嘉文仪器装备有限公司",
+            "JW-3021HR"
+          ],
+          [
+            "微量移液器",
+            "德国Eppendorf",
+            ""
+          ],
+          [
+            "荧光定量PCR仪",
+            "Thermo  Scientific",
+            "PIKOREAL 96"
+          ],
+          [
+            "微孔板迷你离心机",
+            "杭州奥盛仪器有限公司",
+            "MINI-P25"
+          ],
+          [
+            "PIKO Plate Illuminator",
+            "Thermo  Scientific",
+            "10212432C"
+          ],
+          [
+            "超微量分光光度计",
+            "南京五义科技有限公司",
+            "OD1000+"
+          ]
+        ]
+      },
+      {
+        "index": 33,
+        "type": "paragraph",
+        "text": ""
+      },
+      {
+        "index": 34,
+        "type": "paragraph",
+        "text": "结果及分析"
+      },
+      {
+        "index": 35,
+        "type": "paragraph",
+        "text": "1、本次实验所使用的分析方法为：Relative Quantification Study，计算方法为2-△△Ct。"
+      },
+      {
+        "index": 36,
+        "type": "paragraph",
+        "text": "2、结果包括扩增曲线、溶解曲线以及相对表达量，详见结果分析表。"
+      },
+      {
+        "index": 37,
+        "type": "paragraph",
+        "text": "  "
+      },
+      {
+        "index": 38,
+        "type": "paragraph",
+        "text": ""
+      }
+    ],
+    "media": []
+  }
+]

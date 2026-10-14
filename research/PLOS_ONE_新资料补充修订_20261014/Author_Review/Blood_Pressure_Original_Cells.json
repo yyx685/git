@@ -1,0 +1,2675 @@
+[
+  {
+    "sheet": "Sheet1",
+    "cell": "A1",
+    "value": "模型组",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "模型组"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B1",
+    "value": "造模前",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "造模前"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C1",
+    "value": "1W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "1W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D1",
+    "value": "2W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "2W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E1",
+    "value": "3W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "3W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F1",
+    "value": "4W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "4W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H1",
+    "value": "对照组",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "对照组"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I1",
+    "value": "造模前",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "造模前"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J1",
+    "value": "1W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "1W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K1",
+    "value": "2W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "2W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "L1",
+    "value": "3W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "3W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M1",
+    "value": "4W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "4W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O1",
+    "value": "伪手术组",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "伪手术组"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P1",
+    "value": "造模前",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "造模前"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q1",
+    "value": "1W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "1W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R1",
+    "value": "2W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "2W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S1",
+    "value": "3W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "3W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T1",
+    "value": "4W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "4W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A2",
+    "value": "10号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "10号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B2",
+    "value": 114,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 114
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C2",
+    "value": 124,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 124
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D2",
+    "value": 126,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 126
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E2",
+    "value": 132,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 132
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F2",
+    "value": 140,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 140
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H2",
+    "value": "7号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "7号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I2",
+    "value": 107,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 107
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J2",
+    "value": 95,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 95
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K2",
+    "value": 109,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 109
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "L2",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M2",
+    "value": 129,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 129
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O2",
+    "value": 1,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 1
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P2",
+    "value": 104,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 104
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q2",
+    "value": 108,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R2",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S2",
+    "value": 105,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 105
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T2",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A3",
+    "value": "14号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "14号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B3",
+    "value": 105,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 105
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C3",
+    "value": 117,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 117
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D3",
+    "value": 130,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 130
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E3",
+    "value": 140,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 140
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F3",
+    "value": 140,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 140
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H3",
+    "value": "8号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "8号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I3",
+    "value": 90,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 90
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J3",
+    "value": 93,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 93
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K3",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "L3",
+    "value": 124,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 124
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M3",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O3",
+    "value": 2,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 2
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P3",
+    "value": 87,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 87
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q3",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R3",
+    "value": 102,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 102
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S3",
+    "value": 101,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 101
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T3",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A4",
+    "value": "25号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "25号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B4",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C4",
+    "value": 129,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 129
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D4",
+    "value": 130,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 130
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E4",
+    "value": 135,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 135
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F4",
+    "value": 147,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 147
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H4",
+    "value": "11号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "11号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I4",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J4",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K4",
+    "value": 119,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 119
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "L4",
+    "value": 127,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 127
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M4",
+    "value": 136,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 136
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O4",
+    "value": 3,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 3
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P4",
+    "value": 109,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 109
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q4",
+    "value": 109,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 109
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R4",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S4",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T4",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A5",
+    "value": "36号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "36号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B5",
+    "value": 108,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C5",
+    "value": 112,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 112
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D5",
+    "value": 127,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 127
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E5",
+    "value": 127,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 127
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F5",
+    "value": 145,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 145
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H5",
+    "value": "12号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "12号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I5",
+    "value": 97,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 97
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J5",
+    "value": 118,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 118
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K5",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "L5",
+    "value": 127,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 127
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M5",
+    "value": 130,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 130
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O5",
+    "value": 4,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 4
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P5",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q5",
+    "value": 95,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 95
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R5",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S5",
+    "value": 105,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 105
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T5",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A6",
+    "value": 52,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 52
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B6",
+    "value": 121,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 121
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C6",
+    "value": 131,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 131
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D6",
+    "value": 123,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 123
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F6",
+    "value": 154,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 154
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H6",
+    "value": "16号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "16号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I6",
+    "value": 108,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J6",
+    "value": 114,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 114
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K6",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "L6",
+    "value": 135,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 135
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M6",
+    "value": 135,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 135
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O6",
+    "value": 5,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 5
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P6",
+    "value": 108,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q6",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R6",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S6",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T6",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A7",
+    "value": 53,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 53
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B7",
+    "value": 117,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 117
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C7",
+    "value": 129,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 129
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D7",
+    "value": 131,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 131
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F7",
+    "value": 160,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 160
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H7",
+    "value": "23号",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "23号"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I7",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J7",
+    "value": 114,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 114
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K7",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "L7",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M7",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O7",
+    "value": 6,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 6
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P7",
+    "value": 95,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 95
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q7",
+    "value": 90,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 90
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R7",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S7",
+    "value": 112,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 112
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T7",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A8",
+    "value": 54,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 54
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B8",
+    "value": 107,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 107
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C8",
+    "value": 148,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 148
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F8",
+    "value": 152,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 152
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H8",
+    "value": 62,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 62
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I8",
+    "value": 75,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 75
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J8",
+    "value": 114,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 114
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M8",
+    "value": 134,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 134
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O8",
+    "value": 7,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 7
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P8",
+    "value": 113,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 113
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q8",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R8",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S8",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T8",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A9",
+    "value": 55,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 55
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B9",
+    "value": 113,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 113
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C9",
+    "value": 126,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 126
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E9",
+    "value": 154,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 154
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F9",
+    "value": 160,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 160
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H9",
+    "value": 69,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 69
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K9",
+    "value": 131,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 131
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O9",
+    "value": 8,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 8
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P9",
+    "value": 107,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 107
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q9",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R9",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S9",
+    "value": 111,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 111
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T9",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A10",
+    "value": 61,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 61
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B10",
+    "value": 90,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 90
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C10",
+    "value": 142,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 142
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E10",
+    "value": 150,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 150
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F10",
+    "value": 140,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 140
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H10",
+    "value": 71,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 71
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I10",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K10",
+    "value": 109,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 109
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M10",
+    "value": 132,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 132
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O10",
+    "value": 9,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 9
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P10",
+    "value": 112,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 112
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q10",
+    "value": 106,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 106
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R10",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S10",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T10",
+    "value": 125,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 125
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A11",
+    "value": 63,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 63
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B11",
+    "value": 94,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 94
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C11",
+    "value": 109,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 109
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E11",
+    "value": 140,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 140
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F11",
+    "value": 160,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 160
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H11",
+    "value": 77,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 77
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I11",
+    "value": 105,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 105
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K11",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "O11",
+    "value": 10,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 10
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P11",
+    "value": 75,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 75
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "Q11",
+    "value": 95,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 95
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "R11",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "S11",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "T11",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A12",
+    "value": 65,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 65
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B12",
+    "value": 108,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C12",
+    "value": 161,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 161
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D12",
+    "value": 142,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 142
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E12",
+    "value": 160,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 160
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F12",
+    "value": 143,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 143
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H12",
+    "value": 78,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 78
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I12",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K12",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "P12",
+    "value": 98.6666666666667,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 98.6666666666667
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A13",
+    "value": 72,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 72
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C13",
+    "value": 94,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 94
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E13",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F13",
+    "value": 170,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 170
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H13",
+    "value": 79,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 79
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "K13",
+    "value": 83,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 83
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M13",
+    "value": 68,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 68
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A14",
+    "value": "？21",
+    "type": "s",
+    "style_id": 1,
+    "number_format": "General",
+    "cached_value": "？21"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B14",
+    "value": 103,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 103
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C14",
+    "value": 142,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 142
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D14",
+    "value": 124,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 124
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E14",
+    "value": 133,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 133
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F14",
+    "value": 140,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 140
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H14",
+    "value": 83,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 83
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A15",
+    "value": 74,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 74
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D15",
+    "value": 130,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 130
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F15",
+    "value": 160,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 160
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H15",
+    "value": 84,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 84
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "M15",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A16",
+    "value": 10,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 10
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B16",
+    "value": 118,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 118
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E16",
+    "value": 122,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 122
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F16",
+    "value": 114,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 114
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A17",
+    "value": 22,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 22
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B17",
+    "value": 75,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 75
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C17",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E17",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F17",
+    "value": 122,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 122
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A18",
+    "value": 23,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 23
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B18",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C18",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D18",
+    "value": 116,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 116
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E18",
+    "value": 116,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 116
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F18",
+    "value": 135,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 135
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A19",
+    "value": 25,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 25
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B19",
+    "value": 85,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 85
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C19",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D19",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E19",
+    "value": 136,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 136
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F19",
+    "value": 140,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 140
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A20",
+    "value": 6,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 6
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B20",
+    "value": 80,
+    "type": "n",
+    "style_id": 2,
+    "number_format": "General",
+    "cached_value": 80
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C20",
+    "value": 99,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 99
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D20",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E20",
+    "value": 111,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 111
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F20",
+    "value": 125,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 125
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A21",
+    "value": 7,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 7
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B21",
+    "value": 92,
+    "type": "n",
+    "style_id": 2,
+    "number_format": "General",
+    "cached_value": 92
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C21",
+    "value": 108,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D21",
+    "value": 135,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 135
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E21",
+    "value": 132,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 132
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F21",
+    "value": 138,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 138
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A22",
+    "value": 13,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 13
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B22",
+    "value": 110,
+    "type": "n",
+    "style_id": 2,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C22",
+    "value": 102,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 102
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D22",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E22",
+    "value": 106,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 106
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F22",
+    "value": 136,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 136
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A23",
+    "value": 15,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 15
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B23",
+    "value": 116,
+    "type": "n",
+    "style_id": 2,
+    "number_format": "General",
+    "cached_value": 116
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C23",
+    "value": 108,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D23",
+    "value": 130,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 130
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E23",
+    "value": 117,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 117
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F23",
+    "value": 128,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 128
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A24",
+    "value": 20,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 20
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B24",
+    "value": 120,
+    "type": "n",
+    "style_id": 2,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C24",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D24",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E24",
+    "value": 115,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 115
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F24",
+    "value": 135,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 135
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A25",
+    "value": 21,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 21
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B25",
+    "value": 108,
+    "type": "n",
+    "style_id": 2,
+    "number_format": "General",
+    "cached_value": 108
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C25",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D25",
+    "value": 129,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 129
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E25",
+    "value": 127,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 127
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F25",
+    "value": 129,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 129
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B26",
+    "value": 99.7552685786722,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 99.7552685786722
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C26",
+    "value": 106.32370402837,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 106.32370402837
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D26",
+    "value": 118.997771339425,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 118.997771339425
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E26",
+    "value": 116.608396489829,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 116.608396489829
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F26",
+    "value": 129.93115942029,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 129.93115942029
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B30",
+    "value": "造模前",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "造模前"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C30",
+    "value": "1W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "1W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D30",
+    "value": "2W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "2W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E30",
+    "value": "3W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "3W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F30",
+    "value": "4W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "4W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "G30",
+    "value": "5W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "5W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H30",
+    "value": "6W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "6W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I30",
+    "value": "7W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "7W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J30",
+    "value": "8W",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "8W"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A31",
+    "value": "模型组",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "模型组"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B31",
+    "value": 99.7,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 99.7
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C31",
+    "value": 106.3,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 106.3
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D31",
+    "value": 119,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 119
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E31",
+    "value": 116.6,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 116.6
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F31",
+    "value": 142.4,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 142.4
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A32",
+    "value": "伪手术组",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "伪手术组"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "B32",
+    "value": 100.2,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100.2
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "C32",
+    "value": 109.7,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 109.7
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "D32",
+    "value": 112.8,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 112.8
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "E32",
+    "value": 124.7,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 124.7
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "F32",
+    "value": 121.4,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 121.4
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "A33",
+    "value": "复位组",
+    "type": "s",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": "复位组"
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "G33",
+    "value": 138,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 138
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "H33",
+    "value": 120,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 120
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "I33",
+    "value": 110,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 110
+  },
+  {
+    "sheet": "Sheet1",
+    "cell": "J33",
+    "value": 100,
+    "type": "n",
+    "style_id": 0,
+    "number_format": "General",
+    "cached_value": 100
+  }
+]

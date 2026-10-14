@@ -1,0 +1,85 @@
+{
+  "source": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/475015 血清活性氧ROS检测（绿色O12）  186.pdf",
+  "visual_qa": {
+    "pages_examined": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "all_pages_opened_original_resolution": true,
+    "source_version": "V8.6",
+    "rendered_paths": [
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/2_ROS-1.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/2_ROS-2.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/2_ROS-3.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/2_ROS-4.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/2_ROS-5.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/2_ROS-6.png"
+    ]
+  },
+  "confirmed_manual_content": [
+    {
+      "pages": [
+        1,
+        2
+      ],
+      "fact": "Serum ROS kit BB-475015; proprietary BBoxiProbe® O12 green fluorescent ROS probe. Chemicalidentity not specified."
+    },
+    {
+      "pages": [
+        2,
+        4,
+        5
+      ],
+      "fact": "Fluorescence readout, suitable fluorescence spectrophotometer/microplate reader. Maximum excitation/emission488/520nm on p2; allowed emission520±10nm on p4; explicit protocol step p5 says488ex/530em."
+    },
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "fact": "Onlyfreshserumintended; explicitlynotforlong-termfrozenserum. Doesnotquantifymaxholdingtimeanddoesnotcategoricallydiscusseveryshortfreeze-thawcondition."
+    },
+    {
+      "pages": [
+        1
+      ],
+      "fact": "Kit/probestorage−20°Cin darkness; positivecontrol−20°C. Thisisreagentstoragenotserumspecimenstorage."
+    },
+    {
+      "pages": [
+        3,
+        4
+      ],
+      "fact": "Separateproductsfortissuesarelisted,e.g.BB-470532O12tissuekit; supplied475015serumprotocoldoesnotvalidatematrix/applicationforRVLMtissue."
+    },
+    {
+      "pages": [
+        5
+      ],
+      "fact": "Protocolrecommends100uLfreshserum+10uL10folddilutedprobe(orrelevant1uLstockalternative);incubate37°Cprotectedlight15–30minthenFIreadout. Optionalpositivecontrolisdescribed;thisdoesnotestablishactualexecution."
+    },
+    {
+      "pages": [
+        3
+      ],
+      "fact": "DCFHDA(BB-4705)andDHR(BB-47052)areseparatekits;O12mustnotbeidentifiedasthosechemicals."
+    }
+  ],
+  "method_update_supported": {
+    "english": "ROS-associated fluorescence was measured using the kit-supplied BBoxiProbe® O12 probe (BestBio; cat. no. BB-475015), with excitation at 488 nm and emission at 530 nm.",
+    "chinese": "使用试剂盒配套的BBoxiProbe® O12荧光探针（BestBio，货号BB-475015）检测ROS相关荧光，激发波长488 nm，发射波长530 nm。",
+    "qualification": "Kitidentity/probenamearemanualsupported;actualkituse/wavelengthvalueswerepreviouslyconfirmedbyuser. Thissentencealone doesnotclaimadherencetoallmanualconditions orvalidatedtissueuse."
+  },
+  "limits_for_manuscript": [
+    "DonotlabelrelativeFIasabsoluteROSconcentrationnmol/mLwithoutcalibration;AUisappropriatefortheavailablefluorescencereadout.",
+    "Donotimport15–30minincubation,100uLvolumes,blackplate,pretestorpositivecontrolasactualprocedurewithoutbatchrecords/userconfirmation.",
+    "DonotclaimV8.6wasthehistoricalbatchversion;manualitselfwarnsthatsuppliedprintmanualandversionmaydiffer.",
+    "Ifusedfortissueasuserconfirmed,reportactualtissueprotocolandacknowledgeassaymatrixwasnotverifiedagainstthisserumkitmanual.Protein-normalizationdoesnotproveprobespecificityorRIPAmatrixcompatibility.",
+    "Freshness/holdingtime/freezingofactualserumsamplesrequiresactualrecordconfirmation;donottransfer−20°Ckitstoragetoserum.",
+    "NoactualinstrumentmodelorQCoutputsareprovidedbythemanual."
+  ]
+}

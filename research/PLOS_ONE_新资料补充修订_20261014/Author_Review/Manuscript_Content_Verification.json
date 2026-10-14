@@ -1,0 +1,80 @@
+{
+  "build": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_新资料补充修订_20261014/Manuscript_PLOS_ONE_中文.docx",
+      "sha256": "77d231437d04ca9d3a73f2986cf532c131ae0e4ef9b13015d2fae57bb7593707",
+      "comments": 0,
+      "author_queries": 0,
+      "native_equations": 1,
+      "paragraphs": 102
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_新资料补充修订_20261014/Manuscript_PLOS_ONE_English.docx",
+      "sha256": "8db94ba23ac91b6a11e1c359e184074be07f73609aa5893b9b84c505fb1a3406",
+      "comments": 0,
+      "author_queries": 0,
+      "native_equations": 1,
+      "paragraphs": 102
+    }
+  ],
+  "verification": [
+    {
+      "language": "zh",
+      "old_paragraphs": 100,
+      "new_paragraphs": 102,
+      "changed_blocks": [
+        [
+          "replace",
+          35,
+          36,
+          35,
+          38
+        ],
+        [
+          "replace",
+          37,
+          38,
+          39,
+          40
+        ],
+        [
+          "replace",
+          59,
+          60,
+          61,
+          62
+        ]
+      ],
+      "table_and_equation_unchanged": true
+    },
+    {
+      "language": "en",
+      "old_paragraphs": 100,
+      "new_paragraphs": 102,
+      "changed_blocks": [
+        [
+          "replace",
+          35,
+          36,
+          35,
+          38
+        ],
+        [
+          "replace",
+          37,
+          38,
+          39,
+          40
+        ],
+        [
+          "replace",
+          59,
+          60,
+          61,
+          62
+        ]
+      ],
+      "table_and_equation_unchanged": true
+    }
+  ]
+}

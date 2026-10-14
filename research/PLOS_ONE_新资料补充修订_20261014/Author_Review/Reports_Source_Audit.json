@@ -1,0 +1,66 @@
+{
+  "original_files": [
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/实验报告.doc",
+      "sha256": "00bf3a8bc445d618dbd4b64858be5b90dd2cafced5da8fa1461e9b032d602c1c"
+    },
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/实时荧光定量PCR报告.doc",
+      "sha256": "5d5bab729f60bf5e79942ac524d36047dfaeab7415ba5e7aa742958c99ecb4c0"
+    },
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/实时荧光定量PCR报告.docx",
+      "sha256": "0482b79a27e753c2d4eb561fb9b0befc74f9aaf8749f72c62617c0dbc5fdf67e"
+    }
+  ],
+  "western_blot_report": {
+    "content": "Method/protocol, six targets AT1R/RhoA/ROCK1/ROCK2/Nox1/Nox4, reagent lot/catalog list, instrument list; ImageJ results referred out to results analysis.",
+    "present": [
+      "RIPA P0013B +1mM PMSF; approx100mg per sample,1mL lysis;12000rpm10min",
+      "5–10uL loading per lane, no mass normalization given",
+      "PVDFMilliporeIPVH00010;5%milk2hRT;primaryovernight4C;HRPsecondary1:20000,RT1.2h;ECLThermo34095",
+      "AT1R bs-0630R1:1000;RhoAab1870271:5000;ROCK1bs-1166R1:1000;ROCK2bs-1205R1:1000;Nox1bs-3682R1:1000;Nox4bs-1091R1:1000;ActinTA-09;secondaryZB2305/ZB2301",
+      "imagingJS-1070P; no actual exposure settings"
+    ],
+    "absent": [
+      "animal/sampleIDs",
+      "groupn",
+      "biologicalrepeatcount",
+      "laneplan",
+      "bandimages",
+      "uncroppedmembranes",
+      "densitometryvalues",
+      "serumbiochemvalues",
+      "bloodpressurevalues",
+      "dateorbatchcover"
+    ]
+  },
+  "qpcr_new_doc": {
+    "present": [
+      "TRIzol50–100mgRNAprotocol",
+      "RR047A and inconsistent RevertAid in sameRTstep",
+      "primers7genes",
+      "10uLSYBRsystem95C1min40cycles95C20s60C1min",
+      "PIKOREAL96",
+      "generic result statement includesamplification/dissociationcurvesandrelativeexpression"
+    ],
+    "absent": [
+      "animal/sampleIDs",
+      "groupn",
+      "Ctdata",
+      "amplificationcurves",
+      "meltingcurves",
+      "meltprotocol",
+      "NTC/nRTexplicitrecords",
+      "efficiencyvalidation",
+      "referencegenevalidation",
+      "serumdata",
+      "bloodpressuredata",
+      "WBimages"
+    ],
+    "current_target_primers": "Nox1,Nox4,Actb exactly match bothold2022docxandcurrentcleanmanuscript.",
+    "additional_primers": "NewdochasRhoA/ROCK1/ROCK2;olddocxhasAngIIinstead.",
+    "reagent_batch_difference": "NewdocTrizol15596026lot251804;RR047AlotAJ51485A. Old2022docxTrizol15596018lot380706;RR047AlotAL50947A.",
+    "interpretation": "Methods report alone does not establish which batch generated adoptedCtvaluesorQCexecution/results. OldDOCX already contains same generic curve statement plus unparameterized Dissociation row; not new melting evidence."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "inspection_scope": "Read-only extraction; originals unchanged. Temporary DOCX is a conversion copy, not a manuscript or delivered edited source.",
+  "source_files": [
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/实验仪器.xls",
+      "sha256": "411f639dd8cb7ce89ef6e42688c0cbb905e7761d9cdcf0c87ee0937747a762d5"
+    },
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/HE染色实验步骤.doc",
+      "sha256": "ceeb7cccc6e74c754d0eac7b5ea4930e099d000666c83528a25fc6297e5eb407"
+    }
+  ],
+  "instrument_findings": {
+    "fluorescence_reader_present": false,
+    "plate_reader": "RT-6000, Rayto/雷杜; only plate reader named in table",
+    "named_oxidative_assay_reagents": [
+      {
+        "source_cell_range": "Sheet1!A15:C15",
+        "name": "总超氧化物歧化酶（SOD）",
+        "catalog": "A001-3",
+        "batch": "20201215",
+        "manufacturer": "南京建成生物工程研究院"
+      },
+      {
+        "source_cell_range": "Sheet1!A16:C16",
+        "name": "丙二醛（MDA）",
+        "catalog": "A003-1",
+        "batch": "20201215",
+        "manufacturer": "南京建成生物工程研究院"
+      },
+      {
+        "source_cell_range": "Sheet1!A17:C17",
+        "name": "血清活性氧ROS检测试剂盒",
+        "catalog": "475015",
+        "batch": "BB20111",
+        "manufacturer": "上海贝博生物"
+      }
+    ],
+    "conclusion": "Confirms source equipment/reagent list, does not establish the ROS fluorescence reader, mode, or wavelength used in the current cohort."
+  },
+  "HE_findings": {
+    "document_body_title": "石蜡切片HE染色实验报告",
+    "source_file_property_title": "石蜡切片免疫荧光实验报告",
+    "tissue_sample_identifiers": null,
+    "animal_counts": null,
+    "sections_per_animal": null,
+    "fields_per_section": null,
+    "group_selection": null,
+    "fixative_type_concentration": null,
+    "fixation_duration_temperature": null,
+    "section_thickness_um": null,
+    "image_pixel_calibration": null,
+    "scan_magnification": null,
+    "staining_parameters_present": {
+      "dewax": "three xylene baths, 15 min each",
+      "rehydration": "100%, 95%, 80% ethanol, 5 min each, then tap-water rinse",
+      "hematoxylin": "3–5 min",
+      "differentiation": "1% acid alcohol, a few seconds",
+      "blueing": "dilute lithium carbonate, 30 s",
+      "eosin": "alcoholic eosin, 10–30 s after 80% ethanol",
+      "dehydration": "95% ethanol I/II ~10 s each; absolute ethanol I/II 1–2 min each",
+      "clearing": "xylene I/II 1–2 min each",
+      "mounting": "neutral resin"
+    },
+    "named_stains": [
+      {
+        "name": "苏木素染色液",
+        "manufacturer": "Baso",
+        "catalog": "BA-4041",
+        "batch": "718034"
+      },
+      {
+        "name": "伊红染色液（醇溶性）",
+        "manufacturer": "Baso",
+        "catalog": "BA-4022",
+        "batch": "718011"
+      }
+    ],
+    "named_equipment": [
+      {
+        "name": "自动脱水机",
+        "manufacturer": "湖北亚光",
+        "model": "ZT-12M"
+      },
+      {
+        "name": "包埋机",
+        "manufacturer": "湖北亚光",
+        "model": "YB-7LF"
+      },
+      {
+        "name": "切片机",
+        "manufacturer": "Leica",
+        "model": "RM2016"
+      },
+      {
+        "name": "摊烤片机",
+        "manufacturer": "湖北亚光",
+        "model": "YT-7FB"
+      },
+      {
+        "name": "干燥箱",
+        "manufacturer": "上海三发",
+        "model": "DHG-9070"
+      },
+      {
+        "name": "显微镜",
+        "manufacturer": "OLYMPUS",
+        "model": "CX41"
+      }
+    ]
+  },
+  "differences_from_author_confirmations": [
+    {
+      "item": "4% PFA / 4°C / 24–48 h",
+      "author_prior_statement": "Reported by author",
+      "new_source": "Not present; neither confirms nor contradicts."
+    },
+    {
+      "item": "4 μm versus possible 5 μm",
+      "author_prior_statement": "4 μm",
+      "new_source": "No thickness reported anywhere in extracted body/tables; no evidence for 5 μm."
+    },
+    {
+      "item": "3–6 rats/group, 2–3 slides, ≥3 fields",
+      "author_prior_statement": "Ranges, not precise per-group counts",
+      "new_source": "No sample roster or quantitative counts; does not resolve exact n."
+    },
+    {
+      "item": "ROS model missing",
+      "author_prior_statement": "Fluorescence intensity; instrument model not retained",
+      "new_source": "No additional fluorescence instrument supplied; gap persists."
+    }
+  ],
+  "provenance_limitations": [
+    "The HE report contains generic step ranges and reagent/equipment lists, with no experiment-specific sample identifiers or date in its body.",
+    "File metadata last-save date is 2018 and reagent lots are 2018. These properties do not alone date the current experiment or prove the present cohort used all listed equipment.",
+    "The equipment spreadsheet property last-save date is 2021, reagent lots are 2020. These are source-document facts, not proof of the current cohort chronology.",
+    "Methods can be supplemented from these source procedures if the author confirms they were actually used for this cohort; do not treat source procedural wording as instructions to execute experiments."
+  ]
+}

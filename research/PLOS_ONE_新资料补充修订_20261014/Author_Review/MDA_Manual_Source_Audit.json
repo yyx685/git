@@ -1,0 +1,146 @@
+{
+  "source_pdf": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/丙二醛（MDA）.pdf",
+  "source_sha256": "8ded4c0ab75771866509496eb075ea0c4d1d2bcd4ec265955cc691ca534beda5",
+  "visual_review": {
+    "complete_pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "page_pngs": [
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-01.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-02.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-03.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-04.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-05.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-06.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-07.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-08.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-09.png",
+      "/tmp/codex-plos-newmaterials-20261014/manuals_audit/render/3_MDA-10.png"
+    ],
+    "result": "All complete source pages inspected; protocol table/footnotes verified against extracted text."
+  },
+  "document_role": "Manufacturer instructions, not an animal-specific assay run log.",
+  "direct_manual_support": [
+    {
+      "item": "Kit identity",
+      "value": "A003-1, TBA method",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "item": "Chemical detection principle",
+      "value": "MDA reacts with thiobarbituric acid to form a red product; absorbance maximum 532 nm.",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "item": "Supplied standard",
+      "value": "10 nmol/mL tetraethoxypropane (四乙氧基丙烷)",
+      "pages": [
+        3
+      ]
+    },
+    {
+      "item": "Equal sample/standard input",
+      "value": "a typically 0.1–0.2 mL; sample, standard, ethanol blank, and reagent1 aliquot volumes are equal.",
+      "pages": [
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "item": "Standard reaction conditions",
+      "value": "95°C water bath 40 min, cooling under running water, then 3500–4000 rpm centrifugation 10 min; collect supernatant for absorbance.",
+      "pages": [
+        4,
+        7
+      ]
+    },
+    {
+      "item": "Role of centrifugation",
+      "value": "Post-reaction precipitate clarification; not initial separation of serum from blood.",
+      "pages": [
+        4,
+        7,
+        8
+      ]
+    },
+    {
+      "item": "Recommended readout",
+      "value": "532 nm; 1 cm path applies to cuvette reading; page5 also describes 200 μL microplate-reader measurements.",
+      "pages": [
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "item": "Optional sample-specific control",
+      "value": "Dedicated sample-control tube can be omitted/replaced by blank for samples without hemolysis/lipemia; normal versus simplified methods differ in wording. Do not infer which was used in this study.",
+      "pages": [
+        5,
+        7
+      ]
+    },
+    {
+      "item": "Conditional longer reaction",
+      "value": "If absorbance is too low, 40 min may be extended to 80 min, consistently across that study. This is an optional branch, not evidence it was executed.",
+      "pages": [
+        5,
+        7
+      ]
+    },
+    {
+      "item": "Reference tissue sample concentration",
+      "value": "Reference example: 5% or 10% homogenates, 0.1–0.2 mL. These examples do not establish the current RVLM homogenization buffer, mass, dilution, or volume.",
+      "pages": [
+        5
+      ]
+    }
+  ],
+  "method_update_decisions": [
+    {
+      "item": "Wavelength",
+      "existing_current_report": "Actual report/current manuscript states530nm",
+      "new_manual": "532nm recommendation/maximum",
+      "decision": "Retain actual530nm. Do not silently replace with532nm or claim equal signal/sensitivity was independently validated."
+    },
+    {
+      "item": "Reaction heating and post-reaction spin",
+      "new_manual": "95°C40min;3500–4000rpm10min",
+      "decision": "Can describe manufacturer recommended protocol with explicit attribution. State as actual execution only if assay run record or author confirms it was followed."
+    },
+    {
+      "item": "Serum separation",
+      "decision": "Do not use post-TBA centrifugation parameters as blood-to-serum processing parameters."
+    },
+    {
+      "item": "Protein normalized formula",
+      "existing_current_analysis": "(A_sample-A_blank)/(A_standard-A_blank) × 10 nmol/mL ÷ protein concentration(mg/mL)",
+      "direct_formula_present_in_manual": false,
+      "decision": "Formula is supported by actual workbook/current analysis, with supplied standard concentration and equal sample/standard volume corroborated by manual. Do not cite the manual as containing that exact printed formula. Protein concentration must correspond to assayed homogenate; any separate dilution factor must come from actual preparation record."
+    },
+    {
+      "item": "No numerical change",
+      "decision": "Keep existingn6/current processed values and statistical results; no recalculation or reassignment required by merely supplying this manual."
+    }
+  ],
+  "formula_dimensional_check": "(dimensionless absorbance ratio × nmol/mL) ÷ (mg protein/mL) = nmol/mg protein; equal standard/sample aliquots cancel aliquot volume. This does not itself verify assay specificity or missing sample preparation parameters.",
+  "not_established": [
+    "Current cohort animal/sample IDs, n, timepoints, initial serum centrifugation conditions, actual sample aliquot, homogenization dilution, actual 40min versus80min branch, actual blank versus paired-control implementation."
+  ],
+  "proposed_safe_wording_chinese": "MDA采用硫代巴比妥酸（TBA）比色法检测（A003-1，南京建成生物工程研究所）。根据保留的检测记录，在530nm读取吸光度；试剂盒说明书列出的推荐波长为532nm。以10nmol/mL标准品进行换算，并按照同一样本的蛋白浓度归一化，结果以nmol/mg蛋白表示。",
+  "wording_caution": "Use proposed wording only alongside the actual assay record supporting530nm and workbook supporting the stated blank correction; do not transform optional manufacturer steps into confirmed execution."
+}
