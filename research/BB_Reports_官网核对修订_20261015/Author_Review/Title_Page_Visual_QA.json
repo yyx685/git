@@ -1,0 +1,18 @@
+{
+  "file": "Title_Page_BB_Reports.docx",
+  "reviewed_pages": [
+    1
+  ],
+  "page_count": 1,
+  "review_method": "Root visually inspected the full rendered page PNG at readable resolution",
+  "findings": [],
+  "status": "pass",
+  "checks": [
+    "lowercase a/b superscripts",
+    "complete author/affiliation/contact text",
+    "gene italics",
+    "black title and clean layout",
+    "no clipping or overlap"
+  ],
+  "sha256": "4bd44a906d50cab2b35cbac8220e46703ae95cd89df562e9865dd4fc79258fc1"
+}

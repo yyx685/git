@@ -1,0 +1,259 @@
+{
+  "audit_date": "2026-10-15",
+  "journal": "Biochemistry and Biophysics Reports",
+  "source": {
+    "url": "https://www.sciencedirect.com/journal/biochemistry-and-biophysics-reports/publish/guide-for-authors",
+    "evidence_file": "/tmp/codex-bbrep-official-20261015/BB_Reports_Guide_Official_Browser_Translated.pdf",
+    "evidence_sha256": "cdfb7375b7b2b204603ab54853c0e699bc0e688efab92b6de67face0a1907497",
+    "evidence_type": "Official page opened in Chrome and saved using the page Print Guide control; browser-rendered PDF, partly machine-translated into Chinese.",
+    "pages": 21,
+    "page_numbering": "1-based PDF page numbers",
+    "limitations": [
+      "Translation is imperfect; no policy conclusions were drawn from the visibly mistranslated prior-publication exceptions paragraph.",
+      "This is not a native English publisher PDF.",
+      "The full guide is retained only as temporary verification evidence, not as a deliverable or repository artifact."
+    ]
+  },
+  "requirements": [
+    {
+      "topic": "Scope and article type",
+      "pages": [
+        2,
+        3
+      ],
+      "status": "verified",
+      "rule": "Experimental descriptive, preliminary, replication, and reanalysis reports can fit the scope when reliable and methodologically sound. A Research article is the planned category. The 4600-word and four-figure limits apply specifically to Short Communications. The guide describes no general article-length restriction for regular open-access reports."
+    },
+    {
+      "topic": "Editorial review",
+      "pages": [
+        3,
+        4
+      ],
+      "status": "verified",
+      "rule": "Single-anonymized review follows an initial editorial assessment; suitable manuscripts are normally sent to at least one independent expert reviewer. Acceptance remains an editorial decision."
+    },
+    {
+      "topic": "Editable text files",
+      "pages": [
+        10,
+        19
+      ],
+      "status": "verified",
+      "rule": "Submit editable Word DOC/DOCX or LaTeX TEX source, rather than PDF as the manuscript. Word uses a single column. Include all artwork, captions, tables, and supplementary materials in the submission."
+    },
+    {
+      "topic": "Title page and affiliations",
+      "pages": [
+        10,
+        11
+      ],
+      "status": "verified",
+      "rule": "Provide title, full author names in the intended order, full institutional affiliations and postal addresses including country, and corresponding-author email. Link affiliations using lowercase superscript letters; numeric superscripts are reserved for present/permanent-address footnotes."
+    },
+    {
+      "topic": "Corresponding-author contact",
+      "pages": [
+        4,
+        11,
+        19
+      ],
+      "status": "verified_with_interpretation_limit",
+      "rule": "Designate one corresponding author to handle journal communications and serve as the primary contact; provide complete, current contact details. The guide does not expressly prohibit displaying an additional co-corresponding author in the manuscript. Retain established authorship and designate a single portal contact rather than silently deleting a co-corresponding designation."
+    },
+    {
+      "topic": "Abstract",
+      "pages": [
+        11
+      ],
+      "status": "verified",
+      "rule": "Maximum 250 words; summarize purpose, procedures, principal findings with statistical significance when appropriate, and conclusions. Make it standalone and explain uncommon abbreviations."
+    },
+    {
+      "topic": "Keywords",
+      "pages": [
+        11
+      ],
+      "status": "verified",
+      "rule": "Provide 1–7 English keywords. Prefer concise terms and avoid multiword constructions joined by and/of; abbreviations should be established."
+    },
+    {
+      "topic": "Highlights",
+      "pages": [
+        11
+      ],
+      "status": "verified_required",
+      "rule": "Submit a separate editable file with Highlights in its filename, containing 3–5 bullets of at most 85 characters each, including spaces."
+    },
+    {
+      "topic": "Graphical abstract",
+      "pages": [
+        11,
+        12
+      ],
+      "status": "verified_encouraged",
+      "rule": "Encouraged rather than mandatory. If supplied, upload separately, at least 1328 pixels wide with the longest side horizontal, readable at 13 cm width; preferred formats include TIFF/EPS/PDF/MS Office."
+    },
+    {
+      "topic": "Figures",
+      "pages": [
+        12,
+        13
+      ],
+      "status": "verified",
+      "rule": "Submit figures separately, number them in citation order, and provide captions explaining symbols and abbreviations. Vector EPS/PDF must embed fonts or convert text to graphics. Photographs need at least 300 dpi; bitmap line drawings need at least 1000 dpi."
+    },
+    {
+      "topic": "Tables and equations",
+      "pages": [
+        12
+      ],
+      "status": "verified",
+      "rule": "Tables and equations must remain editable. Cite and number tables, add captions and notes, and avoid vertical rules and cell shading. Use SI units or provide equivalents when other units are used."
+    },
+    {
+      "topic": "Supplementary files",
+      "pages": [
+        14
+      ],
+      "status": "verified",
+      "rule": "Cite all supplementary files in the article, submit them with the manuscript, provide concise descriptive captions, and ensure they are publication-ready because they are displayed as supplied."
+    },
+    {
+      "topic": "Funding",
+      "pages": [
+        6
+      ],
+      "status": "verified_required",
+      "rule": "Disclose all funding sources and identify the funder role in design, data collection, analysis/interpretation, writing, and submission decision. State explicitly when the funder had no such role."
+    },
+    {
+      "topic": "Competing-interest tool",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "verified_required",
+      "rule": "Complete the publisher declaration tool even if there are no interests. Upload its declaration as DOC/DOCX; author signatures are not required. A locally prepared declaration is not evidence that the online tool has been completed."
+    },
+    {
+      "topic": "AI manuscript disclosure",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "verified_required_when_used",
+      "rule": "Declare substantive generative-AI assistance in a separate section before the references, identifying the tool/service and purpose and confirming human review and author responsibility. AI cannot be an author."
+    },
+    {
+      "topic": "AI plots and experimental images",
+      "pages": [
+        8,
+        9,
+        14
+      ],
+      "status": "verified",
+      "rule": "Reproducible data visualizations derived from underlying data may be created with AI-assisted code. Disclose such use in the relevant caption and AI declaration. Do not use AI to fabricate or alter original experimental-image evidence; experimental-image processing must preserve scientific information."
+    },
+    {
+      "topic": "Research data",
+      "pages": [
+        15
+      ],
+      "status": "verified_option_B",
+      "rule": "Repository deposit and dataset citation/linking are encouraged under Option B. If sharing is not possible, explain why. A data-availability statement is encouraged and may independently be required by the funder or institution."
+    },
+    {
+      "topic": "Acknowledgments",
+      "pages": [
+        16
+      ],
+      "status": "verified",
+      "rule": "Place any actual acknowledgments in a separate section directly before the reference list. An empty Not applicable section can be omitted."
+    },
+    {
+      "topic": "CRediT",
+      "pages": [
+        16,
+        17
+      ],
+      "status": "verified_required",
+      "rule": "Identify each co-author contribution using applicable CRediT roles; authors may hold multiple roles."
+    },
+    {
+      "topic": "Internal appendices",
+      "pages": [
+        17
+      ],
+      "status": "verified",
+      "rule": "Appendices within the article use letters A/B and corresponding equation/table/figure numbering. This does not mandate changing the names of external supplementary scripts; Supplementary Code is an optional clearer label."
+    },
+    {
+      "topic": "References",
+      "pages": [
+        17,
+        18
+      ],
+      "status": "verified",
+      "rule": "Initial submissions can use any consistent reference style. Include complete applicable bibliographic metadata and available DOIs; ensure text citations and the reference list correspond."
+    },
+    {
+      "topic": "Sex and generalizability",
+      "pages": [
+        8
+      ],
+      "status": "verified",
+      "rule": "Report the relevance of biological sex to design and interpretation, or acknowledge limits on generalizability; do not invent a retrospective justification for male-only sampling."
+    }
+  ],
+  "not_found_in_this_guide": {
+    "mandatory_double_spacing": false,
+    "mandatory_line_numbers": false,
+    "specific_font_or_point_size": false,
+    "minimum_animal_sample_size_or_model_size": false,
+    "specific_AI_model_identifier_or_model_parameter_count": false,
+    "mandatory_ARRIVE_checklist_upload": false,
+    "interpretation": "These requirements were not stated in the inspected 21-page author guide; absence here does not override later submission-system prompts or applicable ethical/reporting standards.",
+    "postal_address_detail": "Full postal addresses including country are explicitly requested on page 11. A separate numeric postcode field, a fixed postcode length, or a rule requiring a street address was not expressly stated. Existing known postcodes should be retained."
+  },
+  "current_pack_checks": {
+    "path": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015",
+    "abstract_words": 241,
+    "keyword_count": 6,
+    "highlight_count": 4,
+    "highlight_character_counts_including_spaces": [
+      70,
+      62,
+      69,
+      75
+    ],
+    "verified_mismatches": [
+      "Affiliation links currently use 1/2 instead of lowercase letters.",
+      "Table 1 XML contains vertical cell borders and header shading.",
+      "Empty Acknowledgments/Not applicable appears before other declarations.",
+      "The funding sentence lists the grant but does not yet state the funder role."
+    ],
+    "author_confirmation_update": "Parent agent reports that the user has now confirmed the funder only supplied money and had no role in study design, data collection, analysis, writing, or publication decision; the revised funding statement can use this confirmation.",
+    "already_present": [
+      "CRediT contribution statement",
+      "Overall AI disclosure before references",
+      "AI code assistance disclosed in main figure and BP supplementary-figure captions",
+      "Data-availability explanation and reproducibility files",
+      "Separate Highlights, title page, cover letter, and competing-interest Word files"
+    ],
+    "remaining_submission_action": "Complete the publisher declaration tool during actual journal submission and designate one corresponding portal contact; no journal submission was performed in this audit."
+  },
+  "audit_scope": "Independent read-only policy and package comparison; no manuscript, README, or browser changes performed.",
+  "revision_resolution": {
+    "package": "/Users/yyx/Desktop/git/git/research/BB_Reports_官网核对修订_20261015",
+    "lowercase_affiliation_superscripts": "completed",
+    "tables_horizontal_rules_no_shading": "completed",
+    "empty_acknowledgments": "removed",
+    "funder_role": "author confirmed financial support only; no role statement inserted in both manuscripts",
+    "remaining_portal_steps": [
+      "complete official Declaration tool and upload its generated Word statement",
+      "designate one primary corresponding submission-system contact"
+    ],
+    "journal_submission_performed": false
+  }
+}

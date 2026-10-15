@@ -1,0 +1,132 @@
+{
+  "status": "pass",
+  "document": "/Users/yyx/Desktop/git/git/research/BB_Reports_官网核对修订_20261015/Manuscript_BB_Reports_中文.docx",
+  "document_sha256": "a796f7242e904c9493e7c0c717aa922a40637477d4bfb1f67612faf9ef267075",
+  "reviewed_render_directory": "/tmp/codex-bbrep-official-20261015/qa_zh",
+  "page_count": 18,
+  "review_method": "Individually viewed all 18 rendered PNG pages at original resolution with view_image; checked full page text, Chinese glyph rendering, line and page numbers, headings, gene italics, formula and table.",
+  "reviewed_pages": [
+    {
+      "page": 1,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-1.png",
+      "status": "pass",
+      "note": "Title, italic Nox1/Nox4, author a/b superscripts, affiliations and correspondence readable."
+    },
+    {
+      "page": 2,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-2.png",
+      "status": "pass",
+      "note": "Chinese abstract, six keywords and Introduction readable; no missing Chinese glyphs."
+    },
+    {
+      "page": 3,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-3.png",
+      "status": "pass",
+      "note": "Introduction/Methods and animal details readable; headings remain with following text."
+    },
+    {
+      "page": 4,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-4.png",
+      "status": "pass",
+      "note": "Group allocation, sample-size rationale and modeling methods readable."
+    },
+    {
+      "page": 5,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-5.png",
+      "status": "pass",
+      "note": "Model threshold, restoration, blood-pressure, sampling and HE methods readable."
+    },
+    {
+      "page": 6,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-6.png",
+      "status": "pass",
+      "note": "HE continuation, biochemical methods and RT-qPCR methods readable."
+    },
+    {
+      "page": 7,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-7.png",
+      "status": "pass",
+      "note": "Primer sequences, native Q=2^(-ΔCq) formula and statistics readable; Nox1/Nox4 italics visible."
+    },
+    {
+      "page": 8,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-8.png",
+      "status": "pass",
+      "note": "Statistics continuation, AI analytical disclosure, Results and HE description readable."
+    },
+    {
+      "page": 9,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-9.png",
+      "status": "pass",
+      "note": "Biochemical results and Table 1 readable; table has only horizontal rules, white cells and no vertical gridlines."
+    },
+    {
+      "page": 10,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-10.png",
+      "status": "pass",
+      "note": "RT-qPCR results and Discussion readable; italic gene labels maintained."
+    },
+    {
+      "page": 11,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-11.png",
+      "status": "pass",
+      "note": "Discussion continuation readable; no clipping at page bottom."
+    },
+    {
+      "page": 12,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-12.png",
+      "status": "pass",
+      "note": "Conclusions, funding, CRediT, conflicts and data availability readable. Funding states provider supplied funds only and had no role in design, collection/analysis, writing or submission decision."
+    },
+    {
+      "page": 13,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-13.png",
+      "status": "pass",
+      "note": "AI manuscript declaration directly before references; no empty Acknowledgments section. References readable."
+    },
+    {
+      "page": 14,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-14.png",
+      "status": "pass",
+      "note": "Reference continuation readable with intact DOI line wraps."
+    },
+    {
+      "page": 15,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-15.png",
+      "status": "pass",
+      "note": "Reference continuation readable with intact DOI line wraps."
+    },
+    {
+      "page": 16,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-16.png",
+      "status": "pass",
+      "note": "References end and figure legends readable; no heading orphan."
+    },
+    {
+      "page": 17,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-17.png",
+      "status": "pass",
+      "note": "Figure legend continuation and supplementary descriptions readable; italic Nox1/Nox4 present."
+    },
+    {
+      "page": 18,
+      "image": "/tmp/codex-bbrep-official-20261015/qa_zh/page-18.png",
+      "status": "pass",
+      "note": "Supplementary descriptions end cleanly; page number readable."
+    }
+  ],
+  "critical_or_material_defects": [],
+  "checks": {
+    "chinese_glyphs": "pass",
+    "no_clipping_or_overlap": "pass",
+    "heading_pagination": "pass",
+    "author_superscripts_a_b": "pass, page 1",
+    "table_horizontal_only_no_fill": "pass, page 9",
+    "native_formula_rendering": "pass, page 7",
+    "gene_italics": "pass",
+    "empty_acknowledgments_removed": "pass",
+    "confirmed_funder_role_present": "pass, page 12",
+    "page_number_sequence": "1–18, pass"
+  },
+  "limitations": "Visual layout QA only; no new scientific or animal-level source verification performed."
+}

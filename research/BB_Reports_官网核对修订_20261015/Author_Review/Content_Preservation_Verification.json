@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-15",
+  "source_package": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015",
+  "revised_package": "/Users/yyx/Desktop/git/git/research/BB_Reports_官网核对修订_20261015",
+  "changed_documents": {
+    "Manuscript_BB_Reports_English.docx": {
+      "source_sha256": "97c79f5289283589d7e874899a06a79a311856257a8af09af5e3a047ea4aae99",
+      "revision_sha256": "d79c0687c7eb7c33772fd60d9870a129eeb91f60236d8f8902f85bccaa59e6ba",
+      "table_cell_text_preserved": true,
+      "native_equations_preserved": true,
+      "scientific_prose_and_numbers_preserved": true,
+      "affiliation_style": "lowercase superscript a/b",
+      "empty_acknowledgments_removed": [
+        "Acknowledgments",
+        "Not applicable."
+      ],
+      "table_format": "horizontal rules only, no shading"
+    },
+    "Manuscript_BB_Reports_中文.docx": {
+      "source_sha256": "ddd7cb05567c4c29aac61e7f1d1d0f66e60452513599af9b7af816e00ceba04f",
+      "revision_sha256": "a796f7242e904c9493e7c0c717aa922a40637477d4bfb1f67612faf9ef267075",
+      "table_cell_text_preserved": true,
+      "native_equations_preserved": true,
+      "scientific_prose_and_numbers_preserved": true,
+      "affiliation_style": "lowercase superscript a/b",
+      "empty_acknowledgments_removed": [
+        "致谢",
+        "不适用。"
+      ],
+      "table_format": "horizontal rules only, no shading"
+    },
+    "Title_Page_BB_Reports.docx": {
+      "source_sha256": "2ca897fb5a91f0c03b14e556c896733fa034aa463fdf2c9fe5bc0ad25b813a03",
+      "revision_sha256": "4bd44a906d50cab2b35cbac8220e46703ae95cd89df562e9865dd4fc79258fc1",
+      "table_cell_text_preserved": true,
+      "native_equations_preserved": true,
+      "scientific_prose_and_numbers_preserved": true,
+      "affiliation_style": "lowercase superscript a/b",
+      "empty_acknowledgments_removed": [],
+      "table_format": null
+    }
+  },
+  "unchanged_files": [
+    {
+      "path": "Highlights_BB_Reports.docx",
+      "sha256": "7bd105366aeff2e7425058d34ed11deeda80d4787052374bfe81ac737e2467f0"
+    },
+    {
+      "path": "Cover_Letter_BB_Reports.docx",
+      "sha256": "798c6bd76c4f5e49f50ea339b9cdfec05e71b27e7aa5fffad80b971b488319a1"
+    },
+    {
+      "path": "Declaration_of_Competing_Interest.docx",
+      "sha256": "4e1b0c9195abdf3e54f21ca0ccfe9e32c97a60b359b98c4486b19d98ade10034"
+    },
+    {
+      "path": "Highlights_BB_Reports.txt",
+      "sha256": "12b8334c3416cc2ed3775b1f709016a95de7427436874e5bf1dfe2dd52c664f7"
+    },
+    {
+      "path": "Figures/Fig2.pdf",
+      "sha256": "43e9d50b530d958a8d30426a930b3c5f8f11c6b404bf12f05576621c29a8f73a"
+    },
+    {
+      "path": "Figures/Fig1.pdf",
+      "sha256": "06f09a2f7e3c120a5c1ee7e34f4f66586a458c6292add1d57296ef7720ed58ea"
+    },
+    {
+      "path": "Figures/Fig1.tif",
+      "sha256": "f2fbaa4c38b021447b21b03cabd18f996335751422a1a30799e1793b73da789f"
+    },
+    {
+      "path": "Figures/Fig2.tif",
+      "sha256": "9e68c8c6223d6993c992893ed7c162dec410b8b235c8367b0f860a184ec38c16"
+    },
+    {
+      "path": "Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d"
+    },
+    {
+      "path": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b"
+    },
+    {
+      "path": "Supporting_Information/S2_Fig_Archived_BP_Records.tif",
+      "sha256": "4f098d83806a9f671b789d142010ebe28727bf09a547b4baf3c204a33a65f267"
+    },
+    {
+      "path": "Supporting_Information/S1_Fig_HE_Illustrative_Images.tif",
+      "sha256": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc"
+    },
+    {
+      "path": "Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2"
+    },
+    {
+      "path": "Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "path": "Supporting_Information/S6_File_HE_Supplied_Composite.jpg",
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468"
+    },
+    {
+      "path": "Supporting_Information/Supplementary_Fig_S2.pdf",
+      "sha256": "e73ab8e81f1b7d9177277b1a34a1b621236ed7b376ea8a7c6d3a6604b62a1cea"
+    },
+    {
+      "path": "Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb"
+    },
+    {
+      "path": "Supporting_Information/S4_Appendix_Plot_Main_Figures.py",
+      "sha256": "f9bad1e667504ccde6f17aff50f7eb9c358bfb4a412556cdb2621507b9a17767"
+    },
+    {
+      "path": "Supporting_Information/S4_Data_Archived_BP_Entered_Summaries.csv",
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554"
+    },
+    {
+      "path": "Supporting_Information/S3_Appendix_Plot_Archived_BP.py",
+      "sha256": "7d3049297192e5dbca06c5a5da695dd9fd43b8ff447477967db95609934e5d3d"
+    },
+    {
+      "path": "Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18"
+    },
+    {
+      "path": "Supporting_Information/S3_Data_Archived_BP_Recorded_Values.csv",
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf"
+    },
+    {
+      "path": "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb"
+    }
+  ],
+  "funding_role_author_confirmation": "Funder provided financial support only; no role in design, data collection or analysis, writing, or submission decision.",
+  "data_or_statistical_changes": false,
+  "prior_visual_records": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015/Author_Review"
+}

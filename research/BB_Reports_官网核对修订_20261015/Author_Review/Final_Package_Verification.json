@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-15",
+  "documents": {
+    "Manuscript_BB_Reports_English.docx": {
+      "zip_integrity": true,
+      "no_review_markup": true,
+      "no_old_target_journal_name": true,
+      "editable_table_count": 1,
+      "native_math_count": 1,
+      "sha256": "d79c0687c7eb7c33772fd60d9870a129eeb91f60236d8f8902f85bccaa59e6ba"
+    },
+    "Manuscript_BB_Reports_中文.docx": {
+      "zip_integrity": true,
+      "no_review_markup": true,
+      "no_old_target_journal_name": true,
+      "editable_table_count": 1,
+      "native_math_count": 1,
+      "sha256": "a796f7242e904c9493e7c0c717aa922a40637477d4bfb1f67612faf9ef267075"
+    },
+    "Title_Page_BB_Reports.docx": {
+      "zip_integrity": true,
+      "no_review_markup": true,
+      "no_old_target_journal_name": true,
+      "editable_table_count": 0,
+      "native_math_count": 0,
+      "sha256": "4bd44a906d50cab2b35cbac8220e46703ae95cd89df562e9865dd4fc79258fc1"
+    }
+  },
+  "rendered_pages": {
+    "Manuscript_BB_Reports_English.docx": 23,
+    "Manuscript_BB_Reports_中文.docx": 18,
+    "Title_Page_BB_Reports.docx": 1
+  },
+  "unchanged_auxiliary_documents": [
+    {
+      "file": "Cover_Letter_BB_Reports.docx",
+      "sha256": "798c6bd76c4f5e49f50ea339b9cdfec05e71b27e7aa5fffad80b971b488319a1",
+      "visual_QA_reused_from": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015/Author_Review/Auxiliary_Files_Visual_QA.json",
+      "basis": "byte-identical previously verified file"
+    },
+    {
+      "file": "Declaration_of_Competing_Interest.docx",
+      "sha256": "4e1b0c9195abdf3e54f21ca0ccfe9e32c97a60b359b98c4486b19d98ade10034",
+      "visual_QA_reused_from": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015/Author_Review/Auxiliary_Files_Visual_QA.json",
+      "basis": "byte-identical previously verified file"
+    },
+    {
+      "file": "Highlights_BB_Reports.docx",
+      "sha256": "7bd105366aeff2e7425058d34ed11deeda80d4787052374bfe81ac737e2467f0",
+      "visual_QA_reused_from": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015/Author_Review/Auxiliary_Files_Visual_QA.json",
+      "basis": "byte-identical previously verified file"
+    }
+  ],
+  "all_data_figures_and_scripts_unchanged": true,
+  "scientific_numbers_table_cells_and_native_formula_preserved": true,
+  "content_preservation_record": "Content_Preservation_Verification.json",
+  "official_requirements_record": "Official_Guide_Verification.json",
+  "copyrighted_full_guide_included_in_package": false,
+  "journal_submission_performed": false
+}
