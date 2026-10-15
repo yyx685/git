@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "file": "Table_1_GPB.docx",
+      "sha256": "9a45781407271a2fba6ec0e07ccf0e8add74b0ac6c996f34855efe7dd367bec4",
+      "pages": 1,
+      "all_pages_inspected": true,
+      "observations": "Editable native Word table, horizontal rules, no shading; fit to page; caption and footnote separated clearly."
+    },
+    {
+      "file": "Cover_Letter_GPB.docx",
+      "sha256": "e7d7a6240c802be94b47db06e6f032a9b035cb4b1719ed1eb5f1cd252b158a89",
+      "pages": 1,
+      "all_pages_inspected": true,
+      "observations": "Complete cover letter fits one page; all text, contacts and signature readable."
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "date": "2026-10-15",
+  "source": "/Users/yyx/Desktop/git/git/research/BB_Reports_官网核对修订_20261015",
+  "outputs": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015/Manuscript_GPB_Short_Communication_English.docx",
+      "main_text_whitespace_words": 2941,
+      "main_paragraph_count": 25,
+      "abstract_words": 134,
+      "title_characters": 129,
+      "keywords": 5,
+      "no_main_text_section_headings": true
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015/Manuscript_GPB_Short_Communication_中文.docx",
+      "main_text_whitespace_words": 257,
+      "main_paragraph_count": 25,
+      "abstract_words": null,
+      "title_characters": 41,
+      "keywords": 5,
+      "no_main_text_section_headings": true
+    }
+  ],
+  "bibliography_count": 17,
+  "references_in_alphabetic_order": [
+    {
+      "old_number": 14,
+      "authors": "Chan SHH, Wu KLH, Chang AYW, Tai MH, Chan JYH",
+      "first_surname": "Chan",
+      "year": "2009",
+      "citation": "Chan et al. 2009",
+      "formatted": "Chan SHH, Wu KLH, Chang AYW, Tai MH, Chan JYH (2009): Oxidative impairment of mitochondrial electron transport chain complexes in rostral ventrolateral medulla contributes to neurogenic hypertension. Hypertension 53, 217–227. https://doi.org/10.1161/HYPERTENSIONAHA.108.116905",
+      "doi": "https://doi.org/10.1161/HYPERTENSIONAHA.108.116905",
+      "source": "[14] Chan SHH, Wu KLH, Chang AYW, Tai MH, Chan JYH. Oxidative impairment of mitochondrial electron transport chain complexes in rostral ventrolateral medulla contributes to neurogenic hypertension. Hypertension. 2009;53: 217–227. https://doi.org/10.1161/HYPERTENSIONAHA.108.116905"
+    },
+    {
+      "old_number": 28,
+      "authors": "Chao YM, Rauchová H, Chan JYH",
+      "first_surname": "Chao",
+      "year": "2022",
+      "citation": "Chao et al. 2022",
+      "formatted": "Chao YM, Rauchová H, Chan JYH (2022): Disparate roles of oxidative stress in rostral ventrolateral medulla in age-dependent susceptibility to hypertension induced by systemic l-NAME treatment in rats. Biomedicines 10, 2232. https://doi.org/10.3390/biomedicines10092232",
+      "doi": "https://doi.org/10.3390/biomedicines10092232",
+      "source": "[28] Chao YM, Rauchová H, Chan JYH. Disparate roles of oxidative stress in rostral ventrolateral medulla in age-dependent susceptibility to hypertension induced by systemic l-NAME treatment in rats. Biomedicines. 2022;10: 2232. https://doi.org/10.3390/biomedicines10092232"
+    },
+    {
+      "old_number": 26,
+      "authors": "Cordiano R, Di Gioacchino M, Mangifesta R, Panzera C, Gangemi S, Minciullo PL",
+      "first_surname": "Cordiano",
+      "year": "2023",
+      "citation": "Cordiano et al. 2023",
+      "formatted": "Cordiano R, Di Gioacchino M, Mangifesta R, Panzera C, Gangemi S, Minciullo PL (2023): Malondialdehyde as a potential oxidative stress marker for allergy-oriented diseases: an update. Molecules 28, 5979. https://doi.org/10.3390/molecules28165979",
+      "doi": "https://doi.org/10.3390/molecules28165979",
+      "source": "[26] Cordiano R, Di Gioacchino M, Mangifesta R, Panzera C, Gangemi S, Minciullo PL. Malondialdehyde as a potential oxidative stress marker for allergy-oriented diseases: an update. Molecules. 2023;28: 5979. https://doi.org/10.3390/molecules28165979"
+    },
+    {
+      "old_number": 12,
+      "authors": "Dampney RAL, Tan PSP, Sheriff MJ, Fontes MAP, Horiuchi J",
+      "first_surname": "Dampney",
+      "year": "2007",
+      "citation": "Dampney et al. 2007",
+      "formatted": "Dampney RAL, Tan PSP, Sheriff MJ, Fontes MAP, Horiuchi J (2007): Cardiovascular effects of angiotensin II in the rostral ventrolateral medulla: the push-pull hypothesis. Curr Hypertens Rep 9, 222–227. https://doi.org/10.1007/s11906-007-0040-4",
+      "doi": "https://doi.org/10.1007/s11906-007-0040-4",
+      "source": "[12] Dampney RAL, Tan PSP, Sheriff MJ, Fontes MAP, Horiuchi J. Cardiovascular effects of angiotensin II in the rostral ventrolateral medulla: the push-pull hypothesis. Curr Hypertens Rep. 2007;9: 222–227. https://doi.org/10.1007/s11906-007-0040-4"
+    },
+    {
+      "old_number": 7,
+      "authors": "Franco C, Sciatti E, Favero G, Bonomini F, Vizzardi E, Rezzani R",
+      "first_surname": "Franco",
+      "year": "2022",
+      "citation": "Franco et al. 2022",
+      "formatted": "Franco C, Sciatti E, Favero G, Bonomini F, Vizzardi E, Rezzani R (2022): Essential hypertension and oxidative stress: novel future perspectives. Int J Mol Sci 23, 14489. https://doi.org/10.3390/ijms232214489",
+      "doi": "https://doi.org/10.3390/ijms232214489",
+      "source": "[7] Franco C, Sciatti E, Favero G, Bonomini F, Vizzardi E, Rezzani R. Essential hypertension and oxidative stress: novel future perspectives. Int J Mol Sci. 2022;23: 14489. https://doi.org/10.3390/ijms232214489"
+    },
+    {
+      "old_number": 21,
+      "authors": "Gao L, Wang W, Li YL, Schultz HD, Liu D, Cornish KG, et al.",
+      "first_surname": "Gao",
+      "year": "2004",
+      "citation": "Gao et al. 2004",
+      "formatted": "Gao L, Wang W, Li YL, Schultz HD, Liu D, Cornish KG, et al. (2004): Superoxide mediates sympathoexcitation in heart failure: roles of angiotensin II and NAD(P)H oxidase. Circ Res 95, 937–944. https://doi.org/10.1161/01.RES.0000146676.04359.64",
+      "doi": "https://doi.org/10.1161/01.RES.0000146676.04359.64",
+      "source": "[21] Gao L, Wang W, Li YL, Schultz HD, Liu D, Cornish KG, et al. Superoxide mediates sympathoexcitation in heart failure: roles of angiotensin II and NAD(P)H oxidase. Circ Res. 2004;95: 937–944. https://doi.org/10.1161/01.RES.0000146676.04359.64"
+    },
+    {
+      "old_number": 8,
+      "authors": "Guzik TJ, Touyz RM",
+      "first_surname": "Guzik",
+      "year": "2017",
+      "citation": "Guzik and Touyz 2017",
+      "formatted": "Guzik TJ, Touyz RM (2017): Oxidative stress, inflammation, and vascular aging in hypertension. Hypertension 70, 660–667. https://doi.org/10.1161/HYPERTENSIONAHA.117.07802",
+      "doi": "https://doi.org/10.1161/HYPERTENSIONAHA.117.07802",
+      "source": "[8] Guzik TJ, Touyz RM. Oxidative stress, inflammation, and vascular aging in hypertension. Hypertension. 2017;70: 660–667. https://doi.org/10.1161/HYPERTENSIONAHA.117.07802"
+    },
+    {
+      "old_number": 6,
+      "authors": "He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, et al.",
+      "first_surname": "He",
+      "year": "2017",
+      "citation": "He et al. 2017",
+      "formatted": "He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, et al. (2017): Atlantoaxial misalignment causes high blood pressure in rats: a novel hypertension model. Biomed Res Int 2017, 5986957. https://doi.org/10.1155/2017/5986957",
+      "doi": "https://doi.org/10.1155/2017/5986957",
+      "source": "[6] He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, et al. Atlantoaxial misalignment causes high blood pressure in rats: a novel hypertension model. Biomed Res Int. 2017;2017: 5986957. https://doi.org/10.1155/2017/5986957"
+    },
+    {
+      "old_number": 15,
+      "authors": "Huang YP, Jin HY, Yu HP",
+      "first_surname": "Huang",
+      "year": "2017",
+      "citation": "Huang et al. 2017",
+      "formatted": "Huang YP, Jin HY, Yu HP (2017): Inhibitory effects of alpha-lipoic acid on oxidative stress in the rostral ventrolateral medulla in rats with salt-induced hypertension. Int J Mol Med 39, 430–436. https://doi.org/10.3892/ijmm.2016.2846",
+      "doi": "https://doi.org/10.3892/ijmm.2016.2846",
+      "source": "[15] Huang YP, Jin HY, Yu HP. Inhibitory effects of alpha-lipoic acid on oxidative stress in the rostral ventrolateral medulla in rats with salt-induced hypertension. Int J Mol Med. 2017;39: 430–436. https://doi.org/10.3892/ijmm.2016.2846"
+    },
+    {
+      "old_number": 24,
+      "authors": "Incalza MA, D'Oria R, Natalicchio A, Perrini S, Laviola L, Giorgino F",
+      "first_surname": "Incalza",
+      "year": "2018",
+      "citation": "Incalza et al. 2018",
+      "formatted": "Incalza MA, D'Oria R, Natalicchio A, Perrini S, Laviola L, Giorgino F (2018): Oxidative stress and reactive oxygen species in endothelial dysfunction associated with cardiovascular and metabolic diseases. Vascul Pharmacol 100, 1–19. https://doi.org/10.1016/j.vph.2017.05.005",
+      "doi": "https://doi.org/10.1016/j.vph.2017.05.005",
+      "source": "[24] Incalza MA, D'Oria R, Natalicchio A, Perrini S, Laviola L, Giorgino F. Oxidative stress and reactive oxygen species in endothelial dysfunction associated with cardiovascular and metabolic diseases. Vascul Pharmacol. 2018;100: 1–19. https://doi.org/10.1016/j.vph.2017.05.005"
+    },
+    {
+      "old_number": 1,
+      "authors": "Kalb S, Zaidi HA, Ribas-Nijkerk JC, Sindhwani MK, Clark JC, Martirosyan NL, et al.",
+      "first_surname": "Kalb",
+      "year": "2015",
+      "citation": "Kalb et al. 2015",
+      "formatted": "Kalb S, Zaidi HA, Ribas-Nijkerk JC, Sindhwani MK, Clark JC, Martirosyan NL, et al. (2015): Persistent outpatient hypertension is independently associated with spinal cord dysfunction and imaging characteristics of spinal cord damage among patients with cervical spondylosis. World Neurosurg 84, 351–357. https://doi.org/10.1016/j.wneu.2015.03.030",
+      "doi": "https://doi.org/10.1016/j.wneu.2015.03.030",
+      "source": "[1] Kalb S, Zaidi HA, Ribas-Nijkerk JC, Sindhwani MK, Clark JC, Martirosyan NL, et al. Persistent outpatient hypertension is independently associated with spinal cord dysfunction and imaging characteristics of spinal cord damage among patients with cervical spondylosis. World Neurosurg. 2015;84: 351–357. https://doi.org/10.1016/j.wneu.2015.03.030"
+    },
+    {
+      "old_number": 17,
+      "authors": "Kalsoom UE, Jin J, Meng W, Su Y, Wu C, Wu Q",
+      "first_surname": "Kalsoom",
+      "year": "2026",
+      "citation": "Kalsoom et al. 2026",
+      "formatted": "Kalsoom UE, Jin J, Meng W, Su Y, Wu C, Wu Q (2026): The role of NADPH oxidases in central nervous system regulation of hypertension: mechanisms and therapeutic insights. Biomed Pharmacother 196, 119096. https://doi.org/10.1016/j.biopha.2026.119096",
+      "doi": "https://doi.org/10.1016/j.biopha.2026.119096",
+      "source": "[17] Kalsoom UE, Jin J, Meng W, Su Y, Wu C, Wu Q. The role of NADPH oxidases in central nervous system regulation of hypertension: mechanisms and therapeutic insights. Biomed Pharmacother. 2026;196: 119096. https://doi.org/10.1016/j.biopha.2026.119096"
+    },
+    {
+      "old_number": 23,
+      "authors": "Livak KJ, Schmittgen TD",
+      "first_surname": "Livak",
+      "year": "2001",
+      "citation": "Livak and Schmittgen 2001",
+      "formatted": "Livak KJ, Schmittgen TD (2001): Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method. Methods 25, 402–408. https://doi.org/10.1006/meth.2001.1262",
+      "doi": "https://doi.org/10.1006/meth.2001.1262",
+      "source": "[23] Livak KJ, Schmittgen TD. Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method. Methods. 2001;25: 402–408. https://doi.org/10.1006/meth.2001.1262"
+    },
+    {
+      "old_number": 22,
+      "authors": "Lv YK, Wu ZJ, Yang B, Gao DP, He ZB",
+      "first_surname": "Lv",
+      "year": "2026",
+      "citation": "Lv et al. 2026",
+      "formatted": "Lv YK, Wu ZJ, Yang B, Gao DP, He ZB (2026): Expression of angiotensin II and angiotensin II type 1 receptor in rostral ventrolateral medulla in a rat model of atlantoaxial joint disorder-induced hypertension. Byull Eksp Biol Med 181(5), 546–550. https://doi.org/10.47056/0365-9615-2026-181-5-546-550",
+      "doi": "https://doi.org/10.47056/0365-9615-2026-181-5-546-550",
+      "source": "[22] Lv YK, Wu ZJ, Yang B, Gao DP, He ZB. Expression of angiotensin II and angiotensin II type 1 receptor in rostral ventrolateral medulla in a rat model of atlantoaxial joint disorder-induced hypertension. Byull Eksp Biol Med. 2026;181(5): 546–550. https://doi.org/10.47056/0365-9615-2026-181-5-546-550"
+    },
+    {
+      "old_number": 25,
+      "authors": "Marrocco I, Altieri F, Peluso I",
+      "first_surname": "Marrocco",
+      "year": "2017",
+      "citation": "Marrocco et al. 2017",
+      "formatted": "Marrocco I, Altieri F, Peluso I (2017): Measurement and clinical significance of biomarkers of oxidative stress in humans. Oxid Med Cell Longev 2017, 6501046. https://doi.org/10.1155/2017/6501046",
+      "doi": "https://doi.org/10.1155/2017/6501046",
+      "source": "[25] Marrocco I, Altieri F, Peluso I. Measurement and clinical significance of biomarkers of oxidative stress in humans. Oxid Med Cell Longev. 2017;2017: 6501046. https://doi.org/10.1155/2017/6501046"
+    },
+    {
+      "old_number": 11,
+      "authors": "Wenker IC, Abe C, Viar KE, Stornetta DS, Stornetta RL, Guyenet PG",
+      "first_surname": "Wenker",
+      "year": "2017",
+      "citation": "Wenker et al. 2017",
+      "formatted": "Wenker IC, Abe C, Viar KE, Stornetta DS, Stornetta RL, Guyenet PG (2017): Blood pressure regulation by the rostral ventrolateral medulla in conscious rats: effects of hypoxia, hypercapnia, baroreceptor denervation, and anesthesia. J Neurosci 37, 4565–4583. https://doi.org/10.1523/JNEUROSCI.3922-16.2017",
+      "doi": "https://doi.org/10.1523/JNEUROSCI.3922-16.2017",
+      "source": "[11] Wenker IC, Abe C, Viar KE, Stornetta DS, Stornetta RL, Guyenet PG. Blood pressure regulation by the rostral ventrolateral medulla in conscious rats: effects of hypoxia, hypercapnia, baroreceptor denervation, and anesthesia. J Neurosci. 2017;37: 4565–4583. https://doi.org/10.1523/JNEUROSCI.3922-16.2017"
+    },
+    {
+      "old_number": 19,
+      "authors": "Yan JQ, Huang F, Hao F, Su XL, Meng Q, Xu MJ",
+      "first_surname": "Yan",
+      "year": "2017",
+      "citation": "Yan et al. 2017",
+      "formatted": "Yan JQ, Huang F, Hao F, Su XL, Meng Q, Xu MJ (2017): Oxidative stress in the rostral ventrolateral medulla contributes to cardiovascular regulation in preeclampsia. Front Physiol 8, 772. https://doi.org/10.3389/fphys.2017.00772",
+      "doi": "https://doi.org/10.3389/fphys.2017.00772",
+      "source": "[19] Yan JQ, Huang F, Hao F, Su XL, Meng Q, Xu MJ. Oxidative stress in the rostral ventrolateral medulla contributes to cardiovascular regulation in preeclampsia. Front Physiol. 2017;8: 772. https://doi.org/10.3389/fphys.2017.00772"
+    }
+  ],
+  "author_year_conversion": true,
+  "user_Chinese_edit_handling": "Original working file untouched. Deleted standalone AI subsection not restored; actual assistance consolidated into a concise final declaration. Native equation copied from working Chinese source.",
+  "source_english_sha256": "d79c0687c7eb7c33772fd60d9870a129eeb91f60236d8f8902f85bccaa59e6ba",
+  "source_chinese_working_sha256": "efc0d783e7e63269d6165d82e2e63e4922bc97665433d4dc41368a044273fe2d",
+  "source_chinese_head_sha256": "a796f7242e904c9493e7c0c717aa922a40637477d4bfb1f67612faf9ef267075",
+  "body_content_source_mapping": [
+    [
+      "Cervical abnormalities have been associated with hypertension clinically [1], but the underlying relationships remain uncertain. A rat model using a metal implant in the atlantoaxial joint was previously associated with joint instability and elevated blood pressure [6]. Oxidative stress contributes to vascular and autonomic abnormalities in hypertension [7,8,24]. The rostral ventrolateral medulla (RVLM) regulates sympathetic vasomotor tone [11], and experimental studies have linked RVLM redox disturbances and NADPH oxidase (NOX) signaling to neurogenic hypertension [14,15,17,19]. These observations provide a rationale for examining regional redox indices in the atlantoaxial model.",
+      "临床研究曾报告颈椎异常与高血压的关联[1]，但其联系仍不明确。既往在大鼠寰枢关节内植入金属异物建立的模型伴有关节失稳与血压升高[6]。氧化应激参与高血压中的血管及自主神经异常[7,8,24]。头端延髓腹外侧区（RVLM）调节交感缩血管张力[11]；实验研究将RVLM氧化还原紊乱及NADPH氧化酶（NOX）信号与神经源性高血压联系起来[14,15,17,19]，为考察本模型的区域氧化还原指标提供了依据。"
+    ],
+    [
+      "We analyzed superoxide dismutase (SOD), malondialdehyde (MDA), probe-associated fluorescence, and Nox1/Nox4 mRNA in medullary blocks containing the RVLM and adjacent tissue. A restoration group was examined at a later endpoint after implant removal. A related report described Ang II/AT1-R-associated signals in this model [22]; blood-pressure observations were shared with that report, whereas the biochemical and transcript analyses presented here were not reported there. Available H&E images and blood-pressure archives are provided descriptively (Supplementary Figs. S1 and S2). This study characterizes regional associations rather than testing a NOX-dependent sympathetic mechanism.",
+      "本研究检测含RVLM及邻近组织的延髓块中的超氧化物歧化酶（SOD）、丙二醛（MDA）、探针相关荧光及Nox1/Nox4 mRNA，并观察异物取出后较晚终点的复位组。相关论文曾报告该模型中Ang II/AT1-R相关信号[22]；两文共享来源实验的血压观察，本稿生化及转录本分析未在该文报告。现有HE图像与血压存档仅作描述性补充（补充图S1、S2）。本研究旨在描述区域关联，未检验NOX依赖性交感神经机制。"
+    ],
+    18,
+    19,
+    [
+      "The parent experiment numbered 60 rats and allocated them by random numbers to sham operation (10) or model induction (50). All sham rats survived. During model induction, 6 rats died during surgery and 3 afterward; 41 survived, including 7 with implant loss and 34 with retained implants. After imaging and blood-pressure screening on day 28, successfully modeled rats were assigned by random numbers to model, restoration, and superior cervical ganglion resection groups of 10. The disposition of the remaining 4 rats with retained implants was undocumented. This report includes only sham, model, and restoration rats, initially 10 per group; ganglion-resection and electrophysiological results are not presented.",
+      "来源实验将60只大鼠编号，采用随机数字法分配至伪手术组10只和造模队列50只。伪手术大鼠全部存活；造模过程中死亡6只，其后死亡3只，存活41只，其中7只异物脱落、34只异物在位。第28天经影像和血压筛选后，将造模成功动物采用随机数字法分至模型、复位及颈上神经节切除组，每组10只。余下4只异物在位动物的后续去向无记录。本报告仅纳入伪手术、模型及复位组，最初各10只；不报告神经节切除及电生理结果。"
+    ],
+    [
+      "The implant was removed from restoration rats on day 28. Terminal sampling was on day 28 for sham and model rats and day 56 for restoration rats, without a time-matched second-surgery sham group. Each biochemical endpoint and RT-qPCR included 6 randomly selected independent rats per group, processed separately without cross-animal pooling. Target and reference Cq values were paired within each rat and measured once each. Original animal identifiers could not be matched to assay samples; numerical record order cannot establish pairing across assays or fully reconstruct premeasurement exclusions. The parent design allowed for preliminary estimates of 18% mortality and 17% implant loss to obtain at least 30 modeled rats. No single primary endpoint or formal outcome-based a priori sample-size calculation was specified.",
+      "复位组于第28天取出异物。伪手术及模型组于第28天终末取样，复位组于第56天取样，未设置时间匹配的二次假手术组。各生化终点及RT-qPCR每组随机选取6只独立大鼠，分别处理，不跨动物混样；靶标与内参Cq在同一动物内配对，各测一次。原始动物编号无法与检测样本匹配，数值排列不能建立跨检测配对或完整追溯测量前排除。来源设计参照预实验估计的18%死亡率及17%异物脱落率，以获得至少30只造模成功动物；未预先指定单一主要终点，也未作基于终点的正式事前样本量计算。"
+    ],
+    27,
+    28,
+    [
+      "Restoration rats underwent implant removal on day 28 under the same isoflurane anesthesia. The joint was re-exposed through the original anterior approach, the head rotated rightward, and the implant removed with a needle holder before closure. Postoperative penicillin treatment was unchanged, and no postoperative analgesics were given. Systolic pressure for model screening was measured by tail cuff (IITC Life Science) at baseline and on days 7, 14, 21, and 28. The chamber was prewarmed for 10 min at 30°C; rats rested in a restrainer for 15 min. BPmon Win monitor 1.35 recorded pressure at the onset of the spindle-shaped waveform, and three readings were averaged per rat. These shared source observations [22] were not reanalyzed as a terminal three-group treatment comparison.",
+      "复位大鼠于第28天在相同异氟烷麻醉下取出异物。经原颈前入路再次显露关节，头转向右侧，以持针器取出异物后缝合；术后青霉素方案相同，未给予术后镇痛药。用于造模筛选的收缩压由IITC Life Science尾套系统于基线及第7、14、21、28天测量。测压室在30℃预热10 min，大鼠固定后静息15 min；使用BPmon Win monitor 1.35记录梭形波起始时的压力，每只取三次平均。上述来源观察与相关论文共享[22]，未重新作为终末三组治疗效果进行比较。"
+    ],
+    34,
+    [
+      "Histological preparation comprised perfusion with 4% paraformaldehyde in 0.1 mol/l PBS (pH 7.4), postfixation at 4°C for 24–48 h, paraffin embedding, and 4 μm sections, followed by standard hematoxylin–eosin staining. The supplied composite retains tissue and original scale-bar pixels. Specimen counts, image-to-animal correspondence, and field-selection records could not be confirmed; no quantitative histological analysis was performed.",
+      "组织学制备采用0.1 mol/l PBS（pH 7.4）配制的4%多聚甲醛灌注，4℃后固定24–48 h，石蜡包埋，切片厚4 μm，随后行苏木精–伊红染色。保留所提供合成图中的组织及原始比例尺像素。制片动物数、图像与动物对应及视野选择记录无法确认，未作定量组织学分析。"
+    ],
+    38,
+    39,
+    40,
+    42,
+    [
+      "Statistical analyses used individual rats as experimental units and report mean ± sample SD. All six supplied values per group were included; no outliers were removed or missing values imputed. Repeated measurements did not increase biological n. Biochemical endpoints were compared using Welch’s one-way ANOVA and Games–Howell comparisons, with 95% confidence intervals. Shapiro–Wilk tests were diagnostic, with limited sensitivity at n = 6. Adjustment covered the three comparisons within each endpoint, not across the three biochemical endpoints. Tests were two-sided, with α = 0.05. Processed inputs, full outputs and software versions, and reproduction code are provided in Supplementary Data 1, File 3, and Appendix 1.",
+      "统计分析以单只大鼠为实验单位，报告均值±样本标准差（SD）。每组提供的6个数值全部纳入，未剔除离群值或填补缺失值；重复测量不增加生物学n。生化终点采用Welch单因素方差分析及Games–Howell比较，并报告95%置信区间。Shapiro–Wilk检验仅作分布诊断，在n=6时灵敏度有限。校正涵盖各终点内三项比较，未在三个生化终点之间校正。检验为双侧，α=0.05。处理值、完整输出与软件版本及复现代码分别见补充数据1、文件3和附录1。"
+    ],
+    [
+      "RT-qPCR inference used within-animal ΔCq values and independent-group Welch t tests. All 18 comparisons across the original six-target panel (AT1-R, Nox1, Nox4, RhoA, ROCK1, and ROCK2) formed one Holm correction family; correction was not restricted to the displayed genes. Supplementary Data 2, File 4, and Appendix 2 provide paired inputs, complete t statistics, degrees of freedom and exact P values, and reproducible code. Animal overlap across assays was not recoverable, so no cross-assay correlations were tested. Archived blood-pressure and H&E materials were displayed without new inferential tests. Model–sham comparisons use day-28 samples; comparisons involving restoration use day-56 samples.",
+      "RT-qPCR推断基于动物内ΔCq值，采用独立组Welch t检验。原六靶标面板（AT1-R、Nox1、Nox4、RhoA、ROCK1、ROCK2）的全部18项比较构成单一Holm校正家族，未将校正缩减至所展示基因。配对输入、完整t统计量、自由度与精确P值及复现代码见补充数据2、文件4和附录2。不同检测之间的动物重叠无法追溯，因此未作跨检测相关性分析。存档血压与HE材料不作新的推断检验。模型与伪手术比较基于第28天样本，涉及复位组的比较基于第56天样本。"
+    ],
+    [
+      "The blood-pressure workbook contained 24 model-labelled, 14 control-labelled, and 10 sham-labelled source rows. The 10 complete sham rows matched the thesis sham summaries, but missing values and repeated identifiers prevented unique reconstruction of the current model cohort. Only four entered restoration summaries remained for weeks 5–8, without animal-level dispersion. These records cannot independently validate the terminal cohorts (Supplementary Fig. S2; Data 3 and 4; File 5). H&E fields show nuclear staining and varied cellular profiles, but uncertain specimen counts and correspondence preclude conclusions about between-group injury or recovery (Supplementary Fig. S1).",
+      "血压工作簿保留模型标签24行、对照标签14行及伪手术标签10行。10行完整伪手术记录与学位论文伪手术汇总相符，但缺失值与重复编号使本稿模型队列无法唯一重建。复位组仅保留第5–8周四个录入汇总，无动物水平离散程度。这些记录不能独立验证终末队列（补充图S2、数据3和4、文件5）。HE视野可见核染色及形态各异的细胞轮廓，但制片数量与对应关系不明，不能推断组间损伤或恢复（补充图S1）。"
+    ],
+    55,
+    59,
+    [
+      "The same-time model–sham comparison shows lower SOD activity alongside higher MDA, probe-associated fluorescence, and estimated Nox1/Nox4 transcripts in regional medullary blocks. SOD participates in antioxidant defense, and MDA is a lipid-peroxidation marker [25,26]. The combined observations are consistent with regional redox imbalance, but O12 fluorescence is probe- and matrix-dependent and cannot identify a specific ROS species. The serum-designated kit was applied to RIPA tissue lysates without available validation of matrix or buffer compatibility. Protein-concentration normalization does not convert this index to fluorescence per unit protein mass or correct variation in tissue composition.",
+      "同一时间点的模型–伪手术比较显示，区域延髓块中SOD活性较低，MDA、探针相关荧光及Nox1/Nox4转录本估计值较高。SOD参与抗氧化防御，MDA是脂质过氧化标志物[25,26]。这些观察与区域氧化还原失衡相符，但O12荧光依赖探针及样本基质，不能识别特定ROS种类。血清用途试剂盒用于RIPA组织裂解物时，缺少基质或缓冲液兼容性验证记录。蛋白浓度归一化不能将此指标转换为每单位蛋白质量的荧光，也不能校正组织构成的差异。"
+    ],
+    [
+      "Studies in other hypertension models implicate RVLM oxidative stress in cardiovascular regulation [14,15,19,28]. However, approximately 100 mg regional blocks containing adjacent tissue cannot isolate an RVLM- or cell-specific effect. Higher Nox1/Nox4 mRNA does not demonstrate NOX protein abundance or oxidase activity, and no NOX perturbation or sympathetic nerve recording was performed in this report. Ang II signaling provides a possible context [12,21,22], but Ang II and its receptors were not measured here. An Ang II/AT1-R–NOX–sympathetic sequence therefore remains a hypothesis, not an established pathway in these animals.",
+      "其他高血压模型研究提示RVLM氧化应激参与心血管调节[14,15,19,28]。但约100 mg且包含邻近组织的区域块不能分离RVLM或细胞特异性效应。Nox1/Nox4 mRNA较高不等于NOX蛋白量或氧化酶活性较高，本报告未进行NOX通路干预或交感神经记录。Ang II信号提供一种可能背景[12,21,22]，本研究未检测Ang II及其受体，因而Ang II/AT1-R–NOX–交感神经序列仍为假说，未在这些动物中确立。"
+    ],
+    [
+      "Restoration-group values were measured four weeks later than sham and model values. Time, age, postoperative recovery, repeat anesthesia and surgery are confounded with implant removal. Without time-matched and second-surgery sham controls, the group differences cannot establish reversal or an independent implant-removal effect. Surgical implant removal also does not reproduce clinical manual therapy. Postoperative pain or stress may influence redox and transcript measurements; analgesics were not administered, and the available records lacked a written rationale or a specific ethics opinion addressing that omission. H&E fields with unknown specimen correspondence cannot resolve these uncertainties or demonstrate tissue recovery.",
+      "复位组较伪手术及模型组晚4周测量，时间、年龄、术后恢复、再次麻醉与手术均与异物取出混杂。缺少时间匹配及二次假手术对照时，组间差异不能确立逆转或独立异物取出效应；手术取出异物也不等同于临床手法治疗。术后疼痛或应激可能影响氧化还原及转录本测量。本批未给予镇痛药，现有记录缺少相关书面理由或专项伦理意见。标本对应不明的HE视野不能消除上述不确定性或证明组织恢复。"
+    ],
+    [
+      "Measurement and source-record limitations further qualify the findings. RT-qPCR used one measurement per target and reference, so technical variability could not be estimated. Amplification efficiency and β-actin stability were unvalidated, and original amplification/melting curves and NTC/no-RT records were unavailable. Relative expression therefore depends on an unverified equal-efficiency assumption. Original animal-to-sample identifiers and instrument outputs were unavailable, limiting verification of measurement quality, sampling and exclusions; processed values and paired Cq inputs support computational reanalysis but do not replace those records. No single primary endpoint or a priori power calculation was specified. Only male rats were studied, and generalizability to females is unknown.",
+      "测量与来源记录的限制还包括：RT-qPCR各靶标及内参仅测一次，无法估计技术变异；未验证扩增效率及β-actin稳定性，原始扩增/熔解曲线和NTC/no-RT记录不可用，相对表达依赖未经验证的等效率假设。原始动物–样本编号及仪器输出缺失限制了对测量质量、选样和排除的核验。处理值与配对Cq输入可供计算复核，但不能代替上述记录。未预先指定单一主要终点或作事前功效计算；仅研究雄性大鼠，对雌性的适用性未知。"
+    ],
+    [
+      "These findings provide exploratory regional biochemical and transcript characterization of the atlantoaxial joint disorder model. Time-matched studies with improved anatomical sampling, assay validation and pathway interventions are needed before attributing the observations to NOX-dependent sympathetic activation or to a therapeutic effect of implant removal.",
+      "本研究为寰枢关节紊乱模型提供了探索性的区域生化与转录本特征。将这些观察归因于NOX依赖性交感神经激活或异物取出的治疗效应之前，仍需时间匹配、更明确的解剖取样、检测验证及通路干预研究。"
+    ]
+  ],
+  "data_changes": false,
+  "statistical_reanalysis_performed_this_revision": false,
+  "table_cells": [
+    [
+      "Outcome",
+      "Model minus sham",
+      "95% confidence interval",
+      "Adjusted P value"
+    ],
+    [
+      "SOD (U/mg protein)",
+      "−0.558",
+      "−0.672 to −0.443",
+      "<0.001"
+    ],
+    [
+      "MDA (nmol/mg protein)",
+      "0.253",
+      "0.209 to 0.298",
+      "<0.001"
+    ],
+    [
+      "ROS-associated fluorescence (AU)",
+      "1968.8",
+      "1683.7 to 2253.8",
+      "<0.001"
+    ]
+  ]
+}

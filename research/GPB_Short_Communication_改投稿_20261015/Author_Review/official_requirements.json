@@ -1,0 +1,92 @@
+{
+  "checked_date": "2026-10-15",
+  "primary_source": "https://journals.savba.sk/index.php/gpb/about/submissions",
+  "secondary_publisher_source": "https://www.elis.sk/index.php?Itemid=9&catid=3:authors&id=11:general-physiology-and-biophysics-instructions-to-authors&option=com_content&view=article",
+  "scope_source": "https://journals.savba.sk/index.php/gpb/about",
+  "target": "Short Communication",
+  "limits": {
+    "title_characters_including_spaces": 150,
+    "abstract_words": 150,
+    "keywords": 5,
+    "main_text_words": 4000,
+    "main_text_section_headings": false,
+    "figures": 3,
+    "tables": 1,
+    "reference_limit": "not stated"
+  },
+  "references": {
+    "list": "alphabetical; author initials (year): title. abbreviated journal volume, pages",
+    "in_text": "author-year; first author et al. for >2 authors",
+    "in_text_source": "secondary publisher guide"
+  },
+  "files": {
+    "main": "editable Word; figures/tables/supplement separate",
+    "figures": "TIFF/JPEG; <=20 MB each; Arial; Arabic figure numbers/capital panels; captions in manuscript",
+    "resolution": "mixed grayscale/bitmap >=600 dpi; color >=300 dpi; letters >=2 mm at final width",
+    "tables": "native Word cells; single-spaced; no shading/color; no graph duplication",
+    "supplement": "cite discrete items in main text; online support"
+  },
+  "reporting": {
+    "statistics": "exact n, exact p where relevant, F/df and t/df; tests described",
+    "conflict_of_interest": "mandatory",
+    "author_contributions": "optional",
+    "acknowledgements": "optional; funding may appear here"
+  },
+  "submission": {
+    "portal": "https://mmplus.sav.sk/gpb",
+    "category": "explicitly identify Short Communication",
+    "exclusivity": "unpublished; no concurrent journal consideration",
+    "cover_letter": "not explicitly mandatory on inspected guides",
+    "highlights": "not specified",
+    "AI": "no dedicated instructions found on inspected guides; retain truthful transparency",
+    "PDF": "secondary guide requires Word + PDF"
+  },
+  "fees": {
+    "APC_EUR": 350,
+    "rejected_or_submission": 0,
+    "color": "same primary page conflicts: EUR120 in Figures vs EUR100/page in Open access; confirm invoice"
+  },
+  "contradictions": [
+    {
+      "issue": "Short length",
+      "primary": "4000-word body/150-word abstract",
+      "secondary": "6 pages/100-word abstract",
+      "handling": "Use current journal-hosted genre-specific limits; flag legacy discrepancy."
+    },
+    {
+      "issue": "Line spacing",
+      "primary": "generic checklist single-spaced/12 pt",
+      "secondary": "double-spaced/12 pt, 2.5-cm margins",
+      "handling": "Current journal checklist favors single spacing."
+    },
+    {
+      "issue": "Embedded figures/tables",
+      "primary": "detailed guide requires separate files; generic checklist says inline",
+      "handling": "Follow detailed explicit file instructions."
+    },
+    {
+      "issue": "Statistics section vs unheaded body",
+      "primary": "general methods requires statistics section; short communication prohibits headings",
+      "handling": "Retain complete statistical paragraph without heading."
+    }
+  ],
+  "indexing": {
+    "journal_claim": "Science Citation Index; Web of Science Core Collection",
+    "verification_limit": "Publisher statement only; no independent Clarivate subscription-list verification."
+  },
+  "evidence_lines": {
+    "short": 38,
+    "title": 51,
+    "keywords": 61,
+    "separate": 48,
+    "stats": 70,
+    "references": 87,
+    "figures": "93-106",
+    "tables": "109-117",
+    "supplement": 120,
+    "fees": "132-133",
+    "checklist": 140
+  },
+  "data_integrity_notes": "Do not add missing animal identities, qPCR controls or validation. Unheaded short format does not relax ethics/data reporting.",
+  "policy_priority": "Current journal-hosted detailed article-specific instructions over generic checklist or undated older publisher text."
+}

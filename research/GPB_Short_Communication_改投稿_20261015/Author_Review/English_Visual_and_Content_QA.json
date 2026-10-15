@@ -1,0 +1,95 @@
+{
+  "document": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015/Manuscript_GPB_Short_Communication_English.docx",
+  "sha256": "5244f39a820fdfcd1095ce87502c0f45710e9a43712d5246b5f0a2bd78c6cf96",
+  "page_count": 10,
+  "all_pages_inspected_at_full_page": true,
+  "method": "Each page-1.png through page-10.png opened through view_image; textual content and OOXML independently inspected against BB Reports source.",
+  "pages": [
+    {
+      "page": 1,
+      "result": "PASS",
+      "observations": "Title black and clear; Nox1/Nox4 italic; authors and superscript affiliations readable; abstract134words and five keywords fit; no clipping or overlap."
+    },
+    {
+      "page": 2,
+      "result": "PASS",
+      "observations": "Unsectioned narrative, author-year citations and animal flow clear; continuation at page break is readable."
+    },
+    {
+      "page": 3,
+      "result": "PASS",
+      "observations": "Surgical methods, model criteria, screening and regional collection readable; ethics/analgesia limitations preserved; no glyph problems."
+    },
+    {
+      "page": 4,
+      "result": "PASS",
+      "observations": "Biochemical assays, probe specificity/matrix limits and complete qPCR method clear; native Q=2^(-DeltaCq) equation rendered correctly; Nox gene names italic."
+    },
+    {
+      "page": 5,
+      "result": "PASS",
+      "observations": "qPCR QC caveats, statistical methods, descriptive archives and biochemical numerical results readable; no missing symbols."
+    },
+    {
+      "page": 6,
+      "result": "PASS",
+      "observations": "qPCR exact adjusted P values and nonsignificant comparison preserved; discussion and major limits clear; no layout defects."
+    },
+    {
+      "page": 7,
+      "result": "PASS",
+      "observations": "Narrative conclusion continues naturally; all end statements visible, headings kept with text; references begin cleanly."
+    },
+    {
+      "page": 8,
+      "result": "PASS",
+      "observations": "Alphabetical author-year reference list and DOI strings readable; no overflow."
+    },
+    {
+      "page": 9,
+      "result": "PASS",
+      "observations": "Figure1/2 captions, sampling times/adjustment families, explanatory units and SI captions readable; gene italic preserved."
+    },
+    {
+      "page": 10,
+      "result": "PASS",
+      "observations": "Full descriptive HE/BP limitations and remaining SI captions fit, footer does not overlap text."
+    }
+  ],
+  "structural_checks": {
+    "main_body_paragraphs": 25,
+    "main_body_section_headings": 0,
+    "abstract_words_whitespace": 134,
+    "main_words_including_native_formula_text_whitespace": 2943,
+    "parent_builder_main_words_omitting_math_text": 2941,
+    "references": 17,
+    "numeric_reference_citations_remaining_in_main": false,
+    "native_formula_xml_byte_identical_to_source": true,
+    "gene_tokens_italic_checked": 34,
+    "gene_tokens_without_italic": [],
+    "tables_in_main": 0,
+    "table1_separate_file_exists": true
+  },
+  "content_checks": {
+    "quantitative_biochemical_results_numeric_tokens_exact_source_match": true,
+    "quantitative_qpcr_results_numeric_tokens_exact_source_match": true,
+    "regional_not_isolated_RVLM": true,
+    "day28_vs56_and_no_second_surgery_sham": true,
+    "n6_independent_no_pooling": true,
+    "parent60_full_flow_and_4_unknown_retained": true,
+    "no_postoperative_analgesia_and_missing_written_rationale_retained": true,
+    "ROS_serumkit_tissuematrix_buffer_validation_limits_retained": true,
+    "qPCR_single_measurement_unvalidated_efficiency_reference_missing_curves_controls_retained": true,
+    "Holm_all18_six_target_family_retained": true,
+    "biochemical_adjustment_only_within_endpoint_retained": true,
+    "no_a_priori_power_primary_endpoint_retained": true,
+    "original_ID_and_instrument_record_limits_retained": true,
+    "male_only_retained": true,
+    "BP_HE_only_descriptive": true,
+    "causal_NOX_sympathetic_and_therapeutic_reversal_claims_not_made": true,
+    "user_deleted_numbered_AI_subsection_not_reintroduced": true,
+    "accurate_AI_disclosure_consolidated_in_end_statement": true
+  },
+  "required_repairs": [],
+  "status": "PASS"
+}

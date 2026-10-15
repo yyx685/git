@@ -1,0 +1,67 @@
+{
+  "document": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015/Manuscript_GPB_Short_Communication_中文.docx",
+  "sha256": "82a44dc7cd4e56bcd1d2f355a0f793576786a047170c14096e3641e279636bcf",
+  "status": "PASS",
+  "page_count": 11,
+  "all_pages_inspected_at_full_page": true,
+  "method": "Root reviewed each final page PNG through view_image after fixing Chinese font rendering.",
+  "font_repair": "Chinese East Asian font set to Songti SC; task-local fontconfig exposes installed macOS Chinese fonts. Initial missing-glyph render superseded. Text and native formula preserved.",
+  "pages": [
+    {
+      "page": 1,
+      "status": "PASS",
+      "observations": "Title, authors, affiliations, abstract and five keywords readable."
+    },
+    {
+      "page": 2,
+      "status": "PASS",
+      "observations": "Unsectioned introduction and parent animal flow readable."
+    },
+    {
+      "page": 3,
+      "status": "PASS",
+      "observations": "Anesthesia, surgery, timing and collection readable."
+    },
+    {
+      "page": 4,
+      "status": "PASS",
+      "observations": "Biochemistry and qPCR methods readable, symbols intact."
+    },
+    {
+      "page": 5,
+      "status": "PASS",
+      "observations": "Native formula, qPCR limitations and statistical approach intact."
+    },
+    {
+      "page": 6,
+      "status": "PASS",
+      "observations": "Biochemical and qPCR numerical results readable."
+    },
+    {
+      "page": 7,
+      "status": "PASS",
+      "observations": "Interpretation, limitations and funding readable."
+    },
+    {
+      "page": 8,
+      "status": "PASS",
+      "observations": "Author/data/AI declarations and references readable."
+    },
+    {
+      "page": 9,
+      "status": "PASS",
+      "observations": "References and main figure legends readable."
+    },
+    {
+      "page": 10,
+      "status": "PASS",
+      "observations": "Supplementary legends and source limitations readable."
+    },
+    {
+      "page": 11,
+      "status": "PASS",
+      "observations": "Remaining supplementary descriptions and footer readable."
+    }
+  ],
+  "required_repairs": []
+}

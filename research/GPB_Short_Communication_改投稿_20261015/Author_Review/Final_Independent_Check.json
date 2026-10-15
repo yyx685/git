@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-15",
+  "read_only": true,
+  "source": "/Users/yyx/Desktop/git/git/research/BB_Reports_官网核对修订_20261015",
+  "target": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015",
+  "counts": {
+    "title": "Redox indices and Nox1 and Nox4 mRNA expression in ventrolateral medullary tissue from male rats with atlantoaxial joint disorder",
+    "title_characters": 129,
+    "abstract_whitespace_words": 134,
+    "keyword_count": 5,
+    "main_paragraphs": 25,
+    "main_words_including_OMML": 2943,
+    "main_words_excluding_OMML": 2941,
+    "reference_count": 17,
+    "main_section_heading_count": 0
+  },
+  "old_submission_target_mentions_in_Word": [],
+  "quantitative_results": [
+    {
+      "endpoint": "biochemical",
+      "number_sequence_exact_match": true,
+      "full_text_exact_match": true
+    },
+    {
+      "endpoint": "qPCR",
+      "number_sequence_exact_match": true,
+      "full_text_exact_match": true
+    }
+  ],
+  "table_1": {
+    "cells_identical_to_source": true,
+    "cells": [
+      [
+        [
+          "Outcome",
+          "Model minus sham",
+          "95% confidence interval",
+          "Adjusted P value"
+        ],
+        [
+          "SOD (U/mg protein)",
+          "−0.558",
+          "−0.672 to −0.443",
+          "<0.001"
+        ],
+        [
+          "MDA (nmol/mg protein)",
+          "0.253",
+          "0.209 to 0.298",
+          "<0.001"
+        ],
+        [
+          "ROS-associated fluorescence (AU)",
+          "1968.8",
+          "1683.7 to 2253.8",
+          "<0.001"
+        ]
+      ]
+    ]
+  },
+  "native_formula": {
+    "xml_identical_to_source": true
+  },
+  "SI_numeric_source_and_reproduction_files": [
+    {
+      "file": "S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S2_Appendix_Reproduce_RTqPCR.py",
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S3_Data_Archived_BP_Recorded_Values.csv",
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S4_Data_Archived_BP_Entered_Summaries.csv",
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S4_File_RTqPCR_Statistical_Outputs.json",
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S5_File_Archived_BP_Workbook.xlsx",
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d",
+      "source_exists": true,
+      "byte_identical": true
+    },
+    {
+      "file": "S6_File_HE_Supplied_Composite.jpg",
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468",
+      "source_exists": true,
+      "byte_identical": true
+    }
+  ],
+  "all_checked_SI_inputs_unchanged": true,
+  "intentional_changed_SI_display_or_plot_files": [
+    "S2_Fig_Archived_BP_Records.tif",
+    "S3_Appendix_Plot_Archived_BP.py",
+    "S4_Appendix_Plot_Main_Figures.py",
+    "Supplementary_Fig_S2.pdf"
+  ],
+  "bibliography": {
+    "alphabetically_sorted": true,
+    "all_references_have_DOI": true,
+    "DOIs_same_as_source": true
+  },
+  "required_repairs": [],
+  "status": "PASS"
+}

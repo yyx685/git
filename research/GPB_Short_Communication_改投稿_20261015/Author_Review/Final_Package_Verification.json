@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-15",
+  "status": "PASS",
+  "target": "GPB Short Communication",
+  "title_characters": 129,
+  "abstract_words": 134,
+  "main_text_words_without_math_text": 2941,
+  "main_text_words_including_native_math": 2943,
+  "before_references_words_without_math_text": 3439,
+  "keywords": 5,
+  "body_paragraphs": 25,
+  "main_body_headings": 0,
+  "references": 17,
+  "all_references_cited": true,
+  "main_figures": 2,
+  "separate_tables": 1,
+  "core_result_paragraphs_exact_source_match": true,
+  "table_cell_text_exact_source_match": true,
+  "original_English_source_unchanged": true,
+  "original_Chinese_working_source_unchanged": true,
+  "documents": {
+    "Cover_Letter_GPB.docx": {
+      "sha256": "e7d7a6240c802be94b47db06e6f032a9b035cb4b1719ed1eb5f1cd252b158a89",
+      "zip_integrity": "PASS",
+      "tracked_changes_comments_highlights": false
+    },
+    "Manuscript_GPB_Short_Communication_English.docx": {
+      "sha256": "5244f39a820fdfcd1095ce87502c0f45710e9a43712d5246b5f0a2bd78c6cf96",
+      "zip_integrity": "PASS",
+      "tracked_changes_comments_highlights": false,
+      "native_formula_structure_and_text_preserved": true
+    },
+    "Manuscript_GPB_Short_Communication_中文.docx": {
+      "sha256": "82a44dc7cd4e56bcd1d2f355a0f793576786a047170c14096e3641e279636bcf",
+      "zip_integrity": "PASS",
+      "tracked_changes_comments_highlights": false,
+      "native_formula_structure_and_text_preserved": true
+    },
+    "Table_1_GPB.docx": {
+      "sha256": "9a45781407271a2fba6ec0e07ccf0e8add74b0ac6c996f34855efe7dd367bec4",
+      "zip_integrity": "PASS",
+      "tracked_changes_comments_highlights": false
+    }
+  },
+  "final_page_counts": {
+    "Manuscript_GPB_Short_Communication_English.docx": 10,
+    "Manuscript_GPB_Short_Communication_中文.docx": 11,
+    "Table_1_GPB.docx": 1,
+    "Cover_Letter_GPB.docx": 1
+  },
+  "supplementary_file_comparison": {
+    "S1_Appendix_Reproduce_RVLM_Statistics.py": {
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S1_Data_RVLM_Processed_Values.csv": {
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S1_Fig_HE_Illustrative_Images.tif": {
+      "sha256": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S2_Appendix_Reproduce_RTqPCR.py": {
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S2_Data_RTqPCR_Animal_Paired_Values.csv": {
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S2_Fig_Archived_BP_Records.tif": {
+      "sha256": "1715a5f6d1699fa69c9553f3484a064daf8b8dd1902c22a406bccb5523ff50d7",
+      "source_bytes_identical": false,
+      "change_scope": "Arial typography/export only; numerical inputs unchanged"
+    },
+    "S3_Appendix_Plot_Archived_BP.py": {
+      "sha256": "ed69ae97fbd3816302c7c9a91ba6a529c963bbe4aa9964748d3716b3aae18997",
+      "source_bytes_identical": false,
+      "change_scope": "Arial typography/export only; numerical inputs unchanged"
+    },
+    "S3_Data_Archived_BP_Recorded_Values.csv": {
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S3_File_RVLM_Statistical_Outputs.json": {
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S4_Appendix_Plot_Main_Figures.py": {
+      "sha256": "f03aa4d95b10bbc557f9c411d04d12467a5aa1d76e20d3bdfdefeed66317ac2e",
+      "source_bytes_identical": false,
+      "change_scope": "Arial typography/export only; numerical inputs unchanged"
+    },
+    "S4_Data_Archived_BP_Entered_Summaries.csv": {
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S4_File_RTqPCR_Statistical_Outputs.json": {
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S5_File_Archived_BP_Workbook.xlsx": {
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "S6_File_HE_Supplied_Composite.jpg": {
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468",
+      "source_bytes_identical": true,
+      "change_scope": "unchanged source file"
+    },
+    "Supplementary_Fig_S2.pdf": {
+      "sha256": "15d2b1f14d5fe1f92fe9ca23e671525afb7b73a03cb837524a89560146175388",
+      "source_bytes_identical": false,
+      "change_scope": "Arial typography/export only; numerical inputs unchanged"
+    }
+  },
+  "figures": {
+    "Fig1.tif": {
+      "dimensions": [
+        4200,
+        1980
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "bytes": 544294,
+      "sha256": "c4e11cadec732f6f75ce9738e643aef7632eb3b9f31ba9313f1f727ad7b78125"
+    },
+    "Fig2.tif": {
+      "dimensions": [
+        3600,
+        1980
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "bytes": 396906,
+      "sha256": "e4a413fb6c3775013f59db15d6e78a6290ba76b91434e0f4ce008b678ae61b2e"
+    },
+    "S2_Fig_Archived_BP_Records.tif": {
+      "dimensions": [
+        5040,
+        4440
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "bytes": 1443840,
+      "sha256": "1715a5f6d1699fa69c9553f3484a064daf8b8dd1902c22a406bccb5523ff50d7"
+    }
+  },
+  "new_experimental_data": false,
+  "new_statistical_reanalysis_in_this_retargeting": false,
+  "submitted_to_journal": false
+}
