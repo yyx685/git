@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_投稿包_20261015/Yuan_中文.docx",
+  "sha256": "5bfe9be586ff342080ed1d02cfb1de830c81e2bba9d5720251250143c7e43b37",
+  "page_count": 12,
+  "all_pages_inspected": true,
+  "render_directory": "/tmp/codex-physres-20261015/qa_zh_final",
+  "pages": [
+    {
+      "page": 1,
+      "status": "PASS",
+      "final_png_sha256": "51435898ef7baa3e590c741b731e9c05eac625bec9fcb61414ea54eeea238b66",
+      "review": "initial full-page image reviewed and verified byte-identical to final"
+    },
+    {
+      "page": 2,
+      "status": "PASS",
+      "final_png_sha256": "353bc2feca335e97da051cd2e0e7b2091c997ee53794b645b9f1ec3d32f92c4d",
+      "review": "initial full-page image reviewed and verified byte-identical to final"
+    },
+    {
+      "page": 3,
+      "status": "PASS",
+      "final_png_sha256": "a9bb21603da6422f4c125e7bd3127469e672402d91ea9acbb26f578e718ec0a4",
+      "review": "initial full-page image reviewed and verified byte-identical to final"
+    },
+    {
+      "page": 4,
+      "status": "PASS",
+      "final_png_sha256": "34593a12f77551fa5767b846885f0381a27179a4a501bccd5536126448441b6a",
+      "review": "initial full-page image reviewed and verified byte-identical to final"
+    },
+    {
+      "page": 5,
+      "status": "PASS",
+      "final_png_sha256": "7d1fadb44f4a4dd92289f22c22650e7892b516d8396dad02654291f4b8f0c313",
+      "review": "initial full-page image reviewed and verified byte-identical to final"
+    },
+    {
+      "page": 6,
+      "status": "PASS",
+      "final_png_sha256": "5ce46fd0d074cfa553dc47418d54777429cd3dc3cba3738a1c4fd444050e830f",
+      "review": "initial full-page image reviewed and verified byte-identical to final"
+    },
+    {
+      "page": 7,
+      "status": "PASS",
+      "final_png_sha256": "2f6b2542c0348596173a658abbacf4a495bfc89cb3a7f402b961b2994e66464f",
+      "review": "final full-page image reviewed"
+    },
+    {
+      "page": 8,
+      "status": "PASS",
+      "final_png_sha256": "6942f348dc4a6b00b1bd4219cdd2d29a1c712f82d694d0acdae3f310dfde245b",
+      "review": "final full-page image reviewed"
+    },
+    {
+      "page": 9,
+      "status": "PASS",
+      "final_png_sha256": "9d834b9682d0c6c04d0aeeaaf2edc4feec278392a59218ff995eb92770d65a04",
+      "review": "final full-page image reviewed"
+    },
+    {
+      "page": 10,
+      "status": "PASS",
+      "final_png_sha256": "cccdbe045f04f77f6246d5f243d605dc288960f7a6b5d98bf9db6aca766f9286",
+      "review": "final full-page image reviewed"
+    },
+    {
+      "page": 11,
+      "status": "PASS",
+      "final_png_sha256": "47a9b43d3307404038c793f64d3fe2163ed1aa4d7d148e875e5a3b07ddcf0afe",
+      "review": "final full-page image reviewed"
+    },
+    {
+      "page": 12,
+      "status": "PASS",
+      "final_png_sha256": "cc5cd7ae07772afac126046a505568366a28d75c5e5cd20dc7a6b6ef55d8c6a9",
+      "review": "final full-page image reviewed"
+    }
+  ],
+  "observations": "Readable Chinese glyphs, numeric citations and native formula; complete table and both figures; no clipping or overlap.",
+  "unresolved_defects": []
+}

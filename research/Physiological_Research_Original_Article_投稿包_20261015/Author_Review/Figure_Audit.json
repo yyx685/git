@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Physiological Research figure format adaptation only",
+  "source_directory": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015",
+  "figures": {
+    "Yuan_fig1": {
+      "source_sha256": "c4e11cadec732f6f75ce9738e643aef7632eb3b9f31ba9313f1f727ad7b78125",
+      "source_matches_prior_audit": true,
+      "tiff_sha256": "c4e11cadec732f6f75ce9738e643aef7632eb3b9f31ba9313f1f727ad7b78125",
+      "tiff_byte_identical": true,
+      "jpeg_sha256": "af3aee837331cff09b8ca65f6bb2186e960db8554a0d22a8dad8fe645a4211f9",
+      "dimensions": [
+        4200,
+        1980
+      ],
+      "jpeg_dimensions_unchanged": true,
+      "mode": "RGB",
+      "dpi": [
+        600,
+        600
+      ],
+      "jpeg_bytes": 555868,
+      "jpeg_quality": 100,
+      "jpeg_chroma_subsampling": 0,
+      "jpeg_mean_absolute_8bit_channel_error": 0.005301787718454385,
+      "crop_resize_sharpening": false,
+      "markers_labels_error_bars_plot_values": "retained from source; format conversion only"
+    },
+    "Yuan_fig2": {
+      "source_sha256": "e4a413fb6c3775013f59db15d6e78a6290ba76b91434e0f4ce008b678ae61b2e",
+      "source_matches_prior_audit": true,
+      "tiff_sha256": "e4a413fb6c3775013f59db15d6e78a6290ba76b91434e0f4ce008b678ae61b2e",
+      "tiff_byte_identical": true,
+      "jpeg_sha256": "a593b6e03d80b5a61e4037885dd3f2c7f8bf4008be7c717973a281beab2c2ae7",
+      "dimensions": [
+        3600,
+        1980
+      ],
+      "jpeg_dimensions_unchanged": true,
+      "mode": "RGB",
+      "dpi": [
+        600,
+        600
+      ],
+      "jpeg_bytes": 406984,
+      "jpeg_quality": 100,
+      "jpeg_chroma_subsampling": 0,
+      "jpeg_mean_absolute_8bit_channel_error": 0.0044204077815188925,
+      "crop_resize_sharpening": false,
+      "markers_labels_error_bars_plot_values": "retained from source; format conversion only"
+    }
+  },
+  "source_data": {
+    "S1_Data_RVLM_Processed_Values.csv": {
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "bytes": 4140,
+      "modified": false,
+      "matches_prior_audit": true
+    },
+    "S2_Data_RTqPCR_Animal_Paired_Values.csv": {
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "bytes": 3290,
+      "modified": false,
+      "matches_prior_audit": true
+    },
+    "S3_File_RVLM_Statistical_Outputs.json": {
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "bytes": 7982,
+      "modified": false
+    },
+    "S4_File_RTqPCR_Statistical_Outputs.json": {
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "bytes": 129087,
+      "modified": false
+    },
+    "S4_Appendix_Plot_Main_Figures.py": {
+      "sha256": "f03aa4d95b10bbc557f9c411d04d12467a5aa1d76e20d3bdfdefeed66317ac2e",
+      "bytes": 4203,
+      "modified": false
+    }
+  },
+  "scientific_changes": false,
+  "visual_review": {
+    "status": "PASS",
+    "reviewer": "independent figure preparation agent",
+    "reviewed_files": [
+      "Yuan_fig1.jpg",
+      "Yuan_fig2.jpg"
+    ],
+    "scope": "Both final JPEGs inspected in full; no clipping, missing labels, changed marker layout, or overlap. All panels, axis text, means and SD error bars readable.",
+    "fig1_expected_points": 54,
+    "fig2_expected_points": 36,
+    "notes": [
+      "No replots, changed statistics, annotations, cropping, resizing, sharpening or tissue-image editing.",
+      "TIFF copies are byte-identical to the previously reviewed originals.",
+      "JPEG is lossy by definition; quality=100 and 4:4:4 encoding keeps format-conversion error minimal and does not alter scientific content."
+    ]
+  },
+  "plotted_point_counts_fig1": {
+    "SOD / Sham-operated": 6,
+    "SOD / Model": 6,
+    "SOD / Restoration": 6,
+    "MDA / Sham-operated": 6,
+    "MDA / Model": 6,
+    "MDA / Restoration": 6,
+    "ROS / Sham-operated": 6,
+    "ROS / Model": 6,
+    "ROS / Restoration": 6
+  },
+  "plotted_point_counts_fig2": {
+    "Nox1 / Sham-operated": 6,
+    "Nox1 / Model": 6,
+    "Nox1 / Restoration": 6,
+    "Nox4 / Sham-operated": 6,
+    "Nox4 / Model": 6,
+    "Nox4 / Restoration": 6
+  }
+}

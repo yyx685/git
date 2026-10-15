@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "reviewed_date": "2026-10-15",
+  "review_method": "Canonical render_docx.py with bundled LibreOffice; every rendered page visually inspected; read-only OOXML and text checks.",
+  "documents": {
+    "Yuan_cover_letter.docx": {
+      "status": "PASS",
+      "sha256": "4f381adc0566c6cb14b41487db561556807150c52ec6bbf007ec315d09acac9a",
+      "pages": 1,
+      "pdf_pages": 1,
+      "visual_pages_inspected": [
+        "page-1.png"
+      ],
+      "native_word_tables": 0,
+      "tracked_change_count": 0,
+      "paragraph_border_count": 0,
+      "visual_findings": {
+        "title_black": true,
+        "no_decorative_title_rule": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "one_page": true,
+        "all_text_readable": true
+      },
+      "content_checks": {
+        "journal": "Physiological Research",
+        "article_type": "Original Article",
+        "related_report_and_overlap_disclosed": true,
+        "confirmed_ethics_number_present": true,
+        "originality_and_no_simultaneous_submission_present": true,
+        "corresponding_authors": [
+          "Zijian Wu",
+          "Youkui Lv"
+        ],
+        "emails": [
+          "wuzijian@ahtcm.edu.cn",
+          "lvyk126@126.com"
+        ],
+        "signature_on_same_page": true
+      }
+    },
+    "Yuan_table1.docx": {
+      "status": "PASS",
+      "sha256": "625cb54ff1a6d03f668c6c6c622a09013765a1c1d0a3fed6af08b1c248e342ff",
+      "pages": 1,
+      "pdf_pages": 1,
+      "visual_pages_inspected": [
+        "page-1.png"
+      ],
+      "native_word_tables": 1,
+      "tracked_change_count": 0,
+      "paragraph_border_count": 0,
+      "visual_findings": {
+        "title_black": true,
+        "no_decorative_title_rule": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "one_page": true,
+        "all_text_readable": true
+      },
+      "content_checks": {
+        "editable_native_table": true,
+        "header_columns": 4,
+        "data_rows": 3,
+        "same_time_day_28_and_n_6_per_group_footnote": true,
+        "original_units_and_confidence_interval_method_footnote": true,
+        "fluorescence_arbitrary_units_qualified": true,
+        "no_causal_NOX_blood_pressure_claim": true,
+        "visible_footnote_gap": true,
+        "horizontal_rules_only": true
+      }
+    }
+  }
+}

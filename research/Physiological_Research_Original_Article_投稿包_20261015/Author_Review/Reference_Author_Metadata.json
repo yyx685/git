@@ -1,0 +1,393 @@
+[
+  {
+    "doi": "10.1161/01.RES.0000146676.04359.64",
+    "source": "https://api.crossref.org/works/10.1161/01.RES.0000146676.04359.64",
+    "title": [
+      "Superoxide Mediates Sympathoexcitation in Heart Failure"
+    ],
+    "authors": [
+      {
+        "given": "Lie",
+        "family": "Gao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "From the Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu-Long",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harold D.",
+        "family": "Schultz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dongmei",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kurtis G.",
+        "family": "Cornish",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Irving H.",
+        "family": "Zucker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Circulation Research"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2004,
+          10,
+          29
+        ]
+      ]
+    },
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)"
+  },
+  {
+    "doi": "10.1155/2017/5986957",
+    "source": "https://api.crossref.org/works/10.1155/2017/5986957",
+    "title": [
+      "Atlantoaxial Misalignment Causes High Blood Pressure in Rats: A Novel Hypertension Model"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7473-9375",
+        "authenticated-orcid": true,
+        "given": "Zong-Bao",
+        "family": "He",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Rehabilitation, Anhui People’s Armed Police Corps Hospital, Hefei, Anhui 230041, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "You-Kui",
+        "family": "Lv",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Rehabilitation, Anhui People’s Armed Police Corps Hospital, Hefei, Anhui 230041, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Acupuncture and Osteology, Anhui University of Traditional Chinese Medicine, Hefei, Anhui 230038, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Qiong",
+        "family": "Yao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Acupuncture and Osteology, Anhui University of Traditional Chinese Medicine, Hefei, Anhui 230038, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ke-Ming",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Acupuncture and Osteology, Anhui University of Traditional Chinese Medicine, Hefei, Anhui 230038, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiao-Ge",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Acupuncture and Osteology, Anhui University of Traditional Chinese Medicine, Hefei, Anhui 230038, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zi-Jian",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Acupuncture and Osteology, Anhui University of Traditional Chinese Medicine, Hefei, Anhui 230038, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2496-2434",
+        "authenticated-orcid": true,
+        "given": "Ximing",
+        "family": "Qin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Health Sciences, Anhui University, Hefei, Anhui 230601, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "BioMed Research International"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "publisher": "Wiley"
+  },
+  {
+    "doi": "10.1016/j.wneu.2015.03.030",
+    "source": "https://api.crossref.org/works/10.1016/j.wneu.2015.03.030",
+    "title": [
+      "Persistent Outpatient Hypertension Is Independently Associated with Spinal Cord Dysfunction and Imaging Characteristics of Spinal Cord Damage among Patients with Cervical Spondylosis"
+    ],
+    "authors": [
+      {
+        "given": "Samuel",
+        "family": "Kalb",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hasan A.",
+        "family": "Zaidi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan C.",
+        "family": "Ribas-Nijkerk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maughan K.",
+        "family": "Sindhwani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Justin C.",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nikolay L.",
+        "family": "Martirosyan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas",
+        "family": "Theodore",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "World Neurosurgery"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2015,
+          8
+        ]
+      ]
+    },
+    "publisher": "Elsevier BV"
+  }
+]

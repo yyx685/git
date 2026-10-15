@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_投稿包_20261015/Yuan_supplementary_information.docx",
+  "sha256": "8b5d6e12a7819c12c945e1ab95f5bfe22fe357b84df2c031db0d42c3961edfc4",
+  "status": "PASS",
+  "render_directory": "/tmp/codex-physres-20261015/qa_si_final",
+  "page_count": 3,
+  "all_pages_viewed_full": true,
+  "source_modified_by_reviewer": false,
+  "per_page": {
+    "1": "All 12 data and analysis file descriptions fit legibly on one page; title/author line, labels, ΔCq glyphs and italic genes intact. No clipped text, overlap, missing glyphs or overflow.",
+    "2": "Full HE composite, three group labels, three scale labels and complete caption readable; no cropping or overlap. Separate figure page appropriate.",
+    "3": "Full four-panel BP figure, all axis labels and source-row annotations readable; complete caption on same page, no clipping/overlap."
+  },
+  "structural_checks": {
+    "data_and_analysis_file_description_count": 12,
+    "inline_figures": 2,
+    "tracked_changes": 0,
+    "comments_part": false,
+    "rendered_text_unchanged_after_spacing_repair": true,
+    "text_comparison_note": "Identical extracted content after removal of page-number fields and normalization of whitespace."
+  },
+  "resolved_issue": "The isolated Appendix 4 paragraph previously on page 2 now fits page 1 after data-description paragraph spacing changed from 6 pt to 3 pt. All final pages re-rendered and inspected."
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-15",
+  "target": "Physiological Research",
+  "article_type": "Original Article",
+  "source_directory": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015",
+  "english_source_sha256": "5244f39a820fdfcd1095ce87502c0f45710e9a43712d5246b5f0a2bd78c6cf96",
+  "chinese_source_sha256": "82a44dc7cd4e56bcd1d2f355a0f793576786a047170c14096e3641e279636bcf",
+  "counts": {
+    "main_body_words_without_math": 2884,
+    "all_document_words_including_table_without_math": 4420,
+    "all_document_words_including_math": 4422,
+    "summary_words": 134,
+    "short_title_characters": 54,
+    "references": 17,
+    "main_figures": 2,
+    "main_tables": 1
+  },
+  "citation_order": [
+    "Kalb et al. 2015",
+    "He et al. 2017",
+    "Franco et al. 2022",
+    "Guzik and Touyz 2017",
+    "Incalza et al. 2018",
+    "Wenker et al. 2017",
+    "Chan et al. 2009",
+    "Huang et al. 2017",
+    "Kalsoom et al. 2026",
+    "Yan et al. 2017",
+    "Lv et al. 2026",
+    "Livak and Schmittgen 2001",
+    "Marrocco et al. 2017",
+    "Cordiano et al. 2023",
+    "Chao et al. 2022",
+    "Dampney et al. 2007",
+    "Gao et al. 2004"
+  ],
+  "formatted_references": [
+    "1. Kalb S, Zaidi HA, Ribas-Nijkerk JC, Sindhwani MK, Clark JC, Martirosyan NL, Theodore N. Persistent outpatient hypertension is independently associated with spinal cord dysfunction and imaging characteristics of spinal cord damage among patients with cervical spondylosis. World Neurosurg. 2015;84:351–357.",
+    "2. He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, Wu ZJ, et al. Atlantoaxial misalignment causes high blood pressure in rats: a novel hypertension model. Biomed Res Int. 2017;2017:5986957.",
+    "3. Franco C, Sciatti E, Favero G, Bonomini F, Vizzardi E, Rezzani R. Essential hypertension and oxidative stress: novel future perspectives. Int J Mol Sci. 2022;23:14489.",
+    "4. Guzik TJ, Touyz RM. Oxidative stress, inflammation, and vascular aging in hypertension. Hypertension. 2017;70:660–667.",
+    "5. Incalza MA, D'Oria R, Natalicchio A, Perrini S, Laviola L, Giorgino F. Oxidative stress and reactive oxygen species in endothelial dysfunction associated with cardiovascular and metabolic diseases. Vascul Pharmacol. 2018;100:1–19.",
+    "6. Wenker IC, Abe C, Viar KE, Stornetta DS, Stornetta RL, Guyenet PG. Blood pressure regulation by the rostral ventrolateral medulla in conscious rats: effects of hypoxia, hypercapnia, baroreceptor denervation, and anesthesia. J Neurosci. 2017;37:4565–4583.",
+    "7. Chan SHH, Wu KLH, Chang AYW, Tai MH, Chan JYH. Oxidative impairment of mitochondrial electron transport chain complexes in rostral ventrolateral medulla contributes to neurogenic hypertension. Hypertension. 2009;53:217–227.",
+    "8. Huang YP, Jin HY, Yu HP. Inhibitory effects of alpha-lipoic acid on oxidative stress in the rostral ventrolateral medulla in rats with salt-induced hypertension. Int J Mol Med. 2017;39:430–436.",
+    "9. Kalsoom UE, Jin J, Meng W, Su Y, Wu C, Wu Q. The role of NADPH oxidases in central nervous system regulation of hypertension: mechanisms and therapeutic insights. Biomed Pharmacother. 2026;196:119096.",
+    "10. Yan JQ, Huang F, Hao F, Su XL, Meng Q, Xu MJ. Oxidative stress in the rostral ventrolateral medulla contributes to cardiovascular regulation in preeclampsia. Front Physiol. 2017;8:772.",
+    "11. Lv YK, Wu ZJ, Yang B, Gao DP, He ZB. Expression of angiotensin II and angiotensin II type 1 receptor in rostral ventrolateral medulla in a rat model of atlantoaxial joint disorder-induced hypertension. Byull Eksp Biol Med. 2026;181(5):546–550.",
+    "12. Livak KJ, Schmittgen TD. Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method. Methods. 2001;25:402–408.",
+    "13. Marrocco I, Altieri F, Peluso I. Measurement and clinical significance of biomarkers of oxidative stress in humans. Oxid Med Cell Longev. 2017;2017:6501046.",
+    "14. Cordiano R, Di Gioacchino M, Mangifesta R, Panzera C, Gangemi S, Minciullo PL. Malondialdehyde as a potential oxidative stress marker for allergy-oriented diseases: an update. Molecules. 2023;28:5979.",
+    "15. Chao YM, Rauchová H, Chan JYH. Disparate roles of oxidative stress in rostral ventrolateral medulla in age-dependent susceptibility to hypertension induced by systemic l-NAME treatment in rats. Biomedicines. 2022;10:2232.",
+    "16. Dampney RAL, Tan PSP, Sheriff MJ, Fontes MAP, Horiuchi J. Cardiovascular effects of angiotensin II in the rostral ventrolateral medulla: the push-pull hypothesis. Curr Hypertens Rep. 2007;9:222–227.",
+    "17. Gao L, Wang W, Li YL, Schultz HD, Liu D, Cornish KG, Zucker IH. Superoxide mediates sympathoexcitation in heart failure: roles of angiotensin II and NAD(P)H oxidase. Circ Res. 2004;95:937–944."
+  ],
+  "changes": [
+    "Restored IMRAD sections and method/result subheadings",
+    "Converted author-year citations to numbered first-citation order",
+    "Verified and expanded three shortened reference author lists",
+    "Moved long supplementary descriptions to a separate companion document",
+    "Appended native table and full figures to the main Word file for combined PDF",
+    "Used expected amplicon lengths wording without implying experimental confirmation",
+    "Added explicit uncertainty about matrix effects and terminal pain/stress effects",
+    "Used literal lowercase l for litre units without changing numerical values"
+  ],
+  "data_changes": false,
+  "new_statistical_testing": false,
+  "new_experimental_claims": false,
+  "original_documents_overwritten": false,
+  "experimental_image_pixel_conversion": [
+    {
+      "source": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015/Supporting_Information/S1_Fig_HE_Illustrative_Images.tif",
+      "dimensions": [
+        5335,
+        1229
+      ],
+      "embedding_conversion": "lossless RGB PNG; decoded pixel equality verified",
+      "original_source_sha256": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc"
+    },
+    {
+      "source": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015/Supporting_Information/S2_Fig_Archived_BP_Records.tif",
+      "dimensions": [
+        5040,
+        4440
+      ],
+      "embedding_conversion": "lossless RGB PNG; decoded pixel equality verified",
+      "original_source_sha256": "1715a5f6d1699fa69c9553f3484a064daf8b8dd1902c22a406bccb5523ff50d7"
+    }
+  ],
+  "submitted": false
+}
