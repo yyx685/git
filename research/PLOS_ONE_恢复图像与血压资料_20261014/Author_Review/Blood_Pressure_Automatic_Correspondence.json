@@ -1,0 +1,179 @@
+{
+  "source_workbook": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/血压动态变化.xlsx",
+  "parent_thesis": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/91102_ZB16078_LW(1) - 副本.docx",
+  "automatic_match": {
+    "matched_block": "Sheet1!O1:T11",
+    "match_strength": "All five rounded means and sample SDs, source group label and10 complete identifier rows match parent-thesis Table1 sham row. This supports provenance of the parent first-phase sham records, not linkage of remaining workbook blocks or assay IDs.",
+    "statistics": [
+      {
+        "column": "P",
+        "header": "造模前",
+        "range": "P2:P11",
+        "record_count": 10,
+        "mean": 101,
+        "sample_sd": 12.165525060596439,
+        "rounded_one_decimal": "101.0±12.2"
+      },
+      {
+        "column": "Q",
+        "header": "1W",
+        "range": "Q2:Q11",
+        "record_count": 10,
+        "mean": 102.3,
+        "sample_sd": 7.288499312082167,
+        "rounded_one_decimal": "102.3±7.3"
+      },
+      {
+        "column": "R",
+        "header": "2W",
+        "range": "R2:R11",
+        "record_count": 10,
+        "mean": 107.2,
+        "sample_sd": 6.106462878695726,
+        "rounded_one_decimal": "107.2±6.1"
+      },
+      {
+        "column": "S",
+        "header": "3W",
+        "range": "S2:S11",
+        "record_count": 10,
+        "mean": 110.4,
+        "sample_sd": 7.3363630105265525,
+        "rounded_one_decimal": "110.4±7.3"
+      },
+      {
+        "column": "T",
+        "header": "4W",
+        "range": "T2:T11",
+        "record_count": 10,
+        "mean": 114.5,
+        "sample_sd": 7.245688373094719,
+        "rounded_one_decimal": "114.5±7.2"
+      }
+    ],
+    "parent_table1_zero_based_index": 4,
+    "parent_table1": [
+      [
+        "  组别  ",
+        "例数",
+        "造模前\n（mmHg）",
+        "造模后1W（mmHg）",
+        "造模后2W（mmHg）",
+        "造模后3W（mmHg）",
+        "造模后4W（mmHg）"
+      ],
+      [
+        "伪手术组",
+        "10",
+        "101.0±12.2",
+        "102.3±7.3",
+        "107.2±6.1",
+        "110.4±7.3",
+        "114.5±7.2＃＃"
+      ],
+      [
+        "模型组",
+        "30",
+        "102.8±10.3",
+        "116.3±11.6**",
+        "125.6±10.1**",
+        "135.2±13.2**",
+        "148.5±10.2**＃＃"
+      ]
+    ],
+    "parent_table2_zero_based_index": 9,
+    "parent_table2": [
+      [
+        "  组别  ",
+        "例数",
+        "4W\n（mmHg）",
+        "手术后1 W（5W）（mmHg）",
+        "手术后2 W （6W）（mmHg）",
+        "手术后3W （7W）\n（mmHg）",
+        "手术后4 W （8W）\n（mmHg）"
+      ],
+      [
+        "模型组",
+        "10",
+        "149.1±13.1",
+        "150.7±10.8",
+        "153.6±9.6",
+        "154.9±8.8",
+        "156.1±8.1"
+      ],
+      [
+        "复位组组",
+        "10",
+        "149.8±8.5",
+        "144.5±8.6",
+        "135.6±6.8**",
+        "128.5±5.8**",
+        "119.5±5.3**"
+      ],
+      [
+        "SCG切除组",
+        "10",
+        "146.7±9.4",
+        "132.5±5.4**",
+        "126.1±5.5**",
+        "122.7±4.6**",
+        "121.8±5.5**"
+      ]
+    ]
+  },
+  "format_evidence": {
+    "three_column_blocks": [
+      "A:F",
+      "H:M",
+      "O:T"
+    ],
+    "separator_columns": [
+      "G",
+      "N"
+    ],
+    "model_rows15_to16_have_batch_separator": false,
+    "model_rows15_to16_have_new_header_or_blank_row": false,
+    "model_record_rows_use_same_normal_font_fill_border": true,
+    "red_baseline_cells": [
+      "B20",
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25"
+    ],
+    "red_values": [
+      80,
+      92,
+      110,
+      116,
+      120,
+      108
+    ],
+    "red_mark_meaning": "not recorded; cannot map to exclusions, final allocation, or other assays",
+    "ambiguous_label_cell": "A14",
+    "ambiguous_label_value": "？21"
+  },
+  "decision": "Retain as explicitly labelled source documentation; do not reconstruct manuscript terminal BP contrasts or adopt typed workbook summaries as verified animal means. No unique automatic model10/restoration10 mapping exists.",
+  "recommendation": {
+    "best_preservation": "Include an unchanged source workbook or coordinate-preserving CSV plus explanatory supplementary source-record appendix. A descriptive graph is optional and must not be named as an outcome figure for the current study.",
+    "optional_graph": "Three separate raw-record panels0–4weeks, plus isolated restoration4-entered-value panel5–8weeks. No pooled mean line, error bars, CI, significance, source-row deduplication, interpolated missing cells, or artificial10-animal subset. Use source-row keys for plotting and retain original label as metadata.",
+    "graph_semantics": "A joined series means one workbook row only. Neither repeated animal identity over time nor independent biological sample size is independently verified beyond source structure. Do not connect across missing observations.",
+    "benefit_vs_deleting_all_BP": "Preserves source information and enables review of provenance, while restoring a limited factual account of parent-model BP monitoring.",
+    "limitation_vs_full_restore": "Does not increase the number of supported current-study biological outcomes or substantiate reduction after restoration. A broad source-record plot may distract reviewers; place it in supporting source documentation, not main results.",
+    "main_text_scope": "Keep verified BP measurement procedure and prior-publication context. If describing parent-sham numeric values, explicitly identify them as parent-study first-phase records rather than newly recovered current terminal comparisons.",
+    "avoid": "Do not choose last10 rows, complete10 rows, or statistics-matching subsets based on desired endpoint means. Do not relabel the H:M control block as the current sham or restoration group."
+  },
+  "publication_wording": {
+    "zh": "血压来源资料作为补充记录保留。原工作簿包含标为“模型组”“对照组”和“伪手术组”的三个术前至第4周记录区块，分别有24、14和10个编号行；这些数字表示保存的记录行数，不用于替代本稿各组的有效动物样本量。伪手术区块10个完整记录在各时点重算的均值和样本标准差与父源学位论文第一部分表1一致。模型及另列对照区块存在缺测和重复标签，尚不能唯一确定本稿模型组的10只动物；复位第5至8周仅保存4个录入的汇总值，未保存对应的逐动物分布或误差。因此，补充资料按原标签、来源单元格和时间列呈现记录，不从中选取动物、重建旧终末柱图或计算组间显著性。血压资料与既往AngII/AT1-R研究的重叠已披露；本稿第28天伪手术及模型组与第56天复位组的终末安排，不由这些来源记录转换为同期对照。",
+    "en": "Blood-pressure source records were retained as supplementary documentation. The original workbook contains three preoperative-to-week-4 blocks labelled “model”, “control”, and “sham operation”, with 24, 14, and 10 identifier rows, respectively; these counts describe stored rows and do not replace the effective animal sample sizes for this manuscript. Recalculated means and sample standard deviations for the 10 complete sham-labelled records match Table 1 in the first part of the parent thesis at every time point. Missing observations and repeated labels in the model and separately labelled control blocks prevent unique identification of the 10 animals assigned to the current model group. Only four entered summary values are retained for restoration at weeks 5–8, without corresponding animal-level distributions or error estimates. Supplementary records are therefore displayed with their original labels, source cells, and time columns, without selecting animals, reconstructing the previous terminal bar chart, or calculating between-group significance. Overlap of blood-pressure information with the previous AngII/AT1-R study is disclosed. These source records do not establish contemporaneous controls for the current terminal schedule of day 28 for sham and model animals and day 56 for restoration animals.",
+    "caption_zh": "补充图：原工作簿血压记录的描述性呈现。A–C分别展示原标为模型、对照和伪手术的术前至第4周记录区块；每个点对应一个已保存的数值单元格，线仅连接同一来源行的连续非缺失时间点。原编号及来源行分别保留，重复标签不合并，缺测显示为断点。D展示复位第5至8周的四个录入值；其有效动物数及误差未保存，不画误差线。全图不显示P值、置信区间或推断统计。记录行不能视为已核实的独立动物，也不能据此建立本稿三组的终末比较。",
+    "caption_en": "Supplementary figure. Descriptive display of blood-pressure records in the source workbook. Panels A–C show the preoperative-to-week-4 blocks originally labelled model, control, and sham operation. Each point represents a stored numeric cell, and lines connect only consecutive non-missing time points within the same source row. Original identifiers and source rows are retained separately; repeated labels are not merged and missing observations interrupt lines. Panel D shows four entered restoration values at weeks 5–8; corresponding effective animal counts and error estimates were not retained, so error bars are not shown. No P values, confidence intervals, or inferential statistics are displayed. Source rows are not treated as verified independent animals and do not establish the terminal three-group comparison for this manuscript."
+  },
+  "source_label_time_interpretation": {
+    "pre_model_to_week4": "Week0–4 labels stored in workbook; correspond to days0–28 relative to modelling schedule, not absolute dates. Sham underwent sham operation under parent design.",
+    "restoration_week5_to8": "Entered values at weeks5–8, consistent with days35–56 after parent modelling and days7–28 after day28 restoration, but per-animal pairing and source distributions absent.",
+    "current_terminal_schedule": "User-confirmed sham/modelday28, restorationday56.",
+    "cross_label_duplicates": "10 and25 recur in model block after suffix号 normalization;10,23,6,7,8 also occur across differently labelled blocks. Reused labels may reflect batches; no animal merging or correction justified."
+  }
+}

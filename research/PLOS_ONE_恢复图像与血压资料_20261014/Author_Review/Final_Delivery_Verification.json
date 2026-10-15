@@ -1,0 +1,73 @@
+{
+  "delivery_date": "2026-10-15",
+  "result": "PASS",
+  "documents": [
+    {
+      "language": "zh",
+      "file": "Manuscript_PLOS_ONE_中文.docx",
+      "sha256": "e0b03a5b8c377dfe39ace3bd8932795b22279ae85a794a08ed2814f40f6a0d36",
+      "visual_page_count": 17,
+      "visual_qa": "pass",
+      "query_comments_and_revisions": 0,
+      "native_equations": 1,
+      "table_equation_and_quantitative_results_preserved": true
+    },
+    {
+      "language": "en",
+      "file": "Manuscript_PLOS_ONE_English.docx",
+      "sha256": "59c429dc5376d882bb0786fc151b4e1796c882faba346d784321cdb9ba0ce387",
+      "visual_page_count": 22,
+      "visual_qa": "pass",
+      "query_comments_and_revisions": 0,
+      "native_equations": 1,
+      "table_equation_and_quantitative_results_preserved": true
+    }
+  ],
+  "preserved_core_artifacts": [
+    {
+      "file": "Figures/Fig1.tif",
+      "sha256": "f2fbaa4c38b021447b21b03cabd18f996335751422a1a30799e1793b73da789f",
+      "byte_identical_to_previous_version": true
+    },
+    {
+      "file": "Figures/Fig2.tif",
+      "sha256": "9e68c8c6223d6993c992893ed7c162dec410b8b235c8367b0f860a184ec38c16",
+      "byte_identical_to_previous_version": true
+    },
+    {
+      "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b",
+      "byte_identical_to_previous_version": true
+    },
+    {
+      "file": "Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "byte_identical_to_previous_version": true
+    },
+    {
+      "file": "Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb",
+      "byte_identical_to_previous_version": true
+    },
+    {
+      "file": "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "byte_identical_to_previous_version": true
+    },
+    {
+      "file": "Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "byte_identical_to_previous_version": true
+    },
+    {
+      "file": "Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "byte_identical_to_previous_version": true
+    }
+  ],
+  "archived_bp_source_cells_and_plot_audit": "PASS",
+  "he_source_preservation_and_content_audit": "PASS",
+  "BP_figure_final_preview_visual_review": "PASS",
+  "scope": "Descriptive H&E images and archived BP records restored; no inferred biological n or new BP treatment-effect statistics.",
+  "qa_intermediate_images_and_pdfs_in_delivery": false
+}

@@ -1,0 +1,248 @@
+{
+  "manuscript": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Manuscript_PLOS_ONE_中文.docx",
+  "manuscript_sha256": "e0b03a5b8c377dfe39ace3bd8932795b22279ae85a794a08ed2814f40f6a0d36",
+  "page_count": 17,
+  "all_pages_inspected_at_original_resolution_by_combined_review": true,
+  "review_scope": {
+    "root": [
+      1,
+      2,
+      3
+    ],
+    "agent_prism_candidate_records": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "root_page1_to3_result": "passed per direct parent handoff",
+  "status": "pass",
+  "issues": [],
+  "pages": [
+    {
+      "page": 1,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-1.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "root",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 2,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-2.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "root",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 3,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-3.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "root",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 4,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-4.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 5,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-5.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 6,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-6.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 7,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-7.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 8,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-8.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 9,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-9.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 10,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-10.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 11,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-11.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 12,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-12.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 13,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-13.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 14,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-14.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 15,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-15.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 16,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-16.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 17,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_zh/page-17.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "reviewer": "prism_candidate_records",
+      "visual_result": "pass",
+      "issues": []
+    }
+  ],
+  "specific_checks": {
+    "pages5and6": "New H&E method paragraph continues normally; all Chinese characters and unit symbols legible.",
+    "page7": "Native Q=2^(-DeltaCq) formula correct and unclipped.",
+    "page9": "Table1 caption/header/body all present on same page; cell values and Chinese labels fit.",
+    "page11": "H&E limitation paragraph legible.",
+    "page15": "Long English reference text checked at native-resolution crop where needed; no missing characters.",
+    "page16": "Long S1 Fig caption fits on same page.",
+    "page17": "Long S2 Fig caption complete, followed by all new supporting data/file/script entries; natural final-page whitespace."
+  },
+  "actions": "Read-only visualQA; no manuscript modifications, rerendering, or Git operations."
+}

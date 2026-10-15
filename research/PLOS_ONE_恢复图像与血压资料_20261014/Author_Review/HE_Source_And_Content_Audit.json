@@ -1,0 +1,158 @@
+{
+  "result": "PASS, no substantive overstatement or source-image change found",
+  "image_checks": {
+    "S6_source_jpg_byte_identical": true,
+    "S1_prior_formatted_tiff_byte_identical": true,
+    "S1_image_shape": [
+      1229,
+      5335,
+      3
+    ],
+    "S1_original_below_y240_pixels_identical": true,
+    "old_2_figures_6_support_all_byte_identical": true
+  },
+  "old_supporting_artifact_checks": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Figures/Fig1.tif",
+      "unchanged": true,
+      "sha256": "f2fbaa4c38b021447b21b03cabd18f996335751422a1a30799e1793b73da789f"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Figures/Fig2.tif",
+      "unchanged": true,
+      "sha256": "9e68c8c6223d6993c992893ed7c162dec410b8b235c8367b0f860a184ec38c16"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "unchanged": true,
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "unchanged": true,
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+      "unchanged": true,
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "unchanged": true,
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "unchanged": true,
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "unchanged": true,
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2"
+    }
+  ],
+  "manuscript_checks": [
+    {
+      "language": "zh",
+      "quantitative_text_marker_checks": [
+        {
+          "marker": "91.626",
+          "old_paragraphs_containing": 1,
+          "all_identical_in_new": true
+        },
+        {
+          "marker": "0.0618",
+          "old_paragraphs_containing": 1,
+          "all_identical_in_new": true
+        },
+        {
+          "marker": "95% Games–Howell",
+          "old_paragraphs_containing": 1,
+          "all_identical_in_new": true
+        }
+      ],
+      "table_text_unchanged": true,
+      "native_equation_count": 1,
+      "native_equation_unchanged": true,
+      "HE_relevant_paragraphs": [
+        "本研究分析寰枢关节紊乱模型雄性大鼠含RVLM及邻近组织的腹外侧延髓取材块中的氧化应激指标和Nox1/Nox4 mRNA，并与取出异物后在较晚终点取样的复位组比较。来源实验的血压数据与相关报道[22]共享；本报告的生化和转录本分析未在该报道中呈现。存档血压记录和HE图像另作描述性背景资料呈现。这些比较用于表征分子关联，未检验NOX信号是否介导血压升高。",
+        "HE图像的制备与说明性呈现",
+        "数据以均值 ± 标准差（SD）表示，以独立大鼠为实验单位。各终点样本量与起始分配数量分别报告。对延髓SOD、MDA及探针相关荧光的分析纳入每组全部6个提供的处理值，未剔除离群值，也未填补缺失值。同一动物的重复观察不计为新增生物学重复。 HE图像及存档血压记录仅作描述性呈现，未进行组间显著性检验；血压来源行和录入汇总不计作新的独立生物学重复。",
+        "说明性的HE图像",
+        "保留的HE图像中可见紫蓝色核染色、粉红色背景组织及不同形态的细胞轮廓（S1图）。这些图像展示来源资料所标注的伪手术、模型及复位视野。由于制片动物数、个体对应及视野采样记录无法确认，图像不作为组间形态差异、神经元损伤或复位后组织恢复的证据。",
+        "HE图像仅提供所展示视野的组织学外观。图像保留了来源分组标签，但各组动物数、图像对应个体、切片及视野采样方案无法确认，原标尺校准记录也未获得核查。因此不能认为这些视野代表各组普遍形态，不能估计神经元数量或密度，也不能证明组织学恢复。常规HE染色缺少细胞特异性标记，不能据此识别活化的小胶质细胞、星形胶质细胞或浸润免疫细胞，更不能确立NOX依赖的细胞机制。",
+        "S1图. 来源资料中标注为伪手术、模型和复位的HE染色图像。三幅视野保留原图顺序及组织像素，原图各面板标注的比例尺为100 μm，未取得校准记录独立核查。图像仅说明所展示视野的组织形态。各组制片动物数、图像与个体动物的对应关系及视野选择记录无法确认，未进行定量或组间统计分析，不能用于推断组内形态一致性、神经元数量变化或复位后的组织学恢复。图像外的组名使用英文，原合成图见S6文件。"
+      ],
+      "config_HE_paragraphs": {
+        "34": "HE图像的制备与说明性呈现",
+        "35": "组织学材料所报告的制备流程为经心灌注4%多聚甲醛（0.1 mol/L PBS，pH 7.4），离体后于4°C后固定24–48 h，随后石蜡包埋并制备4 μm切片。所提供的HE流程采用二甲苯脱蜡、梯度乙醇复水、苏木素染色、盐酸酒精分化、碳酸锂返蓝、伊红染色及脱水透明封片。保留的合成图按原有分组标签呈现，组织图像及原标尺像素保留。各组制片动物数、图像与个体动物的对应关系、切片及视野选择记录无法确认，图像仅作说明性展示，未据此进行细胞计数、密度测量、病理评分或组间统计比较。",
+        "59": "说明性的HE图像",
+        "60": "保留的HE图像中可见紫蓝色核染色、粉红色背景组织及不同形态的细胞轮廓（S1图）。这些图像展示来源资料所标注的伪手术、模型及复位视野。由于制片动物数、个体对应及视野采样记录无法确认，图像不作为组间形态差异、神经元损伤或复位后组织恢复的证据。",
+        "81": "HE图像仅提供所展示视野的组织学外观。图像保留了来源分组标签，但各组动物数、图像对应个体、切片及视野采样方案无法确认，原标尺校准记录也未获得核查。因此不能认为这些视野代表各组普遍形态，不能估计神经元数量或密度，也不能证明组织学恢复。常规HE染色缺少细胞特异性标记，不能据此识别活化的小胶质细胞、星形胶质细胞或浸润免疫细胞，更不能确立NOX依赖的细胞机制。",
+        "47": "数据以均值 ± 标准差（SD）表示，以独立大鼠为实验单位。各终点样本量与起始分配数量分别报告。对延髓SOD、MDA及探针相关荧光的分析纳入每组全部6个提供的处理值，未剔除离群值，也未填补缺失值。同一动物的重复观察不计为新增生物学重复。 HE图像及存档血压记录仅作描述性呈现，未进行组间显著性检验；血压来源行和录入汇总不计作新的独立生物学重复。"
+      }
+    },
+    {
+      "language": "en",
+      "quantitative_text_marker_checks": [
+        {
+          "marker": "91.626",
+          "old_paragraphs_containing": 1,
+          "all_identical_in_new": true
+        },
+        {
+          "marker": "0.0618",
+          "old_paragraphs_containing": 1,
+          "all_identical_in_new": true
+        },
+        {
+          "marker": "95% Games–Howell",
+          "old_paragraphs_containing": 1,
+          "all_identical_in_new": true
+        }
+      ],
+      "table_text_unchanged": true,
+      "native_equation_count": 1,
+      "native_equation_unchanged": true,
+      "HE_relevant_paragraphs": [
+        "We analyzed oxidative stress markers and Nox1/Nox4 mRNA in ventrolateral medullary tissue blocks containing the RVLM and adjacent tissue from male rats with atlantoaxial joint disorder and compared them with a restoration group sampled at a later endpoint after implant removal. Blood pressure observations from the source experiment were shared with our related report [22]. The biochemical and transcript analyses presented here were not reported in that publication. Archived blood-pressure records and H&E images were additionally presented as descriptive context. These comparisons describe molecular associations and do not test whether NOX signaling mediates elevated blood pressure.",
+        "Preparation and illustrative presentation of H&E images",
+        "The reported preparation of histological material comprised transcardial perfusion with 4% paraformaldehyde in 0.1 mol/L PBS (pH 7.4), postfixation at 4°C for 24–48 h, paraffin embedding, and sectioning at 4 μm. The supplied H&E procedure described xylene dewaxing, graded ethanol rehydration, hematoxylin staining, acid-alcohol differentiation, lithium-carbonate blueing, eosin staining, dehydration, clearing, and mounting. The retained composite was displayed with its source group labels, preserving tissue and original scale-bar pixels. The number of rats contributing specimens per group, image-to-animal correspondence, and section- and field-selection records could not be confirmed. The images were illustrative; no cell counting, density measurement, histological scoring, or between-group statistical comparison was performed on them.",
+        "Data are presented as mean ± standard deviation (SD), with individual rats as the experimental units. Endpoint sample sizes were reported separately from initial allocation numbers. All 6 supplied processed values per group were included in the analyses of medullary SOD, MDA, and probe-associated fluorescence; no outliers were removed and no missing values were imputed. Repeated observations from the same animal did not constitute additional biological replicates. H&E images and archived blood-pressure entries were displayed descriptively, without between-group significance tests; worksheet rows and entered summaries did not constitute new independent biological replicates.",
+        "Illustrative H&E images",
+        "The retained H&E images showed purple-blue nuclear staining, pink background tissue, and cellular profiles of varied shapes (S1 Fig). They illustrate fields labelled sham-operated, model, and restoration in the source material. Because specimen counts, animal correspondence, and field-sampling records could not be confirmed, these images were not treated as evidence of between-group morphological differences, neuronal injury, or histological recovery after implant removal.",
+        "The H&E images provide only a histological view of the displayed fields. Source group labels were retained, but the number of rats contributing specimens per group, image-to-animal correspondence, and section- and field-sampling schemes could not be confirmed; scale-calibration records were also unavailable for inspection. The fields therefore cannot establish the prevailing morphology of each group, quantify neuronal number or density, or demonstrate histological recovery. Routine H&E staining lacks cell-specific markers and cannot establish activation of microglia or astrocytes, identify infiltrating immune cells, or establish a NOX-dependent cellular mechanism.",
+        "S1 Fig. H&E images labelled sham-operated, model, and restoration in the supplied material. The three fields retain the source order and tissue pixels; the scale bars are labelled 100 μm in the source image, and calibration records were unavailable for independent inspection. These images illustrate only the appearance of the displayed fields. The number of rats contributing specimens per group, image-to-animal correspondence, and field-selection records could not be confirmed. No quantitative or between-group statistical analysis was performed. The fields do not establish within-group consistency, changes in neuronal number, or histological recovery after implant removal. Group labels outside the images are in English; the supplied composite is retained in S6 File.",
+        "S6 File. Supplied H&E composite with the original Chinese group labels and scale bars. This assembled material is not an individual-animal microscope export or a complete image archive."
+      ],
+      "config_HE_paragraphs": {
+        "34": "Preparation and illustrative presentation of H&E images",
+        "35": "The reported preparation of histological material comprised transcardial perfusion with 4% paraformaldehyde in 0.1 mol/L PBS (pH 7.4), postfixation at 4°C for 24–48 h, paraffin embedding, and sectioning at 4 μm. The supplied H&E procedure described xylene dewaxing, graded ethanol rehydration, hematoxylin staining, acid-alcohol differentiation, lithium-carbonate blueing, eosin staining, dehydration, clearing, and mounting. The retained composite was displayed with its source group labels, preserving tissue and original scale-bar pixels. The number of rats contributing specimens per group, image-to-animal correspondence, and section- and field-selection records could not be confirmed. The images were illustrative; no cell counting, density measurement, histological scoring, or between-group statistical comparison was performed on them.",
+        "59": "Illustrative H&E images",
+        "60": "The retained H&E images showed purple-blue nuclear staining, pink background tissue, and cellular profiles of varied shapes (S1 Fig). They illustrate fields labelled sham-operated, model, and restoration in the source material. Because specimen counts, animal correspondence, and field-sampling records could not be confirmed, these images were not treated as evidence of between-group morphological differences, neuronal injury, or histological recovery after implant removal.",
+        "81": "The H&E images provide only a histological view of the displayed fields. Source group labels were retained, but the number of rats contributing specimens per group, image-to-animal correspondence, and section- and field-sampling schemes could not be confirmed; scale-calibration records were also unavailable for inspection. The fields therefore cannot establish the prevailing morphology of each group, quantify neuronal number or density, or demonstrate histological recovery. Routine H&E staining lacks cell-specific markers and cannot establish activation of microglia or astrocytes, identify infiltrating immune cells, or establish a NOX-dependent cellular mechanism.",
+        "47": "Data are presented as mean ± standard deviation (SD), with individual rats as the experimental units. Endpoint sample sizes were reported separately from initial allocation numbers. All 6 supplied processed values per group were included in the analyses of medullary SOD, MDA, and probe-associated fluorescence; no outliers were removed and no missing values were imputed. Repeated observations from the same animal did not constitute additional biological replicates. H&E images and archived blood-pressure entries were displayed descriptively, without between-group significance tests; worksheet rows and entered summaries did not constitute new independent biological replicates."
+      }
+    }
+  ],
+  "editorial_findings": [
+    "Chinese and English preparation is explicitly reported, not newly documented as verified execution. HE procedure is attributed to supplied procedure.",
+    "Unconfirmed per-group histological animal counts are consistently disclosed; neither panel count nor quantitative endpoint n is used as HE n.",
+    "Displayed fields are illustrative, with no claims of group representativeness, neuronal injury/death/density change, or histological recovery.",
+    "No image-specific collection dates are inferred from cohort day28/day56 schedule.",
+    "Statistics explicitly excludes H&E from significance tests; no P or scoring is created.",
+    "Original group labels are translated only in the external header; original composite is archived byte-for-byte.",
+    "H&E without cell-specific markers is not treated as evidence for microglial/astrocyte activation, infiltrating immune-cell identity, or NOX cellular mechanism.",
+    "Scale100um is described as the source annotation, with calibration unverified."
+  ],
+  "edits_performed": "None; source and manuscripts read only; this JSON is a temporary audit artifact.",
+  "optional_editorial_advisory": {
+    "paragraph": "81, English especially",
+    "issue": "The general wording that routine H&E cannot identify infiltrating immune cells could be narrower. The intended conclusion for the present fields is correct, but H&E can in some settings show inflammatory infiltrates.",
+    "suggestion_english": "These fields do not establish the identity or activation state of microglia, astrocytes, or infiltrating immune cells, or a NOX-dependent cellular mechanism.",
+    "suggestion_chinese": "这些视野不能确定小胶质细胞、星形胶质细胞或浸润免疫细胞的身份及活化状态，也不能确立NOX依赖的细胞机制。",
+    "severity": "Optional precision improvement; no source-image or quantitative-data problem."
+  }
+}

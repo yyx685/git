@@ -1,0 +1,262 @@
+{
+  "manuscript": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_恢复图像与血压资料_20261014/Manuscript_PLOS_ONE_English.docx",
+  "manuscript_sha256": "59c429dc5376d882bb0786fc151b4e1796c882faba346d784321cdb9ba0ce387",
+  "page_count": 22,
+  "all_pages_inspected_at_original_resolution": true,
+  "status": "pass",
+  "issues": [],
+  "pages": [
+    {
+      "page": 1,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-1.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 2,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-2.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 3,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-3.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 4,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-4.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 5,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-5.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 6,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-6.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 7,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-7.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 8,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-8.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 9,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-9.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 10,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-10.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 11,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-11.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 12,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-12.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 13,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-13.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 14,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-14.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 15,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-15.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 16,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-16.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 17,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-17.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 18,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-18.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 19,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-19.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 20,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-20.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 21,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-21.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    },
+    {
+      "page": 22,
+      "path": "/tmp/codex-plos-context-restore-20261014/qa_en/page-22.png",
+      "dimensions": [
+        1547,
+        2002
+      ],
+      "opened_with_original_detail": true,
+      "visual_result": "pass",
+      "issues": []
+    }
+  ],
+  "specific_checks": {
+    "page7": "New H&E preparation and illustrative-only scope readable, no clipping.",
+    "page9": "Native formula Q=2^(-DeltaCq) has correct exponent and no clipping.",
+    "pages10and11": "Archived blood pressure contextual result and illustrative H&E result readable; no stranded headings.",
+    "page12": "All rows of Table1 contained on same page, text and values fit cells without clipping.",
+    "page15": "H&E source, sample, scale, and cell-specificity limitations readable.",
+    "page21": "S1 Fig and S2 Fig full long legends contained on same page; no clipping or overlap.",
+    "page22": "Final supporting-information entries readable; starts with normal continuation of S4 Data legend; lower whitespace natural final-page tail."
+  },
+  "actions": "Read-only visualQA; no manuscript modifications, rerendering, or Git operations."
+}
