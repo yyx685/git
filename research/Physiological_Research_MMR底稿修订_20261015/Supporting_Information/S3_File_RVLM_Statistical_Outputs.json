@@ -1,0 +1,301 @@
+{
+  "software": {
+    "Python": "3.12.14",
+    "NumPy": "2.3.5",
+    "SciPy": "1.17.0"
+  },
+  "source": "S1_Data_RVLM_Processed_Values.csv",
+  "scope": "Processed RVLM values for the three declared groups only",
+  "experimental_unit": "Independent rat, subject to source-record confirmation",
+  "animal_identifiers": "Observation order is not an animal identifier",
+  "multiple_testing": "Three pairwise contrasts within each endpoint; no adjustment across endpoints",
+  "confidence_intervals": "95% Games-Howell intervals within each endpoint",
+  "summaries": [
+    {
+      "endpoint": "SOD",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1.1218116789532617,
+      "sd": 0.07219142132091602,
+      "unit": "U/mg protein"
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.5640206062256827,
+      "sd": 0.07242676568621396,
+      "unit": "U/mg protein"
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 1.0352066715663677,
+      "sd": 0.10087853389934057,
+      "unit": "U/mg protein"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 0.09531269362219968,
+      "sd": 0.017077404894084252,
+      "unit": "nmol/mg protein"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.34878755768534236,
+      "sd": 0.03351995100609292,
+      "unit": "nmol/mg protein"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 0.21284911414320715,
+      "sd": 0.04936004376701737,
+      "unit": "nmol/mg protein"
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1326.8795309027612,
+      "sd": 50.63510193522331,
+      "unit": "arbitrary protein-normalized fluorescence units"
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Model",
+      "n": 6,
+      "mean": 3295.6354464370706,
+      "sd": 216.34383161640545,
+      "unit": "arbitrary protein-normalized fluorescence units"
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 2265.5739870857415,
+      "sd": 131.60487928777005,
+      "unit": "arbitrary protein-normalized fluorescence units"
+    }
+  ],
+  "omnibus": [
+    {
+      "endpoint": "SOD",
+      "test": "Welch one-way ANOVA",
+      "F": 91.62611150437782,
+      "df1": 2,
+      "df2": 9.816358611262899,
+      "p": 4.466713517172705e-07,
+      "n_total": 18
+    },
+    {
+      "endpoint": "MDA",
+      "test": "Welch one-way ANOVA",
+      "F": 130.73770951254318,
+      "df1": 2,
+      "df2": 8.500092750959599,
+      "p": 4.138589367843851e-07,
+      "n_total": 18
+    },
+    {
+      "endpoint": "ROS",
+      "test": "Welch one-way ANOVA",
+      "F": 314.9069730380623,
+      "df1": 2,
+      "df2": 7.8044737075054424,
+      "p": 3.4520369989142784e-08,
+      "n_total": 18
+    }
+  ],
+  "posthoc": [
+    {
+      "endpoint": "SOD",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": 0.557791072727579,
+      "CI95_low": 0.4433480251653253,
+      "CI95_high": 0.6722341202898328,
+      "q": 18.895295679929227,
+      "df": 9.999894070999474,
+      "p_adjusted": 2.892936645793043e-07,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "SOD",
+      "group_1": "Sham-operated",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": 0.08660500738689403,
+      "CI95_low": -0.05462539362130925,
+      "CI95_high": 0.2278354083950973,
+      "q": 2.41847392620949,
+      "df": 9.057155649176499,
+      "p_adjusted": 0.25337169236579005,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "SOD",
+      "group_1": "Model",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": -0.47118606534068497,
+      "CI95_low": -0.6125286525819347,
+      "CI95_high": -0.3298434780994353,
+      "q": 13.1435019185081,
+      "df": 9.072563171498246,
+      "p_adjusted": 1.6581020619299558e-05,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": -0.2534748640631427,
+      "CI95_low": -0.298072294081184,
+      "CI95_high": -0.20887743404510134,
+      "q": 23.340641889213547,
+      "df": 7.431764632450646,
+      "p_adjusted": 1.0368106856395443e-06,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group_1": "Sham-operated",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": -0.11753642052100746,
+      "CI95_low": -0.18241259090617834,
+      "CI95_high": -0.0526602501358366,
+      "q": 7.795370961537335,
+      "df": 6.180087655731379,
+      "p_adjusted": 0.0032977066081972817,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group_1": "Model",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": 0.13593844354213522,
+      "CI95_low": 0.06764812323963047,
+      "CI95_high": 0.20422876384463995,
+      "q": 7.892377574504019,
+      "df": 8.802875832627201,
+      "p_adjusted": 0.0009643860810790716,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "ROS",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": -1968.7559155343095,
+      "CI95_low": -2253.791659889321,
+      "CI95_high": -1683.7201711792977,
+      "q": 30.69426500100466,
+      "df": 5.54615144691895,
+      "p_adjusted": 3.4320801671761103e-06,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "ROS",
+      "group_1": "Sham-operated",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": -938.6944561829803,
+      "CI95_low": -1111.8178206166967,
+      "CI95_high": -765.5710917492639,
+      "q": 23.0603366848782,
+      "df": 6.448588747918607,
+      "p_adjusted": 4.408931782551306e-06,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "ROS",
+      "group_1": "Model",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": 1030.0614593513292,
+      "CI95_low": 736.5621614308754,
+      "CI95_high": 1323.560757271783,
+      "q": 14.090998633249585,
+      "df": 8.254766686780398,
+      "p_adjusted": 1.8344142835746702e-05,
+      "n_1": 6,
+      "n_2": 6
+    }
+  ],
+  "assumptions": [
+    {
+      "endpoint": "SOD",
+      "group": "Sham-operated",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.8850424407788284,
+      "p": 0.2930213472144467
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Model",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.9772416189532314,
+      "p": 0.9370537969115509
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Restoration",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.8241534468882437,
+      "p": 0.09583341848933678
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Sham-operated",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.9505313292979479,
+      "p": 0.7445831192030662
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Model",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.8072245223328649,
+      "p": 0.0681940309117622
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Restoration",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.8314830749919416,
+      "p": 0.11064021893618914
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Sham-operated",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.8837874158391598,
+      "p": 0.28690459764714504
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Model",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.8336714131219047,
+      "p": 0.11543832843620977
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Restoration",
+      "test": "Shapiro-Wilk",
+      "statistic": 0.9124380215216585,
+      "p": 0.4526289666150175
+    }
+  ],
+  "fluorescence_unit_note": "Numerical index values unchanged. Exact sample/reaction volumes are not documented here; AU/mg protein is not asserted."
+}

@@ -1,0 +1,593 @@
+{
+  "source": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/lyk mmr期刊.docx",
+  "paras": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "Systemic oxidative stress and Nox1/Nox4 upregulation in the rostral ventrolateral medulla are associated with blood pressure elevation in rats with atlantoaxial joint disorder"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "Xiangying Yuan1, Bin Yang2, Zongbao He1, Youkui Lv2, Zijian Wu1"
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "1 School of Acupuncture and Tuina, Anhui University of Chinese Medicine, Hefei, Anhui 230038, China"
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "2 Department of Rehabilitation and Physiotherapy, Anhui Provincial Corps Hospital, Hefei, Anhui 230041, China"
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "Correspondence to: Professor Zijian Wu, School of Acupuncture and Tuina, Anhui University of Chinese Medicine, [insert street number and name], Hefei, Anhui 230038, China. E-mail: wuzijian@ahtcm.edu.cn"
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "Dr Youkui Lv, Department of Rehabilitation and Physiotherapy, Anhui Provincial Corps Hospital, [insert street number and name], Hefei, Anhui 230041, China. E-mail: lvyk126@126.com"
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "Abbreviations: Ang II, angiotensin II; AT1-R, angiotensin II type 1 receptor; BP, blood pressure; HE, hematoxylin and eosin; MDA, malondialdehyde; Nox, NADPH oxidase; ROS, reactive oxygen species; RT-qPCR, reverse transcription-quantitative polymerase chain reaction; RVLM, rostral ventrolateral medulla; SOD, superoxide dismutase"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "Key words: oxidative stress, hypertension, atlantoaxial joint disorder, rostral ventrolateral medulla, Nox1, Nox4"
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "Running title: YUAN et al: SYSTEMIC OXIDATIVE STRESS AND NOX1/NOX4 IN RVLM OF ATLANTOAXIAL JOINT DISORDER RATS"
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "Abstract"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "Atlantoaxial joint disorder has been implicated in blood pressure elevation, but the underlying mechanisms remain unclear. Our previous study showed that implantation of a metallic foreign body into the atlantoaxial joint of rats induced atlantoaxial joint disorder and increased blood pressure. Because oxidative stress is closely associated with hypertension, the present study investigated whether systemic oxidative stress and nicotinamide adenine dinucleotide phosphate oxidase 1/4 (Nox1/Nox4) expression in the rostral ventrolateral medulla (RVLM) are altered in this model. A metallic foreign body was inserted into the left atlantoaxial joint space to establish a rat model of atlantoaxial joint disorder. Rats were assigned to sham-operated, model, and restoration groups. Blood pressure was monitored after surgery. Serum levels of superoxide dismutase (SOD), malondialdehyde (MDA), and reactive oxygen species (ROS) were measured by enzyme-linked immunosorbent assay. Nox1 and Nox4 mRNA expression in the RVLM was assessed by reverse transcription-quantitative PCR, and protein levels were detected by Western blotting. Histological changes in the RVLM were observed by hematoxylin and eosin staining. Compared with the sham-operated and restoration groups, the model group showed elevated blood pressure, higher serum MDA and ROS levels, and reduced serum SOD activity. Nox1 and Nox4 mRNA and protein expression levels in the RVLM were also increased in the model group and were reduced after restoration. Histological observation suggested inflammatory cell-like changes in the RVLM of model rats. These findings suggest that blood pressure elevation induced by atlantoaxial joint disorder is associated with systemic oxidative stress and upregulation of Nox1/Nox4 in the RVLM. Further studies are needed to determine the causal relationship between RVLM Nox1/Nox4 upregulation and sympathetic activation."
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "Introduction"
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "Hypertension is a major risk factor for cardiovascular, cerebrovascular, and renal diseases. Although essential hypertension is usually considered a multifactorial disorder, increasing evidence suggests that structural and functional abnormalities of the cervical spine may be associated with blood pressure dysregulation in some patients. Previous clinical observations have reported that blood pressure may decrease after cervical spine treatment in certain patients with cervical spondylosis and hypertension (1,2). Atlas vertebra realignment has also been reported to reduce arterial pressure in hypertensive patients with atlas abnormalities (3). These findings suggest a potential relationship between cervical spine abnormalities and blood pressure regulation (4)."
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "Atlantoaxial joint disorder is characterized by minor dislocation or abnormal mechanical relationships of the atlantoaxial joint, often accompanied by damage, strain, or degenerative changes in surrounding tissues (5). Our previous study established a rat model by implanting a metallic foreign body into the left atlantoaxial joint, which resulted in atlantoaxial joint instability and blood pressure elevation (6). However, the biological mechanisms linking atlantoaxial joint disorder to increased blood pressure remain insufficiently understood."
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "Oxidative stress plays an important role in the development and progression of hypertension (7-9). Excessive production of reactive oxygen species (ROS) and impaired antioxidant defense can alter vascular function, promote inflammation, and affect central autonomic regulation. The rostral ventrolateral medulla (RVLM) is a critical brainstem region for maintaining sympathetic vasomotor tone and arterial blood pressure (10). Previous studies have shown that increased ROS production in the RVLM can enhance sympathetic outflow and contribute to neurogenic hypertension (11-14)."
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "Nicotinamide adenine dinucleotide phosphate oxidases (Nox enzymes) are major sources of ROS in cardiovascular and neural tissues. Nox-derived ROS have been implicated in hypertension, vascular dysfunction, and central sympathetic regulation (15,16). Among the Nox family members, Nox1 and Nox4 are expressed in the RVLM and may participate in redox-sensitive regulation of blood pressure (17). In addition, angiotensin II (Ang II) signaling through angiotensin II type 1 receptor (AT1-R) can activate Nox-dependent ROS production, which may further influence RVLM function and sympathetic activity (18,19). Our previous work showed that Ang II and AT1-R expression in the RVLM were increased in rats with atlantoaxial joint disorder-induced hypertension, suggesting that central renin-angiotensin signaling may be involved in this model (20)."
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "Therefore, the present study investigated changes in systemic oxidative stress biomarkers and RVLM Nox1/Nox4 expression in rats with atlantoaxial joint disorder-induced blood pressure elevation. We further evaluated whether removal of the metallic foreign body partially reversed these changes."
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "Materials and methods"
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "Experimental animals"
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "Thirty healthy specific pathogen-free male Wistar rats, weighing 250-300 g, were obtained from the Experimental Animal Centre of Anhui Medical University. The rats were housed under controlled temperature and humidity with a 12 h light/dark cycle and free access to standard food and water."
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "All animal procedures were approved by the Animal Ethics Committee of Anhui University of Chinese Medicine (approval number: AHUCM-rats-2022032) and were performed in accordance with institutional guidelines for the care and use of laboratory animals."
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "Experimental groups"
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "The rats were divided into three groups: sham-operated group, model group, and restoration group. The sham-operated group underwent the same surgical exposure as the model group but without implantation of the metallic foreign body. In the model group, a metallic foreign body was implanted into the left atlantoaxial joint space to establish atlantoaxial joint disorder. In the restoration group, rats with blood pressure elevation after model establishment underwent removal of the metallic foreign body."
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "Establishment of the atlantoaxial joint disorder model"
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "The model was established as described in our previous study (6). Briefly, rats were anesthetized with 2% isoflurane. After fixation, an anterior cervical approach was used to expose the left atlantoaxial joint. A specially prepared metallic foreign body was inserted and fixed into the left atlantoaxial joint space. Penicillin was administered for 3 days after surgery to prevent infection. Digital radiography was performed after surgery to confirm the position of the metallic foreign body and the morphology of the atlantoaxial joint."
+    },
+    {
+      "index": 25,
+      "style": "Normal",
+      "text": "In the sham-operated group, the same surgical procedure was performed to expose the atlantoaxial joint, but no metallic foreign body was implanted."
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "Restoration procedure"
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "In the restoration group, rats with elevated blood pressure after model establishment were selected for removal of the metallic foreign body. After anesthesia, the previous surgical site was reopened, and the metallic foreign body was removed using a needle holder. The wound was sutured, and penicillin was administered for 3 days after surgery."
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "Blood pressure measurement"
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "Blood pressure was measured using a noninvasive tail-cuff blood pressure system from IITC Life Science. Blood pressure was monitored on days 7, 14, 21, and 28 after surgery. Rats were acclimated to the measurement environment before recording. Multiple measurements were taken for each rat, and stable values were used for analysis."
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "Sample collection"
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "At the end of the experiment, rats were anesthetized, and blood samples were collected from the abdominal aorta. Blood samples were centrifuged at [insert] × g for [insert] min at [insert]°C, and serum was stored at -80°C for subsequent analysis. The brainstem was rapidly removed, and the RVLM region was dissected. Each RVLM tissue sample weighed approximately 100 mg and was stored appropriately for histological, mRNA, or protein analyses."
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "Hematoxylin and eosin staining"
+    },
+    {
+      "index": 33,
+      "style": "Normal",
+      "text": "RVLM tissues were fixed, embedded, sectioned, and stained with hematoxylin and eosin. Histological morphology was observed under a light microscope. The staining was used for descriptive evaluation of tissue morphology and inflammatory cell-like changes in the RVLM."
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "Measurement of serum oxidative stress biomarkers"
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "Serum and RVLM levels of SOD, MDA, and ROS were measured using enzyme-linked immunosorbent assay kits (SOD: [supplier; catalog number]; MDA: [supplier; catalog number]; ROS: [supplier; catalog number]) according to the manufacturer’s instructions. The absorbance was measured using a microplate reader ([manufacturer and model]), and concentrations or activity levels were calculated according to the standard curves provided with the kits."
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "Reverse transcription-quantitative polymerase chain reaction"
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "Total RNA was extracted from RVLM tissues using [RNA extraction reagent/kit; supplier; catalog number]. Reverse transcription was performed using a PrimeScript RT reagent kit with gDNA Eraser ([supplier; catalog number]). RT-qPCR was used to detect Nox1 and Nox4 mRNA expression. The primer sequences were as follows: Nox1 forward, [sequence]; Nox1 reverse, [sequence]; Nox4 forward, [sequence]; Nox4 reverse, [sequence]. The internal reference gene was [gene name]. The thermocycling conditions were as follows: [initial denaturation, cycling conditions, and final extension]. Relative mRNA expression levels were calculated using the 2^-ΔΔCq method (25), with an internal reference gene used for normalization."
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "Western blotting"
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "Total protein was extracted from RVLM tissues using [lysis buffer], and the protein concentration was determined using [BCA/bicinchoninic acid kit; supplier; catalog number]. Equal amounts of protein were separated by sodium dodecyl sulfate-polyacrylamide gel electrophoresis and transferred to [membrane type] membranes. After blocking with [blocking buffer] for [time] at [temperature], the membranes were incubated overnight at 4°C with primary antibodies against Nox1 ([type]; [supplier]; catalog number [insert]; dilution [insert]) and Nox4 ([type]; [supplier]; catalog number [insert]; dilution [insert]), followed by incubation with the corresponding secondary antibodies ([type]; [supplier]; catalog number [insert]; dilution [insert]) for [time] at [temperature]. Protein bands were visualized using [detection reagent] and quantified using [image analysis software; version; supplier]. Target protein levels were normalized to [internal reference protein]."
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "Statistical analysis"
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "Data are presented as the mean ± standard deviation (SD). Statistical analyses were performed using GraphPad Prism (version [insert version]; GraphPad Software, Inc., La Jolla, CA, USA). Normality and homogeneity of variance were assessed before parametric analysis. Comparisons among three groups were performed using one-way analysis of variance followed by an appropriate post hoc test when the data met the assumptions of normality and equal variance. For data with unequal variance or non-normal distribution, appropriate non-parametric tests were used. Blood pressure measured over time was analyzed using repeated-measures analysis of variance or a mixed-effects model. P < 0.05 was considered statistically significant."
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "Results"
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "Blood pressure changes in the three groups"
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "Blood pressure was monitored on days 7, 14, 21, and 28 after surgery. Blood pressure was significantly elevated in the model group compared with the sham-operated group, and it decreased after removal of the metallic foreign body in the restoration group (Figure 1A)."
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "Changes in serum oxidative stress biomarkers"
+    },
+    {
+      "index": 47,
+      "style": "Normal",
+      "text": "Serum oxidative stress biomarkers were measured in the three groups. Compared with the sham-operated group, the model group showed significantly increased serum MDA and ROS levels (Figure 2B and C) and decreased SOD activity (Figure 2A). These changes were partially reversed in the restoration group. These results indicate that atlantoaxial joint disorder-induced blood pressure elevation was accompanied by increased systemic oxidative stress and reduced antioxidant capacity."
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "Histological changes in the RVLM"
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "Hematoxylin and eosin staining was performed to observe histological morphology in the RVLM of rats from the three groups. In the sham-operated group, the RVLM showed relatively normal histological morphology. In the model group, increased cellular density and inflammatory cell-like changes were observed in the RVLM. These alterations appeared less pronounced in the restoration group than in the model group (Figure 3)."
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "Because specific neuronal, astrocytic, or microglial markers were not used in this study, these findings should be interpreted as descriptive histological observations rather than definitive evidence of neuronal proliferation or microglial activation."
+    },
+    {
+      "index": 54,
+      "style": "Normal",
+      "text": "Oxidative stress biomarkers in the RVLM"
+    },
+    {
+      "index": 55,
+      "style": "Normal",
+      "text": "RVLM oxidative stress biomarkers were measured in the three groups. Compared with the sham-operated group, the model group showed significantly increased RVLM MDA and ROS levels (Figure 4B and C) and decreased SOD activity (Figure 4A). These changes were partially reversed in the restoration group. These results indicate that atlantoaxial joint disorder-induced blood pressure elevation was accompanied by increased oxidative stress in the RVLM and reduced antioxidant capacity."
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "Nox1 and Nox4 protein expression in the RVLM"
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "Western blotting showed that Nox1 and Nox4 protein levels in the RVLM were increased in the model group compared with the sham-operated group. In the restoration group, Nox1 and Nox4 protein expression levels were lower than those in the model group. These findings suggest that blood pressure elevation induced by atlantoaxial joint disorder was associated with upregulation of Nox1 and Nox4 proteins in the RVLM (Figure 5A-C)."
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "Nox1 and Nox4 mRNA expression in the RVLM"
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "Quantitative real-time polymerase chain reaction analysis showed that Nox1 and Nox4 mRNA expression levels in the RVLM were increased in the model group compared with the sham-operated group. After restoration, Nox1 and Nox4 mRNA expression levels were reduced compared with the model group. These results were consistent with the protein expression findings and suggest that RVLM Nox1/Nox4 upregulation may be involved in the biological response to atlantoaxial joint disorder-induced blood pressure elevation(Figure 6A and B)."
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "Discussion"
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "The present study showed that rats with atlantoaxial joint disorder exhibited blood pressure elevation, increased serum ROS and MDA levels, decreased serum SOD activity, and upregulated Nox1/Nox4 expression in the RVLM. These changes were partially reversed after removal of the metallic foreign body. These findings indicate that systemic oxidative stress and RVLM Nox1/Nox4 upregulation are associated with blood pressure elevation in this model."
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "Oxidative stress is widely recognized as an important contributor to hypertension. (7-9) Increased ROS production can impair vascular function, reduce nitric oxide bioavailability, promote inflammation, and affect central autonomic regulation (21).  SOD is an important antioxidant enzyme that removes superoxide radicals, whereas MDA is a lipid peroxidation product reflecting oxidative damage. (22) (23) In the present study, the model group showed increased serum ROS and MDA levels and reduced SOD activity, suggesting enhanced systemic oxidative stress. The reversal of these changes after removal of the metallic foreign body further supports a relationship between atlantoaxial joint disorder, blood pressure elevation, and oxidative stress."
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "The RVLM is a key brainstem region involved in sympathetic vasomotor regulation and arterial blood pressure control. Previous studies have shown that oxidative stress in the RVLM can enhance sympathetic outflow and contribute to neurogenic hypertension. Nox enzymes are important enzymatic sources of ROS, and Nox-derived ROS in the RVLM have been implicated in redox-sensitive regulation of sympathetic activity. (24) In the present study, Nox1 and Nox4 mRNA and protein expression levels were increased in the RVLM of model rats and reduced after restoration. These results suggest a potential link between RVLM Nox1/Nox4 upregulation and blood pressure elevation induced by atlantoaxial joint disorder."
+    },
+    {
+      "index": 67,
+      "style": "Normal",
+      "text": "Ang II/AT1-R signaling may also be relevant to this process. Ang II can activate AT1-R and stimulate Nox-dependent ROS production in cardiovascular and neural tissues. Our previous work showed increased Ang II and AT1-R expression in the RVLM in this rat model. Together with the present findings, these results suggest that Ang II/AT1-R signaling and Nox-related oxidative stress may participate in blood pressure elevation associated with atlantoaxial joint disorder. However, Ang II, AT1-R, angiotensin-converting enzyme, angiotensin-converting enzyme 2, and Mas receptor expression were not measured in the current study. Therefore, this pathway should be interpreted as a hypothesis supported by previous data rather than as a direct finding of the present experiment (Figure 7)."
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "Histological observation showed increased cellular density and inflammatory cell-like changes in the RVLM of model rats. These changes were less pronounced in the restoration group. Neuroinflammatory responses in the RVLM have been implicated in sympathetic activation and hypertension in previous studies. However, the present study used hematoxylin and eosin staining only. Specific markers of microglia, astrocytes, neurons, or infiltrating immune cells were not examined. Therefore, the histological findings should be interpreted cautiously and should not be considered definitive evidence of microglial activation or neuroinflammation."
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "The restoration group is an important component of this study. Removal of the metallic foreign body was associated with reduced blood pressure, improved serum oxidative stress biomarkers, and decreased RVLM Nox1/Nox4 expression. These findings suggest that the effects of atlantoaxial joint disorder on blood pressure and oxidative stress-related indicators are at least partially reversible. This reversibility supports the biological relevance of the model and provides a basis for future mechanistic studies."
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "This study has several limitations. First, oxidative stress was evaluated mainly using serum biomarkers, and local ROS production or oxidative damage in the RVLM was not directly measured. Second, sympathetic nerve activity was not assessed, so RVLM neuronal excitation remains putative. Third, although Nox1 and Nox4 expression was increased, no Nox-targeted intervention was performed to establish causality. Fourth, histological inflammatory changes were observed by hematoxylin and eosin staining, but specific markers of microglia, astrocytes, neurons, or inflammatory cells were not examined. Fifth, the sample size for Western blotting was limited. Finally, the Ang II/AT1-R pathway was discussed based on previous work and was not directly measured in the current experiment. These limitations should be addressed in future studies using local oxidative stress detection, sympathetic activity measurements, cell-specific staining, and antioxidant or Nox-targeted interventions."
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "Atlantoaxial joint disorder-induced blood pressure elevation in rats was accompanied by increased serum oxidative stress biomarkers and upregulation of Nox1/Nox4 expression in the RVLM. Removal of the metallic foreign body partially reversed these changes. These findings suggest that systemic oxidative stress and RVLM Nox1/Nox4 upregulation are associated with blood pressure elevation in this model. Further studies using local oxidative stress detection, sympathetic activity measurements, and antioxidant or Nox-targeted interventions are needed to clarify the causal mechanisms."
+    },
+    {
+      "index": 73,
+      "style": "Normal",
+      "text": "Acknowledgements"
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "Not applicable."
+    },
+    {
+      "index": 75,
+      "style": "Normal",
+      "text": "Funding"
+    },
+    {
+      "index": 76,
+      "style": "Normal",
+      "text": "This study was funded by the Anhui Province National Natural Science Foundation of China, grant number 1608085MH185."
+    },
+    {
+      "index": 77,
+      "style": "Normal",
+      "text": "Availability of data and materials"
+    },
+    {
+      "index": 78,
+      "style": "Normal",
+      "text": "The data supporting the findings of this study are available from the corresponding authors upon reasonable request."
+    },
+    {
+      "index": 79,
+      "style": "Normal",
+      "text": "Authors' contributions"
+    },
+    {
+      "index": 80,
+      "style": "Normal",
+      "text": "XY: conceptualization, methodology, investigation, formal analysis, writing-original draft, writing-review and editing. BY: methodology, investigation. ZH: investigation, resources. YL: conceptualization, supervision, funding acquisition, writing-review and editing. ZW: conceptualization, supervision, project administration, funding acquisition, writing-review and editing. All authors read and approved the final manuscript."
+    },
+    {
+      "index": 81,
+      "style": "Normal",
+      "text": "Ethics approval and consent to participate"
+    },
+    {
+      "index": 82,
+      "style": "Normal",
+      "text": "The animal study protocol was approved by the Animal Ethics Committee of Anhui University of Chinese Medicine, approval number AHUCM-rats-2022032."
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "Patient consent for publication"
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "Not applicable."
+    },
+    {
+      "index": 85,
+      "style": "Normal",
+      "text": "Competing interests"
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "The authors declare no conflict of interest"
+    },
+    {
+      "index": 87,
+      "style": "Normal",
+      "text": "Use of artificial intelligence tools"
+    },
+    {
+      "index": 88,
+      "style": "Normal",
+      "text": "During the preparation of this work, the authors used OpenAI Codex [version/model] (OpenAI) to improve the language and readability of the manuscript. After using this tool, the authors reviewed and edited the content and take full responsibility for the content of the publication."
+    },
+    {
+      "index": 89,
+      "style": "Normal",
+      "text": "References"
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": "Kalb S, Zaidi HA, Ribas-Nijkerk JC, Sindhwani MK, Clark JC, Martirosyan NL and Theodore N: Persistent outpatient hypertension is independently associated with spinal cord dysfunction and imaging characteristics of spinal cord damage among patients with cervical spondylosis. World Neurosurg 84: 351–357, 2015. doi: 10.1016/j.wneu.2015.03.030."
+    },
+    {
+      "index": 91,
+      "style": "Normal",
+      "text": "Plaugher G, Long CR, Alcantara J, Silveus AD, Wood H, Lotun K, Menke JM, Meeker WC and Rowe SH: Practice-based randomized controlled-comparison clinical trial of chiropractic adjustments and brief massage treatment at sites of subluxation in subjects with essential hypertension: pilot study. J Manipulative Physiol Ther 25: 221–239, 2002. doi: 10.1067/mmt.2002.123171."
+    },
+    {
+      "index": 92,
+      "style": "Normal",
+      "text": "Bakris G, Dickholtz M Sr, Meyer PM, Kravitz G, Avery E, Miller M, Brown J, Woodfield C and Bell B: Atlas vertebra realignment and achievement of arterial pressure goal in hypertensive patients: a pilot study. J Hum Hypertens 21: 347–352, 2007. doi: 10.1038/sj.jhh.1002133."
+    },
+    {
+      "index": 93,
+      "style": "Normal",
+      "text": "Liu H and Ploumis A: Cervicogenic hypertension - a possible etiology and pathogenesis of essential hypertension. Hypothesis 10: 1–4, 2012. doi: 10.5779/hypothesis.v10i1.297."
+    },
+    {
+      "index": 94,
+      "style": "Normal",
+      "text": "Chatterjee S, Shivhare P and Verma S G: Chiari malformation and atlantoaxial instability: problems of co-existence. Childs Nerv Syst 35: 1755–1761, 2019. doi: 10.1007/s00381-019-04284-z."
+    },
+    {
+      "index": 95,
+      "style": "Normal",
+      "text": "He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, Wu ZJ and Qin X: Atlantoaxial misalignment causes high blood pressure in rats: a novel hypertension model. Biomed Res Int 2017: 5986957, 2017. doi: 10.1155/2017/5986957."
+    },
+    {
+      "index": 96,
+      "style": "Normal",
+      "text": "Franco C, Sciatti E, Favero G, Bonomini F, Vizzardi E and Rezzani R: Essential hypertension and oxidative stress: novel future perspectives. Int J Mol Sci 23: 14489, 2022. doi: 10.3390/ijms232214489."
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "Guzik T J and Touyz R M: Oxidative stress, inflammation, and vascular aging in hypertension. Hypertension 70: 660–667, 2017. doi: 10.1161/HYPERTENSIONAHA.117.07802."
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "Ahmad KA, Yuan Yuan D, Nawaz W, Ze H, Zhuo CX, Talal B, Taleb A, Mais E and Qilong D: Antioxidant therapy for management of oxidative stress induced hypertension. Free Radic Res 51: 428–438, 2017. doi: 10.1080/10715762.2017.1322205."
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "Wenker I C, Abe C, Viar K E, Stornetta D S, Stornetta R L and Guyenet P G: Blood pressure regulation by the rostral ventrolateral medulla in conscious rats: effects of hypoxia, hypercapnia, baroreceptor denervation, and anesthesia. J Neurosci 37: 4565–4583, 2017. doi: 10.1523/JNEUROSCI.3922-16.2017."
+    },
+    {
+      "index": 100,
+      "style": "Normal",
+      "text": "Dampney R A, Tan P S, Sheriff M J, Fontes M A and Horiuchi J: Cardiovascular effects of angiotensin II in the rostral ventrolateral medulla: the push-pull hypothesis. Curr Hypertens Rep 9: 222–227, 2007. doi: 10.1007/s11906-007-0040-4."
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "de Oliveira-Sales E B, Nishi E E, Boim M A, Dolnikoff M S, Bergamaschi C T and Campos R R: Upregulation of AT1R and iNOS in the rostral ventrolateral medulla (RVLM) is essential for the sympathetic hyperactivity and hypertension in the 2K-1C Wistar rat model. Am J Hypertens 23: 708–715, 2010. doi: 10.1038/ajh.2010.64."
+    },
+    {
+      "index": 102,
+      "style": "Normal",
+      "text": "Chan S H H, Wu K L H, Chang A Y W, Tai M H and Chan J Y H: Oxidative impairment of mitochondrial electron transport chain complexes in rostral ventrolateral medulla contributes to neurogenic hypertension. Hypertension 53: 217–227, 2009. doi: 10.1161/HYPERTENSIONAHA.108.116905."
+    },
+    {
+      "index": 103,
+      "style": "Normal",
+      "text": "Huang Y P, Jin H Y and Yu H P: Inhibitory effects of alpha-lipoic acid on oxidative stress in the rostral ventrolateral medulla in rats with salt-induced hypertension. Int J Mol Med 39: 430–436, 2017. doi: 10.3892/ijmm.2016.2846."
+    },
+    {
+      "index": 104,
+      "style": "Normal",
+      "text": "Lopes FNC, da Cunha NV, de Campos BH, Fattori V, Panis C, Cecchini R, Verri WA Jr, Pinge-Filho P and Martins-Pinge MC: Antioxidant therapy reverses sympathetic dysfunction, oxidative stress, and hypertension in male hyperadipose rats. Life Sci 295: 120405, 2022. doi: 10.1016/j.lfs.2022.120405."
+    },
+    {
+      "index": 105,
+      "style": "Normal",
+      "text": "Kalsoom U E, Jin J, Meng W, Su Y, Wu C and Wu Q: The role of NADPH oxidases in central nervous system regulation of hypertension: mechanisms and therapeutic insights. Biomed Pharmacother 196: 119096, 2026. doi: 10.1016/j.biopha.2026.119096."
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "Yan J Q, Huang F, Hao F, Su X L, Meng Q and Xu M J: Oxidative stress in the rostral ventrolateral medulla contributes to cardiovascular regulation in preeclampsia. Front Physiol 8: 772, 2017. doi: 10.3389/fphys.2017.00772."
+    },
+    {
+      "index": 107,
+      "style": "Normal",
+      "text": "Banks T E, Rajapaksha M, Zhang L H, Bai F, Wang N P and Zhao Z Q: Suppression of angiotensin II-activated NOX4/NADPH oxidase and mitochondrial dysfunction by preserving glucagon-like peptide-1 attenuates myocardial fibrosis and hypertension. Eur J Pharmacol 927: 175048, 2022. doi: 10.1016/j.ejphar.2022.175048."
+    },
+    {
+      "index": 108,
+      "style": "Normal",
+      "text": "Gao L, Wang W, Li Y L, Schultz H D, Liu D, Cornish K G and Zucker I H: Superoxide mediates sympathoexcitation in heart failure: roles of angiotensin II and NAD(P)H oxidase. Circ Res 95: 937–944, 2004. doi: 10.1161/01.RES.0000146676.04359.64."
+    },
+    {
+      "index": 109,
+      "style": "Normal",
+      "text": "Lv Y K, Wu Z J, Yang B, Gao D P and He Z B: Expression of angiotensin II and angiotensin II type 1 receptor in the rostral ventrolateral medulla in a rat model of atlantoaxial joint disorder-induced hypertension. Bull Exp Biol Med 181: 546–550, 2026. doi: 10.47056/0365-9615-2026-181-5-546-550."
+    },
+    {
+      "index": 110,
+      "style": "Normal",
+      "text": "Incalza M A, D'Oria R, Natalicchio A, Perrini S, Laviola L and Giorgino F: Oxidative stress and reactive oxygen species in endothelial dysfunction associated with cardiovascular and metabolic diseases. Vascul Pharmacol 100: 1–19, 2018. doi: 10.1016/j.vph.2017.05.005."
+    },
+    {
+      "index": 111,
+      "style": "Normal",
+      "text": "Marrocco I, Altieri F and Peluso I: Measurement and clinical significance of biomarkers of oxidative stress in humans. Oxid Med Cell Longev 2017: 6501046, 2017. doi: 10.1155/2017/6501046."
+    },
+    {
+      "index": 112,
+      "style": "Normal",
+      "text": "Cordiano R, Di Gioacchino M, Mangifesta R, Panzera C, Gangemi S and Minciullo P L: Malondialdehyde as a potential oxidative stress marker for allergy-oriented diseases: an update. Molecules 28: 5979, 2023. doi: 10.3390/molecules28165979."
+    },
+    {
+      "index": 113,
+      "style": "Normal",
+      "text": "Chao Y M, Rauchová H and Chan J Y H: Disparate roles of oxidative stress in rostral ventrolateral medulla in age-dependent susceptibility to hypertension induced by systemic l-NAME treatment in rats. Biomedicines 10: 2232, 2022. doi: 10.3390/biomedicines10092232."
+    },
+    {
+      "index": 114,
+      "style": "Normal",
+      "text": "Livak K J and Schmittgen T D: Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method. Methods 25: 402-408, 2001. doi: 10.1006/meth.2001.1262."
+    },
+    {
+      "index": 115,
+      "style": "Normal",
+      "text": "Figure legends"
+    },
+    {
+      "index": 116,
+      "style": "Normal",
+      "text": "Figure 1. Blood pressure changes in the three groups of rats. A, Blood pressure over 28 days in each group of rats. n=10 per group. ***P<0.001 vs. the sham-operated group. Data are presented as the mean ± SD."
+    },
+    {
+      "index": 117,
+      "style": "Normal",
+      "text": "Figure 2. Changes in serum oxidative stress indices in the three groups of rats. A, Comparison of SOD content in each group of rats. n=10 in each group. B, Comparison of MDA content in each group of rats. n=10 in each group. C, Comparison of ROS content in each group of rats. n=10 in each group. **P < 0.01. Data are presented as the mean ± SD. *P<0.05, **P<0.01 and ***P<0.001 vs. the sham-operated group."
+    },
+    {
+      "index": 118,
+      "style": "Normal",
+      "text": "Figure 3. HE staining of the RVLM in the three groups of rats. A, Sham-operated group. B, Model group. [Insert original magnification and/or scale bar if available.]"
+    },
+    {
+      "index": 119,
+      "style": "Normal",
+      "text": "Figure 4. Changes in RVLM oxidative stress indices in the three groups of rats. A, Comparison of SOD content in each group of rats. n=6 in each group. B, Comparison of MDA content in each group of rats. n=6 in each group. C, Comparison of ROS content in each group of rats. n=6 in each group. **P < 0.01. Data are presented as the mean ± SD. *P<0.05, **P<0.01 and ***P<0.001 vs. the sham-operated group."
+    },
+    {
+      "index": 120,
+      "style": "Normal",
+      "text": "Figure 5. Comparison of protein expression in each group of rats. A, Protein blotting in each group of rats. B, Statistical analysis of Nox1 protein expression in each group of rats. n=3 in each group. C, Statistical analysis of Nox4 protein expression in each group of rats. n=3 in each group. ***P < 0.001, **P < 0.01, *P < 0.05. Data are presented as the mean ± SD. *P<0.05, **P<0.01 and ***P<0.001 vs. the sham-operated group."
+    },
+    {
+      "index": 121,
+      "style": "Normal",
+      "text": "Figure 6. Comparison of mRNA expression in each group of rats. A, Statistical analysis of Nox1 mRNA expression in each group of rats. n=6 in each group. B, Statistical analysis of Nox4 mRNA expression in each group of rats. n=6 in each group. ***P < 0.001, **P < 0.01. Data are presented as the mean ± SD. *P<0.05, **P<0.01 and ***P<0.001 vs. the sham-operated group."
+    },
+    {
+      "index": 122,
+      "style": "Normal",
+      "text": "Figure 7. Schematic diagram of the proposed mechanism. Atlantoaxial joint disorder induced by metallic foreign body implantation produces abnormal cervical afferent input to the RVLM, where Ang II/AT1-R signaling, Nox1/Nox4 upregulation and ROS-mediated oxidative stress increase sympathetic outflow and elevate blood pressure. Systemic oxidative stress (increased serum ROS and MDA, decreased SOD) is associated with these changes, and removal of the metallic foreign body partially reverses them. Ang II, angiotensin II; AT1-R, angiotensin II type 1 receptor; Nox, NADPH oxidase; ROS, reactive oxygen species; RVLM, rostral ventrolateral medulla; SOD, superoxide dismutase; MDA, malondialdehyde."
+    },
+    {
+      "index": 123,
+      "style": "Normal",
+      "text": "Tables"
+    },
+    {
+      "index": 124,
+      "style": "Normal",
+      "text": "No tables."
+    }
+  ],
+  "tables": [],
+  "inline_shapes": 8,
+  "sections": 1
+}

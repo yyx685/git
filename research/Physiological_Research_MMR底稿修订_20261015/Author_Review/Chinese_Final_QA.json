@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "document": "Yuan_中文.docx",
+  "sha256": "f6d22fd508fe53b8af90ec7d40ec1cb95049dfe872144f5ae61c89fac9042188",
+  "renderer": "canonical render_docx.py with bundled LibreOffice",
+  "render_directory": "/tmp/codex-physres-mmr-20261015/qa_zh_delivery",
+  "pages": 13,
+  "all_pages_opened_at_original_resolution": true,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "checks": [
+    "Readable Songti SC and Times New Roman text; no missing glyphs",
+    "No title border, stray header/footer line-number labels or tracked edits",
+    "Native Q=2^-DeltaCq equation legible on page 5",
+    "Table and both main figures readable with full captions on pages 11–13",
+    "No isolated supplement-description page; references flow to final table",
+    "Quantitative result paragraphs and input records unchanged"
+  ],
+  "unresolved_visual_defects": []
+}

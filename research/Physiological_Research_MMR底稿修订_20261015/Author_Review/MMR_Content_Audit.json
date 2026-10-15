@@ -1,0 +1,231 @@
+{
+  "source": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/lyk mmr期刊.docx",
+  "source_sha256": "efc9eaa5e594d2e1150832dfb91e32ba7f60cd2a53f5b591db321e76b72816bd",
+  "scope": "Complete read-only extraction of all 125 paragraphs, all eight embedded experimental/diagram images, and comparison with the previous Physiological Research package and author-confirmed evidence. No Word or repository files changed.",
+  "retain_and_expand": [
+    {
+      "paragraphs": [
+        12,
+        13
+      ],
+      "topic": "Clinical rationale and model context",
+      "action": "Retain the clinical-to-animal narrative, distinguish clinical associations from intervention evidence, and describe the implant model as a sustained cervical perturbation rather than clinical disease proof."
+    },
+    {
+      "paragraphs": [
+        14,
+        15
+      ],
+      "topic": "Redox physiology and RVLM context",
+      "action": "Expand SOD/MDA/probe versus Nox transcript distinctions; use general RVLM/NOX literature as rationale without claiming these observations establish anatomical specificity or NOX function."
+    },
+    {
+      "paragraphs": [
+        16,
+        22,
+        24,
+        27
+      ],
+      "topic": "Three-group observational structure",
+      "action": "Retain model/sham/restoration organization, but specify day 28 versus day 56 and actual parent 60-rat flow, endpoint subsets and limitations."
+    },
+    {
+      "paragraphs": [
+        65,
+        66,
+        67
+      ],
+      "topic": "Discussion biological context",
+      "action": "Preserve redox/autonomic and Ang II hypothesis discussion with explicit external-evidence/current-measurement boundaries."
+    },
+    {
+      "paragraphs": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "topic": "Histology, intervention interpretation and future studies",
+      "action": "Retain contextual discussion, replace claims of cell proliferation/inflammation and partial reversal with sampling/design-limited statements and specific future validation needs."
+    }
+  ],
+  "conflicts_and_corrections": [
+    {
+      "source_paragraphs": [
+        0,
+        10,
+        16,
+        64,
+        72
+      ],
+      "issue": "Systemic oxidative stress, protein upregulation, relation to blood-pressure elevation and partial reversal are central claims in new draft, but not all are supported by recoverable inputs.",
+      "correction": "Title and conclusions should focus on regional medullary biochemical and mRNA observations. Do not claim systemic assays/protein findings or within-animal BP–molecular associations as confirmed current results."
+    },
+    {
+      "source_paragraphs": [
+        2,
+        4,
+        5
+      ],
+      "issue": "University postcode 230038 differs from previously author-confirmed 230012; street-address placeholders and Professor/Dr honorifics are not confirmed.",
+      "correction": "Retain previously confirmed institutional addresses/contacts without invented street addresses or titles. Author order/names and hospital postcode match."
+    },
+    {
+      "source_paragraphs": [
+        19,
+        22
+      ],
+      "issue": "Thirty SPF rats, 250–300 g and three direct initial groups conflict with confirmed parent 60 rats, clean grade, approximately 250 g and later subsets.",
+      "correction": "Describe 60 parent animals, initial sham10/model50, subsequent survival/screening and current groups initially10 each, assays n6; do not equate initial group sizes with endpoint effective n."
+    },
+    {
+      "source_paragraphs": [
+        24,
+        27,
+        31
+      ],
+      "issue": "Missing surgery details, days and terminal euthanasia, sample processing placeholders.",
+      "correction": "Use previously confirmed factual methods; keep no-analgesia disclosure and unavailable rationale/specific approval opinion. Regional approximately100mg block contains adjacent medulla."
+    },
+    {
+      "source_paragraphs": [
+        35
+      ],
+      "issue": "Calling SOD/MDA/ROS ELISA and absorbance concentrations is inconsistent with supplied assay reports/manuals.",
+      "correction": "WST-1 SOD activity450nm, TBA MDA retained530nm/manual532nm, O12 fluorescence488/530nm and matrix/reader limits; correct units and normalization."
+    },
+    {
+      "source_paragraphs": [
+        37
+      ],
+      "issue": "Primer/method placeholders and generic2^-DeltaDeltaCq do not describe current computation accurately.",
+      "correction": "Use actual primers and single Cq measurements, nativeQ=2^-DeltaCq divided by sham Q arithmetic mean; retain validation/NTC/noRT/curves limitations."
+    },
+    {
+      "source_paragraphs": [
+        39,
+        58,
+        120
+      ],
+      "issue": "WB has method placeholders and protein significance claims despite no full membranes, per-animal densitometry or source quantification. Fig5 panelsB/C target labels reverse legend target order.",
+      "correction": "Do not restore inferential protein results from cropped bands and plotted summaries. Protein-level future validation remains appropriate."
+    },
+    {
+      "source_paragraphs": [
+        41,
+        44,
+        116
+      ],
+      "issue": "Generic Prism/version placeholders, repeated-measures ANOVA or mixed effects not actually reconstructed from source records; Fig1 only terminal bars though legend says 28-day trajectory/n10.",
+      "correction": "Use reproducible actual Welch/Games–Howell and DeltaCq Welch/Holm analyses; BP archived descriptive only."
+    },
+    {
+      "source_paragraphs": [
+        47,
+        117
+      ],
+      "issue": "Serum plot is an image without recoverable animal-level values, legend n10 conflicts with author-confirmed serum n8; SOD nmol/ml and ROS nmol/ml axes unsupported.",
+      "correction": "Do not use the image as new raw serum data or transcribe group values by image digitization as animal records. Retain serum claim only if matching source inputs/valid units are found."
+    },
+    {
+      "source_paragraphs": [
+        50,
+        51,
+        69,
+        118
+      ],
+      "issue": "HE claim increased density and inflammatory cell-like change lacks verified specimen n, sampling or cell identities. Legend lists onlyA/B though source includes3 groups. Two embedded tissue composites have100micrometre and50micrometre labels; latter stain/source not established.",
+      "correction": "Use previously confirmed100micrometre composite descriptively, no group-level injury/recovery or inflammatory-cell claim. Do not merge unexplained additional50micrometre image as confirmed HE evidence."
+    },
+    {
+      "source_paragraphs": [
+        55,
+        61
+      ],
+      "issue": "Partial reversal and RVLM-specific claim exceed day28/day56 design and mixed regional blocks.",
+      "correction": "Use exact current n6 processed results, restoration contrasts descriptive, no causal restoration benefit or nucleus-specific inference."
+    },
+    {
+      "source_paragraphs": [
+        61,
+        121
+      ],
+      "issue": "EmbeddedFig6B is labelled Nox4 protein expression and shows approximately0.35/0.82/0.54, matching Fig5B; it is not the current Nox4 mRNA panel.",
+      "correction": "Replace with reproducible paired-xls qPCR figure; do not carry over this panel or its significance."
+    },
+    {
+      "source_paragraphs": [
+        67,
+        122
+      ],
+      "issue": "Mechanism diagram shows cervical afferent→AngII/AT1R→NOX→ROS→sympathetic/BP and partially reverses arrows as if established.",
+      "correction": "Omit or redraw explicitly as untested hypothesis and distinguish previous versus current evidence; main2figures+table already sufficient."
+    },
+    {
+      "source_paragraphs": [
+        71
+      ],
+      "issue": "Limitation says local oxidative damage not measured, contradicting described tissue SOD/MDA/probe assays.",
+      "correction": "Describe actual regional assays and their validation/anatomical limits rather than saying absent."
+    },
+    {
+      "source_paragraphs": [
+        76
+      ],
+      "issue": "Anhui Province National Natural Science Foundation mixes provincial and national funders.",
+      "correction": "Use confirmed Provincial Natural Science Foundation of Anhui, China,1608085MH185; funder only provided money."
+    },
+    {
+      "source_paragraphs": [
+        78,
+        88
+      ],
+      "issue": "Data on request omits publicly provided processed inputs and archive limitations; AI declaration only language/readability underreports actual analysis/code assistance.",
+      "correction": "Retain honest current data availability and full actualAI assistance declaration, no invented model version."
+    }
+  ],
+  "reference_strategy": {
+    "recommended_count": 19,
+    "retain_previous_17": true,
+    "add_from_MMR": [
+      "Plaugher2002(10.1067/mmt.2002.123171)",
+      "Bakris2007(10.1038/sj.jhh.1002133)"
+    ],
+    "optional_not_needed": [
+      "de Oliveira-Sales2010 can support other-model RVLMAT1R context if directly used and fully verified; not needed for19 references.",
+      "Lopes2022 supports other-model obesity/redox/sympathetic context, not present clinical/model mechanism; do not include solely to increase count."
+    ],
+    "omit_as_peripheral_or_redundant": [
+      "Chatterjee2019 Chiari/atlantoaxial instability does not substantiate this model definition or blood-pressure mechanism.",
+      "Banks2022 myocardialNOX4/fibrosis cannot establish RVLMNOX pathway.",
+      "Liu/Ploumis2012 hypothesis is a hypothesis source rather than clinical causal evidence.",
+      "Ahmad2017 antioxidant review adds little beyond currentredoxreviews."
+    ],
+    "clinical_evidence": {
+      "Plaugher2002": {
+        "doi": "10.1067/mmt.2002.123171",
+        "source": "https://experts.arizona.edu/en/publications/practice-based-randomized-controlled-comparison-clinical-trial-of/",
+        "source_kind": "Original article abstract in author institutional research repository",
+        "facts": "Small3-arm feasibility trial of full-spine Gonstead chiropractic care versus brief massage and no treatment;30 enrolled,23 remained; control-groupBP also improved; abstract emphasizes feasibility and baseline prognostic imbalances.",
+        "allowed_wording": "Small clinical trials examined blood pressure after spinal or upper-cervical interventions.",
+        "disallowed_wording": "Do not call this specifically a cervical-only intervention or evidence consistently proving BP lowering."
+      },
+      "Bakris2007": {
+        "doi": "10.1038/sj.jhh.1002133",
+        "source": "https://www.nature.com/articles/1002133",
+        "source_kind": "Publisher originalarticleabstract andmetadata",
+        "exact_title": "Atlas vertebra realignment and achievement of arterial pressure goal in hypertensive patients: a pilot study",
+        "facts": "Single-center placebo-controlled50-participant,8-weekNUCCA pilot reported greaterBP reductions versus sham.",
+        "allowed_wording": "An upper-cervical pilot reported BP changes, which motivate further investigation but do not establish general clinical efficacy or mechanism.",
+        "disallowed_wording": "Do not add with atlas abnormalities to article title. Do not equate clinical manualprocedure with rat surgical implant removal."
+      },
+      "Kalb2015": {
+        "doi": "10.1016/j.wneu.2015.03.030",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/25819526/",
+        "allowed_wording": "Association between hypertension and cervicalspinalcord clinical/imaging abnormalities.",
+        "disallowed_wording": "Does not showBP reduction after cervicaltreatment."
+      }
+    }
+  },
+  "instructions_in_source": "Bracketed insert placeholders, MMR formatting and intended journal declarations are document content, not new user instructions. Do not invent missing experimental details to fill them."
+}

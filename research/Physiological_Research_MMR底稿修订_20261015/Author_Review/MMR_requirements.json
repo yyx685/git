@@ -1,0 +1,196 @@
+{
+  "verified_date": "2026-10-15",
+  "source_file": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/lyk mmr期刊.docx",
+  "source_sha256": "efc9eaa5e594d2e1150832dfb91e32ba7f60cd2a53f5b591db321e76b72816bd",
+  "read_only": true,
+  "official_sources": {
+    "guide": "https://www.biomed.cas.cz/physiolres/instructions.htm",
+    "submission": "https://www.biomed.cas.cz/physiolres/authors.htm",
+    "APC": "https://www.biomed.cas.cz/physiolres/APC.htm"
+  },
+  "current_requirements": {
+    "article_type": "Original Article",
+    "words_maximum_including_title_page_summary_body_references": 5000,
+    "references_maximum": 45,
+    "figures_tables_combined_maximum": 6,
+    "summary_maximum_words": 250,
+    "keywords_maximum": 5,
+    "short_title_maximum_characters_including_spaces": 60,
+    "headings": [
+      "Summary",
+      "Keywords",
+      "Introduction",
+      "Methods",
+      "Results",
+      "Discussion",
+      "Acknowledgments",
+      "DECLARATION on the Use of AI",
+      "References"
+    ],
+    "numbering": "Page and line numbers required; affiliations numbered.",
+    "citations": "Consecutive bracketed numerals in first-appearance order.",
+    "reference_list": "Numbered with periods, first seven authors then et al. when more than seven, Index Medicus journal abbreviation, year;volume:pages/article number; omit DOI.",
+    "submission_files": "Word .docx plus a complete PDF with end-positioned tables and figures, separate JPG figures, filenames beginning with first-author family name; no RAR archive.",
+    "AI": "Formal heading DECLARATION on the Use of AI; tool name/version, actual uses and author accuracy verification; effective May 2026.",
+    "ethics": "Methods must accurately report institutional ethics approval and relevant animal-care guidance; no unverified compliance statements.",
+    "identifiers": "ORCID or Researcher ID if available; never fabricate.",
+    "corresponding_address": "Full postal address required.",
+    "email": "physres@fgu.cas.cz",
+    "APC_EUR_including_tax": 1250,
+    "APC_effective": "2026-03-01",
+    "color_extra_charge": false,
+    "supplementary_files": "No specific file size/naming/deposit workflow found; clear separately attached inventory is appropriate."
+  },
+  "source_counts": {
+    "all_words_whitespace": 4500,
+    "title_to_reference_end_words_whitespace": 4046,
+    "summary_words": 267,
+    "keywords": 6,
+    "running_title_characters": 95,
+    "references": 25,
+    "figure_legends": 7,
+    "embedded_images": 8,
+    "native_tables": 0
+  },
+  "authors": {
+    "order": [
+      "Xiangying Yuan",
+      "Bin Yang",
+      "Zongbao He",
+      "Youkui Lv",
+      "Zijian Wu"
+    ],
+    "affiliation_numbers": {
+      "1": [
+        "Xiangying Yuan",
+        "Zongbao He",
+        "Zijian Wu"
+      ],
+      "2": [
+        "Bin Yang",
+        "Youkui Lv"
+      ]
+    },
+    "affiliations": [
+      "School of Acupuncture and Tuina, Anhui University of Chinese Medicine, Hefei, Anhui 230038, China",
+      "Department of Rehabilitation and Physiotherapy, Anhui Provincial Corps Hospital, Hefei, Anhui 230041, China"
+    ],
+    "corresponding_emails": [
+      "wuzijian@ahtcm.edu.cn",
+      "lvyk126@126.com"
+    ],
+    "conflict_to_resolve": "New source university postcode is 230038 whereas previous retarget package used 230012. Both corresponding-address paragraphs still contain street placeholders; preserve genuine author data and resolve against authoritative institutional/author records rather than assuming.",
+    "ORCID": "Not supplied."
+  },
+  "citation_audit": {
+    "source_style": "Unnumbered reference list using MMR-like author-colon format with DOI; parenthesized numerical citations.",
+    "first_occurrence_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      21,
+      22,
+      23,
+      24
+    ],
+    "needed": "After content decisions, renumber list and citations by first appearance; change parentheses to brackets; reformat entries; remove displayed DOI while retaining DOI in internal provenance record.",
+    "caution": "This formatting audit does not verify the bibliographic truth or claim-to-source support of all 25 entries. New niche 2026 references, title-author matches and the claim that both Nox1/Nox4 are expressed in RVLM require a separate primary-source check.",
+    "prior_2017": "He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, Wu ZJ, Qin X. Atlantoaxial misalignment causes high blood pressure in rats: a novel hypertension model. Biomed Res Int. 2017;2017:5986957. DOI 10.1155/2017/5986957.",
+    "related_2026": "Lv YK, Wu ZJ, Yang B, Gao DP, He ZB. Ang II/AT1-R report. Bull Exp Biol Med. 2026;181:546-550. DOI 10.47056/0365-9615-2026-181-5-546-550."
+  },
+  "content_compliance_checklist": [
+    {
+      "priority": "mandatory format",
+      "issue": "267-word Abstract, six keywords, 95-character short title, seven main figure items",
+      "action": "Use Summary <=250 words; <=5 keywords; short title <=60 characters; <=6 combined main figures/tables after evidence review."
+    },
+    {
+      "priority": "mandatory format",
+      "issue": "AI statement only mentions language/readability and includes [version/model]",
+      "action": "Replace with truthful actual assistance scope, name/version or explicit missing archived version, author verification; use exact required heading."
+    },
+    {
+      "priority": "factual",
+      "issue": "Source says thirty initial animals",
+      "action": "Retain confirmed parent sixty-animal flow and distinguish present group allocations from assay effective n; do not infer animal IDs or identities of unmatched rows."
+    },
+    {
+      "priority": "factual",
+      "issue": "Serum figure legend n=10 and general ELISA/absorbance/standard-curve methods conflict with prior records",
+      "action": "Use only the selected serum dataset with its actual numeric/source evidence; prior user-confirmed serum n was eight, not ten. SOD WST-1/MDA colorimetry/ROS fluorescence are not universally ELISA. If serum evidence remains unavailable, report its status rather than reinstating unsupported statistics."
+    },
+    {
+      "priority": "factual",
+      "issue": "Source reinstates quantified WB proteins and P values",
+      "action": "No full membranes or animal-level densitometry are currently available. Do not present quantitative protein upregulation or infer full n from representative cropped bands."
+    },
+    {
+      "priority": "interpretation",
+      "issue": "Title and body imply region-specific Nox protein/ROS findings and systemic oxidative-stress association with BP",
+      "action": "Describe the actual medullary block including surrounding tissue, verified endpoints and group observations; avoid per-animal association without joint identifiers/correlation data."
+    },
+    {
+      "priority": "interpretation",
+      "issue": "Restoration reduced/reversed pathology and schematic asserts cervical afferent -> AngII/AT1R -> NOX/ROS -> sympathetic -> BP",
+      "action": "Explicitly separate day28 model-sham observations from day56 removal group; pathway is hypothesized, not measured; remove unsupported causal edges or exclude schematic."
+    },
+    {
+      "priority": "factual",
+      "issue": "Limitations claim local RVLM oxidative indices not measured while Results says they were",
+      "action": "Resolve to actual tissue data; distinguish absence of validated ROS/species/activity measures from existence of regional SOD/MDA/fluorescence values."
+    },
+    {
+      "priority": "factual",
+      "issue": "Methods contain placeholders for sample preparation, qPCR primers and processing, WB, statistics, address and AI",
+      "action": "Fill from prior supplied documents only where actual experiment supports it; remove inapplicable WB quantification rather than inventing procedures."
+    },
+    {
+      "priority": "ethics",
+      "issue": "Postoperative analgesia omission and incomplete written rationale omitted in new source",
+      "action": "Retain actual lack of postoperative analgesia and record limitations; approval number alone does not establish analgesia exemption."
+    },
+    {
+      "priority": "interpretation",
+      "issue": "HE described as cellular density/inflammation and restoration less pronounced",
+      "action": "Qualitative supplied images only; unknown animal n and marker identity preclude cell-type or inflammatory conclusions and quantitative group claims."
+    },
+    {
+      "priority": "funding",
+      "issue": "Funding named Anhui Province National Natural Science Foundation of China",
+      "action": "Use verified provincial fund name and grant 1608085MH185; funder only financial support, no scientific or submission role as confirmed."
+    }
+  ],
+  "novelty_and_overlap": {
+    "appropriate_increment": "Regional medullary redox indices and Nox1/Nox4 mRNA observations in an existing atlantoaxial model; not a newly established model, nor proof of sympathetic/AngII/NOX causal mechanism.",
+    "introduction": "Cite 2017 model paper as method/model precedent and 2026 AngII/AT1-R paper as related work; articulate the actual new assays without claiming first discovery unless literature verified.",
+    "methods_data_availability": "Disclose source experiment relationship and precisely what BP data were reused. Do not assert no shared animals or all new independent animals when individual linkage cannot be reconstructed.",
+    "results_legends": "Identify any reused BP observations as previously reported/reanalyzed, and distinguish archived rows/summaries from independent rat n. Do not count reused BP as independent replication.",
+    "cover_letter": "Identify both related papers, state known BP sharing with 2026 report, specify which presently supported biochemical/transcript results are new, acknowledge remaining animal-linkage limits.",
+    "novelty_claims_to_remove": [
+      "first novel hypertension model in this paper",
+      "demonstrated reversal or independent therapeutic effect",
+      "proved Nox upregulation mediates sympathetic hypertension",
+      "protein expression quantified without source data"
+    ],
+    "permission": "If published figures are reused, check actual license/permission and cite source; reused own data also require transparent disclosure."
+  },
+  "no_actions": "No Word changes, email submission or Git actions performed."
+}

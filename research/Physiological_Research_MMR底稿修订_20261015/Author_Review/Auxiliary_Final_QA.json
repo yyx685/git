@@ -1,0 +1,49 @@
+{
+  "review_date": "2026-10-15",
+  "status": "PASS",
+  "reviewer": "independent figure/source and auxiliary-document reviewer",
+  "files": {
+    "Yuan_cover_letter.docx": {
+      "sha256": "777610086b4ceed57c281ab386afc21fde07e649102c907a6f0349b3f4483c69",
+      "status": "PASS",
+      "page_count": 1,
+      "all_pages_viewed_full": true,
+      "notes": "Single complete letter; all paragraphs, publication overlap, ethics and author contact statements visible; no clipping, overlap or missing glyphs.",
+      "tables": 0,
+      "inline_images": 0,
+      "tracked_changes": 0,
+      "comments_part": false,
+      "highlight_count": 0,
+      "source_modified_by_reviewer": false
+    },
+    "Yuan_table1.docx": {
+      "sha256": "625cb54ff1a6d03f668c6c6c622a09013765a1c1d0a3fed6af08b1c248e342ff",
+      "status": "PASS",
+      "page_count": 1,
+      "all_pages_viewed_full": true,
+      "notes": "Editable 4-column table fits margins; clean horizontal rules, padded rows and legible footnote separated from bottom rule; all values and confidence intervals readable.",
+      "tables": 1,
+      "inline_images": 0,
+      "tracked_changes": 0,
+      "comments_part": false,
+      "highlight_count": 0,
+      "source_modified_by_reviewer": false,
+      "table_cells_identical_to_prior_verified_version": true
+    },
+    "Yuan_supplementary_information.docx": {
+      "sha256": "3fed034bc70a1e875ca2f5fb05ffb792efa525c0d06b024f0e72a4fd27b2e486",
+      "status": "PASS",
+      "page_count": 3,
+      "all_pages_viewed_full": true,
+      "notes": "All 12 data/code descriptions fit page 1; full HE composite and restricted caption on page 2; full 4-panel archived BP figure and complete caption on page 3. No missing labels, clipping, overlap or isolated paragraph page.",
+      "tables": 0,
+      "inline_images": 2,
+      "tracked_changes": 0,
+      "comments_part": false,
+      "highlight_count": 0,
+      "source_modified_by_reviewer": false
+    }
+  },
+  "all_pages_viewed_count": 5,
+  "scientific_boundaries": "This is layout and consistency QA; documented experimental source limitations remain disclosed and are not resolved by formatting."
+}

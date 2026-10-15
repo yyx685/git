@@ -1,0 +1,105 @@
+{
+  "to": "physres@fgu.cas.cz",
+  "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
+  "sent": false,
+  "attachment_count": 19,
+  "total_bytes": 9136509,
+  "attachments": [
+    {
+      "file": "Yuan.docx",
+      "bytes": 790872,
+      "sha256": "eda5ec1568ffbbd17028cdfb9fe47433cf4544febf7e553ad8804927647a84f7"
+    },
+    {
+      "file": "Yuan.pdf",
+      "bytes": 480205,
+      "sha256": "57228aa3cd8185ba94cc2e01772616935c01e6055a69fdf9314b360488e5b4a4"
+    },
+    {
+      "file": "Yuan_cover_letter.docx",
+      "bytes": 39092,
+      "sha256": "777610086b4ceed57c281ab386afc21fde07e649102c907a6f0349b3f4483c69"
+    },
+    {
+      "file": "Yuan_table1.docx",
+      "bytes": 39205,
+      "sha256": "625cb54ff1a6d03f668c6c6c622a09013765a1c1d0a3fed6af08b1c248e342ff"
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "bytes": 5978920,
+      "sha256": "3fed034bc70a1e875ca2f5fb05ffb792efa525c0d06b024f0e72a4fd27b2e486"
+    },
+    {
+      "file": "Figures/Yuan_fig1.jpg",
+      "bytes": 555868,
+      "sha256": "af3aee837331cff09b8ca65f6bb2186e960db8554a0d22a8dad8fe645a4211f9"
+    },
+    {
+      "file": "Figures/Yuan_fig2.jpg",
+      "bytes": 406984,
+      "sha256": "a593b6e03d80b5a61e4037885dd3f2c7f8bf4008be7c717973a281beab2c2ae7"
+    },
+    {
+      "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "bytes": 4027,
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b"
+    },
+    {
+      "file": "Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "bytes": 4140,
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "file": "Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+      "bytes": 12845,
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb"
+    },
+    {
+      "file": "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "bytes": 3290,
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb"
+    },
+    {
+      "file": "Supporting_Information/S3_Appendix_Plot_Archived_BP.py",
+      "bytes": 4547,
+      "sha256": "ed69ae97fbd3816302c7c9a91ba6a529c963bbe4aa9964748d3716b3aae18997"
+    },
+    {
+      "file": "Supporting_Information/S3_Data_Archived_BP_Recorded_Values.csv",
+      "bytes": 15415,
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf"
+    },
+    {
+      "file": "Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "bytes": 7982,
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18"
+    },
+    {
+      "file": "Supporting_Information/S4_Appendix_Plot_Main_Figures.py",
+      "bytes": 4203,
+      "sha256": "f03aa4d95b10bbc557f9c411d04d12467a5aa1d76e20d3bdfdefeed66317ac2e"
+    },
+    {
+      "file": "Supporting_Information/S4_Data_Archived_BP_Entered_Summaries.csv",
+      "bytes": 2226,
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554"
+    },
+    {
+      "file": "Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "bytes": 129087,
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2"
+    },
+    {
+      "file": "Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
+      "bytes": 15741,
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d"
+    },
+    {
+      "file": "Supporting_Information/S6_File_HE_Supplied_Composite.jpg",
+      "bytes": 641860,
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468"
+    }
+  ],
+  "excluded": "Chinese author copy, author-review records, revision notes, and duplicate TIFF/vector backups."
+}

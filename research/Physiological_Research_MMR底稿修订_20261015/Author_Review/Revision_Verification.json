@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-15",
+  "target": "Physiological Research",
+  "type": "Original Article",
+  "base_manuscript": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/lyk mmr期刊.docx",
+  "base_sha256": "efc9eaa5e594d2e1150832dfb91e32ba7f60cd2a53f5b591db321e76b72816bd",
+  "confirmed_methods_and_data_source": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_投稿包_20261015",
+  "title": "Regional redox indices and Nox1 and Nox4 mRNA expression in rats with atlantoaxial joint disorder",
+  "counts": {
+    "all_document_words_including_table_and_math": 4839,
+    "summary_words": 166,
+    "short_title_characters": 54,
+    "references": 19,
+    "main_figures": 2,
+    "main_tables": 1
+  },
+  "new_experiments": false,
+  "new_statistical_tests": false,
+  "quantitative_result_paragraphs_unchanged": true,
+  "all_original_source_files_preserved": true,
+  "submitted": false,
+  "correspondence": "User confirmed university postcode 230012 and hospital postcode 230041; retain supplied institutional addresses and emails; no invented street addresses.",
+  "principal_corrections": [
+    "Expanded and qualified source clinical, RVLM redox and Ang II context",
+    "Replaced 30-rat statement with verified 60-rat parent flow and assay-specific n",
+    "Replaced generic ELISA placeholders with WST-1, TBA and O12 fluorescence methods",
+    "Replaced source Fig6B protein-panel error with verified Nox4 mRNA plot",
+    "Retained quantitative medullary and paired-Cq analyses without changing any numerical inputs",
+    "Presented archived BP and H&E descriptively in SI",
+    "Did not restore unmatched serum or unsupported WB statistics",
+    "Removed unlabeled brown-stained image without documented target/method",
+    "Replaced causal restoration language with timing-qualified associations",
+    "Numbered 19 references by first citation and retained actual welfare/assay limitations",
+    "Preserved truthful AI declaration and funder role"
+  ],
+  "final_minor_corrections": [
+    "Plaugher intervention described as spinal rather than exclusively cervical",
+    "NLM journal abbreviation Biull Eksp Biol Med for Russian 2026 article",
+    "Removed inherited blue title border and header/footer line numbers",
+    "Resolved cloned heading roles and moved short supplement directions before references",
+    "Restored exact publisher title for Bakris 2007",
+    "Removed editorial-process wording from Discussion",
+    "Removed unused source image parts from final Word packages",
+    "Allowed final table to flow after references",
+    "Normalized two English gas-flow litre units to lowercase l"
+  ],
+  "final_english_sha256": "eda5ec1568ffbbd17028cdfb9fe47433cf4544febf7e553ad8804927647a84f7",
+  "final_chinese_sha256": "f6d22fd508fe53b8af90ec7d40ec1cb95049dfe872144f5ae61c89fac9042188",
+  "visual_qa": {
+    "english": 12,
+    "chinese": 13,
+    "cover": 1,
+    "table": 1,
+    "supplementary": 3,
+    "all_pages_inspected": true
+  }
+}

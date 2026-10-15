@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "new_calculations": false,
+  "unchanged_inputs": [
+    "Figures/Yuan_fig1.tif",
+    "Figures/Yuan_fig2.tif",
+    "Figures/Yuan_fig1.jpg",
+    "Figures/Yuan_fig2.jpg",
+    "Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
+    "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+    "Supporting_Information/S2_Fig_Archived_BP_Records.tif",
+    "Supporting_Information/S1_Fig_HE_Illustrative_Images.tif",
+    "Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+    "Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+    "Supporting_Information/S6_File_HE_Supplied_Composite.jpg",
+    "Supporting_Information/Supplementary_Fig_S2.pdf",
+    "Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+    "Supporting_Information/S4_Appendix_Plot_Main_Figures.py",
+    "Supporting_Information/S4_Data_Archived_BP_Entered_Summaries.csv",
+    "Supporting_Information/S3_Appendix_Plot_Archived_BP.py",
+    "Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+    "Supporting_Information/S3_Data_Archived_BP_Recorded_Values.csv",
+    "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv"
+  ],
+  "docx": [
+    {
+      "file": "Yuan.docx",
+      "sha256": "eda5ec1568ffbbd17028cdfb9fe47433cf4544febf7e553ad8804927647a84f7",
+      "equations": 1
+    },
+    {
+      "file": "Yuan_cover_letter.docx",
+      "sha256": "777610086b4ceed57c281ab386afc21fde07e649102c907a6f0349b3f4483c69",
+      "equations": 0
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "sha256": "3fed034bc70a1e875ca2f5fb05ffb792efa525c0d06b024f0e72a4fd27b2e486",
+      "equations": 0
+    },
+    {
+      "file": "Yuan_table1.docx",
+      "sha256": "625cb54ff1a6d03f668c6c6c622a09013765a1c1d0a3fed6af08b1c248e342ff",
+      "equations": 0
+    },
+    {
+      "file": "Yuan_中文.docx",
+      "sha256": "f6d22fd508fe53b8af90ec7d40ec1cb95049dfe872144f5ae61c89fac9042188",
+      "equations": 1
+    }
+  ],
+  "english_pdf": {
+    "file": "Yuan.pdf",
+    "pages": 12,
+    "sha256": "57228aa3cd8185ba94cc2e01772616935c01e6055a69fdf9314b360488e5b4a4",
+    "bytes": 480205
+  },
+  "counts": {
+    "all_document_words_including_table_and_math": 4839,
+    "references": 19,
+    "main_figures": 2,
+    "main_tables": 1,
+    "summary_words": 166,
+    "short_title_characters": 54
+  },
+  "source_mmr_sha256": "efc9eaa5e594d2e1150832dfb91e32ba7f60cd2a53f5b591db321e76b72816bd",
+  "unchanged_quantitative_result_paragraphs": true,
+  "submitted": false
+}

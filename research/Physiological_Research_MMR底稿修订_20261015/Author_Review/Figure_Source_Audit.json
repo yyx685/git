@@ -1,0 +1,168 @@
+{
+  "source": "lyk mmr期刊.docx",
+  "review_date": "2026-10-15",
+  "numbered_figures": 7,
+  "embedded_images": 8,
+  "all_images_viewed_full": true,
+  "native_tables": 0,
+  "table_statement": "No tables.",
+  "source_edited": false,
+  "formal_figures_created": false,
+  "figures": [
+    {
+      "source_figure": "1",
+      "media_file": "image1.png",
+      "content": "BP single-endpoint three-group bars",
+      "dimensions": [
+        1035,
+        574
+      ],
+      "mode": "RGBA",
+      "dpi": [
+        219.9894,
+        219.9894
+      ],
+      "rgb_pixel_sha256": "bfdb8592a82f6aba4be66d5fb9780139e1bd0e4fdc5302b0f8ab002184a36105",
+      "matches_old_original": "Figure_1_Original.tiff",
+      "full_image_viewed": true,
+      "issues": "图注误称28天动态曲线。n10和***未匹配来源，不用存档行号充作独立n。",
+      "recommendation": "仅存作者审阅；可用受限的存档BP逐记录描述图作补充。"
+    },
+    {
+      "source_figure": "2",
+      "media_file": "image2.png",
+      "content": "Serum SOD/MDA/ROS",
+      "dimensions": [
+        3554,
+        2000
+      ],
+      "mode": "RGBA",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "rgb_pixel_sha256": "f5fc9da85f5abfa5656ed15fe4daee870c25d2fd4b370ba473a577155842437e",
+      "matches_old_original": "Figure_2_Original.tiff",
+      "full_image_viewed": true,
+      "issues": "与旧图相同，n10与作者确认n8冲突；所有纵轴nmol/mL，SOD活性与ROS荧光单位需核对；匹配数据未定位，学位论文另一套不能替代。",
+      "recommendation": "暂不纳入定量结果，待匹配血清逐样本记录、单位和误差定义再恢复。"
+    },
+    {
+      "source_figure": "3a",
+      "media_file": "image3.jpeg",
+      "content": "H&E three-group composite, source scale 100 μm",
+      "dimensions": [
+        1269,
+        292
+      ],
+      "mode": "RGB",
+      "dpi": [
+        220.0,
+        220.0
+      ],
+      "rgb_pixel_sha256": "1bb3ceddcd44fc04fc517078d63a5abb2d1d1b0c89b3c163740b837345e8d993",
+      "matches_old_original": "Figure_3_Original.tiff",
+      "full_image_viewed": true,
+      "issues": "与旧HE相同；图注漏复位且有占位；动物n、对应和校准记录不可确认。",
+      "recommendation": "保留既有审阅通过的HE全拼图作补充定性示例，不作组间定量/炎症细胞身份/恢复证明。"
+    },
+    {
+      "source_figure": "3b unnumbered",
+      "media_file": "image4.jpeg",
+      "content": "Additional brown/blue stained three-group composite, source scale 50 μm",
+      "dimensions": [
+        1270,
+        285
+      ],
+      "mode": "RGB",
+      "dpi": [
+        220.0,
+        220.0
+      ],
+      "rgb_pixel_sha256": "88e13153927e2c8cfa36dfd2996c9f7e16d1ef9c1b865d96f734c7a414a3d9d8",
+      "matches_old_original": null,
+      "full_image_viewed": true,
+      "issues": "无图号、独立图注、染色身份/靶标/方法；视觉似免疫组化但不能据此确证。",
+      "recommendation": "待明确来源与靶标前留作者审阅，不当HE用。"
+    },
+    {
+      "source_figure": "4",
+      "media_file": "image5.tiff",
+      "content": "Tissue-block SOD/MDA/probe-associated fluorescence",
+      "dimensions": [
+        2975,
+        1588
+      ],
+      "mode": "RGB",
+      "dpi": [
+        300.0,
+        300.094482421875
+      ],
+      "rgb_pixel_sha256": "6e8beec41855ef1067b32c5df1f3ddee093dc91e58c8ed6e873c89148a9e2f62",
+      "matches_old_original": null,
+      "full_image_viewed": true,
+      "issues": "旧图均值视觉上与已验证组织数据大致相符，旧星号和ROS AU/mgprot标签不采用。",
+      "recommendation": "保留检测内容，采用现有已审阅个体点图/未变CSV、JSON；每组各6值，荧光为蛋白浓度归一AU。"
+    },
+    {
+      "source_figure": "5",
+      "media_file": "image6.tiff",
+      "content": "Cropped WB plus protein-expression bar charts",
+      "dimensions": [
+        3030,
+        1984
+      ],
+      "mode": "RGB",
+      "dpi": [
+        300.08251953125,
+        300.100830078125
+      ],
+      "rgb_pixel_sha256": "ce19c3b3246318459bacf22b8879c5ff8d1e48360cd78fbe4e5a903c027dadba",
+      "matches_old_original": "Figure_5_Original.tiff",
+      "full_image_viewed": true,
+      "issues": "与旧图完全相同；实际B=Nox4/C=Nox1，图注颠倒；全膜、泳道对应、动物灰度缺失，每组一可见泳道不足重建n3。",
+      "recommendation": "定量图暂缓；找回完整源膜和样本对应后重算，不能套学位论文n6汇总。"
+    },
+    {
+      "source_figure": "6",
+      "media_file": "image7.tiff",
+      "content": "Nominal Nox1/Nox4 RT-qPCR plot",
+      "dimensions": [
+        1805,
+        1396
+      ],
+      "mode": "RGB",
+      "dpi": [
+        300.1385803222656,
+        300.03582763671875
+      ],
+      "rgb_pixel_sha256": "6b8ee11f49940d9fc937f8d8689f0b2debfff027da0295b6a2617f57392844e8",
+      "matches_old_original": null,
+      "full_image_viewed": true,
+      "issues": "A约1/1.46/1.18与确认Nox1均值相符但旧星号不用；B纵轴实际Nox4 protein expression，约.34/.82/.54对应WB，不是确认qPCR值1/2.902/1.645。",
+      "recommendation": "以既有Nox1/Nox4配对Cq重分析点图整体替换；不能只改B纵轴。"
+    },
+    {
+      "source_figure": "7",
+      "media_file": "image8.png",
+      "content": "Proposed causal mechanism schematic",
+      "dimensions": [
+        3600,
+        2100
+      ],
+      "mode": "RGB",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "rgb_pixel_sha256": "e9e53d0f5569a799436b5bde7310ce2df8e61e05a2d111938d68ae4a26d44b03",
+      "matches_old_original": null,
+      "full_image_viewed": true,
+      "issues": "未测/未干预多个因果环节，血清/BP/WB证据未核验，时间混杂不足证明移除逆转。",
+      "recommendation": "不沿用当前因果图；需要时另做明确已测观察/待验证假说区分的示意。"
+    }
+  ],
+  "recommended_main": "保留Original Article结构；主图采用已审阅组织生化个体点图和配对qPCR个体点图，保留既有差值/95%CI可编辑表。可选研究设计/时间线图帮助解释28/56天设计，不能制造新结果。",
+  "recommended_supplement": "HE定性示例+存档BP逐记录描述图及现有输入/脚本。",
+  "author_review_only": "未匹配血清、裁剪WB、身份未知棕染图、错误qPCR旧图、未验证因果机制图。"
+}

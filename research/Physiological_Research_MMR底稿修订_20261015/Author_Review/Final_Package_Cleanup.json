@@ -1,0 +1,30 @@
+[
+  {
+    "file": "Yuan.docx",
+    "sha256": "955d161aee6e03d25a7151b78e288009d28da2b76ca1dd1ba2350a839d0fd2e7",
+    "discarded_unreferenced_media_removed": [
+      "media/image4.jpeg",
+      "media/image3.jpeg",
+      "media/image2.png",
+      "media/image1.png",
+      "media/image8.png",
+      "media/image7.tiff",
+      "media/image6.tiff",
+      "media/image5.tiff"
+    ]
+  },
+  {
+    "file": "Yuan_中文.docx",
+    "sha256": "f6d22fd508fe53b8af90ec7d40ec1cb95049dfe872144f5ae61c89fac9042188",
+    "discarded_unreferenced_media_removed": [
+      "media/image4.jpeg",
+      "media/image3.jpeg",
+      "media/image2.png",
+      "media/image1.png",
+      "media/image8.png",
+      "media/image7.tiff",
+      "media/image6.tiff",
+      "media/image5.tiff"
+    ]
+  }
+]

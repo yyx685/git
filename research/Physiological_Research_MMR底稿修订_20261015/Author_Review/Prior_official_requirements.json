@@ -1,0 +1,125 @@
+{
+  "journal": "Physiological Research",
+  "verified_date": "2026-10-15",
+  "verified_by": "independent official-source requirements audit",
+  "scope_and_indexing": {
+    "scope": ["normal physiology", "pathological physiology", "biochemistry", "biophysics", "pharmacology"],
+    "publisher": "Institute of Physiology, Czech Academy of Sciences",
+    "SCIE": "Current official homepage explicitly lists Science Citation Index Expanded (SciSearch). Independent Clarivate master-list verification was not performed in this audit.",
+    "source": "https://www.biomed.cas.cz/physiolres/"
+  },
+  "article_type": "Original Article",
+  "limits": {
+    "maximum_words": 5000,
+    "word_count_inclusions_explicit": ["title page", "summary/abstract", "main article text", "references"],
+    "figure_legend_and_table_word_count": "Not explicitly separated or excluded; for conservative audit report both an inclusive whole-document word count and the guide-explicit scope.",
+    "maximum_references": 45,
+    "maximum_figures_and_tables_combined": 6,
+    "summary_maximum_words": 250,
+    "maximum_keywords": 5,
+    "short_title_maximum_characters_including_spaces": 60,
+    "full_title_character_limit": "No explicit limit located.",
+    "source": "https://www.biomed.cas.cz/physiolres/instructions.htm",
+    "cross_check": "https://www.biomed.cas.cz/physiolres/APC.htm"
+  },
+  "title_page": {
+    "author_names": "Given names and family names, not initials alone.",
+    "affiliations": "Numbered affiliations with each author assigned corresponding number(s).",
+    "corresponding_author": "Full postal address, plus existing confirmed email retained as practical contact information.",
+    "identifier": "ORCID iD or Researcher ID; general Authors Identification paragraph qualifies this as if available. Do not invent identifiers.",
+    "running_title": "Required, at most 60 characters including spaces.",
+    "source": "https://www.biomed.cas.cz/physiolres/instructions.htm"
+  },
+  "manuscript_structure": {
+    "required_sequence": ["Title page", "Summary", "Keywords", "Introduction", "Methods", "Results", "Discussion", "Acknowledgments", "DECLARATION on the Use of AI when applicable", "References"],
+    "additional_transparency_sections": "Retain accurate conflict-of-interest, contributions and data-availability statements; reviewed official guide did not explicitly require these section names.",
+    "language": "English, US spelling preferred.",
+    "page_numbering": "Required.",
+    "line_numbering": "Required.",
+    "font_and_spacing": "No specific font family, font size or line spacing requirement located in the current guide.",
+    "units": "SI with conventional equivalent in parentheses when needed; journal specifies lower-case l for liter.",
+    "source": "https://www.biomed.cas.cz/physiolres/instructions.htm"
+  },
+  "references": {
+    "in_text": "Consecutive bracketed numerals in first-citation order, e.g. [1], [1-3], [1,3,7].",
+    "list": "Numbered entries with a period after each number, in citation order.",
+    "author_rule_original_article": "List up to seven authors; for more than seven, first seven followed by et al.",
+    "fields": ["author family names and initials", "complete article title", "Index Medicus journal abbreviation", "year", "volume", "page range or article identifier"],
+    "doi": "Omit DOI from submitted reference entries; guide says Editorial Office adds DOI later.",
+    "example_style": "Surname AB, Surname CD. Article title. Abbrev J Name 2026;75:1-10.",
+    "conflict": "Review subsection requests all authors and a reused example lists eleven authors, whereas the explicit Original Article rule says maximum seven then et al. Apply the type-specific Original Article rule.",
+    "source": "https://www.biomed.cas.cz/physiolres/instructions.htm"
+  },
+  "figures_tables_and_files": {
+    "reviewer_pdf": "Required single PDF containing text and all tables and figures, placed at manuscript end.",
+    "word_manuscript": "Required Word version; use .docx. Include the end matter tables and figures for an unequivocally complete manuscript; revised Word files are expressly required to include both.",
+    "figure_separate_files": "Required. Submit JPG files to satisfy the submission-specific instruction; retaining TIFF source versions separately is acceptable preparation but unnecessary duplication in the email should be avoided.",
+    "figure_resolution": "At least 1000 pixels width/height, or 300 dpi or higher; high-resolution existing plots exceed both thresholds.",
+    "general_figure_formats": ["JPG", "TIFF", "GIF"],
+    "color": "RGB 8-bit per channel encouraged; no extra fee for color.",
+    "captions": "Explanatory figure captions at end of manuscript text and enough detail for independent understanding.",
+    "table_separate_files": "Not explicitly mandatory, but official filename examples include a separate author_table1.docx. Supply an editable separate table as well as embedding it at the end of Word/PDF.",
+    "filename_rule": "Begin with first author family name, e.g. Yuan.docx, Yuan.pdf, Yuan_fig1.jpg, Yuan_table1.docx.",
+    "archives": "Send individual files, do not send a .rar archive. A .zip-specific permission was not found; individual files are the safer compliant form.",
+    "source": "https://www.biomed.cas.cz/physiolres/instructions.htm",
+    "cross_check": "https://www.biomed.cas.cz/physiolres/authors.htm"
+  },
+  "ai_declaration": {
+    "mandatory_if_used": true,
+    "policy_since": "May 2026",
+    "exact_heading": "DECLARATION on the Use of AI",
+    "required_content": ["AI tool name and version", "specific uses, including analysis and drafting/editing when applicable", "author verification of output factual accuracy and responsibility"],
+    "basic_spellcheck_exception": true,
+    "application_to_current_paper": "Disclose actual Codex assistance for language, organization, method review, worksheet/statistical checking and conventional plotting scripts. Do not claim AI-generated experimental data/images. State a recorded model identifier only if genuinely available; otherwise identify the tool/date and explicitly report exact model version not archived.",
+    "unresolved": "The guide expressly asks for version. A truthful tool/date statement with version unavailable is transparent but cannot be represented as strictly satisfying an unknown exact-model requirement. Do not fabricate a version.",
+    "source": "https://www.biomed.cas.cz/physiolres/instructions.htm"
+  },
+  "ethics_and_funding": {
+    "animal_research": "Methods must explicitly address applicable animal care guidance and institutional ethics approval. The guide names the 1985 NIH care guide or European animal-care guidance; do not claim retrospective protocol compliance beyond available records.",
+    "ARRIVE": "No explicit ARRIVE statement requirement located in this guide. Do not equate reporting guidance with ethical approval.",
+    "current_paper": "Retain confirmed AHUCM-rats-2022032, actual lack of postoperative analgesia and unavailable written rationale; no claims of pain exemption or no pain without evidence.",
+    "funding": "Acknowledgments must identify all actual support and grant details, including publication-cost support if applicable.",
+    "source": "https://www.biomed.cas.cz/physiolres/instructions.htm"
+  },
+  "supplementary_material": {
+    "explicit_preparation_rules": "No supplementary-file size limit, mandatory naming scheme or upload workflow found in reviewed current author guide/contributor pages.",
+    "practical_preparation": "Retain separate clearly labeled supporting data, analysis scripts and supplementary figures, with a manuscript inventory and ordinary file attachments. Do not silently remove the source values or provenance limitations.",
+    "published_usage": "Official published articles reference supplementary material, and publisher-hosted supplementary datasets exist, but these do not establish a mandatory author-deposit workflow.",
+    "example_official_article": "https://www.biomed.cas.cz/physiolres/pdf/2024/73_S755.pdf"
+  },
+  "submission": {
+    "mode": "Email attachments, not a web portal.",
+    "primary_email": "physres@fgu.cas.cz",
+    "primary_email_sources": ["https://www.biomed.cas.cz/physiolres/instructions.htm", "https://www.biomed.cas.cz/physiolres/authors.htm"],
+    "alternative_contact_email": "physres@biomed.cas.cz",
+    "contact_page": "https://www.biomed.cas.cz/physiolres/contact.htm",
+    "contact_page_note": "Contact page lists both addresses, but submission-specific pages use physres@fgu.cas.cz; use the latter for any eventual submission.",
+    "cover_note": "Email note or cover letter must confirm original unpublished work and no concurrent consideration. Disclose the related publication and reused descriptive blood-pressure records accurately rather than claiming no overlap of any kind.",
+    "reviewers": "Authors may be asked to propose four foreign reviewers with names and email addresses. Not an unconditional initial-submission requirement.",
+    "review_process": "Single-blind; at least two reviews, third if first two strongly disagree.",
+    "no_action_performed": "No email sent and no manuscript submitted in this audit."
+  },
+  "fees": {
+    "currency": "EUR",
+    "effective_from": "2026-03-01",
+    "original_article_including_tax": 1250,
+    "short_communication_including_tax": 600,
+    "review_including_tax": 1000,
+    "color_extra": 0,
+    "excess_length": "Editorial Office may charge extra for text exceeding stated limits.",
+    "due": "After acceptance; guide says accepted paper will not proceed or appear as preprint until APC is received.",
+    "source": "https://www.biomed.cas.cz/physiolres/APC.htm",
+    "cross_check": "https://www.biomed.cas.cz/physiolres/"
+  },
+  "not_required_by_reviewed_guide": ["Highlights", "graphical abstract", "a specific cover-letter template", "a preselected four-referee list for every initial submission", "an ARRIVE compliance assertion regardless of records"],
+  "conflicts_and_uncertainties": [
+    "One submission bullet calls Word rtf/doc, later text-format bullet calls rtf/docx and examples use docx; use docx.",
+    "Submission bullet says JPG; general figure-format paragraph allows JPG/TIFF/GIF; deliver JPG for journal attachment and preserve original TIFF source separately.",
+    "Single-reviewer PDF explicitly includes end tables/figures; revised Word explicitly includes them; initial Word wording is less explicit. Include in both.",
+    "Original Article reference-author rule is maximum seven then et al., despite an inconsistent reused example and a different Review rule.",
+    "ORCID appears in title-page instructions but general identification paragraph says if available; no identifier should be invented.",
+    "Supplementary material transfer/deposit details are not specified; present a clear inventory and attach individual files.",
+    "Exact AI version must not be fabricated; report unavailable archived model identifier honestly.",
+    "An excess-length surcharge is mentioned; remaining below all relevant limits is preferable rather than assuming over-limit text accepted."
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "audit_type": "read-only source audit for Physiological Research Original Article",
+  "source_directory": "/Users/yyx/Desktop/git/git/research/GPB_Short_Communication_改投稿_20261015",
+  "source_sha256": {
+    "Manuscript_GPB_Short_Communication_English.docx": "5244f39a820fdfcd1095ce87502c0f45710e9a43712d5246b5f0a2bd78c6cf96",
+    "Manuscript_GPB_Short_Communication_中文.docx": "82a44dc7cd4e56bcd1d2f355a0f793576786a047170c14096e3641e279636bcf"
+  },
+  "source_paragraph_indices_zero_based": {
+    "Introduction": [
+      11,
+      12
+    ],
+    "Methods": {
+      "Animals and ethics": [
+        13,
+        14
+      ],
+      "Allocation, sample size and endpoints": [
+        15,
+        16
+      ],
+      "Model induction and restoration": [
+        17,
+        18,
+        19
+      ],
+      "Terminal sampling and histological material": [
+        20,
+        21
+      ],
+      "Biochemical assays": [
+        22,
+        23,
+        24
+      ],
+      "RT-qPCR": [
+        25
+      ],
+      "Statistical analysis": [
+        26,
+        27
+      ]
+    },
+    "Results": {
+      "Archived blood-pressure and histological material": [
+        28
+      ],
+      "Regional biochemical indices": [
+        29
+      ],
+      "Nox1 and Nox4 relative mRNA estimates": [
+        30
+      ]
+    },
+    "Discussion": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "changes_required": [
+    "Change article type from Short Communication to Original Article in both languages and cover letter.",
+    "Restore the four major Introduction/Methods/Results/Discussion headings, with restrained Methods and Results subheadings. No new data or expanded causal claims required.",
+    "Convert author-year citations to bracketed numbers in order of first appearance, and reorder all 17 references accordingly.",
+    "Expand author lists for three currently abbreviated references from verified metadata; list all seven authors for Gao and Kalb, first seven plus et al. for the eight-author He paper.",
+    "Preserve the native Word formula Q = 2^(-Delta Cq) and subsequent division by the sham arithmetic mean; do not replace the actual calculation with a generic 2^(-Delta Delta Cq) claim.",
+    "Retain all existing provenance, timepoint, validation and analgesia limitations."
+  ],
+  "minimal_optional_wording": [
+    {
+      "location": "Methods RT-qPCR / expected amplicon lengths",
+      "recommendation": "Use expected amplicon lengths if length verification is not supported by retained gel/sequencing records. Current source says lengths without asserting experimental verification; avoid introducing validated lengths."
+    },
+    {
+      "location": "Discussion probe matrix",
+      "recommendation": "An optional explicit sentence may state that consistent processing cannot exclude matrix-dependent bias. Do not assert same-batch processing unless batch records support it."
+    },
+    {
+      "location": "Methods ethical guidelines",
+      "recommendation": "Do not add a blanket ARRIVE-compliance or omission-of-analgesia approval claim. Approval number and absent written rationale/specific opinion are correctly distinguished in the current source."
+    }
+  ],
+  "four_limitations": {
+    "ROS": {
+      "source_paragraphs_en": [
+        23,
+        24,
+        31
+      ],
+      "source_paragraphs_zh": [
+        23,
+        24,
+        31
+      ],
+      "assessment": "Accurate: fresh-serum intended use, tissue/RIPA use without available validation, fluorescence reader unknown, protein-concentration normalized AU, no species or absolute ROS inference. No assertion that all samples were processed in one batch or error cancelled."
+    },
+    "qPCR": {
+      "source_paragraphs_en": [
+        16,
+        25,
+        34
+      ],
+      "source_paragraphs_zh": [
+        16,
+        25,
+        34
+      ],
+      "assessment": "Accurate: n=6 independent rats, animal-paired target/reference, one measurement each, efficiency/reference stability unvalidated, original curves unavailable, NTC/no-RT records unavailable; no single-peak or confirmed specificity assertion."
+    },
+    "timepoints": {
+      "source_paragraphs_en": [
+        16,
+        19,
+        27,
+        29,
+        30,
+        33,
+        35
+      ],
+      "source_paragraphs_zh": [
+        16,
+        19,
+        27,
+        29,
+        30,
+        33,
+        35
+      ],
+      "assessment": "Accurate: sham/model day 28, restoration day 56; no time-matched second-surgery sham; restoration contrasts descriptive, not reversal or treatment causality."
+    },
+    "analgesia": {
+      "source_paragraphs_en": [
+        17,
+        19,
+        33
+      ],
+      "source_paragraphs_zh": [
+        17,
+        19,
+        33
+      ],
+      "assessment": "Accurate: no postoperative analgesics, no retained written rationale/specific ethics opinion, pain/stress as possible confounding; no assertion ethics committee waived analgesia or animals had no pain."
+    }
+  },
+  "author_information": {
+    "author_order": [
+      "Xiangying Yuan",
+      "Bin Yang",
+      "Zongbao He",
+      "Youkui Lv",
+      "Zijian Wu"
+    ],
+    "surname_fullname_format_if_required": [
+      "Xiangying YUAN",
+      "Bin YANG",
+      "Zongbao HE",
+      "Youkui LV",
+      "Zijian WU"
+    ],
+    "affiliations": {
+      "a": "School of Acupuncture and Tuina, Anhui University of Chinese Medicine, Hefei, Anhui 230012, China",
+      "b": "Department of Rehabilitation and Physiotherapy, Anhui Provincial Corps Hospital, Hefei, Anhui 230041, China"
+    },
+    "affiliation_map": {
+      "Xiangying Yuan": "a",
+      "Bin Yang": "b",
+      "Zongbao He": "a",
+      "Youkui Lv": "b",
+      "Zijian Wu": "a"
+    },
+    "correspondence": [
+      {
+        "name": "Zijian Wu",
+        "email": "wuzijian@ahtcm.edu.cn",
+        "affiliation": "a"
+      },
+      {
+        "name": "Youkui Lv",
+        "email": "lvyk126@126.com",
+        "affiliation": "b"
+      }
+    ],
+    "status": "All names, order, affiliations and contacts preserve the previously author-confirmed source; this audit does not independently validate employment or mailbox ownership."
+  },
+  "first_appearance_numeric_reference_order": [
+    {
+      "number": 1,
+      "source_key": "Kalb",
+      "source_reference": "Kalb S, Zaidi HA, Ribas-Nijkerk JC, Sindhwani MK, Clark JC, Martirosyan NL, et al. (2015): Persistent outpatient hypertension is independently associated with spinal cord dysfunction and imaging characteristics of spinal cord damage among patients with cervical spondylosis. World Neurosurg 84, 351–357. https://doi.org/10.1016/j.wneu.2015.03.030"
+    },
+    {
+      "number": 2,
+      "source_key": "He",
+      "source_reference": "He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, et al. (2017): Atlantoaxial misalignment causes high blood pressure in rats: a novel hypertension model. Biomed Res Int 2017, 5986957. https://doi.org/10.1155/2017/5986957"
+    },
+    {
+      "number": 3,
+      "source_key": "Franco",
+      "source_reference": "Franco C, Sciatti E, Favero G, Bonomini F, Vizzardi E, Rezzani R (2022): Essential hypertension and oxidative stress: novel future perspectives. Int J Mol Sci 23, 14489. https://doi.org/10.3390/ijms232214489"
+    },
+    {
+      "number": 4,
+      "source_key": "Guzik",
+      "source_reference": "Guzik TJ, Touyz RM (2017): Oxidative stress, inflammation, and vascular aging in hypertension. Hypertension 70, 660–667. https://doi.org/10.1161/HYPERTENSIONAHA.117.07802"
+    },
+    {
+      "number": 5,
+      "source_key": "Incalza",
+      "source_reference": "Incalza MA, D'Oria R, Natalicchio A, Perrini S, Laviola L, Giorgino F (2018): Oxidative stress and reactive oxygen species in endothelial dysfunction associated with cardiovascular and metabolic diseases. Vascul Pharmacol 100, 1–19. https://doi.org/10.1016/j.vph.2017.05.005"
+    },
+    {
+      "number": 6,
+      "source_key": "Wenker",
+      "source_reference": "Wenker IC, Abe C, Viar KE, Stornetta DS, Stornetta RL, Guyenet PG (2017): Blood pressure regulation by the rostral ventrolateral medulla in conscious rats: effects of hypoxia, hypercapnia, baroreceptor denervation, and anesthesia. J Neurosci 37, 4565–4583. https://doi.org/10.1523/JNEUROSCI.3922-16.2017"
+    },
+    {
+      "number": 7,
+      "source_key": "Chan",
+      "source_reference": "Chan SHH, Wu KLH, Chang AYW, Tai MH, Chan JYH (2009): Oxidative impairment of mitochondrial electron transport chain complexes in rostral ventrolateral medulla contributes to neurogenic hypertension. Hypertension 53, 217–227. https://doi.org/10.1161/HYPERTENSIONAHA.108.116905"
+    },
+    {
+      "number": 8,
+      "source_key": "Huang",
+      "source_reference": "Huang YP, Jin HY, Yu HP (2017): Inhibitory effects of alpha-lipoic acid on oxidative stress in the rostral ventrolateral medulla in rats with salt-induced hypertension. Int J Mol Med 39, 430–436. https://doi.org/10.3892/ijmm.2016.2846"
+    },
+    {
+      "number": 9,
+      "source_key": "Kalsoom",
+      "source_reference": "Kalsoom UE, Jin J, Meng W, Su Y, Wu C, Wu Q (2026): The role of NADPH oxidases in central nervous system regulation of hypertension: mechanisms and therapeutic insights. Biomed Pharmacother 196, 119096. https://doi.org/10.1016/j.biopha.2026.119096"
+    },
+    {
+      "number": 10,
+      "source_key": "Yan",
+      "source_reference": "Yan JQ, Huang F, Hao F, Su XL, Meng Q, Xu MJ (2017): Oxidative stress in the rostral ventrolateral medulla contributes to cardiovascular regulation in preeclampsia. Front Physiol 8, 772. https://doi.org/10.3389/fphys.2017.00772"
+    },
+    {
+      "number": 11,
+      "source_key": "Lv",
+      "source_reference": "Lv YK, Wu ZJ, Yang B, Gao DP, He ZB (2026): Expression of angiotensin II and angiotensin II type 1 receptor in rostral ventrolateral medulla in a rat model of atlantoaxial joint disorder-induced hypertension. Byull Eksp Biol Med 181(5), 546–550. https://doi.org/10.47056/0365-9615-2026-181-5-546-550"
+    },
+    {
+      "number": 12,
+      "source_key": "Livak",
+      "source_reference": "Livak KJ, Schmittgen TD (2001): Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) method. Methods 25, 402–408. https://doi.org/10.1006/meth.2001.1262"
+    },
+    {
+      "number": 13,
+      "source_key": "Marrocco",
+      "source_reference": "Marrocco I, Altieri F, Peluso I (2017): Measurement and clinical significance of biomarkers of oxidative stress in humans. Oxid Med Cell Longev 2017, 6501046. https://doi.org/10.1155/2017/6501046"
+    },
+    {
+      "number": 14,
+      "source_key": "Cordiano",
+      "source_reference": "Cordiano R, Di Gioacchino M, Mangifesta R, Panzera C, Gangemi S, Minciullo PL (2023): Malondialdehyde as a potential oxidative stress marker for allergy-oriented diseases: an update. Molecules 28, 5979. https://doi.org/10.3390/molecules28165979"
+    },
+    {
+      "number": 15,
+      "source_key": "Chao",
+      "source_reference": "Chao YM, Rauchová H, Chan JYH (2022): Disparate roles of oxidative stress in rostral ventrolateral medulla in age-dependent susceptibility to hypertension induced by systemic l-NAME treatment in rats. Biomedicines 10, 2232. https://doi.org/10.3390/biomedicines10092232"
+    },
+    {
+      "number": 16,
+      "source_key": "Dampney",
+      "source_reference": "Dampney RAL, Tan PSP, Sheriff MJ, Fontes MAP, Horiuchi J (2007): Cardiovascular effects of angiotensin II in the rostral ventrolateral medulla: the push-pull hypothesis. Curr Hypertens Rep 9, 222–227. https://doi.org/10.1007/s11906-007-0040-4"
+    },
+    {
+      "number": 17,
+      "source_key": "Gao",
+      "source_reference": "Gao L, Wang W, Li YL, Schultz HD, Liu D, Cornish KG, et al. (2004): Superoxide mediates sympathoexcitation in heart failure: roles of angiotensin II and NAD(P)H oxidase. Circ Res 95, 937–944. https://doi.org/10.1161/01.RES.0000146676.04359.64"
+    }
+  ],
+  "verified_author_expansions": [
+    {
+      "key": "Gao 2004",
+      "doi": "10.1161/01.RES.0000146676.04359.64",
+      "author_count": 7,
+      "formatted_authors": "Gao L, Wang W, Li YL, Schultz HD, Liu D, Cornish KG, Zucker IH",
+      "sources": [
+        "https://api.crossref.org/works/10.1161/01.RES.0000146676.04359.64",
+        "https://pubmed.ncbi.nlm.nih.gov/15459075/"
+      ]
+    },
+    {
+      "key": "He 2017",
+      "doi": "10.1155/2017/5986957",
+      "author_count": 8,
+      "all_authors": "He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, Wu ZJ, Qin X",
+      "formatted_authors_first_seven_then_et_al": "He ZB, Lv YK, Li H, Yao Q, Wang KM, Song XG, Wu ZJ, et al.",
+      "sources": [
+        "https://api.crossref.org/works/10.1155/2017/5986957",
+        "https://pubmed.ncbi.nlm.nih.gov/28791307/"
+      ]
+    },
+    {
+      "key": "Kalb 2015",
+      "doi": "10.1016/j.wneu.2015.03.030",
+      "author_count": 7,
+      "formatted_authors": "Kalb S, Zaidi HA, Ribas-Nijkerk JC, Sindhwani MK, Clark JC, Martirosyan NL, Theodore N",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.wneu.2015.03.030",
+        "https://pubmed.ncbi.nlm.nih.gov/25819526/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S1878875015002971"
+      ]
+    }
+  ],
+  "reference_count": 17,
+  "all_references_cited": true,
+  "pass": true,
+  "scope_note": "Read-only audit. No repository files or DOCX sources changed. Metadata supplied only for the three previously abbreviated author lists."
+}

@@ -1,0 +1,260 @@
+{
+  "status": "PASS_WITH_REPORTED_RECORD_LIMITATIONS",
+  "source_sha256": "eda5ec1568ffbbd17028cdfb9fe47433cf4544febf7e553ad8804927647a84f7",
+  "read_only": true,
+  "no_rendering_performed": true,
+  "counts": {
+    "paragraph_and_table_words_including_native_formula": 4840,
+    "conservative_XML_run_words": 4866,
+    "summary_whitespace_words": 166,
+    "short_title_characters": 54,
+    "keywords": 5,
+    "references": 19,
+    "main_figures": 2,
+    "main_tables": 1,
+    "figure_table_combined": 3
+  },
+  "limits_met": {
+    "words_under_5000": true,
+    "summary_at_most_250": true,
+    "short_title_at_most_60": true,
+    "keywords_at_most_5": true,
+    "references_at_most_45": true,
+    "combined_display_items_at_most_6": true
+  },
+  "structure": {
+    "main_headings_present": true,
+    "page_field_present": true,
+    "line_numbering_present": true,
+    "native_math_count": 1,
+    "math_text": [
+      "Q = ",
+      "2",
+      "−ΔCq"
+    ]
+  },
+  "references": {
+    "first_appearance_sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "first_appearance_consecutive_1_to_19": true,
+    "all_nineteen_cited": true,
+    "numbered_entries_1_to_19": true,
+    "doi_absent": true,
+    "author_count_rule": "Read all entries; up to seven names, then et al. where more than seven.",
+    "new_2026_nox_review_primary_metadata_verified": "https://pubmed.ncbi.nlm.nih.gov/41653903/",
+    "preeclampsia_reference_primary_verified": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2017.00772/full",
+    "lipoic_acid_reference_primary_verified": "https://www.spandidos-publications.com/10.3892/ijmm.2016.2846/download",
+    "Lv2026_version_check": {
+      "actual_supplied_pdf": "/Users/yyx/Desktop/2026Expression of AngII and AT1-R IN PVLM 546-550.pdf",
+      "pdf_sha256": "1e614040c2bd5e1c1aaf5814096e3e22ea35f8fa3164c91c2a9611965b0ec4d7",
+      "header": "Russian journal title, 2026, volume181 issue5",
+      "first_last_page": [
+        546,
+        550
+      ],
+      "doi_on_pdf_page2": "10.47056/0365-9615-2026-181-5-546-550",
+      "recommended_submitted_reference_journal": "Biull Eksp Biol Med",
+      "note": "English title/abstract in Russian PDF does not make it the English translated edition; do not mix English-edition journal name with Russian DOI/pagination."
+    },
+    "Lv2026_abbreviation_corrected": true,
+    "Bakris_title_corrected": true,
+    "unsupported_atlas_abnormalities_title_suffix_absent": true
+  },
+  "clean_document": {
+    "placeholder_matches": [],
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "comment_parts": [],
+    "comment_references": 0,
+    "highlight_nodes": 0
+  },
+  "source_integrity": {
+    "embedded_main_figures": [
+      {
+        "figure": 1,
+        "embedded_equals_jpg": true,
+        "embedded_sha256": "af3aee837331cff09b8ca65f6bb2186e960db8554a0d22a8dad8fe645a4211f9"
+      },
+      {
+        "figure": 2,
+        "embedded_equals_jpg": true,
+        "embedded_sha256": "a593b6e03d80b5a61e4037885dd3f2c7f8bf4008be7c717973a281beab2c2ae7"
+      }
+    ],
+    "separate_main_figures": [
+      {
+        "file": "Figures/Yuan_fig1.jpg",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Figures/Yuan_fig1.tif",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Figures/Yuan_fig2.jpg",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Figures/Yuan_fig2.tif",
+        "equals_previous_verified_package": true
+      }
+    ],
+    "supporting_information": [
+      {
+        "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S1_Fig_HE_Illustrative_Images.tif",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S2_Fig_Archived_BP_Records.tif",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S3_Appendix_Plot_Archived_BP.py",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S3_Data_Archived_BP_Recorded_Values.csv",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S4_Appendix_Plot_Main_Figures.py",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S4_Data_Archived_BP_Entered_Summaries.csv",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/S6_File_HE_Supplied_Composite.jpg",
+        "equals_previous_verified_package": true
+      },
+      {
+        "file": "Supporting_Information/Supplementary_Fig_S2.pdf",
+        "equals_previous_verified_package": true
+      }
+    ],
+    "table_cell_values_identical": true,
+    "main_quantitative_paragraphs": [
+      {
+        "paragraph_prefix": "Each medullary biochemical endpoint",
+        "numeric_tokens_identical_to_verified_previous": true
+      },
+      {
+        "paragraph_prefix": "Using paired target and reference measurements",
+        "numeric_tokens_identical_to_verified_previous": true
+      }
+    ],
+    "media_package": {
+      "media_file_count": 2,
+      "referenced_media_count": 2,
+      "no_unreferenced_media": true
+    }
+  },
+  "truthfulness_review": {
+    "confirmed_author_addresses": "University 230012, hospital 230041; retained author-provided institution/city/postcode/email. No street invented.",
+    "ethics": "AHUCM-rats-2022032 retained; no postoperative analgesia, unavailable written rationale/specific opinion explicitly reported, no false exemption/pain-free assertion.",
+    "funding": "Provincial Natural Science Foundation of Anhui, 1608085MH185; confirmed funder financial-only role retained.",
+    "AI": "Actual language, organization, method review, worksheet checks, reanalysis and conventional code assistance disclosed; exact model identifier unarchived explicitly stated; author verification/responsibility retained.",
+    "shared_publication": "2017 model precedent and 2026 AngII/AT1-R report cited; shared BP observations disclosed; does not claim independent BP replication.",
+    "n_and_timepoints": "Parent 60 and present initial 10/group distinguished from endpoint n=6; sham/model day28, restoration day56; no cross-animal pooling or cross-assay identity inferred.",
+    "qPCR": "Actual within-animal delta Cq, Q=2^-delta Cq then sham arithmetic-mean normalization; single measurement and efficiency/reference/control-record limits stated.",
+    "fluorescence": "Fresh-serum kit applied to RIPA tissue lysate, unvalidated matrix/buffer, unknown reader, relative protein-concentration-normalized index; no guaranteed bias cancellation.",
+    "histology_and_WB": "HE descriptive with unknown n/identity; no restored unsupported quantitative protein claim."
+  },
+  "remaining_issues": [
+    {
+      "type": "reported-record limitation",
+      "item": "Official AI policy asks for tool name and version. Exact model identifier is not archived; final paper truthfully says so. No version should be invented."
+    },
+    {
+      "type": "address completeness",
+      "item": "Guide asks full corresponding address. Authors provided institution, city, postal code and email only; these have been retained as specifically authorized, without guessing street numbers."
+    },
+    {
+      "type": "animal-guideline terminology",
+      "item": "Guide names NIH or European care guidance. Manuscript reports Chinese humane-treatment guidance and actual approval. Do not add unverified NIH/European compliance merely for wording alignment."
+    }
+  ],
+  "blocking_new_defects_found": [],
+  "expected_final_sha256_match": true,
+  "resolved_issues": [
+    {
+      "item": "Reference13 NLM journal abbreviation",
+      "resolution": "Biull Eksp Biol Med now present; Russian-edition 2026;181(5):546–550 retained."
+    },
+    {
+      "item": "Bakris2007 title",
+      "resolution": "Unsupported with atlas abnormalities suffix removed; source title now matches."
+    },
+    {
+      "item": "Editorial-process language",
+      "resolution": "initial manuscript no longer appears."
+    },
+    {
+      "item": "Unused inherited media",
+      "resolution": "Only two referenced actual main-figure media retained."
+    },
+    {
+      "item": "Gas-flow litre symbol",
+      "resolution": "Only two English 1 L/min occurrences normalized to 1 l/min. No numerical changes."
+    }
+  ],
+  "final_readonly_recheck": {
+    "final_hash_verified": true,
+    "all_numeric_tokens_verified": true,
+    "two_embedded_figures_unchanged": true,
+    "all_reference_checks_pass": true,
+    "no_edit_history_phrase": true,
+    "source_data_files_unchanged": true,
+    "separate_figures_unchanged": true,
+    "lowercase_litre_gas_units": true,
+    "root_verification_note": "Root independently verified the final hash, exactly two 1 l/min occurrences and no 1 L/min, nineteen DOI-free reference entries; updated the previously stale doi_absent flag."
+  }
+}
