@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "source_data_changed": false,
+  "main_figures_total_points": 90,
+  "biochemistry_points": 54,
+  "qpcr_points": 36,
+  "mean_and_sample_sd_convention": "arithmetic mean; SD ddof=1",
+  "significance_annotations_added": false,
+  "P_values_changed": false,
+  "biological_n_per_group": 6,
+  "summary_checks": [
+    {
+      "figure": "Fig1.pdf",
+      "panel": "SOD",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1.1218116789532617,
+      "sample_sd": 0.07219142132091602,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "SOD",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.5640206062256827,
+      "sample_sd": 0.07242676568621396,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "SOD",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 1.0352066715663677,
+      "sample_sd": 0.10087853389934057,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "MDA",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 0.09531269362219968,
+      "sample_sd": 0.017077404894084252,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "MDA",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.34878755768534236,
+      "sample_sd": 0.03351995100609292,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "MDA",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 0.21284911414320715,
+      "sample_sd": 0.04936004376701737,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "ROS",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1326.8795309027612,
+      "sample_sd": 50.63510193522331,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "ROS",
+      "group": "Model",
+      "n": 6,
+      "mean": 3295.6354464370706,
+      "sample_sd": 216.34383161640545,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig1.pdf",
+      "panel": "ROS",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 2265.5739870857415,
+      "sample_sd": 131.60487928777005,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig2.pdf",
+      "panel": "Nox1",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1.0,
+      "sample_sd": 0.13372303808076616,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig2.pdf",
+      "panel": "Nox1",
+      "group": "Model",
+      "n": 6,
+      "mean": 1.4590993753794583,
+      "sample_sd": 0.15585825718632776,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig2.pdf",
+      "panel": "Nox1",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 1.1800044318122989,
+      "sample_sd": 0.08953992487365975,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig2.pdf",
+      "panel": "Nox4",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1.0,
+      "sample_sd": 0.2333515455474482,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig2.pdf",
+      "panel": "Nox4",
+      "group": "Model",
+      "n": 6,
+      "mean": 2.902300965578845,
+      "sample_sd": 0.5581211787769389,
+      "all_plotted_points_equal_csv": true
+    },
+    {
+      "figure": "Fig2.pdf",
+      "panel": "Nox4",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 1.6446561723154243,
+      "sample_sd": 0.22739297758675475,
+      "all_plotted_points_equal_csv": true
+    }
+  ],
+  "qpcr_transformations_rechecked": 36,
+  "pdf_checks": {
+    "Figures/Fig1.pdf": {
+      "sha256": "06f09a2f7e3c120a5c1ee7e34f4f66586a458c6292add1d57296ef7720ed58ea",
+      "pages": 1,
+      "raster_images": 0,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        504.0,
+        237.6
+      ],
+      "text_present": true,
+      "rendered_and_visually_reviewed": true,
+      "visual_review": "PASS: all panel labels, axes, points, error bars and notes legible; no clipped/overlapping text."
+    },
+    "Figures/Fig2.pdf": {
+      "sha256": "43e9d50b530d958a8d30426a930b3c5f8f11c6b404bf12f05576621c29a8f73a",
+      "pages": 1,
+      "raster_images": 0,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        432.0,
+        237.6
+      ],
+      "text_present": true,
+      "rendered_and_visually_reviewed": true,
+      "visual_review": "PASS: all panel labels, axes, points, error bars and notes legible; no clipped/overlapping text."
+    },
+    "Supporting_Information/Supplementary_Fig_S2.pdf": {
+      "sha256": "e73ab8e81f1b7d9177277b1a34a1b621236ed7b376ea8a7c6d3a6604b62a1cea",
+      "pages": 1,
+      "raster_images": 0,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        604.8,
+        532.8
+      ],
+      "text_present": true,
+      "rendered_and_visually_reviewed": true,
+      "visual_review": "PASS: all panel labels, axes, points, error bars and notes legible; no clipped/overlapping text."
+    }
+  },
+  "unchanged_source_files": {
+    "Figures/Fig1.tif": {
+      "sha256": "f2fbaa4c38b021447b21b03cabd18f996335751422a1a30799e1793b73da789f",
+      "identical_to_prior_version": true
+    },
+    "Figures/Fig2.tif": {
+      "sha256": "9e68c8c6223d6993c992893ed7c162dec410b8b235c8367b0f860a184ec38c16",
+      "identical_to_prior_version": true
+    },
+    "Supporting_Information/S1_Data_RVLM_Processed_Values.csv": {
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "identical_to_prior_version": true
+    },
+    "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv": {
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "identical_to_prior_version": true
+    }
+  },
+  "bp_note": "Descriptive archive plot exported using an isolated copy of existing CSV-based script. No inference or independent animal n was added. Original TIFF and source script were not modified.",
+  "main_figure_reproducible_script": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015/Supporting_Information/S4_Appendix_Plot_Main_Figures.py"
+}

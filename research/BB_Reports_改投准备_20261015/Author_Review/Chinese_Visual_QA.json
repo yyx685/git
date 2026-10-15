@@ -1,0 +1,184 @@
+{
+  "document": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015/Manuscript_BB_Reports_中文.docx",
+  "sha256": "ddd7cb05567c4c29aac61e7f1d1d0f66e60452513599af9b7af816e00ceba04f",
+  "render_directory": "/tmp/codex-bbrep-retarget-20261015/qa_final_zh",
+  "page_count": 18,
+  "result": "PASS",
+  "review_date_local": "2026-10-15",
+  "coverage": [
+    {
+      "page": 1,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 2,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 3,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 4,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 5,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 6,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 7,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 8,
+      "review": "new final PNG opened using tools.view_image detail original",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 9,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 10,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 11,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 12,
+      "review": "new final PNG opened using tools.view_image detail original",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 13,
+      "review": "new final PNG opened using tools.view_image detail original",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 14,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 15,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 16,
+      "review": "new final PNG opened using tools.view_image detail original",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 17,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    },
+    {
+      "page": 18,
+      "review": "pixel-identical reuse of prior original-detail visual review",
+      "status": "PASS",
+      "dimensions": [
+        1547,
+        2002
+      ]
+    }
+  ],
+  "checks": {
+    "page8_supplement_labels": "Corrected to 补充数据1、补充文件3、补充附录1; no clipped text.",
+    "page12_13_ai_declaration": "Heading now at top of page13 and attached to its body. No orphan heading.",
+    "page7_native_equation": "Pixel identical to reviewed page; complete and legible.",
+    "page9_table": "Pixel identical to reviewed page; headers, values and note complete.",
+    "page16_18_figure_and_supplement_legends": "Heading/legends legible; no clipping, overlap, or orphan heading.",
+    "all_pages": "No unexplained blank page, obscured text, cropped characters or broken page numbers."
+  },
+  "previous_audit": "qa_zh_visual_audit.json",
+  "pixel_reuse_evidence": "qa_zh_pixel_reuse.json",
+  "edits_performed": false,
+  "git_actions_performed": false
+}

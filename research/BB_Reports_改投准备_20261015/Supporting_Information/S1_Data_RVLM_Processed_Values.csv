@@ -1,0 +1,55 @@
+Endpoint,Group,Observation_order_not_animal_ID,Processed_value,Unit,Source_filename
+SOD,Sham-operated,1,0.999958204463763,U/mg protein,02-SOD-.xls
+SOD,Sham-operated,2,1.0749802126171004,U/mg protein,02-SOD-.xls
+SOD,Sham-operated,3,1.1490682522733033,U/mg protein,02-SOD-.xls
+SOD,Sham-operated,4,1.2016761827228155,U/mg protein,02-SOD-.xls
+SOD,Sham-operated,5,1.1529376070043125,U/mg protein,02-SOD-.xls
+SOD,Sham-operated,6,1.152249614638276,U/mg protein,02-SOD-.xls
+SOD,Model,1,0.670045643699586,U/mg protein,02-SOD-.xls
+SOD,Model,2,0.46306800465456327,U/mg protein,02-SOD-.xls
+SOD,Model,3,0.5772265573318822,U/mg protein,02-SOD-.xls
+SOD,Model,4,0.5680164442774861,U/mg protein,02-SOD-.xls
+SOD,Model,5,0.5062090296591376,U/mg protein,02-SOD-.xls
+SOD,Model,6,0.5995579577314414,U/mg protein,02-SOD-.xls
+SOD,Restoration,1,1.1191184569972064,U/mg protein,02-SOD-.xls
+SOD,Restoration,2,1.0231629525189343,U/mg protein,02-SOD-.xls
+SOD,Restoration,3,0.9330783338111303,U/mg protein,02-SOD-.xls
+SOD,Restoration,4,1.1214096127637019,U/mg protein,02-SOD-.xls
+SOD,Restoration,5,0.8970758647313262,U/mg protein,02-SOD-.xls
+SOD,Restoration,6,1.1173948085759078,U/mg protein,02-SOD-.xls
+MDA,Sham-operated,1,0.06977371751902527,nmol/mg protein,01-MDA-.xlsx
+MDA,Sham-operated,2,0.10898282000646459,nmol/mg protein,01-MDA-.xlsx
+MDA,Sham-operated,3,0.0902148079015284,nmol/mg protein,01-MDA-.xlsx
+MDA,Sham-operated,4,0.09051899270190625,nmol/mg protein,01-MDA-.xlsx
+MDA,Sham-operated,5,0.09328262847445845,nmol/mg protein,01-MDA-.xlsx
+MDA,Sham-operated,6,0.11910319512981517,nmol/mg protein,01-MDA-.xlsx
+MDA,Model,1,0.32301044330289924,nmol/mg protein,01-MDA-.xlsx
+MDA,Model,2,0.32608498363003313,nmol/mg protein,01-MDA-.xlsx
+MDA,Model,3,0.35032590925497353,nmol/mg protein,01-MDA-.xlsx
+MDA,Model,4,0.3570925791411378,nmol/mg protein,01-MDA-.xlsx
+MDA,Model,5,0.41065184765625184,nmol/mg protein,01-MDA-.xlsx
+MDA,Model,6,0.32555958312675864,nmol/mg protein,01-MDA-.xlsx
+MDA,Restoration,1,0.24244503957449035,nmol/mg protein,01-MDA-.xlsx
+MDA,Restoration,2,0.2369717321241664,nmol/mg protein,01-MDA-.xlsx
+MDA,Restoration,3,0.26304723550322606,nmol/mg protein,01-MDA-.xlsx
+MDA,Restoration,4,0.23309801451368267,nmol/mg protein,01-MDA-.xlsx
+MDA,Restoration,5,0.1442151116425528,nmol/mg protein,01-MDA-.xlsx
+MDA,Restoration,6,0.15731755150112478,nmol/mg protein,01-MDA-.xlsx
+ROS,Sham-operated,1,1263.392857142857,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Sham-operated,2,1381.8980667838312,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Sham-operated,3,1268.5936631461925,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Sham-operated,4,1326.7080745341614,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Sham-operated,5,1352.4305555555554,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Sham-operated,6,1368.2539682539682,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Model,1,3696.569250317662,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Model,2,3105.2154195011335,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Model,3,3228.146853146853,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Model,4,3198.6230636833047,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Model,5,3167.7699403147044,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Model,6,3377.488151658768,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Restoration,1,2078.084606345476,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Restoration,2,2255.9040590405903,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Restoration,3,2142.0378279438683,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Restoration,4,2370.2821316614422,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Restoration,5,2343.540945790081,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx
+ROS,Restoration,6,2403.594351732991,arbitrary protein-normalized fluorescence units,03-ROS-.xlsx

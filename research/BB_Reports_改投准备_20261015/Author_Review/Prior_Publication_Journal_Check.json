@@ -1,0 +1,204 @@
+{
+  "audit_date_local": "2026-10-15",
+  "target_journal": "Biochemistry and Biophysics Reports",
+  "issn": "2405-5808",
+  "status": "USER_IDENTIFIED_ARTICLE_IS_DIFFERENT_JOURNAL",
+  "conclusion_zh": "用户明确所指为He ZB等2017年文章（DOI 10.1155/2017/5986957），其实际期刊是BioMed Research International，并非Biochemistry and Biophysics Reports。保留已核实参考文献[6]，按用户原指示继续改投BBReports，不声称此前文章发表于该刊。",
+  "team_names": [
+    "Xiangying Yuan",
+    "Bin Yang",
+    "Zongbao He",
+    "Youkui Lv",
+    "Youkui Lü",
+    "Zijian Wu"
+  ],
+  "pubmed_queries": [
+    {
+      "file": "pubmed_authors.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=%22Biochem+Biophys+Rep%22%5BJournal%5D+AND+%28%22He+Zongbao%22%5BAuthor%5D+OR+%22Lv+Youkui%22%5BAuthor%5D+OR+%22Wu+Zijian%22%5BAuthor%5D+OR+%22Yuan+Xiangying%22%5BAuthor%5D%29",
+      "query": "\"Biochem Biophys Rep\"[Journal] AND (\"He Zongbao\"[Author] OR \"Lv Youkui\"[Author] OR \"Wu Zijian\"[Author] OR \"Yuan Xiangying\"[Author])",
+      "count": 0,
+      "pmids": []
+    },
+    {
+      "file": "pubmed_author_variants.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=%22Biochem+Biophys+Rep%22%5BJournal%5D+AND+%28%22He+ZB%22%5BAuthor%5D+OR+%22Wu+ZJ%22%5BAuthor%5D+OR+%22Lv+YK%22%5BAuthor%5D+OR+%22Lu+YK%22%5BAuthor%5D+OR+%22Lyu+YK%22%5BAuthor%5D+OR+%22Yuan+XY%22%5BAuthor%5D%29",
+      "query": "\"Biochem Biophys Rep\"[Journal] AND (\"He ZB\"[Author] OR \"Wu ZJ\"[Author] OR \"Lv YK\"[Author] OR \"Lu YK\"[Author] OR \"Lyu YK\"[Author] OR \"Yuan XY\"[Author])",
+      "count": 0,
+      "pmids": []
+    },
+    {
+      "file": "pubmed_author_names.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=%22Biochem+Biophys+Rep%22%5BJournal%5D+AND+%28Zongbao+OR+%22Zong-Bao%22+OR+Youkui+OR+%22You-Kui%22+OR+Zijian+OR+%22Zi-Jian%22+OR+Xiangying%29",
+      "query": "\"Biochem Biophys Rep\"[Journal] AND (Zongbao OR \"Zong-Bao\" OR Youkui OR \"You-Kui\" OR Zijian OR \"Zi-Jian\" OR Xiangying)",
+      "count": 0,
+      "pmids": []
+    },
+    {
+      "file": "pubmed_topic.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=%22Biochem+Biophys+Rep%22%5BJournal%5D+AND+%28atlantoaxial+OR+%22rostral+ventrolateral+medulla%22+OR+%22cervical+hypertension%22%29",
+      "query": "\"Biochem Biophys Rep\"[Journal] AND (atlantoaxial OR \"rostral ventrolateral medulla\" OR \"cervical hypertension\")",
+      "count": 0,
+      "pmids": []
+    },
+    {
+      "file": "pubmed_affil.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=100&term=%22Biochem+Biophys+Rep%22%5BJournal%5D+AND+%28%22Anhui+University+of+Chinese+Medicine%22%5BAffiliation%5D+OR+%22Anhui+University+of+Traditional+Chinese+Medicine%22%5BAffiliation%5D%29",
+      "query": "\"Biochem Biophys Rep\"[Journal] AND (\"Anhui University of Chinese Medicine\"[Affiliation] OR \"Anhui University of Traditional Chinese Medicine\"[Affiliation])",
+      "count": 6,
+      "pmids": [
+        "42602266",
+        "42434336",
+        "41847302",
+        "41550495",
+        "40458200",
+        "38371527"
+      ]
+    }
+  ],
+  "crossref_author_query": {
+    "files": [
+      "crossref_authors_100.json",
+      "crossref_authors_remaining.json"
+    ],
+    "total_records_checked": 149,
+    "exact_distinctive_team_name_matches": 0,
+    "matching_names_checked": [
+      "Zongbao",
+      "Zong-Bao",
+      "Youkui",
+      "You-Kui",
+      "Xiangying",
+      "Xiang-Ying",
+      "Zijian Wu",
+      "Zi-Jian Wu"
+    ]
+  },
+  "institutional_candidates": [
+    {
+      "pmid": "42602266",
+      "title": "Processing enhances the anti-hepatocellular carcinoma effect of Momordicae Semen via remodeling chemical composition and regulating the Akt/mTOR/STAT3 pathway.",
+      "doi": "10.1016/j.bbrep.2026.102729",
+      "authors": [
+        "Lei Fang",
+        "Mingzhu Liu",
+        "Rongrong Han",
+        "Yan Hong",
+        "Yanquan Han"
+      ],
+      "team_match": false,
+      "basis": "Institutional affiliation match alone; no current-team author-name match."
+    },
+    {
+      "pmid": "42434336",
+      "title": "Bioactive compounds from Ficus hirta Vahl extract: Molecular mechanisms underlying their anti-inflammatory and antibacterial activities.",
+      "doi": "10.1016/j.bbrep.2026.102700",
+      "authors": [
+        "Yao Dong",
+        "Yitong Li",
+        "Hengxiu Wang",
+        "Hongchen Wang",
+        "Changzhong Wang",
+        "Tianming Wang",
+        "Daqiang Wu",
+        "Yawen An",
+        "Caixia Zheng",
+        "Wenfan Wei"
+      ],
+      "team_match": false,
+      "basis": "Institutional affiliation match alone; no current-team author-name match."
+    },
+    {
+      "pmid": "41847302",
+      "title": "Crystal structure of the histone heterodimer containing histone variant H2A.W.",
+      "doi": "10.1016/j.bbrep.2026.102535",
+      "authors": [
+        "Shenglin Hu",
+        "Yang Yang",
+        "Lepu Wang",
+        "Li Xu"
+      ],
+      "team_match": false,
+      "basis": "Institutional affiliation match alone; no current-team author-name match."
+    },
+    {
+      "pmid": "41550495",
+      "title": "Study on the processing transformation law of CATR and ATR in Xanthii Fructus and the metabolomics mechanism of their transformation products in LO2 cells.",
+      "doi": "10.1016/j.bbrep.2025.102436",
+      "authors": [
+        "Lingling Wang",
+        "Huihao Ao",
+        "Cheng Huang",
+        "Deling Wu",
+        "Yan Hong",
+        "Yanquan Han"
+      ],
+      "team_match": false,
+      "basis": "Institutional affiliation match alone; no current-team author-name match."
+    },
+    {
+      "pmid": "40458200",
+      "title": "Paridis Rhizoma Saponins ameliorate CCl4-induced liver fibrosis via modulation of the Nrf2-HO-1/NQO-1 and TGF-β1/Smads signaling pathways.",
+      "doi": "10.1016/j.bbrep.2025.102040",
+      "authors": [
+        "Yan Hong",
+        "Shuang Geng",
+        "Huihao Ao",
+        "Mengya Fu",
+        "Xiaojun Yang",
+        "Gang Cao",
+        "Yanquan Han"
+      ],
+      "team_match": false,
+      "basis": "Institutional affiliation match alone; no current-team author-name match."
+    },
+    {
+      "pmid": "38371527",
+      "title": "PANoptosis-related long non-coding RNA signature to predict the prognosis and immune landscapes of pancreatic adenocarcinoma.",
+      "doi": "10.1016/j.bbrep.2023.101600",
+      "authors": [
+        "Qinying Zhao",
+        "Yingquan Ye",
+        "Quan Zhang",
+        "Yue Wu",
+        "Gaoxiang Wang",
+        "Zhongxuan Gui",
+        "Mei Zhang"
+      ],
+      "team_match": false,
+      "basis": "Institutional affiliation match alone; no current-team author-name match."
+    }
+  ],
+  "excluded_known_related_articles": [
+    {
+      "doi": "10.1155/2017/5986957",
+      "journal": "BioMed Research International",
+      "reason": "Related earlier article, not the target journal."
+    },
+    {
+      "doi": "10.47056/0365-9615-2026-181-5-546-550",
+      "journal": "Bulletin of Experimental Biology and Medicine / Byulleten Eksperimentalnoi Biologii i Meditsiny",
+      "reason": "Known related 2026 article and shared blood-pressure data; not the target journal."
+    }
+  ],
+  "editorial_actions": [
+    "Do not add an unverified target-journal citation merely to support journal transfer.",
+    "Do not state in the cover letter that the team has published in the target journal until the specific article is verified.",
+    "Keep verified related publications and the existing shared-data disclosure.",
+    "On receipt of title/DOI, inspect primary full text and compare animal cohort, endpoints, images, and claims before citation."
+  ],
+  "primary_lookup_endpoints": [
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "https://api.crossref.org/journals/2405-5808/works"
+  ],
+  "search_record_notes": "Searches using both journal title and specific author/topic strings did not identify a reliable matching article. Web search non-primary incidental results were not used as supporting sources.",
+  "user_identified_article": {
+    "provided_citation": "He ZB et al. 2017 Atlantoaxial misalignment…",
+    "doi": "10.1155/2017/5986957",
+    "actual_journal": "BioMed Research International",
+    "target_journal_match": false,
+    "manuscript_action": "Retain verified existing reference [6]; continue retargeting to Biochemistry and Biophysics Reports as instructed.",
+    "search_action": "No further broad search."
+  }
+}

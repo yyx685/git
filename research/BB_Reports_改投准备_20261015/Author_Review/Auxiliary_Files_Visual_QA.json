@@ -1,0 +1,61 @@
+{
+  "result": "PASS",
+  "documents": [
+    {
+      "file": "Highlights_BB_Reports.docx",
+      "sha256": "7bd105366aeff2e7425058d34ed11deeda80d4787052374bfe81ac737e2467f0",
+      "pages": 1,
+      "reviewer": "root",
+      "viewed_at_original_resolution": true,
+      "visual_qa": "PASS",
+      "checks": [
+        "No decorative title rule",
+        "Gene text spacing and italics intact",
+        "No clipping or overlap",
+        "Readable font"
+      ]
+    },
+    {
+      "file": "Title_Page_BB_Reports.docx",
+      "sha256": "2ca897fb5a91f0c03b14e556c896733fa034aa463fdf2c9fe5bc0ad25b813a03",
+      "pages": 1,
+      "reviewer": "root",
+      "viewed_at_original_resolution": true,
+      "visual_qa": "PASS",
+      "checks": [
+        "No decorative title rule",
+        "Gene text spacing and italics intact",
+        "No clipping or overlap",
+        "Readable font"
+      ]
+    },
+    {
+      "file": "Cover_Letter_BB_Reports.docx",
+      "sha256": "798c6bd76c4f5e49f50ea339b9cdfec05e71b27e7aa5fffad80b971b488319a1",
+      "pages": 1,
+      "reviewer": "root",
+      "viewed_at_original_resolution": true,
+      "visual_qa": "PASS",
+      "checks": [
+        "No decorative title rule",
+        "Gene text spacing and italics intact",
+        "No clipping or overlap",
+        "Readable font"
+      ]
+    },
+    {
+      "file": "Declaration_of_Competing_Interest.docx",
+      "sha256": "4e1b0c9195abdf3e54f21ca0ccfe9e32c97a60b359b98c4486b19d98ade10034",
+      "pages": 1,
+      "reviewer": "root",
+      "viewed_at_original_resolution": true,
+      "visual_qa": "PASS",
+      "checks": [
+        "No decorative title rule",
+        "Gene text spacing and italics intact",
+        "No clipping or overlap",
+        "Readable font"
+      ]
+    }
+  ]
+}

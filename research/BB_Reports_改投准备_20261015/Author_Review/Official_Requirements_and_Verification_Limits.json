@@ -1,0 +1,159 @@
+{
+  "journal": "Biochemistry and Biophysics Reports",
+  "issn": "2405-5808",
+  "checked_date": "2026-10-15",
+  "verification_status": "Publisher-wide policies verified; journal-specific Guide for Authors and current aims/scope could not be read because the journal pages returned access errors. No access restriction or CAPTCHA was bypassed.",
+  "official_journal_urls": {
+    "guide_for_authors": "https://www.sciencedirect.com/journal/biochemistry-and-biophysics-reports/publish/guide-for-authors",
+    "aims_scope": "https://www.sciencedirect.com/journal/biochemistry-and-biophysics-reports/about/aims-and-scope",
+    "journal": "https://www.sciencedirect.com/journal/biochemistry-and-biophysics-reports"
+  },
+  "verified_publisher_policies": [
+    {
+      "topic": "Highlights format",
+      "level": "conditional publisher requirement if Highlights are submitted; not verified as mandatory for this journal",
+      "facts": [
+        "Submit a separate editable source file, not PDF, named Highlights.",
+        "Include 3 to 5 bullet points.",
+        "Each bullet has a maximum of 85 characters including spaces.",
+        "Restrict highlights to core results.",
+        "Official support explicitly says mandatory for some journals and optional for others."
+      ],
+      "source": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript"
+    },
+    {
+      "topic": "Generative AI disclosure",
+      "level": "publisher requirement when applicable",
+      "facts": [
+        "Include a separate manuscript AI declaration immediately before the references.",
+        "Name the tool, describe its purpose, and confirm author review and responsibility.",
+        "Substantive changes to sentence structure or content organization require disclosure; basic spelling, punctuation, and grammar checks do not.",
+        "Where AI supports research methods, code development, analysis, or data visualization, describe its use reproducibly in Methods.",
+        "AI-assisted data visualizations are permitted only when faithfully derived from underlying data through reproducible methods; report tool/model name, version, and developer/manufacturer in Methods.",
+        "Primary research images, including HE microscopy and Western blots, must not be fabricated or altered by generative AI.",
+        "General-purpose generative AI image tools must not be used for graphical abstracts."
+      ],
+      "policy_update": "June 2026",
+      "source": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals"
+    },
+    {
+      "topic": "Data availability",
+      "level": "publisher supports statements; journal-specific mandate not verified",
+      "facts": [
+        "A data statement can identify availability and give the reason data cannot be accessed.",
+        "Authors may be asked to provide raw data for editorial review.",
+        "Do not claim complete raw data availability where only processed lists or archival images are retained."
+      ],
+      "sources": [
+        "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-statement",
+        "https://www.elsevier.com/researcher/author/policies-and-guidelines"
+      ]
+    },
+    {
+      "topic": "CRediT",
+      "level": "publisher guidance, journal-specific mandatory status not verified",
+      "facts": [
+        "Corresponding author ensures contribution descriptions are accurate and agreed by all authors.",
+        "List roles for all authors using applicable CRediT categories.",
+        "An author can have multiple roles.",
+        "The CRediT page says statements should be provided during submission; the overarching author-policy page describes contribution transparency as encouraged."
+      ],
+      "sources": [
+        "https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement",
+        "https://www.elsevier.com/researcher/author/policies-and-guidelines"
+      ]
+    },
+    {
+      "topic": "Artwork formats, resolution, and captions",
+      "level": "publisher technical baseline, subject to journal-specific rules",
+      "facts": [
+        "EPS/PDF recommended for vector graphics, TIFF for raster art, JPEG accepted for photographs; Microsoft Office files are accepted.",
+        "Bitmap halftone photographs: 300 dpi; line/halftone combinations: 500 dpi; bitmap line art: 1000 dpi.",
+        "Common sizes: 90 mm single column, 140 mm one-and-a-half columns, 190 mm full width.",
+        "Lettering approximately 7 pt at final size, at least 6 pt for subscripts/superscripts, is a rule of thumb rather than a strict rule.",
+        "Captions may be uploaded as a Figure Caption text item if provided; otherwise list captions at end of manuscript.",
+        "Do not increase bitmap resolution through upsampling to claim better image quality.",
+        "Official FAQ recommends figures no larger than 10 MB and, for several figures, no larger than 7 MB each for upload convenience; this is not a verified hard limit for this journal."
+      ],
+      "sources": [
+        "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-overview",
+        "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-sizing",
+        "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-faq"
+      ]
+    },
+    {
+      "topic": "Reference consistency",
+      "level": "publisher general guidance, not a confirmed journal-specific style",
+      "facts": [
+        "The official support page says journal-specific Guide for Authors determines style and whether Your Paper Your Way applies.",
+        "A numeric square-bracket style and reference list in order of first citation is one officially documented Elsevier style.",
+        "Do not claim the journal currently accepts any consistent format without confirming its Guide for Authors."
+      ],
+      "source": "https://www.elsevier.support/publishing/answer/how-should-i-prepare-the-references-in-my-manuscript"
+    },
+    {
+      "topic": "Ethics, overlap, and competing interests",
+      "level": "publisher requirement",
+      "facts": [
+        "Disclose relationships that could present a potential conflict.",
+        "Human or animal research requires compliance statements.",
+        "A thesis is generally not prior publication under Elsevier policy; journal-specific exceptions may apply.",
+        "Shared previously published blood-pressure data must be cited and disclosed rather than presented as a new independent dataset."
+      ],
+      "source": "https://www.elsevier.com/researcher/author/policies-and-guidelines"
+    }
+  ],
+  "not_verified_as_current_journal_rules": [
+    {
+      "topic": "Abstract",
+      "status": "An unstructured abstract at most 250 words appears in third-party summaries, but was not verified against readable official journal guidance. Using a concise standalone abstract of at most 250 words is a conservative preparation choice, not a confirmed journal limit."
+    },
+    {
+      "topic": "Keywords",
+      "status": "The 1–7 count appears in third-party summaries only. Using six focused keywords is a conservative editorial choice, not a confirmed journal requirement."
+    },
+    {
+      "topic": "Research Article word and display-item limits",
+      "status": "No official current hard limit verified. Do not claim 4600 words or four figures as Research Article requirements. Do not cut valid results solely to meet those third-party figures."
+    },
+    {
+      "topic": "Numbered headings",
+      "status": "No current journal mandate verified. Numbered sections and subsections can be used as consistent editorial formatting."
+    },
+    {
+      "topic": "References",
+      "status": "Numeric citations and an Elsevier numeric bibliography can be prepared, but no claim of mandated or format-free initial submission is supported by readable current journal guidance."
+    },
+    {
+      "topic": "Figures as separate upload files",
+      "status": "Provide separate source figure files as a practical complete submission package. Current BBRep-specific initial-submission rule unverified."
+    },
+    {
+      "topic": "Graphical abstract",
+      "status": "Mandatory/optional status for BBRep unverified. Do not create one merely on an assumed requirement."
+    },
+    {
+      "topic": "CRediT, Highlights, and data statement as required submission items",
+      "status": "Journal-specific hard requirement unverified. Include these useful items without representing uncertain mandatory status as fact."
+    },
+    {
+      "topic": "Current journal aims and scope",
+      "status": "Current official scope page inaccessible; do not present cached third-party descriptions as verified current scope."
+    }
+  ],
+  "editorial_choices_supported_without_claiming_unverified_rules": [
+    "Prepare as Research Article rather than Short Communication, preserving complete supported results.",
+    "Use an unstructured abstract at most 250 words and six focused keywords.",
+    "Use numbered Introduction, Materials and methods, Results, Discussion, and Conclusions, with consistent subsections.",
+    "Prepare a separate editable Highlights file with three to five bullets each at most 85 characters.",
+    "Retain editable tables and native editable equations; supply original-resolution separate figure files and clear legends.",
+    "Keep data availability, animal ethics, funding, CRediT, competing-interest, and AI disclosure statements consistent with actual evidence.",
+    "Retain archived BP and HE as supplementary descriptive material with limitations; journal retargeting does not resolve missing provenance or biological sample counts."
+  ],
+  "sources_deliberately_not_used_as_current_official_requirements": [
+    "Third-party 4600-word/four-figure lists.",
+    "Third-party 250-word and 1–7-keyword summaries.",
+    "Old editor correspondence hosted in institutional repositories.",
+    "The official Elsevier Next-journals generic author guide, which is not BBRep guidance."
+  ]
+}

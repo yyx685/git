@@ -1,0 +1,56 @@
+{
+  "document": "/Users/yyx/Desktop/git/git/research/BB_Reports_改投准备_20261015/Manuscript_BB_Reports_English.docx",
+  "sha256": "97c79f5289283589d7e874899a06a79a311856257a8af09af5e3a047ea4aae99",
+  "render_directory": "/tmp/codex-bbrep-retarget-20261015/qa_final_en",
+  "checked_date": "2026-10-15",
+  "page_count": 24,
+  "pages_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "status": "PASS",
+  "review_method": {
+    "pages_1_to_15": "Previously opened and visually checked with tools.view_image detail=original; final rendered RGB pixels proven identical to those pages with PIL ImageChops.",
+    "pages_16_to_24": "Each final rendered page opened and visually checked with tools.view_image detail=original.",
+    "comparison_file": "/tmp/codex-bbrep-retarget-20261015/en_front15_pixel_comparison.json"
+  },
+  "resolved_issue": {
+    "previous_sha256": "345d9f46e7298b64273b6a64151f53de4a9e7422d34255085aba7f5210acfe29",
+    "previous_issue": "AI declaration title orphaned at bottom of page 16.",
+    "final_result": "Declaration title and first body paragraph now together on page 17; heading spans two readable lines."
+  },
+  "verified_features": [
+    "Margins, title, author details, continuous line numbering and page numbers readable.",
+    "Editable formula on page 9 remains clear and pixel-identical to inspected earlier render.",
+    "Table 1 on page 12 is complete, legible and wholly within margins.",
+    "Funding, CRediT, competing interest, data availability and AI declarations have consistent bold headings.",
+    "No heading is stranded at the foot of a page without the following text.",
+    "References and moved main/supplementary figure legends complete and readable.",
+    "No clipped glyphs, obscured numbers, text overlap or unintended blank page observed.",
+    "Page 24 contains the complete final supplementary-appendix description; it is a short content-bearing last page, not a blank page."
+  ],
+  "issues": [],
+  "changes_made": false
+}
