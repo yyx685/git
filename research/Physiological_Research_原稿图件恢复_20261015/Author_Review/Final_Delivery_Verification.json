@@ -3,14 +3,14 @@
   "date": "2026-10-16",
   "documents": {
     "Yuan.docx": {
-      "sha256": "dd9552d7227c320d55dd5e1a0931c2b33a4c2033bb64ded775873cd0ea822d0f",
+      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
       "main_images_exactly_match_separate_jpgs": true,
       "native_tables": 1,
       "native_formula_count": 1,
       "tracked_changes": false
     },
     "Yuan_中文.docx": {
-      "sha256": "cdde45a06fbcaafcc2e124b24e8d986ab56654e0aa5525ced8a949c1d647e0d5",
+      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
       "main_images_exactly_match_separate_jpgs": true,
       "native_tables": 1,
       "native_formula_count": 1,
@@ -40,5 +40,20 @@
   "copied_cover_letter_and_native_table_identical": true,
   "DS_Store_count": 0,
   "submission_email_sent": false,
-  "note": "Scientific validation remains limited as disclosed in manuscript; original BP, serum and WB graphics are author-review only, not quantitative main-article results."
+  "note": "Scientific validation remains limited as disclosed in manuscript; original BP, serum and WB graphics are author-review only, not quantitative main-article results.",
+  "mechanism_redesign_checks": {
+    "Yuan.docx": {
+      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+      "only_text_change": "Figure4 caption",
+      "all_other_text_table_and_formula_unchanged": true,
+      "all_four_embedded_images_match_separate_jpgs": true
+    },
+    "Yuan_中文.docx": {
+      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
+      "only_text_change": "Figure4 caption",
+      "all_other_text_table_and_formula_unchanged": true,
+      "all_four_embedded_images_match_separate_jpgs": true
+    }
+  },
+  "pdf_sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f"
 }

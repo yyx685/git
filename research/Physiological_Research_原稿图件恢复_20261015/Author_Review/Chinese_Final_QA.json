@@ -1,10 +1,11 @@
 {
   "status": "PASS",
-  "checked_date": "2026-10-16",
+  "date": "2026-10-16",
   "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan_中文.docx",
-  "document_sha256": "cdde45a06fbcaafcc2e124b24e8d986ab56654e0aa5525ced8a949c1d647e0d5",
+  "document_sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
   "page_count": 15,
-  "all_pages_visually_reviewed": [
+  "render_directory": "/tmp/codex-physres-mechanism-v2/qa_zh",
+  "unchanged_pages_pixel_identical_to_reviewed_baseline": [
     1,
     2,
     3,
@@ -18,20 +19,11 @@
     11,
     12,
     13,
-    14,
+    14
+  ],
+  "changed_pages_reviewed_full_size": [
     15
   ],
-  "final_render_directory": "/tmp/codex-physres-original-figures-20261015/qa_zh_delivery",
-  "render_comparison": "Final page 9 supplementary-figure pointer repaired and visually reviewed. Pages 1–8 and 10–15 are pixel-identical to the already visually reviewed qa_zh_final pages.",
-  "main_figures": 4,
-  "native_tables": 1,
-  "checks": [
-    "No clipped text or missing glyphs",
-    "Editable native formula retained",
-    "Fig3 exact Holm P values agree with caption",
-    "Supplementary S1/S2 pointers correct",
-    "HE illustrative only; no invented animal count",
-    "No brown-stained extra image included",
-    "Day28/day56 and all four scientific limitations preserved"
-  ]
+  "visual_checks": "New mechanism figure and complete caption readable; no clipping, overlap or blank page. All other pages pixel-identical.",
+  "baseline": "/tmp/codex-physres-original-figures-20261015/qa_zh_delivery"
 }

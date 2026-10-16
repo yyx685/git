@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checked_date": "2026-10-16",
+  "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan_中文.docx",
+  "document_sha256": "cdde45a06fbcaafcc2e124b24e8d986ab56654e0aa5525ced8a949c1d647e0d5",
+  "page_count": 15,
+  "all_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "final_render_directory": "/tmp/codex-physres-original-figures-20261015/qa_zh_delivery",
+  "render_comparison": "Final page 9 supplementary-figure pointer repaired and visually reviewed. Pages 1–8 and 10–15 are pixel-identical to the already visually reviewed qa_zh_final pages.",
+  "main_figures": 4,
+  "native_tables": 1,
+  "checks": [
+    "No clipped text or missing glyphs",
+    "Editable native formula retained",
+    "Fig3 exact Holm P values agree with caption",
+    "Supplementary S1/S2 pointers correct",
+    "HE illustrative only; no invented animal count",
+    "No brown-stained extra image included",
+    "Day28/day56 and all four scientific limitations preserved"
+  ]
+}

@@ -3,17 +3,17 @@
   "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
   "sent": false,
   "attachment_count": 22,
-  "total_bytes": 13329712,
+  "total_bytes": 14148735,
   "attachments": [
     {
       "file": "Yuan.docx",
-      "bytes": 2406185,
-      "sha256": "dd9552d7227c320d55dd5e1a0931c2b33a4c2033bb64ded775873cd0ea822d0f"
+      "bytes": 2832807,
+      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 789080,
-      "sha256": "0389c3b325212e83da8ace5633ad2dafd633d08aaab9ed5280ae64077c15ac39"
+      "bytes": 846663,
+      "sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -107,13 +107,13 @@
     },
     {
       "file": "Figures/Yuan_fig4.jpg",
-      "bytes": 1939256,
-      "sha256": "bbc1c196f5a16e263a6984ffbec7fc0f1ea3d3af2013a5229dc06c0b7a78c724"
+      "bytes": 2271197,
+      "sha256": "b281e05e912e74ce6b45c685f570c816b23e10324aafe615aa282321f949d5cf"
     },
     {
       "file": "Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
-      "bytes": 12495,
-      "sha256": "5a62628c2e3775d2c049e8973f381bc565d0f667d5cc9db598fa9b2723e506f7"
+      "bytes": 15372,
+      "sha256": "47c601e91d060497f1bf2e337f481fc28e6ec44ceb312edc4a78150137c67c0b"
     }
   ],
   "excluded": "Chinese author copy; author-review compendium and audits; Original_Source_Figures; Markdown notes; duplicate TIFF/PDF/SVG main-figure backups; supplementary TIFFs already embedded in supplementary Word.",

@@ -1,96 +1,90 @@
 {
   "status": "PASS",
   "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan.docx",
-  "document_sha256": "dd9552d7227c320d55dd5e1a0931c2b33a4c2033bb64ded775873cd0ea822d0f",
-  "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan.pdf",
-  "pdf_sha256": "0389c3b325212e83da8ace5633ad2dafd633d08aaab9ed5280ae64077c15ac39",
-  "render_directory": "/tmp/codex-physres-original-figures-20261015/qa_en_final",
-  "page_count": 14,
-  "pages_reviewed_full_size": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14
-  ],
-  "renderer": "canonical documents render_docx.py",
+  "document_sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+  "render_directory": "/tmp/codex-physres-mechanism-v2/qa_en",
+  "renderer": "Canonical render_docx.py with bundled LibreOffice only",
   "libreoffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
-  "visual_checks": {
-    "pages1_to5": "Frontmatter, Summary, Introduction and Methods readable; normal paragraph continuations, no clipped text or missing glyphs; native equation correct on page5.",
-    "page6": "Archived materials and both numerical results readable with correct Fig1/2/3 callouts.",
-    "pages7_to8": "Discussion and declarations retain four true limitations; hypothesis cross-reference Fig4 present; no overstated efficacy or mechanism.",
-    "pages9_to10": "Nineteen references and native editableTable1 complete and readable; all tablecells and footnote visible.",
-    "page11": "OriginalMMRHE tissue image and scale pixels preserved; illustrative-only caption, no fabricatedn.",
-    "page12": "Biochemical barplots includeindividualpoints, meansSD, correctday28/day56 labels and validGamesHowell*** comparisons.",
-    "page13": "BothqPCRpanels showmRNA; exactHolmP labels agree with correctedcaption, no residualstarlegend.",
-    "page14": "Hypothesisdiagram distinguishespriorreport/currentregionalobservations/untestedlinks and timeconfounding; completecaption readable."
-  },
-  "scientific_integrity_checks": {
-    "methods_identical_to_confirmed_previous_article": true,
-    "biochemical_results_identical_except_figure_number": true,
-    "qPCR_results_identical_except_figure_number": true,
-    "table_all_cells_identical": true,
-    "OMML_formula_count": 1,
-    "OMML_content": "Q = 2−ΔCq",
-    "OMML_preserved": true,
-    "reference_count": 19,
-    "reference_first_appearance_order": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19
-    ],
-    "main_figure_first_appearance_order": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "main_image_count": 4,
-    "native_table_count": 1,
-    "HE_mainfile_byte_identical_to_MMR_source_Fig3": true,
-    "qPCR_figure_contains_corrected_Nox4_mRNA_not_protein": true,
-    "Fig3_caption_precise_P_matches_plot": true,
-    "four_key_limitations_preserved": true,
-    "no_new_unverified_qPCR_or_analgesia_claims": true,
-    "processed_input_files_byte_identical_to_prior": [
-      "S5_File_Archived_BP_Workbook.xlsx",
-      "S4_File_RTqPCR_Statistical_Outputs.json",
-      "S1_Data_RVLM_Processed_Values.csv",
-      "S4_Data_Archived_BP_Entered_Summaries.csv",
-      "S3_File_RVLM_Statistical_Outputs.json",
-      "S3_Data_Archived_BP_Recorded_Values.csv",
-      "S2_Data_RTqPCR_Animal_Paired_Values.csv"
-    ],
-    "tracked_changes": 0,
-    "comments_parts": [],
-    "root_full_article_word_count": 4867,
-    "summary_word_count": 166
-  },
-  "unresolved_defects": [],
-  "scope": "Read-only finalWord review; finalPDF copied to submission package. NoWord edits orGit actions by this reviewer."
+  "page_count": 14,
+  "baseline_directory": "/tmp/codex-physres-original-figures-20261015/qa_en_final",
+  "pages": [
+    {
+      "page": 1,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 2,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 3,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 4,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 5,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 6,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 7,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 8,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 9,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 10,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 11,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 12,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 13,
+      "pixel_identical_to_previously_reviewed_baseline": true,
+      "review": "Prior full-page review retained by exact pixel identity"
+    },
+    {
+      "page": 14,
+      "pixel_identical_to_previously_reviewed_baseline": false,
+      "review": "Opened at original resolution; clean new Figure 4 and full caption, no clipping, no overlap, readable symbols and labels"
+    }
+  ],
+  "word_count_paragraphs_tables": 4880,
+  "conservative_xml_word_count_including_equation_text": 4908,
+  "native_math_text": "Q =  2 −ΔCq",
+  "under_5000_words": true,
+  "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan.pdf",
+  "pdf_sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f",
+  "final_page_visual_result": "Figure and caption fit on the same page with ample margins. No additional blank page. Color legend clearly distinguishes present observations from prior reports, and dashed proposed links remain explicit.",
+  "edits_to_docx": false
 }

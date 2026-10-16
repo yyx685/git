@@ -1,6 +1,6 @@
 {
   "target": "Physiological Research Original Article",
-  "words_including_all_text_table_math": 4867,
+  "words_including_all_text_table_math": 4882,
   "main_figures": 4,
   "main_tables": 1,
   "display_items_total": 5,
@@ -12,7 +12,7 @@
   "figure1": "Exact supplied MMR HE JPEG",
   "figure2": "Original three-panel bar style with verified same six values, SD and corrected statistics/units",
   "figure3": "Original two-panel bar style; source erroneous protein B replaced by genuine paired-Cq transcript values",
-  "figure4": "Original left-centre-right layout revised to proposed relationships, no reversal or unsupported serum result",
+  "figure4": "Redesigned three-column vector schematic, stylized cervical symbol, explicit evidence legend and independent terminal-cohort timelines. Dashed links remain hypotheses.",
   "unverified_original_BP_serum_WB": "Preserved in original-figure compendium, not represented as verified new quantitative results",
   "submitted": false,
   "figure3_caption_correction": "Exact Holm-adjusted P values appear in the figure; removed unused star-threshold legend."

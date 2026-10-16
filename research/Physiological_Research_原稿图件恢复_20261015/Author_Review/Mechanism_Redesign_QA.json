@@ -1,0 +1,134 @@
+{
+  "design_version": "2026-10-16 v2",
+  "purpose": "Observed regional changes and proposed cardiovascular links",
+  "figure_type": "Conventional editable vector schematic, not an experimental image",
+  "all_biological_connections": "Dashed arrows denote hypotheses, not established mediation",
+  "evidence_labels": [
+    "Current measurements",
+    "Prior report",
+    "Proposed link"
+  ],
+  "current_observations": "Day28 model vs sham: lower SOD, higher MDA, probe-associated fluorescence and estimated Nox1/Nox4 mRNA",
+  "sampling_design": "Three independent terminal-cohort timelines; sham/model day28, restoration day56 after day28 implant removal",
+  "experimental_data_or_images_generated": false,
+  "date": "2026-10-16",
+  "main_manuscripts_updated": [
+    "Yuan.docx",
+    "Yuan_中文.docx"
+  ],
+  "caption_scientific_review": "PASS",
+  "other_figures_and_numerical_results_changed": false,
+  "status": "PASS",
+  "body_preservation_checks": {
+    "Yuan.docx": {
+      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+      "only_text_change": "Figure4 caption",
+      "all_other_text_table_and_formula_unchanged": true,
+      "all_four_embedded_images_match_separate_jpgs": true
+    },
+    "Yuan_中文.docx": {
+      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
+      "only_text_change": "Figure4 caption",
+      "all_other_text_table_and_formula_unchanged": true,
+      "all_four_embedded_images_match_separate_jpgs": true
+    }
+  },
+  "vector_pdf_preview_visually_checked": true,
+  "chinese_final_page_visually_checked": true,
+  "English_QA": {
+    "status": "PASS",
+    "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan.docx",
+    "document_sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+    "render_directory": "/tmp/codex-physres-mechanism-v2/qa_en",
+    "renderer": "Canonical render_docx.py with bundled LibreOffice only",
+    "libreoffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+    "page_count": 14,
+    "baseline_directory": "/tmp/codex-physres-original-figures-20261015/qa_en_final",
+    "pages": [
+      {
+        "page": 1,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 2,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 3,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 4,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 5,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 6,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 7,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 8,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 9,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 10,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 11,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 12,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 13,
+        "pixel_identical_to_previously_reviewed_baseline": true,
+        "review": "Prior full-page review retained by exact pixel identity"
+      },
+      {
+        "page": 14,
+        "pixel_identical_to_previously_reviewed_baseline": false,
+        "review": "Opened at original resolution; clean new Figure 4 and full caption, no clipping, no overlap, readable symbols and labels"
+      }
+    ],
+    "word_count_paragraphs_tables": 4880,
+    "conservative_xml_word_count_including_equation_text": 4908,
+    "native_math_text": "Q =  2 −ΔCq",
+    "under_5000_words": true,
+    "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan.pdf",
+    "pdf_sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f",
+    "final_page_visual_result": "Figure and caption fit on the same page with ample margins. No additional blank page. Color legend clearly distinguishes present observations from prior reports, and dashed proposed links remain explicit.",
+    "edits_to_docx": false
+  },
+  "JPG_TIFF_dpi": 600,
+  "SVG_text_is_editable": true,
+  "published_code_reproduces_mechanism_raster_byte_identically": {
+    "jpg": true,
+    "tif": true
+  }
+}

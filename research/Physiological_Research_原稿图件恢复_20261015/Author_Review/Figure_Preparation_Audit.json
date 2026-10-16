@@ -1,6 +1,6 @@
 {
   "purpose": "Retain MMR figure content and visual style with verified quantitative inputs",
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "statistical_tests_performed": false,
   "experimental_images_generated_or_edited": false,
   "input_files": {
@@ -288,54 +288,39 @@
       "ticks": "Sham (day28), Model (day28), Rest. (day56); abbreviations defined in caption"
     },
     "Yuan_fig4": {
-      "source_visual_style": "lyk mmr期刊.docx Figure 7, original left–center–right box arrangement",
-      "all_connections": "Dashed arrows labelled Proposed",
-      "content_changes": [
-        "Removed unmatched serum-results box",
-        "Removed partially reverses assertion",
-        "Distinguished previous Ang II/AT1R report from current regional redox and mRNA observations",
-        "Regional block includes adjacent tissue; no pure-RVLM specificity asserted",
-        "Displayed day28/day56 and second-surgery confounding"
+      "design_version": "2026-10-16 v2",
+      "purpose": "Observed regional changes and proposed cardiovascular links",
+      "figure_type": "Conventional editable vector schematic, not an experimental image",
+      "all_biological_connections": "Dashed arrows denote hypotheses, not established mediation",
+      "evidence_labels": [
+        "Current measurements",
+        "Prior report",
+        "Proposed link"
       ],
+      "current_observations": "Day28 model vs sham: lower SOD, higher MDA, probe-associated fluorescence and estimated Nox1/Nox4 mRNA",
+      "sampling_design": "Three independent terminal-cohort timelines; sham/model day28, restoration day56 after day28 implant removal",
       "experimental_data_or_images_generated": false,
       "dimensions": [
-        6000,
-        3420
+        4500,
+        2880
       ],
       "dpi": [
         600,
         600
       ],
-      "tiff_sha256": "ecac0418cb22890acd4a8fb3abe3c8cd2ba8459a426c866071375ae5c358a0c9",
-      "jpeg_sha256": "bbc1c196f5a16e263a6984ffbec7fc0f1ea3d3af2013a5229dc06c0b7a78c724"
+      "jpeg_sha256": "b281e05e912e74ce6b45c685f570c816b23e10324aafe615aa282321f949d5cf",
+      "tiff_sha256": "e9bd342881fc74cd0e3e8f64c4d220bb90a7169ab01f41497b5d146bdb15041b"
     }
   },
-  "visual_review": {
-    "status": "PASS",
-    "all_final_JPEGs_viewed_full": true,
-    "figures": [
-      "Yuan_fig1.jpg",
-      "Yuan_fig2.jpg",
-      "Yuan_fig3.jpg",
-      "Yuan_fig4.jpg"
-    ],
-    "notes": [
-      "H&E byte-identical and unedited; original 1269×292 pixels and 220 dpi metadata retained.",
-      "Biochemistry and qPCR figures inspected after final label spacing repair; no clipping, overlapping group labels, missing symbols, or point-count changes.",
-      "Black/light-gray/dark-gray bar+sample-SD style follows original MMR figures; individual points made visible.",
-      "Sham means sham-operated; Rest. means restoration; sampling days are shown below each group.",
-      "Hypothesis diagram retains left–center–right box layout, all arrows dashed and labelled Proposed, and no unmatched serum-result or established reversal claim.",
-      "Plots/diagram 600 dpi; vector PDF/SVG also available."
-    ]
-  },
+  "visual_review": "PASS including vector PDF preview and manuscript final pages",
   "output_files": {
     "Yuan_fig4.svg": {
-      "bytes": 93710,
-      "sha256": "8ed04d4e676f806d093a762759bb0a9f05df48afcb3fb28f486943422febbb04"
+      "bytes": 21958,
+      "sha256": "1fd39f15cb6759cccdc8b8927e015041a268e807af5086dfc0286bfa6d4337c0"
     },
     "Yuan_fig4.tif": {
-      "bytes": 2443352,
-      "sha256": "ecac0418cb22890acd4a8fb3abe3c8cd2ba8459a426c866071375ae5c358a0c9"
+      "bytes": 1505560,
+      "sha256": "e9bd342881fc74cd0e3e8f64c4d220bb90a7169ab01f41497b5d146bdb15041b"
     },
     "Yuan_fig3.svg": {
       "bytes": 53213,
@@ -374,33 +359,16 @@
       "sha256": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad"
     },
     "Yuan_fig4.pdf": {
-      "bytes": 45008,
-      "sha256": "b941b01cd1d931377c24492047ab5835e9b4b6b29394fc723c2b650ad9bc2ebb"
+      "bytes": 66637,
+      "sha256": "c70c0cf7de9c6e2c62ad753401f2e941bea159c9abbcc92a2e2832582647df9c"
+    },
+    "Yuan_fig4.png": {
+      "bytes": 213058,
+      "sha256": "6af638f9e2264160f724de25bd926e4681a10cd59f1d30dd48fb9c76790820d1"
     },
     "Yuan_fig4.jpg": {
-      "bytes": 1939256,
-      "sha256": "bbc1c196f5a16e263a6984ffbec7fc0f1ea3d3af2013a5229dc06c0b7a78c724"
+      "bytes": 2271197,
+      "sha256": "b281e05e912e74ce6b45c685f570c816b23e10324aafe615aa282321f949d5cf"
     }
-  },
-  "portable_reproduction": {
-    "script": "S5_Appendix_Plot_Source_Style_Figures.py",
-    "default_input_directory": "script parent",
-    "default_output_directory": "current working directory",
-    "overrides": [
-      "--data-dir",
-      "--output-dir",
-      "--he-image"
-    ],
-    "no_absolute_local_input_paths_in_portable_script": true,
-    "raster_bytes_identical_on_independent_run": {
-      "Yuan_fig4.tif": true,
-      "Yuan_fig3.tif": true,
-      "Yuan_fig2.tif": true,
-      "Yuan_fig1.jpg": true,
-      "Yuan_fig2.jpg": true,
-      "Yuan_fig3.jpg": true,
-      "Yuan_fig4.jpg": true
-    },
-    "script_sha256": "5a62628c2e3775d2c049e8973f381bc565d0f667d5cc9db598fa9b2723e506f7"
   }
 }
