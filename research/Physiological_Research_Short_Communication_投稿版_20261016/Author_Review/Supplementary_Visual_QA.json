@@ -2,7 +2,7 @@
   "status": "PASS",
   "date": "2026-10-16",
   "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_supplementary_information.docx",
-  "sha256": "1d941341ae3cefd7703476b4b1ad79b4ed06313fe30c69315a88185a12c170e7",
+  "sha256": "5be3073b225d7a9131db0dc52c84885c60704bd66482d958136a2e2150f66c87",
   "page_count": 9,
   "pages_inspected": [
     1,
@@ -15,16 +15,14 @@
     8,
     9
   ],
+  "render_pdf_sha256": "168500f5507bbc2383c1533f80852e1861bb72ec067e60d6b43d7af23f8144ce",
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
-  "render_pdf_sha256": "4f7c708dd256dcb474317c4e7453a8dd7298ed77eabf9169408e04751c9d7b06",
   "checks": {
-    "all_pages_readable": true,
-    "no_clipping_overlap_or_orphan_headings": true,
-    "captions_equation_and_tables_complete": true
-  },
-  "notes": [
-    "Initial all-nine-page visual review followed by final rerender; pages 1–4 pixel-identical, changed pages 5–9 re-opened and inspected.",
-    "HE/BP/S1 contents unchanged; extended methods and results complete with remapped references."
-  ]
+    "all_pages_clean_at_original_resolution": true,
+    "week4_week8_all_sampling_references": true,
+    "sampling_weeks1_2_3_4_equivalent_to_original_schedule": true,
+    "week8_is_four_weeks_after_removal": true,
+    "native_equation_and_tableS1_complete": true
+  }
 }

@@ -3,17 +3,17 @@
   "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
   "sent": false,
   "attachment_count": 19,
-  "total_bytes": 9249868,
+  "total_bytes": 9152352,
   "attachments": [
     {
       "file": "Yuan.docx",
-      "bytes": 816647,
-      "sha256": "d5522e7ed2be737a6709bd6e72e6189b27c8c49d56055ae13209306aabd06559"
+      "bytes": 773380,
+      "sha256": "dcf0f5318abd8d0f22ca83b4aaac3584449bfc234cb78ec2ed8cb604a09af48a"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 424568,
-      "sha256": "9db50a8c96df224c64a697f8d88111facb6d2b44a69fb19b4e77d56bc16332b6"
+      "bytes": 414464,
+      "sha256": "270004b4a8f1f9e50e25e1cff0cee09b46ae15bf5c5fb41749fd9013300246fe"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -22,18 +22,18 @@
     },
     {
       "file": "Yuan_supplementary_information.docx",
-      "bytes": 5986959,
-      "sha256": "1d941341ae3cefd7703476b4b1ad79b4ed06313fe30c69315a88185a12c170e7"
+      "bytes": 5986951,
+      "sha256": "5be3073b225d7a9131db0dc52c84885c60704bd66482d958136a2e2150f66c87"
     },
     {
       "file": "Figures/Yuan_fig1.jpg",
-      "bytes": 641079,
-      "sha256": "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648"
+      "bytes": 636591,
+      "sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44"
     },
     {
       "file": "Figures/Yuan_fig2.jpg",
-      "bytes": 487618,
-      "sha256": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad"
+      "bytes": 447925,
+      "sha256": "4052df7154655225c3a97eb9fc869c3aab4bfbce808496f893c3cf8e828c2b02"
     },
     {
       "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
@@ -97,8 +97,8 @@
     },
     {
       "file": "Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
-      "bytes": 8390,
-      "sha256": "4df1cd8b47d447097ac24726d3bbe7f3d956094a22fd35c71daaad6f6ffa282d"
+      "bytes": 8434,
+      "sha256": "1c1ede06921fc66948a37991fb986b40cac51e68685f1aa9bccd32c1bbd48301"
     }
   ],
   "excluded": "Chinese author copy; author-review audits; Markdown notes; duplicate TIFF/PDF/SVG/PNG main-figure backups; supplementary TIFFs already embedded in supplementary Word. Prior source-figure archive remains in the preserved previous package.",

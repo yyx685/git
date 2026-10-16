@@ -4,8 +4,8 @@
   "files": [
     {
       "file": "Author_Review/Chinese_Visual_QA.json",
-      "bytes": 1898,
-      "sha256": "18016073204e182c05ccd6ca8507cecb2ded074e84ececaf8e0de5319a86167f"
+      "bytes": 2113,
+      "sha256": "08f1b8575e2903717cea0d461f568261cada03c87161e3907242b2807246e2ac"
     },
     {
       "file": "Author_Review/Cover_Visual_QA.json",
@@ -14,83 +14,88 @@
     },
     {
       "file": "Author_Review/Editorial_Revision_Record.json",
-      "bytes": 1025,
-      "sha256": "d94a2465f5d44a3793b19d046f78292d11f5e2095bf9e3bb7566f2e72d507a2d"
+      "bytes": 1524,
+      "sha256": "688f689295db843f88423aa5ea7c3ae97e83fee378c16a17e74fafae99b5503c"
     },
     {
       "file": "Author_Review/English_Visual_QA.json",
-      "bytes": 1690,
-      "sha256": "0a77f9e40ea7e2a455cb1bca50fee3a8127d3fac0069586e1ca37577090e2966"
+      "bytes": 2244,
+      "sha256": "0d9a5260b4de8ce6faa1dc7ce9ac7e986f9280c54c0e419c6fad2ca524626d64"
+    },
+    {
+      "file": "Author_Review/Figure_Preparation_Audit.json",
+      "bytes": 9495,
+      "sha256": "2176bde024bf61d315fe2e79ffa03d2b40a6ef1a52e3bd09b99b398f3a7d4574"
     },
     {
       "file": "Author_Review/Final_Delivery_Verification.json",
-      "bytes": 1318,
-      "sha256": "abf562c350ebd895109df2ce7da72055e8a52773e663a89f9c77a689eac785b2"
+      "bytes": 1550,
+      "sha256": "9eda3d30317bf621cfa28595b820508d9ec114306454fc35530448fefb989993"
     },
     {
       "file": "Author_Review/Scientific_Integrity_QA.json",
-      "bytes": 9906,
-      "sha256": "95fc43c0e9cac20856e18fbad0d7201c494da99c5917736e81ebd9ea68ad3103"
+      "bytes": 8988,
+      "sha256": "02c55e4d108498cdc6951903db48789910f62c877fdb6c956d262be8e417d08a"
     },
     {
       "file": "Author_Review/Submission_Attachment_List.json",
       "bytes": 4440,
-      "sha256": "7269917e08a601c432af2469ac7a0a13645ffbf794d91916e4de01757c62a0c5"
+      "sha256": "2a0dd32ac2342ee29a7ef484c3e2c84104f7465c24c12e8fa883b1b1a5fd0a87"
     },
     {
       "file": "Author_Review/Submission_Status.json",
-      "bytes": 536,
-      "sha256": "52b28ecb05112b61560376c945c2754f17df8e1e44b013c7d2826138d6535c18"
+      "bytes": 629,
+      "sha256": "48830b2990b4df7fa945ba5504477c4692ba3c36d563fd2c3cf3abd1472fabe2"
     },
     {
       "file": "Author_Review/Supplementary_Visual_QA.json",
-      "bytes": 1130,
-      "sha256": "ba0d5674a7366c07e2ced12e21a27bfd65ed418eb252605d53349eae3f54fa50"
+      "bytes": 998,
+      "sha256": "cc9f5f81435a20e60d782a43affd315fa528b5bf0deb1061ba2f58076d8dffff"
     },
     {
       "file": "Figures/Yuan_fig1.jpg",
-      "bytes": 641079,
-      "sha256": "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648"
+      "bytes": 636591,
+      "sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44"
     },
     {
       "file": "Figures/Yuan_fig1.pdf",
-      "bytes": 37656,
-      "sha256": "a2d0ad58a0430921286df805e3073098c13edf1f05da71628dc84e0c25e5d9e6"
+      "bytes": 38460,
+      "sha256": "56ff5f8ae5c3480947b00cefc4519e5bc63436a05286eab3f950842cdeec8947"
     },
     {
       "file": "Figures/Yuan_fig1.svg",
-      "bytes": 66750,
-      "sha256": "505ec744b29730c0b315d7622cd0676fc3a5e2250f6a53d5074f7b1c46316f1d"
+      "bytes": 66854,
+      "sha256": "54a3c25c19ded83db8af212cf41a06debcadd1c0080c97f354902bba91015485"
     },
     {
       "file": "Figures/Yuan_fig1.tif",
-      "bytes": 898760,
-      "sha256": "bd319449377232404d5cfdc7f505e5532600cf96db6e980c30d0e473d5c3f511"
+      "bytes": 894332,
+      "sha256": "77996cad6aacd5321a1456296313577f103e6860e3d38bb874be4903f00034ab"
     },
     {
       "file": "Figures/Yuan_fig2.jpg",
-      "bytes": 487618,
-      "sha256": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad"
+      "bytes": 447925,
+      "sha256": "4052df7154655225c3a97eb9fc869c3aab4bfbce808496f893c3cf8e828c2b02"
     },
     {
       "file": "Figures/Yuan_fig2.pdf",
-      "bytes": 42199,
-      "sha256": "bdc829ece45836fc88738c940040cf6330d3d2129dbda4085983bc6a861f11a5"
+      "bytes": 41908,
+      "sha256": "00a377f9870ccc98bc817935ad1c6b7b9c41c5d25afff4dd818cc2642f5a61e8"
     },
     {
       "file": "Figures/Yuan_fig2.svg",
-      "bytes": 53213,
-      "sha256": "7e73517c1427441a748bc83275ec7322b5eb545e883c66b9ec91b3ef8e11acae"
+      "bytes": 48938,
+      "sha256": "70ecb43b3dd17dcdf5dcb8f2377cbeabec87d868f2b37842171d5f9ee889a58e"
     },
     {
       "file": "Figures/Yuan_fig2.tif",
-      "bytes": 657924,
-      "sha256": "3dfc0a14bdfdec6952516e56c2702b24920b34e0ef4135f02bf59feed52e88f1"
+      "bytes": 633092,
+      "sha256": "a2c2413cdd2dcf7dcc82ad6d8fb0e90de25e61b9a7021546629c527f26d030a6"
     },
     {
       "file": "Short_Communication修订及投稿说明.md",
-      "bytes": 2756,
-      "sha256": "078fc598ba7433d78053f1c07a264a7f8f6e32f9f6450b022123b1395245f570"
+      "bytes": 3501,
+      "sha256": "4f39bc8e97f7cf150bf07a2294113832a74a1e0a71a0078028f57d93878b6d75"
     },
     {
       "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
@@ -154,8 +159,8 @@
     },
     {
       "file": "Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
-      "bytes": 8390,
-      "sha256": "4df1cd8b47d447097ac24726d3bbe7f3d956094a22fd35c71daaad6f6ffa282d"
+      "bytes": 8434,
+      "sha256": "1c1ede06921fc66948a37991fb986b40cac51e68685f1aa9bccd32c1bbd48301"
     },
     {
       "file": "Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
@@ -174,18 +179,18 @@
     },
     {
       "file": "Yuan.docx",
-      "bytes": 816647,
-      "sha256": "d5522e7ed2be737a6709bd6e72e6189b27c8c49d56055ae13209306aabd06559"
+      "bytes": 773380,
+      "sha256": "dcf0f5318abd8d0f22ca83b4aaac3584449bfc234cb78ec2ed8cb604a09af48a"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 424568,
-      "sha256": "9db50a8c96df224c64a697f8d88111facb6d2b44a69fb19b4e77d56bc16332b6"
+      "bytes": 414464,
+      "sha256": "270004b4a8f1f9e50e25e1cff0cee09b46ae15bf5c5fb41749fd9013300246fe"
     },
     {
       "file": "Yuan_Short_Communication_待发送邮件.eml",
-      "bytes": 12663608,
-      "sha256": "b518fb784c5b07e7b434d0dd8bfbaebee1b48d3c5c5483d422ce4b992533868c"
+      "bytes": 12530172,
+      "sha256": "f2dd42bd654576942cd1a9ff73af8110b24cd7851914236e5204e8b1a59ba258"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -194,13 +199,13 @@
     },
     {
       "file": "Yuan_supplementary_information.docx",
-      "bytes": 5986959,
-      "sha256": "1d941341ae3cefd7703476b4b1ad79b4ed06313fe30c69315a88185a12c170e7"
+      "bytes": 5986951,
+      "sha256": "5be3073b225d7a9131db0dc52c84885c60704bd66482d958136a2e2150f66c87"
     },
     {
       "file": "Yuan_中文.docx",
-      "bytes": 816916,
-      "sha256": "5293f10cdad1dc53b1fc923d5df69f15cb7cd7be2f0c87c55f0ded53a7798836"
+      "bytes": 773649,
+      "sha256": "a0e10f8f608daae9856b9f2d892884847c99b85eba79a25f5fcbe993932d8dc5"
     },
     {
       "file": "投稿邮件正文.txt",

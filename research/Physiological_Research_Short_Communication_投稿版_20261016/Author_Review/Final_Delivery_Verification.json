@@ -4,7 +4,7 @@
   "requirements_source": "https://www.biomed.cas.cz/physiolres/instructions.htm",
   "checks": {
     "article_type": "Short Communication",
-    "english_words_including_frontmatter_references_captions_and_native_math": 1835,
+    "english_words_including_frontmatter_references_captions_and_native_math": 1847,
     "summary_words": 128,
     "references": 8,
     "main_figures": 2,
@@ -20,7 +20,11 @@
     "underlying_AI_model_identifier_not_archived_and_disclosed": true,
     "remaining4_rats_kept_in_reserve": true,
     "all_19_formal_attachments_present": true,
-    "submitted": false
+    "submitted": false,
+    "all_sampling_labels_in_weeks": true,
+    "both_main_figure_axes_use_week4_week8": true,
+    "figure2_uses_corrected_P_stars_with_threshold_legend": true,
+    "exact_statistical_P_values_preserved_in_main_and_supplement": true
   },
   "notes": [
     "Detailed methods and complete results retained in separate supplementary document; key scientific and welfare limits remain in main text.",

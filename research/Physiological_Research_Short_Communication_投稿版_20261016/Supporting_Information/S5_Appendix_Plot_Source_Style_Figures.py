@@ -68,7 +68,7 @@ def base_panel(ax, arrays, letter, ylabel, title=None):
                     capsize=3.5,linewidth=1.0,zorder=2)
         ax.scatter(x+np.linspace(-.14,.14,6),a,s=17,facecolor='white',
                    edgecolor='black',linewidth=.65,zorder=3)
-    ax.set_xticks([0,1,2],['Sham\n(day 28)','Model\n(day 28)','Rest.\n(day 56)'])
+    ax.set_xticks([0,1,2],['Sham\n(week 4)','Model\n(week 4)','Rest.\n(week 8)'])
     ax.tick_params(axis='x',labelsize=8)
     ax.set_xlim(-.6,2.6);ax.set_ylim(bottom=0)
     ax.set_ylabel(ylabel,labelpad=6)
@@ -107,7 +107,7 @@ export(fig,'Yuan_fig1',bio_record)
 
 qpcr_record={'source_visual_style':'lyk mmr期刊.docx Figure 6, corrected using animal-paired Cq data',
  'arrays':{},'annotation_source':'Existing Welch tests on ΔCq, Holm correction over all 18 source comparisons',
- 'changes':'Preserved bar+SD design; corrected Nox4 panel using confirmed mRNA values; overlaid six values; exact adjusted P labels replace incorrect source stars.'}
+ 'changes':'Preserved bar+SD design; corrected Nox4 panel using confirmed mRNA values; overlaid six values; star annotations use exact Holm-adjusted P thresholds; sampling labels use weeks.'}
 fig,axs=plt.subplots(1,2,figsize=(6.3,3.8))
 for ax,target,letter in zip(axs,['Nox1','Nox4'],'AB'):
     data={g:[float(r['normalized_expression']) for r in qpcr if r['target']==target and r['group']==g] for g in GROUPS}
@@ -120,7 +120,7 @@ for ax,target,letter in zip(axs,['Nox1','Nox4'],'AB'):
     highest=max(max(a) for a in data.values());span=highest*1.40
     for i,(num,den,x1,x2) in enumerate([('Model','Sham-operated',0,1),('Restoration','Model',1,2)]):
         c=next(c for c in qpcr_stats['comparisons'] if c['gene']==target and c['numerator_group']==num and c['denominator_group']==den)
-        p=c['p_holm_18_test_family'];label=f'P = {p:.5f}' if p<.001 else f'P = {p:.4f}'
+        p=c['p_holm_18_test_family'];label='***' if p<.001 else '**' if p<.01 else '*' if p<.05 else 'ns'
         bracket(ax,x1,x2,highest+(i*.105+.11)*span,label,span)
         qpcr_record.setdefault('annotations',[]).append({'target':target,'comparison':c['comparison'],'p_holm_18':p,'label':label})
     ax.set_ylim(0,span)

@@ -1,6 +1,6 @@
 {
   "article_type": "Short Communication",
-  "english_words_including_title_summary_declarations_references_captions_and_native_math": 1835,
+  "english_words_including_title_summary_declarations_references_captions_and_native_math": 1847,
   "summary_words": 128,
   "references": 8,
   "main_figures": 2,
@@ -27,5 +27,14 @@
     "underlying_model_identifier": "not archived",
     "version_scope": "Client and CLI installed at final short-manuscript revision on 2026-10-16"
   },
-  "submission_sent": false
+  "submission_sent": false,
+  "previous_version_commit": "19716a1d334bef3b878bfd88d2e087d2a0197440",
+  "latest_change": {
+    "sampling_units": "week 4/week 8 throughout main text, supplement and both figure labels",
+    "figure2_annotations": "Stars from exact Holm-adjusted P values: * <0.05, ** <0.01, *** <0.001",
+    "data_and_statistical_values_changed": false,
+    "figure_display_bytes_changed": true,
+    "four_weeks_between_removal_and_terminal_sampling_retained": true,
+    "raw_source_records_unchanged": true
+  }
 }

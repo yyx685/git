@@ -1,10 +1,10 @@
 {
   "status": "PASS",
   "docx_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.docx",
-  "docx_sha256": "d5522e7ed2be737a6709bd6e72e6189b27c8c49d56055ae13209306aabd06559",
+  "docx_sha256": "dcf0f5318abd8d0f22ca83b4aaac3584449bfc234cb78ec2ed8cb604a09af48a",
   "pdf_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.pdf",
-  "pdf_sha256": "9db50a8c96df224c64a697f8d88111facb6d2b44a69fb19b4e77d56bc16332b6",
-  "render_directory": "/tmp/codex-physres-short-20261016/qa_en_final",
+  "pdf_sha256": "270004b4a8f1f9e50e25e1cff0cee09b46ae15bf5c5fb41749fd9013300246fe",
+  "render_directory": "/tmp/codex-physres-weeks-stars-20261016/qa_en",
   "pages": 6,
   "reviewed_pages": [
     1,
@@ -14,31 +14,38 @@
     5,
     6
   ],
-  "image_review": "All six final original-resolution PNGs opened and visually inspected with view_image detail=original.",
-  "preliminary_render_directory": "/tmp/codex-physres-short-20261016/qa_en",
-  "pixel_identical_to_preliminary_pages": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
+  "image_review": "All six rendered page PNGs and both separate figure JPEGs opened with view_image detail=original and visually inspected.",
   "checks": {
-    "article_type_short_communication": true,
-    "continuous_body_without_IMRaD_subheadings": true,
-    "native_qPCR_formula_visible_page2": true,
-    "gene_symbols_italicized_in_text_and_figure_captions": true,
-    "declaration_headings_and_body_clear": true,
-    "corrected_death_confirmation_wording_visible_page2": true,
-    "only_main_figures_1_biochemical_and_2_qpcr": true,
-    "figures_and_legends_complete_on_pages5_6": true,
+    "week4_and_week8_used_consistently": true,
+    "no_day28_or_day56_in_main_text": true,
+    "native_qPCR_formula_complete_page2": true,
+    "all_headings_captions_and_figures_complete": true,
     "no_clipping_overlap_missing_glyphs_or_orphan_headings": true,
     "no_final_blank_page": true,
-    "line_numbers_and_page_numbers_readable": true
+    "only_main_figures1_2": true,
+    "figure1_all_xlabels_week4_week4_week8": true,
+    "figure2_all_xlabels_week4_week4_week8": true,
+    "figure2_nox1_sham_model_two_stars": true,
+    "figure2_nox1_model_rest_one_star": true,
+    "figure2_nox4_sham_model_three_stars": true,
+    "figure2_nox4_model_rest_two_stars": true,
+    "figure2_caption_defines_all_three_star_thresholds": true,
+    "exact_P_values_retained_in_body": true
   },
+  "separate_figures_reviewed": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Figures/Yuan_fig1.jpg",
+      "sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Figures/Yuan_fig2.jpg",
+      "sha256": "4052df7154655225c3a97eb9fc869c3aab4bfbce808496f893c3cf8e828c2b02",
+      "status": "PASS"
+    }
+  ],
   "notes": [
-    "Only rendered PDF was written to the formal package; DOCX was not modified.",
-    "Visual QA does not resolve underlying experimental design or laboratory record limitations."
+    "No formal DOCX or other package files modified; only updated rendered PDF copied to formal package.",
+    "Visual QA does not resolve experimental design or original record limitations."
   ]
 }
