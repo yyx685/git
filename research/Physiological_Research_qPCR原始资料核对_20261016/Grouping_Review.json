@@ -1,0 +1,185 @@
+{
+  "scope": "Read-only scientific wording review of grouping, timing and source-data availability; no manuscript edits, no numerical substitutions, no Git.",
+  "reviewed_at": "2026-10-16T13:33:46.186828+00:00",
+  "files": [
+    {
+      "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.docx",
+      "sha256": "dcf0f5318abd8d0f22ca83b4aaac3584449bfc234cb78ec2ed8cb604a09af48a"
+    },
+    {
+      "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_中文.docx",
+      "sha256": "a0e10f8f608daae9856b9f2d892884847c99b85eba79a25f5fcbe993932d8dc5"
+    },
+    {
+      "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_supplementary_information.docx",
+      "sha256": "5be3073b225d7a9131db0dc52c84885c60704bd66482d958136a2e2150f66c87"
+    }
+  ],
+  "conclusions": [
+    "A shared model-induction cohort is compatible with separate model and restoration terminal groups. It is not evidence of paired terminal RVLM measurements.",
+    "A rat sampled terminally for medullary tissue at week 4 cannot later supply another terminal tissue specimen at week 8. If the author means the same nominal 10 animals, the source of the week-4 model tissue must be clarified before any statistical or factual change.",
+    "Do not change n, randomization, terminal sampling dates, numerical values or the independent-group analysis while the clarification is pending.",
+    "Repeated blood-pressure readings could be longitudinal within surviving restoration animals if individual records establish identity, but that would not make destructive tissue endpoints paired.",
+    "Original qPCR exports and curve recovery removes the blanket claim that all instrument outputs/curves are unavailable, but does not validate efficiency, reference stability, control performance, well mapping or ethics chronology."
+  ],
+  "blocking_reconciliation_items_reported_by_root": [
+    {
+      "issue": "Two wells labelled Empty in recovered original Cq table conflict with current worksheet interpretation",
+      "status": "Pending author answer/source reconciliation; not independently reinterpreted in this read-only review"
+    },
+    {
+      "issue": "Instrument run date 2020 versus ethics identifier AHUCM-rats-2022032",
+      "status": "Pending author explanation and approval chronology; do not backdate or fabricate approval coverage"
+    },
+    {
+      "issue": "Meaning of restoration rats continued from model group",
+      "status": "Pending author selection/clarification already requested by root"
+    }
+  ],
+  "publication_status": "Not a ready-to-send final manuscript while sample-well correspondence and run/ethics chronology remain unresolved. Proposed wording is for internal review only and should be finalized after those checks.",
+  "items": [
+    {
+      "file": "Yuan.docx",
+      "paragraph_index_zero_based": 14,
+      "category": "Grouping",
+      "current_text": "The Animal Ethics Committee of Anhui University of Chinese Medicine approved the 60-rat parent experiment, model induction, implant removal and terminal sampling (AHUCM-rats-2022032). Clean-grade male Wistar rats (approximately 12 weeks, 250 g; Anhui Medical University, license SCXK [Wan] 2017-001) were individually housed at 22 ± 1°C and 60% humidity under 12 h light/dark cycles, with free food/water and 1-week acclimatization. Animals were randomized to sham operation (10) or model induction (50). Six rats died intraoperatively and three afterward; seven survivors lost implants, leaving 34 with retained implants. Successfully modeled rats were randomized to model, restoration or superior cervical ganglion resection groups (10 each); four remained in reserve. This report includes sham, model and restoration cohorts only, initially 10 per group; each biochemical endpoint and RT-qPCR used six randomly selected independent rats per group without pooling. No single primary endpoint or formal a priori power calculation was specified. Animal-to-sample identifiers and cross-assay overlap could not be recovered.",
+      "recommended_action": "The existing text already describes a common model-induction source cohort followed by allocation to separate terminal groups. Add one clarification only if the pending author reply confirms this meaning.",
+      "proposed_text_for_internal_review": "Restoration rats originated from the same successfully modeled cohort and were continued after implant removal at week 4 until terminal sampling at week 8; they were not the model rats sampled terminally at week 4."
+    },
+    {
+      "file": "Yuan_中文.docx",
+      "paragraph_index_zero_based": 14,
+      "category": "Grouping",
+      "current_text": "安徽中医药大学动物伦理委员会批准了起始60只动物的来源实验、造模、异物取出及终末取材（AHUCM-rats-2022032）。清洁级雄性Wistar大鼠约12周龄、250 g，由安徽医科大学提供（许可证SCXK [皖] 2017-001），单笼饲养，温度22 ± 1℃、湿度60%、12 h光暗周期，自由进食饮水，适应1周。动物随机分至伪手术组10只或造模队列50只。术中死亡6只，术后死亡3只；存活动物中7只异物脱落，34只异物在位。造模成功动物随机分入模型、复位或颈上神经节切除组，每组10只；另4只留作备用。本报告仅纳入伪手术、模型及复位队列，初始各10只；每项生化检测及RT-qPCR各随机选取每组6只独立动物，无跨动物混样。未指定单一主要终点或进行正式事前功效计算。动物与样本身份及跨检测重叠关系无法恢复。",
+      "recommended_action": "同一造模来源队列不等于同一只大鼠前后均提供终末RVLM组织；待作者确认含义后最小增补。",
+      "proposed_text_for_internal_review": "复位动物来自同一造模成功队列，第4周取出异物后继续饲养至第8周终末取材；其并非第4周已经终末取材的模型组动物。"
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "paragraph_index_zero_based": 32,
+      "category": "Grouping",
+      "current_text": "The parent experiment numbered 60 rats and allocated them by random numbers to sham operation (10) or model induction (50). All sham rats survived. During model induction, 6 rats died during surgery and 3 afterward; 41 survived, including 7 with implant loss and 34 with retained implants. After imaging and blood-pressure screening at week 4, successfully modeled rats were assigned by random numbers to model, restoration, and superior cervical ganglion resection groups of 10. The remaining 4 rats with retained implants were kept in reserve and were not allocated to the three subsequent 10-rat groups. This report includes only sham, model, and restoration rats, initially 10 per group; ganglion-resection and electrophysiological results are not presented.",
+      "recommended_action": "Retain 60 -> 10 sham + 50 model induction -> 34 retained implant -> 10 model + 10 restoration + 10 SCG + 4 reserve. If confirmed, add the same clarification that separate terminal groups originated from a common modeled cohort."
+    },
+    {
+      "file": "Yuan.docx",
+      "paragraph_index_zero_based": 16,
+      "category": "Terminal sampling",
+      "current_text": "Sham/model rats were sampled at week 4 and restoration rats at week 8, without a time-matched second-surgery sham control. Abdominal aortic sampling under isoflurane was followed by inhaled-isoflurane overdose; death was confirmed when spontaneous breathing, palpable cardiac activity and withdrawal to a noxious stimulus were all absent, before brainstem removal. Atlas-guided bilateral tissue blocks (approximately 100 mg/rat) contained RVLM and adjacent medulla. For biochemical assays, tissue was lysed in RIPA/PMSF and protein measured by BCA. SOD (A001-3, WST-1) and MDA (A003-1, thiobarbituric acid; Nanjing Jiancheng) used RT-6000 absorbance readings at 450 and 530 nm, respectively; the MDA manual specified 532 nm. The fluorescence-reader model was not retained. BestBio BB-475015 O12 fluorescence was measured at excitation/emission 488/530 nm and divided by protein concentration, yielding an arbitrary-unit (AU) index. This serum-designated assay lacked tissue-matrix and buffer-compatibility validation; fluorescence is not an absolute ROS concentration or species-specific measure.",
+      "recommended_action": "Retain week-4 versus week-8 sampling and absence of a time-matched second-surgery sham control. Shared model origin does not remove time confounding."
+    },
+    {
+      "file": "Yuan_中文.docx",
+      "paragraph_index_zero_based": 16,
+      "category": "Terminal sampling",
+      "current_text": "伪手术及模型组第4周取材，复位组第8周取材，未设置时间匹配的二次手术假手术对照。异氟烷麻醉下腹主动脉采样后，以过量吸入异氟烷安乐死；确认自主呼吸、可触及心搏及伤害性回缩反射均消失后分离脑干。参照图谱取双侧区域组织块，每只约100 mg，含RVLM及邻近延髓。生化检测采用RIPA/PMSF裂解，BCA测蛋白。SOD（A001-3，WST-1法）和MDA（A003-1，硫代巴比妥酸法，南京建成）采用RT-6000读取450和530 nm吸光度；MDA说明书规定532 nm。荧光读数仪型号未留存。BestBio BB-475015 O12荧光激发/发射波长为488/530 nm，以蛋白浓度归一化，报告任意单位（AU）指数。该血清用途检测未验证组织基质及裂解液兼容性；荧光不代表绝对ROS浓度或特定ROS种类。",
+      "recommended_action": "保留第4/8周及缺少时间匹配二次手术假手术对照，不能因为复位组来源于模型动物而删去。"
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "paragraph_index_zero_based": 33,
+      "category": "Terminal sampling",
+      "current_text": "The implant was removed from restoration rats at week 4. Terminal sampling was at week 4 for sham and model rats and week 8 for restoration rats, without a time-matched second-surgery sham group. Each biochemical endpoint and RT-qPCR included 6 randomly selected independent rats per group, processed separately without cross-animal pooling. Target and reference Cq values were paired within each rat and measured once each. Original animal identifiers could not be matched to assay samples; numerical record order cannot establish pairing across assays or fully reconstruct premeasurement exclusions. The parent design allowed for preliminary estimates of 18% mortality and 17% implant loss to obtain at least 30 modeled rats. No single primary endpoint or formal outcome-based a priori sample-size calculation was specified.",
+      "recommended_action": "Retain independent terminal specimens and within-rat target/reference Cq pairing. Add an explicit distinction if needed: target/reference pairing is within one terminal sample and is not longitudinal pairing between model/restoration groups."
+    },
+    {
+      "file": "Yuan.docx",
+      "paragraph_index_zero_based": 17,
+      "category": "Outdated qPCR source availability",
+      "current_text": "RNA extraction used TRIzol; reverse transcription used PrimeScript RR047A, followed by SYBR RT-qPCR on PikoReal 96. Each target and paired β-actin reference was measured once per rat, without technical replication. Within-rat ΔCq was target minus reference Cq. Relative quantity was calculated as  and divided by the arithmetic mean quantity of the six sham rats [7]. This assumes equal, approximately 100% amplification efficiencies. Efficiencies and β-actin stability were not validated; original amplification/melting curves and no-template/no-reverse-transcription control records were unavailable. Reagent details, primers, protocols and source-flow information are retained in Supplementary Methods.",
+      "recommended_action": "Remove the blanket statement that original amplification/melting curves are unavailable. Newly recovered source files do not establish valid well mapping or complete QC. Keep efficiency/reference-stability limitations until validated.",
+      "proposed_text_for_internal_review": "Efficiencies and β-actin stability were not validated. Original qPCR instrument exports and amplification/melting-curve files are available, but their well assignments and correspondence to the analysis worksheets remain to be reconciled. No-template and no-reverse-transcription control performance has not yet been verified from these records."
+    },
+    {
+      "file": "Yuan_中文.docx",
+      "paragraph_index_zero_based": 17,
+      "category": "Outdated qPCR source availability",
+      "current_text": "TRIzol提取RNA，PrimeScript RR047A逆转录，PikoReal 96进行SYBR RT-qPCR。每只动物的靶基因及配对β-actin内参各检测一次，无技术重复。动物内ΔCq为靶基因减内参Cq。相对数量按计算，再除以6只伪手术动物相对数量的算术均值[7]。该算法假定扩增效率相等且约为100%。未验证效率及β-actin稳定性，原始扩增/熔解曲线、无模板及无逆转录对照记录均不可核查。试剂、引物、流程及来源动物流转详见补充方法。",
+      "recommended_action": "原始表和曲线已找到，不再写其不可得；仍须核对孔位、样本和Cq对应，不能据曲线存在就宣称质控完成。",
+      "proposed_text_for_internal_review": "未验证扩增效率及β-actin稳定性。现有qPCR原始导出表及扩增、熔解曲线可供核查，但原始孔位标签与分析工作表的对应关系仍待核对；无模板及无逆转录对照的设置与表现尚未完成核验。"
+    },
+    {
+      "file": "Yuan.docx",
+      "paragraph_index_zero_based": 30,
+      "category": "Data availability",
+      "current_text": "Inputs, complete statistical outputs/code, detailed methods, Table S1 and descriptive archived H&E/blood-pressure records accompany the manuscript. Original instrument outputs, complete quality-control records and animal-to-sample identifiers were unavailable for independent verification.",
+      "recommended_action": "Replace the blanket unavailability of original instrument outputs. Wording below is a review-stage draft, not a ready-to-submit declaration; the recovered exports must actually be packaged before saying they accompany the manuscript.",
+      "proposed_text_for_internal_review": "Processed biochemical values, the Cq worksheets used for the current analyses, statistical outputs and reproducible code, detailed methods, Supplementary Table S1, and descriptive archived H&E and blood-pressure records are provided in the supplementary material. Original qPCR instrument exports and amplification/melting-curve files are available for review; their well assignments and correspondence to the analysis worksheets remain to be reconciled. Complete quality-control documentation and original animal-to-sample identifiers have not yet been independently verified."
+    },
+    {
+      "file": "Yuan_中文.docx",
+      "paragraph_index_zero_based": 30,
+      "category": "Data availability",
+      "current_text": "随稿提供输入、完整统计输出/代码、详细方法、表S1及描述性存档HE/血压记录。原始仪器输出、完整质控记录及动物与样本身份无法取得独立核验。",
+      "recommended_action": "把所有原始仪器输出均不可得改成区分qPCR已找到与其他记录仍缺；以下仅用于当前内部核对稿。",
+      "proposed_text_for_internal_review": "随稿提供当前重分析所用生化处理值及Cq工作表、统计输出与复现代码、详细方法、补充表S1及描述性存档HE/血压记录。qPCR原始导出表及扩增、熔解曲线现可供核查；原始孔位标签与分析工作表的对应关系仍待核对。完整质控记录及原始动物与样本身份尚未获得独立核验。"
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "paragraph_index_zero_based": 46,
+      "category": "Outdated qPCR source availability",
+      "current_text": "Reverse transcription quantitative PCR (RT-qPCR) analyses included 6 independent rats per group (n = 6). Each target and reference quantification cycle (Cq) was measured once per rat. Target and reference Cq values in the same worksheet column corresponded to the same animal and were paired within that animal. Samples were not pooled. Total RNA was extracted from medullary tissue blocks containing the RVLM using TRIzol reagent (Life Technologies; Thermo Fisher Scientific, Inc.; cat. no. 15596018). Genomic DNA was removed from 1 µg of RNA in a 10 µl reaction at 42°C for 2 min, followed by 1 min on ice. Reverse transcription was performed using PrimeScript RT reagent Kit with gDNA Eraser (Takara Bio, Inc.; cat. no. RR047A) in a 20 µl reaction at 37°C for 15 min followed by 85°C for 5 s. RT-qPCR used NovoStart SYBR qPCR SuperMix Plus (Novoprotein; cat. no. E096-01B) and a PikoReal 96 real-time PCR system (Thermo Fisher Scientific, Inc.). Each 10 µl reaction contained 5 µl of 2× SYBR mix, 1 µl each of forward and reverse primers (10 µmol/l), 1 µl of cDNA, and 2 µl of RNase-free water. Primer sequences were as follows: Nox1 forward, 5'-GCTCCAGACCTCCATTTG-3'; Nox1 reverse, 5'-CAGCCCCAACCAAGAAAC-3'; Nox4 forward, 5'-GGGTTAAACACCTCTGTC-3'; Nox4 reverse, 5'-GTAGTATTCTGGCCCTTG-3'; β-actin forward, 5'-CCCATCTATGAGGGTTACGC-3'; and β-actin reverse, 5'-TTTAATGTCACGCACGATTTC-3'. Expected amplicon lengths for Nox1, Nox4, and β-actin were 84, 95, and 150 bp, respectively. Cycling conditions were 95°C for 1 min followed by 40 cycles of 95°C for 20 s and 60°C for 1 min. Conversion to relative quantities assumed equal amplification efficiencies of approximately 100% for each target and β-actin [7]. Within-animal ΔCq was defined as target Cq minus the paired β-actin Cq. Relative quantity was calculated as . For each gene, this quantity was divided by the arithmetic mean of the relative quantities from the 6 sham-operated rats, giving the sham-operated group an arithmetic mean of 1. Amplification efficiencies and reference-gene stability were not validated. The assay reports mentioned amplification and melting-curve results, but the original curves were unavailable for inspection. Records of no-template controls (NTC) and no-reverse-transcription controls (no-RT) were also unavailable.",
+      "recommended_action": "Replace the final sentences saying original curves are unavailable. Do not alter numerical Cq values, classifications of Empty wells, or dates before reconciliation.",
+      "proposed_text_for_internal_review": "Amplification efficiencies and reference-gene stability were not validated. Original instrument exports and amplification/melting-curve files are available for review. Their well assignments and correspondence to the analysis worksheets remain to be reconciled; control configuration and no-template/no-reverse-transcription control performance have not yet been verified from the recovered records."
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "paragraph_index_zero_based": 5,
+      "category": "Paired source description",
+      "current_text": "Supplementary Data 2. Animal-paired RT-qPCR Cq measurements and normalized relative expression values used in Fig. 2, including Nox1, Nox4, reference Cq values, ΔCq, source worksheet column labels, and relative expression normalized to the sham group. Column labels identify source records and are not original animal identifiers.",
+      "recommended_action": "Review source well assignments before treating all currently entered target/reference columns as verified animal-paired measurements. The author-confirmed intended same-column pairing may remain documented, but source-record reconciliation is pending. Do not silently change animal n or pair terminal groups."
+    },
+    {
+      "file": "Yuan.docx",
+      "paragraph_index_zero_based": 10,
+      "category": "Broad QC limitation",
+      "current_text": "We examined regional medullary redox indices and Nox1/Nox4 transcripts in male Wistar rats with atlantoaxial joint disorder. Sham-operated and model rats were sampled at week 4; restoration rats underwent implant removal at week 4 and sampling at week 8. Each endpoint included six independent rats per group. In tissue containing the rostral ventrolateral medulla (RVLM) and adjacent medulla, week-4 model rats had lower SOD activity, higher MDA and probe-associated fluorescence, and estimated Nox1/Nox4 expression of 1.46/2.90-fold relative to sham rats. Restoration values were generally closer to sham values at the later endpoint. Unmatched sampling times, absent second-surgery controls, unvalidated tissue fluorescence-assay applicability, incomplete qPCR quality-control records and omission of postoperative analgesia limit interpretation. These exploratory observations do not establish RVLM-specific changes, NOX-dependent sympathetic mediation or an implant-removal effect.",
+      "recommended_action": "Incomplete qPCR quality control is not automatically obsolete merely because curves were recovered. Retain provisionally; narrow to the specific remaining limitations after well mapping, controls and dates are reconciled. Do not state all QC is complete."
+    },
+    {
+      "file": "Yuan.docx",
+      "paragraph_index_zero_based": 22,
+      "category": "Broad QC limitation",
+      "current_text": "Interpretation remains constrained by regional rather than RVLM-specific sampling, incomplete qPCR quality control and untraceable cross-assay identities. Later restoration observations confound implant removal with age, elapsed time, recovery and repeat anesthesia/surgery. Omission of postoperative analgesia raises animal-welfare concerns and possible pain/stress confounding. Small exploratory samples and male-only inclusion limit precision and generalizability. The same-day model–sham comparison supports a regional phenotype; validated assays, anatomical localization and time-matched controls are required to investigate NOX-dependent sympathetic mediation or an implant-removal effect.",
+      "recommended_action": "Incomplete qPCR quality control is not automatically obsolete merely because curves were recovered. Retain provisionally; narrow to the specific remaining limitations after well mapping, controls and dates are reconciled. Do not state all QC is complete."
+    },
+    {
+      "file": "Yuan_中文.docx",
+      "paragraph_index_zero_based": 10,
+      "category": "Broad QC limitation",
+      "current_text": "本研究检测寰枢关节紊乱雄性Wistar大鼠区域延髓组织的氧化还原指标及Nox1/Nox4转录本。伪手术及模型组于第4周取材；复位组第4周取出异物、第8周取材。各终点每组6只独立动物。在包含头端延髓腹外侧区（RVLM）及邻近延髓的组织中，第4周模型组较伪手术组SOD活性低，MDA及探针相关荧光高，Nox1/Nox4表达估计值分别为伪手术组的1.46/2.90倍。较晚终点的复位组数值总体更接近伪手术组。取材时间不匹配、缺少二次手术对照、组织荧光检测适用性未经验证、qPCR质控记录不完整及未使用术后镇痛限制了结果解释。上述探索性观察不能确立RVLM特异性变化、NOX依赖的交感神经介导作用或异物取出效应。",
+      "recommended_action": "Incomplete qPCR quality control is not automatically obsolete merely because curves were recovered. Retain provisionally; narrow to the specific remaining limitations after well mapping, controls and dates are reconciled. Do not state all QC is complete."
+    },
+    {
+      "file": "Yuan_中文.docx",
+      "paragraph_index_zero_based": 22,
+      "category": "Broad QC limitation",
+      "current_text": "区域取材不能特异归属于RVLM，qPCR质控不完整及跨检测身份无法追溯进一步限制了解释。较晚复位观察将异物取出与年龄、时间推移、恢复过程及再次麻醉/手术相混杂。未使用术后镇痛既涉及动物福利，也可能引入疼痛/应激混杂。小样本探索性设计及仅纳入雄性动物限制了精度和推广性。同日模型–伪手术比较支持区域组织表型；要进一步检验NOX依赖的交感神经介导或异物取出效应，仍需经验证的检测、明确的解剖定位及时间匹配对照。",
+      "recommended_action": "Incomplete qPCR quality control is not automatically obsolete merely because curves were recovered. Retain provisionally; narrow to the specific remaining limitations after well mapping, controls and dates are reconciled. Do not state all QC is complete."
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "paragraph_index_zero_based": 49,
+      "category": "Statistical distinction",
+      "current_text": "RT-qPCR inference used within-animal ΔCq values and independent-group Welch t tests. All 18 comparisons across the original six-target panel (AT1-R, Nox1, Nox4, RhoA, ROCK1, and ROCK2) formed one Holm correction family; correction was not restricted to the displayed genes. Supplementary Data 2, File 4, and Appendix 2 provide paired inputs, complete t statistics, degrees of freedom and exact P values, and reproducible code. Animal overlap across assays was not recoverable, so no cross-assay correlations were tested. Archived blood-pressure and H&E materials were displayed without new inferential tests. Model–sham comparisons use week-4 samples; comparisons involving restoration use week-8 samples.",
+      "recommended_action": "Retain independent-group Welch t tests for terminal model/restoration tissue. Within-animal ΔCq pairs target and reference within the same specimen. Cross-group longitudinal pairing is unsupported."
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "paragraph_index_zero_based": 57,
+      "category": "Sampling-time limitation",
+      "current_text": "Estimated Nox1 and Nox4 expression in restoration rats was 1.180 ± 0.090 and 1.645 ± 0.227, respectively (Fig. 2; n = 6). Both were lower than in model rats, with Holm-adjusted P values of 0.0139 and 0.0037. Compared with sham rats, estimated Nox4 expression was higher (P = 0.0099), whereas the Nox1 difference did not meet the adjusted significance threshold (P = 0.0618). Nonsignificant SOD and Nox1 differences do not establish equivalence or normalization. Comparisons involving restoration rats span different terminal sampling times and cannot isolate an implant-removal effect.",
+      "recommended_action": "Retain different terminal sampling times and inability to isolate implant-removal effects. Shared modeled origin does not provide a week-8 untreated comparison."
+    }
+  ],
+  "unchanged_limitations": [
+    "ROS fluorescence-reader model unavailable",
+    "No tissue matrix/buffer assay validation",
+    "Original animal-to-sample identifiers and cross-assay overlap unrecovered",
+    "No full WB membrane images or animal-level densitometry",
+    "HE specimen counts/image-to-animal correspondence unconfirmed",
+    "Archived BP terminal cohorts unreconstructed",
+    "No retained specific postoperative-analgesia omission rationale",
+    "No a priori power calculation or single primary endpoint"
+  ]
+}

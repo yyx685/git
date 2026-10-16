@@ -1,0 +1,249 @@
+{
+  "status": "REVIEW_COMPLETE_WITH_QPCR_SPECIFICITY_FLAGS",
+  "source_directory": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR",
+  "reviewed_png_count": 14,
+  "review_method": "All 14 complete PNGs opened with view_image detail=original at native 1044-pixel width; no cropping, image editing, curve deletion or source modification. Cycle and temperature ranges are approximate visual readings, not exported numerical measurements.",
+  "terminology": "文件夹“溶解曲线”实际表示RT-qPCR熔解曲线（melt/dissociation curves），不是溶出实验。",
+  "global_findings": [
+    "新资料确实提供了7个靶标/内参各自的扩增图及熔解图，原稿“曲线图完全不可获得”的表述需要更新。",
+    "Nox1存在宽/分裂主峰及次峰，Nox4虽有强主峰但部分曲线具有明显低温峰/肩峰及主峰弱/缺失的可见曲线；这两项不能描述为所有样本均为清晰单峰。",
+    "β-actin主要熔解峰较集中，但这一点不验证内参表达稳定性。",
+    "每图颜色叠加、没有可读的well编号、样本名、组别、动物ID或NTC/no-RT图例；图中曲线不能唯一对应到本稿六只/组或具体Cq记录。"
+  ],
+  "supported_statements": [
+    "可写“已保留并审阅靶基因及β-actin的扩增与熔解曲线导出图”。",
+    "可写“Nox1和Nox4的部分熔解曲线可见肩峰或次峰，产物特异性未得到充分验证，相关转录本结果应谨慎解释”。",
+    "可分别描述β-actin较集中的主峰；不得外推全部靶标均无非特异性扩增。"
+  ],
+  "not_supported_from_images": [
+    "没有标签的平坦曲线或异常曲线不能自动视作NTC/no-RT，控制是否设置、身份及结果均不能由这些PNG确认。",
+    "不能从单次样本扩增图证明90–110%或100%扩增效率、靶标/内参效率相等、线性动态范围或检出/定量下限。",
+    "不能凭β-actin单一熔解峰验证其跨组表达稳定性。",
+    "不能凭多条曲线证明技术重复、动物独立性、组间配对或每组有效n。",
+    "不能从熔解图确定扩增产物核苷酸序列、实际长度、峰所属具体产物或引物二聚体。",
+    "不能从这些PNG精确重建well级Cq、原始荧光数值、阈值算法设置或预设排除标准。",
+    "不能把可疑曲线擅自剔除或调整图以获得单峰。"
+  ],
+  "recommended_follow_up": [
+    "请求检测方提供可对应well编号/样本组别的plate map、原始run文件及Cq/熔解峰导出表，先核对现有可疑曲线是否为样本或对照。",
+    "如保留材料允许，验证引物产物身份（例如凝胶/测序）并用完整NTC/no-RT和效率验证重测；是否需要新实验由作者根据材料与目标决定。",
+    "在尚未完成well级复核前保留探索性解释并报告这些特异性疑虑，不将“曲线已找到”当作质控全部补齐。"
+  ],
+  "items": [
+    {
+      "file": "扩增曲线/AT1-R.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/扩增曲线/AT1-R.png",
+      "sha256": "0618d228b98602492b94c22330c5362a875ddfa6a97a0782b9803f02823b75de",
+      "dimensions": [
+        1044,
+        653
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "曲线主要在约32–36循环越过阈值，40循环末多仍在上升，末端高度分散。"
+      ],
+      "flag": "晚扩增；没有可辨认well/组别/对照标识。"
+    },
+    {
+      "file": "扩增曲线/Nox1.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/扩增曲线/Nox1.png",
+      "sha256": "3bfbbf26ee42afe669053a1ec6bad9b3571d0328f3852a6f9688527d49e1f7f2",
+      "dimensions": [
+        1044,
+        653
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "多条曲线在约29–31循环越过绿色阈值线，随后明显上升。",
+        "40循环末不同曲线荧光高度有差异，部分曲线尚未形成完整平台。"
+      ],
+      "flag": "可见扩增；曲线图不能单独证明扩增特异性或效率。"
+    },
+    {
+      "file": "扩增曲线/Nox4.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/扩增曲线/Nox4.png",
+      "sha256": "5f8c3fc75553e4d7787058fa075a38fc5c8b02fec24080b8cbe4a94a56ceab5e",
+      "dimensions": [
+        1044,
+        653
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "扩增比Nox1及β-actin更晚，约33–35循环附近越过阈值。",
+        "至40循环多数曲线仍明显上升，未充分进入平台；各曲线末端高度分散。"
+      ],
+      "flag": "晚期扩增需结合具体well、Cq及对照判断；不能仅凭PNG定义无效样本。"
+    },
+    {
+      "file": "扩增曲线/ROCK1.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/扩增曲线/ROCK1.png",
+      "sha256": "b640e0af19e44cd58e3c828500132410e7254487accc4c149ddb4b3feecd3a60",
+      "dimensions": [
+        1044,
+        653
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "曲线在约23–25循环附近越过阈值，随后上升；拐点和末端平台高度存在分散。"
+      ],
+      "flag": "可见扩增，但无well图例或控制类型标识。"
+    },
+    {
+      "file": "扩增曲线/ROCK2.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/扩增曲线/ROCK2.png",
+      "sha256": "282e0c0f36c00c14df96787c819acf48e488367456d474986d493f9d8616fc87",
+      "dimensions": [
+        1044,
+        653
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "曲线约28–30循环越过阈值，随后上升；末端平台高度分散，少数曲线后段有折点。"
+      ],
+      "flag": "可见扩增；不能将不同颜色直接对应动物或组别。"
+    },
+    {
+      "file": "扩增曲线/RhoA.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/扩增曲线/RhoA.png",
+      "sha256": "720e3987a3bafcc828924346fd91dc32fdb65419916733cd1dac8ab008da7894",
+      "dimensions": [
+        1044,
+        653
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "曲线约22–23循环附近越过阈值，随后上升并大致在30循环后进入平台。",
+        "至少一条绿色曲线在约28–35循环的平台上升过渡期有较明显折点/跳变。"
+      ],
+      "flag": "异常曲线身份和对Cq的影响无法由该PNG确定。"
+    },
+    {
+      "file": "扩增曲线/β-actin.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/扩增曲线/β-actin.png",
+      "sha256": "3ee53cc8616d781af17996797a84b70c0c6e6147a0d418d022d9e9e4dca9aa1f",
+      "dimensions": [
+        1044,
+        653
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "多条曲线约16–17循环越过阈值，随后呈明显S形并进入平台。",
+        "平台区有少数曲线折点、跳变或下降（约26–28及35–36循环附近），但图中没有well标签可供定位。"
+      ],
+      "flag": "平台异常形态本身不能判断Cq受影响，也不能证明内参跨组稳定。"
+    },
+    {
+      "file": "溶解曲线/AT1-R.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/溶解曲线/AT1-R.png",
+      "sha256": "8c82f8d98ea9b46977732a6f68005e1f064ed840f0cac1cbb4ca90e7c63733b4",
+      "dimensions": [
+        1044,
+        639
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "多数曲线主要导数峰在约78.5–79°C，部分在约73–76°C有次峰/肩峰。",
+        "一条黄绿色低荧光曲线缺乏与多数曲线相当的高温强主峰，身份不明。"
+      ],
+      "flag": "FLAG_SECONDARY_PEAKS",
+      "interpretation": "可见峰型异质性，不能据图把异常曲线认定为某个样本或NTC。"
+    },
+    {
+      "file": "溶解曲线/Nox1.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/溶解曲线/Nox1.png",
+      "sha256": "813cadddfa85fd2aa26b929b18c695dda53a11b283753e5fd75e46fab2d36951",
+      "dimensions": [
+        1044,
+        639
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "该图同时叠加原始荧光下降曲线（左RFU轴）和导数熔解峰（右Derivative轴），目录所称“溶解曲线”实际为熔解曲线。",
+        "导数曲线在约72–76°C呈较宽、分裂或带肩的主要峰群，不能描述为所有曲线均清晰单峰。",
+        "多条曲线在约79–81°C另有可见次峰，约84°C还可见较小峰群。"
+      ],
+      "flag": "FLAG_SPECIFICITY_REVIEW",
+      "interpretation": "多峰/肩峰形态使产物特异性存在疑虑；不能仅据PNG鉴定为某个非特异性产物或引物二聚体，也不能排除单一产物的多熔解结构域/处理噪声等解释。需按well追溯并验证产物。"
+    },
+    {
+      "file": "溶解曲线/Nox4.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/溶解曲线/Nox4.png",
+      "sha256": "946504edcdbed9f2fdfdfec9bb324bc881e6d3d45f6481e6c7760e4200d20d0b",
+      "dimensions": [
+        1044,
+        639
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "多数导数曲线在约79°C有强主峰。",
+        "约71–74°C可见多条明显的低温峰或肩峰。",
+        "至少一条黄绿色可见曲线的荧光主要在较低温度下降，约79°C预期主峰很弱或缺失；PNG无法确认该曲线代表实验样本还是对照。"
+      ],
+      "flag": "FLAG_SPECIFICITY_REVIEW",
+      "interpretation": "不能写“全部单峰且无非特异性扩增”。需要well级身份、原始熔解/扩增数据和产物验证；不能擅自排除可疑曲线。"
+    },
+    {
+      "file": "溶解曲线/ROCK1.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/溶解曲线/ROCK1.png",
+      "sha256": "4bf3ad32eab43480d0f1c757f3da1d388392b52503e0fea503bde52dd29f4410",
+      "dimensions": [
+        1044,
+        639
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "多数导数曲线有约80°C的集中主峰，低温区小幅背景起伏。"
+      ],
+      "flag": "DOMINANT_PEAK_OBSERVED",
+      "interpretation": "支持主要熔解峰的可见性，不能代替NTC/no-RT/效率或产物身份验证。"
+    },
+    {
+      "file": "溶解曲线/ROCK2.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/溶解曲线/ROCK2.png",
+      "sha256": "ddc4806fc8004300c6744ff0e7c7ebc8eb4f7513e153b5444882000c9eb92b33",
+      "dimensions": [
+        1044,
+        639
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "多数导数曲线在约82.5–83°C有主峰。",
+        "约78–79°C可见数条低温肩峰/次峰，峰高明显低于主峰。"
+      ],
+      "flag": "FLAG_SECONDARY_PEAKS",
+      "interpretation": "不能把所有ROCK2曲线无条件描述为完全单峰。"
+    },
+    {
+      "file": "溶解曲线/RhoA.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/溶解曲线/RhoA.png",
+      "sha256": "1fe5b7b46ee5777f58adf32552fe95f196fab94667aca531e9ba707b9b79b1e0",
+      "dimensions": [
+        1044,
+        639
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "多数曲线在约79–80°C呈一个占主导的峰群，峰宽和峰高有分散。",
+        "个别曲线在高温尾部约88°C附近有小幅次级起伏。"
+      ],
+      "flag": "DOMINANT_PEAK_WITH_MINOR_IRREGULARITY",
+      "interpretation": "主要峰可见；小幅起伏不能仅凭图归因为非特异性扩增。"
+    },
+    {
+      "file": "溶解曲线/β-actin.png",
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR/溶解曲线/β-actin.png",
+      "sha256": "5b1cf4c110b569a6f9bbf811a3f1c284138bbc826ab149e711a867219cdf18e2",
+      "dimensions": [
+        1044,
+        639
+      ],
+      "reviewed_original_image": true,
+      "observations": [
+        "主要导数峰集中于约84°C，各曲线峰位较集中。",
+        "未见与Nox1/Nox4同等明显的独立低温次峰；低温区有小幅背景噪声。"
+      ],
+      "flag": "DOMINANT_PEAK_OBSERVED",
+      "interpretation": "支持在这张图中β-actin有较集中的主要熔解转变；不证明产物序列、阴性对照合格、扩增效率或内参表达稳定性。"
+    }
+  ]
+}

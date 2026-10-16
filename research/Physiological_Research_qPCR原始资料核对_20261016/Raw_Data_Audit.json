@@ -1,0 +1,4533 @@
+{
+  "status": "TRACEABILITY_CONFIRMED_WITH_UNRESOLVED_QC_AND_DATE_DISCREPANCIES",
+  "date": "2026-10-16",
+  "scope": "Read-only audit; no original or formal files modified, no inferential statistics recalculated, no Git actions.",
+  "source_directory": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR",
+  "current_formal_csv": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+  "checks": {
+    "36_current_csv_rows_map_exactly_to_new_instrument_target_and_reference_Cq": true,
+    "36_current_csv_rows_map_exactly_to_new_summary_Cq": true,
+    "all_126_summary_Cq_match_exported_Cq": true,
+    "target_reference_summary_Cq_block_unchanged_vs_old_xls": true,
+    "instrument_amplification_and_melting_numeric_exports_now_available": true,
+    "melt_protocol_recorded_60_to_95C_0_2C_step": true,
+    "no_active_NTC_noRT_or_standards_labeled": true,
+    "replicate_assignment_fields_blank": true,
+    "no_omission_flags_in_Cq_results": true,
+    "raw_sources_unmodified_by_review": true,
+    "new_Nox1_Nox4_actin_primers_match_current_SI": true
+  },
+  "inventory_sha256": {
+    "结果分析.xls": "33962c9ff517a097a58f0a14a5375c27895f8284bc866a5e14fa5a54c4cbc12b",
+    "实时荧光定量PCR报告.doc": "5d5bab729f60bf5e79942ac524d36047dfaeab7415ba5e7aa742958c99ecb4c0",
+    "溶解曲线/Nox4.png": "946504edcdbed9f2fdfdfec9bb324bc881e6d3d45f6481e6c7760e4200d20d0b",
+    "溶解曲线/Nox1.png": "813cadddfa85fd2aa26b929b18c695dda53a11b283753e5fd75e46fab2d36951",
+    "溶解曲线/ROCK2.png": "ddc4806fc8004300c6744ff0e7c7ebc8eb4f7513e153b5444882000c9eb92b33",
+    "溶解曲线/ROCK1.png": "4bf3ad32eab43480d0f1c757f3da1d388392b52503e0fea503bde52dd29f4410",
+    "溶解曲线/AT1-R.png": "8c82f8d98ea9b46977732a6f68005e1f064ed840f0cac1cbb4ca90e7c63733b4",
+    "溶解曲线/RhoA.png": "1fe5b7b46ee5777f58adf32552fe95f196fab94667aca531e9ba707b9b79b1e0",
+    "溶解曲线/β-actin.png": "5b1cf4c110b569a6f9bbf811a3f1c284138bbc826ab149e711a867219cdf18e2",
+    "扩增曲线/Nox4.png": "5f8c3fc75553e4d7787058fa075a38fc5c8b02fec24080b8cbe4a94a56ceab5e",
+    "扩增曲线/Nox1.png": "3bfbbf26ee42afe669053a1ec6bad9b3571d0328f3852a6f9688527d49e1f7f2",
+    "扩增曲线/ROCK2.png": "282e0c0f36c00c14df96787c819acf48e488367456d474986d493f9d8616fc87",
+    "扩增曲线/ROCK1.png": "b640e0af19e44cd58e3c828500132410e7254487accc4c149ddb4b3feecd3a60",
+    "扩增曲线/AT1-R.png": "0618d228b98602492b94c22330c5362a875ddfa6a97a0782b9803f02823b75de",
+    "扩增曲线/RhoA.png": "720e3987a3bafcc828924346fd91dc32fdb65419916733cd1dac8ab008da7894",
+    "扩增曲线/β-actin.png": "3ee53cc8616d781af17996797a84b70c0c6e6147a0d418d022d9e9e4dca9aa1f",
+    "原始数据/Nox1、Nox4、β-actin.xlsx": "913fbf91e139724e96c5ce0fe12333deb25421a63dac519ad2ab4708fc9cda29",
+    "原始数据/RhoA、ROCK1、ROCK2.xlsx": "20fa10bdd9ab9e68fb2c4cd2d31459aa0fd6108d0f0a85965a54710b254cbdae",
+    "原始数据/AT1-R.xlsx": "6dc9d35f315679b36eaedd7a51b7c2d028540d5cbebbbac3b04177c445e1ab7d"
+  },
+  "instrument_exports": {
+    "Nox1、Nox4、β-actin.xlsx": {
+      "sha256": "913fbf91e139724e96c5ce0fe12333deb25421a63dac519ad2ab4708fc9cda29",
+      "general_info": {
+        "General Info": null,
+        "Ord File Name": "C:\\Users\\Dell\\Desktop\\吕友奎 2020.11.10\\Nox1、Nox4、β-actin.ord",
+        "Software Version": "2.2.248.601",
+        "Instrument Name": "PR0961101033",
+        "Instrument Serial": "PR0961101033",
+        "Instrument Version": "PCR 2.2.20, RT 1.1.10.1",
+        "Used Data Step": "1",
+        "Sample Group": "Default",
+        "Protocol Log": "StartTime:\t2020/11/11 10:58:28"
+      },
+      "sheets": {
+        "General Info": {
+          "rows": 17,
+          "columns": 2
+        },
+        "Plate": {
+          "rows": 481,
+          "columns": 12
+        },
+        "Protocol": {
+          "rows": 14,
+          "columns": 5
+        },
+        "Acquired Data 1": {
+          "rows": 52,
+          "columns": 99
+        },
+        "Cq Results": {
+          "rows": 125,
+          "columns": 10
+        },
+        "Melt Curve Data": {
+          "rows": 187,
+          "columns": 98
+        },
+        "Melting curve Results": {
+          "rows": 125,
+          "columns": 23
+        }
+      },
+      "protocol_rows": [
+        [
+          "Reaction volume",
+          "10",
+          null,
+          "Channel in use:",
+          null
+        ],
+        [
+          "Consumable",
+          "1",
+          null,
+          "Ch 1",
+          "No"
+        ],
+        [
+          "Ramp rate",
+          "7",
+          null,
+          "Ch 2",
+          "No"
+        ],
+        [
+          "Heated lid ON",
+          "True",
+          null,
+          "Ch 3",
+          "No"
+        ],
+        [
+          "Heated lid temperature",
+          "105",
+          null,
+          "Ch 4",
+          "No"
+        ],
+        [
+          null,
+          null,
+          null,
+          "Ch 5",
+          "Yes (SYBR)"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "No",
+          "Cycle",
+          "Type",
+          "Information"
+        ],
+        [
+          null,
+          "1",
+          null,
+          "Temperature",
+          "Temp.: 95°C;  Time:01:00"
+        ],
+        [
+          null,
+          "2",
+          null,
+          "Cycle",
+          "Number of cycles to loop:40;  Number of steps inside loop:2"
+        ],
+        [
+          null,
+          "3",
+          "*",
+          ".  Temperature",
+          "Temp.: 95°C;  Time:00:20"
+        ],
+        [
+          "DA",
+          "4",
+          "*",
+          ".  Temperature",
+          "Temp.: 60°C;  Time:01:00;  Data acquisition:True"
+        ],
+        [
+          null,
+          "5",
+          null,
+          "Melting Curve",
+          "Start temperature:60°C;  End temperature:95°C;  Hold time:00:01;  Temperature increment after hold:0.2°C"
+        ]
+      ],
+      "cq_settings_rows": [
+        [
+          "Data step:",
+          "4",
+          null,
+          null,
+          "Show channel:",
+          "Thresholds:",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Sample Group:",
+          "Default",
+          null,
+          "Ch 1",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Method:",
+          "Threshold",
+          null,
+          "Ch 2",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing:",
+          "ON",
+          null,
+          "Ch 3",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing window:",
+          "5",
+          null,
+          "Ch 4",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline:",
+          "Trend",
+          null,
+          "Ch 5",
+          "Yes",
+          "175.99",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline range start:",
+          "3",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline range end:",
+          "7",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "melting_settings_rows": [
+        [
+          "Sample Group:",
+          "Default",
+          null,
+          "Show channel:",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing:",
+          "ON",
+          null,
+          "Ch 1",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing window:",
+          "9",
+          null,
+          "Ch 2",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Low limit",
+          "63.5",
+          null,
+          "Ch 3",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "High limit",
+          "91.5",
+          null,
+          "Ch 4",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Max # of peaks:",
+          "1",
+          null,
+          "Ch 5",
+          "Yes",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Peak threshold:",
+          "10",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Slope Correction:",
+          "Yes",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Derivative:",
+          "Negative",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "active_cq_count": 54,
+      "plate_active_sybr_unknown_count": 52,
+      "active_targets": {
+        "β-actin": 18,
+        "Nox1": 18,
+        "Nox4": 18
+      },
+      "sample_types": [
+        "Unknown"
+      ],
+      "sample_names": [
+        "伪手术组",
+        "复位组",
+        "模型组"
+      ],
+      "replicate_field_values": [
+        ""
+      ],
+      "omitted_field_values": [
+        ""
+      ]
+    },
+    "RhoA、ROCK1、ROCK2.xlsx": {
+      "sha256": "20fa10bdd9ab9e68fb2c4cd2d31459aa0fd6108d0f0a85965a54710b254cbdae",
+      "general_info": {
+        "General Info": null,
+        "Ord File Name": "C:\\Users\\Dell\\Desktop\\吕友奎 2020.11.10\\RhoA、ROCK1、ROCK2.ord",
+        "Software Version": "2.2.248.601",
+        "Instrument Name": "PR0961101033",
+        "Instrument Serial": "PR0961101033",
+        "Instrument Version": "PCR 2.2.20, RT 1.1.10.1",
+        "Used Data Step": "1",
+        "Sample Group": "Default",
+        "Protocol Log": "StartTime:\t2020/11/10 17:34:28"
+      },
+      "sheets": {
+        "General Info": {
+          "rows": 17,
+          "columns": 2
+        },
+        "Plate": {
+          "rows": 481,
+          "columns": 12
+        },
+        "Protocol": {
+          "rows": 14,
+          "columns": 5
+        },
+        "Acquired Data 1": {
+          "rows": 52,
+          "columns": 99
+        },
+        "Cq Results": {
+          "rows": 125,
+          "columns": 10
+        },
+        "Melt Curve Data": {
+          "rows": 187,
+          "columns": 98
+        },
+        "Melting curve Results": {
+          "rows": 125,
+          "columns": 23
+        }
+      },
+      "protocol_rows": [
+        [
+          "Reaction volume",
+          "10",
+          null,
+          "Channel in use:",
+          null
+        ],
+        [
+          "Consumable",
+          "1",
+          null,
+          "Ch 1",
+          "No"
+        ],
+        [
+          "Ramp rate",
+          "7",
+          null,
+          "Ch 2",
+          "No"
+        ],
+        [
+          "Heated lid ON",
+          "True",
+          null,
+          "Ch 3",
+          "No"
+        ],
+        [
+          "Heated lid temperature",
+          "105",
+          null,
+          "Ch 4",
+          "No"
+        ],
+        [
+          null,
+          null,
+          null,
+          "Ch 5",
+          "Yes (SYBR)"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "No",
+          "Cycle",
+          "Type",
+          "Information"
+        ],
+        [
+          null,
+          "1",
+          null,
+          "Temperature",
+          "Temp.: 95°C;  Time:01:00"
+        ],
+        [
+          null,
+          "2",
+          null,
+          "Cycle",
+          "Number of cycles to loop:40;  Number of steps inside loop:2"
+        ],
+        [
+          null,
+          "3",
+          "*",
+          ".  Temperature",
+          "Temp.: 95°C;  Time:00:20"
+        ],
+        [
+          "DA",
+          "4",
+          "*",
+          ".  Temperature",
+          "Temp.: 60°C;  Time:01:00;  Data acquisition:True"
+        ],
+        [
+          null,
+          "5",
+          null,
+          "Melting Curve",
+          "Start temperature:60°C;  End temperature:95°C;  Hold time:00:01;  Temperature increment after hold:0.2°C"
+        ]
+      ],
+      "cq_settings_rows": [
+        [
+          "Data step:",
+          "4",
+          null,
+          null,
+          "Show channel:",
+          "Thresholds:",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Sample Group:",
+          "Default",
+          null,
+          "Ch 1",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Method:",
+          "Threshold",
+          null,
+          "Ch 2",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing:",
+          "ON",
+          null,
+          "Ch 3",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing window:",
+          "5",
+          null,
+          "Ch 4",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline:",
+          "Trend",
+          null,
+          "Ch 5",
+          "Yes",
+          "198.98",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline range start:",
+          "3",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline range end:",
+          "7",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "melting_settings_rows": [
+        [
+          "Sample Group:",
+          "Default",
+          null,
+          "Show channel:",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing:",
+          "ON",
+          null,
+          "Ch 1",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing window:",
+          "9",
+          null,
+          "Ch 2",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Low limit",
+          "63.5",
+          null,
+          "Ch 3",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "High limit",
+          "91.5",
+          null,
+          "Ch 4",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Max # of peaks:",
+          "1",
+          null,
+          "Ch 5",
+          "Yes",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Peak threshold:",
+          "10",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Slope Correction:",
+          "Yes",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Derivative:",
+          "Negative",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "active_cq_count": 54,
+      "plate_active_sybr_unknown_count": 54,
+      "active_targets": {
+        "RhoA": 18,
+        "ROCK1": 18,
+        "ROCK2": 18
+      },
+      "sample_types": [
+        "Unknown"
+      ],
+      "sample_names": [
+        "伪手术组",
+        "复位组",
+        "模型组"
+      ],
+      "replicate_field_values": [
+        ""
+      ],
+      "omitted_field_values": [
+        ""
+      ]
+    },
+    "AT1-R.xlsx": {
+      "sha256": "6dc9d35f315679b36eaedd7a51b7c2d028540d5cbebbbac3b04177c445e1ab7d",
+      "general_info": {
+        "General Info": null,
+        "Ord File Name": "C:\\Users\\Dell\\Desktop\\吕友奎 2020.11.10\\AT1-R.ord",
+        "Software Version": "2.2.248.601",
+        "Instrument Name": "PR0961101033",
+        "Instrument Serial": "PR0961101033",
+        "Instrument Version": "PCR 2.2.20, RT 1.1.10.1",
+        "Used Data Step": "1",
+        "Sample Group": "Default",
+        "Protocol Log": "StartTime:\t2020/11/11 7:54:19"
+      },
+      "sheets": {
+        "General Info": {
+          "rows": 17,
+          "columns": 2
+        },
+        "Plate": {
+          "rows": 481,
+          "columns": 12
+        },
+        "Protocol": {
+          "rows": 14,
+          "columns": 5
+        },
+        "Acquired Data 1": {
+          "rows": 52,
+          "columns": 99
+        },
+        "Cq Results": {
+          "rows": 125,
+          "columns": 10
+        },
+        "Melt Curve Data": {
+          "rows": 187,
+          "columns": 98
+        },
+        "Melting curve Results": {
+          "rows": 125,
+          "columns": 23
+        }
+      },
+      "protocol_rows": [
+        [
+          "Reaction volume",
+          "10",
+          null,
+          "Channel in use:",
+          null
+        ],
+        [
+          "Consumable",
+          "1",
+          null,
+          "Ch 1",
+          "No"
+        ],
+        [
+          "Ramp rate",
+          "7",
+          null,
+          "Ch 2",
+          "No"
+        ],
+        [
+          "Heated lid ON",
+          "True",
+          null,
+          "Ch 3",
+          "No"
+        ],
+        [
+          "Heated lid temperature",
+          "105",
+          null,
+          "Ch 4",
+          "No"
+        ],
+        [
+          null,
+          null,
+          null,
+          "Ch 5",
+          "Yes (SYBR)"
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "No",
+          "Cycle",
+          "Type",
+          "Information"
+        ],
+        [
+          null,
+          "1",
+          null,
+          "Temperature",
+          "Temp.: 95°C;  Time:01:00"
+        ],
+        [
+          null,
+          "2",
+          null,
+          "Cycle",
+          "Number of cycles to loop:40;  Number of steps inside loop:2"
+        ],
+        [
+          null,
+          "3",
+          "*",
+          ".  Temperature",
+          "Temp.: 95°C;  Time:00:20"
+        ],
+        [
+          "DA",
+          "4",
+          "*",
+          ".  Temperature",
+          "Temp.: 60°C;  Time:01:00;  Data acquisition:True"
+        ],
+        [
+          null,
+          "5",
+          null,
+          "Melting Curve",
+          "Start temperature:60°C;  End temperature:95°C;  Hold time:00:01;  Temperature increment after hold:0.2°C"
+        ]
+      ],
+      "cq_settings_rows": [
+        [
+          "Data step:",
+          "4",
+          null,
+          null,
+          "Show channel:",
+          "Thresholds:",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Sample Group:",
+          "Default",
+          null,
+          "Ch 1",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Method:",
+          "Threshold",
+          null,
+          "Ch 2",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing:",
+          "ON",
+          null,
+          "Ch 3",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing window:",
+          "5",
+          null,
+          "Ch 4",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline:",
+          "Trend",
+          null,
+          "Ch 5",
+          "Yes",
+          "114.3",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline range start:",
+          "3",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Baseline range end:",
+          "7",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "melting_settings_rows": [
+        [
+          "Sample Group:",
+          "Default",
+          null,
+          "Show channel:",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing:",
+          "ON",
+          null,
+          "Ch 1",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Smoothing window:",
+          "9",
+          null,
+          "Ch 2",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Low limit",
+          "63.5",
+          null,
+          "Ch 3",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "High limit",
+          "91.5",
+          null,
+          "Ch 4",
+          "No",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Max # of peaks:",
+          "1",
+          null,
+          "Ch 5",
+          "Yes",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Peak threshold:",
+          "10",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Slope Correction:",
+          "Yes",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Derivative:",
+          "Negative",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "active_cq_count": 18,
+      "plate_active_sybr_unknown_count": 18,
+      "active_targets": {
+        "AT1-R": 18
+      },
+      "sample_types": [
+        "Unknown"
+      ],
+      "sample_names": [
+        "伪手术组",
+        "复位组",
+        "模型组"
+      ],
+      "replicate_field_values": [
+        ""
+      ],
+      "omitted_field_values": [
+        ""
+      ]
+    }
+  },
+  "current_csv_to_instrument_well_mapping": [
+    {
+      "gene": "Nox1",
+      "group": "Sham-operated",
+      "summary_column": "C",
+      "instrument_well_row": "A",
+      "target_well": "A09-Ch5",
+      "reference_well": "A06-Ch5",
+      "raw_target_Cq": 30.22,
+      "raw_reference_Cq": 16.4,
+      "target_csv_Cq": 30.22,
+      "reference_csv_Cq": 16.4,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 2,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A38",
+        "sample_name_cell": "E38",
+        "target_cell": "F38",
+        "Cq_cell": "G38"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A35",
+        "sample_name_cell": "E35",
+        "target_cell": "F35",
+        "Cq_cell": "G35"
+      },
+      "summary_target_cell": "C7",
+      "summary_reference_cell": "C2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Sham-operated",
+      "summary_column": "D",
+      "instrument_well_row": "B",
+      "target_well": "B09-Ch5",
+      "reference_well": "B06-Ch5",
+      "raw_target_Cq": 30.28,
+      "raw_reference_Cq": 16.4,
+      "target_csv_Cq": 30.28,
+      "reference_csv_Cq": 16.4,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 3,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A54",
+        "sample_name_cell": "E54",
+        "target_cell": "F54",
+        "Cq_cell": "G54"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A51",
+        "sample_name_cell": "E51",
+        "target_cell": "F51",
+        "Cq_cell": "G51"
+      },
+      "summary_target_cell": "D7",
+      "summary_reference_cell": "D2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Sham-operated",
+      "summary_column": "E",
+      "instrument_well_row": "C",
+      "target_well": "C09-Ch5",
+      "reference_well": "C06-Ch5",
+      "raw_target_Cq": 30.39,
+      "raw_reference_Cq": 16.12,
+      "target_csv_Cq": 30.39,
+      "reference_csv_Cq": 16.12,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 4,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A70",
+        "sample_name_cell": "E70",
+        "target_cell": "F70",
+        "Cq_cell": "G70"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A67",
+        "sample_name_cell": "E67",
+        "target_cell": "F67",
+        "Cq_cell": "G67"
+      },
+      "summary_target_cell": "E7",
+      "summary_reference_cell": "E2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Sham-operated",
+      "summary_column": "F",
+      "instrument_well_row": "D",
+      "target_well": "D09-Ch5",
+      "reference_well": "D06-Ch5",
+      "raw_target_Cq": 30.24,
+      "raw_reference_Cq": 16.37,
+      "target_csv_Cq": 30.24,
+      "reference_csv_Cq": 16.37,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 5,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A86",
+        "sample_name_cell": "E86",
+        "target_cell": "F86",
+        "Cq_cell": "G86"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A83",
+        "sample_name_cell": "E83",
+        "target_cell": "F83",
+        "Cq_cell": "G83"
+      },
+      "summary_target_cell": "F7",
+      "summary_reference_cell": "F2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Sham-operated",
+      "summary_column": "G",
+      "instrument_well_row": "E",
+      "target_well": "E09-Ch5",
+      "reference_well": "E06-Ch5",
+      "raw_target_Cq": 30.33,
+      "raw_reference_Cq": 16.39,
+      "target_csv_Cq": 30.33,
+      "reference_csv_Cq": 16.39,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 6,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A102",
+        "sample_name_cell": "E102",
+        "target_cell": "F102",
+        "Cq_cell": "G102"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A99",
+        "sample_name_cell": "E99",
+        "target_cell": "F99",
+        "Cq_cell": "G99"
+      },
+      "summary_target_cell": "G7",
+      "summary_reference_cell": "G2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Sham-operated",
+      "summary_column": "H",
+      "instrument_well_row": "F",
+      "target_well": "F09-Ch5",
+      "reference_well": "F06-Ch5",
+      "raw_target_Cq": 30.63,
+      "raw_reference_Cq": 16.38,
+      "target_csv_Cq": 30.63,
+      "reference_csv_Cq": 16.38,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 7,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A118",
+        "sample_name_cell": "E118",
+        "target_cell": "F118",
+        "Cq_cell": "G118"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A115",
+        "sample_name_cell": "E115",
+        "target_cell": "F115",
+        "Cq_cell": "G115"
+      },
+      "summary_target_cell": "H7",
+      "summary_reference_cell": "H2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Model",
+      "summary_column": "C",
+      "instrument_well_row": "A",
+      "target_well": "A10-Ch5",
+      "reference_well": "A07-Ch5",
+      "raw_target_Cq": 30.09,
+      "raw_reference_Cq": 16.57,
+      "target_csv_Cq": 30.09,
+      "reference_csv_Cq": 16.57,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 8,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A39",
+        "sample_name_cell": "E39",
+        "target_cell": "F39",
+        "Cq_cell": "G39"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A36",
+        "sample_name_cell": "E36",
+        "target_cell": "F36",
+        "Cq_cell": "G36"
+      },
+      "summary_target_cell": "C8",
+      "summary_reference_cell": "C3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Model",
+      "summary_column": "D",
+      "instrument_well_row": "B",
+      "target_well": "B10-Ch5",
+      "reference_well": "B07-Ch5",
+      "raw_target_Cq": 29.82,
+      "raw_reference_Cq": 16.22,
+      "target_csv_Cq": 29.82,
+      "reference_csv_Cq": 16.22,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 9,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A55",
+        "sample_name_cell": "E55",
+        "target_cell": "F55",
+        "Cq_cell": "G55"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A52",
+        "sample_name_cell": "E52",
+        "target_cell": "F52",
+        "Cq_cell": "G52"
+      },
+      "summary_target_cell": "D8",
+      "summary_reference_cell": "D3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Model",
+      "summary_column": "E",
+      "instrument_well_row": "C",
+      "target_well": "C10-Ch5",
+      "reference_well": "C07-Ch5",
+      "raw_target_Cq": 30.01,
+      "raw_reference_Cq": 16.45,
+      "target_csv_Cq": 30.01,
+      "reference_csv_Cq": 16.45,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 10,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A71",
+        "sample_name_cell": "E71",
+        "target_cell": "F71",
+        "Cq_cell": "G71"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A68",
+        "sample_name_cell": "E68",
+        "target_cell": "F68",
+        "Cq_cell": "G68"
+      },
+      "summary_target_cell": "E8",
+      "summary_reference_cell": "E3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Model",
+      "summary_column": "F",
+      "instrument_well_row": "D",
+      "target_well": "D10-Ch5",
+      "reference_well": "D07-Ch5",
+      "raw_target_Cq": 29.89,
+      "raw_reference_Cq": 16.44,
+      "target_csv_Cq": 29.89,
+      "reference_csv_Cq": 16.44,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 11,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A87",
+        "sample_name_cell": "E87",
+        "target_cell": "F87",
+        "Cq_cell": "G87"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A84",
+        "sample_name_cell": "E84",
+        "target_cell": "F84",
+        "Cq_cell": "G84"
+      },
+      "summary_target_cell": "F8",
+      "summary_reference_cell": "F3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Model",
+      "summary_column": "G",
+      "instrument_well_row": "E",
+      "target_well": "E10-Ch5",
+      "reference_well": "E07-Ch5",
+      "raw_target_Cq": 29.88,
+      "raw_reference_Cq": 16.47,
+      "target_csv_Cq": 29.88,
+      "reference_csv_Cq": 16.47,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 12,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A103",
+        "sample_name_cell": "E103",
+        "target_cell": "F103",
+        "Cq_cell": "G103"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A100",
+        "sample_name_cell": "E100",
+        "target_cell": "F100",
+        "Cq_cell": "G100"
+      },
+      "summary_target_cell": "G8",
+      "summary_reference_cell": "G3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Model",
+      "summary_column": "H",
+      "instrument_well_row": "F",
+      "target_well": "F10-Ch5",
+      "reference_well": "F07-Ch5",
+      "raw_target_Cq": 29.76,
+      "raw_reference_Cq": 16.57,
+      "target_csv_Cq": 29.76,
+      "reference_csv_Cq": 16.57,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 13,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A119",
+        "sample_name_cell": "E119",
+        "target_cell": "F119",
+        "Cq_cell": "G119"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A116",
+        "sample_name_cell": "E116",
+        "target_cell": "F116",
+        "Cq_cell": "G116"
+      },
+      "summary_target_cell": "H8",
+      "summary_reference_cell": "H3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Restoration",
+      "summary_column": "C",
+      "instrument_well_row": "A",
+      "target_well": "A11-Ch5",
+      "reference_well": "A08-Ch5",
+      "raw_target_Cq": 30.21,
+      "raw_reference_Cq": 16.54,
+      "target_csv_Cq": 30.21,
+      "reference_csv_Cq": 16.54,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 14,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A40",
+        "sample_name_cell": "E40",
+        "target_cell": "F40",
+        "Cq_cell": "G40"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A37",
+        "sample_name_cell": "E37",
+        "target_cell": "F37",
+        "Cq_cell": "G37"
+      },
+      "summary_target_cell": "C9",
+      "summary_reference_cell": "C4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Restoration",
+      "summary_column": "D",
+      "instrument_well_row": "B",
+      "target_well": "B11-Ch5",
+      "reference_well": "B08-Ch5",
+      "raw_target_Cq": 30.15,
+      "raw_reference_Cq": 16.47,
+      "target_csv_Cq": 30.15,
+      "reference_csv_Cq": 16.47,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 15,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A56",
+        "sample_name_cell": "E56",
+        "target_cell": "F56",
+        "Cq_cell": "G56"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A53",
+        "sample_name_cell": "E53",
+        "target_cell": "F53",
+        "Cq_cell": "G53"
+      },
+      "summary_target_cell": "D9",
+      "summary_reference_cell": "D4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Restoration",
+      "summary_column": "E",
+      "instrument_well_row": "C",
+      "target_well": "C11-Ch5",
+      "reference_well": "C08-Ch5",
+      "raw_target_Cq": 30.12,
+      "raw_reference_Cq": 16.32,
+      "target_csv_Cq": 30.12,
+      "reference_csv_Cq": 16.32,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 16,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A72",
+        "sample_name_cell": "E72",
+        "target_cell": "F72",
+        "Cq_cell": "G72"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A69",
+        "sample_name_cell": "E69",
+        "target_cell": "F69",
+        "Cq_cell": "G69"
+      },
+      "summary_target_cell": "E9",
+      "summary_reference_cell": "E4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Restoration",
+      "summary_column": "F",
+      "instrument_well_row": "D",
+      "target_well": "D11-Ch5",
+      "reference_well": "D08-Ch5",
+      "raw_target_Cq": 30.12,
+      "raw_reference_Cq": 16.48,
+      "target_csv_Cq": 30.12,
+      "reference_csv_Cq": 16.48,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 17,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A88",
+        "sample_name_cell": "E88",
+        "target_cell": "F88",
+        "Cq_cell": "G88"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A85",
+        "sample_name_cell": "E85",
+        "target_cell": "F85",
+        "Cq_cell": "G85"
+      },
+      "summary_target_cell": "F9",
+      "summary_reference_cell": "F4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Restoration",
+      "summary_column": "G",
+      "instrument_well_row": "E",
+      "target_well": "E11-Ch5",
+      "reference_well": "E08-Ch5",
+      "raw_target_Cq": 30.14,
+      "raw_reference_Cq": 16.29,
+      "target_csv_Cq": 30.14,
+      "reference_csv_Cq": 16.29,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 18,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A104",
+        "sample_name_cell": "E104",
+        "target_cell": "F104",
+        "Cq_cell": "G104"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A101",
+        "sample_name_cell": "E101",
+        "target_cell": "F101",
+        "Cq_cell": "G101"
+      },
+      "summary_target_cell": "G9",
+      "summary_reference_cell": "G4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox1",
+      "group": "Restoration",
+      "summary_column": "H",
+      "instrument_well_row": "F",
+      "target_well": "F11-Ch5",
+      "reference_well": "F08-Ch5",
+      "raw_target_Cq": 30.2,
+      "raw_reference_Cq": 16.29,
+      "target_csv_Cq": 30.2,
+      "reference_csv_Cq": 16.29,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 19,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A120",
+        "sample_name_cell": "E120",
+        "target_cell": "F120",
+        "Cq_cell": "G120"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A117",
+        "sample_name_cell": "E117",
+        "target_cell": "F117",
+        "Cq_cell": "G117"
+      },
+      "summary_target_cell": "H9",
+      "summary_reference_cell": "H4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Sham-operated",
+      "summary_column": "C",
+      "instrument_well_row": "A",
+      "target_well": "A12-Ch5",
+      "reference_well": "A06-Ch5",
+      "raw_target_Cq": 35.31,
+      "raw_reference_Cq": 16.4,
+      "target_csv_Cq": 35.31,
+      "reference_csv_Cq": 16.4,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 20,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A41",
+        "sample_name_cell": "E41",
+        "target_cell": "F41",
+        "Cq_cell": "G41"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A35",
+        "sample_name_cell": "E35",
+        "target_cell": "F35",
+        "Cq_cell": "G35"
+      },
+      "summary_target_cell": "C12",
+      "summary_reference_cell": "C2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Sham-operated",
+      "summary_column": "D",
+      "instrument_well_row": "B",
+      "target_well": "B12-Ch5",
+      "reference_well": "B06-Ch5",
+      "raw_target_Cq": 35.26,
+      "raw_reference_Cq": 16.4,
+      "target_csv_Cq": 35.26,
+      "reference_csv_Cq": 16.4,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 21,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A57",
+        "sample_name_cell": "E57",
+        "target_cell": "F57",
+        "Cq_cell": "G57"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A51",
+        "sample_name_cell": "E51",
+        "target_cell": "F51",
+        "Cq_cell": "G51"
+      },
+      "summary_target_cell": "D12",
+      "summary_reference_cell": "D2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Sham-operated",
+      "summary_column": "E",
+      "instrument_well_row": "C",
+      "target_well": "C12-Ch5",
+      "reference_well": "C06-Ch5",
+      "raw_target_Cq": 35.15,
+      "raw_reference_Cq": 16.12,
+      "target_csv_Cq": 35.15,
+      "reference_csv_Cq": 16.12,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 22,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A73",
+        "sample_name_cell": "E73",
+        "target_cell": "F73",
+        "Cq_cell": "G73"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A67",
+        "sample_name_cell": "E67",
+        "target_cell": "F67",
+        "Cq_cell": "G67"
+      },
+      "summary_target_cell": "E12",
+      "summary_reference_cell": "E2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Sham-operated",
+      "summary_column": "F",
+      "instrument_well_row": "D",
+      "target_well": "D12-Ch5",
+      "reference_well": "D06-Ch5",
+      "raw_target_Cq": 34.69,
+      "raw_reference_Cq": 16.37,
+      "target_csv_Cq": 34.69,
+      "reference_csv_Cq": 16.37,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 23,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A89",
+        "sample_name_cell": "E89",
+        "target_cell": "F89",
+        "Cq_cell": "G89"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A83",
+        "sample_name_cell": "E83",
+        "target_cell": "F83",
+        "Cq_cell": "G83"
+      },
+      "summary_target_cell": "F12",
+      "summary_reference_cell": "F2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Sham-operated",
+      "summary_column": "G",
+      "instrument_well_row": "E",
+      "target_well": "E12-Ch5",
+      "reference_well": "E06-Ch5",
+      "raw_target_Cq": 34.62,
+      "raw_reference_Cq": 16.39,
+      "target_csv_Cq": 34.62,
+      "reference_csv_Cq": 16.39,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 24,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A105",
+        "sample_name_cell": "E105",
+        "target_cell": "F105",
+        "Cq_cell": "G105"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A99",
+        "sample_name_cell": "E99",
+        "target_cell": "F99",
+        "Cq_cell": "G99"
+      },
+      "summary_target_cell": "G12",
+      "summary_reference_cell": "G2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Sham-operated",
+      "summary_column": "H",
+      "instrument_well_row": "F",
+      "target_well": "F12-Ch5",
+      "reference_well": "F06-Ch5",
+      "raw_target_Cq": 35.02,
+      "raw_reference_Cq": 16.38,
+      "target_csv_Cq": 35.02,
+      "reference_csv_Cq": 16.38,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 25,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A121",
+        "sample_name_cell": "E121",
+        "target_cell": "F121",
+        "Cq_cell": "G121"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A115",
+        "sample_name_cell": "E115",
+        "target_cell": "F115",
+        "Cq_cell": "G115"
+      },
+      "summary_target_cell": "H12",
+      "summary_reference_cell": "H2",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Model",
+      "summary_column": "C",
+      "instrument_well_row": "A",
+      "target_well": "A13-Ch5",
+      "reference_well": "A07-Ch5",
+      "raw_target_Cq": 33.44,
+      "raw_reference_Cq": 16.57,
+      "target_csv_Cq": 33.44,
+      "reference_csv_Cq": 16.57,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 26,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A42",
+        "sample_name_cell": "E42",
+        "target_cell": "F42",
+        "Cq_cell": "G42"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A36",
+        "sample_name_cell": "E36",
+        "target_cell": "F36",
+        "Cq_cell": "G36"
+      },
+      "summary_target_cell": "C13",
+      "summary_reference_cell": "C3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Model",
+      "summary_column": "D",
+      "instrument_well_row": "B",
+      "target_well": "B13-Ch5",
+      "reference_well": "B07-Ch5",
+      "raw_target_Cq": 33.76,
+      "raw_reference_Cq": 16.22,
+      "target_csv_Cq": 33.76,
+      "reference_csv_Cq": 16.22,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 27,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A58",
+        "sample_name_cell": "E58",
+        "target_cell": "F58",
+        "Cq_cell": "G58"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A52",
+        "sample_name_cell": "E52",
+        "target_cell": "F52",
+        "Cq_cell": "G52"
+      },
+      "summary_target_cell": "D13",
+      "summary_reference_cell": "D3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Model",
+      "summary_column": "E",
+      "instrument_well_row": "C",
+      "target_well": "C13-Ch5",
+      "reference_well": "C07-Ch5",
+      "raw_target_Cq": 33.28,
+      "raw_reference_Cq": 16.45,
+      "target_csv_Cq": 33.28,
+      "reference_csv_Cq": 16.45,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 28,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A74",
+        "sample_name_cell": "E74",
+        "target_cell": "F74",
+        "Cq_cell": "G74"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A68",
+        "sample_name_cell": "E68",
+        "target_cell": "F68",
+        "Cq_cell": "G68"
+      },
+      "summary_target_cell": "E13",
+      "summary_reference_cell": "E3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Model",
+      "summary_column": "F",
+      "instrument_well_row": "D",
+      "target_well": "D13-Ch5",
+      "reference_well": "D07-Ch5",
+      "raw_target_Cq": 33.46,
+      "raw_reference_Cq": 16.44,
+      "target_csv_Cq": 33.46,
+      "reference_csv_Cq": 16.44,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 29,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A90",
+        "sample_name_cell": "E90",
+        "target_cell": "F90",
+        "Cq_cell": "G90"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A84",
+        "sample_name_cell": "E84",
+        "target_cell": "F84",
+        "Cq_cell": "G84"
+      },
+      "summary_target_cell": "F13",
+      "summary_reference_cell": "F3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Model",
+      "summary_column": "G",
+      "instrument_well_row": "E",
+      "target_well": "E13-Ch5",
+      "reference_well": "E07-Ch5",
+      "raw_target_Cq": 33.51,
+      "raw_reference_Cq": 16.47,
+      "target_csv_Cq": 33.51,
+      "reference_csv_Cq": 16.47,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 30,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A106",
+        "sample_name_cell": "E106",
+        "target_cell": "F106",
+        "Cq_cell": "G106"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A100",
+        "sample_name_cell": "E100",
+        "target_cell": "F100",
+        "Cq_cell": "G100"
+      },
+      "summary_target_cell": "G13",
+      "summary_reference_cell": "G3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Model",
+      "summary_column": "H",
+      "instrument_well_row": "F",
+      "target_well": "F13-Ch5",
+      "reference_well": "F07-Ch5",
+      "raw_target_Cq": 33.99,
+      "raw_reference_Cq": 16.57,
+      "target_csv_Cq": 33.99,
+      "reference_csv_Cq": 16.57,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 31,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A122",
+        "sample_name_cell": "E122",
+        "target_cell": "F122",
+        "Cq_cell": "G122"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A116",
+        "sample_name_cell": "E116",
+        "target_cell": "F116",
+        "Cq_cell": "G116"
+      },
+      "summary_target_cell": "H13",
+      "summary_reference_cell": "H3",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Restoration",
+      "summary_column": "C",
+      "instrument_well_row": "A",
+      "target_well": "A14-Ch5",
+      "reference_well": "A08-Ch5",
+      "raw_target_Cq": 34.47,
+      "raw_reference_Cq": 16.54,
+      "target_csv_Cq": 34.47,
+      "reference_csv_Cq": 16.54,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 32,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A43",
+        "sample_name_cell": "E43",
+        "target_cell": "F43",
+        "Cq_cell": "G43"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A37",
+        "sample_name_cell": "E37",
+        "target_cell": "F37",
+        "Cq_cell": "G37"
+      },
+      "summary_target_cell": "C14",
+      "summary_reference_cell": "C4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Restoration",
+      "summary_column": "D",
+      "instrument_well_row": "B",
+      "target_well": "B14-Ch5",
+      "reference_well": "B08-Ch5",
+      "raw_target_Cq": 34.14,
+      "raw_reference_Cq": 16.47,
+      "target_csv_Cq": 34.14,
+      "reference_csv_Cq": 16.47,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 33,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A59",
+        "sample_name_cell": "E59",
+        "target_cell": "F59",
+        "Cq_cell": "G59"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A53",
+        "sample_name_cell": "E53",
+        "target_cell": "F53",
+        "Cq_cell": "G53"
+      },
+      "summary_target_cell": "D14",
+      "summary_reference_cell": "D4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Restoration",
+      "summary_column": "E",
+      "instrument_well_row": "C",
+      "target_well": "C14-Ch5",
+      "reference_well": "C08-Ch5",
+      "raw_target_Cq": 34.03,
+      "raw_reference_Cq": 16.32,
+      "target_csv_Cq": 34.03,
+      "reference_csv_Cq": 16.32,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 34,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A75",
+        "sample_name_cell": "E75",
+        "target_cell": "F75",
+        "Cq_cell": "G75"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A69",
+        "sample_name_cell": "E69",
+        "target_cell": "F69",
+        "Cq_cell": "G69"
+      },
+      "summary_target_cell": "E14",
+      "summary_reference_cell": "E4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Restoration",
+      "summary_column": "F",
+      "instrument_well_row": "D",
+      "target_well": "D14-Ch5",
+      "reference_well": "D08-Ch5",
+      "raw_target_Cq": 34.51,
+      "raw_reference_Cq": 16.48,
+      "target_csv_Cq": 34.51,
+      "reference_csv_Cq": 16.48,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 35,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A91",
+        "sample_name_cell": "E91",
+        "target_cell": "F91",
+        "Cq_cell": "G91"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A85",
+        "sample_name_cell": "E85",
+        "target_cell": "F85",
+        "Cq_cell": "G85"
+      },
+      "summary_target_cell": "F14",
+      "summary_reference_cell": "F4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Restoration",
+      "summary_column": "G",
+      "instrument_well_row": "E",
+      "target_well": "E14-Ch5",
+      "reference_well": "E08-Ch5",
+      "raw_target_Cq": 34.4,
+      "raw_reference_Cq": 16.29,
+      "target_csv_Cq": 34.4,
+      "reference_csv_Cq": 16.29,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 36,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A107",
+        "sample_name_cell": "E107",
+        "target_cell": "F107",
+        "Cq_cell": "G107"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A101",
+        "sample_name_cell": "E101",
+        "target_cell": "F101",
+        "Cq_cell": "G101"
+      },
+      "summary_target_cell": "G14",
+      "summary_reference_cell": "G4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    },
+    {
+      "gene": "Nox4",
+      "group": "Restoration",
+      "summary_column": "H",
+      "instrument_well_row": "F",
+      "target_well": "F14-Ch5",
+      "reference_well": "F08-Ch5",
+      "raw_target_Cq": 34.4,
+      "raw_reference_Cq": 16.29,
+      "target_csv_Cq": 34.4,
+      "reference_csv_Cq": 16.29,
+      "raw_equals_current_csv": true,
+      "raw_equals_new_summary_xls": true,
+      "identity_interpretation": "Well-row/summary-column correspondence only. Group labels, not original animal IDs; same-animal pairing rests on prior human confirmation.",
+      "formal_csv_line": 37,
+      "raw_target_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A123",
+        "sample_name_cell": "E123",
+        "target_cell": "F123",
+        "Cq_cell": "G123"
+      },
+      "raw_reference_locator": {
+        "source_file": "Nox1、Nox4、β-actin.xlsx",
+        "sheet": "Cq Results",
+        "well_cell": "A117",
+        "sample_name_cell": "E117",
+        "target_cell": "F117",
+        "Cq_cell": "G117"
+      },
+      "summary_target_cell": "H14",
+      "summary_reference_cell": "H4",
+      "pairing_evidence": {
+        "numerical_well_mapping": "The six result-analysis columns C:H equal source instrument well rows A:F within each target/group block.",
+        "raw_identifier_limit": "Raw Sample Name identifies only the treatment group; Replicate and description fields are blank. The same well row across different target columns is not an original animal identifier.",
+        "human_confirmation": "Earlier explicit human confirmation states six rats per group, each tested once, with target/reference paired in the same source worksheet column.",
+        "independently_proven_from_export_alone": false
+      }
+    }
+  ],
+  "all_summary_Cq_mapping": [
+    {
+      "gene": "β-actin",
+      "group": "伪手术组",
+      "summary_cell": "C2",
+      "well": "A06-Ch5",
+      "cq": 16.4,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "伪手术组",
+      "summary_cell": "D2",
+      "well": "B06-Ch5",
+      "cq": 16.4,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "伪手术组",
+      "summary_cell": "E2",
+      "well": "C06-Ch5",
+      "cq": 16.12,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "伪手术组",
+      "summary_cell": "F2",
+      "well": "D06-Ch5",
+      "cq": 16.37,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "伪手术组",
+      "summary_cell": "G2",
+      "well": "E06-Ch5",
+      "cq": 16.39,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "伪手术组",
+      "summary_cell": "H2",
+      "well": "F06-Ch5",
+      "cq": 16.38,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "模型组",
+      "summary_cell": "C3",
+      "well": "A07-Ch5",
+      "cq": 16.57,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "模型组",
+      "summary_cell": "D3",
+      "well": "B07-Ch5",
+      "cq": 16.22,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "模型组",
+      "summary_cell": "E3",
+      "well": "C07-Ch5",
+      "cq": 16.45,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "模型组",
+      "summary_cell": "F3",
+      "well": "D07-Ch5",
+      "cq": 16.44,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "模型组",
+      "summary_cell": "G3",
+      "well": "E07-Ch5",
+      "cq": 16.47,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "模型组",
+      "summary_cell": "H3",
+      "well": "F07-Ch5",
+      "cq": 16.57,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "复位组",
+      "summary_cell": "C4",
+      "well": "A08-Ch5",
+      "cq": 16.54,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "复位组",
+      "summary_cell": "D4",
+      "well": "B08-Ch5",
+      "cq": 16.47,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "复位组",
+      "summary_cell": "E4",
+      "well": "C08-Ch5",
+      "cq": 16.32,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "复位组",
+      "summary_cell": "F4",
+      "well": "D08-Ch5",
+      "cq": 16.48,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "复位组",
+      "summary_cell": "G4",
+      "well": "E08-Ch5",
+      "cq": 16.29,
+      "same": true
+    },
+    {
+      "gene": "β-actin",
+      "group": "复位组",
+      "summary_cell": "H4",
+      "well": "F08-Ch5",
+      "cq": 16.29,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "伪手术组",
+      "summary_cell": "C7",
+      "well": "A09-Ch5",
+      "cq": 30.22,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "伪手术组",
+      "summary_cell": "D7",
+      "well": "B09-Ch5",
+      "cq": 30.28,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "伪手术组",
+      "summary_cell": "E7",
+      "well": "C09-Ch5",
+      "cq": 30.39,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "伪手术组",
+      "summary_cell": "F7",
+      "well": "D09-Ch5",
+      "cq": 30.24,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "伪手术组",
+      "summary_cell": "G7",
+      "well": "E09-Ch5",
+      "cq": 30.33,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "伪手术组",
+      "summary_cell": "H7",
+      "well": "F09-Ch5",
+      "cq": 30.63,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "模型组",
+      "summary_cell": "C8",
+      "well": "A10-Ch5",
+      "cq": 30.09,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "模型组",
+      "summary_cell": "D8",
+      "well": "B10-Ch5",
+      "cq": 29.82,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "模型组",
+      "summary_cell": "E8",
+      "well": "C10-Ch5",
+      "cq": 30.01,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "模型组",
+      "summary_cell": "F8",
+      "well": "D10-Ch5",
+      "cq": 29.89,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "模型组",
+      "summary_cell": "G8",
+      "well": "E10-Ch5",
+      "cq": 29.88,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "模型组",
+      "summary_cell": "H8",
+      "well": "F10-Ch5",
+      "cq": 29.76,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "复位组",
+      "summary_cell": "C9",
+      "well": "A11-Ch5",
+      "cq": 30.21,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "复位组",
+      "summary_cell": "D9",
+      "well": "B11-Ch5",
+      "cq": 30.15,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "复位组",
+      "summary_cell": "E9",
+      "well": "C11-Ch5",
+      "cq": 30.12,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "复位组",
+      "summary_cell": "F9",
+      "well": "D11-Ch5",
+      "cq": 30.12,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "复位组",
+      "summary_cell": "G9",
+      "well": "E11-Ch5",
+      "cq": 30.14,
+      "same": true
+    },
+    {
+      "gene": "Nox1",
+      "group": "复位组",
+      "summary_cell": "H9",
+      "well": "F11-Ch5",
+      "cq": 30.2,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "伪手术组",
+      "summary_cell": "C12",
+      "well": "A12-Ch5",
+      "cq": 35.31,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "伪手术组",
+      "summary_cell": "D12",
+      "well": "B12-Ch5",
+      "cq": 35.26,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "伪手术组",
+      "summary_cell": "E12",
+      "well": "C12-Ch5",
+      "cq": 35.15,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "伪手术组",
+      "summary_cell": "F12",
+      "well": "D12-Ch5",
+      "cq": 34.69,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "伪手术组",
+      "summary_cell": "G12",
+      "well": "E12-Ch5",
+      "cq": 34.62,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "伪手术组",
+      "summary_cell": "H12",
+      "well": "F12-Ch5",
+      "cq": 35.02,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "模型组",
+      "summary_cell": "C13",
+      "well": "A13-Ch5",
+      "cq": 33.44,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "模型组",
+      "summary_cell": "D13",
+      "well": "B13-Ch5",
+      "cq": 33.76,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "模型组",
+      "summary_cell": "E13",
+      "well": "C13-Ch5",
+      "cq": 33.28,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "模型组",
+      "summary_cell": "F13",
+      "well": "D13-Ch5",
+      "cq": 33.46,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "模型组",
+      "summary_cell": "G13",
+      "well": "E13-Ch5",
+      "cq": 33.51,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "模型组",
+      "summary_cell": "H13",
+      "well": "F13-Ch5",
+      "cq": 33.99,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "复位组",
+      "summary_cell": "C14",
+      "well": "A14-Ch5",
+      "cq": 34.47,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "复位组",
+      "summary_cell": "D14",
+      "well": "B14-Ch5",
+      "cq": 34.14,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "复位组",
+      "summary_cell": "E14",
+      "well": "C14-Ch5",
+      "cq": 34.03,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "复位组",
+      "summary_cell": "F14",
+      "well": "D14-Ch5",
+      "cq": 34.51,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "复位组",
+      "summary_cell": "G14",
+      "well": "E14-Ch5",
+      "cq": 34.4,
+      "same": true
+    },
+    {
+      "gene": "Nox4",
+      "group": "复位组",
+      "summary_cell": "H14",
+      "well": "F14-Ch5",
+      "cq": 34.4,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "伪手术组",
+      "summary_cell": "C17",
+      "well": "A01-Ch5",
+      "cq": 33.73,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "伪手术组",
+      "summary_cell": "D17",
+      "well": "B01-Ch5",
+      "cq": 34.14,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "伪手术组",
+      "summary_cell": "E17",
+      "well": "C01-Ch5",
+      "cq": 34.63,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "伪手术组",
+      "summary_cell": "F17",
+      "well": "D01-Ch5",
+      "cq": 34.83,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "伪手术组",
+      "summary_cell": "G17",
+      "well": "E01-Ch5",
+      "cq": 33.96,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "伪手术组",
+      "summary_cell": "H17",
+      "well": "F01-Ch5",
+      "cq": 33.81,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "模型组",
+      "summary_cell": "C18",
+      "well": "A02-Ch5",
+      "cq": 33.12,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "模型组",
+      "summary_cell": "D18",
+      "well": "B02-Ch5",
+      "cq": 32.16,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "模型组",
+      "summary_cell": "E18",
+      "well": "C02-Ch5",
+      "cq": 32.56,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "模型组",
+      "summary_cell": "F18",
+      "well": "D02-Ch5",
+      "cq": 32.39,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "模型组",
+      "summary_cell": "G18",
+      "well": "E02-Ch5",
+      "cq": 32.73,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "模型组",
+      "summary_cell": "H18",
+      "well": "F02-Ch5",
+      "cq": 33.04,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "复位组",
+      "summary_cell": "C19",
+      "well": "A03-Ch5",
+      "cq": 33.13,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "复位组",
+      "summary_cell": "D19",
+      "well": "B03-Ch5",
+      "cq": 33.25,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "复位组",
+      "summary_cell": "E19",
+      "well": "C03-Ch5",
+      "cq": 33.6,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "复位组",
+      "summary_cell": "F19",
+      "well": "D03-Ch5",
+      "cq": 33.35,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "复位组",
+      "summary_cell": "G19",
+      "well": "E03-Ch5",
+      "cq": 33.51,
+      "same": true
+    },
+    {
+      "gene": "AT1-R",
+      "group": "复位组",
+      "summary_cell": "H19",
+      "well": "F03-Ch5",
+      "cq": 33.49,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "伪手术组",
+      "summary_cell": "C22",
+      "well": "A04-Ch5",
+      "cq": 22.8,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "伪手术组",
+      "summary_cell": "D22",
+      "well": "B04-Ch5",
+      "cq": 22.48,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "伪手术组",
+      "summary_cell": "E22",
+      "well": "C04-Ch5",
+      "cq": 22.57,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "伪手术组",
+      "summary_cell": "F22",
+      "well": "D04-Ch5",
+      "cq": 22.57,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "伪手术组",
+      "summary_cell": "G22",
+      "well": "E04-Ch5",
+      "cq": 22.68,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "伪手术组",
+      "summary_cell": "H22",
+      "well": "F04-Ch5",
+      "cq": 22.55,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "模型组",
+      "summary_cell": "C23",
+      "well": "A05-Ch5",
+      "cq": 22.14,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "模型组",
+      "summary_cell": "D23",
+      "well": "B05-Ch5",
+      "cq": 22.15,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "模型组",
+      "summary_cell": "E23",
+      "well": "C05-Ch5",
+      "cq": 22.12,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "模型组",
+      "summary_cell": "F23",
+      "well": "D05-Ch5",
+      "cq": 22.12,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "模型组",
+      "summary_cell": "G23",
+      "well": "E05-Ch5",
+      "cq": 22.19,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "模型组",
+      "summary_cell": "H23",
+      "well": "F05-Ch5",
+      "cq": 22.19,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "复位组",
+      "summary_cell": "C24",
+      "well": "A06-Ch5",
+      "cq": 22.45,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "复位组",
+      "summary_cell": "D24",
+      "well": "B06-Ch5",
+      "cq": 22.46,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "复位组",
+      "summary_cell": "E24",
+      "well": "C06-Ch5",
+      "cq": 22.25,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "复位组",
+      "summary_cell": "F24",
+      "well": "D06-Ch5",
+      "cq": 22.38,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "复位组",
+      "summary_cell": "G24",
+      "well": "E06-Ch5",
+      "cq": 22.28,
+      "same": true
+    },
+    {
+      "gene": "RhoA",
+      "group": "复位组",
+      "summary_cell": "H24",
+      "well": "F06-Ch5",
+      "cq": 22.29,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "伪手术组",
+      "summary_cell": "C27",
+      "well": "A07-Ch5",
+      "cq": 24.36,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "伪手术组",
+      "summary_cell": "D27",
+      "well": "B07-Ch5",
+      "cq": 24.37,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "伪手术组",
+      "summary_cell": "E27",
+      "well": "C07-Ch5",
+      "cq": 24.13,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "伪手术组",
+      "summary_cell": "F27",
+      "well": "D07-Ch5",
+      "cq": 24.21,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "伪手术组",
+      "summary_cell": "G27",
+      "well": "E07-Ch5",
+      "cq": 24.19,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "伪手术组",
+      "summary_cell": "H27",
+      "well": "F07-Ch5",
+      "cq": 24.19,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "模型组",
+      "summary_cell": "C28",
+      "well": "A08-Ch5",
+      "cq": 22.42,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "模型组",
+      "summary_cell": "D28",
+      "well": "B08-Ch5",
+      "cq": 22.73,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "模型组",
+      "summary_cell": "E28",
+      "well": "C08-Ch5",
+      "cq": 22.13,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "模型组",
+      "summary_cell": "F28",
+      "well": "D08-Ch5",
+      "cq": 22.46,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "模型组",
+      "summary_cell": "G28",
+      "well": "E08-Ch5",
+      "cq": 22.58,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "模型组",
+      "summary_cell": "H28",
+      "well": "F08-Ch5",
+      "cq": 22.48,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "复位组",
+      "summary_cell": "C29",
+      "well": "A09-Ch5",
+      "cq": 23.57,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "复位组",
+      "summary_cell": "D29",
+      "well": "B09-Ch5",
+      "cq": 23.47,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "复位组",
+      "summary_cell": "E29",
+      "well": "C09-Ch5",
+      "cq": 23.34,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "复位组",
+      "summary_cell": "F29",
+      "well": "D09-Ch5",
+      "cq": 23.54,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "复位组",
+      "summary_cell": "G29",
+      "well": "E09-Ch5",
+      "cq": 23.26,
+      "same": true
+    },
+    {
+      "gene": "ROCK1",
+      "group": "复位组",
+      "summary_cell": "H29",
+      "well": "F09-Ch5",
+      "cq": 23.13,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "伪手术组",
+      "summary_cell": "C32",
+      "well": "A10-Ch5",
+      "cq": 29.9,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "伪手术组",
+      "summary_cell": "D32",
+      "well": "B10-Ch5",
+      "cq": 29.39,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "伪手术组",
+      "summary_cell": "E32",
+      "well": "C10-Ch5",
+      "cq": 29.32,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "伪手术组",
+      "summary_cell": "F32",
+      "well": "D10-Ch5",
+      "cq": 29.35,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "伪手术组",
+      "summary_cell": "G32",
+      "well": "E10-Ch5",
+      "cq": 29.36,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "伪手术组",
+      "summary_cell": "H32",
+      "well": "F10-Ch5",
+      "cq": 29.85,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "模型组",
+      "summary_cell": "C33",
+      "well": "A11-Ch5",
+      "cq": 28.14,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "模型组",
+      "summary_cell": "D33",
+      "well": "B11-Ch5",
+      "cq": 28.08,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "模型组",
+      "summary_cell": "E33",
+      "well": "C11-Ch5",
+      "cq": 28.11,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "模型组",
+      "summary_cell": "F33",
+      "well": "D11-Ch5",
+      "cq": 27.93,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "模型组",
+      "summary_cell": "G33",
+      "well": "E11-Ch5",
+      "cq": 28.3,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "模型组",
+      "summary_cell": "H33",
+      "well": "F11-Ch5",
+      "cq": 28.16,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "复位组",
+      "summary_cell": "C34",
+      "well": "A12-Ch5",
+      "cq": 28.51,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "复位组",
+      "summary_cell": "D34",
+      "well": "B12-Ch5",
+      "cq": 28.22,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "复位组",
+      "summary_cell": "E34",
+      "well": "C12-Ch5",
+      "cq": 28.49,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "复位组",
+      "summary_cell": "F34",
+      "well": "D12-Ch5",
+      "cq": 28.31,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "复位组",
+      "summary_cell": "G34",
+      "well": "E12-Ch5",
+      "cq": 28.32,
+      "same": true
+    },
+    {
+      "gene": "ROCK2",
+      "group": "复位组",
+      "summary_cell": "H34",
+      "well": "F12-Ch5",
+      "cq": 29.09,
+      "same": true
+    }
+  ],
+  "summary_xls_comparison": {
+    "old_path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/结果分析.xls",
+    "old_sha256": "b0e6c87353acd4b25919348f7888df5904b84830fdc7317aa6c237fda03c4357",
+    "new_sha256": "33962c9ff517a097a58f0a14a5375c27895f8284bc866a5e14fa5a54c4cbc12b",
+    "byte_identical": false,
+    "all_group_target_reference_Cq_values_identical": true,
+    "cell_differences": [
+      {
+        "sheet": "Sheet1",
+        "row": 8,
+        "column": 31,
+        "old": 0.12222560524011472,
+        "new": 0.12222560524011886
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 22,
+        "column": 31,
+        "old": 0.0769336088623863,
+        "new": 0.07693360886238759
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 24,
+        "column": 31,
+        "old": 0.0780401404681222,
+        "new": 0.07804014046812299
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 27,
+        "column": 31,
+        "old": 0.06789735735746204,
+        "new": 0.06789735735746456
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 33,
+        "column": 31,
+        "old": 0.24068931826835888,
+        "new": 0.2406893182683597
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 71,
+        "column": 2,
+        "old": "SCG切除组",
+        "new": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 71,
+        "column": 3,
+        "old": 1.5,
+        "new": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 71,
+        "column": 4,
+        "old": 1.24,
+        "new": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 71,
+        "column": 5,
+        "old": 1.88,
+        "new": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 71,
+        "column": 6,
+        "old": 1.36,
+        "new": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 71,
+        "column": 7,
+        "old": 1.79,
+        "new": ""
+      },
+      {
+        "sheet": "Sheet1",
+        "row": 71,
+        "column": 8,
+        "old": 1.98,
+        "new": ""
+      }
+    ],
+    "interpretation": "Five cached SD results differ only at floating-point last digits; former Sheet1 row 71 SCG-cut entries are absent in the new file. The Cq inputs used for the current six-target/18-comparison analysis are unchanged."
+  },
+  "plate_vs_cq_definition_discrepancies": [
+    {
+      "file": "Nox1、Nox4、β-actin.xlsx",
+      "well": "B10-Ch5",
+      "cq_result": {
+        "Target": "Nox1",
+        "Sample Name": "模型组",
+        "Cq": 29.82,
+        "Sample Type": "Unknown",
+        "Omitted": ""
+      },
+      "plate_definition": {
+        "Target": "Nox1",
+        "Sample Name": "模型组",
+        "Sample Type": "Empty",
+        "Fluorophore": "[none]"
+      }
+    },
+    {
+      "file": "Nox1、Nox4、β-actin.xlsx",
+      "well": "D12-Ch5",
+      "cq_result": {
+        "Target": "Nox4",
+        "Sample Name": "伪手术组",
+        "Cq": 34.69,
+        "Sample Type": "Unknown",
+        "Omitted": ""
+      },
+      "plate_definition": {
+        "Target": "",
+        "Sample Name": "伪手术组",
+        "Sample Type": "Empty",
+        "Fluorophore": "[none]"
+      }
+    }
+  ],
+  "melting_ranges_and_rows": {
+    "β-actin": {
+      "min_Tm1_C": 83.78,
+      "max_Tm1_C": 84.01,
+      "rows": [
+        {
+          "well": "A06-Ch5",
+          "group": "伪手术组",
+          "Cq": 16.4,
+          "Tm1_C": 83.84
+        },
+        {
+          "well": "A07-Ch5",
+          "group": "模型组",
+          "Cq": 16.57,
+          "Tm1_C": 83.86
+        },
+        {
+          "well": "A08-Ch5",
+          "group": "复位组",
+          "Cq": 16.54,
+          "Tm1_C": 83.84
+        },
+        {
+          "well": "B06-Ch5",
+          "group": "伪手术组",
+          "Cq": 16.4,
+          "Tm1_C": 83.8
+        },
+        {
+          "well": "B07-Ch5",
+          "group": "模型组",
+          "Cq": 16.22,
+          "Tm1_C": 83.84
+        },
+        {
+          "well": "B08-Ch5",
+          "group": "复位组",
+          "Cq": 16.47,
+          "Tm1_C": 83.8
+        },
+        {
+          "well": "C06-Ch5",
+          "group": "伪手术组",
+          "Cq": 16.12,
+          "Tm1_C": 83.78
+        },
+        {
+          "well": "C07-Ch5",
+          "group": "模型组",
+          "Cq": 16.45,
+          "Tm1_C": 83.83
+        },
+        {
+          "well": "C08-Ch5",
+          "group": "复位组",
+          "Cq": 16.32,
+          "Tm1_C": 83.79
+        },
+        {
+          "well": "D06-Ch5",
+          "group": "伪手术组",
+          "Cq": 16.37,
+          "Tm1_C": 83.86
+        },
+        {
+          "well": "D07-Ch5",
+          "group": "模型组",
+          "Cq": 16.44,
+          "Tm1_C": 83.81
+        },
+        {
+          "well": "D08-Ch5",
+          "group": "复位组",
+          "Cq": 16.48,
+          "Tm1_C": 83.81
+        },
+        {
+          "well": "E06-Ch5",
+          "group": "伪手术组",
+          "Cq": 16.39,
+          "Tm1_C": 83.87
+        },
+        {
+          "well": "E07-Ch5",
+          "group": "模型组",
+          "Cq": 16.47,
+          "Tm1_C": 83.81
+        },
+        {
+          "well": "E08-Ch5",
+          "group": "复位组",
+          "Cq": 16.29,
+          "Tm1_C": 83.83
+        },
+        {
+          "well": "F06-Ch5",
+          "group": "伪手术组",
+          "Cq": 16.38,
+          "Tm1_C": 83.88
+        },
+        {
+          "well": "F07-Ch5",
+          "group": "模型组",
+          "Cq": 16.57,
+          "Tm1_C": 83.94
+        },
+        {
+          "well": "F08-Ch5",
+          "group": "复位组",
+          "Cq": 16.29,
+          "Tm1_C": 84.01
+        }
+      ]
+    },
+    "Nox1": {
+      "min_Tm1_C": 72.1000000000001,
+      "max_Tm1_C": 78.59,
+      "rows": [
+        {
+          "well": "A09-Ch5",
+          "group": "伪手术组",
+          "Cq": 30.22,
+          "Tm1_C": 72.9600000000001
+        },
+        {
+          "well": "A10-Ch5",
+          "group": "模型组",
+          "Cq": 30.09,
+          "Tm1_C": 72.6300000000001
+        },
+        {
+          "well": "A11-Ch5",
+          "group": "复位组",
+          "Cq": 30.21,
+          "Tm1_C": 72.7000000000002
+        },
+        {
+          "well": "B09-Ch5",
+          "group": "伪手术组",
+          "Cq": 30.28,
+          "Tm1_C": 73.5000000000001
+        },
+        {
+          "well": "B10-Ch5",
+          "group": "模型组",
+          "Cq": 29.82,
+          "Tm1_C": 78.59
+        },
+        {
+          "well": "B11-Ch5",
+          "group": "复位组",
+          "Cq": 30.15,
+          "Tm1_C": 73.01
+        },
+        {
+          "well": "C09-Ch5",
+          "group": "伪手术组",
+          "Cq": 30.39,
+          "Tm1_C": 72.5200000000002
+        },
+        {
+          "well": "C10-Ch5",
+          "group": "模型组",
+          "Cq": 30.01,
+          "Tm1_C": 72.91
+        },
+        {
+          "well": "C11-Ch5",
+          "group": "复位组",
+          "Cq": 30.12,
+          "Tm1_C": 72.8100000000001
+        },
+        {
+          "well": "D09-Ch5",
+          "group": "伪手术组",
+          "Cq": 30.24,
+          "Tm1_C": 72.3000000000002
+        },
+        {
+          "well": "D10-Ch5",
+          "group": "模型组",
+          "Cq": 29.89,
+          "Tm1_C": 72.88
+        },
+        {
+          "well": "D11-Ch5",
+          "group": "复位组",
+          "Cq": 30.12,
+          "Tm1_C": 73.1000000000001
+        },
+        {
+          "well": "E09-Ch5",
+          "group": "伪手术组",
+          "Cq": 30.33,
+          "Tm1_C": 73.0599999999998
+        },
+        {
+          "well": "E10-Ch5",
+          "group": "模型组",
+          "Cq": 29.88,
+          "Tm1_C": 72.9300000000003
+        },
+        {
+          "well": "E11-Ch5",
+          "group": "复位组",
+          "Cq": 30.14,
+          "Tm1_C": 75.7599999999999
+        },
+        {
+          "well": "F09-Ch5",
+          "group": "伪手术组",
+          "Cq": 30.63,
+          "Tm1_C": 72.1000000000001
+        },
+        {
+          "well": "F10-Ch5",
+          "group": "模型组",
+          "Cq": 29.76,
+          "Tm1_C": 72.8
+        },
+        {
+          "well": "F11-Ch5",
+          "group": "复位组",
+          "Cq": 30.2,
+          "Tm1_C": 72.8
+        }
+      ]
+    },
+    "Nox4": {
+      "min_Tm1_C": 73.98,
+      "max_Tm1_C": 79.25,
+      "rows": [
+        {
+          "well": "A12-Ch5",
+          "group": "伪手术组",
+          "Cq": 35.31,
+          "Tm1_C": 79.11
+        },
+        {
+          "well": "A13-Ch5",
+          "group": "模型组",
+          "Cq": 33.44,
+          "Tm1_C": 79.14
+        },
+        {
+          "well": "A14-Ch5",
+          "group": "复位组",
+          "Cq": 34.47,
+          "Tm1_C": 79.23
+        },
+        {
+          "well": "B12-Ch5",
+          "group": "伪手术组",
+          "Cq": 35.26,
+          "Tm1_C": 79.07
+        },
+        {
+          "well": "B13-Ch5",
+          "group": "模型组",
+          "Cq": 33.76,
+          "Tm1_C": 79.18
+        },
+        {
+          "well": "B14-Ch5",
+          "group": "复位组",
+          "Cq": 34.14,
+          "Tm1_C": 79.16
+        },
+        {
+          "well": "C12-Ch5",
+          "group": "伪手术组",
+          "Cq": 35.15,
+          "Tm1_C": 78.96
+        },
+        {
+          "well": "C13-Ch5",
+          "group": "模型组",
+          "Cq": 33.28,
+          "Tm1_C": 79.09
+        },
+        {
+          "well": "C14-Ch5",
+          "group": "复位组",
+          "Cq": 34.03,
+          "Tm1_C": 79.06
+        },
+        {
+          "well": "D12-Ch5",
+          "group": "伪手术组",
+          "Cq": 34.69,
+          "Tm1_C": 77.97
+        },
+        {
+          "well": "D13-Ch5",
+          "group": "模型组",
+          "Cq": 33.46,
+          "Tm1_C": 79.25
+        },
+        {
+          "well": "D14-Ch5",
+          "group": "复位组",
+          "Cq": 34.51,
+          "Tm1_C": 79.14
+        },
+        {
+          "well": "E12-Ch5",
+          "group": "伪手术组",
+          "Cq": 34.62,
+          "Tm1_C": 79.01
+        },
+        {
+          "well": "E13-Ch5",
+          "group": "模型组",
+          "Cq": 33.51,
+          "Tm1_C": 78.8999999999999
+        },
+        {
+          "well": "E14-Ch5",
+          "group": "复位组",
+          "Cq": 34.4,
+          "Tm1_C": 79.22
+        },
+        {
+          "well": "F12-Ch5",
+          "group": "伪手术组",
+          "Cq": 35.02,
+          "Tm1_C": 78.99
+        },
+        {
+          "well": "F13-Ch5",
+          "group": "模型组",
+          "Cq": 33.99,
+          "Tm1_C": 73.98
+        },
+        {
+          "well": "F14-Ch5",
+          "group": "复位组",
+          "Cq": 34.4,
+          "Tm1_C": 79.25
+        }
+      ]
+    }
+  },
+  "run_time_records": [
+    {
+      "file": "Nox1、Nox4、β-actin.xlsx",
+      "instrument_protocol_log": "StartTime:\t2020/11/11 10:58:28",
+      "ord_file_path": "C:\\Users\\Dell\\Desktop\\吕友奎 2020.11.10\\Nox1、Nox4、β-actin.ord"
+    },
+    {
+      "file": "RhoA、ROCK1、ROCK2.xlsx",
+      "instrument_protocol_log": "StartTime:\t2020/11/10 17:34:28",
+      "ord_file_path": "C:\\Users\\Dell\\Desktop\\吕友奎 2020.11.10\\RhoA、ROCK1、ROCK2.ord"
+    },
+    {
+      "file": "AT1-R.xlsx",
+      "instrument_protocol_log": "StartTime:\t2020/11/11 7:54:19",
+      "ord_file_path": "C:\\Users\\Dell\\Desktop\\吕友奎 2020.11.10\\AT1-R.ord"
+    }
+  ],
+  "interpretation": {
+    "now_supported": [
+      "Instrument-exported Cq, amplification data, melting data, and curve PNGs are available. The statement that original amplification/melting curves were unavailable should be revised to reflect this newly supplied evidence.",
+      "The current Nox1/Nox4 paired Cq table matches all 36 target/reference pairs exactly. All 126 Cq across the complete six-target panel plus beta-actin match the new result-analysis workbook.",
+      "The instrument protocol includes an actual melting step from 60 to 95 C in 0.2 C increments, rather than an unrecorded melting step."
+    ],
+    "not_established": [
+      "Exports label all active wells Unknown and sample names identify groups only; blank Replicate fields cannot independently establish 6 biological animals versus technical replication. Prior user confirmation remains the biological-n and same-animal-pairing source.",
+      "No active NTC, no-RT, standard dilution or validated amplification-efficiency record was identified. No reference-gene stability validation is supplied.",
+      "The Melting curve Results setting Max # of peaks=1 limits reported peak count. Zero columns for additional peaks do not prove single-specific-product amplification.",
+      "Raw .ord instrument project files are mentioned in paths but not included in the provided directory.",
+      "Restoration animals originating in the model cohort does not establish repeated terminal-tissue sampling or justify paired between-cohort inference.",
+      "Exact numerical mapping between source wells, summary columns and current CSV has been established. It does not independently establish animal identity or same-animal target/reference pairing; that rests on explicit earlier author confirmation, not raw group-only labels."
+    ],
+    "requires_resolution": [
+      "Instrument logs in all three XLSX exports date runs to November 10-11, 2020, while the manuscript gives ethics approval AHUCM-rats-2022032. Actual experiment date, instrument clock correctness and applicable prior approval must be confirmed; do not infer approval coverage from the run timestamp alone.",
+      "Plate defines B10-Ch5 (Nox1 model Cq29.82) and D12-Ch5 (Nox4 sham Cq34.69) as Empty/[none], yet Cq Results exports both as SYBR Unknown and includes numeric values. These values are present in the current analysis. Obtain the laboratory explanation/analysis history before deciding whether valid or excluded.",
+      "Melt Tm variability needs laboratory review: Nox1 B10-Ch5 has Tm78.59 C while most target wells cluster near72-73 C; Nox1 E11-Ch5 is75.76 C. Nox4 F13-Ch5 is73.98 C while most cluster near79 C; sham D12-Ch5 is77.97 C. These observations alone do not determine contamination or justify retrospective exclusion.",
+      "The report retains the contradictory PrimeScript/RevertAid RT wording already discussed and lists TRIzol catalog15596026 rather than the current detailed-method15596018; reconcile with actual reagent records."
+    ]
+  },
+  "report_selected_evidence": {
+    "TRIzol_catalog_in_new_report": "15596026",
+    "RT_reagent_table": "TaKaRa RR047A",
+    "RT_method_revertAid_text_present": true,
+    "primer_sequences_match_current_methods": {
+      "Nox1": [
+        "GCTCCAGACCTCCATTTG",
+        "CAGCCCCAACCAAGAAAC"
+      ],
+      "Nox4": [
+        "GGGTTAAACACCTCTGTC",
+        "GTAGTATTCTGGCCCTTG"
+      ],
+      "beta-actin": [
+        "CCCATCTATGAGGGTTACGC",
+        "TTTAATGTCACGCACGATTTC"
+      ]
+    },
+    "company": "Anhui Xin Le Biotechnology Co., Ltd."
+  },
+  "report_comparison": {
+    "new_report_sha256": "5d5bab729f60bf5e79942ac524d36047dfaeab7415ba5e7aa742958c99ecb4c0",
+    "prior_drag_doc_path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/实时荧光定量PCR报告.doc",
+    "prior_drag_doc_exists": true,
+    "same_doc_bytes_as_prior_drag_report": true,
+    "primers": {
+      "Nox1": {
+        "forward": "GCTCCAGACCTCCATTTG",
+        "reverse": "CAGCCCCAACCAAGAAAC",
+        "amplicon_bp": 84,
+        "all_sequences_present_in_new_report_and_current_SI": true
+      },
+      "Nox4": {
+        "forward": "GGGTTAAACACCTCTGTC",
+        "reverse": "GTAGTATTCTGGCCCTTG",
+        "amplicon_bp": 95,
+        "all_sequences_present_in_new_report_and_current_SI": true
+      },
+      "beta-actin": {
+        "forward": "CCCATCTATGAGGGTTACGC",
+        "reverse": "TTTAATGTCACGCACGATTTC",
+        "amplicon_bp": 150,
+        "all_sequences_present_in_new_report_and_current_SI": true
+      }
+    },
+    "Trizol_catalog_discrepancy": {
+      "new_report": "15596026",
+      "current_supplement_methods": "15596018",
+      "new_report_value_present": true,
+      "current_SI_value_present": true
+    },
+    "reverse_transcription_wording": {
+      "new_report_lists_Takara_RR047A": true,
+      "new_report_also_says_RevertAid_M_MuLV": true,
+      "current_SI_uses_only_Takara_RR047A": true,
+      "actual_usage_provenance": "User previously confirmed actual RR047A and described RevertAid wording as an error; the uncorrected laboratory report still contains that conflict."
+    }
+  }
+}

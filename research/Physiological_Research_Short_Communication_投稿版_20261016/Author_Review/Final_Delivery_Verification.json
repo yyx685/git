@@ -1,10 +1,10 @@
 {
-  "status": "PASS_MAIN_FORMAT_AND_DOCUMENT_QA_SUBMISSION_NOT_SENT",
+  "status": "PASS_DOCUMENT_AND_NUMERICAL_PRESERVATION_QA_WITH_UNRESOLVED_ASSAY_LIMITATIONS_NOT_SENT",
   "date": "2026-10-16",
   "requirements_source": "https://www.biomed.cas.cz/physiolres/instructions.htm",
   "checks": {
     "article_type": "Short Communication",
-    "english_words_including_frontmatter_references_captions_and_native_math": 1847,
+    "english_words_including_frontmatter_references_captions_and_native_math": 1921,
     "summary_words": 128,
     "references": 8,
     "main_figures": 2,
@@ -19,16 +19,23 @@
     "AI_tool_client_version_verified_locally": true,
     "underlying_AI_model_identifier_not_archived_and_disclosed": true,
     "remaining4_rats_kept_in_reserve": true,
-    "all_19_formal_attachments_present": true,
     "submitted": false,
     "all_sampling_labels_in_weeks": true,
     "both_main_figure_axes_use_week4_week8": true,
     "figure2_uses_corrected_P_stars_with_threshold_legend": true,
-    "exact_statistical_P_values_preserved_in_main_and_supplement": true
+    "exact_statistical_P_values_preserved_in_main_and_supplement": true,
+    "all_20_formal_attachments_present": true,
+    "restoration_origin_and_independent_terminal_cohorts_clarified": true,
+    "36_target_reference_records_match_new_Cq_sources": true,
+    "source_archive_19_files_byte_identical": true,
+    "target_specificity_and_two_well_conflicts_resolved": false
   },
   "notes": [
     "Detailed methods and complete results retained in separate supplementary document; key scientific and welfare limits remain in main text.",
     "Supplementary-item placement requires editorial discretion because the public guide is not explicit.",
-    "Scientific limitations have been disclosed; no new assay validation, controls or ethics records were created."
+    "Scientific limitations have been disclosed; no new assay validation, controls or ethics records were created.",
+    "New raw qPCR files reproduce the supplied Cq values but do not resolve heterogeneous melt profiles or two conflicting plate/result annotations. No quality-control exclusions were made.",
+    "Post hoc sensitivity scenarios are retained for author review only and do not replace the submitted primary analysis.",
+    "At the author's request, no further date/approval correspondence work was performed. Raw timestamps and ethics number were not altered or declared reconciled."
   ]
 }

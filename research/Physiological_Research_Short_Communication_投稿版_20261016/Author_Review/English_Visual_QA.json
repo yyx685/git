@@ -1,10 +1,10 @@
 {
-  "status": "PASS",
+  "status": "PASS_LAYOUT_WITH_SCIENTIFIC_LIMITATIONS_RETAINED",
   "docx_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.docx",
-  "docx_sha256": "dcf0f5318abd8d0f22ca83b4aaac3584449bfc234cb78ec2ed8cb604a09af48a",
+  "docx_sha256": "e691f9268dd278cf1bc23c134a3fc5f2abe1418d2b8f453e4c5e5772626ecb57",
   "pdf_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.pdf",
-  "pdf_sha256": "270004b4a8f1f9e50e25e1cff0cee09b46ae15bf5c5fb41749fd9013300246fe",
-  "render_directory": "/tmp/codex-physres-weeks-stars-20261016/qa_en",
+  "pdf_sha256": "ba2794954bf2fa5a8db0aa407430a2ff614daa4361fe13abc7e397b8e4aa46d2",
+  "render_directory": "/tmp/codex-physres-qpcr-originals-20261016/qa_en",
   "pages": 6,
   "reviewed_pages": [
     1,
@@ -14,38 +14,32 @@
     5,
     6
   ],
-  "image_review": "All six rendered page PNGs and both separate figure JPEGs opened with view_image detail=original and visually inspected.",
-  "checks": {
-    "week4_and_week8_used_consistently": true,
-    "no_day28_or_day56_in_main_text": true,
-    "native_qPCR_formula_complete_page2": true,
-    "all_headings_captions_and_figures_complete": true,
-    "no_clipping_overlap_missing_glyphs_or_orphan_headings": true,
-    "no_final_blank_page": true,
-    "only_main_figures1_2": true,
-    "figure1_all_xlabels_week4_week4_week8": true,
-    "figure2_all_xlabels_week4_week4_week8": true,
-    "figure2_nox1_sham_model_two_stars": true,
-    "figure2_nox1_model_rest_one_star": true,
-    "figure2_nox4_sham_model_three_stars": true,
-    "figure2_nox4_model_rest_two_stars": true,
-    "figure2_caption_defines_all_three_star_thresholds": true,
-    "exact_P_values_retained_in_body": true
+  "image_review": "All six complete rendered PNGs opened with view_image detail=original and reviewed.",
+  "pdf_marker": {
+    "operation_kind": "edit",
+    "expected_output_count": 1,
+    "output_format": "pdf",
+    "success": true,
+    "run_count_this_revision": 1
   },
-  "separate_figures_reviewed": [
-    {
-      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Figures/Yuan_fig1.jpg",
-      "sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44",
-      "status": "PASS"
-    },
-    {
-      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Figures/Yuan_fig2.jpg",
-      "sha256": "4052df7154655225c3a97eb9fc869c3aab4bfbce808496f893c3cf8e828c2b02",
-      "status": "PASS"
-    }
-  ],
+  "checks": {
+    "all_pages_readable_no_overlap_clipping_missing_glyphs": true,
+    "no_orphan_heading_or_final_blank_page": true,
+    "native_qPCR_equation_complete_page2": true,
+    "gene_symbols_italicized": true,
+    "main_figures1_2_complete_with_captions": true,
+    "week4_week8_labels_and_star_thresholds_retained": true,
+    "restoration_and_model_are_separate_terminal_cohorts_wording_present": true,
+    "original_qPCR_exports_now_available_statement_present": true,
+    "heterogeneous_melt_profiles_and_two_conflicting_wells_reported": true,
+    "efficiency_and_reference_stability_not_validated_remains": true,
+    "NTC_noRT_records_unavailable_remains": true,
+    "source_exports_not_claimed_to_resolve_well_identity_or_specificity": true,
+    "no_new_detection_year_or_ethics_assertion_added_by_QA_agent": true
+  },
   "notes": [
-    "No formal DOCX or other package files modified; only updated rendered PDF copied to formal package.",
-    "Visual QA does not resolve experimental design or original record limitations."
+    "This agent performed layout/wording verification and did not modify DOCX or scientific/statistical inputs.",
+    "Underlying target specificity, conflicting well annotations, control/validation gaps and animal-to-sample identity limitations remain disclosed.",
+    "Only formal Yuan.pdf was overwritten with the verified render."
   ]
 }

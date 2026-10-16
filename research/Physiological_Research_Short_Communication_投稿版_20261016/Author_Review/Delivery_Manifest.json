@@ -3,9 +3,14 @@
   "package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
   "files": [
     {
+      "file": "Author_Review/Author_Clarifications_20261016.json",
+      "bytes": 847,
+      "sha256": "43e845390937b90565e9be735b5933bc13cc1c24b3c99d2f71ab3bf0ddb96bac"
+    },
+    {
       "file": "Author_Review/Chinese_Visual_QA.json",
-      "bytes": 2113,
-      "sha256": "08f1b8575e2903717cea0d461f568261cada03c87161e3907242b2807246e2ac"
+      "bytes": 2185,
+      "sha256": "15f1e16cd7703c5b79d572e6eb5902086e4951573d461d4dda94e710ec58e9d4"
     },
     {
       "file": "Author_Review/Cover_Visual_QA.json",
@@ -14,13 +19,13 @@
     },
     {
       "file": "Author_Review/Editorial_Revision_Record.json",
-      "bytes": 1524,
-      "sha256": "688f689295db843f88423aa5ea7c3ae97e83fee378c16a17e74fafae99b5503c"
+      "bytes": 1906,
+      "sha256": "949d86031a1f9567d77c4e68abc143c289743c6c36ea3c306a15073819911331"
     },
     {
       "file": "Author_Review/English_Visual_QA.json",
-      "bytes": 2244,
-      "sha256": "0d9a5260b4de8ce6faa1dc7ce9ac7e986f9280c54c0e419c6fad2ca524626d64"
+      "bytes": 2099,
+      "sha256": "e8be84c737014f79ac35a8b9a3115a563f8a040da46e214400af256c4ad7fe23"
     },
     {
       "file": "Author_Review/Figure_Preparation_Audit.json",
@@ -29,28 +34,43 @@
     },
     {
       "file": "Author_Review/Final_Delivery_Verification.json",
-      "bytes": 1550,
-      "sha256": "9eda3d30317bf621cfa28595b820508d9ec114306454fc35530448fefb989993"
+      "bytes": 2321,
+      "sha256": "a1ce4279a2e1ad0004348c5fa32e9b3e3cbe24c139ad186f05a0379f4ac6055b"
+    },
+    {
+      "file": "Author_Review/RTqPCR_Curve_Visual_Audit.json",
+      "bytes": 13859,
+      "sha256": "1f4cc9ff4b6f4af68430394993f8f9a4b25ff3d5f85d159c62169f185d1bde59"
+    },
+    {
+      "file": "Author_Review/RTqPCR_Posthoc_QC_Sensitivity.json",
+      "bytes": 112442,
+      "sha256": "2a7012bed031782a4d553331fb99705ac6e9e549e3926083eb7226d6e29f9ef1"
+    },
+    {
+      "file": "Author_Review/RTqPCR_Source_Audit.json",
+      "bytes": 130667,
+      "sha256": "fefa354b4e17886fbd370b01aba20766e41c44a81806d0ffb51a3c4e12f65e3c"
     },
     {
       "file": "Author_Review/Scientific_Integrity_QA.json",
-      "bytes": 8988,
-      "sha256": "02c55e4d108498cdc6951903db48789910f62c877fdb6c956d262be8e417d08a"
+      "bytes": 36085,
+      "sha256": "32029dfb5760e753caddfc625ffc8d2e453cb6c831a8ced5857330981f364225"
     },
     {
       "file": "Author_Review/Submission_Attachment_List.json",
-      "bytes": 4440,
-      "sha256": "2a0dd32ac2342ee29a7ef484c3e2c84104f7465c24c12e8fa883b1b1a5fd0a87"
+      "bytes": 4753,
+      "sha256": "59a29549c4057ee6dd8a9927f0937cd36d9c81613f4e2da78aa48c85dccbd1ba"
     },
     {
       "file": "Author_Review/Submission_Status.json",
-      "bytes": 629,
-      "sha256": "48830b2990b4df7fa945ba5504477c4692ba3c36d563fd2c3cf3abd1472fabe2"
+      "bytes": 684,
+      "sha256": "cd8d1f9e06200b269297ebddbf6a5cc458477a0fd67e36f4fe8496c68a4ec3f1"
     },
     {
       "file": "Author_Review/Supplementary_Visual_QA.json",
-      "bytes": 998,
-      "sha256": "cc9f5f81435a20e60d782a43affd315fa528b5bf0deb1061ba2f58076d8dffff"
+      "bytes": 6091,
+      "sha256": "7174fe952ff86e1fe83ecad14a3448355d634f4407703e26fc0f4b9c7f4a739d"
     },
     {
       "file": "Figures/Yuan_fig1.jpg",
@@ -94,8 +114,8 @@
     },
     {
       "file": "Short_Communication修订及投稿说明.md",
-      "bytes": 3501,
-      "sha256": "4f39bc8e97f7cf150bf07a2294113832a74a1e0a71a0078028f57d93878b6d75"
+      "bytes": 4804,
+      "sha256": "4f33640c99944b4174949a3836aaebf28efa1fb92dac7c03bd78106f9805ce72"
     },
     {
       "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
@@ -173,24 +193,29 @@
       "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468"
     },
     {
+      "file": "Supporting_Information/S7_File_RTqPCR_Original_Exports.zip",
+      "bytes": 2567868,
+      "sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
+    },
+    {
       "file": "Supporting_Information/Supplementary_Fig_S2.pdf",
       "bytes": 58566,
       "sha256": "15d2b1f14d5fe1f92fe9ca23e671525afb7b73a03cb837524a89560146175388"
     },
     {
       "file": "Yuan.docx",
-      "bytes": 773380,
-      "sha256": "dcf0f5318abd8d0f22ca83b4aaac3584449bfc234cb78ec2ed8cb604a09af48a"
+      "bytes": 773574,
+      "sha256": "e691f9268dd278cf1bc23c134a3fc5f2abe1418d2b8f453e4c5e5772626ecb57"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 414464,
-      "sha256": "270004b4a8f1f9e50e25e1cff0cee09b46ae15bf5c5fb41749fd9013300246fe"
+      "bytes": 415374,
+      "sha256": "ba2794954bf2fa5a8db0aa407430a2ff614daa4361fe13abc7e397b8e4aa46d2"
     },
     {
       "file": "Yuan_Short_Communication_待发送邮件.eml",
-      "bytes": 12530172,
-      "sha256": "f2dd42bd654576942cd1a9ff73af8110b24cd7851914236e5204e8b1a59ba258"
+      "bytes": 16046709,
+      "sha256": "9a7f02cfcd1ebac0e7b9a32736e23bb68d97e0c10185ecde59279beb31253539"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -199,18 +224,18 @@
     },
     {
       "file": "Yuan_supplementary_information.docx",
-      "bytes": 5986951,
-      "sha256": "5be3073b225d7a9131db0dc52c84885c60704bd66482d958136a2e2150f66c87"
+      "bytes": 5987606,
+      "sha256": "ddbcbdf693f18926911fad6b995b16b9f914a8d86dacafe6e844feaae8e3df82"
     },
     {
       "file": "Yuan_中文.docx",
-      "bytes": 773649,
-      "sha256": "a0e10f8f608daae9856b9f2d892884847c99b85eba79a25f5fcbe993932d8dc5"
+      "bytes": 773834,
+      "sha256": "adbd7245c34cdea1c0e09c36eb46c6dd2e44a9397e171990abd223958e9d42e9"
     },
     {
       "file": "投稿邮件正文.txt",
-      "bytes": 1402,
-      "sha256": "fdfc25c6cf51ae8eb26cd9674427c59bfe42ae827a6c4d13fb5c1a0d22c417e7"
+      "bytes": 1401,
+      "sha256": "d829fc0c4ae6a1d796e5b2110507e4997e368c9154e385400017cdce181a9b46"
     }
   ],
   "excludes": [

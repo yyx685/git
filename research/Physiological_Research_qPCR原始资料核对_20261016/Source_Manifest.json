@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-16",
+  "source": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-10/RT-qPCR(1)/RT-qPCR",
+  "unchanged_copies": true,
+  "files": [
+    {
+      "file": "原始数据/AT1-R.xlsx",
+      "bytes": 282674,
+      "sha256": "6dc9d35f315679b36eaedd7a51b7c2d028540d5cbebbbac3b04177c445e1ab7d"
+    },
+    {
+      "file": "原始数据/Nox1、Nox4、β-actin.xlsx",
+      "bytes": 325644,
+      "sha256": "913fbf91e139724e96c5ce0fe12333deb25421a63dac519ad2ab4708fc9cda29"
+    },
+    {
+      "file": "原始数据/RhoA、ROCK1、ROCK2.xlsx",
+      "bytes": 320714,
+      "sha256": "20fa10bdd9ab9e68fb2c4cd2d31459aa0fd6108d0f0a85965a54710b254cbdae"
+    },
+    {
+      "file": "实时荧光定量PCR报告.doc",
+      "bytes": 64512,
+      "sha256": "5d5bab729f60bf5e79942ac524d36047dfaeab7415ba5e7aa742958c99ecb4c0"
+    },
+    {
+      "file": "扩增曲线/AT1-R.png",
+      "bytes": 84085,
+      "sha256": "0618d228b98602492b94c22330c5362a875ddfa6a97a0782b9803f02823b75de"
+    },
+    {
+      "file": "扩增曲线/Nox1.png",
+      "bytes": 80276,
+      "sha256": "3bfbbf26ee42afe669053a1ec6bad9b3571d0328f3852a6f9688527d49e1f7f2"
+    },
+    {
+      "file": "扩增曲线/Nox4.png",
+      "bytes": 80470,
+      "sha256": "5f8c3fc75553e4d7787058fa075a38fc5c8b02fec24080b8cbe4a94a56ceab5e"
+    },
+    {
+      "file": "扩增曲线/ROCK1.png",
+      "bytes": 101420,
+      "sha256": "b640e0af19e44cd58e3c828500132410e7254487accc4c149ddb4b3feecd3a60"
+    },
+    {
+      "file": "扩增曲线/ROCK2.png",
+      "bytes": 93305,
+      "sha256": "282e0c0f36c00c14df96787c819acf48e488367456d474986d493f9d8616fc87"
+    },
+    {
+      "file": "扩增曲线/RhoA.png",
+      "bytes": 86102,
+      "sha256": "720e3987a3bafcc828924346fd91dc32fdb65419916733cd1dac8ab008da7894"
+    },
+    {
+      "file": "扩增曲线/β-actin.png",
+      "bytes": 80638,
+      "sha256": "3ee53cc8616d781af17996797a84b70c0c6e6147a0d418d022d9e9e4dca9aa1f"
+    },
+    {
+      "file": "溶解曲线/AT1-R.png",
+      "bytes": 161843,
+      "sha256": "8c82f8d98ea9b46977732a6f68005e1f064ed840f0cac1cbb4ca90e7c63733b4"
+    },
+    {
+      "file": "溶解曲线/Nox1.png",
+      "bytes": 200253,
+      "sha256": "813cadddfa85fd2aa26b929b18c695dda53a11b283753e5fd75e46fab2d36951"
+    },
+    {
+      "file": "溶解曲线/Nox4.png",
+      "bytes": 178036,
+      "sha256": "946504edcdbed9f2fdfdfec9bb324bc881e6d3d45f6481e6c7760e4200d20d0b"
+    },
+    {
+      "file": "溶解曲线/ROCK1.png",
+      "bytes": 155911,
+      "sha256": "4bf3ad32eab43480d0f1c757f3da1d388392b52503e0fea503bde52dd29f4410"
+    },
+    {
+      "file": "溶解曲线/ROCK2.png",
+      "bytes": 188349,
+      "sha256": "ddc4806fc8004300c6744ff0e7c7ebc8eb4f7513e153b5444882000c9eb92b33"
+    },
+    {
+      "file": "溶解曲线/RhoA.png",
+      "bytes": 170022,
+      "sha256": "1fe5b7b46ee5777f58adf32552fe95f196fab94667aca531e9ba707b9b79b1e0"
+    },
+    {
+      "file": "溶解曲线/β-actin.png",
+      "bytes": 155277,
+      "sha256": "5b1cf4c110b569a6f9bbf811a3f1c284138bbc826ab149e711a867219cdf18e2"
+    },
+    {
+      "file": "结果分析.xls",
+      "bytes": 90112,
+      "sha256": "33962c9ff517a097a58f0a14a5375c27895f8284bc866a5e14fa5a54c4cbc12b"
+    }
+  ]
+}

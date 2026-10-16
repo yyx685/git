@@ -2,18 +2,18 @@
   "to": "physres@fgu.cas.cz",
   "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
   "sent": false,
-  "attachment_count": 19,
-  "total_bytes": 9152352,
+  "attachment_count": 20,
+  "total_bytes": 11721979,
   "attachments": [
     {
       "file": "Yuan.docx",
-      "bytes": 773380,
-      "sha256": "dcf0f5318abd8d0f22ca83b4aaac3584449bfc234cb78ec2ed8cb604a09af48a"
+      "bytes": 773574,
+      "sha256": "e691f9268dd278cf1bc23c134a3fc5f2abe1418d2b8f453e4c5e5772626ecb57"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 414464,
-      "sha256": "270004b4a8f1f9e50e25e1cff0cee09b46ae15bf5c5fb41749fd9013300246fe"
+      "bytes": 415374,
+      "sha256": "ba2794954bf2fa5a8db0aa407430a2ff614daa4361fe13abc7e397b8e4aa46d2"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -22,8 +22,8 @@
     },
     {
       "file": "Yuan_supplementary_information.docx",
-      "bytes": 5986951,
-      "sha256": "5be3073b225d7a9131db0dc52c84885c60704bd66482d958136a2e2150f66c87"
+      "bytes": 5987606,
+      "sha256": "ddbcbdf693f18926911fad6b995b16b9f914a8d86dacafe6e844feaae8e3df82"
     },
     {
       "file": "Figures/Yuan_fig1.jpg",
@@ -99,6 +99,11 @@
       "file": "Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
       "bytes": 8434,
       "sha256": "1c1ede06921fc66948a37991fb986b40cac51e68685f1aa9bccd32c1bbd48301"
+    },
+    {
+      "file": "Supporting_Information/S7_File_RTqPCR_Original_Exports.zip",
+      "bytes": 2567868,
+      "sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
     }
   ],
   "excluded": "Chinese author copy; author-review audits; Markdown notes; duplicate TIFF/PDF/SVG/PNG main-figure backups; supplementary TIFFs already embedded in supplementary Word. Prior source-figure archive remains in the preserved previous package.",
@@ -109,5 +114,6 @@
   ],
   "HE_location": "Supplementary Fig. S1 in the supplementary Word document, with the supplied source composite in Supplementary File 6.",
   "article_type": "Short Communication",
-  "supplementary_policy_note": "Official short-communication guide does not explicitly specify a supplementary-item exemption from the two figure/table limit. Separate supplementary placement is disclosed in the cover letter for editorial guidance."
+  "supplementary_policy_note": "Official short-communication guide does not explicitly specify a supplementary-item exemption from the two figure/table limit. Separate supplementary placement is disclosed in the cover letter for editorial guidance.",
+  "new_RTqPCR_source_archive": "Supplementary File 7: 19 unmodified source files; native .ord files not supplied."
 }

@@ -1,28 +1,141 @@
 {
   "status": "PASS",
-  "date": "2026-10-16",
-  "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_supplementary_information.docx",
-  "sha256": "5be3073b225d7a9131db0dc52c84885c60704bd66482d958136a2e2150f66c87",
-  "page_count": 9,
-  "pages_inspected": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9
-  ],
-  "render_pdf_sha256": "168500f5507bbc2383c1533f80852e1861bb72ec067e60d6b43d7af23f8144ce",
+  "review_date": "2026-10-16",
+  "source_document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_supplementary_information.docx",
+  "document_sha256": "ddbcbdf693f18926911fad6b995b16b9f914a8d86dacafe6e844feaae8e3df82",
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "fontconfig": "/tmp/codex-physres-20261015/fontconfig/fonts.conf",
+  "render_directory": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2",
+  "pdf_for_internal_QA": {
+    "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/Yuan_supplementary_information.pdf",
+    "sha256": "816dfb19959e091d7db80827818f1f027623540fe94d460e5e96c3989d35014f"
+  },
+  "page_count": 9,
+  "all_pages_opened_with_view_image_detail_original": true,
+  "pages": [
+    {
+      "page": 1,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-1.png",
+      "sha256": "78b27f227ca97bf37dd60fe0bc34f5047f39f576228a587fece7ed23386c7350",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Full source/data/code index readable; File7 included, no bottom clipping."
+    },
+    {
+      "page": 2,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-2.png",
+      "sha256": "73e0caefc67ae0e4955653e57b2a06c70f19e9c875835cd40b44adfb62df7015",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Final Appendix4/5 index paragraph followed on the same page by complete HE title, image and illustrative legend; no index-only orphan page."
+    },
+    {
+      "page": 3,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-3.png",
+      "sha256": "5055319f78c770d3decb0a4a88733cc8054e8474330aa3ee90a30af4261cf64d",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Complete archived BP four-panel plot and descriptive legend, with readable labels and units."
+    },
+    {
+      "page": 4,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-4.png",
+      "sha256": "87be5a9e5f56b480ffbc09df106fd0fad05972c3e99597ceff2c57f4ebf0cc12",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "S1 table with three outcomes, all differences, confidence intervals, adjusted P and footnote complete."
+    },
+    {
+      "page": 5,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-5.png",
+      "sha256": "5987235a8e3b27a94dc584f01390f9f81c5ee3aeb503e903bc86df4c4c837fe6",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Animal housing, ethics and flow include four reserve animals and separate week4/week8 terminal cohorts."
+    },
+    {
+      "page": 6,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-6.png",
+      "sha256": "e64dbf541d7f96318e95374593f706fa7d08126afb6abd88a1a0ec33c76c8ecf",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Surgery, analgesia omission, terminal sampling/histology and biochemical methods readable."
+    },
+    {
+      "page": 7,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-7.png",
+      "sha256": "e44449171946617f67e21f3925ec50a1fd4c604f2d1e86d23466cbb4aa15f961",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Biochemical and qPCR methods complete; native Q=2^(-deltaCq) formula visible with correct superscript."
+    },
+    {
+      "page": 8,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-8.png",
+      "sha256": "8b9fbb2d1a30b122c1a48d95d8c9d2c4620d3986883dcc83e645d968627e3eb4",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Identity/validation caveats and full Plate/Cq/Tm QC paragraph in normal body text, followed by statistics and extended results."
+    },
+    {
+      "page": 9,
+      "path": "/tmp/codex-physres-qpcr-originals-20261016/qa_si_final2/page-9.png",
+      "sha256": "d0e124a236c0383411f692b79155e488e1429668ca135ed90035ac07839d3e70",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "reviewed_complete_image_at_original_resolution": true,
+      "result": "PASS",
+      "observations": "Remaining redox/transcript/restoration results and HE/BP caveats complete, including week8=four weeks after implant removal."
+    }
+  ],
   "checks": {
-    "all_pages_clean_at_original_resolution": true,
-    "week4_week8_all_sampling_references": true,
-    "sampling_weeks1_2_3_4_equivalent_to_original_schedule": true,
-    "week8_is_four_weeks_after_removal": true,
-    "native_equation_and_tableS1_complete": true
-  }
+    "all_pages_visually_inspected": true,
+    "no_index_only_orphan_page": true,
+    "new_qpcr_QC_paragraph_Normal_body_style": true,
+    "new_qpcr_QC_paragraph_not_whole_bold": true,
+    "complete_native_formula_visible": true,
+    "HE_BP_images_and_captions_complete": true,
+    "S1_table_and_footnote_complete": true,
+    "no_clipping_overlap_missing_glyph_or_blank_page": true,
+    "source_DOCX_not_modified_by_reviewer": true
+  },
+  "notes": [
+    "The initial ten-page render had an index-only page and a QC paragraph inheriting Heading2. Root repaired pagination/style and moved the unchanged QC text after the complete qPCR method. The final document was rerendered and all nine latest full-page PNGs were inspected.",
+    "PDF/page images are internal QA artifacts, not extra submission attachments."
+  ]
 }

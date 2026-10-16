@@ -1,0 +1,3024 @@
+{
+  "status": "PASS: PRIMARY RESULTS REPRODUCED; EXPLORATORY SCENARIOS COMPUTED",
+  "date": "2026-10-16",
+  "purpose": "Assess numerical sensitivity to already identified source-definition/melting discrepancies, not choose favorable P values, determine valid exclusions or replace formal results.",
+  "classification": "POST HOC EXPLORATORY; exclusions are hypothetical and unvalidated.",
+  "source_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "source_sha256": {
+    "S2_Data_RTqPCR_Animal_Paired_Values.csv": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+    "S4_File_RTqPCR_Statistical_Outputs.json": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+    "S2_Appendix_Reproduce_RTqPCR.py": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb"
+  },
+  "methods": {
+    "experimental_unit": "Author-confirmed independent animal, using existing paired target/reference Cq; no pairing inferred solely from well order.",
+    "inference": "Two-sided independent-group Welch t tests on delta Cq. Each scenario recalculates all 18 tests and adjusts them together with Holm.",
+    "descriptive_expression": "Q=2^(-delta Cq), with assumed efficiency E=2; Q divided by scenario-specific retained sham arithmetic mean Q for that gene.",
+    "no_new_quality_control_validation": "Neither apparent numerical robustness nor sensitivity legitimizes retrospective exclusion or establishes assay specificity. Standard curves/NTC/no-RT and explanations for plate discrepancies remain required or unavailable.",
+    "restoration_time": "Restoration is week8, four weeks after week4 removal; comparisons remain confounded by unmatched sampling time/second surgery.",
+    "all_primary_records_preserved": "No formal CSV/JSON, manuscript, source workbook, figures or primary result were changed."
+  },
+  "checks": {
+    "baseline_all_inputs_summaries_and_18_results_reproduced": true,
+    "scenario_A_omits_exactly_2_target_records": true,
+    "scenario_B_omits_exactly_4_target_records": true,
+    "both_scenarios_Holm_family_size_18": true,
+    "formal_input_files_not_modified": true
+  },
+  "baseline_reproduction": {
+    "verification": "PASS: all input pairs, S2 rows, summaries and 18-test outputs match S4.",
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1"
+    },
+    "multiplicity": {
+      "family_size": 18,
+      "method": "Holm step-down",
+      "alpha": 0.05,
+      "significant_comparison_count": 16
+    },
+    "descriptive_summaries": [
+      {
+        "target": "AT1-R",
+        "calibrator_sham_arithmetic_mean_Q": 4.481962532140513e-06,
+        "groups": [
+          {
+            "group": "Sham-operated",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 17.84,
+              "sample_sd": 0.5185364018080114,
+              "min": 17.33,
+              "max": 18.51
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.0000000000000002,
+              "sample_sd": 0.3237232837274092,
+              "min": 0.597677020811696,
+              "max": 1.3541973309783473
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.840252070019963,
+              "p": 0.13099301540965763
+            }
+          },
+          {
+            "group": "Model",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 16.213333333333335,
+              "sample_sd": 0.25928105728468925,
+              "min": 15.939999999999998,
+              "max": 16.549999999999997
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 2.9757448677150697,
+              "sample_sd": 0.5235717669000234,
+              "min": 2.325334044988534,
+              "max": 3.5490625000732554
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.9045961305551612,
+              "p": 0.40180945707169435
+            }
+          },
+          {
+            "group": "Restoration",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 16.990000000000002,
+              "sample_sd": 0.28270125574535315,
+              "min": 16.590000000000003,
+              "max": 17.28
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.7420823779095584,
+              "sample_sd": 0.34773939354364025,
+              "min": 1.4019529967214925,
+              "max": 2.26174766324431
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8897851202980329,
+              "p": 0.3170634494262852
+            }
+          }
+        ],
+        "welch_anova_delta_Cq_secondary_diagnostic": {
+          "F": 26.338141735688378,
+          "df1": 2.0,
+          "df2": 9.49149948683046,
+          "p_raw": 0.00013377472638073732,
+          "multiplicity_adjusted": false
+        },
+        "levene_median_diagnostic": {
+          "statistic": 1.1921557884163327,
+          "p": 0.3307525597950129
+        }
+      },
+      {
+        "target": "Nox1",
+        "calibrator_sham_arithmetic_mean_Q": 6.130568614697139e-05,
+        "groups": [
+          {
+            "group": "Sham-operated",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 14.005,
+              "sample_sd": 0.2012709616412661,
+              "min": 13.82,
+              "max": 14.27
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.0,
+              "sample_sd": 0.13372303808076616,
+              "min": 0.8256599222886946,
+              "max": 1.127884692235062
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.7950829644878299,
+              "p": 0.05305769218201117
+            }
+          },
+          {
+            "group": "Model",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 13.455,
+              "sample_sd": 0.14734313692873527,
+              "min": 13.190000000000001,
+              "max": 13.600000000000001
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.4590993753794583,
+              "sample_sd": 0.15585825718632776,
+              "min": 1.3136851827098133,
+              "max": 1.745474866455313
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8962075110351206,
+              "p": 0.351998365451424
+            }
+          },
+          {
+            "group": "Restoration",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 13.758333333333335,
+              "sample_sd": 0.11052903087726167,
+              "min": 13.64,
+              "max": 13.91
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.1800044318122989,
+              "sample_sd": 0.08953992487365975,
+              "min": 1.059673326845085,
+              "max": 1.2777623923049128
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.9019455784635801,
+              "p": 0.3855578493785595
+            }
+          }
+        ],
+        "welch_anova_delta_Cq_secondary_diagnostic": {
+          "F": 14.948666106578536,
+          "df1": 2.0,
+          "df2": 9.489940779889832,
+          "p_raw": 0.0011672659372964265,
+          "multiplicity_adjusted": false
+        },
+        "levene_median_diagnostic": {
+          "statistic": 0.3986772000734794,
+          "p": 0.6781124738850508
+        }
+      },
+      {
+        "target": "Nox4",
+        "calibrator_sham_arithmetic_mean_Q": 2.4593769811614237e-06,
+        "groups": [
+          {
+            "group": "Sham-operated",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 18.665,
+              "sample_sd": 0.3286791748803093,
+              "min": 18.229999999999997,
+              "max": 19.029999999999998
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.0,
+              "sample_sd": 0.2333515455474482,
+              "min": 0.7595809751252712,
+              "max": 1.3225072915286489
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.9056343514405159,
+              "p": 0.40830375114360795
+            }
+          },
+          {
+            "group": "Model",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 17.119999999999997,
+              "sample_sd": 0.29305289624912456,
+              "min": 16.830000000000002,
+              "max": 17.54
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 2.902300965578845,
+              "sample_sd": 0.5581211787769389,
+              "min": 2.133579216445514,
+              "max": 3.4901176664537608
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8741505067787134,
+              "p": 0.24325632531266783
+            }
+          },
+          {
+            "group": "Restoration",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 17.926666666666666,
+              "sample_sd": 0.1953117166650947,
+              "min": 17.67,
+              "max": 18.11
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.6446561723154243,
+              "sample_sd": 0.22739297758675475,
+              "min": 1.437214779649093,
+              "max": 1.9497317895437087
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8558032502140747,
+              "p": 0.17522634371528562
+            }
+          }
+        ],
+        "welch_anova_delta_Cq_secondary_diagnostic": {
+          "F": 34.98733506917509,
+          "df1": 2.0,
+          "df2": 9.46130257664268,
+          "p_raw": 4.2517197655669175e-05,
+          "multiplicity_adjusted": false
+        },
+        "levene_median_diagnostic": {
+          "statistic": 0.672942399168583,
+          "p": 0.5249539276908619
+        }
+      },
+      {
+        "target": "RhoA",
+        "calibrator_sham_arithmetic_mean_Q": 0.013055349169203334,
+        "groups": [
+          {
+            "group": "Sham-operated",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 6.265000000000001,
+              "sample_sd": 0.14180973168298383,
+              "min": 6.080000000000002,
+              "max": 6.449999999999999
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.0,
+              "sample_sd": 0.09772778956758385,
+              "min": 0.8761289607295264,
+              "max": 1.1322677424022858
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.9582481651940531,
+              "p": 0.8061425096023425
+            }
+          },
+          {
+            "group": "Model",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 5.698333333333334,
+              "sample_sd": 0.12480651692386337,
+              "min": 5.57,
+              "max": 5.93
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.4796439206823289,
+              "sample_sd": 0.12253601713303619,
+              "min": 1.256329721176757,
+              "max": 1.6124061000362317
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8707942087689177,
+              "p": 0.22938915611978733
+            }
+          },
+          {
+            "group": "Restoration",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 5.953333333333333,
+              "sample_sd": 0.04501851470969201,
+              "min": 5.899999999999999,
+              "max": 6.0
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.2366760847520288,
+              "sample_sd": 0.03864111156201794,
+              "min": 1.1968274304649233,
+              "max": 1.282727879207807
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8361580333947655,
+              "p": 0.12111308219779027
+            }
+          }
+        ],
+        "welch_anova_delta_Cq_secondary_diagnostic": {
+          "F": 24.919839861513207,
+          "df1": 2.0,
+          "df2": 7.946415386755246,
+          "p_raw": 0.00037711804019371193,
+          "multiplicity_adjusted": false
+        },
+        "levene_median_diagnostic": {
+          "statistic": 1.8416585838990596,
+          "p": 0.19265467164402553
+        }
+      },
+      {
+        "target": "ROCK1",
+        "calibrator_sham_arithmetic_mean_Q": 0.004198546651522116,
+        "groups": [
+          {
+            "group": "Sham-operated",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 7.898333333333333,
+              "sample_sd": 0.09196013629103952,
+              "min": 7.800000000000001,
+              "max": 8.009999999999998
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.0000000000000002,
+              "sample_sd": 0.06360187535594962,
+              "min": 0.9239548544481602,
+              "max": 1.0687276626021145
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8585182840381067,
+              "p": 0.18414039607407157
+            }
+          },
+          {
+            "group": "Model",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 6.013333333333333,
+              "sample_sd": 0.2844409722010296,
+              "min": 5.68,
+              "max": 6.510000000000002
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 3.7446696767769807,
+              "sample_sd": 0.6899097327935962,
+              "min": 2.613338972362088,
+              "max": 4.6456944379828204
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.9391032982329522,
+              "p": 0.6519821144128459
+            }
+          },
+          {
+            "group": "Restoration",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 6.986666666666667,
+              "sample_sd": 0.07788880963698595,
+              "min": 6.84,
+              "max": 7.059999999999999
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.8803680551413622,
+              "sample_sd": 0.10461461715627156,
+              "min": 1.784963120395891,
+              "max": 2.0790064969326303
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.844604633462909,
+              "p": 0.14226567253282807
+            }
+          }
+        ],
+        "welch_anova_delta_Cq_secondary_diagnostic": {
+          "F": 220.58424594676512,
+          "df1": 2.0,
+          "df2": 9.050460524062153,
+          "p_raw": 2.0979809902784102e-08,
+          "multiplicity_adjusted": false
+        },
+        "levene_median_diagnostic": {
+          "statistic": 2.8209092428547464,
+          "p": 0.09121678943306018
+        }
+      },
+      {
+        "target": "ROCK2",
+        "calibrator_sham_arithmetic_mean_Q": 0.00010867409460037962,
+        "groups": [
+          {
+            "group": "Sham-operated",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 13.185,
+              "sample_sd": 0.24777005468780963,
+              "min": 12.969999999999999,
+              "max": 13.5
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 1.0,
+              "sample_sd": 0.16529433874457383,
+              "min": 0.7942715885300733,
+              "max": 1.1468719358526045
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.804257262886519,
+              "p": 0.06417063772874676
+            }
+          },
+          {
+            "group": "Model",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 11.666666666666666,
+              "sample_sd": 0.14868310820892483,
+              "min": 11.489999999999998,
+              "max": 11.86
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 2.842879337840472,
+              "sample_sd": 0.28821995144823237,
+              "min": 2.475473153653249,
+              "max": 3.1991847372908984
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.9094856958526039,
+              "p": 0.4330214737302801
+            }
+          },
+          {
+            "group": "Restoration",
+            "n_biological_animals": 6,
+            "delta_Cq_statistics": {
+              "n": 6,
+              "mean": 12.091666666666667,
+              "sample_sd": 0.3772753194507518,
+              "min": 11.75,
+              "max": 12.8
+            },
+            "normalized_expression_statistics": {
+              "n": 6,
+              "mean": 2.163376120246753,
+              "sample_sd": 0.48974187103668404,
+              "min": 1.290298002282451,
+              "max": 2.6716005261312477
+            },
+            "shapiro_wilk_diagnostic": {
+              "W": 0.8458177152126398,
+              "p": 0.14555457642296538
+            }
+          }
+        ],
+        "welch_anova_delta_Cq_secondary_diagnostic": {
+          "F": 77.05157745309566,
+          "df1": 2.0,
+          "df2": 8.874578205201093,
+          "p_raw": 2.462367503126241e-06,
+          "multiplicity_adjusted": false
+        },
+        "levene_median_diagnostic": {
+          "statistic": 0.6702844086344714,
+          "p": 0.5262361340317872
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "gene": "AT1-R",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.6266666666666652,
+        "t_statistic": -6.8728304328940455,
+        "degrees_of_freedom": 7.353147076164709,
+        "p_raw": 0.00018943288059886202,
+        "delta_ct_difference_CI95_unadjusted": [
+          -2.1809247450654383,
+          -1.072408588267892
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 3.0879869734486682,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          2.1029413116526143,
+          4.53444111604569
+        ],
+        "arithmetic_mean_expression_ratio": 2.9757448677150693,
+        "p_holm_18_test_family": 0.0024626274477852063,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "AT1-R",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.8499999999999979,
+        "t_statistic": -3.5253830555094816,
+        "degrees_of_freedom": 7.731048527930204,
+        "p_raw": 0.008223111578699472,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.4093821661739276,
+          -0.2906178338260681
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.8025009252216577,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.2231639852462164,
+          2.6562338530355962
+        ],
+        "arithmetic_mean_expression_ratio": 1.742082377909558,
+        "p_holm_18_test_family": 0.024669334736098416,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "AT1-R",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.7766666666666673,
+        "t_statistic": 4.959467827382761,
+        "degrees_of_freedom": 9.926136352522745,
+        "p_raw": 0.00058325149828434,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.42738155511612097,
+          1.1259517782172135
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5837139018784856,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.45819963730965335,
+          0.743610189756534
+        ],
+        "arithmetic_mean_expression_ratio": 0.5854273317615495,
+        "p_holm_18_test_family": 0.00466601198627472,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox1",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.5500000000000007,
+        "t_statistic": -5.400989230438218,
+        "degrees_of_freedom": 9.163409762296084,
+        "p_raw": 0.000406600320882398,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.7797380050916953,
+          -0.3202619949083061
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.464085695945626,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.2485572676031385,
+          1.7168190684497526
+        ],
+        "arithmetic_mean_expression_ratio": 1.4590993753794583,
+        "p_holm_18_test_family": 0.0037132651528660066,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.24666666666666615,
+        "t_statistic": -2.63130343068637,
+        "degrees_of_freedom": 7.764314468863855,
+        "p_raw": 0.03090012716581939,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.46398628393748986,
+          -0.02934704939584243
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.1864626349084866,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.0205501294961354,
+          1.379347807960196
+        ],
+        "arithmetic_mean_expression_ratio": 1.1800044318122989,
+        "p_holm_18_test_family": 0.06180025433163878,
+        "significant_at_holm_0_05": false
+      },
+      {
+        "gene": "Nox1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.30333333333333456,
+        "t_statistic": 4.033900362186657,
+        "degrees_of_freedom": 9.273867363095714,
+        "p_raw": 0.0027796840432579456,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.13399074559881466,
+          0.4726759210678545
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.8103778612099424,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.7206267337912853,
+          0.9113071263456676
+        ],
+        "arithmetic_mean_expression_ratio": 0.8087210862559809,
+        "p_holm_18_test_family": 0.013898420216289727,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox4",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.5450000000000017,
+        "t_statistic": -8.594171298644973,
+        "degrees_of_freedom": 9.871199667257784,
+        "p_raw": 6.814739369078998e-06,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.9462687973733597,
+          -1.1437312026266437
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.918040688480354,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          2.209517262516283,
+          3.8537655279188607
+        ],
+        "arithmetic_mean_expression_ratio": 2.902300965578845,
+        "p_holm_18_test_family": 0.00010222109053618496,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox4",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.7383333333333333,
+        "t_statistic": -4.7303042363013175,
+        "degrees_of_freedom": 8.139642371649964,
+        "p_raw": 0.0014138277512050575,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.0971958294003867,
+          -0.37947083726627984
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.6682474901395274,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.3008646268380348,
+          2.1393845531194833
+        ],
+        "arithmetic_mean_expression_ratio": 1.6446561723154243,
+        "p_holm_18_test_family": 0.009896794258435402,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox4",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.8066666666666684,
+        "t_statistic": 5.610637376788157,
+        "degrees_of_freedom": 8.709891781256463,
+        "p_raw": 0.00037132651528660066,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.4797672572302515,
+          1.1335660761030852
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5717012434834522,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.4557877083980616,
+          0.717093299749712
+        ],
+        "arithmetic_mean_expression_ratio": 0.5666731988932128,
+        "p_holm_18_test_family": 0.0037132651528660066,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "RhoA",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.5666666666666664,
+        "t_statistic": -7.347681111051006,
+        "degrees_of_freedom": 9.841192479625917,
+        "p_raw": 2.6846083336049148e-05,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.7388814412030816,
+          -0.3944518921302512
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.481097552286564,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.3144432827948787,
+          1.668881410177646
+        ],
+        "arithmetic_mean_expression_ratio": 1.4796439206823289,
+        "p_holm_18_test_family": 0.00037584516670468806,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "RhoA",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.3116666666666674,
+        "t_statistic": -5.1310927915950435,
+        "degrees_of_freedom": 5.99765785681433,
+        "p_raw": 0.0021572124104184387,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.46030811346582756,
+          -0.16302521986750731
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.2411406940043308,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.1196324608678498,
+          1.3758356211997758
+        ],
+        "arithmetic_mean_expression_ratio": 1.2366760847520288,
+        "p_holm_18_test_family": 0.012943274462510632,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "RhoA",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.254999999999999,
+        "t_statistic": 4.707803736318353,
+        "degrees_of_freedom": 6.279432644170195,
+        "p_raw": 0.0029250227683994046,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.12387870015210711,
+          0.3861212998478909
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.8379871346679492,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.7651840465668553,
+          0.917717039475215
+        ],
+        "arithmetic_mean_expression_ratio": 0.8357930360581235,
+        "p_holm_18_test_family": 0.013898420216289727,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK1",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.8850000000000007,
+        "t_statistic": -15.445689487185952,
+        "degrees_of_freedom": 6.033941284456664,
+        "p_raw": 4.4352725635613866e-06,
+        "delta_ct_difference_CI95_unadjusted": [
+          -2.183215690244159,
+          -1.5867843097558425
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 3.693529242917581,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          3.0037907383216758,
+          4.541647357202279
+        ],
+        "arithmetic_mean_expression_ratio": 3.74466967677698,
+        "p_holm_18_test_family": 7.096436101698218e-05,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.9116666666666662,
+        "t_statistic": -18.530133514375848,
+        "degrees_of_freedom": 9.736331325524292,
+        "p_raw": 6.45221709682362e-09,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.021692921382373,
+          -0.8016404119509593
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.8812175112725753,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.7430819662038706,
+          2.0303000050111604
+        ],
+        "arithmetic_mean_expression_ratio": 1.8803680551413617,
+        "p_holm_18_test_family": 1.1613990774282516e-07,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.9733333333333345,
+        "t_statistic": 8.08433244553867,
+        "degrees_of_freedom": 5.745642803300849,
+        "p_raw": 0.0002389203556481727,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.6755408276842165,
+          1.2711258389824525
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5093279049786458,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.41433631020968015,
+          0.6260974681621705
+        ],
+        "arithmetic_mean_expression_ratio": 0.5021452404207214,
+        "p_holm_18_test_family": 0.0028670442677780723,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK2",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.5183333333333344,
+        "t_statistic": -12.870878267063325,
+        "degrees_of_freedom": 8.187665083190012,
+        "p_raw": 1.0185302550438863e-06,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.7892832379778532,
+          -1.2473834286888157
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.8645992689156636,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          2.374104483191439,
+          3.45643126895627
+        ],
+        "arithmetic_mean_expression_ratio": 2.842879337840472,
+        "p_holm_18_test_family": 1.7315014335746067e-05,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK2",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.0933333333333337,
+        "t_statistic": -5.933408842216278,
+        "degrees_of_freedom": 8.636541172897816,
+        "p_raw": 0.00025854211940903095,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.5128644238807532,
+          -0.6738022427859143
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.1336644858907157,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.5952717929798759,
+          2.853760818930697
+        ],
+        "arithmetic_mean_expression_ratio": 2.163376120246753,
+        "p_holm_18_test_family": 0.0028670442677780723,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK2",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.4250000000000007,
+        "t_statistic": 2.5671805841156736,
+        "degrees_of_freedom": 6.516543195708527,
+        "p_raw": 0.0395153992102046,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.027568338313717022,
+          0.8224316616862843
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.7448387315613507,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.5654880092226485,
+          0.9810725019555413
+        ],
+        "arithmetic_mean_expression_ratio": 0.7609806337718547,
+        "p_holm_18_test_family": 0.06180025433163878,
+        "significant_at_holm_0_05": false
+      }
+    ],
+    "limitations": [
+      "The 100% equal-efficiency assumption requires experimental confirmation; a shared efficiency does not substitute for measured amplification-efficiency and assay-specificity validation.",
+      "Amplification/melting curves, no-template/no-RT controls, and assay detection/quantification limits are unavailable in supplied files. High Ct values for NOX4/AT1-R warrant review of raw curves and assay qualification; no values excluded.",
+      "β-actin is the only reference gene. Lack of a significant between-group β-actin Ct difference would not establish reference-gene stability or justify unverified normalization assumptions.",
+      "PCR report does not list RhoA/ROCK1/ROCK2 primers although the XLS contains those results. Their assay identities remain to be documented.",
+      "SCG group lacks original Ct data and is excluded from reanalysis.",
+      "The user supplied the biological-repeat and matching confirmation; original XLS does not itself contain specimen identifiers. Source columns are retained for traceability.",
+      "Each animal has one recorded qPCR measurement; technical repeat precision cannot be assessed from this workbook.",
+      "The 95% effect intervals are nominal, not simultaneous family-wise intervals; statistical significance is judged by the 18-test Holm-adjusted P values.",
+      "Results are an exploratory retrospective reanalysis of supplied data; they do not establish causal activation/inhibition of a pathway or mediation by the sympathetic nervous system."
+    ]
+  },
+  "scenarios": [
+    {
+      "name": "A: provisionally omit only two Plate/Cq-definition conflicts",
+      "classification": "POST HOC EXPLORATORY SENSITIVITY SCENARIO; NOT A CORRECTED PRIMARY ANALYSIS",
+      "exclusion_legal_or_scientific_validity_established": false,
+      "exclusion_scope": "Only the listed target/group/source-column records are provisionally omitted. Other targets, paired reference inputs used by other targets, and all other observations are retained. No outliers selected by P values.",
+      "excluded_records_with_reasons": [
+        {
+          "target": "Nox1",
+          "group": "Model",
+          "source_worksheet_column": "D",
+          "well": "B10-Ch5",
+          "issue": "Plate Empty/[none] versus Cq Results SYBR Unknown; divergent reported Tm78.59 C."
+        },
+        {
+          "target": "Nox4",
+          "group": "Sham-operated",
+          "source_worksheet_column": "F",
+          "well": "D12-Ch5",
+          "issue": "Plate Empty/[none] with blank Target versus Cq Results SYBR Unknown; reported Tm77.97 C."
+        }
+      ],
+      "removed_input_records": [
+        {
+          "target": "Nox1",
+          "group": "Model",
+          "source_worksheet_column": "D",
+          "target_Cq_source_row": 8,
+          "Actb_Cq_source_row": 3,
+          "target_Cq": 29.82,
+          "paired_Actb_Cq": 16.22,
+          "delta_Cq": 13.600000000000001,
+          "Q": 8.053637150713457e-05,
+          "normalized_expression": 1.3136851827098133
+        },
+        {
+          "target": "Nox4",
+          "group": "Sham-operated",
+          "source_worksheet_column": "F",
+          "target_Cq_source_row": 12,
+          "Actb_Cq_source_row": 2,
+          "target_Cq": 34.69,
+          "paired_Actb_Cq": 16.37,
+          "delta_Cq": 18.319999999999997,
+          "Q": 3.0558390716156917e-06,
+          "normalized_expression": 1.2425256863925729
+        }
+      ],
+      "retained_target_record_count": 106,
+      "multiplicity": {
+        "method": "Holm step-down over all 18 original six-target three-group pairwise comparisons",
+        "family_size": 18,
+        "alpha": 0.05,
+        "significant_comparison_count": 16
+      },
+      "descriptive_summaries": [
+        {
+          "target": "AT1-R",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 4.481962532140513e-06,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 17.84,
+                "sample_sd": 0.5185364018080114,
+                "min": 17.33,
+                "max": 18.51
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0000000000000002,
+                "sample_sd": 0.3237232837274092,
+                "min": 0.597677020811696,
+                "max": 1.3541973309783473
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 16.213333333333335,
+                "sample_sd": 0.25928105728468925,
+                "min": 15.939999999999998,
+                "max": 16.549999999999997
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 2.9757448677150697,
+                "sample_sd": 0.5235717669000234,
+                "min": 2.325334044988534,
+                "max": 3.5490625000732554
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 16.990000000000002,
+                "sample_sd": 0.28270125574535315,
+                "min": 16.590000000000003,
+                "max": 17.28
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.7420823779095584,
+                "sample_sd": 0.34773939354364025,
+                "min": 1.4019529967214925,
+                "max": 2.26174766324431
+              }
+            }
+          ]
+        },
+        {
+          "target": "Nox1",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 6.130568614697139e-05,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 14.005,
+                "sample_sd": 0.2012709616412661,
+                "min": 13.82,
+                "max": 14.27
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0,
+                "sample_sd": 0.13372303808076616,
+                "min": 0.8256599222886946,
+                "max": 1.127884692235062
+              }
+            },
+            {
+              "group": "Model",
+              "n": 5,
+              "retained_summary_columns": [
+                "C",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 5,
+                "mean": 13.425999999999998,
+                "sample_sd": 0.14432601983010537,
+                "min": 13.190000000000001,
+                "max": 13.560000000000002
+              },
+              "normalized_expression_mean_SD": {
+                "n": 5,
+                "mean": 1.4881822139133873,
+                "sample_sd": 0.1549876097871051,
+                "min": 1.3506179002171592,
+                "max": 1.745474866455313
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 13.758333333333335,
+                "sample_sd": 0.11052903087726167,
+                "min": 13.64,
+                "max": 13.91
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.1800044318122989,
+                "sample_sd": 0.08953992487365975,
+                "min": 1.059673326845085,
+                "max": 1.2777623923049128
+              }
+            }
+          ]
+        },
+        {
+          "target": "Nox4",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 2.34008456307057e-06,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 5,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 5,
+                "mean": 18.734,
+                "sample_sd": 0.3151666225982703,
+                "min": 18.229999999999997,
+                "max": 19.029999999999998
+              },
+              "normalized_expression_mean_SD": {
+                "n": 5,
+                "mean": 1.0,
+                "sample_sd": 0.23599207322356955,
+                "min": 0.7983027600934196,
+                "max": 1.389925834960355
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 17.119999999999997,
+                "sample_sd": 0.29305289624912456,
+                "min": 16.830000000000002,
+                "max": 17.54
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 3.0502539522679335,
+                "sample_sd": 0.5865729817821497,
+                "min": 2.2423444414014035,
+                "max": 3.6680362692356043
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 17.926666666666666,
+                "sample_sd": 0.1953117166650947,
+                "min": 17.67,
+                "max": 18.11
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.7284971645683342,
+                "sample_sd": 0.23898497668853474,
+                "min": 1.5104808611770553,
+                "max": 2.049124872799676
+              }
+            }
+          ]
+        },
+        {
+          "target": "RhoA",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 0.013055349169203334,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 6.265000000000001,
+                "sample_sd": 0.14180973168298383,
+                "min": 6.080000000000002,
+                "max": 6.449999999999999
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0,
+                "sample_sd": 0.09772778956758385,
+                "min": 0.8761289607295264,
+                "max": 1.1322677424022858
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 5.698333333333334,
+                "sample_sd": 0.12480651692386337,
+                "min": 5.57,
+                "max": 5.93
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.4796439206823289,
+                "sample_sd": 0.12253601713303619,
+                "min": 1.256329721176757,
+                "max": 1.6124061000362317
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 5.953333333333333,
+                "sample_sd": 0.04501851470969201,
+                "min": 5.899999999999999,
+                "max": 6.0
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.2366760847520288,
+                "sample_sd": 0.03864111156201794,
+                "min": 1.1968274304649233,
+                "max": 1.282727879207807
+              }
+            }
+          ]
+        },
+        {
+          "target": "ROCK1",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 0.004198546651522116,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 7.898333333333333,
+                "sample_sd": 0.09196013629103952,
+                "min": 7.800000000000001,
+                "max": 8.009999999999998
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0000000000000002,
+                "sample_sd": 0.06360187535594962,
+                "min": 0.9239548544481602,
+                "max": 1.0687276626021145
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 6.013333333333333,
+                "sample_sd": 0.2844409722010296,
+                "min": 5.68,
+                "max": 6.510000000000002
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 3.7446696767769807,
+                "sample_sd": 0.6899097327935962,
+                "min": 2.613338972362088,
+                "max": 4.6456944379828204
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 6.986666666666667,
+                "sample_sd": 0.07788880963698595,
+                "min": 6.84,
+                "max": 7.059999999999999
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.8803680551413622,
+                "sample_sd": 0.10461461715627156,
+                "min": 1.784963120395891,
+                "max": 2.0790064969326303
+              }
+            }
+          ]
+        },
+        {
+          "target": "ROCK2",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 0.00010867409460037962,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 13.185,
+                "sample_sd": 0.24777005468780963,
+                "min": 12.969999999999999,
+                "max": 13.5
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0,
+                "sample_sd": 0.16529433874457383,
+                "min": 0.7942715885300733,
+                "max": 1.1468719358526045
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 11.666666666666666,
+                "sample_sd": 0.14868310820892483,
+                "min": 11.489999999999998,
+                "max": 11.86
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 2.842879337840472,
+                "sample_sd": 0.28821995144823237,
+                "min": 2.475473153653249,
+                "max": 3.1991847372908984
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 12.091666666666667,
+                "sample_sd": 0.3772753194507518,
+                "min": 11.75,
+                "max": 12.8
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 2.163376120246753,
+                "sample_sd": 0.48974187103668404,
+                "min": 1.290298002282451,
+                "max": 2.6716005261312477
+              }
+            }
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "gene": "AT1-R",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.6266666666666652,
+          "t_statistic": -6.8728304328940455,
+          "degrees_of_freedom": 7.353147076164709,
+          "p_raw": 0.00018943288059886202,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -2.1809247450654383,
+            -1.072408588267892
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 3.0879869734486682,
+          "arithmetic_mean_expression_ratio": 2.9757448677150693,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.0024626274477852063,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0024626274477852063,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "AT1-R",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.8499999999999979,
+          "t_statistic": -3.5253830555094816,
+          "degrees_of_freedom": 7.731048527930204,
+          "p_raw": 0.008223111578699472,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.4093821661739276,
+            -0.2906178338260681
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.8025009252216577,
+          "arithmetic_mean_expression_ratio": 1.742082377909558,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.024669334736098416,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.024669334736098416,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "AT1-R",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.7766666666666673,
+          "t_statistic": 4.959467827382761,
+          "degrees_of_freedom": 9.926136352522745,
+          "p_raw": 0.00058325149828434,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.42738155511612097,
+            1.1259517782172135
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.5837139018784856,
+          "arithmetic_mean_expression_ratio": 0.5854273317615495,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.00466601198627472,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.00466601198627472,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox1",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 5,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.5790000000000024,
+          "t_statistic": -5.541325333080822,
+          "degrees_of_freedom": 8.858236012737782,
+          "p_raw": 0.0003813856885390101,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.8159453429596171,
+            -0.34205465704038773
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.493813457112345,
+          "arithmetic_mean_expression_ratio": 1.4881822139133873,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.0037132651528660066,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0037132651528660066,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.24666666666666615,
+          "t_statistic": -2.63130343068637,
+          "degrees_of_freedom": 7.764314468863855,
+          "p_raw": 0.03090012716581939,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.46398628393748986,
+            -0.02934704939584243
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.1864626349084866,
+          "arithmetic_mean_expression_ratio": 1.1800044318122989,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.06180025433163878,
+          "significant_at_holm_0_05": false,
+          "baseline_p_holm_18": 0.06180025433163878,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 5,
+          "delta_Cq_difference_numerator_minus_denominator": 0.33233333333333626,
+          "t_statistic": 4.219919170100582,
+          "degrees_of_freedom": 7.443090992892704,
+          "p_raw": 0.003429577511073039,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.1483348598141828,
+            0.5163318068524897
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.7942508679778592,
+          "arithmetic_mean_expression_ratio": 0.7929166339848324,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.014625113841997023,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.013898420216289727,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox4",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 5,
+          "delta_Cq_difference_numerator_minus_denominator": -1.6140000000000043,
+          "t_statistic": -8.730150620255502,
+          "degrees_of_freedom": 8.366062301785364,
+          "p_raw": 1.7495390960164444e-05,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -2.0371007689053062,
+            -1.1908992310947026
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 3.0609935396453443,
+          "arithmetic_mean_expression_ratio": 3.0502539522679335,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.00026243086440246667,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.00010222109053618496,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox4",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 5,
+          "delta_Cq_difference_numerator_minus_denominator": -0.8073333333333359,
+          "t_statistic": -4.985460229255936,
+          "degrees_of_freedom": 6.442103332080651,
+          "p_raw": 0.002027224112177653,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.1970809895493344,
+            -0.41758567711733735
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.7499738129100573,
+          "arithmetic_mean_expression_ratio": 1.7284971645683342,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.014190568785243569,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.009896794258435402,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox4",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.8066666666666684,
+          "t_statistic": 5.610637376788157,
+          "degrees_of_freedom": 8.709891781256463,
+          "p_raw": 0.00037132651528660066,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.4797672572302515,
+            1.1335660761030852
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.5717012434834522,
+          "arithmetic_mean_expression_ratio": 0.5666731988932125,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.0037132651528660066,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0037132651528660066,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "RhoA",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.5666666666666664,
+          "t_statistic": -7.347681111051006,
+          "degrees_of_freedom": 9.841192479625917,
+          "p_raw": 2.6846083336049148e-05,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.7388814412030816,
+            -0.3944518921302512
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.481097552286564,
+          "arithmetic_mean_expression_ratio": 1.4796439206823289,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.00037584516670468806,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.00037584516670468806,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "RhoA",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.3116666666666674,
+          "t_statistic": -5.1310927915950435,
+          "degrees_of_freedom": 5.99765785681433,
+          "p_raw": 0.0021572124104184387,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.46030811346582756,
+            -0.16302521986750731
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.2411406940043308,
+          "arithmetic_mean_expression_ratio": 1.2366760847520288,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.014190568785243569,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.012943274462510632,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "RhoA",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.254999999999999,
+          "t_statistic": 4.707803736318353,
+          "degrees_of_freedom": 6.279432644170195,
+          "p_raw": 0.0029250227683994046,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.12387870015210711,
+            0.3861212998478909
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.8379871346679492,
+          "arithmetic_mean_expression_ratio": 0.8357930360581235,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.014625113841997023,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.013898420216289727,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK1",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.8850000000000007,
+          "t_statistic": -15.445689487185952,
+          "degrees_of_freedom": 6.033941284456664,
+          "p_raw": 4.4352725635613866e-06,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -2.183215690244159,
+            -1.5867843097558425
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 3.693529242917581,
+          "arithmetic_mean_expression_ratio": 3.74466967677698,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 7.096436101698218e-05,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 7.096436101698218e-05,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.9116666666666662,
+          "t_statistic": -18.530133514375848,
+          "degrees_of_freedom": 9.736331325524292,
+          "p_raw": 6.45221709682362e-09,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.021692921382373,
+            -0.8016404119509593
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.8812175112725753,
+          "arithmetic_mean_expression_ratio": 1.8803680551413617,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 1.1613990774282516e-07,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 1.1613990774282516e-07,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.9733333333333345,
+          "t_statistic": 8.08433244553867,
+          "degrees_of_freedom": 5.745642803300849,
+          "p_raw": 0.0002389203556481727,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.6755408276842165,
+            1.2711258389824525
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.5093279049786458,
+          "arithmetic_mean_expression_ratio": 0.5021452404207214,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.0028670442677780723,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0028670442677780723,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK2",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.5183333333333344,
+          "t_statistic": -12.870878267063325,
+          "degrees_of_freedom": 8.187665083190012,
+          "p_raw": 1.0185302550438863e-06,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.7892832379778532,
+            -1.2473834286888157
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 2.8645992689156636,
+          "arithmetic_mean_expression_ratio": 2.842879337840472,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 1.7315014335746067e-05,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 1.7315014335746067e-05,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK2",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.0933333333333337,
+          "t_statistic": -5.933408842216278,
+          "degrees_of_freedom": 8.636541172897816,
+          "p_raw": 0.00025854211940903095,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.5128644238807532,
+            -0.6738022427859143
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 2.1336644858907157,
+          "arithmetic_mean_expression_ratio": 2.163376120246753,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.0028670442677780723,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0028670442677780723,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK2",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.4250000000000007,
+          "t_statistic": 2.5671805841156736,
+          "degrees_of_freedom": 6.516543195708527,
+          "p_raw": 0.0395153992102046,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.027568338313717022,
+            0.8224316616862843
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.7448387315613507,
+          "arithmetic_mean_expression_ratio": 0.7609806337718547,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.06180025433163878,
+          "significant_at_holm_0_05": false,
+          "baseline_p_holm_18": 0.06180025433163878,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        }
+      ],
+      "significance_changes_vs_baseline": [],
+      "direction_changes_vs_baseline": []
+    },
+    {
+      "name": "B: provisionally omit the two Plate/Cq conflicts plus two additional divergent-Tm records",
+      "classification": "POST HOC EXPLORATORY SENSITIVITY SCENARIO; NOT A CORRECTED PRIMARY ANALYSIS",
+      "exclusion_legal_or_scientific_validity_established": false,
+      "exclusion_scope": "Only the listed target/group/source-column records are provisionally omitted. Other targets, paired reference inputs used by other targets, and all other observations are retained. No outliers selected by P values.",
+      "excluded_records_with_reasons": [
+        {
+          "target": "Nox1",
+          "group": "Model",
+          "source_worksheet_column": "D",
+          "well": "B10-Ch5",
+          "issue": "Plate Empty/[none] versus Cq Results SYBR Unknown; divergent reported Tm78.59 C."
+        },
+        {
+          "target": "Nox4",
+          "group": "Sham-operated",
+          "source_worksheet_column": "F",
+          "well": "D12-Ch5",
+          "issue": "Plate Empty/[none] with blank Target versus Cq Results SYBR Unknown; reported Tm77.97 C."
+        },
+        {
+          "target": "Nox1",
+          "group": "Restoration",
+          "source_worksheet_column": "G",
+          "well": "E11-Ch5",
+          "issue": "Reported Tm75.76 C differs from most Nox1 wells near72–73 C; post hoc flagged, not a validated exclusion criterion."
+        },
+        {
+          "target": "Nox4",
+          "group": "Model",
+          "source_worksheet_column": "H",
+          "well": "F13-Ch5",
+          "issue": "Reported Tm73.98 C differs from most Nox4 wells near79 C; post hoc flagged, not a validated exclusion criterion."
+        }
+      ],
+      "removed_input_records": [
+        {
+          "target": "Nox1",
+          "group": "Model",
+          "source_worksheet_column": "D",
+          "target_Cq_source_row": 8,
+          "Actb_Cq_source_row": 3,
+          "target_Cq": 29.82,
+          "paired_Actb_Cq": 16.22,
+          "delta_Cq": 13.600000000000001,
+          "Q": 8.053637150713457e-05,
+          "normalized_expression": 1.3136851827098133
+        },
+        {
+          "target": "Nox1",
+          "group": "Restoration",
+          "source_worksheet_column": "G",
+          "target_Cq_source_row": 9,
+          "Actb_Cq_source_row": 4,
+          "target_Cq": 30.14,
+          "paired_Actb_Cq": 16.29,
+          "delta_Cq": 13.850000000000001,
+          "Q": 6.772274609789087e-05,
+          "normalized_expression": 1.104673160912603
+        },
+        {
+          "target": "Nox4",
+          "group": "Sham-operated",
+          "source_worksheet_column": "F",
+          "target_Cq_source_row": 12,
+          "Actb_Cq_source_row": 2,
+          "target_Cq": 34.69,
+          "paired_Actb_Cq": 16.37,
+          "delta_Cq": 18.319999999999997,
+          "Q": 3.0558390716156917e-06,
+          "normalized_expression": 1.2425256863925729
+        },
+        {
+          "target": "Nox4",
+          "group": "Model",
+          "source_worksheet_column": "H",
+          "target_Cq_source_row": 13,
+          "Actb_Cq_source_row": 3,
+          "target_Cq": 33.99,
+          "paired_Actb_Cq": 16.57,
+          "delta_Cq": 17.42,
+          "Q": 5.702397341289279e-06,
+          "normalized_expression": 2.3186349164723667
+        }
+      ],
+      "retained_target_record_count": 104,
+      "multiplicity": {
+        "method": "Holm step-down over all 18 original six-target three-group pairwise comparisons",
+        "family_size": 18,
+        "alpha": 0.05,
+        "significant_comparison_count": 18
+      },
+      "descriptive_summaries": [
+        {
+          "target": "AT1-R",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 4.481962532140513e-06,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 17.84,
+                "sample_sd": 0.5185364018080114,
+                "min": 17.33,
+                "max": 18.51
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0000000000000002,
+                "sample_sd": 0.3237232837274092,
+                "min": 0.597677020811696,
+                "max": 1.3541973309783473
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 16.213333333333335,
+                "sample_sd": 0.25928105728468925,
+                "min": 15.939999999999998,
+                "max": 16.549999999999997
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 2.9757448677150697,
+                "sample_sd": 0.5235717669000234,
+                "min": 2.325334044988534,
+                "max": 3.5490625000732554
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 16.990000000000002,
+                "sample_sd": 0.28270125574535315,
+                "min": 16.590000000000003,
+                "max": 17.28
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.7420823779095584,
+                "sample_sd": 0.34773939354364025,
+                "min": 1.4019529967214925,
+                "max": 2.26174766324431
+              }
+            }
+          ]
+        },
+        {
+          "target": "Nox1",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 6.130568614697139e-05,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 14.005,
+                "sample_sd": 0.2012709616412661,
+                "min": 13.82,
+                "max": 14.27
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0,
+                "sample_sd": 0.13372303808076616,
+                "min": 0.8256599222886946,
+                "max": 1.127884692235062
+              }
+            },
+            {
+              "group": "Model",
+              "n": 5,
+              "retained_summary_columns": [
+                "C",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 5,
+                "mean": 13.425999999999998,
+                "sample_sd": 0.14432601983010537,
+                "min": 13.190000000000001,
+                "max": 13.560000000000002
+              },
+              "normalized_expression_mean_SD": {
+                "n": 5,
+                "mean": 1.4881822139133873,
+                "sample_sd": 0.1549876097871051,
+                "min": 1.3506179002171592,
+                "max": 1.745474866455313
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 5,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 5,
+                "mean": 13.74,
+                "sample_sd": 0.11291589790636195,
+                "min": 13.64,
+                "max": 13.91
+              },
+              "normalized_expression_mean_SD": {
+                "n": 5,
+                "mean": 1.195070685992238,
+                "sample_sd": 0.09121023829793878,
+                "min": 1.059673326845085,
+                "max": 1.2777623923049128
+              }
+            }
+          ]
+        },
+        {
+          "target": "Nox4",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 2.34008456307057e-06,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 5,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 5,
+                "mean": 18.734,
+                "sample_sd": 0.3151666225982703,
+                "min": 18.229999999999997,
+                "max": 19.029999999999998
+              },
+              "normalized_expression_mean_SD": {
+                "n": 5,
+                "mean": 1.0,
+                "sample_sd": 0.23599207322356955,
+                "min": 0.7983027600934196,
+                "max": 1.389925834960355
+              }
+            },
+            {
+              "group": "Model",
+              "n": 5,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 5,
+                "mean": 17.059999999999995,
+                "sample_sd": 0.2834607556611671,
+                "min": 16.830000000000002,
+                "max": 17.54
+              },
+              "normalized_expression_mean_SD": {
+                "n": 5,
+                "mean": 3.172937967069036,
+                "sample_sd": 0.5632047341226136,
+                "min": 2.2423444414014035,
+                "max": 3.6680362692356043
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 17.926666666666666,
+                "sample_sd": 0.1953117166650947,
+                "min": 17.67,
+                "max": 18.11
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.7284971645683342,
+                "sample_sd": 0.23898497668853474,
+                "min": 1.5104808611770553,
+                "max": 2.049124872799676
+              }
+            }
+          ]
+        },
+        {
+          "target": "RhoA",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 0.013055349169203334,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 6.265000000000001,
+                "sample_sd": 0.14180973168298383,
+                "min": 6.080000000000002,
+                "max": 6.449999999999999
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0,
+                "sample_sd": 0.09772778956758385,
+                "min": 0.8761289607295264,
+                "max": 1.1322677424022858
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 5.698333333333334,
+                "sample_sd": 0.12480651692386337,
+                "min": 5.57,
+                "max": 5.93
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.4796439206823289,
+                "sample_sd": 0.12253601713303619,
+                "min": 1.256329721176757,
+                "max": 1.6124061000362317
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 5.953333333333333,
+                "sample_sd": 0.04501851470969201,
+                "min": 5.899999999999999,
+                "max": 6.0
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.2366760847520288,
+                "sample_sd": 0.03864111156201794,
+                "min": 1.1968274304649233,
+                "max": 1.282727879207807
+              }
+            }
+          ]
+        },
+        {
+          "target": "ROCK1",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 0.004198546651522116,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 7.898333333333333,
+                "sample_sd": 0.09196013629103952,
+                "min": 7.800000000000001,
+                "max": 8.009999999999998
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0000000000000002,
+                "sample_sd": 0.06360187535594962,
+                "min": 0.9239548544481602,
+                "max": 1.0687276626021145
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 6.013333333333333,
+                "sample_sd": 0.2844409722010296,
+                "min": 5.68,
+                "max": 6.510000000000002
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 3.7446696767769807,
+                "sample_sd": 0.6899097327935962,
+                "min": 2.613338972362088,
+                "max": 4.6456944379828204
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 6.986666666666667,
+                "sample_sd": 0.07788880963698595,
+                "min": 6.84,
+                "max": 7.059999999999999
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.8803680551413622,
+                "sample_sd": 0.10461461715627156,
+                "min": 1.784963120395891,
+                "max": 2.0790064969326303
+              }
+            }
+          ]
+        },
+        {
+          "target": "ROCK2",
+          "sham_arithmetic_mean_Q_calibrator_from_retained_sham_records": 0.00010867409460037962,
+          "calibration_note": "Recomputed within each target/scenario from retained sham Q; excluding a sham record rescales all three descriptive fold groups but not delta-Cq inference.",
+          "groups": [
+            {
+              "group": "Sham-operated",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 13.185,
+                "sample_sd": 0.24777005468780963,
+                "min": 12.969999999999999,
+                "max": 13.5
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 1.0,
+                "sample_sd": 0.16529433874457383,
+                "min": 0.7942715885300733,
+                "max": 1.1468719358526045
+              }
+            },
+            {
+              "group": "Model",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 11.666666666666666,
+                "sample_sd": 0.14868310820892483,
+                "min": 11.489999999999998,
+                "max": 11.86
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 2.842879337840472,
+                "sample_sd": 0.28821995144823237,
+                "min": 2.475473153653249,
+                "max": 3.1991847372908984
+              }
+            },
+            {
+              "group": "Restoration",
+              "n": 6,
+              "retained_summary_columns": [
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+              ],
+              "delta_Cq_mean_SD": {
+                "n": 6,
+                "mean": 12.091666666666667,
+                "sample_sd": 0.3772753194507518,
+                "min": 11.75,
+                "max": 12.8
+              },
+              "normalized_expression_mean_SD": {
+                "n": 6,
+                "mean": 2.163376120246753,
+                "sample_sd": 0.48974187103668404,
+                "min": 1.290298002282451,
+                "max": 2.6716005261312477
+              }
+            }
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "gene": "AT1-R",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.6266666666666652,
+          "t_statistic": -6.8728304328940455,
+          "degrees_of_freedom": 7.353147076164709,
+          "p_raw": 0.00018943288059886202,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -2.1809247450654383,
+            -1.072408588267892
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 3.0879869734486682,
+          "arithmetic_mean_expression_ratio": 2.9757448677150693,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.0024626274477852063,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0024626274477852063,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "AT1-R",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.8499999999999979,
+          "t_statistic": -3.5253830555094816,
+          "degrees_of_freedom": 7.731048527930204,
+          "p_raw": 0.008223111578699472,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.4093821661739276,
+            -0.2906178338260681
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.8025009252216577,
+          "arithmetic_mean_expression_ratio": 1.742082377909558,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.024669334736098416,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.024669334736098416,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "AT1-R",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.7766666666666673,
+          "t_statistic": 4.959467827382761,
+          "degrees_of_freedom": 9.926136352522745,
+          "p_raw": 0.00058325149828434,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.42738155511612097,
+            1.1259517782172135
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.5837139018784856,
+          "arithmetic_mean_expression_ratio": 0.5854273317615495,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.00524926348455906,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.00466601198627472,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox1",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 5,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.5790000000000024,
+          "t_statistic": -5.541325333080822,
+          "degrees_of_freedom": 8.858236012737782,
+          "p_raw": 0.0003813856885390101,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.8159453429596171,
+            -0.34205465704038773
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.493813457112345,
+          "arithmetic_mean_expression_ratio": 1.4881822139133873,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.0038138568853901007,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0037132651528660066,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 5,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.26500000000000057,
+          "t_statistic": -2.7476757945569754,
+          "degrees_of_freedom": 8.053990370448432,
+          "p_raw": 0.02499052360623959,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.48714366883740334,
+            -0.042856331162597794
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.2016360495268512,
+          "arithmetic_mean_expression_ratio": 1.195070685992238,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.04998104721247918,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.06180025433163878,
+          "significance_decision_changed_vs_baseline": true,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 5,
+          "n_denominator": 5,
+          "delta_Cq_difference_numerator_minus_denominator": 0.31400000000000183,
+          "t_statistic": 3.83154829782256,
+          "degrees_of_freedom": 7.562167848042603,
+          "p_raw": 0.005567324849541895,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.12309861907522204,
+            0.5049013809247817
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.8044083709419148,
+          "arithmetic_mean_expression_ratio": 0.8030405650727602,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.02226929939816758,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.013898420216289727,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox4",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 5,
+          "n_denominator": 5,
+          "delta_Cq_difference_numerator_minus_denominator": -1.6740000000000066,
+          "t_statistic": -8.830607592580543,
+          "degrees_of_freedom": 7.911719693871268,
+          "p_raw": 2.2842552407721155e-05,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -2.1119949217925207,
+            -1.2360050782074923
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 3.190980959236146,
+          "arithmetic_mean_expression_ratio": 3.172937967069036,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.0003426382861158173,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.00010222109053618496,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox4",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 5,
+          "delta_Cq_difference_numerator_minus_denominator": -0.8073333333333359,
+          "t_statistic": -4.985460229255936,
+          "degrees_of_freedom": 6.442103332080651,
+          "p_raw": 0.002027224112177653,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.1970809895493344,
+            -0.41758567711733735
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.7499738129100573,
+          "arithmetic_mean_expression_ratio": 1.7284971645683342,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.014190568785243569,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.009896794258435402,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "Nox4",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 5,
+          "delta_Cq_difference_numerator_minus_denominator": 0.8666666666666707,
+          "t_statistic": 5.787073138173108,
+          "degrees_of_freedom": 6.92410771364577,
+          "p_raw": 0.0006994785744028838,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.5117543957116282,
+            1.2215789376217132
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.5484124898473115,
+          "arithmetic_mean_expression_ratio": 0.5447623566889375,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.00559582859522307,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0037132651528660066,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "RhoA",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.5666666666666664,
+          "t_statistic": -7.347681111051006,
+          "degrees_of_freedom": 9.841192479625917,
+          "p_raw": 2.6846083336049148e-05,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.7388814412030816,
+            -0.3944518921302512
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.481097552286564,
+          "arithmetic_mean_expression_ratio": 1.4796439206823289,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.00037584516670468806,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.00037584516670468806,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "RhoA",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.3116666666666674,
+          "t_statistic": -5.1310927915950435,
+          "degrees_of_freedom": 5.99765785681433,
+          "p_raw": 0.0021572124104184387,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.46030811346582756,
+            -0.16302521986750731
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.2411406940043308,
+          "arithmetic_mean_expression_ratio": 1.2366760847520288,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.014190568785243569,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.012943274462510632,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "RhoA",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.254999999999999,
+          "t_statistic": 4.707803736318353,
+          "degrees_of_freedom": 6.279432644170195,
+          "p_raw": 0.0029250227683994046,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.12387870015210711,
+            0.3861212998478909
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.8379871346679492,
+          "arithmetic_mean_expression_ratio": 0.8357930360581235,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.014625113841997023,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.013898420216289727,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK1",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.8850000000000007,
+          "t_statistic": -15.445689487185952,
+          "degrees_of_freedom": 6.033941284456664,
+          "p_raw": 4.4352725635613866e-06,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -2.183215690244159,
+            -1.5867843097558425
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 3.693529242917581,
+          "arithmetic_mean_expression_ratio": 3.74466967677698,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 7.096436101698218e-05,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 7.096436101698218e-05,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.9116666666666662,
+          "t_statistic": -18.530133514375848,
+          "degrees_of_freedom": 9.736331325524292,
+          "p_raw": 6.45221709682362e-09,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.021692921382373,
+            -0.8016404119509593
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.8812175112725753,
+          "arithmetic_mean_expression_ratio": 1.8803680551413617,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 1.1613990774282516e-07,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 1.1613990774282516e-07,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.9733333333333345,
+          "t_statistic": 8.08433244553867,
+          "degrees_of_freedom": 5.745642803300849,
+          "p_raw": 0.0002389203556481727,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.6755408276842165,
+            1.2711258389824525
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.5093279049786458,
+          "arithmetic_mean_expression_ratio": 0.5021452404207214,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.0028670442677780723,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0028670442677780723,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK2",
+          "numerator_group": "Model",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.5183333333333344,
+          "t_statistic": -12.870878267063325,
+          "degrees_of_freedom": 8.187665083190012,
+          "p_raw": 1.0185302550438863e-06,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.7892832379778532,
+            -1.2473834286888157
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 2.8645992689156636,
+          "arithmetic_mean_expression_ratio": 2.842879337840472,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 1.7315014335746067e-05,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 1.7315014335746067e-05,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK2",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -1.0933333333333337,
+          "t_statistic": -5.933408842216278,
+          "degrees_of_freedom": 8.636541172897816,
+          "p_raw": 0.00025854211940903095,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -1.5128644238807532,
+            -0.6738022427859143
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 2.1336644858907157,
+          "arithmetic_mean_expression_ratio": 2.163376120246753,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.0028670442677780723,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.0028670442677780723,
+          "significance_decision_changed_vs_baseline": false,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK2",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.4250000000000007,
+          "t_statistic": 2.5671805841156736,
+          "degrees_of_freedom": 6.516543195708527,
+          "p_raw": 0.0395153992102046,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.027568338313717022,
+            0.8224316616862843
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.7448387315613507,
+          "arithmetic_mean_expression_ratio": 0.7609806337718547,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.04998104721247918,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.06180025433163878,
+          "significance_decision_changed_vs_baseline": true,
+          "direction_changed_vs_baseline": false
+        }
+      ],
+      "significance_changes_vs_baseline": [
+        {
+          "gene": "Nox1",
+          "numerator_group": "Restoration",
+          "denominator_group": "Sham-operated",
+          "n_numerator": 5,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": -0.26500000000000057,
+          "t_statistic": -2.7476757945569754,
+          "degrees_of_freedom": 8.053990370448432,
+          "p_raw": 0.02499052360623959,
+          "delta_Cq_difference_CI95_unadjusted": [
+            -0.48714366883740334,
+            -0.042856331162597794
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 1.2016360495268512,
+          "arithmetic_mean_expression_ratio": 1.195070685992238,
+          "expression_direction": "higher",
+          "p_holm_18_test_family": 0.04998104721247918,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.06180025433163878,
+          "significance_decision_changed_vs_baseline": true,
+          "direction_changed_vs_baseline": false
+        },
+        {
+          "gene": "ROCK2",
+          "numerator_group": "Restoration",
+          "denominator_group": "Model",
+          "n_numerator": 6,
+          "n_denominator": 6,
+          "delta_Cq_difference_numerator_minus_denominator": 0.4250000000000007,
+          "t_statistic": 2.5671805841156736,
+          "degrees_of_freedom": 6.516543195708527,
+          "p_raw": 0.0395153992102046,
+          "delta_Cq_difference_CI95_unadjusted": [
+            0.027568338313717022,
+            0.8224316616862843
+          ],
+          "geometric_expression_ratio_2_power_negative_delta_Cq_difference": 0.7448387315613507,
+          "arithmetic_mean_expression_ratio": 0.7609806337718547,
+          "expression_direction": "lower",
+          "p_holm_18_test_family": 0.04998104721247918,
+          "significant_at_holm_0_05": true,
+          "baseline_p_holm_18": 0.06180025433163878,
+          "significance_decision_changed_vs_baseline": true,
+          "direction_changed_vs_baseline": false
+        }
+      ],
+      "direction_changes_vs_baseline": []
+    }
+  ]
+}

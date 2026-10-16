@@ -1,11 +1,11 @@
 {
   "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_中文.docx",
-  "sha256": "a0e10f8f608daae9856b9f2d892884847c99b85eba79a25f5fcbe993932d8dc5",
-  "render_directory": "/tmp/codex-physres-weeks-stars-20261016/qa_zh",
-  "renderer": "canonical render_docx.py via bundled LibreOffice only",
-  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "sha256": "adbd7245c34cdea1c0e09c36eb46c6dd2e44a9397e171990abd223958e9d42e9",
+  "render_directory": "/tmp/codex-physres-qpcr-originals-20261016/qa_zh",
   "page_count": 6,
-  "inspection": "Every full-size final-render page PNG opened using view_image detail original and visually inspected.",
+  "inspection": "All six full-size page PNGs opened with view_image detail original and visually inspected.",
+  "renderer": "canonical render_docx.py using bundled Python and bundled soffice only",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
   "inspected_pages": [
     {
       "page": 1,
@@ -39,25 +39,23 @@
     }
   ],
   "checks": {
-    "all_chinese_characters_readable": true,
-    "all_pages_free_of_clipping_overlap_and_orphan_headings": true,
-    "no_blank_terminal_page": true,
-    "continuous_short_communication_body": true,
+    "all_pages_readable_no_overlap_or_clipping": true,
+    "no_orphan_heading_or_blank_terminal_page": true,
+    "corrected_common_source_separate_terminal_groups_visible_page1": true,
     "four_animals_reserved": true,
-    "sham_and_model_sampling_week4": true,
-    "restoration_implant_removal_week4_and_sampling_week8": true,
-    "no_old_day28_day56_text": true,
-    "native_equation_correct_page2": true,
-    "exactly_two_main_figures": true,
-    "figure1_week4_week8_axis_labels_visible": true,
-    "figure2_week4_week8_axis_labels_visible": true,
-    "figure2_nox1_significance_stars_double_and_single": true,
-    "figure2_nox4_significance_stars_triple_and_double": true,
-    "figure2_caption_defines_holm_correction_and_star_thresholds": true,
-    "exact_p_values_retained_in_body": true,
-    "no_main_he_or_mechanism_diagram": true,
-    "both_figures_and_captions_complete": true
+    "week4_week8_dates_preserved": true,
+    "native_formula_correct_visible_page2": true,
+    "original_qpcr_available_statement_visible_page2": true,
+    "unresolved_two_well_and_melt_peak_limitations_visible_pages2_3": true,
+    "data_availability_updated_visible_page3": true,
+    "no_claim_qpcr_defects_resolved": true,
+    "main_figures_exactly_two": true,
+    "figure1_and_full_legend_visible_page5": true,
+    "figure2_and_full_legend_visible_page6": true,
+    "week_axis_labels_and_holm_star_thresholds_correct": true,
+    "no_main_he_or_mechanism_diagram": true
   },
+  "scope_note": "Visual QA only; source data, figure statistics and numerical results were not altered or newly validated. No year or ethics chronology changes were made.",
   "result": "pass",
-  "reviewed_at": "2026-10-16T12:51:17.852273+00:00"
+  "reviewed_at": "2026-10-16T13:40:14.247984+00:00"
 }

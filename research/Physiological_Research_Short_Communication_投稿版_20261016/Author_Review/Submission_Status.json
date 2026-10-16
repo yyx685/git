@@ -1,12 +1,12 @@
 {
-  "status": "ready_for_author_to_send_from_corresponding_email",
+  "status": "unsent_revision_with_disclosed_unresolved_qPCR_quality_limitations",
   "requested_corresponding_sender": "wuzijian@ahtcm.edu.cn",
   "recipient": "physres@fgu.cas.cz",
   "connected_Gmail_account": "yuanyingxiang739@gmail.com",
   "sender_account_match": false,
   "local_unsent_email": "Yuan_Short_Communication_待发送邮件.eml",
-  "mime_attachments_verified": 19,
+  "mime_attachments_verified": 20,
   "email_sent": false,
   "delivery_channel_confirmed_by_user": "Deliver the complete unsent email file; retain wuzijian@ahtcm.edu.cn as sender; the author will send it.",
-  "last_update": "Sampling weeks and figure-2 stars synchronized in all unsent attachments"
+  "last_update": "Restoration origin, newly available qPCR exports and unresolved QC synchronized in current unsent attachments."
 }
