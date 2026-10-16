@@ -1,0 +1,59 @@
+{
+  "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_中文.docx",
+  "sha256": "5293f10cdad1dc53b1fc923d5df69f15cb7cd7be2f0c87c55f0ded53a7798836",
+  "render_directory": "/tmp/codex-physres-short-20261016/qa_zh_final",
+  "render_engine": "canonical render_docx.py using only bundled LibreOffice",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "page_count": 6,
+  "inspection": "All six final-render page PNGs opened with view_image detail original and visually inspected after the death-confirmation wording correction.",
+  "inspected_pages": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "result": "pass"
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "result": "pass"
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "result": "pass"
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "result": "pass"
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "result": "pass"
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "result": "pass"
+    }
+  ],
+  "checks": {
+    "article_type_short_communication": true,
+    "continuous_body_without_imrad_headings": true,
+    "four_animals_retained_as_reserves": true,
+    "death_confirmation_correct": true,
+    "native_equation_visible_and_correct_page2": true,
+    "chinese_characters_readable": true,
+    "declaration_headings_visible_no_orphans": true,
+    "no_text_overlap_or_clipping": true,
+    "no_empty_terminal_page": true,
+    "exactly_two_main_figures": true,
+    "figure1_page5_complete_with_legend": true,
+    "figure2_page6_complete_with_legend": true,
+    "he_and_bloodpressure_descriptive_supporting_only": true,
+    "no_mechanism_diagram": true
+  },
+  "reviewed_at": "2026-10-16T09:19:02.372786+00:00",
+  "result": "pass"
+}

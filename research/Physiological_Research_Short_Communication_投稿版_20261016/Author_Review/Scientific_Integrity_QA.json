@@ -1,0 +1,207 @@
+{
+  "status": "PASS",
+  "scope": "Scientific integrity comparison and content review only; no new statistics computed and no formal file modified by this reviewer. Visual layout is assessed separately.",
+  "source_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016",
+  "new_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
+  "review_date": "2026-10-16",
+  "checks": {
+    "extended_methods_text_preserved_with_only_reference_remapping": true,
+    "extended_results_text_preserved_exactly": true,
+    "si_original_frontmatter_and_captions_preserved_exactly": true,
+    "s1_native_table_xml_preserved": true,
+    "main_and_supplement_native_formula_xml_preserved": true,
+    "zh_native_formula_xml_preserved": true,
+    "eight_reference_entries_preserved_except_numbering": true,
+    "en_zh_references_identical": true,
+    "all_15_mean_sample_sd_pairs_present_en": true,
+    "all_15_mean_sample_sd_pairs_present_zh": true,
+    "all_3_welch_F_df_strings_present_en_zh": true,
+    "restoration_nonsignificant_sod_nox1_P_present_en_zh": true,
+    "qpcr_six_adjusted_P_and_pairwise_direction_reviewed": true,
+    "biochemical_three_comparisons_per_endpoint_and_no_across_endpoint_adjustment_preserved": true,
+    "qpcr_Welch_tests_on_deltaCq_and_single_18_test_Holm_family_preserved": true,
+    "quantity_is_2_power_negative_paired_deltaCq_then_divided_by_arithmetic_mean_sham_Q_preserved": true,
+    "reserve_four_and_independent_n6_no_pooling_main_en_zh_si": true,
+    "day28_day56_no_time_matched_second_surgery_sham_main_en_zh_si": true,
+    "no_postoperative_analgesia_no_written_rationale_or_specific_ethics_opinion_main_en_zh_si": true,
+    "death_confirmation_ambiguity_corrected_en": true,
+    "death_confirmation_ambiguity_corrected_zh": true,
+    "critical_limits_preserved": true,
+    "en_zh_scientific_meaning_correspondence_reviewed": true,
+    "no_new_experimental_fact_causal_mechanism_or_restoration_benefit_claim": true,
+    "no_old_article_type_or_main_figure3_4": true,
+    "two_main_figures_zero_main_tables": true,
+    "all_8_main_figure_format_files_and_16_supporting_files_byte_identical": true,
+    "en_zh_embedded_main_images_source_identical": true,
+    "si_embedded_he_bp_images_source_identical": true,
+    "first_citation_order_1_to_8_both_languages": true,
+    "ai_cli_and_desktop_version_and_unarchived_underlying_model_disclosure_present": true,
+    "si_final_intro_paragraph_only_revision_verified": true
+  },
+  "documents": {
+    "Yuan.docx": {
+      "sha256": "d5522e7ed2be737a6709bd6e72e6189b27c8c49d56055ae13209306aabd06559"
+    },
+    "Yuan_中文.docx": {
+      "sha256": "5293f10cdad1dc53b1fc923d5df69f15cb7cd7be2f0c87c55f0ded53a7798836"
+    },
+    "Yuan_supplementary_information.docx": {
+      "sha256": "1d941341ae3cefd7703476b4b1ad79b4ed06313fe30c69315a88185a12c170e7"
+    }
+  },
+  "counts": {
+    "english_whitespace_tokens_in_wt_and_math_text_including_frontmatter_refs_legends": 1835,
+    "summary_whitespace_tokens": 128,
+    "references": 8,
+    "main_figures": 2,
+    "main_tables": 0,
+    "si_native_tables": 1
+  },
+  "all_15_preserved_mean_sd_pairs": [
+    "1.122 ± 0.072",
+    "0.564 ± 0.072",
+    "1.035 ± 0.101",
+    "0.095 ± 0.017",
+    "0.349 ± 0.034",
+    "0.213 ± 0.049",
+    "1326.9 ± 50.6",
+    "3295.6 ± 216.3",
+    "2265.6 ± 131.6",
+    "1.000 ± 0.134",
+    "1.459 ± 0.156",
+    "1.180 ± 0.090",
+    "1.000 ± 0.233",
+    "2.902 ± 0.558",
+    "1.645 ± 0.227"
+  ],
+  "unchanged_files": [
+    {
+      "file": "Figures/Yuan_fig1.jpg",
+      "sha256": "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648",
+      "same_as_source": true
+    },
+    {
+      "file": "Figures/Yuan_fig1.pdf",
+      "sha256": "a2d0ad58a0430921286df805e3073098c13edf1f05da71628dc84e0c25e5d9e6",
+      "same_as_source": true
+    },
+    {
+      "file": "Figures/Yuan_fig1.svg",
+      "sha256": "505ec744b29730c0b315d7622cd0676fc3a5e2250f6a53d5074f7b1c46316f1d",
+      "same_as_source": true
+    },
+    {
+      "file": "Figures/Yuan_fig1.tif",
+      "sha256": "bd319449377232404d5cfdc7f505e5532600cf96db6e980c30d0e473d5c3f511",
+      "same_as_source": true
+    },
+    {
+      "file": "Figures/Yuan_fig2.jpg",
+      "sha256": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad",
+      "same_as_source": true
+    },
+    {
+      "file": "Figures/Yuan_fig2.pdf",
+      "sha256": "bdc829ece45836fc88738c940040cf6330d3d2129dbda4085983bc6a861f11a5",
+      "same_as_source": true
+    },
+    {
+      "file": "Figures/Yuan_fig2.svg",
+      "sha256": "7e73517c1427441a748bc83275ec7322b5eb545e883c66b9ec91b3ef8e11acae",
+      "same_as_source": true
+    },
+    {
+      "file": "Figures/Yuan_fig2.tif",
+      "sha256": "3dfc0a14bdfdec6952516e56c2702b24920b34e0ef4135f02bf59feed52e88f1",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S1_Fig_HE_Illustrative_Images.tif",
+      "sha256": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S2_Fig_Archived_BP_Records.tif",
+      "sha256": "1715a5f6d1699fa69c9553f3484a064daf8b8dd1902c22a406bccb5523ff50d7",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S3_Appendix_Plot_Archived_BP.py",
+      "sha256": "ed69ae97fbd3816302c7c9a91ba6a529c963bbe4aa9964748d3716b3aae18997",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S3_Data_Archived_BP_Recorded_Values.csv",
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S4_Appendix_Plot_Main_Figures.py",
+      "sha256": "f03aa4d95b10bbc557f9c411d04d12467a5aa1d76e20d3bdfdefeed66317ac2e",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S4_Data_Archived_BP_Entered_Summaries.csv",
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
+      "sha256": "4df1cd8b47d447097ac24726d3bbe7f3d956094a22fd35c71daaad6f6ffa282d",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/S6_File_HE_Supplied_Composite.jpg",
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468",
+      "same_as_source": true
+    },
+    {
+      "file": "Supporting_Information/Supplementary_Fig_S2.pdf",
+      "sha256": "15d2b1f14d5fe1f92fe9ca23e671525afb7b73a03cb837524a89560146175388",
+      "same_as_source": true
+    }
+  ],
+  "manual_review_notes": [
+    "All displayed biochemical and qPCR P values and directions match existing statistical JSON; restoration samples remain explicitly later and confounded.",
+    "The complete original Methods and Results are retained in Supplementary Methods/extended results; only old citations 4/13/14 map to new 1/6/7 in transferred text.",
+    "Critical limitations remain: regional RVLM-plus-adjacent tissue; O12 serum kit in RIPA tissue without matrix validation; qPCR single technical measurement with unverified efficiency/reference stability and unavailable curves/control records; unmatched endpoints and absent second-surgery sham; missing identity linkage; no postoperative analgesia with no retained specific written justification; small male-only exploratory samples/no formal a priori power analysis.",
+    "Main artificial-intelligence version disclosure distinguishes verified final-revision software versions from unarchived underlying model; no invented model identifier.",
+    "Initial Chinese and English death-confirmation wording was clarified by root before final review; all three death-confirmation signs are explicitly absent.",
+    "Final SI follow-up: paragraph 27 now reads “Detailed experimental procedures, source-flow information and complete numerical results are provided below. Reference numbers refer to the accompanying Short Communication.”. All 26 original SI paragraphs, transferred Methods and extended Results, native formula and S1 table were rechecked unchanged against the source. Only the new introductory explanation changed; statistics were not recalculated. SI hash updated from 7031385b07e64c1f275bfc44d7cabaa1bf60e8ce36dab3c8c2e26b0cde207373 to 1d941341ae3cefd7703476b4b1ad79b4ed06313fe30c69315a88185a12c170e7."
+  ]
+}

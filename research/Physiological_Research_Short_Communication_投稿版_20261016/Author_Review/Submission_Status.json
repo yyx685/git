@@ -1,0 +1,11 @@
+{
+  "status": "ready_for_author_to_send_from_corresponding_email",
+  "requested_corresponding_sender": "wuzijian@ahtcm.edu.cn",
+  "recipient": "physres@fgu.cas.cz",
+  "connected_Gmail_account": "yuanyingxiang739@gmail.com",
+  "sender_account_match": false,
+  "local_unsent_email": "Yuan_Short_Communication_待发送邮件.eml",
+  "mime_attachments_verified": 19,
+  "email_sent": false,
+  "delivery_channel_confirmed_by_user": "Deliver the complete unsent email file; retain wuzijian@ahtcm.edu.cn as sender; the author will send it."
+}

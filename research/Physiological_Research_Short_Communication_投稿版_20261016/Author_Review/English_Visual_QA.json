@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "docx_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.docx",
+  "docx_sha256": "d5522e7ed2be737a6709bd6e72e6189b27c8c49d56055ae13209306aabd06559",
+  "pdf_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.pdf",
+  "pdf_sha256": "9db50a8c96df224c64a697f8d88111facb6d2b44a69fb19b4e77d56bc16332b6",
+  "render_directory": "/tmp/codex-physres-short-20261016/qa_en_final",
+  "pages": 6,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "image_review": "All six final original-resolution PNGs opened and visually inspected with view_image detail=original.",
+  "preliminary_render_directory": "/tmp/codex-physres-short-20261016/qa_en",
+  "pixel_identical_to_preliminary_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "checks": {
+    "article_type_short_communication": true,
+    "continuous_body_without_IMRaD_subheadings": true,
+    "native_qPCR_formula_visible_page2": true,
+    "gene_symbols_italicized_in_text_and_figure_captions": true,
+    "declaration_headings_and_body_clear": true,
+    "corrected_death_confirmation_wording_visible_page2": true,
+    "only_main_figures_1_biochemical_and_2_qpcr": true,
+    "figures_and_legends_complete_on_pages5_6": true,
+    "no_clipping_overlap_missing_glyphs_or_orphan_headings": true,
+    "no_final_blank_page": true,
+    "line_numbers_and_page_numbers_readable": true
+  },
+  "notes": [
+    "Only rendered PDF was written to the formal package; DOCX was not modified.",
+    "Visual QA does not resolve underlying experimental design or laboratory record limitations."
+  ]
+}

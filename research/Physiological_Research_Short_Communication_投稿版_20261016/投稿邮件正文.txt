@@ -1,0 +1,20 @@
+From: Zijian Wu <wuzijian@ahtcm.edu.cn>
+To: physres@fgu.cas.cz
+Subject: Short Communication submission - Yuan et al - Medullary redox changes in atlantoaxial joint disorder
+
+Dear Editors,
+
+Please consider our attached manuscript, "Regional medullary redox indices and Nox1/Nox4 mRNA expression in rats with atlantoaxial joint disorder", as an Short Communication in Physiological Research.
+
+The study reports exploratory regional biochemical and transcript observations. Its sampling-time differences, assay-validation limitations and animal-care limitations are disclosed in the manuscript and cover letter. Related published work and the shared blood-pressure observations are also identified.
+
+All authors have approved the manuscript. The manuscript has not been published previously and is not under consideration elsewhere. The authors declare no competing interests.
+
+We provide the editable short manuscript and complete PDF, two separate main figures, cover letter, supplementary information containing detailed methods, extended results and editable Supplementary Table S1, and available numerical inputs, source archives and reproducible code. Please advise if supplementary items require an alternative format or placement.
+
+Thank you for considering our submission.
+
+Sincerely,
+Zijian Wu and Youkui Lv
+Corresponding authors, on behalf of all authors
+wuzijian@ahtcm.edu.cn; lvyk126@126.com

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "date": "2026-10-16",
+  "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_cover_letter.docx",
+  "sha256": "b7a93b84195f15aa091ba36fdf639d568db359f9f8cdeb9897bc58ebf259fc9c",
+  "page_count": 1,
+  "pages_inspected": [
+    1
+  ],
+  "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "render_pdf_sha256": "dca8a3c2dbe3a6b00b21b592816074706b80d0081e6f04684f04bea5b9a95fe5",
+  "checks": {
+    "all_pages_readable": true,
+    "no_clipping_overlap_or_orphan_headings": true,
+    "captions_equation_and_tables_complete": true
+  },
+  "notes": [
+    "One-page letter names Short Communication and describes separate supplementary materials for editorial guidance."
+  ]
+}
