@@ -1,8 +1,15 @@
 {
   "restoration_group": "Author confirmed that restoration animals were selected from successfully modeled rats and continued; separate model rats underwent terminal sampling at week 4.",
   "terminal_tissue_analysis": "Independent cohorts; no paired longitudinal tissue test inferred from common model origin.",
-  "two_conflicting_plate_wells": "Author answered unknown; no explanation or native .ord supplied.",
+  "two_conflicting_plate_wells": "The author subsequently confirmed annotation errors after checking original sample-loading or laboratory records: B10-Ch5=Nox1 model, D12-Ch5=Nox4 sham. Original exports and Cq values unchanged.",
   "date_scope": "At the author's request, this round does not further investigate run-year/approval-time correspondence. Original dates, metadata and ethics number are unchanged; correspondence is not declared verified.",
   "primary_values_or_statistical_outputs_changed": false,
-  "QC_status": "New sources available; specificity and conflicting well annotation remain unresolved. Disclosure does not establish assay validation."
+  "QC_status": "Plate discrepancy explained by author-confirmed annotation errors; heterogeneous melting profiles and assay-validation limitations remain unresolved.",
+  "annotation_error_confirmed_by_author_after_source_review": true,
+  "supporting_record_provided_for_independent_review": false,
+  "clarification_history": [
+    "Earlier author response: cause unknown.",
+    "Subsequent author response: annotation error.",
+    "Further author confirmation: original sample-loading or laboratory records checked; both sample identities correct."
+  ]
 }

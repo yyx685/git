@@ -1,11 +1,11 @@
 {
   "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan_中文.docx",
-  "sha256": "adbd7245c34cdea1c0e09c36eb46c6dd2e44a9397e171990abd223958e9d42e9",
-  "render_directory": "/tmp/codex-physres-qpcr-originals-20261016/qa_zh",
+  "sha256": "9fa169b62ce8fff58d51803fc436091d8c41147e6bc7145b2538f40567586738",
+  "render_directory": "/tmp/codex-physres-plate-annotation-20261016/qa_zh",
   "page_count": 6,
-  "inspection": "All six full-size page PNGs opened with view_image detail original and visually inspected.",
-  "renderer": "canonical render_docx.py using bundled Python and bundled soffice only",
+  "renderer": "canonical render_docx.py with bundled Python and bundled LibreOffice only",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "inspection": "All six source page PNGs viewed in original detail and visually inspected.",
   "inspected_pages": [
     {
       "page": 1,
@@ -39,23 +39,22 @@
     }
   ],
   "checks": {
-    "all_pages_readable_no_overlap_or_clipping": true,
-    "no_orphan_heading_or_blank_terminal_page": true,
-    "corrected_common_source_separate_terminal_groups_visible_page1": true,
-    "four_animals_reserved": true,
-    "week4_week8_dates_preserved": true,
-    "native_formula_correct_visible_page2": true,
-    "original_qpcr_available_statement_visible_page2": true,
-    "unresolved_two_well_and_melt_peak_limitations_visible_pages2_3": true,
-    "data_availability_updated_visible_page3": true,
-    "no_claim_qpcr_defects_resolved": true,
+    "all_pages_readable_no_overlap_clipping_missing_glyphs": true,
+    "no_orphan_heading_or_blank_page": true,
+    "plate_discrepancy_attributed_only_to_author_confirmation": true,
+    "no_institutional_validation_claim": true,
+    "melting_peak_limitation_retained": true,
+    "data_availability_specificity_not_confirmed": true,
+    "sample_n6_retained": true,
+    "week4_week8_and_four_reserve_animals_retained": true,
+    "native_equation_correct_page2": true,
     "main_figures_exactly_two": true,
-    "figure1_and_full_legend_visible_page5": true,
-    "figure2_and_full_legend_visible_page6": true,
-    "week_axis_labels_and_holm_star_thresholds_correct": true,
+    "figure1_page5_complete": true,
+    "figure2_page6_complete": true,
+    "all_figure_legends_complete": true,
     "no_main_he_or_mechanism_diagram": true
   },
-  "scope_note": "Visual QA only; source data, figure statistics and numerical results were not altered or newly validated. No year or ethics chronology changes were made.",
   "result": "pass",
-  "reviewed_at": "2026-10-16T13:40:14.247984+00:00"
+  "scope_note": "Visual QA and requested-wording presence only. Author confirmation of annotation error is distinguished from institutional or independent verification. No numerical data, statistics, source images, formal DOCX or PDF were modified by this reviewer.",
+  "reviewed_at": "2026-10-16T14:26:30.867916+00:00"
 }

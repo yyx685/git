@@ -1,6 +1,6 @@
 {
   "article_type": "Short Communication",
-  "english_words_including_title_summary_declarations_references_captions_and_native_math": 1921,
+  "english_words_including_title_summary_declarations_references_captions_and_native_math": 1910,
   "summary_words": 128,
   "references": 8,
   "main_figures": 2,
@@ -28,18 +28,12 @@
     "version_scope": "Client and CLI installed at final short-manuscript revision on 2026-10-16"
   },
   "submission_sent": false,
-  "previous_version_commit": "ff9d465d8b598aebfc05fe9f5ab3bdc5b961101e",
+  "previous_version_commit": "86b7f8fb127571abbaa8a2aed0043a81cb3bad43",
   "latest_change": {
-    "restoration_cohort": "Continued from successfully modeled cohort; separate model rats sampled terminally at week 4.",
-    "new_qPCR_sources": "19 byte-identical supplied files in Supplementary File 7; instrument/curve availability statements corrected.",
-    "unresolved_QC_disclosed": [
-      "Heterogeneous target melt profiles",
-      "Two plate/Cq-results annotation conflicts",
-      "Missing validation and negative-control records"
-    ],
-    "TRIzol_catalog": "15596026 per supplied laboratory report",
-    "data_statistical_outputs_figures_and_equations_changed": false,
-    "date_records_or_approval_number_changed": false,
-    "posthoc_sensitivity": "Two author-review-only scenarios; not used to select or replace main analysis or submitted as additional results."
+    "plate_annotation": "Author confirmed B10 and D12 annotation errors after reviewing source records; independent supporting record not supplied in archive.",
+    "original_exports_Cq_statistics_and_figures_changed": false,
+    "gene_specificity_validated": false,
+    "primary_analysis": "All original six observations per group, normalization and 18-comparison Holm family retained.",
+    "date_or_ethics_number_changed": false
   }
 }

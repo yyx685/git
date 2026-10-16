@@ -8,5 +8,5 @@
   "mime_attachments_verified": 20,
   "email_sent": false,
   "delivery_channel_confirmed_by_user": "Deliver the complete unsent email file; retain wuzijian@ahtcm.edu.cn as sender; the author will send it.",
-  "last_update": "Restoration origin, newly available qPCR exports and unresolved QC synchronized in current unsent attachments."
+  "last_update": "Author-confirmed Plate annotation errors synchronized in main, supplement and all unsent attachments; specificity limitations retained."
 }

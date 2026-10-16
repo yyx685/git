@@ -1,10 +1,10 @@
 {
-  "status": "PASS_LAYOUT_WITH_SCIENTIFIC_LIMITATIONS_RETAINED",
+  "status": "PASS_LAYOUT_WITH_LIMITATIONS_RETAINED",
   "docx_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.docx",
-  "docx_sha256": "e691f9268dd278cf1bc23c134a3fc5f2abe1418d2b8f453e4c5e5772626ecb57",
+  "docx_sha256": "2d24ee9233cabe5bd02c0c30d49b4beb47e5660d83df7493c37b722c7b9f2938",
   "pdf_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016/Yuan.pdf",
-  "pdf_sha256": "ba2794954bf2fa5a8db0aa407430a2ff614daa4361fe13abc7e397b8e4aa46d2",
-  "render_directory": "/tmp/codex-physres-qpcr-originals-20261016/qa_en",
+  "pdf_sha256": "4a42660e2809b950d608cb2c0fdebb6d8ece456409f953cb5400189bdad22278",
+  "render_directory": "/tmp/codex-physres-plate-annotation-20261016/qa_en_final",
   "pages": 6,
   "reviewed_pages": [
     1,
@@ -14,32 +14,29 @@
     5,
     6
   ],
-  "image_review": "All six complete rendered PNGs opened with view_image detail=original and reviewed.",
-  "pdf_marker": {
-    "operation_kind": "edit",
-    "expected_output_count": 1,
-    "output_format": "pdf",
-    "success": true,
-    "run_count_this_revision": 1
-  },
+  "review_method": "All six final PNG pages opened with view_image detail=original and visually inspected.",
+  "pdf_marker_run_count_this_revision": 1,
+  "pdf_marker_success": true,
   "checks": {
-    "all_pages_readable_no_overlap_clipping_missing_glyphs": true,
-    "no_orphan_heading_or_final_blank_page": true,
-    "native_qPCR_equation_complete_page2": true,
-    "gene_symbols_italicized": true,
-    "main_figures1_2_complete_with_captions": true,
-    "week4_week8_labels_and_star_thresholds_retained": true,
-    "restoration_and_model_are_separate_terminal_cohorts_wording_present": true,
-    "original_qPCR_exports_now_available_statement_present": true,
-    "heterogeneous_melt_profiles_and_two_conflicting_wells_reported": true,
-    "efficiency_and_reference_stability_not_validated_remains": true,
-    "NTC_noRT_records_unavailable_remains": true,
-    "source_exports_not_claimed_to_resolve_well_identity_or_specificity": true,
-    "no_new_detection_year_or_ethics_assertion_added_by_QA_agent": true
+    "reference8_retained_on_page4_no_nearly_empty_reference_tail_page": true,
+    "figures1_2_complete_on_pages5_6": true,
+    "native_equation_visible_complete_page2": true,
+    "no_overlap_clipping_missing_glyphs_or_orphan_headings": true,
+    "no_final_blank_page": true,
+    "author_confirmation_attributed_to_authors": true,
+    "heterogeneous_target_melt_profiles_remain_disclosed": true,
+    "target_specificity_unconfirmed_remains_disclosed": true,
+    "efficiency_reference_stability_NTC_noRT_gaps_remain": true,
+    "no_new_detection_year_or_ethics_statement_added_by_QA_agent": true
+  },
+  "repair_history": {
+    "initial_render_pages": 7,
+    "initial_issue": "Reference 8 alone on near-empty page 5.",
+    "resolution": "Root shortened repeated method and data-availability wording; final render returns to six pages with all references on page 4.",
+    "initial_audit": "/tmp/codex-physres-plate-annotation-20261016/English_Visual_QA_PreRepair.json"
   },
   "notes": [
-    "This agent performed layout/wording verification and did not modify DOCX or scientific/statistical inputs.",
-    "Underlying target specificity, conflicting well annotations, control/validation gaps and animal-to-sample identity limitations remain disclosed.",
-    "Only formal Yuan.pdf was overwritten with the verified render."
+    "Author confirmation of Plate annotation errors is not an independent verification by this QA agent.",
+    "Only formal PDF was overwritten; DOCX, raw data, statistical inputs and source dates untouched by this agent."
   ]
 }
