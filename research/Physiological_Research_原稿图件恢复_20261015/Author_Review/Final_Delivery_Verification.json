@@ -3,18 +3,22 @@
   "date": "2026-10-16",
   "documents": {
     "Yuan.docx": {
-      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+      "sha256": "8efcf40e90c2f0eb3d1cbe33a5f0614ad0c7bd6fe30023f00472f8e4a277f7c0",
       "main_images_exactly_match_separate_jpgs": true,
-      "native_tables": 1,
+      "native_tables": 0,
       "native_formula_count": 1,
-      "tracked_changes": false
+      "tracked_changes": false,
+      "all_four_embedded_images_unchanged": true,
+      "former_table_referenced_as_supplementary_S1": true
     },
     "Yuan_中文.docx": {
-      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
+      "sha256": "95c9dbcf4852feda086d5465c822089cecb563aa6ee1b9774ad3b9fb01fe4a93",
       "main_images_exactly_match_separate_jpgs": true,
-      "native_tables": 1,
+      "native_tables": 0,
       "native_formula_count": 1,
-      "tracked_changes": false
+      "tracked_changes": false,
+      "all_four_embedded_images_unchanged": true,
+      "former_table_referenced_as_supplementary_S1": true
     }
   },
   "unchanged_supporting_inputs_and_outputs": [
@@ -37,23 +41,13 @@
   "original_numbered_figures_archived": 7,
   "main_HE_byte_identical_to_source": true,
   "brown_stained_extra_image_excluded": true,
-  "copied_cover_letter_and_native_table_identical": true,
   "DS_Store_count": 0,
   "submission_email_sent": false,
   "note": "Scientific validation remains limited as disclosed in manuscript; original BP, serum and WB graphics are author-review only, not quantitative main-article results.",
-  "mechanism_redesign_checks": {
-    "Yuan.docx": {
-      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
-      "only_text_change": "Figure4 caption",
-      "all_other_text_table_and_formula_unchanged": true,
-      "all_four_embedded_images_match_separate_jpgs": true
-    },
-    "Yuan_中文.docx": {
-      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
-      "only_text_change": "Figure4 caption",
-      "all_other_text_table_and_formula_unchanged": true,
-      "all_four_embedded_images_match_separate_jpgs": true
-    }
-  },
-  "pdf_sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f"
+  "pdf_sha256": "caa7474079a2a4624526b16931c86f3f4eb8ac89f43b71656116bad9ebe8a443",
+  "cover_letter_unchanged": true,
+  "table_relocated_without_numeric_changes": true,
+  "main_table_count": 0,
+  "supplementary_table_count": 1,
+  "supplementary_document_sha256": "7052c13cfeb9ed5e593c5c5c61c3c8e540cc2de28d5cbe20eee8ec1c46786e32"
 }

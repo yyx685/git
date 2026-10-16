@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan_supplementary_information.docx",
+  "document_sha256": "94996694160dae098e157a80326796c8926ec80380781ab476dd75df22838dcd",
+  "render_directory": "/tmp/codex-physres-original-figures-20261015/qa_si_final",
+  "renderer": "canonical render_docx.py",
+  "libreoffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "page_count": 3,
+  "pages_reviewed_full_size": [
+    1,
+    2,
+    3
+  ],
+  "visual_checks": {
+    "page1": "All data and Appendix1–5 descriptions fit; current mainfigure references2/3/4 correct. No clipping.",
+    "page2": "S1H&E image and complete qualitative-only legend clean and readable.",
+    "page3": "S2bloodpressure source-record plot and complete provenance/limitations legend clean and readable."
+  },
+  "repair": "Removed only the standalone manual page-break paragraph at prior index16; set page_break_before onSupplementaryFigureS1heading.",
+  "scientific_text_unchanged_by_repair": true,
+  "figure_pixels_unchanged_by_repair": true,
+  "main_English_document_unchanged": true,
+  "blank_page_removed": true,
+  "unresolved_defects": []
+}

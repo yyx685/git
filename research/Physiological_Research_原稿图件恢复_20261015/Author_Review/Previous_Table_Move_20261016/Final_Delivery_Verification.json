@@ -1,0 +1,59 @@
+{
+  "status": "PASS_WITH_REPORTED_RECORD_LIMITATIONS",
+  "date": "2026-10-16",
+  "documents": {
+    "Yuan.docx": {
+      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+      "main_images_exactly_match_separate_jpgs": true,
+      "native_tables": 1,
+      "native_formula_count": 1,
+      "tracked_changes": false
+    },
+    "Yuan_中文.docx": {
+      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
+      "main_images_exactly_match_separate_jpgs": true,
+      "native_tables": 1,
+      "native_formula_count": 1,
+      "tracked_changes": false
+    }
+  },
+  "unchanged_supporting_inputs_and_outputs": [
+    "S5_File_Archived_BP_Workbook.xlsx",
+    "S1_Appendix_Reproduce_RVLM_Statistics.py",
+    "S2_Fig_Archived_BP_Records.tif",
+    "S1_Fig_HE_Illustrative_Images.tif",
+    "S4_File_RTqPCR_Statistical_Outputs.json",
+    "S1_Data_RVLM_Processed_Values.csv",
+    "S6_File_HE_Supplied_Composite.jpg",
+    "Supplementary_Fig_S2.pdf",
+    "S2_Appendix_Reproduce_RTqPCR.py",
+    "S4_Appendix_Plot_Main_Figures.py",
+    "S4_Data_Archived_BP_Entered_Summaries.csv",
+    "S3_Appendix_Plot_Archived_BP.py",
+    "S3_File_RVLM_Statistical_Outputs.json",
+    "S3_Data_Archived_BP_Recorded_Values.csv",
+    "S2_Data_RTqPCR_Animal_Paired_Values.csv"
+  ],
+  "original_numbered_figures_archived": 7,
+  "main_HE_byte_identical_to_source": true,
+  "brown_stained_extra_image_excluded": true,
+  "copied_cover_letter_and_native_table_identical": true,
+  "DS_Store_count": 0,
+  "submission_email_sent": false,
+  "note": "Scientific validation remains limited as disclosed in manuscript; original BP, serum and WB graphics are author-review only, not quantitative main-article results.",
+  "mechanism_redesign_checks": {
+    "Yuan.docx": {
+      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+      "only_text_change": "Figure4 caption",
+      "all_other_text_table_and_formula_unchanged": true,
+      "all_four_embedded_images_match_separate_jpgs": true
+    },
+    "Yuan_中文.docx": {
+      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
+      "only_text_change": "Figure4 caption",
+      "all_other_text_table_and_formula_unchanged": true,
+      "all_four_embedded_images_match_separate_jpgs": true
+    }
+  },
+  "pdf_sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f"
+}

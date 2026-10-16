@@ -2,18 +2,18 @@
   "to": "physres@fgu.cas.cz",
   "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
   "sent": false,
-  "attachment_count": 22,
-  "total_bytes": 14148735,
+  "attachment_count": 21,
+  "total_bytes": 14096666,
   "attachments": [
     {
       "file": "Yuan.docx",
-      "bytes": 2832807,
-      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50"
+      "bytes": 2831567,
+      "sha256": "8efcf40e90c2f0eb3d1cbe33a5f0614ad0c7bd6fe30023f00472f8e4a277f7c0"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 846663,
-      "sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f"
+      "bytes": 833804,
+      "sha256": "caa7474079a2a4624526b16931c86f3f4eb8ac89f43b71656116bad9ebe8a443"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -21,14 +21,9 @@
       "sha256": "777610086b4ceed57c281ab386afc21fde07e649102c907a6f0349b3f4483c69"
     },
     {
-      "file": "Yuan_table1.docx",
-      "bytes": 39205,
-      "sha256": "625cb54ff1a6d03f668c6c6c622a09013765a1c1d0a3fed6af08b1c248e342ff"
-    },
-    {
       "file": "Yuan_supplementary_information.docx",
-      "bytes": 5978980,
-      "sha256": "94996694160dae098e157a80326796c8926ec80380781ab476dd75df22838dcd"
+      "bytes": 5980215,
+      "sha256": "7052c13cfeb9ed5e593c5c5c61c3c8e540cc2de28d5cbe20eee8ec1c46786e32"
     },
     {
       "file": "Figures/Yuan_fig1.jpg",

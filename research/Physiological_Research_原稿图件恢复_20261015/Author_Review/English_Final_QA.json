@@ -1,90 +1,95 @@
 {
   "status": "PASS",
   "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan.docx",
-  "document_sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
-  "render_directory": "/tmp/codex-physres-mechanism-v2/qa_en",
-  "renderer": "Canonical render_docx.py with bundled LibreOffice only",
-  "libreoffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "document_sha256": "8efcf40e90c2f0eb3d1cbe33a5f0614ad0c7bd6fe30023f00472f8e4a277f7c0",
+  "main_table_count": 0,
+  "main_figure_count": 4,
+  "Supplementary_Table_S1_references_correct": true,
+  "only_expected_text_changes": true,
+  "all_other_paragraphs_and_numerical_results_identical": true,
+  "all_four_figure_media_identical": true,
+  "native_equation_identical": true,
+  "word_count": 4762,
+  "conservative_xml_word_count": 4790,
+  "under_5000_words": true,
   "page_count": 14,
-  "baseline_directory": "/tmp/codex-physres-original-figures-20261015/qa_en_final",
+  "page_count_note": "Actual clean render remains 14 pages; references occupy pages 9–10 and Figures 1–4 occupy pages 11–14. No blank page is present.",
   "pages": [
     {
       "page": 1,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": true,
+      "review": "Prior full visual review retained by pixel identity"
     },
     {
       "page": 2,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": true,
+      "review": "Prior full visual review retained by pixel identity"
     },
     {
       "page": 3,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": true,
+      "review": "Prior full visual review retained by pixel identity"
     },
     {
       "page": 4,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": true,
+      "review": "Prior full visual review retained by pixel identity"
     },
     {
       "page": 5,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": true,
+      "review": "Prior full visual review retained by pixel identity"
     },
     {
       "page": 6,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     },
     {
       "page": 7,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": true,
+      "review": "Prior full visual review retained by pixel identity"
     },
     {
       "page": 8,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     },
     {
       "page": 9,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     },
     {
       "page": 10,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     },
     {
       "page": 11,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     },
     {
       "page": 12,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     },
     {
       "page": 13,
-      "pixel_identical_to_previously_reviewed_baseline": true,
-      "review": "Prior full-page review retained by exact pixel identity"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     },
     {
       "page": 14,
-      "pixel_identical_to_previously_reviewed_baseline": false,
-      "review": "Opened at original resolution; clean new Figure 4 and full caption, no clipping, no overlap, readable symbols and labels"
+      "pixel_identical_to_previous_same_page": false,
+      "review": "Opened at original resolution in this task; clean, readable, no clipping, no overlap, no blank page"
     }
   ],
-  "word_count_paragraphs_tables": 4880,
-  "conservative_xml_word_count_including_equation_text": 4908,
-  "native_math_text": "Q =  2 −ΔCq",
-  "under_5000_words": true,
+  "render_directory": "/tmp/codex-physres-table-s1-20261016/qa_en",
+  "baseline": "/tmp/codex-physres-mechanism-v2/qa_en",
+  "libreoffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
   "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan.pdf",
-  "pdf_sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f",
-  "final_page_visual_result": "Figure and caption fit on the same page with ample margins. No additional blank page. Color legend clearly distinguishes present observations from prior reports, and dashed proposed links remain explicit.",
-  "edits_to_docx": false
+  "pdf_sha256": "caa7474079a2a4624526b16931c86f3f4eb8ac89f43b71656116bad9ebe8a443",
+  "docx_modified_by_QA": false
 }

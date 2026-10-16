@@ -1,20 +1,21 @@
 {
   "status": "PASS_WITH_REPORTED_RECORD_LIMITATIONS",
   "date": "2026-10-16",
-  "document_sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+  "document_sha256": "8efcf40e90c2f0eb3d1cbe33a5f0614ad0c7bd6fe30023f00472f8e4a277f7c0",
   "counts": {
-    "whole_doc_text_table_and_formula_words": 4882,
-    "conservative_XML_words": 4908,
+    "whole_doc_text_table_and_formula_words": 4764,
+    "conservative_XML_words": 4790,
     "summary_words": 166,
     "short_title_characters": 54,
     "keywords": 5,
     "references": 19,
     "main_figures": 4,
-    "main_tables": 1
+    "main_tables": 0
   },
   "original_article_limits_pass": true,
-  "body_and_reference_order_unchanged": true,
-  "only_caption4_and_image4_changed": true,
   "scientific_limitations_unchanged": true,
-  "submission_readiness_caveat": "Full correspondence address and precise AI version information remain to be completed; stated scientific record/assay/design/welfare limitations remain. This QA is a format and figure consistency check, not scientific validation."
+  "submission_readiness_caveat": "Full correspondence address and precise AI version information remain to be completed; stated scientific record/assay/design/welfare limitations remain. This QA is a format and figure consistency check, not scientific validation.",
+  "latest_change": "Former main Table1 moved, without cell-value changes, to Supplementary Table S1. Only two main-text cross-references and table block/page-break handling changed; all four figures and all other numerical text unchanged.",
+  "reference_order_unchanged": true,
+  "body_changed_only_in_supplementary_crossreferences_and_table_removal": true
 }

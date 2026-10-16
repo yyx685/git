@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015",
-  "file_count_excluding_this_manifest": 68,
+  "file_count_excluding_this_manifest": 75,
   "submission_email_sent": false,
   "files": [
     {
@@ -11,13 +11,13 @@
     },
     {
       "file": "Author_Review/Chinese_Final_QA.json",
-      "bytes": 779,
-      "sha256": "cea0601604d10eecd72faa2f9492064fa4a65a3556c1c7e9ba9f9c047fad7f41"
+      "bytes": 7838,
+      "sha256": "14da8ef25a79280ddbc66f27f679a7970adf6869ddba842d08385c43b5cefaeb"
     },
     {
       "file": "Author_Review/English_Final_QA.json",
-      "bytes": 3627,
-      "sha256": "47bce248bf8e3fd29d140e4b54be8417a9cf6e123f99102c08a93a05fc6c0fee"
+      "bytes": 3792,
+      "sha256": "04348db32b38fbd205ff78f6ba6eb608829de0a4db470b003eeff587b3a2cdc9"
     },
     {
       "file": "Author_Review/Figure_Preparation_Audit.json",
@@ -26,13 +26,13 @@
     },
     {
       "file": "Author_Review/Figure_Restoration_Verification.json",
-      "bytes": 1129,
-      "sha256": "a272a9e2ba8fdd7284bab193399676f911773996ea4443d22f81ebaea779d690"
+      "bytes": 1242,
+      "sha256": "c67fec9696be74e212e96ae8c469c482a7b8660a29e54fc6129c0ad838f0d053"
     },
     {
       "file": "Author_Review/Final_Delivery_Verification.json",
-      "bytes": 2401,
-      "sha256": "acb302e29a9e21d5099ddaac890c8f99f6eb4497d3c80adcd242ad8212f5cdc0"
+      "bytes": 2220,
+      "sha256": "9c27d421e44c7edbea45ffe9d5854e400554207dd17ad7fd9edbe2237a548e58"
     },
     {
       "file": "Author_Review/Mechanism_Redesign_QA.json",
@@ -100,19 +100,59 @@
       "sha256": "ecac0418cb22890acd4a8fb3abe3c8cd2ba8459a426c866071375ae5c358a0c9"
     },
     {
-      "file": "Author_Review/Requirements_Final_QA.json",
+      "file": "Author_Review/Previous_Table_Move_20261016/Chinese_Final_QA.json",
+      "bytes": 779,
+      "sha256": "cea0601604d10eecd72faa2f9492064fa4a65a3556c1c7e9ba9f9c047fad7f41"
+    },
+    {
+      "file": "Author_Review/Previous_Table_Move_20261016/English_Final_QA.json",
+      "bytes": 3627,
+      "sha256": "47bce248bf8e3fd29d140e4b54be8417a9cf6e123f99102c08a93a05fc6c0fee"
+    },
+    {
+      "file": "Author_Review/Previous_Table_Move_20261016/Figure_Restoration_Verification.json",
+      "bytes": 1129,
+      "sha256": "a272a9e2ba8fdd7284bab193399676f911773996ea4443d22f81ebaea779d690"
+    },
+    {
+      "file": "Author_Review/Previous_Table_Move_20261016/Final_Delivery_Verification.json",
+      "bytes": 2401,
+      "sha256": "acb302e29a9e21d5099ddaac890c8f99f6eb4497d3c80adcd242ad8212f5cdc0"
+    },
+    {
+      "file": "Author_Review/Previous_Table_Move_20261016/Requirements_Final_QA.json",
       "bytes": 861,
       "sha256": "c4fb298a0c0c4732109fa348a4e5fb5150835fc8e50552af85ad9582ad482b5c"
     },
     {
-      "file": "Author_Review/SI_Final_QA.json",
+      "file": "Author_Review/Previous_Table_Move_20261016/SI_Final_QA.json",
       "bytes": 1238,
       "sha256": "aaa3393664de2d0b69832432a8ec0666bd9996a592df9a46079be85632f62345"
     },
     {
+      "file": "Author_Review/Previous_Table_Move_20261016/Yuan_table1_Former_Main_Table.docx",
+      "bytes": 39205,
+      "sha256": "625cb54ff1a6d03f668c6c6c622a09013765a1c1d0a3fed6af08b1c248e342ff"
+    },
+    {
+      "file": "Author_Review/Requirements_Final_QA.json",
+      "bytes": 1129,
+      "sha256": "7c417f654dd5df95748b58b948b2989dab54c5a57c434e760ef1973454d2b454"
+    },
+    {
+      "file": "Author_Review/SI_Final_QA.json",
+      "bytes": 911,
+      "sha256": "929da3f51c5e372c0bf0927316d305ce6261d42c3f7c4c40f77a1717338f2683"
+    },
+    {
       "file": "Author_Review/Submission_Attachment_List.json",
-      "bytes": 4365,
-      "sha256": "255feb944c9f9dc7d8466be540919da61452bdef8f8cf4f6265c3ca888ca05fa"
+      "bytes": 4213,
+      "sha256": "3199d9062e5be8b45aba07704581936b41603da300918f6d0bcfdef99b1c6a5b"
+    },
+    {
+      "file": "Author_Review/Table_Relocation_QA.json",
+      "bytes": 14914,
+      "sha256": "cd07b41e1091b7cb134d916fea2ce5793f577cfb2d25cac13f028265cfd0f0c0"
     },
     {
       "file": "Author_Review/原稿图件完整核阅册.docx",
@@ -306,13 +346,13 @@
     },
     {
       "file": "Yuan.docx",
-      "bytes": 2832807,
-      "sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50"
+      "bytes": 2831567,
+      "sha256": "8efcf40e90c2f0eb3d1cbe33a5f0614ad0c7bd6fe30023f00472f8e4a277f7c0"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 846663,
-      "sha256": "5397141f33fe8563d0761c24a9cbbf8a3da8523f1777b5bafda2a30e0c2bbd4f"
+      "bytes": 833804,
+      "sha256": "caa7474079a2a4624526b16931c86f3f4eb8ac89f43b71656116bad9ebe8a443"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -321,28 +361,23 @@
     },
     {
       "file": "Yuan_supplementary_information.docx",
-      "bytes": 5978980,
-      "sha256": "94996694160dae098e157a80326796c8926ec80380781ab476dd75df22838dcd"
-    },
-    {
-      "file": "Yuan_table1.docx",
-      "bytes": 39205,
-      "sha256": "625cb54ff1a6d03f668c6c6c622a09013765a1c1d0a3fed6af08b1c248e342ff"
+      "bytes": 5980215,
+      "sha256": "7052c13cfeb9ed5e593c5c5c61c3c8e540cc2de28d5cbe20eee8ec1c46786e32"
     },
     {
       "file": "Yuan_中文.docx",
-      "bytes": 2832837,
-      "sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704"
+      "bytes": 2831533,
+      "sha256": "95c9dbcf4852feda086d5465c822089cecb563aa6ee1b9774ad3b9fb01fe4a93"
     },
     {
       "file": "投稿邮件正文.txt",
-      "bytes": 1242,
-      "sha256": "178eabfba9fa9952a6d3cb75cf188281ca582e7f0dd53c7f69df8eb34a4986c2"
+      "bytes": 1265,
+      "sha256": "06102870186b6271f319b56bce5d4fec1fdff8495c5a80acaf16c70964611db3"
     },
     {
       "file": "本版图件说明.md",
-      "bytes": 4697,
-      "sha256": "1399756efd40a8f90bc98cb6635c108c1471d68b644f10d3363079da34b1c4ae"
+      "bytes": 5566,
+      "sha256": "bd9c7d95ce8a036be048e08f19851d0478ea49627aa428b8e8deaf90ad961f3b"
     }
   ]
 }

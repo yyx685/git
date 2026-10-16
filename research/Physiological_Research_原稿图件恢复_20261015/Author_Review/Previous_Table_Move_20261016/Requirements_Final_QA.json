@@ -1,0 +1,20 @@
+{
+  "status": "PASS_WITH_REPORTED_RECORD_LIMITATIONS",
+  "date": "2026-10-16",
+  "document_sha256": "47a57c03e694c9ae4379dc81ec1821426a148ae1cc8b6c9d70e9ca5644c1af50",
+  "counts": {
+    "whole_doc_text_table_and_formula_words": 4882,
+    "conservative_XML_words": 4908,
+    "summary_words": 166,
+    "short_title_characters": 54,
+    "keywords": 5,
+    "references": 19,
+    "main_figures": 4,
+    "main_tables": 1
+  },
+  "original_article_limits_pass": true,
+  "body_and_reference_order_unchanged": true,
+  "only_caption4_and_image4_changed": true,
+  "scientific_limitations_unchanged": true,
+  "submission_readiness_caveat": "Full correspondence address and precise AI version information remain to be completed; stated scientific record/assay/design/welfare limitations remain. This QA is a format and figure consistency check, not scientific validation."
+}

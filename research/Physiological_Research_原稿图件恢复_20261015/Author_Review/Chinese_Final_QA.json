@@ -1,29 +1,139 @@
 {
   "status": "PASS",
-  "date": "2026-10-16",
+  "task": "Move main Table 1 to Supplementary Table S1 while retaining main Figure 2",
   "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan_中文.docx",
-  "document_sha256": "9fd82ce2066c44d131e61ea556d23a0ec7a5f98afb396b7d91f8f4d8dd6bc704",
-  "page_count": 15,
-  "render_directory": "/tmp/codex-physres-mechanism-v2/qa_zh",
-  "unchanged_pages_pixel_identical_to_reviewed_baseline": [
-    1,
-    2,
-    3,
-    4,
-    5,
+  "document_sha256": "95c9dbcf4852feda086d5465c822089cecb563aa6ee1b9774ad3b9fb01fe4a93",
+  "render_dir": "/tmp/codex-physres-table-s1-20261016/qa_zh",
+  "pdf": "/tmp/codex-physres-table-s1-20261016/qa_zh/Yuan_中文.pdf",
+  "pdf_sha256": "8389fec89052b1ffa10a42428564dd9397638cdcc5e88ec1c08cacf961a6a2ea",
+  "pages": 14,
+  "baseline_pages": 15,
+  "review_method": "Canonical bundled render. Unchanged pages certified by exact decoded RGB pixel identity to prior fully inspected baseline; all changed pages opened individually at original detail.",
+  "original_detail_pages_inspected": [
     6,
-    7,
-    8,
     9,
-    10,
     11,
     12,
     13,
     14
   ],
-  "changed_pages_reviewed_full_size": [
-    15
+  "page_reviews": [
+    {
+      "page": 1,
+      "png_sha256": "ce8d2ba470b42e10cfd2394f96355bdf4f0b0586544626df8c80949f14fad073",
+      "rgb_pixel_sha256": "a8b23eaa3e8042619f1615a59cfd307488b0e6653fdf163c9eaddad32b965ec4",
+      "baseline_pixel_identical_page": "page-1.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 2,
+      "png_sha256": "70139a30c46cdfff0c8a8b161b655d933b211b0b53d71d5387c0b66a55645109",
+      "rgb_pixel_sha256": "111e4b72d517fb0768cefebbe42bfe7c5609ff90dde9d9da0b7fe26333e12e7c",
+      "baseline_pixel_identical_page": "page-2.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 3,
+      "png_sha256": "aff3d305e05ef5643ac52c913912be3fd4d64ecc484643bc5abe0130436ecaf7",
+      "rgb_pixel_sha256": "f4ac1cc8565b38ae7f69664a7af57f47c12ad9679c151f859ceac1728765f60c",
+      "baseline_pixel_identical_page": "page-3.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 4,
+      "png_sha256": "c8caf96488851df4d59e8450470871ef954b8fac98925408ad5fc534e56bafa9",
+      "rgb_pixel_sha256": "8e1601ec6c9351e76efa91bb84128fb8b8f591c770174ec1de3715510707758d",
+      "baseline_pixel_identical_page": "page-4.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 5,
+      "png_sha256": "b2f9dc6462f706af1eedda70c514717dfad02b40d225044d6741de6a0e1778f5",
+      "rgb_pixel_sha256": "e72c90b15e4a252e4f1592f0ca014665fa478da7daf6eec7446f66ad55ccaeed",
+      "baseline_pixel_identical_page": "page-5.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 6,
+      "png_sha256": "3a203e80b13c72d5cb26dccba0f19b6423be1ebff882c0ac9c05cec2c2305a32",
+      "rgb_pixel_sha256": "5aa4977bc651932c4939af75081fb34d4600bf6540ce024e6e74bfed7768fad4",
+      "baseline_pixel_identical_page": null,
+      "review": "Opened full page with detail original; no clipping, overlap, empty page or missing content"
+    },
+    {
+      "page": 7,
+      "png_sha256": "f5f60cf6cbc1ee5ba22d3881573dd85aa527a2d89001f9a23a3be0df58c99185",
+      "rgb_pixel_sha256": "6c770c0b90c2b894f2372fcc6f65dffc0096b45181c61d1878a0c4c25cdb45cc",
+      "baseline_pixel_identical_page": "page-7.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 8,
+      "png_sha256": "9b9f0ca4706daa3cc1ad08e7d817b27b00857468fc4d102ab6a4acb1876331c7",
+      "rgb_pixel_sha256": "ca97959ffc10ea81dcd48c3c83103555439ac977d371906d99ac1e787c3116a9",
+      "baseline_pixel_identical_page": "page-8.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 9,
+      "png_sha256": "5865d2cf4b3c36bad1d915c411a99704f8aacf2f8f9a12b84fc2488b5f31fe50",
+      "rgb_pixel_sha256": "369aff8a49f60545259fa614a89a1db03a5525458e8cd98bbb2d028d4ded307c",
+      "baseline_pixel_identical_page": null,
+      "review": "Opened full page with detail original; no clipping, overlap, empty page or missing content"
+    },
+    {
+      "page": 10,
+      "png_sha256": "9e8a6774ce9ab33241fa58b3aee2c49244ba18f082124b8ae5f291b83dab95e5",
+      "rgb_pixel_sha256": "d86833fbf5c93990ebabd59cc27f1ce5e4aea9e9796f0883feaaa4503f9eb8fe",
+      "baseline_pixel_identical_page": "page-10.png",
+      "review": "Prior fully inspected page reused by exact pixel identity"
+    },
+    {
+      "page": 11,
+      "png_sha256": "773d7c478974c58631f437fbe9d23538678a89c943f2882ee1278ce5e7ac6014",
+      "rgb_pixel_sha256": "9e6807d792ed3aa6d05e76f3ebde8a42e2a17e9c42ff169d8ea9c7e5a660daa5",
+      "baseline_pixel_identical_page": null,
+      "review": "Opened full page with detail original; no clipping, overlap, empty page or missing content"
+    },
+    {
+      "page": 12,
+      "png_sha256": "6a32aecddc48546733ae6e1cee0ee3911f86174d0cf4d69dc49d7d1e135d0bb0",
+      "rgb_pixel_sha256": "c377cce55fa05c1a4ed547b9bd43c33bd3391dce2c9a73c8fd0b6a979d4a288f",
+      "baseline_pixel_identical_page": null,
+      "review": "Opened full page with detail original; no clipping, overlap, empty page or missing content"
+    },
+    {
+      "page": 13,
+      "png_sha256": "6a6d31158250fcdc2e78c2194053ff1d643d5e60eda94143356cd45f829a6e05",
+      "rgb_pixel_sha256": "7be35f5212d1b532943b3c76e654c29037a9e52eba3fbcefa5680943b811fd18",
+      "baseline_pixel_identical_page": null,
+      "review": "Opened full page with detail original; no clipping, overlap, empty page or missing content"
+    },
+    {
+      "page": 14,
+      "png_sha256": "7e773ada03b0c646e7197a136cb91fb633cb45ecdc5366b424ed1f0570c094ee",
+      "rgb_pixel_sha256": "c376a61725c461d0ca8f888ff7bbae532386df7f1bff4e5ed1e4a7d3cca42c90",
+      "baseline_pixel_identical_page": null,
+      "review": "Opened full page with detail original; no clipping, overlap, empty page or missing content"
+    }
   ],
-  "visual_checks": "New mechanism figure and complete caption readable; no clipping, overlap or blank page. All other pages pixel-identical.",
-  "baseline": "/tmp/codex-physres-original-figures-20261015/qa_zh_delivery"
+  "structure": {
+    "main_table_count": 0,
+    "inline_picture_count": 4,
+    "supplementary_table_s1_reference_count": 2,
+    "remaining_main_table_1_literal": false,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0
+  },
+  "updated_cross_reference_paragraphs": [
+    "每项腹外侧延髓组织生化终点均采用每组6只大鼠进行分析。伪手术组、模型组和复位组的SOD活性分别为1.122 ± 0.072、0.564 ± 0.072和1.035 ± 0.101 U/mg蛋白；相应MDA含量分别为0.095 ± 0.017、0.349 ± 0.034和0.213 ± 0.049 nmol/mg蛋白，ROS相关荧光值分别为1326.9 ± 50.6、3295.6 ± 216.3和2265.6 ± 131.6 AU（图2）。Welch检验显示组间存在差异：SOD，F(2, 9.816) = 91.626；MDA，F(2, 8.500) = 130.738；ROS相关荧光，F(2, 7.804) = 314.907（均P < 0.001）。模型组与伪手术组的均值差及95%置信区间见补充表S1。与第28天取样的模型组相比，第56天取样的复位组SOD活性较高，MDA和ROS相关荧光较低（Games-Howell校正后均P < 0.001）。与伪手术组相比，复位组MDA较高（校正后P = 0.0033），ROS相关荧光较高（校正后P < 0.001）；SOD差异无统计学显著性（校正后P = 0.2534）。这并不能证明两组等效。上述复位组比较描述的是经过不同时间后取样的组间差异。完整数值结果见补充文件3。",
+    "补充数据、完整统计输出、复现代码、血压来源工作簿及HE资料单独提供。各项说明、补充表S1及补充图S1、S2见Yuan_supplementary_information.docx，独立数值与来源文件见Supporting_Information文件夹。"
+  ],
+  "findings": [
+    "Main Table 1 including heading, notes and separate page removed",
+    "Both Supplementary Table S1 cross references correct and readable on pages 6 and 9",
+    "Four main figures retained, Figure 2 readable and statistical caption unchanged",
+    "No blank, clipped or overlapping page; page count reduced from 15 to 14",
+    "Chinese document not modified during QA"
+  ]
 }

@@ -10,7 +10,7 @@ The study reports exploratory regional biochemical and transcript observations. 
 
 All authors have approved the manuscript. The manuscript has not been published previously and is not under consideration elsewhere. The authors declare no competing interests.
 
-We provide the editable manuscript and complete PDF, four separate main figures, the editable table, cover letter, supplementary information, and available numerical inputs, source archives and reproducible code.
+We provide the editable manuscript and complete PDF, four separate main figures, cover letter, supplementary information containing editable Supplementary Table S1, and available numerical inputs, source archives and reproducible code.
 
 Thank you for considering our submission.
 

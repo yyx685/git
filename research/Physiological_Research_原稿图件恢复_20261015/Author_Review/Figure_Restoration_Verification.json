@@ -1,9 +1,9 @@
 {
   "target": "Physiological Research Original Article",
-  "words_including_all_text_table_math": 4882,
+  "words_including_all_text_table_math": 4764,
   "main_figures": 4,
-  "main_tables": 1,
-  "display_items_total": 5,
+  "main_tables": 0,
+  "display_items_total": 4,
   "previous_package_preserved": true,
   "brown_extra_image_excluded": true,
   "all_seven_numbered_source_figures_retained_in_author_review": true,
@@ -15,5 +15,7 @@
   "figure4": "Redesigned three-column vector schematic, stylized cervical symbol, explicit evidence legend and independent terminal-cohort timelines. Dashed links remain hypotheses.",
   "unverified_original_BP_serum_WB": "Preserved in original-figure compendium, not represented as verified new quantitative results",
   "submitted": false,
-  "figure3_caption_correction": "Exact Holm-adjusted P values appear in the figure; removed unused star-threshold legend."
+  "figure3_caption_correction": "Exact Holm-adjusted P values appear in the figure; removed unused star-threshold legend.",
+  "supplementary_tables": 1,
+  "table1_location": "Yuan_supplementary_information.docx, Supplementary Table S1"
 }
