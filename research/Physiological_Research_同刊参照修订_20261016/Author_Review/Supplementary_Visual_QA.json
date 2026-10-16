@@ -1,9 +1,8 @@
 {
   "status": "PASS",
   "date": "2026-10-16",
-  "scope": "Canonical rendering and all-page original-resolution visual QA",
   "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan_supplementary_information.docx",
-  "sha256": "a46271b008295dd78c693cb52c1ad7d8df3b8643220bde9d22ae93bb4482f99e",
+  "sha256": "971e7ee6eb127ae50fd589e0bb2df8251d9cde6bff78c6c746b3e99560d639d0",
   "page_count": 4,
   "pages_inspected": [
     1,
@@ -11,16 +10,14 @@
     3,
     4
   ],
+  "render_pdf_sha256": "67487224f8a2b65ee447c989a28823c620a5669d49e271698147d1be4d82b6ed",
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
-  "render_pdf_sha256": "84fd82161118bfdf58efeea6e6430c543d36118a6f1a9c12ec9b14b342d09135",
   "checks": {
     "all_pages_readable": true,
     "no_clipping_overlap_missing_glyphs_or_orphan_headings": true,
-    "new_title_consistent": true
-  },
-  "notes": [
-    "Table S1 remains editable and unchanged; all table rows, caption and statistical footnote fit on page 4.",
-    "Main-figure cross-references updated; archived supplementary images remain illustrative/descriptive."
-  ]
+    "HE_retained_only_as_supplementary_FigS1": true,
+    "tableS1_and_statistical_footnote_complete": true,
+    "no_reference_to_removed_mechanism_diagram": true
+  }
 }

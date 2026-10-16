@@ -2,18 +2,18 @@
   "to": "physres@fgu.cas.cz",
   "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
   "sent": false,
-  "attachment_count": 21,
-  "total_bytes": 14101736,
+  "attachment_count": 19,
+  "total_bytes": 9324139,
   "attachments": [
     {
       "file": "Yuan.docx",
-      "bytes": 2831788,
-      "sha256": "4dc4f75d9388f0598e9c9f5ea6bf9c9c2bd84ddec19b4b4571f0cc0f80b8524c"
+      "bytes": 824791,
+      "sha256": "7791c1f0d7aff57ae298c5be443ff576af4c93622e0dc5160ddfd39a5015c6e4"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 838628,
-      "sha256": "65389fe822f1bdd4bceaee2a6446a6b4650e5f1c2bd4b101f287d1b7e092ac7d"
+      "bytes": 497585,
+      "sha256": "d26d9b0628900f4db9b4b9666f4cc6e23e6939d83119d761f54d9139a7a46dca"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -22,8 +22,8 @@
     },
     {
       "file": "Yuan_supplementary_information.docx",
-      "bytes": 5980224,
-      "sha256": "a46271b008295dd78c693cb52c1ad7d8df3b8643220bde9d22ae93bb4482f99e"
+      "bytes": 5980205,
+      "sha256": "971e7ee6eb127ae50fd589e0bb2df8251d9cde6bff78c6c746b3e99560d639d0"
     },
     {
       "file": "Figures/Yuan_fig1.jpg",
@@ -34,16 +34,6 @@
       "file": "Figures/Yuan_fig2.jpg",
       "bytes": 487618,
       "sha256": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad"
-    },
-    {
-      "file": "Figures/Yuan_fig3.jpg",
-      "bytes": 151359,
-      "sha256": "a9e3ee5c997d8e549d303860ad397e6c743661662300563a1f62913aca464111"
-    },
-    {
-      "file": "Figures/Yuan_fig4.jpg",
-      "bytes": 2271197,
-      "sha256": "b281e05e912e74ce6b45c685f570c816b23e10324aafe615aa282321f949d5cf"
     },
     {
       "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
@@ -107,10 +97,15 @@
     },
     {
       "file": "Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
-      "bytes": 15372,
-      "sha256": "98ffd5ded02e273aafd292226d26108520ffd989e574683df064a83240111e05"
+      "bytes": 8390,
+      "sha256": "4df1cd8b47d447097ac24726d3bbe7f3d956094a22fd35c71daaad6f6ffa282d"
     }
   ],
   "excluded": "Chinese author copy; author-review audits; Markdown notes; duplicate TIFF/PDF/SVG/PNG main-figure backups; supplementary TIFFs already embedded in supplementary Word. Prior source-figure archive remains in the preserved previous package.",
-  "checked_date": "2026-10-16"
+  "checked_date": "2026-10-16",
+  "main_figures": [
+    "Figures/Yuan_fig1.jpg",
+    "Figures/Yuan_fig2.jpg"
+  ],
+  "HE_location": "Supplementary Fig. S1 in the supplementary Word document, with the supplied source composite in Supplementary File 6."
 }

@@ -4,32 +4,32 @@
   "requirements_source": "https://www.biomed.cas.cz/physiolres/instructions.htm",
   "checks": {
     "article_type": "Original Article",
-    "english_main_word_count_including_front_matter_references_captions_and_native_math": 4863,
+    "english_main_word_count_including_front_matter_references_captions_and_native_math": 4738,
     "summary_words": 180,
     "short_title_characters": 54,
     "key_word_count": 5,
     "reference_count": 19,
-    "main_figure_count": 4,
+    "main_figure_count": 2,
     "main_native_table_count": 0,
     "supplementary_native_table_count": 1,
     "native_equation_count": 1,
     "summary_under250": true,
     "main_under5000": true,
-    "short_title_under60": true,
-    "keys_equal5": true,
-    "main_figures_tables_under6": true,
-    "all_page_visual_reviews_pass": true,
+    "all_final_pages_visually_checked": true,
     "main_figure_order": [
       "Biochemical indices",
-      "Nox1/Nox4 RT-qPCR",
-      "Illustrative H&E",
-      "Hypothesis schematic"
+      "Nox1/Nox4 RT-qPCR"
     ],
+    "HE_only_in_supplementary_material": true,
+    "mechanism_diagram_removed": true,
+    "remaining4_rats_kept_in_reserve_author_confirmed": true,
+    "effective_assay_sample_sizes_unchanged": true,
     "submission_sent": false
   },
   "notes": [
-    "All original numerical results, methods, source pixels and statistical outputs were preserved in this editorial revision.",
-    "Unresolved experimental, source-record and animal-welfare limitations are disclosed; document QA does not remedy them.",
-    "No submission email has been sent."
+    "This revision removes two main figures without changing numerical evidence, statistical analyses or reference order.",
+    "The reserve-animal statement is based on the author clarification in this conversation.",
+    "Method-validation, source-record and animal-welfare limitations remain disclosed.",
+    "Exact AI model identifier remains unarchived; this editorial revision does not resolve that submission-declaration issue."
   ]
 }

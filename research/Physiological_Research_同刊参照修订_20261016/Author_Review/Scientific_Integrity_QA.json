@@ -1,289 +1,278 @@
 {
-  "source_dir": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015",
-  "candidate_dir": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016",
+  "audit": "Removal of mechanism diagram, relocation of illustrative H&E exclusively to Supplementary Figure S1, and author-confirmed reserve disposition of four remaining rats",
   "date": "2026-10-16",
-  "status": "PASS_WITH_DISCLOSED_SCIENTIFIC_LIMITATIONS",
+  "before_directory": "/tmp/codex-physres-remove-diagram-20261016/before",
+  "after_directory": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016",
+  "result": "PASS",
   "checks": {
+    "Yuan.docx permitted changes only": true,
+    "Yuan.docx Methods and statistical methods identical except author-confirmed reserve disposition": true,
+    "Yuan.docx cohort paragraph changes only remaining four rats confirmed as reserves": true,
+    "Yuan.docx no undocumented remaining four rats statement": true,
+    "Yuan.docx quantitative results identical": true,
+    "Yuan.docx references nineteen and identical": true,
+    "Yuan.docx captions 1 and 2 identical": true,
+    "Yuan.docx native OMML equation identical": true,
+    "Yuan.docx only two embedded quantitative figure images": true,
+    "Yuan.docx no obsolete main figure references": true,
+    "Yuan_中文.docx permitted changes only": true,
+    "Yuan_中文.docx Methods and statistical methods identical except author-confirmed reserve disposition": true,
+    "Yuan_中文.docx cohort paragraph changes only remaining four rats confirmed as reserves": true,
+    "Yuan_中文.docx no undocumented remaining four rats statement": true,
+    "Yuan_中文.docx quantitative results identical": true,
+    "Yuan_中文.docx references nineteen and identical": true,
+    "Yuan_中文.docx captions 1 and 2 identical": true,
+    "Yuan_中文.docx native OMML equation identical": true,
+    "Yuan_中文.docx only two embedded quantitative figure images": true,
+    "Yuan_中文.docx no obsolete main figure references": true,
+    "SI only paragraph 15 changed": true,
+    "SI Supplementary Table S1 exact native XML unchanged": true,
+    "SI description change only removes mechanism figure": true,
+    "SI illustrative HE and archived BP embedded images unchanged": true,
+    "SI HE caption and Table S1 footnotes unchanged": true,
+    "Cover letter byte identical": true,
+    "All retained Fig1 and Fig2 formats byte identical": true,
+    "No main Fig3 or Fig4 files retained": true,
+    "All fifteen remaining supporting inputs results archives and scripts byte identical": true,
+    "S5 all quantitative calculation plotting annotation code exact unchanged": true,
+    "S5 figure exports only 1 and 2": true,
+    "S5 no H&E copy CLI or mechanism code": true,
+    "S5 original experimental source Figure 4 label retained": true,
+    "S5 Python syntax valid": true,
+    "Email only figure quantity adjusted four to two": true,
+    "All methods except author-confirmed remaining-four disposition retained including ethics and no postoperative analgesia": true
+  },
+  "documents": {
     "Yuan.docx": {
-      "sha256": "4dc4f75d9388f0598e9c9f5ea6bf9c9c2bd84ddec19b4b4571f0cc0f80b8524c",
-      "methods_text_verbatim": true,
-      "OMML_verbatim": true,
-      "native_math_count": 1,
-      "references_all19_verbatim_same_order": true,
-      "reference_first_citations": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
+      "before_sha256": "4dc4f75d9388f0598e9c9f5ea6bf9c9c2bd84ddec19b4b4571f0cc0f80b8524c",
+      "after_sha256": "7791c1f0d7aff57ae298c5be443ff576af4c93622e0dc5160ddfd39a5015c6e4",
+      "paragraph_changes_zero_based": [
         17,
-        18,
-        19
+        23,
+        50,
+        56
       ],
-      "reference_first_citations_sequential": true,
-      "first_main_figure_citations": [
-        1,
-        2,
-        3,
-        4
+      "deleted_tail_paragraph_indices": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
       ],
-      "figure_first_citations_sequential": true,
-      "embedded_images_sha256": [
-        "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648",
-        "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad",
-        "a9e3ee5c997d8e549d303860ad397e6c743661662300563a1f62913aca464111",
-        "b281e05e912e74ce6b45c685f570c816b23e10324aafe615aa282321f949d5cf"
-      ],
-      "embedded_images_exactly_match_all4_separate_jpg_in_order": true,
-      "native_main_table_count": 0,
-      "comments": [],
-      "tracked_edit_count": 0,
-      "result_mean_SD_pairs_exact_multiset": true,
-      "result_mean_SD_pairs": {
-        "0.564 ± 0.072": 1,
-        "1.122 ± 0.072": 1,
-        "0.349 ± 0.034": 1,
-        "0.095 ± 0.017": 1,
-        "3295.6 ± 216.3": 1,
-        "1326.9 ± 50.6": 1,
-        "1.459 ± 0.156": 1,
-        "1.000 ± 0.134": 1,
-        "2.902 ± 0.558": 1,
-        "1.000 ± 0.233": 1,
-        "1.035 ± 0.101": 1,
-        "0.213 ± 0.049": 1,
-        "2265.6 ± 131.6": 1,
-        "1.180 ± 0.090": 1,
-        "1.645 ± 0.227": 1
+      "inline_images": 2,
+      "embedded_media_sha256": {
+        "word/media/image2.jpg": "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648",
+        "word/media/image3.jpg": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad"
       },
-      "result_ANOVA_all_F_and_df_literals_preserved": true,
-      "result_ANOVA_F_pairs_preserved": true,
-      "manual_scientific_review": {
-        "n6_independent_per_assay_retained": true,
-        "paired_qpcr_one_read_per_animal_retained": true,
-        "day28_model_sham_and_day56_restoration_explicit": true,
-        "all4_key_limitations_complete": true,
-        "regional_tissue_and_no_nox_mediation_limits_complete": true,
-        "HE_only_illustrative_BP_only_archived": true,
-        "no_equivalence_or_causal_restoration_claim": true,
-        "AI_central_actual_use_statement_preserved": true,
-        "repeated_AI_sentences_removed_only_from_captions": true,
-        "no_new_unverified_experimental_methods": true
-      },
-      "result_all_exact_P_numeric_literals_and_counts_unchanged": true,
-      "result_exact_P_values_literal_counts": {
-        "0.0033": 1,
-        "0.2534": 1,
-        "0.0037": 2,
-        "0.0001": 1,
-        "0.0139": 1,
-        "0.0099": 1,
-        "0.0618": 1
-      },
-      "P_value_rephrasing_note": "Paired P-values are now introduced together rather than each repeating P=; all exact numeric literals and comparison assignments reviewed and unchanged. Additional all-three-model-sham P<0.001 sentence restates existing statistical output."
+      "main_tables": 0,
+      "changes": [
+        {
+          "index": 17,
+          "before": "We therefore examined biochemical redox indices and Nox1/Nox4 mRNA in medullary blocks containing the RVLM and adjacent tissue. The comparison between model and sham rats used the same day-28 endpoint; a restoration cohort was examined at a later endpoint after implant removal. A related report described Ang II/AT1-R expression in this model [13]. Blood-pressure observations were shared with that report, whereas the biochemical and transcript analyses presented here were not reported there. Archived blood-pressure records are provided in the supplement. Illustrative H&E fields are included among the main figures, with source material retained in the supplement. The present study characterizes regional group differences and examines their relevance to a possible redox phenotype.",
+          "after": "We therefore examined biochemical redox indices and Nox1/Nox4 mRNA in medullary blocks containing the RVLM and adjacent tissue. The comparison between model and sham rats used the same day-28 endpoint; a restoration cohort was examined at a later endpoint after implant removal. A related report described Ang II/AT1-R expression in this model [13]. Blood-pressure observations were shared with that report, whereas the biochemical and transcript analyses presented here were not reported there. Archived blood-pressure records are provided in the supplement. Illustrative H&E fields and source material are provided in the supplement. The present study characterizes regional group differences and examines their relevance to a possible redox phenotype."
+        },
+        {
+          "index": 23,
+          "before": "The parent experiment numbered 60 rats and allocated them by random numbers to sham operation (10) or model induction (50). All sham rats survived. During model induction, 6 rats died during surgery and 3 afterward; 41 survived, including 7 with implant loss and 34 with retained implants. After imaging and blood-pressure screening on day 28, successfully modeled rats were assigned by random numbers to model, restoration, and superior cervical ganglion resection groups of 10. The disposition of the remaining 4 rats with retained implants was undocumented. This report includes only sham, model, and restoration rats, initially 10 per group; ganglion-resection and electrophysiological results are not presented.",
+          "after": "The parent experiment numbered 60 rats and allocated them by random numbers to sham operation (10) or model induction (50). All sham rats survived. During model induction, 6 rats died during surgery and 3 afterward; 41 survived, including 7 with implant loss and 34 with retained implants. After imaging and blood-pressure screening on day 28, successfully modeled rats were assigned by random numbers to model, restoration, and superior cervical ganglion resection groups of 10. The remaining 4 rats with retained implants were kept in reserve and were not allocated to the three subsequent 10-rat groups. This report includes only sham, model, and restoration rats, initially 10 per group; ganglion-resection and electrophysiological results are not presented."
+        },
+        {
+          "index": 50,
+          "before": "The archived H&E fields show nuclear staining and varied cellular profiles (Fig. 3). Unconfirmed specimen counts and image-to-animal correspondence limit their use to illustration; no group-level histological inference was made.",
+          "after": "The archived H&E fields show nuclear staining and varied cellular profiles (Supplementary Fig. S1). Unconfirmed specimen counts and image-to-animal correspondence limit their use to illustration; no group-level histological inference was made."
+        },
+        {
+          "index": 56,
+          "before": "The previously reported Ang II/AT1-R expression changes in this model provide another point of connection [13]. Experimental work on RVLM angiotensin signaling and angiotensin-associated NOX pathways offers a possible framework for interpreting the regional findings [18,19]. Angiotensin signaling and sympathetic discharge were not measured in the present analyses. Accordingly, the relationships illustrated in Fig. 4 are proposed links for testing, rather than an established sequence connecting cervical perturbation, NOX activity and blood-pressure regulation.",
+          "after": "The previously reported Ang II/AT1-R expression changes in this model provide another point of connection [13]. Experimental work on RVLM angiotensin signaling and angiotensin-associated NOX pathways offers a possible framework for interpreting the regional findings [18,19]. Angiotensin signaling and sympathetic discharge were not measured in the present analyses. Accordingly, connections between cervical perturbation, NOX activity and blood-pressure regulation remain hypotheses requiring direct testing."
+        }
+      ]
     },
     "Yuan_中文.docx": {
-      "sha256": "2c5024c9e48b71e3baf2b84174e13a6d7b0d34f3d12f15d851ded8880fe856f6",
-      "methods_text_verbatim": true,
-      "OMML_verbatim": true,
-      "native_math_count": 1,
-      "references_all19_verbatim_same_order": true,
-      "reference_first_citations": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
+      "before_sha256": "2c5024c9e48b71e3baf2b84174e13a6d7b0d34f3d12f15d851ded8880fe856f6",
+      "after_sha256": "d5b0ec9c50c76ffa503ced18325330113a7e9102f23ebc8bcdbe91e4c91ad3f1",
+      "paragraph_changes_zero_based": [
         17,
-        18,
-        19
+        23,
+        50,
+        56
       ],
-      "reference_first_citations_sequential": true,
-      "first_main_figure_citations": [
-        1,
-        2,
-        3,
-        4
+      "deleted_tail_paragraph_indices": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
       ],
-      "figure_first_citations_sequential": true,
-      "embedded_images_sha256": [
-        "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648",
-        "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad",
-        "a9e3ee5c997d8e549d303860ad397e6c743661662300563a1f62913aca464111",
-        "b281e05e912e74ce6b45c685f570c816b23e10324aafe615aa282321f949d5cf"
+      "inline_images": 2,
+      "embedded_media_sha256": {
+        "word/media/image2.jpg": "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648",
+        "word/media/image3.jpg": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad"
+      },
+      "main_tables": 0,
+      "changes": [
+        {
+          "index": 17,
+          "before": "因此，本研究检测含RVLM及邻近组织的延髓块中的氧化还原生化指标和Nox1/Nox4 mRNA。模型组与伪手术组在同一第28天终点比较，复位队列则在异物取出后的较晚终点观察。相关论文曾报告本模型的Ang II/AT1-R表达[13]。两文共享来源实验中的血压观察，本稿生化及转录本分析则未在该文报告。存档血压记录见补充材料；HE示例视野纳入主文图件，来源资料另保留于补充材料。本研究描述区域指标的组间差异，考察可能伴随该模型出现的氧化还原表型。",
+          "after": "因此，本研究检测含RVLM及邻近组织的延髓块中的氧化还原生化指标和Nox1/Nox4 mRNA。模型组与伪手术组在同一第28天终点比较，复位队列则在异物取出后的较晚终点观察。相关论文曾报告本模型的Ang II/AT1-R表达[13]。两文共享来源实验中的血压观察，本稿生化及转录本分析则未在该文报告。存档血压记录、HE示例视野及来源资料见补充材料。本研究描述区域指标的组间差异，考察可能伴随该模型出现的氧化还原表型。"
+        },
+        {
+          "index": 23,
+          "before": "来源实验将60只大鼠编号，采用随机数字法分配至伪手术组10只和造模队列50只。伪手术大鼠全部存活；造模过程中死亡6只，其后死亡3只，存活41只，其中7只异物脱落、34只异物在位。第28天经影像和血压筛选后，将造模成功动物采用随机数字法分至模型、复位及颈上神经节切除组，每组10只。余下4只异物在位动物的后续去向无记录。本报告仅纳入伪手术、模型及复位组，最初各10只；不报告神经节切除及电生理结果。",
+          "after": "来源实验将60只大鼠编号，采用随机数字法分配至伪手术组10只和造模队列50只。伪手术大鼠全部存活；造模过程中死亡6只，其后死亡3只，存活41只，其中7只异物脱落、34只异物在位。第28天经影像和血压筛选后，将造模成功动物采用随机数字法分至模型、复位及颈上神经节切除组，每组10只。余下4只异物在位动物留作备用，未纳入后续三个各10只的分组。本报告仅纳入伪手术、模型及复位组，最初各10只；不报告神经节切除及电生理结果。"
+        },
+        {
+          "index": 50,
+          "before": "存档HE视野可见核染色及形态各异的细胞轮廓（图3）。制片数量和图像与动物的对应关系无法确认，因此仅作示例展示，未作组间组织学推断。",
+          "after": "存档HE视野可见核染色及形态各异的细胞轮廓（补充图S1）。制片数量和图像与动物的对应关系无法确认，因此仅作示例展示，未作组间组织学推断。"
+        },
+        {
+          "index": 56,
+          "before": "既往报道的本模型Ang II/AT1-R表达变化提供了另一项联系[13]。有关RVLM血管紧张素信号及血管紧张素相关NOX通路的实验研究，为理解本研究的区域观察提供了可能的框架[18,19]。本次分析未测量血管紧张素信号活性或交感神经放电。因此，图4所示关系是有待检验的拟议联系，而非已经确立的连接颈部扰动、NOX活性与血压调节的作用顺序。",
+          "after": "既往报道的本模型Ang II/AT1-R表达变化提供了另一项联系[13]。有关RVLM血管紧张素信号及血管紧张素相关NOX通路的实验研究，为理解本研究的区域观察提供了可能的框架[18,19]。本次分析未测量血管紧张素信号活性或交感神经放电。因此，颈部扰动、NOX活性与血压调节之间的联系仍是假说，需要直接检验。"
+        }
+      ]
+    },
+    "Yuan_supplementary_information.docx": {
+      "before_sha256": "a46271b008295dd78c693cb52c1ad7d8df3b8643220bde9d22ae93bb4482f99e",
+      "after_sha256": "971e7ee6eb127ae50fd589e0bb2df8251d9cde6bff78c6c746b3e99560d639d0",
+      "paragraph_changes_zero_based": [
+        15
       ],
-      "embedded_images_exactly_match_all4_separate_jpg_in_order": true,
-      "native_main_table_count": 0,
-      "comments": [],
-      "tracked_edit_count": 0,
-      "result_mean_SD_pairs_exact_multiset": true,
-      "result_mean_SD_pairs": {
-        "0.564 ± 0.072": 1,
-        "1.122 ± 0.072": 1,
-        "0.349 ± 0.034": 1,
-        "0.095 ± 0.017": 1,
-        "3295.6 ± 216.3": 1,
-        "1326.9 ± 50.6": 1,
-        "1.459 ± 0.156": 1,
-        "1.000 ± 0.134": 1,
-        "2.902 ± 0.558": 1,
-        "1.000 ± 0.233": 1,
-        "1.035 ± 0.101": 1,
-        "0.213 ± 0.049": 1,
-        "2265.6 ± 131.6": 1,
-        "1.180 ± 0.090": 1,
-        "1.645 ± 0.227": 1
-      },
-      "result_ANOVA_all_F_and_df_literals_preserved": true,
-      "result_ANOVA_F_pairs_preserved": "Chinese grouping syntax reviewed and all exact labels match",
-      "manual_scientific_review": {
-        "n6_independent_per_assay_retained": true,
-        "paired_qpcr_one_read_per_animal_retained": true,
-        "day28_model_sham_and_day56_restoration_explicit": true,
-        "all4_key_limitations_complete": true,
-        "regional_tissue_and_no_nox_mediation_limits_complete": true,
-        "HE_only_illustrative_BP_only_archived": true,
-        "no_equivalence_or_causal_restoration_claim": true,
-        "AI_central_actual_use_statement_preserved": true,
-        "repeated_AI_sentences_removed_only_from_captions": true,
-        "no_new_unverified_experimental_methods": true
-      },
-      "result_all_exact_P_numeric_literals_and_counts_unchanged": true,
-      "result_exact_P_values_literal_counts": {
-        "0.0033": 1,
-        "0.2534": 1,
-        "0.0037": 2,
-        "0.0001": 1,
-        "0.0139": 1,
-        "0.0099": 1,
-        "0.0618": 1
-      },
-      "P_value_rephrasing_note": "Paired P-values are now introduced together rather than each repeating P=; all exact numeric literals and comparison assignments reviewed and unchanged. Additional all-three-model-sham P<0.001 sentence restates existing statistical output."
-    },
-    "supplementary": {
-      "sha256": "a46271b008295dd78c693cb52c1ad7d8df3b8643220bde9d22ae93bb4482f99e",
-      "tableS1_count": 1,
-      "tableS1_text_same": true,
-      "tableS1_xml_same": true,
-      "tableS1_caption_note_same": true,
-      "expected_data1_fig1": true,
-      "expected_data2_fig2": true,
-      "expected_appendix_fig1_2": true
-    },
-    "supporting_inputs_and_statistics": {
-      "S5_File_Archived_BP_Workbook.xlsx": true,
-      "S4_File_RTqPCR_Statistical_Outputs.json": true,
-      "S1_Data_RVLM_Processed_Values.csv": true,
-      "S4_Data_Archived_BP_Entered_Summaries.csv": true,
-      "S3_File_RVLM_Statistical_Outputs.json": true,
-      "S3_Data_Archived_BP_Recorded_Values.csv": true,
-      "S2_Data_RTqPCR_Animal_Paired_Values.csv": true
-    },
-    "figure_byte_mapping": {
-      "new1=old2": true,
-      "new2=old3": true,
-      "new3=old1": true,
-      "new4=old4": true
-    },
-    "words": {
-      "main_including_references_and_captions_plus_native_math_tokens": 4863,
-      "summary": 180,
-      "summary_under250": true,
-      "main_under5000": true
-    },
-    "titles": {
-      "English_main": "Regional medullary redox indices and Nox1/Nox4 mRNA expression in rats with atlantoaxial joint disorder",
-      "SI_same": true,
-      "cover_contains_new_title": true,
-      "email_contains_new_title": true
+      "tables": 1,
+      "inline_images": 2
     }
   },
-  "warnings": [],
-  "code_changes": [
-    "--- old\n",
-    "+++ new\n",
-    "@@ -24,7 +24,7 @@\n",
-    " parser.add_argument('--output-dir', type=Path, default=Path.cwd(),",
-    "                     help='Output directory (default current working directory)')",
-    " parser.add_argument('--he-image', type=Path, default=None,",
-    "-                    help='Optional original H&E JPEG to copy byte for byte as Yuan_fig1.jpg')",
-    "+                    help='Optional original H&E JPEG to copy byte for byte as Yuan_fig3.jpg')",
-    " args = parser.parse_args()",
-    " OUT = args.output_dir.resolve(); OUT.mkdir(parents=True,exist_ok=True)",
-    " SOURCE = args.data_dir.resolve()",
-    "@@ -47,12 +47,12 @@\n",
-    " ",
-    " if args.he_image is not None:",
-    "     he_image = args.he_image.resolve()",
-    "-    if he_image != OUT/'Yuan_fig1.jpg':",
-    "-        shutil.copy2(he_image, OUT/'Yuan_fig1.jpg')",
-    "-    assert sha(he_image) == sha(OUT/'Yuan_fig1.jpg')",
-    "-    with Image.open(OUT/'Yuan_fig1.jpg') as im:",
-    "-        audit['figures']['Yuan_fig1'] = {'source':str(he_image),",
-    "-          'bytes_identical':True, 'sha256':sha(OUT/'Yuan_fig1.jpg'), 'dimensions':list(im.size),",
-    "+    if he_image != OUT/'Yuan_fig3.jpg':",
-    "+        shutil.copy2(he_image, OUT/'Yuan_fig3.jpg')",
-    "+    assert sha(he_image) == sha(OUT/'Yuan_fig3.jpg')",
-    "+    with Image.open(OUT/'Yuan_fig3.jpg') as im:",
-    "+        audit['figures']['Yuan_fig3'] = {'source':str(he_image),",
-    "+          'bytes_identical':True, 'sha256':sha(OUT/'Yuan_fig3.jpg'), 'dimensions':list(im.size),",
-    "           'dpi':[float(x) for x in im.info.get('dpi',())],",
-    "           'changes':'None; complete supplied H&E composite copied byte for byte.',",
-    "           'limits':'Qualitative fields only; animal count, image mapping and scale calibration records not confirmed.'}",
-    "@@ -119,7 +119,7 @@\n",
-    "     ax.set_ylim(0,span)",
-    " fig.subplots_adjust(left=.075,right=.985,bottom=.19,top=.86,wspace=.49)",
-    " bio_record['numeric_arrays_sha256']=hashlib.sha256(json.dumps(bio_record['arrays'],sort_keys=True,separators=(',',':')).encode()).hexdigest()",
-    "-export(fig,'Yuan_fig2',bio_record)",
-    "+export(fig,'Yuan_fig1',bio_record)",
-    " ",
-    " qpcr_record={'source_visual_style':'lyk mmr期刊.docx Figure 6, corrected using animal-paired Cq data',",
-    "  'arrays':{},'annotation_source':'Existing Welch tests on ΔCq, Holm correction over all 18 source comparisons',",
-    "@@ -142,7 +142,7 @@\n",
-    "     ax.set_ylim(0,span)",
-    " fig.subplots_adjust(left=.105,right=.985,bottom=.19,top=.82,wspace=.38)",
-    " qpcr_record['numeric_arrays_sha256']=hashlib.sha256(json.dumps(qpcr_record['arrays'],sort_keys=True,separators=(',',':')).encode()).hexdigest()",
-    "-export(fig,'Yuan_fig3',qpcr_record)",
-    "+export(fig,'Yuan_fig2',qpcr_record)",
-    " ",
-    " # Publication vector schematic. All biological connections are hypotheses.",
-    " from matplotlib.patches import Ellipse, Rectangle"
+  "retained_figure_files": [
+    {
+      "file": "Yuan_fig1.jpg",
+      "sha256": "1b445c5f008a74124c527b1fc3d2f80df1a637429810f2744b19465f560a3648",
+      "bytes_identical": true
+    },
+    {
+      "file": "Yuan_fig1.pdf",
+      "sha256": "a2d0ad58a0430921286df805e3073098c13edf1f05da71628dc84e0c25e5d9e6",
+      "bytes_identical": true
+    },
+    {
+      "file": "Yuan_fig1.svg",
+      "sha256": "505ec744b29730c0b315d7622cd0676fc3a5e2250f6a53d5074f7b1c46316f1d",
+      "bytes_identical": true
+    },
+    {
+      "file": "Yuan_fig1.tif",
+      "sha256": "bd319449377232404d5cfdc7f505e5532600cf96db6e980c30d0e473d5c3f511",
+      "bytes_identical": true
+    },
+    {
+      "file": "Yuan_fig2.jpg",
+      "sha256": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad",
+      "bytes_identical": true
+    },
+    {
+      "file": "Yuan_fig2.pdf",
+      "sha256": "bdc829ece45836fc88738c940040cf6330d3d2129dbda4085983bc6a861f11a5",
+      "bytes_identical": true
+    },
+    {
+      "file": "Yuan_fig2.svg",
+      "sha256": "7e73517c1427441a748bc83275ec7322b5eb545e883c66b9ec91b3ef8e11acae",
+      "bytes_identical": true
+    },
+    {
+      "file": "Yuan_fig2.tif",
+      "sha256": "3dfc0a14bdfdec6952516e56c2702b24920b34e0ef4135f02bf59feed52e88f1",
+      "bytes_identical": true
+    }
   ],
-  "manual_English_Chinese_consistency": {
-    "Summary": true,
-    "Introduction": true,
-    "day28_biochemistry_and_transcripts": true,
-    "later_restoration_endpoint": true,
-    "archival_results": true,
-    "Discussion_Limitations_Conclusions": true,
-    "captions": true,
-    "note": "Complete relevant paragraphs read side by side; all supplied values, direction, hypothesis level and caveats match."
+  "unchanged_supporting_files": [
+    {
+      "file": "S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b",
+      "bytes_identical": true
+    },
+    {
+      "file": "S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "bytes_identical": true
+    },
+    {
+      "file": "S1_Fig_HE_Illustrative_Images.tif",
+      "sha256": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+      "bytes_identical": true
+    },
+    {
+      "file": "S2_Appendix_Reproduce_RTqPCR.py",
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb",
+      "bytes_identical": true
+    },
+    {
+      "file": "S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "bytes_identical": true
+    },
+    {
+      "file": "S2_Fig_Archived_BP_Records.tif",
+      "sha256": "1715a5f6d1699fa69c9553f3484a064daf8b8dd1902c22a406bccb5523ff50d7",
+      "bytes_identical": true
+    },
+    {
+      "file": "S3_Appendix_Plot_Archived_BP.py",
+      "sha256": "ed69ae97fbd3816302c7c9a91ba6a529c963bbe4aa9964748d3716b3aae18997",
+      "bytes_identical": true
+    },
+    {
+      "file": "S3_Data_Archived_BP_Recorded_Values.csv",
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf",
+      "bytes_identical": true
+    },
+    {
+      "file": "S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "bytes_identical": true
+    },
+    {
+      "file": "S4_Appendix_Plot_Main_Figures.py",
+      "sha256": "f03aa4d95b10bbc557f9c411d04d12467a5aa1d76e20d3bdfdefeed66317ac2e",
+      "bytes_identical": true
+    },
+    {
+      "file": "S4_Data_Archived_BP_Entered_Summaries.csv",
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554",
+      "bytes_identical": true
+    },
+    {
+      "file": "S4_File_RTqPCR_Statistical_Outputs.json",
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "bytes_identical": true
+    },
+    {
+      "file": "S5_File_Archived_BP_Workbook.xlsx",
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d",
+      "bytes_identical": true
+    },
+    {
+      "file": "S6_File_HE_Supplied_Composite.jpg",
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468",
+      "bytes_identical": true
+    },
+    {
+      "file": "Supplementary_Fig_S2.pdf",
+      "sha256": "15d2b1f14d5fe1f92fe9ca23e671525afb7b73a03cb837524a89560146175388",
+      "bytes_identical": true
+    }
+  ],
+  "S5_script": {
+    "before_sha256": "98ffd5ded02e273aafd292226d26108520ffd989e574683df064a83240111e05",
+    "after_sha256": "4df1cd8b47d447097ac24726d3bbe7f3d956094a22fd35c71daaad6f6ffa282d",
+    "changes": "Delete H&E-copy command line and code, remove hypothesis diagram generation, update corresponding imports/docstring, update audit date. Quantitative plotting block and original source Figure 4 label unchanged."
   },
-  "notes": [
-    "This is integrity/content QA, not a claim that original experimental validation or animal ethics gaps have been remedied.",
-    "Manuscript layout QA/PDF confirmation performed separately by root team.",
-    "Reference texts, methods, quantitative inputs, native equation and all original figure pixels remain unchanged."
-  ]
+  "limitations": "File, text and XML integrity audit only; not an independent scientific validation or visual rendering check. No formal submission files edited by this auditor.",
+  "word_counts": {
+    "English_full_manuscript_including_native_OMML": 4738,
+    "English_summary": 180,
+    "method": "Concatenate w:t and m:t descendants in each body paragraph without inserted run boundaries, then whitespace-delimit; includes title page, Summary, references, captions and native equation; prior baseline 4863 using same method."
+  }
 }

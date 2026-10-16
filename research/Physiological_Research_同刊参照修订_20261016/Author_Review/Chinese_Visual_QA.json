@@ -1,52 +1,143 @@
 {
-  "status": "PASS",
-  "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan_中文.docx",
-  "sha256": "2c5024c9e48b71e3baf2b84174e13a6d7b0d34f3d12f15d851ded8880fe856f6",
-  "render_directory": "/tmp/codex-physres-peer-style-20261016/qa_zh",
-  "canonical_renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
-  "runtime": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
-  "soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
-  "page_count": 15,
-  "pages_visually_inspected_at_original_resolution": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
+  "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan_中文.docx",
+  "sha256": "d5b0ec9c50c76ffa503ced18325330113a7e9102f23ebc8bcdbe91e4c91ad3f1",
+  "render_directory": "/tmp/codex-physres-remove-diagram-20261016/qa_zh_final",
+  "render_engine": "bundled LibreOffice via canonical render_docx.py",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "page_count": 13,
+  "inspection": "Initial full visual review of all 13 original-size page PNGs, followed by final re-render and pixel comparison of all 13 pages; changed pages 3 and 12 were reopened at original detail and visually reviewed.",
+  "inspected_pages": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "result": "pass",
+      "final_review": "reopened original-size PNG after final edit"
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 8,
+      "file": "page-8.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 9,
+      "file": "page-9.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "result": "pass",
+      "final_review": "reopened original-size PNG after final edit"
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "result": "pass",
+      "final_review": "pixel-identical to previously visually reviewed page"
+    }
   ],
   "checks": {
-    "Chinese_glyphs_complete": true,
-    "no_clipping_overlap_or_orphaned_headings": true,
-    "continuous_line_numbers_and_page_footers": true,
-    "native_OMML_equation_Q_equals_two_power_minus_delta_Cq_renders": true,
-    "native_OMML_count": 1,
-    "main_table_removed_and_Supplementary_Table_S1_references_preserved": true,
-    "figure_order": [
-      "Fig 1 regional biochemistry",
-      "Fig 2 Nox1/Nox4 qPCR",
-      "Fig 3 archived HE",
-      "Fig 4 proposed mechanism"
-    ],
-    "all_four_figures_and_captions_fully_visible": true,
-    "results_same_day_model_sham_then_later_restoration_then_archival": true,
-    "Conclusions_after_dedicated_limitations": true,
-    "sampling_day_labels_28_28_56_consistent": true,
-    "scientific_limitations_not_suppressed": true
+    "all_pages_readable": true,
+    "no_clipped_text_or_images": true,
+    "no_text_overlap_or_missing_glyphs": true,
+    "no_empty_terminal_page": true,
+    "only_two_main_figures": true,
+    "figure1_biochemical_page12": true,
+    "figure2_qpcr_page13": true,
+    "he_referenced_as_supplementary_figure_s1": true,
+    "no_main_figure3_or4_references": true,
+    "no_mechanism_diagram_or_caption": true,
+    "native_equation_visually_correct_page5": true,
+    "supplementary_table_s1_pointer_preserved": true,
+    "four_remaining_animals_confirmed_reserve_not_in_three_groups": true
   },
-  "notes": [
-    "All 15 pages opened and inspected individually at original-resolution setting.",
-    "Four figure pages have intentional manuscript-style whitespace; figures remain paired with full captions.",
-    "No changes made to manuscript or formal package during QA."
-  ],
-  "issues": []
+  "result": "pass",
+  "reviewed_at": "2026-10-16T08:50:54.257339+00:00",
+  "two_stage_evidence": {
+    "previous_docx_sha256": "8844afe74bf60769d3dc78c6d9b828e153bd4a7c7526927faba88a7f995ea34a",
+    "initial_full_visual_review_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "final_pixel_identical_pages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
+    "final_changed_pages_reopened": [
+      3,
+      12
+    ],
+    "final_page3_confirmed": "余下4只异物在位动物留作备用，未纳入后续三个各10只的分组。",
+    "final_page12_confirmed": "Figure 1 and full legend readable with no clipping or overlap"
+  }
 }

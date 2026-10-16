@@ -3,13 +3,13 @@
   "source_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015",
   "new_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016",
   "statistics_recalculated": false,
-  "methods_ethics_and_allocation_changed": false,
+  "methods_ethics_and_allocation_changed": true,
   "figure_bytes_changed": false,
-  "main_figures": 4,
+  "main_figures": 2,
   "main_tables": 0,
   "supplementary_tables": 1,
   "summary_words": 180,
-  "body_words_including_native_equation": 4863,
+  "body_words_including_native_equation": 4738,
   "changes": [
     "NumericalSummary",
     "FocusedIntroduction",
@@ -21,5 +21,19 @@
     "GeneSymbolsItalicized",
     "AIRepetitionsConsolidatedInDeclaration",
     "TitlesAndFigureOrderSynchronized"
-  ]
+  ],
+  "latest_change": {
+    "date": "2026-10-16",
+    "requested": "Remove mechanism diagram and retain HE only in supplement",
+    "main_figures": 2,
+    "data_and_statistics_changed": false,
+    "changes": [
+      "Removed main Figure 3 (HE) and Figure 4 (mechanism) from both language manuscripts.",
+      "Updated HE references to Supplementary Fig. S1; retained hypothesis wording without a diagram reference.",
+      "Updated supplementary description, plotting code and submission email; cover letter unchanged."
+    ],
+    "author_confirmed_reserve_animals": 4
+  },
+  "previous_version_commit": "baaa5a25de88562436ab19dbe709d1757dec60bd",
+  "methods_change": "Author confirmed the remaining 4 retained-implant rats were kept in reserve; no other methods or assay sample sizes changed."
 }

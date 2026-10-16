@@ -1,9 +1,7 @@
 {
   "mapping_new_to_previous": {
     "1": 2,
-    "2": 3,
-    "3": 1,
-    "4": 4
+    "2": 3
   },
   "files": [
     {
@@ -45,36 +43,10 @@
       "new_file": "Figures/Yuan_fig2.jpg",
       "previous_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Figures/Yuan_fig3.jpg",
       "sha256": "0662e5cc6f967502afcb69c727fae363386ed5bb85ca263dd24374f3f21bc2ad"
-    },
-    {
-      "new_file": "Figures/Yuan_fig3.jpg",
-      "previous_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Figures/Yuan_fig1.jpg",
-      "sha256": "a9e3ee5c997d8e549d303860ad397e6c743661662300563a1f62913aca464111"
-    },
-    {
-      "new_file": "Figures/Yuan_fig4.svg",
-      "previous_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Figures/Yuan_fig4.svg",
-      "sha256": "1fd39f15cb6759cccdc8b8927e015041a268e807af5086dfc0286bfa6d4337c0"
-    },
-    {
-      "new_file": "Figures/Yuan_fig4.tif",
-      "previous_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Figures/Yuan_fig4.tif",
-      "sha256": "e9bd342881fc74cd0e3e8f64c4d220bb90a7169ab01f41497b5d146bdb15041b"
-    },
-    {
-      "new_file": "Figures/Yuan_fig4.pdf",
-      "previous_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Figures/Yuan_fig4.pdf",
-      "sha256": "c70c0cf7de9c6e2c62ad753401f2e941bea159c9abbcc92a2e2832582647df9c"
-    },
-    {
-      "new_file": "Figures/Yuan_fig4.png",
-      "previous_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Figures/Yuan_fig4.png",
-      "sha256": "6af638f9e2264160f724de25bd926e4681a10cd59f1d30dd48fb9c76790820d1"
-    },
-    {
-      "new_file": "Figures/Yuan_fig4.jpg",
-      "previous_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Figures/Yuan_fig4.jpg",
-      "sha256": "b281e05e912e74ce6b45c685f570c816b23e10324aafe615aa282321f949d5cf"
     }
-  ]
+  ],
+  "removed_from_main": {
+    "HE": "Retained only in Supplementary Fig. S1 and source archives.",
+    "Mechanism schematic": "Removed at author request; previous version preserved in Git."
+  }
 }

@@ -1,10 +1,12 @@
 {
   "status": "PASS",
-  "scope": "Canonical rendering and all-page original-resolution visual QA of final English manuscript",
-  "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan.docx",
-  "sha256": "4dc4f75d9388f0598e9c9f5ea6bf9c9c2bd84ddec19b4b4571f0cc0f80b8524c",
-  "page_count": 14,
-  "pages_inspected": [
+  "docx_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan.docx",
+  "docx_sha256": "7791c1f0d7aff57ae298c5be443ff576af4c93622e0dc5160ddfd39a5015c6e4",
+  "pdf_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan.pdf",
+  "pdf_sha256": "d26d9b0628900f4db9b4b9666f4cc6e23e6939d83119d761f54d9139a7a46dca",
+  "render_directory": "/tmp/codex-physres-remove-diagram-20261016/qa_en_final",
+  "pages": 12,
+  "reviewed_pages": [
     1,
     2,
     3,
@@ -16,46 +18,61 @@
     9,
     10,
     11,
-    12,
-    13,
-    14
+    12
   ],
-  "render_png_dimensions": [
-    1414,
-    2000
-  ],
-  "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan.pdf",
-  "pdf_sha256": "65389fe822f1bdd4bceaee2a6446a6b4650e5f1c2bd4b101f287d1b7e092ac7d",
-  "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
-  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
-  "structural": {
-    "native_omml_equations": 1,
-    "inline_figures": 4,
-    "native_tables": 0,
-    "tracked_insertions": 0,
-    "tracked_deletions": 0,
-    "comment_parts": []
-  },
+  "image_review": "Stage 1: all 12 original PNGs visually reviewed. Stage 2 after reserve-animal clarification: page 1 pixel-identical; all changed pages 2–12 reopened with view_image detail=original and passed.",
   "checks": {
-    "all_pages_readable": true,
-    "times_font_and_consistent_type": true,
-    "continuous_line_numbers_and_page_footers": true,
-    "native_qpcr_equation_superscript_visible_on_page_5": true,
-    "no_orphan_section_headings": true,
-    "no_clipping_overlap_or_missing_glyphs": true,
-    "limitations_and_conclusions_distinct_and_readable": true,
-    "four_figures_and_captions_same_page": true,
-    "figure_order_biochemical_qpcr_he_hypothesis": [
+    "only_main_figures_1_biochemical_and_2_qpcr": true,
+    "no_main_HE_or_mechanism_figure": true,
+    "no_fig3_fig4_text_residue": true,
+    "HE_referenced_as_supplementary_Fig_S1": true,
+    "native_qPCR_equation_visible_page5": true,
+    "all_figures_and_captions_complete": true,
+    "no_final_blank_page": true,
+    "no_clipping_overlap_missing_glyphs": true,
+    "page_numbers_and_line_numbers_readable": true
+  },
+  "notes": [
+    "Main quantitative figures remain on separate final pages 11 and 12.",
+    "Archived H&E is cited only as Supplementary Fig. S1 and described qualitatively.",
+    "Scientific limitations and AI declaration remain; this is a visual/layout QA."
+  ],
+  "previous_docx_sha256": "5b431a2ee6789dbd64c44796ba2de7cb3ac504e75e960ff936b60aa95c4fd7ab",
+  "previous_pdf_sha256": "6ce4cff3b252fc1f685eef5ee9e9b380f93cf923cf99039a31f36dba4d09050a",
+  "two_stage_verification": {
+    "stage1_render_directory": "/tmp/codex-physres-remove-diagram-20261016/qa_en",
+    "stage1_pages_visually_reviewed": [
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
     ],
-    "supplementary_table_s1_pointers_present": true
+    "stage2_render_directory": "/tmp/codex-physres-remove-diagram-20261016/qa_en_final",
+    "stage2_pixel_identical_pages": [
+      1
+    ],
+    "stage2_visually_reinspected_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "changes_outside_pages2_3_confined_to_left_line_numbers": true
   },
-  "notes": [
-    "Each main figure occupies a separate final page, consistent with journal submission layout; the short HE panel naturally leaves whitespace.",
-    "No document changes were made during QA.",
-    "Visual QA verifies presentation and cross-reference consistency, not unresolved experimental design, assay validation, or ethics-record limitations."
-  ]
+  "reserve_animal_sentence_confirmed": true
 }
