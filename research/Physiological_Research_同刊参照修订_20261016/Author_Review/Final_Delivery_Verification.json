@@ -1,0 +1,35 @@
+{
+  "status": "PASS_FOR_DOCUMENT_DELIVERY_WITH_DISCLOSED_SCIENTIFIC_LIMITATIONS",
+  "date": "2026-10-16",
+  "requirements_source": "https://www.biomed.cas.cz/physiolres/instructions.htm",
+  "checks": {
+    "article_type": "Original Article",
+    "english_main_word_count_including_front_matter_references_captions_and_native_math": 4863,
+    "summary_words": 180,
+    "short_title_characters": 54,
+    "key_word_count": 5,
+    "reference_count": 19,
+    "main_figure_count": 4,
+    "main_native_table_count": 0,
+    "supplementary_native_table_count": 1,
+    "native_equation_count": 1,
+    "summary_under250": true,
+    "main_under5000": true,
+    "short_title_under60": true,
+    "keys_equal5": true,
+    "main_figures_tables_under6": true,
+    "all_page_visual_reviews_pass": true,
+    "main_figure_order": [
+      "Biochemical indices",
+      "Nox1/Nox4 RT-qPCR",
+      "Illustrative H&E",
+      "Hypothesis schematic"
+    ],
+    "submission_sent": false
+  },
+  "notes": [
+    "All original numerical results, methods, source pixels and statistical outputs were preserved in this editorial revision.",
+    "Unresolved experimental, source-record and animal-welfare limitations are disclosed; document QA does not remedy them.",
+    "No submission email has been sent."
+  ]
+}

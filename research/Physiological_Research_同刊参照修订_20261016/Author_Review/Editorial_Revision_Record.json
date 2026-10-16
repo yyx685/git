@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "source_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015",
+  "new_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016",
+  "statistics_recalculated": false,
+  "methods_ethics_and_allocation_changed": false,
+  "figure_bytes_changed": false,
+  "main_figures": 4,
+  "main_tables": 0,
+  "supplementary_tables": 1,
+  "summary_words": 180,
+  "body_words_including_native_equation": 4863,
+  "changes": [
+    "NumericalSummary",
+    "FocusedIntroduction",
+    "CoreResultsFirst",
+    "LaterRestorationCohortSeparate",
+    "ConsolidatedLimitations",
+    "IndependentConclusions",
+    "CorrectHELocation",
+    "GeneSymbolsItalicized",
+    "AIRepetitionsConsolidatedInDeclaration",
+    "TitlesAndFigureOrderSynchronized"
+  ]
+}

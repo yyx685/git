@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "scope": "Canonical rendering and all-page original-resolution visual QA of final English manuscript",
+  "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan.docx",
+  "sha256": "4dc4f75d9388f0598e9c9f5ea6bf9c9c2bd84ddec19b4b4571f0cc0f80b8524c",
+  "page_count": 14,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "render_png_dimensions": [
+    1414,
+    2000
+  ],
+  "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan.pdf",
+  "pdf_sha256": "65389fe822f1bdd4bceaee2a6446a6b4650e5f1c2bd4b101f287d1b7e092ac7d",
+  "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "structural": {
+    "native_omml_equations": 1,
+    "inline_figures": 4,
+    "native_tables": 0,
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "comment_parts": []
+  },
+  "checks": {
+    "all_pages_readable": true,
+    "times_font_and_consistent_type": true,
+    "continuous_line_numbers_and_page_footers": true,
+    "native_qpcr_equation_superscript_visible_on_page_5": true,
+    "no_orphan_section_headings": true,
+    "no_clipping_overlap_or_missing_glyphs": true,
+    "limitations_and_conclusions_distinct_and_readable": true,
+    "four_figures_and_captions_same_page": true,
+    "figure_order_biochemical_qpcr_he_hypothesis": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "supplementary_table_s1_pointers_present": true
+  },
+  "notes": [
+    "Each main figure occupies a separate final page, consistent with journal submission layout; the short HE panel naturally leaves whitespace.",
+    "No document changes were made during QA.",
+    "Visual QA verifies presentation and cross-reference consistency, not unresolved experimental design, assay validation, or ethics-record limitations."
+  ]
+}

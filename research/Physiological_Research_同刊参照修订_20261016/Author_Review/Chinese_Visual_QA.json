@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan_中文.docx",
+  "sha256": "2c5024c9e48b71e3baf2b84174e13a6d7b0d34f3d12f15d851ded8880fe856f6",
+  "render_directory": "/tmp/codex-physres-peer-style-20261016/qa_zh",
+  "canonical_renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
+  "runtime": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "page_count": 15,
+  "pages_visually_inspected_at_original_resolution": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "checks": {
+    "Chinese_glyphs_complete": true,
+    "no_clipping_overlap_or_orphaned_headings": true,
+    "continuous_line_numbers_and_page_footers": true,
+    "native_OMML_equation_Q_equals_two_power_minus_delta_Cq_renders": true,
+    "native_OMML_count": 1,
+    "main_table_removed_and_Supplementary_Table_S1_references_preserved": true,
+    "figure_order": [
+      "Fig 1 regional biochemistry",
+      "Fig 2 Nox1/Nox4 qPCR",
+      "Fig 3 archived HE",
+      "Fig 4 proposed mechanism"
+    ],
+    "all_four_figures_and_captions_fully_visible": true,
+    "results_same_day_model_sham_then_later_restoration_then_archival": true,
+    "Conclusions_after_dedicated_limitations": true,
+    "sampling_day_labels_28_28_56_consistent": true,
+    "scientific_limitations_not_suppressed": true
+  },
+  "notes": [
+    "All 15 pages opened and inspected individually at original-resolution setting.",
+    "Four figure pages have intentional manuscript-style whitespace; figures remain paired with full captions.",
+    "No changes made to manuscript or formal package during QA."
+  ],
+  "issues": []
+}

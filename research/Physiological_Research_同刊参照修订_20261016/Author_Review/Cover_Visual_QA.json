@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "date": "2026-10-16",
+  "scope": "Canonical rendering and all-page original-resolution visual QA",
+  "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_同刊参照修订_20261016/Yuan_cover_letter.docx",
+  "sha256": "7c75f87fe1b135c079e4a18ce44c2a8df8cd1c9b5b0f63de1db114bcd11987c0",
+  "page_count": 1,
+  "pages_inspected": [
+    1
+  ],
+  "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "render_pdf_sha256": "67ef49914bbeda881d5059ce73bf22f8dab0425b85770ef3274aa346121ec11f",
+  "checks": {
+    "all_pages_readable": true,
+    "no_clipping_overlap_missing_glyphs_or_orphan_headings": true,
+    "new_title_consistent": true
+  },
+  "notes": [
+    "Date updated to 16 October 2026; complete letter fits on one page."
+  ]
+}
