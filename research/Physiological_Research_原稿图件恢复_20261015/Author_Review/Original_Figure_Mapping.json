@@ -1,0 +1,54 @@
+{
+  "brown_stained_extra_image_excluded_by_user": true,
+  "figures": [
+    {
+      "source_figure": "1",
+      "original_file": "Original_Source_Figures/MMR_Fig1.png",
+      "original_sha256": "05a67a19802732c7d54a2eb3e19eb7f868c3989e183a402db52d3b85747931dc",
+      "retained_exact_bytes": true,
+      "note": "原稿图1为终点三组柱图，不是28天动态曲线。图中误差和显著性尚不能由已取得的来源记录重建；不把图中星号视为本版重新核验的结论。"
+    },
+    {
+      "source_figure": "2",
+      "original_file": "Original_Source_Figures/MMR_Fig2.png",
+      "original_sha256": "999fed95e527bbb18f3681ccd7b3e6d2207b2eb7560b5826f8a4089965a42b88",
+      "retained_exact_bytes": true,
+      "note": "原稿图2完整保留。作者确认采用该套血清数据、每组8只；原图注写10只需纠正。与本图匹配的数值表仍未定位；SOD酶活力和ROS荧光不能直接沿用nmol/mL标签。原图不改动，供核对。"
+    },
+    {
+      "source_figure": "3",
+      "original_file": "Original_Source_Figures/MMR_Fig3.jpeg",
+      "original_sha256": "a9e3ee5c997d8e549d303860ad397e6c743661662300563a1f62913aca464111",
+      "retained_exact_bytes": true,
+      "note": "保留三组原始拼图及100 μm标尺，已作为新版主图1。只能描述这些视野；不能据未确认的动物数和个体对应推断组间组织学差异。用户要求去掉的额外棕染图未纳入。"
+    },
+    {
+      "source_figure": "4",
+      "original_file": "Original_Source_Figures/MMR_Fig4.tiff",
+      "original_sha256": "a3b77d7141254dc4416d33d9449b98df139b834a35c78d6331530695c5b6db4a",
+      "retained_exact_bytes": true,
+      "note": "检测内容和原三面板图式已恢复为新版主图2，使用同一组已核验数值重新绘制柱、SD及逐动物点，纠正荧光单位并按已有统计输出标注显著性。本页保留原图作对应核阅。"
+    },
+    {
+      "source_figure": "5",
+      "original_file": "Original_Source_Figures/MMR_Fig5.tiff",
+      "original_sha256": "dbd82e1976620762d16318e9db1c2b2805987d6d75c14fe65ef3f49f8c3b1827",
+      "retained_exact_bytes": true,
+      "note": "原图全部保留。实际图面B为Nox4、C为Nox1，原图注顺序颠倒；代表条带不能代替每组3只动物的独立灰度与完整曝光。源膜、灰度及泳道对应仍缺失，本版不把右侧柱图作为已核验定量结果。"
+    },
+    {
+      "source_figure": "6",
+      "original_file": "Original_Source_Figures/MMR_Fig6.tiff",
+      "original_sha256": "e08a89b32de092f97ee00aa0d1b9a0c6c48c0676e3cd1610cd6dcb78e2ef1965",
+      "retained_exact_bytes": true,
+      "note": "原图B的纵轴为Nox4 protein expression，数值对应WB，不是Nox4 mRNA。新版主图3保留柱图式，以同动物内配对Ct重分析的真实Nox1/Nox4结果纠正；本页保存原图用于识别错误。"
+    },
+    {
+      "source_figure": "7",
+      "original_file": "Original_Source_Figures/MMR_Fig7.png",
+      "original_sha256": "607e841d7dc92b982c1d07c54673941a58648323f762d7d6f6995554eb31ab31",
+      "retained_exact_bytes": true,
+      "note": "新版主图4保留其左右方框和中央信号布局，改为明确的待检验假说；删除异物取出部分逆转及未核验血清结果，标明第28/56天混杂。本页仅保留原始示意，不能把原箭头当作已证实机制。"
+    }
+  ]
+}

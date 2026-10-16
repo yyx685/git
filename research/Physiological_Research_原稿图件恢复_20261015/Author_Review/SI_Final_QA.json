@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checked_date": "2026-10-16",
+  "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Yuan_supplementary_information.docx",
+  "document_sha256": "94996694160dae098e157a80326796c8926ec80380781ab476dd75df22838dcd",
+  "render_directory": "/tmp/codex-physres-original-figures-20261015/qa_si_final",
+  "page_count": 3,
+  "pages_reviewed_full_size": [
+    1,
+    2,
+    3
+  ],
+  "repair": "Removed isolated manual-page-break paragraph and set Supplementary Figure S1 heading to start a new page; science and image content unchanged.",
+  "checks": [
+    "No blank page",
+    "Complete readable data and code descriptions on page 1",
+    "HE illustrative figure and complete caption on page 2",
+    "Archived BP record figure and complete descriptive caption on page 3",
+    "Main Figure 2/3 and Supplementary S1/S2 references correct",
+    "No clipping, overlap or missing glyphs"
+  ]
+}

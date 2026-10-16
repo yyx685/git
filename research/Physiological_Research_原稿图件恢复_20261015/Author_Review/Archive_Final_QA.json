@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-16",
+  "archive_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_原稿图件恢复_20261015/Author_Review/原稿图件完整核阅册.docx",
+  "archive_sha256": "987104a82675bba3a935637250d0263d7430518f92c0c4ea78ecf11ca38412fa",
+  "status": "PASS",
+  "renderer": "canonical render_docx.py with bundled LibreOffice only",
+  "render_directory": "/tmp/codex-physres-original-figures-20261015/qa_archive_final",
+  "rendered_page_count": 7,
+  "all_seven_pages_viewed_full": true,
+  "displayed_original_figures": 7,
+  "originals": [
+    {
+      "original_figure": "1",
+      "source_file": "Original_Source_Figures/MMR_Fig1.png",
+      "sha256": "05a67a19802732c7d54a2eb3e19eb7f868c3989e183a402db52d3b85747931dc",
+      "source_bytes_match_mapping": true,
+      "matching_embedded_media": [
+        "word/media/image1.png"
+      ],
+      "displayed_exact_original": true
+    },
+    {
+      "original_figure": "2",
+      "source_file": "Original_Source_Figures/MMR_Fig2.png",
+      "sha256": "999fed95e527bbb18f3681ccd7b3e6d2207b2eb7560b5826f8a4089965a42b88",
+      "source_bytes_match_mapping": true,
+      "matching_embedded_media": [
+        "word/media/image2.png"
+      ],
+      "displayed_exact_original": true
+    },
+    {
+      "original_figure": "3",
+      "source_file": "Original_Source_Figures/MMR_Fig3.jpeg",
+      "sha256": "a9e3ee5c997d8e549d303860ad397e6c743661662300563a1f62913aca464111",
+      "source_bytes_match_mapping": true,
+      "matching_embedded_media": [
+        "word/media/image3.jpeg"
+      ],
+      "displayed_exact_original": true
+    },
+    {
+      "original_figure": "4",
+      "source_file": "Original_Source_Figures/MMR_Fig4.tiff",
+      "sha256": "a3b77d7141254dc4416d33d9449b98df139b834a35c78d6331530695c5b6db4a",
+      "source_bytes_match_mapping": true,
+      "matching_embedded_media": [
+        "word/media/image4.tiff"
+      ],
+      "displayed_exact_original": true
+    },
+    {
+      "original_figure": "5",
+      "source_file": "Original_Source_Figures/MMR_Fig5.tiff",
+      "sha256": "dbd82e1976620762d16318e9db1c2b2805987d6d75c14fe65ef3f49f8c3b1827",
+      "source_bytes_match_mapping": true,
+      "matching_embedded_media": [
+        "word/media/image5.tiff"
+      ],
+      "displayed_exact_original": true
+    },
+    {
+      "original_figure": "6",
+      "source_file": "Original_Source_Figures/MMR_Fig6.tiff",
+      "sha256": "e08a89b32de092f97ee00aa0d1b9a0c6c48c0676e3cd1610cd6dcb78e2ef1965",
+      "source_bytes_match_mapping": true,
+      "matching_embedded_media": [
+        "word/media/image6.tiff"
+      ],
+      "displayed_exact_original": true
+    },
+    {
+      "original_figure": "7",
+      "source_file": "Original_Source_Figures/MMR_Fig7.png",
+      "sha256": "607e841d7dc92b982c1d07c54673941a58648323f762d7d6f6995554eb31ab31",
+      "source_bytes_match_mapping": true,
+      "matching_embedded_media": [
+        "word/media/image7.png"
+      ],
+      "displayed_exact_original": true
+    }
+  ],
+  "brown_stain_excluded_bytes_and_pixels": true,
+  "author_review_only_statement_present": true,
+  "unverified_BP_serum_WB_and_error_qPCR_B_disclosed": true,
+  "unreferenced_template_media": [
+    "word/media/image9.jpg",
+    "word/media/image10.jpg"
+  ],
+  "unreferenced_media_note": "Two inherited earlier individual-point plot assets are not displayed. Neither is the excluded brown-stain image. Seven displayed numbered originals are byte-identical.",
+  "visual_notes": {
+    "1": "Complete original BP plot and limitations visible; author-only use stated at top.",
+    "2": "Complete serum plot and source/units/sample-size caveats visible.",
+    "3": "Complete three-group H&E composite and scale labels; no brown-stained extra image.",
+    "4": "Complete original tissue biochemical ABC plot and explanation of corrected new main figure.",
+    "5": "Full cropped WB/quantification composite; B/C identity reversal and missing source limitations disclosed.",
+    "6": "Complete original erroneous qPCR figure; protein/mRNA panel error explicitly disclosed.",
+    "7": "Complete original mechanism figure and explanation of hypothesis-only revised main figure."
+  },
+  "defects": "None: no clipping, overlap, missing Chinese glyphs, cut figure labels or detached captions. One original figure per page is intentional.",
+  "source_modified_by_reviewer": false,
+  "main_caption_check": {
+    "figure2_all_six_brackets": "***; each matched existing Games–Howell adjusted P<.001",
+    "figure3": {
+      "Yuan.docx": {
+        "sha256": "dd9552d7227c320d55dd5e1a0931c2b33a4c2033bb64ded775873cd0ea822d0f",
+        "figure3_caption": "Fig. 3. Relative Nox1 (A) and Nox4 (B) mRNA in regional medullary tissue. Six independent rats were included per group. Bars indicate arithmetic means, error bars sample SDs and points individual rats. Expression was normalized within each rat to β-actin and calibrated to the sham arithmetic mean. Brackets compare model with sham or restoration. Tests used ΔCq with one Holm adjustment across all 18 original-panel comparisons. Displayed P values are Holm-adjusted across these 18 comparisons. Sham and model rats were sampled on day 28 and restoration rats on day 56. Full results are in Supplementary File 4. Sham, sham-operated; Rest., restoration. Codex assisted with conventional plotting code.",
+        "exact_P_labels_used_in_plot": [
+          "P = 0.0037",
+          "P = 0.0139",
+          "P = 0.00010",
+          "P = 0.0037"
+        ],
+        "obsolete_star_key_in_caption": false
+      },
+      "Yuan_中文.docx": {
+        "sha256": "9c042a50f841d488babec6caf2709fa3e12337502527427dd003e171238fc8d1",
+        "figure3_caption": "图3. 区域延髓组织Nox1（A）和Nox4（B）相对mRNA表达。每组6只独立大鼠；柱为算术均值，误差线为样本SD，各点为单只动物。表达量先在动物内以β-actin归一化，再以伪手术组算术均值校准。括线比较模型与伪手术或复位组。检验采用ΔCq，对原始面板18项比较作统一Holm校正。图示P值均为上述18项比较校正后的P值。伪手术及模型组第28天、复位组第56天取材。完整结果见补充文件4。Sham为伪手术组，Rest.为复位组。Codex辅助编写常规绘图代码。",
+        "exact_P_labels_used_in_plot": [
+          "P = 0.0037",
+          "P = 0.0139",
+          "P = 0.00010",
+          "P = 0.0037"
+        ],
+        "obsolete_star_key_in_caption": false
+      }
+    },
+    "figure1": "Qualitative H&E caption agrees with unchanged source image and limitations",
+    "figure4": "Hypothesis caption agrees with dashed Proposed connections and sampling-time confounding"
+  }
+}
