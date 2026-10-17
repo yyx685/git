@@ -1,0 +1,310 @@
+{
+  "purpose": "Retain MMR figure content and visual style with verified quantitative inputs",
+  "date": "2026-10-17",
+  "statistical_tests_performed": false,
+  "experimental_images_generated_or_edited": false,
+  "input_files": {
+    "S1_Data_RVLM_Processed_Values.csv": {
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "modified": false
+    },
+    "S2_Data_RTqPCR_Animal_Paired_Values.csv": {
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "modified": false
+    },
+    "S3_File_RVLM_Statistical_Outputs.json": {
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "modified": false
+    },
+    "S4_File_RTqPCR_Statistical_Outputs.json": {
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "modified": false
+    }
+  },
+  "figures": {
+    "Yuan_fig1": {
+      "source_visual_style": "lyk mmr期刊.docx Figure 4",
+      "arrays": {
+        "SOD": {
+          "Sham-operated": [
+            0.999958204463763,
+            1.0749802126171004,
+            1.1490682522733033,
+            1.2016761827228155,
+            1.1529376070043125,
+            1.152249614638276
+          ],
+          "Model": [
+            0.670045643699586,
+            0.46306800465456327,
+            0.5772265573318822,
+            0.5680164442774861,
+            0.5062090296591376,
+            0.5995579577314414
+          ],
+          "Restoration": [
+            1.1191184569972064,
+            1.0231629525189343,
+            0.9330783338111303,
+            1.1214096127637019,
+            0.8970758647313262,
+            1.1173948085759078
+          ]
+        },
+        "MDA": {
+          "Sham-operated": [
+            0.06977371751902527,
+            0.10898282000646459,
+            0.0902148079015284,
+            0.09051899270190625,
+            0.09328262847445845,
+            0.11910319512981517
+          ],
+          "Model": [
+            0.32301044330289924,
+            0.32608498363003313,
+            0.35032590925497353,
+            0.3570925791411378,
+            0.41065184765625184,
+            0.32555958312675864
+          ],
+          "Restoration": [
+            0.24244503957449035,
+            0.2369717321241664,
+            0.26304723550322606,
+            0.23309801451368267,
+            0.1442151116425528,
+            0.15731755150112478
+          ]
+        },
+        "ROS": {
+          "Sham-operated": [
+            1263.392857142857,
+            1381.8980667838312,
+            1268.5936631461925,
+            1326.7080745341614,
+            1352.4305555555554,
+            1368.2539682539682
+          ],
+          "Model": [
+            3696.569250317662,
+            3105.2154195011335,
+            3228.146853146853,
+            3198.6230636833047,
+            3167.7699403147044,
+            3377.488151658768
+          ],
+          "Restoration": [
+            2078.084606345476,
+            2255.9040590405903,
+            2142.0378279438683,
+            2370.2821316614422,
+            2343.540945790081,
+            2403.594351732991
+          ]
+        }
+      },
+      "annotation_source": "S3_File_RVLM_Statistical_Outputs.json, Games–Howell adjusted P values",
+      "changes": "Retained black/light-gray/dark-gray bars and sample SD; overlaid six source records (reported biological n=6); fluorescence unit corrected to AU; exact source comparisons used.",
+      "annotations": [
+        {
+          "endpoint": "SOD",
+          "groups": [
+            "Sham-operated",
+            "Model"
+          ],
+          "p": 2.892936645793043e-07,
+          "label": "***"
+        },
+        {
+          "endpoint": "SOD",
+          "groups": [
+            "Model",
+            "Restoration"
+          ],
+          "p": 1.6581020619299558e-05,
+          "label": "***"
+        },
+        {
+          "endpoint": "MDA",
+          "groups": [
+            "Sham-operated",
+            "Model"
+          ],
+          "p": 1.0368106856395443e-06,
+          "label": "***"
+        },
+        {
+          "endpoint": "MDA",
+          "groups": [
+            "Model",
+            "Restoration"
+          ],
+          "p": 0.0009643860810790716,
+          "label": "***"
+        },
+        {
+          "endpoint": "ROS",
+          "groups": [
+            "Sham-operated",
+            "Model"
+          ],
+          "p": 3.4320801671761103e-06,
+          "label": "***"
+        },
+        {
+          "endpoint": "ROS",
+          "groups": [
+            "Model",
+            "Restoration"
+          ],
+          "p": 1.8344142835746702e-05,
+          "label": "***"
+        }
+      ],
+      "numeric_arrays_sha256": "292bde22344b2b45b0fee80a666ff71a07d66b0b92b9ae875b653f780567489c",
+      "dimensions": [
+        4680,
+        2280
+      ],
+      "dpi": [
+        600,
+        600
+      ],
+      "tiff_sha256": "77996cad6aacd5321a1456296313577f103e6860e3d38bb874be4903f00034ab",
+      "jpeg_sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44"
+    },
+    "Yuan_fig2": {
+      "source_visual_style": "lyk mmr期刊.docx Figure 6, corrected using animal-paired Cq data",
+      "arrays": {
+        "Nox1": {
+          "Sham-operated": [
+            1.127884692235062,
+            1.081939315997312,
+            0.8256599222886946,
+            1.0894647990680673,
+            1.0378655651235438,
+            0.8371857052873204
+          ],
+          "Model": [
+            1.3885889377424476,
+            1.3136851827098133,
+            1.3506179002171592,
+            1.4576249746426801,
+            1.498604390509337,
+            1.745474866455313
+          ],
+          "Restoration": [
+            1.2514664225166603,
+            1.2428219124927318,
+            1.1436293758018004,
+            1.2777623923049128,
+            1.104673160912603,
+            1.059673326845085
+          ]
+        },
+        "Nox4": {
+          "Sham-operated": [
+            0.8254631265801673,
+            0.8545730208728848,
+            0.7595809751252712,
+            1.2425256863925729,
+            1.3225072915286489,
+            0.9953498995004544
+          ],
+          "Model": [
+            3.394680215327282,
+            2.133579216445514,
+            3.4901176664537608,
+            3.059457114479541,
+            3.0173366642946076,
+            2.3186349164723667
+          ],
+          "Restoration": [
+            1.6281974635734096,
+            1.9497317895437087,
+            1.8964162712266985,
+            1.5191619502505425,
+            1.437214779649093,
+            1.437214779649093
+          ]
+        }
+      },
+      "annotation_source": "Existing Welch tests on ΔCq, Holm correction over all 18 source comparisons",
+      "changes": "Preserved bar+SD design; retained Cq-derived Nox4 assay estimates; target specificity is unconfirmed; overlaid six values; star annotations use exact Holm-adjusted P thresholds; sampling labels use weeks.",
+      "annotations": [
+        {
+          "target": "Nox1",
+          "comparison": "Model vs Sham-operated",
+          "p_holm_18": 0.0037132651528660066,
+          "label": "**"
+        },
+        {
+          "target": "Nox1",
+          "comparison": "Restoration vs Model",
+          "p_holm_18": 0.013898420216289727,
+          "label": "*"
+        },
+        {
+          "target": "Nox4",
+          "comparison": "Model vs Sham-operated",
+          "p_holm_18": 0.00010222109053618496,
+          "label": "***"
+        },
+        {
+          "target": "Nox4",
+          "comparison": "Restoration vs Model",
+          "p_holm_18": 0.0037132651528660066,
+          "label": "**"
+        }
+      ],
+      "numeric_arrays_sha256": "e8a695b29a16bc1ab8e1b480e109059400941804ffc3f3021b6ee4eb9ded1776",
+      "dimensions": [
+        3780,
+        2280
+      ],
+      "dpi": [
+        600,
+        600
+      ],
+      "tiff_sha256": "592679e0b6b8c4baa8a62c956b91a8661c4c6bde46b5c3b3082ce994a52365db",
+      "jpeg_sha256": "38f157b5035e603fff6cb777f25b9b3dce68df3c0f0eaedc010facb64b7fb5b1"
+    }
+  },
+  "visual_review": "PASS; final main figures and document embeddings visually inspected. Figure 1 unchanged; figure 2 y-axis now Normalized RT-qPCR estimate.",
+  "output_files": {
+    "Yuan_fig2.svg": {
+      "bytes": 49632,
+      "sha256": "02ad34acc134405ae47b65ecf4baa4f73041a0a6cf1bc90df8fd2ae5629ae450"
+    },
+    "Yuan_fig1.tif": {
+      "bytes": 894332,
+      "sha256": "77996cad6aacd5321a1456296313577f103e6860e3d38bb874be4903f00034ab"
+    },
+    "Yuan_fig1.svg": {
+      "bytes": 66854,
+      "sha256": "54a3c25c19ded83db8af212cf41a06debcadd1c0080c97f354902bba91015485"
+    },
+    "Yuan_fig2.tif": {
+      "bytes": 637564,
+      "sha256": "592679e0b6b8c4baa8a62c956b91a8661c4c6bde46b5c3b3082ce994a52365db"
+    },
+    "Yuan_fig1.jpg": {
+      "bytes": 636591,
+      "sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44"
+    },
+    "Yuan_fig2.pdf": {
+      "bytes": 41614,
+      "sha256": "2f93ea65008ed51a57d4443193f863185e1ffbb902bfeced1a7c2ebd37c41580"
+    },
+    "Yuan_fig2.jpg": {
+      "bytes": 453971,
+      "sha256": "38f157b5035e603fff6cb777f25b9b3dce68df3c0f0eaedc010facb64b7fb5b1"
+    },
+    "Yuan_fig1.pdf": {
+      "bytes": 38460,
+      "sha256": "56ff5f8ae5c3480947b00cefc4519e5bc63436a05286eab3f950842cdeec8947"
+    }
+  },
+  "current_change_scope": "Only Figure 2 label changed; prior verified numerical arrays, sample SD, comparisons and week 4/week 8 labels preserved."
+}

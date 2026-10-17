@@ -1,0 +1,34 @@
+{
+  "before_file": "/tmp/codex-physres-risk-revision-20261017/Chinese_Before_Font_Fix.docx",
+  "before_sha256": "6d5ac5a04e737a224d1fbe09c8c9449e5af832ea8250f591ceaaaea261983d56",
+  "after_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan_中文.docx",
+  "after_sha256": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e",
+  "changes": [
+    "Explicit CJK font Songti SC in paragraph styles and CJK-bearing runs; Latin fonts unchanged",
+    "CJK run language set zh-CN",
+    "Title font size 16 pt to 15 pt to prevent the final character standing alone"
+  ],
+  "preservation_checks": {
+    "all_w_t_and_m_t_text_nodes_identical_across_every_xml_part": true,
+    "native_omml_formulas_canonical_xml_identical": true,
+    "all_embedded_media_bytes_identical": true
+  },
+  "text_nodes_count": 90,
+  "omml_count": 1,
+  "embedded_media_count": 2,
+  "no_fixed_line_spacing_applied": true,
+  "note": "Only approved font/layout repair; all scientific text, numbers, equations and figures unchanged.",
+  "performed_at": "2026-10-17T15:40:33.479429+00:00",
+  "title_original_font_sizes_pt": [
+    16.0
+  ],
+  "after_font_before_metadata_sha256": "4ebcf8cc4881b9aeddcbdd41ec41fe303fe8f31a474dc4203382cdc6ecc63de9",
+  "metadata_changes": {
+    "title": "寰枢关节紊乱大鼠区域延髓氧化还原指标及探索性RT-qPCR观察",
+    "subject": "Physiological Research Short Communication Chinese author copy",
+    "changed_zip_members": [
+      "docProps/core.xml"
+    ],
+    "document_styles_media_unchanged_by_metadata_patch": true
+  }
+}

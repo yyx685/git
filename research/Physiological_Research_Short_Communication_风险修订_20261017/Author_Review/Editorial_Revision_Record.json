@@ -1,0 +1,48 @@
+{
+  "article_type": "Short Communication",
+  "english_words_including_title_summary_declarations_references_captions_and_native_math": 2062,
+  "summary_words": 131,
+  "references": 8,
+  "main_figures": 2,
+  "main_tables": 0,
+  "reference_mapping_old_to_short": {
+    "4": 1,
+    "5": 2,
+    "8": 3,
+    "9": 4,
+    "12": 5,
+    "13": 6,
+    "14": 7,
+    "15": 8
+  },
+  "source_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
+  "full_methods_and_results_preserved_in_supplement": true,
+  "new_experiments_or_statistics": false,
+  "HE_only_in_supplement": true,
+  "mechanism_diagram_removed": true,
+  "remaining4_rats": "Kept in reserve, not allocated to subsequent 10-rat groups",
+  "AI_tool_version_evidence": {
+    "codex_cli": "0.162.0-alpha.17.2",
+    "ChatGPT_desktop": "26.1007.30912",
+    "underlying_model_identifier": "not archived",
+    "version_scope": "Client and CLI installed at final short-manuscript revision on 2026-10-16"
+  },
+  "submission_sent": false,
+  "previous_version_commit": "2ebd1dae49887aaad618509277e4c37bf4c9deae",
+  "latest_change": {
+    "scope": "Six-risk reporting revision; no validation or source reconstruction claimed.",
+    "plate_annotation": "New editable Supplementary Table S2 with B10-Ch5 and D12-Ch5 corrections and exact preserved numerical pairing.",
+    "n_and_pairing": "Investigator confirmation distinguished from numerical reconstruction and independently available animal identity records.",
+    "ethics": "Reported approval distinguished from unavailable original letter/protocol; 9/50 mortality and no analgesia/retained rationale disclosed.",
+    "qPCR_interpretation": "Title, summary, results, conclusion, captions and figure 2 use exploratory RT-qPCR estimates; no confirmed transcript upregulation claimed.",
+    "figure2_change": "Y-axis label and interpretation only; values, error bars, stars and week labels unchanged.",
+    "fluorescence": "Unvalidated auxiliary probe-associated index; same handling cannot establish tissue-matrix comparability.",
+    "time_confounding": "Week 4 model/sham and week 8 restoration interpretation remains observational.",
+    "source_data_and_statistical_outputs_changed": false,
+    "gene_specificity_validated": false,
+    "date_or_ethics_number_changed": false
+  },
+  "revision_date": "2026-10-17",
+  "title": "Regional medullary redox indices and exploratory RT-qPCR findings in rats with atlantoaxial joint disorder",
+  "supplementary_native_tables": 2
+}

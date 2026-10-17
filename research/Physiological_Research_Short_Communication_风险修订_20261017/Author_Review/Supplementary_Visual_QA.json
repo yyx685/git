@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "source": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan_supplementary_information.docx",
+  "source_sha256": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
+  "canonical_renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1013.11914/skills/documents/render_docx.py",
+  "soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "fontconfig": "/tmp/codex-physres-20261015/fontconfig/fonts.conf",
+  "render_dir": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta",
+  "pdf": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/Yuan_supplementary_information.pdf",
+  "PDF_sha256": "61bf2ac51b856c252e74122f22e16b26865f87b8be4b28996d1d96ae24ed5bb8",
+  "page_count": 11,
+  "every_page_viewed_at_original_resolution": true,
+  "pages": [
+    {
+      "page": 1,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-1.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "83dbb4164a74af6726f38831947fbe456a7284e21402a2218f5d42a1deaddf9e",
+      "status": "PASS",
+      "notes": "Source/data/code index: readable and complete, no cut-off or footer collision."
+    },
+    {
+      "page": 2,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-2.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "73e0caefc67ae0e4955653e57b2a06c70f19e9c875835cd40b44adfb62df7015",
+      "status": "PASS",
+      "notes": "Final index item followed by HE composite and illustrative legend; no orphan index-only page, original scale bars visible."
+    },
+    {
+      "page": 3,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-3.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "5055319f78c770d3decb0a4a88733cc8054e8474330aa3ee90a30af4261cf64d",
+      "status": "PASS",
+      "notes": "Archived BP four-panel figure and descriptive legend intact and readable."
+    },
+    {
+      "page": 4,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-4.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "699eec7c8e1d6fd7139d0afe3be578a1d87ea36c66ddfd405252df2b8ee399fa",
+      "status": "PASS",
+      "notes": "Native Supplementary Table S1: all numeric cells and units clear; no overflow or row splitting."
+    },
+    {
+      "page": 5,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-5.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "2c170d98c2ad590abcf501b0970d1e214fdff3449cd7851fff24616d0ca32f61",
+      "status": "PASS",
+      "notes": "New native Supplementary Table S2: four columns/two records and full evidence-boundary notes fit; all Cq and source cells visible."
+    },
+    {
+      "page": 6,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-6.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "52955041b7c2fefa5ac8244385e54211a689607549a4f0467fd9ae95793e7ff3",
+      "status": "PASS",
+      "notes": "Animal ethics and source flow, four reserve animals, reported independence/pairing and no-power statements intact."
+    },
+    {
+      "page": 7,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-7.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "042a1248904e280d3d17971c3249e58741fd3d3efd957e88cba7f95f6dfbd8d2",
+      "status": "PASS",
+      "notes": "Surgery/welfare/mortality and terminal collection sections continuous and readable; normal paragraph continuation to next page."
+    },
+    {
+      "page": 8,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-8.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "f11e099e7dce5a9fa0a204e7230d87094f19181ff9076c021b521297808bb990",
+      "status": "PASS",
+      "notes": "Histology continuation, biochemical O12 limits, and qPCR methods readable; primer sequence continuation is ordinary page flow."
+    },
+    {
+      "page": 9,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-9.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "fc96da500092ec5d207a121a0fa395e60b266a8122daa044bf804f42e247c792",
+      "status": "PASS",
+      "notes": "Primer continuation, native formula, full curve/annotation/specificity limitations and statistics readable."
+    },
+    {
+      "page": 10,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-10.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "8ef017a42c13508dec6fc3015f2b97c81ccf7a8daa5ebb23171881bd965dd6b9",
+      "status": "PASS",
+      "notes": "18-comparison family, all extended numerical results and week-4/week-8 restrictions readable."
+    },
+    {
+      "page": 11,
+      "file": "/tmp/codex-physres-risk-revision-20261017/qa_si_final_meta/page-11.png",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "sha256": "2dd4882b487b3b0769d619b8e7afe1ca9eff0a1571e65b15b538eebf443f5b02",
+      "status": "PASS",
+      "notes": "Complete final histology/BP archive section of two substantive paragraphs; intentional short final page, no blank/orphan page defect."
+    }
+  ],
+  "layout_defects": [],
+  "formal_docx_modified": false,
+  "markers_repeated": false,
+  "internal_pdf_only": true,
+  "metadata_before_sha256": "c58146aa16103794fd9e6713f2c1b6ee9bc38cf1ad424af199515e0fabef6a12",
+  "core_metadata_repaired_without_body_change": true,
+  "final_render_all11pages_pixels_identical_to_inspected_prior_pages": true
+}

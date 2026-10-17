@@ -1,0 +1,20 @@
+{
+  "Yuan.docx": {
+    "before_sha256": "9b8591f521bfa8a167c348c6a22ec810f9e28f09510c0c40bc39bcd614229573",
+    "after_sha256": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db",
+    "only_core_xml_changed": true,
+    "all_other_zip_entries_byte_identical": true
+  },
+  "Yuan_supplementary_information.docx": {
+    "before_sha256": "c58146aa16103794fd9e6713f2c1b6ee9bc38cf1ad424af199515e0fabef6a12",
+    "after_sha256": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
+    "only_core_xml_changed": true,
+    "all_other_zip_entries_byte_identical": true
+  },
+  "Yuan_cover_letter.docx": {
+    "before_sha256": "9afc308142e7e46a2888e7338b3663d2c6d01207f9c3294d4a738ae509dae29c",
+    "after_sha256": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58",
+    "only_core_xml_changed": true,
+    "all_other_zip_entries_byte_identical": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "restoration_group": "Author confirmed that restoration animals were selected from successfully modeled rats and continued; separate model rats underwent terminal sampling at week 4.",
+  "terminal_tissue_analysis": "Independent cohorts; no paired longitudinal tissue test inferred from common model origin.",
+  "two_conflicting_plate_wells": "The author subsequently confirmed annotation errors after checking original sample-loading or laboratory records: B10-Ch5=Nox1 model, D12-Ch5=Nox4 sham. Original exports and Cq values unchanged.",
+  "date_scope": "At the author's request, this round does not further investigate run-year/approval-time correspondence. Original dates, metadata and ethics number are unchanged; correspondence is not declared verified.",
+  "primary_values_or_statistical_outputs_changed": false,
+  "QC_status": "Two annotation errors explicitly documented; target specificity, animal identity linkage and original ethics documentation remain unresolved.",
+  "annotation_error_confirmed_by_author_after_source_review": true,
+  "supporting_record_provided_for_independent_review": false,
+  "clarification_history": [
+    "Earlier author response: cause unknown.",
+    "Subsequent author response: annotation error.",
+    "Further author confirmation: original sample-loading or laboratory records checked; both sample identities correct."
+  ],
+  "current_update": "2026-10-17",
+  "current_source_record_availability": "Author stated that no ethics approval letter, approved protocol, or animal-to-sample/submission/loading records are currently available to supply.",
+  "animal_n_and_pairing_basis": "Investigator confirmation: six different rats per group; one target and reference measurement per rat; same-column pairing; no inter-animal pooling. Current exports support numerical pairing but cannot independently recover animal identity.",
+  "plate_annotation_basis": "Prior investigator confirmation after source-record review; the supporting loading or laboratory record has not been supplied for independent review. Table S2 preserves exact well identities, original annotation, corrected interpretation, reference well and source cells.",
+  "ethics_approval_basis": "Investigators report AHUCM-rats-2022032 covered the study. Approval letter and approved protocol are currently unavailable for retrospective verification.",
+  "welfare": "No postoperative analgesia; no retained documented rationale or specific authorization for omission. Nine of 50 modeled rats died: six intraoperative, three subsequent; 18%.",
+  "new_record_or_experimental_validation_created": false
+}

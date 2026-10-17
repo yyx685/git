@@ -1,0 +1,24 @@
+From: Zijian Wu <wuzijian@ahtcm.edu.cn>
+To: physres@fgu.cas.cz
+Subject: Short Communication submission - Yuan et al - Exploratory medullary redox and RT-qPCR findings
+
+Dear Editors,
+
+Please consider our attached manuscript, "Regional medullary redox indices and exploratory RT-qPCR findings in rats with atlantoaxial joint disorder", as a Short Communication in Physiological Research.
+
+The study reports regional medullary SOD and MDA observations, together with auxiliary probe-associated fluorescence and exploratory Nox1/Nox4-targeted RT-qPCR estimates. The latter assays lack validation of tissue applicability or target specificity; the manuscript does not present them as confirmed transcript abundance or a NOX-dependent mechanism. Model and sham samples were collected at week 4, restoration samples at week 8, without a time-matched second-surgery control.
+
+Each endpoint contains six records reported by the investigators to represent different rats. Original animal-to-sample records are unavailable. Supplementary Table S2 documents two investigator-confirmed Plate annotation errors, their reported correction basis and the preserved Cq/reference pairing; the existing numerical analyses are unchanged.
+
+Investigators report ethics approval AHUCM-rats-2022032, but the approval letter and approved protocol cannot currently be supplied. Nine of 50 modeled rats died (18%). Postoperative analgesia was not administered, and no documented justification or specific authorization for its omission was retained. These unresolved welfare and documentation matters are explicitly disclosed.
+
+Related published work and shared blood-pressure observations are identified in the manuscript and cover letter. All authors have approved the manuscript. It has not been published previously and is not under consideration elsewhere. The authors declare no competing interests. Actual AI-assisted preparation and analytical-code use are disclosed in the manuscript.
+
+We provide the editable manuscript and complete PDF, two separate main figures, cover letter, supplementary information containing detailed methods, extended results and editable Tables S1/S2, and available numerical inputs, source exports and reproducible code. Please advise if supplementary items require an alternative format or placement.
+
+Thank you for considering our submission.
+
+Sincerely,
+Zijian Wu and Youkui Lv
+Corresponding authors, on behalf of all authors
+wuzijian@ahtcm.edu.cn; lvyk126@126.com

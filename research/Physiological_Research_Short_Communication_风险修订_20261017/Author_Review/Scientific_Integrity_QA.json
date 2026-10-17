@@ -1,0 +1,905 @@
+{
+  "status": "PASS scientific preservation and final document hashes verified",
+  "date": "2026-10-17",
+  "old_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
+  "new_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017",
+  "scope": "Read-only preservation and evidence-boundary audit, no inferential statistics recomputed and no formal source modified.",
+  "checks": {
+    "Yuan.docx_native_OMML_unchanged": true,
+    "Yuan_中文.docx_native_OMML_unchanged": true,
+    "Yuan_supplementary_information.docx_native_OMML_unchanged": true,
+    "support_file_count_17": true,
+    "support_only_display_codes_changed": true,
+    "code_changes_display_labels_metadata_only": true,
+    "Figure1_all_four_formats_byte_identical": true,
+    "Yuan_fig1_arrays_unchanged": true,
+    "Yuan_fig1_annotations_unchanged": true,
+    "Yuan_fig1_numeric_arrays_sha256_unchanged": true,
+    "Yuan_fig1_dimensions_unchanged": true,
+    "Yuan_fig1_dpi_unchanged": true,
+    "Yuan_fig2_arrays_unchanged": true,
+    "Yuan_fig2_annotations_unchanged": true,
+    "Yuan_fig2_numeric_arrays_sha256_unchanged": true,
+    "Yuan_fig2_dimensions_unchanged": true,
+    "Yuan_fig2_dpi_unchanged": true,
+    "Nox1_Model_vs_Sham-operated_exact_P": true,
+    "Nox1_Model_vs_Sham-operated_exact_threshold_star": true,
+    "Nox1_Restoration_vs_Model_exact_P": true,
+    "Nox1_Restoration_vs_Model_exact_threshold_star": true,
+    "Nox4_Model_vs_Sham-operated_exact_P": true,
+    "Nox4_Model_vs_Sham-operated_exact_threshold_star": true,
+    "Nox4_Restoration_vs_Model_exact_P": true,
+    "Nox4_Restoration_vs_Model_exact_threshold_star": true,
+    "Figure2_pixels_changed_only_two_ylabel_strips": true,
+    "Figure2_week4_week8_labels_preserved": true,
+    "Figure2_cautious_ylabel": true,
+    "Figure2_Nox1_Sham-operated_array_matches_csv": true,
+    "Figure2_Nox1_Model_array_matches_csv": true,
+    "Figure2_Nox1_Restoration_array_matches_csv": true,
+    "Figure2_Nox4_Sham-operated_array_matches_csv": true,
+    "Figure2_Nox4_Model_array_matches_csv": true,
+    "Figure2_Nox4_Restoration_array_matches_csv": true,
+    "Yuan.docx_15_mean_SD_unchanged": true,
+    "Yuan.docx_3_F_df_unchanged": true,
+    "Yuan.docx_all_numeric_tokens_unchanged": true,
+    "Yuan.docx_15_meanSD_count": true,
+    "Yuan.docx_3_Fdf_count": true,
+    "Yuan_中文.docx_15_mean_SD_unchanged": true,
+    "Yuan_中文.docx_3_F_df_unchanged": true,
+    "Yuan_中文.docx_all_numeric_tokens_unchanged": true,
+    "Yuan_中文.docx_15_meanSD_count": true,
+    "Yuan_中文.docx_3_Fdf_count": true,
+    "EN_ZH_15_meanSD_and_Fdf_correspond": true,
+    "eight_reference_texts_unchanged": true,
+    "S1_numeric_columns_unchanged": true,
+    "S1_only_ROS_to_probe_label": true,
+    "S2_native_four_columns_two_records": true,
+    "S2_B10_correct": true,
+    "S2_D12_correct": true,
+    "S2_decimal_deltas_correct": true,
+    "SI_HE_BP_media_unchanged": true,
+    "reported_n_basis_explicit": true,
+    "six_retained_no_posthoc_exclusion_18family": true,
+    "four_animals_in_reserve": true,
+    "ethics_reported_no_analgesia_no_waiver_18percent": true,
+    "qPCR_specificity_unconfirmed": true,
+    "S2_source_review_basis_and_limits": true,
+    "week4_vs_week8_confounds_not_resolved": true,
+    "O12_serum_tissue_validation_auxiliary_only": true,
+    "not_retrospective_primary_or_power": true,
+    "36_pairs_126Cq_preserved": true
+  },
+  "all_scientific_checks_pass": true,
+  "formal_DOCX_sha256": {
+    "Yuan.docx": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db",
+    "Yuan_中文.docx": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e",
+    "Yuan_supplementary_information.docx": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
+    "Yuan_cover_letter.docx": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58"
+  },
+  "english_word_count": 2062,
+  "summary_word_count": 131,
+  "word_count_method": "Join w:t+m:t within direct body paragraphs, then whitespace split; includes front matter, summary, declarations, 8 references and figure legends.",
+  "supporting_files": [
+    {
+      "file": "S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b",
+      "byte_identical": true
+    },
+    {
+      "file": "S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "byte_identical": true
+    },
+    {
+      "file": "S1_Fig_HE_Illustrative_Images.tif",
+      "sha256": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+      "byte_identical": true
+    },
+    {
+      "file": "S2_Appendix_Reproduce_RTqPCR.py",
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb",
+      "byte_identical": true
+    },
+    {
+      "file": "S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "byte_identical": true
+    },
+    {
+      "file": "S2_Fig_Archived_BP_Records.tif",
+      "sha256": "1715a5f6d1699fa69c9553f3484a064daf8b8dd1902c22a406bccb5523ff50d7",
+      "byte_identical": true
+    },
+    {
+      "file": "S3_Appendix_Plot_Archived_BP.py",
+      "sha256": "ed69ae97fbd3816302c7c9a91ba6a529c963bbe4aa9964748d3716b3aae18997",
+      "byte_identical": true
+    },
+    {
+      "file": "S3_Data_Archived_BP_Recorded_Values.csv",
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf",
+      "byte_identical": true
+    },
+    {
+      "file": "S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "byte_identical": true
+    },
+    {
+      "file": "S4_Appendix_Plot_Main_Figures.py",
+      "sha256": "5a6e9c92554915469e7d589100f41fff18416af155fc055e508c38fc60b08b94",
+      "byte_identical": false
+    },
+    {
+      "file": "S4_Data_Archived_BP_Entered_Summaries.csv",
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554",
+      "byte_identical": true
+    },
+    {
+      "file": "S4_File_RTqPCR_Statistical_Outputs.json",
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "byte_identical": true
+    },
+    {
+      "file": "S5_Appendix_Plot_Source_Style_Figures.py",
+      "sha256": "f80b1c5a231dcb0b08091129ef6abcd89ed6d8c4d4325340653b7b1c2caf8046",
+      "byte_identical": false
+    },
+    {
+      "file": "S5_File_Archived_BP_Workbook.xlsx",
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d",
+      "byte_identical": true
+    },
+    {
+      "file": "S6_File_HE_Supplied_Composite.jpg",
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468",
+      "byte_identical": true
+    },
+    {
+      "file": "S7_File_RTqPCR_Original_Exports.zip",
+      "sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3",
+      "byte_identical": true
+    },
+    {
+      "file": "Supplementary_Fig_S2.pdf",
+      "sha256": "15d2b1f14d5fe1f92fe9ca23e671525afb7b73a03cb837524a89560146175388",
+      "byte_identical": true
+    }
+  ],
+  "details": {
+    "S4_Appendix_Plot_Main_Figures.py_diff": "--- \n+++ \n@@ -73,9 +73,9 @@\n for ax,target,letter in zip(axes,['Nox1','Nox4'],'AB'):\n     panel(ax,{group:[float(row['normalized_expression']) for row in qpcr\n                      if row['target']==target and row['group']==group]\n-              for group in GROUPS},letter,'Relative mRNA abundance',target)\n+              for group in GROUPS},letter,'Normalized RT-qPCR estimate',target)\n fig.subplots_adjust(left=0.11,right=0.985,top=0.85,bottom=0.17,wspace=0.43)\n-fig.savefig(FIGURES/'Fig2.pdf',metadata={'Title':'Nox1 and Nox4 relative mRNA abundance'})\n+fig.savefig(FIGURES/'Fig2.pdf',metadata={'Title':'Nox1-targeted and Nox4-targeted exploratory RT-qPCR estimates'})\n fig.savefig(FIGURES/'Fig2.tif',dpi=600,pil_kwargs={'compression':'tiff_lzw'})\n plt.close(fig)\n print('Saved two 600-dpi TIFF figures and matching vector PDFs using Arial; unchanged data, no statistical inference.')\n",
+    "S5_Appendix_Plot_Source_Style_Figures.py_diff": "--- \n+++ \n@@ -34,7 +34,7 @@\n  'ps.fonttype':42, 'savefig.facecolor':'white'})\n \n audit = {'purpose':'Retain MMR figure content and visual style with verified quantitative inputs',\n- 'date':'2026-10-16', 'statistical_tests_performed':False,\n+ 'date':'2026-10-17', 'statistical_tests_performed':False,\n  'experimental_images_generated_or_edited':False, 'input_files':{}, 'figures':{},\n  'visual_review':'pending'}\n for name in ['S1_Data_RVLM_Processed_Values.csv', 'S2_Data_RTqPCR_Animal_Paired_Values.csv',\n@@ -83,7 +83,7 @@\n \n bio_record={'source_visual_style':'lyk mmr期刊.docx Figure 4', 'arrays':{},\n  'annotation_source':'S3_File_RVLM_Statistical_Outputs.json, Games–Howell adjusted P values',\n- 'changes':'Retained black/light-gray/dark-gray bars and sample SD; overlaid six independent values; fluorescence unit corrected to AU; exact source comparisons used.'}\n+ 'changes':'Retained black/light-gray/dark-gray bars and sample SD; overlaid six source records (reported biological n=6); fluorescence unit corrected to AU; exact source comparisons used.'}\n fig,axs=plt.subplots(1,3,figsize=(7.8,3.8))\n for ax, endpoint, letter, ylabel in zip(axs,['SOD','MDA','ROS'],'ABC',\n     ['SOD (U/mg protein)','MDA (nmol/mg protein)','Protein-normalized fluorescence (AU)']):\n@@ -107,7 +107,7 @@\n \n qpcr_record={'source_visual_style':'lyk mmr期刊.docx Figure 6, corrected using animal-paired Cq data',\n  'arrays':{},'annotation_source':'Existing Welch tests on ΔCq, Holm correction over all 18 source comparisons',\n- 'changes':'Preserved bar+SD design; corrected Nox4 panel using confirmed mRNA values; overlaid six values; star annotations use exact Holm-adjusted P thresholds; sampling labels use weeks.'}\n+ 'changes':'Preserved bar+SD design; retained Cq-derived Nox4 assay estimates; target specificity is unconfirmed; overlaid six values; star annotations use exact Holm-adjusted P thresholds; sampling labels use weeks.'}\n fig,axs=plt.subplots(1,2,figsize=(6.3,3.8))\n for ax,target,letter in zip(axs,['Nox1','Nox4'],'AB'):\n     data={g:[float(r['normalized_expression']) for r in qpcr if r['target']==target and r['group']==g] for g in GROUPS}\n@@ -116,7 +116,7 @@\n     for g,a in data.items():\n         summary=next(s for s in gene['groups'] if s['group']==g)['fold_statistics']\n         assert np.isclose(np.mean(a),summary['mean']) and np.isclose(np.std(a,ddof=1),summary['sample_sd'])\n-    base_panel(ax,data,letter,'Relative mRNA abundance',target)\n+    base_panel(ax,data,letter,'Normalized RT-qPCR estimate',target)\n     highest=max(max(a) for a in data.values());span=highest*1.40\n     for i,(num,den,x1,x2) in enumerate([('Model','Sham-operated',0,1),('Restoration','Model',1,2)]):\n         c=next(c for c in qpcr_stats['comparisons'] if c['gene']==target and c['numerator_group']==num and c['denominator_group']==den)\n",
+    "Figure2_diff_bbox": [
+      112,
+      618,
+      2175,
+      1637
+    ],
+    "Figure2_ylabel_strips": [
+      [
+        112,
+        182
+      ],
+      [
+        2104,
+        2174
+      ]
+    ],
+    "Yuan.docx_15_mean_SD": [
+      "0.564 ± 0.072",
+      "1.122 ± 0.072",
+      "0.349 ± 0.034",
+      "0.095 ± 0.017",
+      "3295.6 ± 216.3",
+      "1326.9 ± 50.6",
+      "1.459 ± 0.156",
+      "1.000 ± 0.134",
+      "2.902 ± 0.558",
+      "1.000 ± 0.233",
+      "1.035 ± 0.101",
+      "0.213 ± 0.049",
+      "2265.6 ± 131.6",
+      "1.180 ± 0.090",
+      "1.645 ± 0.227"
+    ],
+    "Yuan.docx_3_F_df": [
+      "F(2, 9.816) = 91.626",
+      "F(2, 8.500) = 130.738",
+      "F(2, 7.804) = 314.907"
+    ],
+    "Yuan.docx_all_numeric_tokens": [
+      "2",
+      "9.816",
+      "91.626",
+      "2",
+      "8.500",
+      "130.738",
+      "2",
+      "7.804",
+      "314.907",
+      "0.001",
+      "4",
+      "0.564",
+      "0.072",
+      "1.122",
+      "0.072",
+      "0.349",
+      "0.034",
+      "0.095",
+      "0.017",
+      "3295.6",
+      "216.3",
+      "1326.9",
+      "50.6",
+      "1",
+      "0.001",
+      "1",
+      "1",
+      "1.459",
+      "0.156",
+      "1.000",
+      "0.134",
+      "4",
+      "2.902",
+      "0.558",
+      "1.000",
+      "0.233",
+      "2",
+      "0.0037",
+      "0.0001",
+      "1.035",
+      "0.101",
+      "0.213",
+      "0.049",
+      "2265.6",
+      "131.6",
+      "0.001",
+      "0.0033",
+      "0.001",
+      "0.2534",
+      "1",
+      "4",
+      "1.180",
+      "0.090",
+      "1.645",
+      "0.227",
+      "0.0139",
+      "0.0037",
+      "4",
+      "0.0099",
+      "1",
+      "0.0618"
+    ],
+    "Yuan_中文.docx_15_mean_SD": [
+      "0.564 ± 0.072",
+      "1.122 ± 0.072",
+      "0.349 ± 0.034",
+      "0.095 ± 0.017",
+      "3295.6 ± 216.3",
+      "1326.9 ± 50.6",
+      "1.459 ± 0.156",
+      "1.000 ± 0.134",
+      "2.902 ± 0.558",
+      "1.000 ± 0.233",
+      "1.035 ± 0.101",
+      "0.213 ± 0.049",
+      "2265.6 ± 131.6",
+      "1.180 ± 0.090",
+      "1.645 ± 0.227"
+    ],
+    "Yuan_中文.docx_3_F_df": [
+      "F(2, 9.816) = 91.626",
+      "F(2, 8.500) = 130.738",
+      "F(2, 7.804) = 314.907"
+    ],
+    "Yuan_中文.docx_all_numeric_tokens": [
+      "2",
+      "9.816",
+      "91.626",
+      "2",
+      "8.500",
+      "130.738",
+      "2",
+      "7.804",
+      "314.907",
+      "0.001",
+      "4",
+      "0.564",
+      "0.072",
+      "1.122",
+      "0.072",
+      "0.349",
+      "0.034",
+      "0.095",
+      "0.017",
+      "3295.6",
+      "216.3",
+      "1326.9",
+      "50.6",
+      "1",
+      "0.001",
+      "1",
+      "1",
+      "1.459",
+      "0.156",
+      "1.000",
+      "0.134",
+      "4",
+      "2.902",
+      "0.558",
+      "1.000",
+      "0.233",
+      "2",
+      "0.0037",
+      "0.0001",
+      "1.035",
+      "0.101",
+      "0.213",
+      "0.049",
+      "2265.6",
+      "131.6",
+      "0.001",
+      "0.0033",
+      "0.001",
+      "0.2534",
+      "1",
+      "4",
+      "1.180",
+      "0.090",
+      "1.645",
+      "0.227",
+      "0.0139",
+      "0.0037",
+      "4",
+      "0.0099",
+      "1",
+      "0.0618"
+    ]
+  },
+  "S2_native_table": [
+    [
+      "Well and assay/group",
+      "Original Plate annotation",
+      "Investigator-confirmed interpretation",
+      "Preserved Cq and reference pairing"
+    ],
+    [
+      "B10-Ch5Nox1 / Model",
+      "Type: EmptyDye: [none]Target: Nox1Group: Model",
+      "Type: UnknownDye: SYBR (Ch5)Target: Nox1Group: Model",
+      "Target Cq: 29.82β-actin: B07-Ch5, Cq 16.22ΔCq: 13.60Summary cells: D8 / D3"
+    ],
+    [
+      "D12-Ch5Nox4 / Sham-operated",
+      "Type: EmptyDye: [none]Target: blankGroup: Sham-operated",
+      "Type: UnknownDye: SYBR (Ch5)Target: Nox4Group: Sham-operated",
+      "Target Cq: 34.69β-actin: D06-Ch5, Cq 16.37ΔCq: 18.32Summary cells: F12 / F2"
+    ]
+  ],
+  "source_pair_consistency": {
+    "all_36_current_target_reference_pairs_match_exported_Cq": true,
+    "all_126_complete_panel_Cq_match_summary": true,
+    "paired_record_count": 36,
+    "complete_unique_measurement_count": 126,
+    "Nox_export_xlsx_sha256": "913fbf91e139724e96c5ce0fe12333deb25421a63dac519ad2ab4708fc9cda29",
+    "formal_csv_sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+    "formal_qpcr_statistical_json_sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+    "S7_zip_sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
+  },
+  "exact_changed_paragraph_blocks": {
+    "Yuan.docx": [
+      {
+        "old_indices": [
+          0,
+          0
+        ],
+        "new_indices": [
+          0,
+          0
+        ],
+        "old": [
+          "Regional medullary redox indices and Nox1/Nox4 mRNA expression in rats with atlantoaxial joint disorder"
+        ],
+        "new": [
+          "Regional medullary redox indices and exploratory RT-qPCR findings in rats with atlantoaxial joint disorder"
+        ]
+      },
+      {
+        "old_indices": [
+          10,
+          10
+        ],
+        "new_indices": [
+          10,
+          10
+        ],
+        "old": [
+          "We examined regional medullary redox indices and Nox1/Nox4 transcripts in male Wistar rats with atlantoaxial joint disorder. Sham-operated and model rats were sampled at week 4; restoration rats underwent implant removal at week 4 and sampling at week 8. Each endpoint included six independent rats per group. In tissue containing the rostral ventrolateral medulla (RVLM) and adjacent medulla, week-4 model rats had lower SOD activity, higher MDA and probe-associated fluorescence, and estimated Nox1/Nox4 expression of 1.46/2.90-fold relative to sham rats. Restoration values were generally closer to sham values at the later endpoint. Unmatched sampling times, absent second-surgery controls, unvalidated tissue fluorescence-assay applicability, incomplete qPCR quality-control records and omission of postoperative analgesia limit interpretation. These exploratory observations do not establish RVLM-specific changes, NOX-dependent sympathetic mediation or an implant-removal effect."
+        ],
+        "new": [
+          "We examined regional medullary redox indices and exploratory Nox1/Nox4-targeted RT-qPCR estimates in male Wistar rats with atlantoaxial joint disorder. Sham/model rats were sampled at week 4; restoration rats underwent implant removal at week 4 and sampling at week 8. Six records per group were reported to represent different rats. In tissue containing the rostral ventrolateral medulla (RVLM) and adjacent medulla, week-4 model rats had lower SOD activity and higher MDA than sham rats. Auxiliary fluorescence and normalized Nox1/Nox4-targeted assay estimates were higher, with assay ratios of 1.46/2.90. Later restoration observations were generally closer to sham values. Unverified assay specificity, missing identity-linked records and ethics documents, unmatched sampling times, absent second-surgery controls and omission of postoperative analgesia limit interpretation. These observations do not establish gene-expression changes, RVLM-specific mechanisms or an implant-removal effect."
+        ]
+      },
+      {
+        "old_indices": [
+          13,
+          22
+        ],
+        "new_indices": [
+          13,
+          22
+        ],
+        "old": [
+          "A metallic implant in the rat atlantoaxial joint produces misalignment and blood-pressure elevation [1]. Oxidative stress is implicated in hypertension [2]; the rostral ventrolateral medulla (RVLM) regulates blood pressure [3], and experimental studies link regional redox disturbances to cardiovascular regulation [4,5]. We examined medullary biochemical indices and Nox1/Nox4 transcripts in this model. Blood-pressure observations were shared with a related Ang II/AT1-R report [6], whereas the present biochemical and transcript analyses were not reported there.",
+          "The Animal Ethics Committee of Anhui University of Chinese Medicine approved the 60-rat parent experiment, model induction, implant removal and terminal sampling (AHUCM-rats-2022032). Clean-grade male Wistar rats (approximately 12 weeks, 250 g; Anhui Medical University, license SCXK [Wan] 2017-001) were individually housed at 22 ± 1°C and 60% humidity under 12 h light/dark cycles, with free food/water and 1-week acclimatization. Animals were randomized to sham operation (10) or model induction (50). Six rats died intraoperatively and three afterward; seven survivors lost implants, leaving 34 with retained implants. Successfully modeled rats were randomized to model, restoration or superior cervical ganglion resection groups (10 each); four remained in reserve. Restoration rats continued from this successfully modeled cohort to week 8, while separate model rats underwent terminal sampling at week 4. This report includes sham, model and restoration cohorts only, initially 10 per group; each biochemical endpoint and RT-qPCR used six randomly selected independent rats per group without pooling. No single primary endpoint or formal a priori power calculation was specified. Animal-to-sample identifiers and cross-assay overlap could not be recovered.",
+          "Surgery used 2% inhaled isoflurane at 1 l/min, with respiratory, righting-reflex and noxious-withdrawal monitoring. An S-shaped aluminum implant was placed in the left atlantoaxial joint through an anterior cervical approach [1]; sham rats underwent exposure without implantation. Week-4 screening required retained implantation, joint asymmetry with a left–right odontoid–lateral-mass distance difference >0.05 mm, and systolic pressure ≥20% above baseline with a week-4 plateau. Restoration rats underwent implant removal at week 4. Penicillin sodium was given intramuscularly at 400,000–800,000 units/kg daily for 3 days. Possible contributors to the nine deaths were anesthetic overdose, cervical injury and infection; individual cause-of-death adjudication records were unavailable. No postoperative analgesics were administered; no written rationale or specific ethics-committee opinion about this omission was retained. Food intake, activity and wounds were checked daily for 3 days and 2–3 times weekly thereafter.",
+          "Sham/model rats were sampled at week 4 and restoration rats at week 8, without a time-matched second-surgery sham control. Abdominal aortic sampling under isoflurane was followed by inhaled-isoflurane overdose; death was confirmed when spontaneous breathing, palpable cardiac activity and withdrawal to a noxious stimulus were all absent, before brainstem removal. Atlas-guided bilateral tissue blocks (approximately 100 mg/rat) contained RVLM and adjacent medulla. For biochemical assays, tissue was lysed in RIPA/PMSF and protein measured by BCA. SOD (A001-3, WST-1) and MDA (A003-1, thiobarbituric acid; Nanjing Jiancheng) used RT-6000 absorbance readings at 450 and 530 nm, respectively; the MDA manual specified 532 nm. The fluorescence-reader model was not retained. BestBio BB-475015 O12 fluorescence was measured at excitation/emission 488/530 nm and divided by protein concentration, yielding an arbitrary-unit (AU) index. This serum-designated assay lacked tissue-matrix and buffer-compatibility validation; fluorescence is not an absolute ROS concentration or species-specific measure.",
+          "RNA extraction used TRIzol; reverse transcription used PrimeScript RR047A, followed by SYBR RT-qPCR on PikoReal 96. Each target and paired β-actin reference was measured once per rat, without technical replication. Within-rat ΔCq was target minus reference Cq. Relative quantity was calculated as Q = 2−ΔCq and divided by the arithmetic mean quantity of the six sham rats [7]. This assumes equal, approximately 100% amplification efficiencies. Original Cq, amplification and melting exports are provided in Supplementary File 7. Target melt profiles were heterogeneous; the authors confirmed two Plate annotation errors. Efficiencies and β-actin stability were not validated; no-template/no-reverse-transcription control records were unavailable. The six supplied records per group were retained unchanged for exploratory reporting. Reagent details, primers, protocols and source-flow information are retained in Supplementary Methods.",
+          "Individual rats were experimental units; results are mean ± sample SD. All six supplied values per group were included, without outlier removal or imputation. Biochemical comparisons used Welch ANOVA and Games–Howell tests, adjusting three comparisons within each endpoint, without adjustment across endpoints. RT-qPCR inference used Welch t tests on ΔCq, with Holm correction across all 18 comparisons in the original six-target panel, not only the displayed genes. Tests were two-sided (α = 0.05). Inputs, complete outputs, confidence intervals and code accompany the manuscript; cross-assay correlations were not tested.",
+          "Across the terminal cohorts, Welch ANOVA gave F(2, 9.816) = 91.626 for SOD, F(2, 8.500) = 130.738 for MDA and F(2, 7.804) = 314.907 for fluorescence (all P < 0.001). In week-4 model versus sham rats, SOD was 0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein, MDA 0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein, and fluorescence 3295.6 ± 216.3 versus 1326.9 ± 50.6 AU (Fig. 1; all Games–Howell-adjusted P < 0.001; Supplementary Table S1). Estimated Nox1 expression was 1.459 ± 0.156 versus 1.000 ± 0.134, and Nox4 2.902 ± 0.558 versus 1.000 ± 0.233 (Fig. 2; Holm-adjusted P = 0.0037 and 0.0001).",
+          "At the later restoration endpoint, SOD was 1.035 ± 0.101, MDA 0.213 ± 0.049 and fluorescence 2265.6 ± 131.6 in the same respective units; all differed from model values (adjusted P < 0.001). Relative to sham, MDA and fluorescence remained higher (P = 0.0033 and <0.001), whereas the SOD difference was nonsignificant (P = 0.2534). Restoration Nox1/Nox4 estimates were 1.180 ± 0.090/1.645 ± 0.227, lower than model values (adjusted P = 0.0139/0.0037). Compared with sham, Nox4 remained higher (P = 0.0099); Nox1 was nonsignificant (P = 0.0618). Nonsignificance does not establish equivalence or normalization. Full three-cohort statistics are supplied.",
+          "Lower SOD activity and higher MDA provide complementary regional antioxidant and lipid-peroxidation observations [8]. Together with estimated Nox1/Nox4 elevations, these findings extend the model's characterization [1] and are consistent with redox disturbances in other hypertension models [4,5]. Transcript abundance does not establish increased NOX protein, oxidase activity or sympathetic output. Unvalidated O12 fluorescence is auxiliary; common processing cannot exclude differential matrix effects. Archived H&E fields and blood-pressure records are descriptive only (Supplementary Figs. S1/S2), with unconfirmed histological animal counts and unreconstructed terminal blood-pressure cohorts.",
+          "Interpretation remains constrained by regional rather than RVLM-specific sampling, heterogeneous target melt profiles, incomplete validation and untraceable cross-assay identities. Later restoration observations confound implant removal with age, elapsed time, recovery and repeat anesthesia/surgery. Omission of postoperative analgesia raises animal-welfare concerns and possible pain/stress confounding. Small exploratory samples and male-only inclusion limit precision and generalizability. The same-day model–sham comparison supports a regional phenotype; validated assays, anatomical localization and time-matched controls are required to investigate NOX-dependent sympathetic mediation or an implant-removal effect."
+        ],
+        "new": [
+          "A metallic implant in the rat atlantoaxial joint produces misalignment and blood-pressure elevation [1]. Oxidative stress is implicated in hypertension [2]; the rostral ventrolateral medulla (RVLM) regulates blood pressure [3], and experimental studies link regional redox disturbances to cardiovascular regulation [4,5]. We examined regional biochemical indices and exploratory Nox1/Nox4-targeted RT-qPCR estimates. Blood-pressure observations were shared with a related Ang II/AT1-R report [6], whereas the present biochemical and targeted RT-qPCR observations were not reported there.",
+          "The investigators reported approval of the 60-rat parent experiment by the Animal Ethics Committee of Anhui University of Chinese Medicine (AHUCM-rats-2022032), covering induction, implant removal and terminal sampling. The approval letter and approved protocol were unavailable for retrospective verification. Clean-grade male Wistar rats (approximately 12 weeks, 250 g) were individually housed; full husbandry details are in Supplementary Methods. Animals were randomized to sham operation (10) or model induction (50). Nine of 50 modeled rats died (18%; six intraoperatively, three postoperatively); all sham rats survived. Seven survivors lost implants, leaving 34 with retained implants. Successfully modeled rats were randomized to model, restoration or superior cervical ganglion resection groups (10 each); four remained in reserve. Restoration rats continued to week 8; separate model rats underwent terminal sampling at week 4. Only sham, model and restoration cohorts are reported, initially 10/group. Each endpoint used six separately processed samples, reported by the investigators to represent six different rats without pooling. Identity-linked sampling records and cross-assay overlap could not be recovered. No single primary endpoint or formal a priori power calculation was specified.",
+          "Surgery used 2% inhaled isoflurane at 1 l/min, with respiratory, righting-reflex and noxious-withdrawal monitoring. An S-shaped aluminum implant was placed in the left atlantoaxial joint through an anterior cervical approach [1]; sham rats underwent exposure without implantation. Week-4 screening required retained implantation, joint asymmetry with a left–right odontoid–lateral-mass distance difference >0.05 mm, and systolic pressure ≥20% above baseline with a week-4 plateau. Restoration rats underwent implant removal at week 4. Penicillin sodium was given intramuscularly at 400,000–800,000 units/kg daily for 3 days. Anesthetic overdose, cervical injury and infection were reported as possible contributors to the deaths; individual adjudication records were unavailable. No postoperative analgesics were administered, and no written justification or specific authorization for their omission was retained. Routine antibiotic administration and observations do not establish adequate pain relief. Food intake, activity and wounds were checked daily for 3 days and 2–3 times weekly thereafter.",
+          "Sham/model rats were sampled at week 4 and restoration rats at week 8, without a time-matched second-surgery sham control. Abdominal aortic sampling under isoflurane was followed by inhaled-isoflurane overdose; death was confirmed when spontaneous breathing, palpable cardiac activity and withdrawal to a noxious stimulus were absent, before brainstem removal. Atlas-guided bilateral tissue blocks (approximately 100 mg/rat) contained RVLM and adjacent medulla. For biochemical assays, tissue was lysed in RIPA/PMSF and protein measured by BCA. SOD (A001-3, WST-1) and MDA (A003-1, thiobarbituric acid; Nanjing Jiancheng) used RT-6000 absorbance readings at 450 and 530 nm; the MDA manual specified 532 nm. BestBio BB-475015 O12 fluorescence was measured at excitation/emission 488/530 nm and divided by protein concentration, yielding an arbitrary-unit (AU) index. The fluorescence-reader model was not retained. This serum-designated assay lacked tissue-matrix and buffer-compatibility validation. The index is auxiliary and cannot establish ROS concentration, species, source or quantitative comparability between tissue matrices.",
+          "RNA extraction used TRIzol; reverse transcription used PrimeScript RR047A, followed by SYBR RT-qPCR on PikoReal 96. Investigators confirmed that matching target/β-actin worksheet columns represented the same rat, with each measured once and no technical replication. That identity linkage cannot be independently recovered from the group-only instrument labels. Within-sample ΔCq was target minus paired reference Cq. Relative quantity was calculated as Q = 2−ΔCq and divided by the arithmetic mean quantity of the six sham records [7], assuming equal, approximately 100% amplification efficiencies. Original Cq and curve exports are in Supplementary File 7. Investigators confirmed two Plate annotation errors after source-record review; Supplementary Table S2 gives the original entries, corrected interpretation, pairing and unchanged calculations. Those supporting loading/laboratory records are no longer available. Heterogeneous melt profiles and absent product-identity evidence prevent confirmation of target specificity. Efficiencies and β-actin stability were not validated; NTC/no-RT records were unavailable. The six original records/group were retained as exploratory assay estimates, not validated transcript abundance.",
+          "The rat was the intended experimental unit. Analyses treated the six records/group as independent rat observations under the reported design; identity-linked documentation was unavailable. Results are mean ± sample SD, without outlier removal or imputation. Biochemical comparisons used Welch ANOVA and Games–Howell tests, adjusting three comparisons within each endpoint, without adjustment across endpoints. RT-qPCR inference used Welch t tests on ΔCq, with Holm correction across all 18 original six-target comparisons. Tests were two-sided (α = 0.05). These tests describe stored assay estimates conditional on the reported sampling design; they do not validate assay identity or biological independence. Inputs, complete outputs, confidence intervals and code accompany the manuscript; cross-assay correlations were not tested.",
+          "Across the terminal cohorts, Welch ANOVA gave F(2, 9.816) = 91.626 for SOD, F(2, 8.500) = 130.738 for MDA and F(2, 7.804) = 314.907 for fluorescence (all P < 0.001). In week-4 model versus sham records, SOD was 0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein, MDA 0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein, and fluorescence 3295.6 ± 216.3 versus 1326.9 ± 50.6 AU (Fig. 1; all Games–Howell-adjusted P < 0.001; Supplementary Table S1). Normalized Nox1-targeted assay estimates were 1.459 ± 0.156 versus 1.000 ± 0.134, and Nox4-targeted estimates 2.902 ± 0.558 versus 1.000 ± 0.233 (Fig. 2; Holm-adjusted P = 0.0037 and 0.0001).",
+          "At the later restoration endpoint, SOD was 1.035 ± 0.101, MDA 0.213 ± 0.049 and fluorescence 2265.6 ± 131.6 in the same respective units; all differed from model values (adjusted P < 0.001). Relative to sham, MDA and fluorescence remained higher (P = 0.0033 and <0.001), whereas the SOD difference was nonsignificant (P = 0.2534). Restoration Nox1/Nox4-targeted estimates were 1.180 ± 0.090/1.645 ± 0.227, lower than model values (adjusted P = 0.0139/0.0037). Compared with sham, the Nox4-targeted estimate remained higher (P = 0.0099); the Nox1-targeted difference was nonsignificant (P = 0.0618). Nonsignificance does not establish equivalence or normalization. Full three-cohort statistics are supplied.",
+          "Lower SOD activity and higher MDA are consistent with altered regional antioxidant and lipid-peroxidation indices [8], extending descriptive characterization of this model [1,4,5]. The unvalidated O12 index is auxiliary; common processing cannot exclude differential matrix effects. RT-qPCR differences generate hypotheses but do not demonstrate Nox1/Nox4 upregulation: expected primer products and matching Cq values do not establish product identity. They also do not establish NOX protein, oxidase activity or sympathetic output. Archived H&E fields and blood-pressure records are descriptive only (Supplementary Figs. S1/S2), with unconfirmed histological counts and unreconstructed terminal blood-pressure cohorts.",
+          "Regional sampling and missing identity-linked records limit anatomical attribution and verification of biological replication. Later restoration observations confound implant removal with age, elapsed time, recovery and repeat anesthesia/surgery; common model origin does not remove this confounding. Omission of postoperative analgesia raises unresolved animal-welfare and pain/stress concerns. Disclosure cannot retrospectively establish that the procedures matched an approved protocol or that withholding analgesia was authorized. Small exploratory samples and male-only inclusion limit precision and generalizability. Same-time SOD/MDA observations deserve emphasis; causal or gene-expression conclusions require validated assays, traceable samples and time-matched controls."
+        ]
+      },
+      {
+        "old_indices": [
+          30,
+          30
+        ],
+        "new_indices": [
+          30,
+          30
+        ],
+        "old": [
+          "Inputs, complete statistical outputs/code, detailed methods, Table S1, descriptive archived H&E/blood-pressure records and original RT-qPCR exports/curve images accompany the manuscript. The RT-qPCR exports reproduce Cq values; target specificity remains unconfirmed. Complete validation records and animal-to-sample identifiers remain unavailable."
+        ],
+        "new": [
+          "Processed biochemical inputs, RT-qPCR exports/curves, statistical outputs/code, detailed methods, Tables S1/S2 and descriptive H&E/blood-pressure archives accompany the manuscript. RT-qPCR specificity and tissue-fluorescence applicability remain unvalidated. Identity-linked animal/sample and loading records, complete qPCR validation records, the ethics approval letter and approved protocol are unavailable. Reported biological n and target/reference pairing rely on investigator confirmation, not independent reconstruction from six data columns."
+        ]
+      },
+      {
+        "old_indices": [
+          44,
+          44
+        ],
+        "new_indices": [
+          44,
+          44
+        ],
+        "old": [
+          "Fig. 1. Regional medullary SOD activity (A), MDA (B) and probe-associated fluorescence (C). Bars show mean ± sample SD; points indicate six independent rats/group. Brackets compare model with sham or restoration; ***P < 0.001 (Games–Howell after Welch ANOVA; three comparisons/endpoint). Fluorescence is protein-concentration-normalized AU. Sham/model: week 4; restoration: week 8. Sham, sham-operated; Rest., restoration. Full outputs: Supplementary File 3."
+        ],
+        "new": [
+          "Fig. 1. Regional medullary SOD activity (A), MDA (B) and probe-associated fluorescence (C); mean ± sample SD, six records/group, reported to represent different rats. Identity-linked records were unavailable. Brackets compare model with sham or restoration; ***P < 0.001 (Games–Howell after Welch ANOVA; three comparisons/endpoint). Panel C is a protein-concentration-normalized, unvalidated auxiliary index (AU), not ROS concentration. Sham/model: week 4; restoration: week 8. Sham, sham-operated; Rest., restoration. Full outputs: Supplementary File 3."
+        ]
+      },
+      {
+        "old_indices": [
+          47,
+          47
+        ],
+        "new_indices": [
+          47,
+          47
+        ],
+        "old": [
+          "Fig. 2. Relative Nox1 (A)/Nox4 (B) transcripts; mean ± sample SD and six independent rats/group. Each rat's quantity was normalized to β-actin and the sham arithmetic mean. Brackets compare model with sham or restoration. Stars denote Holm-adjusted P values: *P < 0.05, **P < 0.01, ***P < 0.001, from Welch tests on ΔCq across all 18 original-panel comparisons. Sham/model: week 4; restoration: week 8. Sham, sham-operated; Rest., restoration. Full outputs: Supplementary File 4."
+        ],
+        "new": [
+          "Fig. 2. Exploratory Nox1-targeted (A)/Nox4-targeted (B) normalized RT-qPCR estimates; mean ± sample SD, six records/group, reported to represent different rats. Pairing with β-actin follows investigator confirmation; quantities were divided by the sham arithmetic mean. Specificity was not established, so these are not validated transcript abundances. Brackets compare model with sham or restoration. *P < 0.05, **P < 0.01, ***P < 0.001: Welch tests on ΔCq, Holm-adjusted across all 18 original-panel comparisons. Sham/model: week 4; restoration: week 8. Sham, sham-operated; Rest., restoration. Full outputs: Supplementary File 4; annotation corrections: Table S2."
+        ]
+      }
+    ],
+    "Yuan_中文.docx": [
+      {
+        "old_indices": [
+          0,
+          0
+        ],
+        "new_indices": [
+          0,
+          0
+        ],
+        "old": [
+          "寰枢关节紊乱大鼠区域延髓组织的氧化还原指标及Nox1/Nox4 mRNA表达"
+        ],
+        "new": [
+          "寰枢关节紊乱大鼠区域延髓氧化还原指标及探索性RT-qPCR观察"
+        ]
+      },
+      {
+        "old_indices": [
+          10,
+          10
+        ],
+        "new_indices": [
+          10,
+          10
+        ],
+        "old": [
+          "本研究检测寰枢关节紊乱雄性Wistar大鼠区域延髓组织的氧化还原指标及Nox1/Nox4转录本。伪手术及模型组于第4周取材；复位组第4周取出异物、第8周取材。各终点每组6只独立动物。在包含头端延髓腹外侧区（RVLM）及邻近延髓的组织中，第4周模型组较伪手术组SOD活性低，MDA及探针相关荧光高，Nox1/Nox4表达估计值分别为伪手术组的1.46/2.90倍。较晚终点的复位组数值总体更接近伪手术组。取材时间不匹配、缺少二次手术对照、组织荧光检测适用性未经验证、qPCR质控记录不完整及未使用术后镇痛限制了结果解释。上述探索性观察不能确立RVLM特异性变化、NOX依赖的交感神经介导作用或异物取出效应。"
+        ],
+        "new": [
+          "本研究观察寰枢关节紊乱雄性Wistar大鼠的区域延髓氧化还原指标及探索性Nox1/Nox4靶向RT-qPCR估计。伪手术及模型组第4周取材；复位组第4周取出异物、第8周取材。每组6个记录，据实验者确认分别来自不同大鼠。在包含头端延髓腹外侧区（RVLM）及邻近延髓的组织中，第4周模型组SOD活性低、MDA高，辅助荧光及归一化靶向RT-qPCR估计亦较高，后者比值为1.46/2.90。较晚复位终点总体数值更接近伪手术组。扩增特异性未确认、身份关联及伦理档案缺失、时间不匹配、缺少二次手术对照和未使用术后镇痛限制了解释。这些观察不能确立基因表达变化、RVLM特异机制或异物取出的因果效应。"
+        ]
+      },
+      {
+        "old_indices": [
+          13,
+          22
+        ],
+        "new_indices": [
+          13,
+          22
+        ],
+        "old": [
+          "在大鼠寰枢关节植入金属异物可形成关节错位及血压升高模型[1]。氧化应激与高血压有关[2]；头端延髓腹外侧区（RVLM）参与血压调节[3]，实验研究提示区域氧化还原紊乱与心血管调控相关[4,5]。本研究检测该模型的延髓生化指标及Nox1/Nox4转录本。血压观察与相关Ang II/AT1-R论文共享[6]，而本稿生化及转录本分析未在该文报告。",
+          "安徽中医药大学动物伦理委员会批准了起始60只动物的来源实验、造模、异物取出及终末取材（AHUCM-rats-2022032）。清洁级雄性Wistar大鼠约12周龄、250 g，由安徽医科大学提供（许可证SCXK [皖] 2017-001），单笼饲养，温度22 ± 1℃、湿度60%、12 h光暗周期，自由进食饮水，适应1周。动物随机分至伪手术组10只或造模队列50只。术中死亡6只，术后死亡3只；存活动物中7只异物脱落，34只异物在位。造模成功动物随机分入模型、复位或颈上神经节切除组，每组10只；另4只留作备用。复位组从该造模成功队列中分出并继续观察至第8周，另设模型组于第4周终末取材。本报告仅纳入伪手术、模型及复位队列，初始各10只；每项生化检测及RT-qPCR各随机选取每组6只独立动物，无跨动物混样。未指定单一主要终点或进行正式事前功效计算。动物与样本身份及跨检测重叠关系无法恢复。",
+          "手术采用2%异氟烷吸入麻醉，气流量1 l/min，通过呼吸、翻正反射及伤害性回缩反射监测麻醉深度。经颈前入路将S形铝制异物植入左侧寰枢关节[1]，伪手术动物仅暴露术野而不植入异物。第4周筛选要求异物在位，关节不对称且齿状突至两侧侧块间距差＞0.05 mm，收缩压较基线升高≥20%并在第4周进入平台。复位组于第4周取出异物。青霉素钠按400,000–800,000单位/kg每日肌肉注射，连用3天。9只死亡动物的可能相关因素包括麻醉过量、颈部损伤及感染，个体死因判定记录不可得。未使用术后镇痛药，未留存对此做法的书面理由或专项伦理意见。术后前3天每日检查进食、活动及伤口，之后每周检查2–3次。",
+          "伪手术及模型组第4周取材，复位组第8周取材，未设置时间匹配的二次手术假手术对照。异氟烷麻醉下腹主动脉采样后，以过量吸入异氟烷安乐死；确认自主呼吸、可触及心搏及伤害性回缩反射均消失后分离脑干。参照图谱取双侧区域组织块，每只约100 mg，含RVLM及邻近延髓。生化检测采用RIPA/PMSF裂解，BCA测蛋白。SOD（A001-3，WST-1法）和MDA（A003-1，硫代巴比妥酸法，南京建成）采用RT-6000读取450和530 nm吸光度；MDA说明书规定532 nm。荧光读数仪型号未留存。BestBio BB-475015 O12荧光激发/发射波长为488/530 nm，以蛋白浓度归一化，报告任意单位（AU）指数。该血清用途检测未验证组织基质及裂解液兼容性；荧光不代表绝对ROS浓度或特定ROS种类。",
+          "TRIzol提取RNA，PrimeScript RR047A逆转录，PikoReal 96进行SYBR RT-qPCR。每只动物的靶基因及配对β-actin内参各检测一次，无技术重复。动物内ΔCq为靶基因减内参Cq。相对数量按Q =2−ΔCq计算，再除以6只伪手术动物相对数量的算术均值[7]。该算法假定扩增效率相等且约为100%。原始Cq、扩增及熔解导出资料见补充文件7。靶标熔解峰形存在差异。作者确认两孔的Plate差异标记属于误标，原始Cq值保持不变。未验证效率及β-actin稳定性，无模板及无逆转录对照记录不可得。每组6个所提供记录保持不变，用于探索性报告。试剂、引物、流程及来源动物流转详见补充方法。",
+          "以单只大鼠为实验单位，结果表示为均值 ± 样本SD。每组6个所提供数值全部纳入，无离群值剔除或插补。生化比较采用Welch方差分析及Games–Howell检验，在各终点内校正3项比较，未跨终点校正。RT-qPCR对ΔCq进行Welch t检验，并对原六靶标面板全部18项比较统一作Holm校正，未仅对展示基因校正。检验为双侧（α = 0.05）。输入、完整输出、置信区间和代码随稿提供；未作跨检测相关性分析。",
+          "在三个终末队列间，Welch方差分析的SOD为F(2, 9.816) = 91.626，MDA为F(2, 8.500) = 130.738，荧光为F(2, 7.804) = 314.907（P均＜0.001）。第4周模型组与伪手术组相比，SOD为0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白，MDA为0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白，荧光为3295.6 ± 216.3对1326.9 ± 50.6 AU（图1；Games–Howell校正后P均＜0.001；补充表S1）。Nox1表达估计值为1.459 ± 0.156对1.000 ± 0.134，Nox4为2.902 ± 0.558对1.000 ± 0.233（图2；Holm校正后P分别为0.0037和0.0001）。",
+          "较晚的复位终点，SOD为1.035 ± 0.101，MDA为0.213 ± 0.049，荧光为2265.6 ± 131.6，单位分别同前；与模型组均有差异（校正后P均＜0.001）。相对伪手术组，MDA及荧光仍较高（P分别为0.0033及＜0.001），SOD差异无统计学意义（P = 0.2534）。复位组Nox1/Nox4估计值分别为1.180 ± 0.090/1.645 ± 0.227，低于模型组（校正后P分别为0.0139/0.0037）。相对伪手术组，Nox4仍较高（P = 0.0099），Nox1差异无统计学意义（P = 0.0618）。未显著不代表等效或恢复正常。随稿提供完整三队列统计。",
+          "SOD活性较低而MDA较高，提供了区域组织抗氧化及脂质过氧化相关的互补观察[8]。结合Nox1/Nox4估计值升高，这些发现补充了该模型的表征[1]，与其他高血压模型中的氧化还原紊乱相呼应[4,5]。转录本丰度不能证明NOX蛋白、酶活性或交感神经输出增加。未经验证的O12荧光仅为辅助信号，统一处理不能排除不同样本间的基质效应。存档HE及血压记录仅作描述性展示（补充图S1/S2），组织学动物数未经确认，终末血压队列无法重建。",
+          "区域取材不能特异归属于RVLM，靶标熔解峰形差异、验证不完整及跨检测身份无法追溯进一步限制了解释。较晚复位观察将异物取出与年龄、时间推移、恢复过程及再次麻醉/手术相混杂。未使用术后镇痛既涉及动物福利，也可能引入疼痛/应激混杂。小样本探索性设计及仅纳入雄性动物限制了精度和推广性。同日模型–伪手术比较支持区域组织表型；要进一步检验NOX依赖的交感神经介导或异物取出效应，仍需经验证的检测、明确的解剖定位及时间匹配对照。"
+        ],
+        "new": [
+          "在大鼠寰枢关节植入金属异物可形成关节错位及血压升高模型[1]。氧化应激与高血压有关[2]；RVLM参与血压调节[3]，实验研究提示区域氧化还原紊乱与心血管调控相关[4,5]。本研究观察区域生化指标及探索性Nox1/Nox4靶向RT-qPCR估计。血压观察与相关Ang II/AT1-R论文共享[6]，而本稿生化及靶向RT-qPCR观察未在该文报告。",
+          "据实验者确认，安徽中医药大学动物伦理委员会批准了起始60只动物的来源实验及造模、异物取出和终末取材（AHUCM-rats-2022032）；原始批件和获批方案目前无法提供复核。清洁级雄性Wistar大鼠约12周龄、250 g，单笼饲养，完整饲养条件见补充方法。动物随机分至伪手术组10只或造模队列50只。造模队列死亡9/50只（18%；术中6只、术后3只），伪手术动物全部存活。存活动物中7只异物脱落，34只异物在位，随后随机分入模型、复位或颈上神经节切除组，每组10只，另4只留作备用。复位组继续至第8周，另设模型组于第4周终末取材。本稿仅报告伪手术、模型和复位队列，初始各10只。每项检测各分析每组6份单独处理的样本，据实验者确认来自6只不同大鼠、无混样；动物—样本身份关联及跨检测重叠记录无法恢复。未指定单一主要终点或进行正式事前功效计算。",
+          "手术采用2%异氟烷吸入麻醉、气流量1 l/min，通过呼吸、翻正反射及伤害性回缩反射监测麻醉深度。经颈前入路将S形铝制异物植入左侧寰枢关节[1]，伪手术动物仅暴露术野。第4周筛选要求异物在位、关节不对称、齿状突至两侧侧块间距差＞0.05 mm，收缩压较基线升高≥20%并进入平台。复位组于第4周取出异物。青霉素钠按400,000–800,000单位/kg每日肌肉注射，连用3天。麻醉过量、颈部损伤和感染仅为所报告的可能死亡相关因素，缺少个体死因判定记录。未使用术后镇痛药，未保留书面理由或针对该做法的专项授权；常规抗感染及观察不能证明疼痛已得到充分控制。术后前3天每日检查进食、活动及伤口，之后每周检查2–3次。",
+          "伪手术及模型组第4周、复位组第8周取材，未设置时间匹配的二次手术假手术对照。异氟烷麻醉下腹主动脉采样后，以过量吸入异氟烷安乐死；确认自主呼吸、可触及心搏及伤害性回缩反射消失后分离脑干。参照图谱取双侧区域组织块，每只约100 mg，含RVLM及邻近延髓。生化检测采用RIPA/PMSF裂解，BCA测蛋白。SOD（A001-3，WST-1法）和MDA（A003-1，硫代巴比妥酸法，南京建成）分别采用RT-6000读取450和530 nm吸光度，MDA说明书规定532 nm。BestBio BB-475015 O12荧光激发/发射波长为488/530 nm，除以蛋白浓度后报告AU指数，荧光读数仪型号未留存。该血清用途检测未验证组织基质及缓冲液兼容性，仅为辅助指数，不能确定ROS浓度、种类、来源或不同组织基质间的定量可比性。",
+          "TRIzol提取RNA，PrimeScript RR047A逆转录，PikoReal 96进行SYBR RT-qPCR。实验者确认同列靶标与β-actin来自同一只大鼠，各检测一次、无技术重复；仅有组名的仪器标签不能独立恢复该身份关联。样本内ΔCq为靶标减配对内参Cq。相对数量按Q =2−ΔCq计算，再除以6个伪手术记录相对数量的算术均值[7]，假定扩增效率相等且约为100%。原始Cq和曲线导出见补充文件7。实验者此前核对来源记录后确认两处Plate误标，补充表S2列明原注释、更正解释、内参配对及不变的计算；所据加样或机构记录目前无法提供。熔解峰形存在差异，且缺少产物身份验证证据，靶标特异性仍未确认。未验证效率及β-actin稳定性，NTC/no-RT记录不可得。每组6个原记录全部保留，作为探索性检测估计，不能视为已验证的转录本丰度。",
+          "预期实验单位为单只大鼠。统计按所报告设计将每组6个记录视为独立动物观察，但缺少身份关联文件供复核。结果为均值 ± 样本SD，无离群值剔除或插补。生化比较采用Welch方差分析及Games–Howell检验，每终点校正3项比较，未跨终点校正。RT-qPCR对ΔCq作Welch t检验，并对原六靶标全部18项比较统一作Holm校正。检验为双侧（α = 0.05）。检验描述的是基于所报告取样设计的存储检测估计差异，不能验证产物身份或生物学独立性。输入、完整输出、置信区间和代码随稿提供；未作跨检测相关性分析。",
+          "在三个终末队列间，Welch方差分析的SOD为F(2, 9.816) = 91.626，MDA为F(2, 8.500) = 130.738，荧光为F(2, 7.804) = 314.907（P均＜0.001）。第4周模型与伪手术记录相比，SOD为0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白，MDA为0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白，荧光为3295.6 ± 216.3对1326.9 ± 50.6 AU（图1；Games–Howell校正后P均＜0.001；补充表S1）。归一化Nox1靶向检测估计为1.459 ± 0.156对1.000 ± 0.134，Nox4靶向估计为2.902 ± 0.558对1.000 ± 0.233（图2；Holm校正后P分别为0.0037和0.0001）。",
+          "较晚复位终点，SOD为1.035 ± 0.101、MDA为0.213 ± 0.049、荧光为2265.6 ± 131.6，单位分别同前；与模型值均有差异（校正后P均＜0.001）。相对伪手术组，MDA及荧光仍较高（P分别为0.0033及＜0.001），SOD差异无统计学意义（P = 0.2534）。复位Nox1/Nox4靶向估计分别为1.180 ± 0.090/1.645 ± 0.227，低于模型值（校正后P分别为0.0139/0.0037）。相对伪手术组，Nox4靶向估计仍较高（P = 0.0099），Nox1靶向差异无统计学意义（P = 0.0618）。未显著不代表等效或恢复正常。随稿提供完整三队列统计。",
+          "SOD较低及MDA较高与区域抗氧化和脂质过氧化指标改变相符[8]，补充了该模型的描述性表征[1,4,5]。未经验证的O12指数仅为辅助信号，统一处理不能排除差异性基质效应。RT-qPCR差异仅用于提出假说，不能证明Nox1/Nox4表达上调；预期引物产物及Cq数值对应不能确立产物身份，也不能确立NOX蛋白、酶活性或交感输出增加。存档HE及血压仅作描述性展示（补充图S1/S2），组织学动物数未经确认，终末血压队列无法重建。",
+          "区域取材及身份关联记录缺失限制了解剖归属和生物学重复的复核。较晚复位观察混合了异物取出、年龄、时间进程、恢复及再次麻醉/手术的影响，共同造模来源不能消除这种混杂。未使用术后镇痛仍涉及未解决的动物福利及疼痛/应激问题；如实披露不能事后证明实际操作符合获批方案，或不镇痛获得了专项授权。探索性小样本和仅用雄性动物限制精度及推广性。应侧重同时间SOD/MDA描述性观察；因果或基因表达结论仍需经验证的检测、可追溯样本和时间匹配对照。"
+        ]
+      },
+      {
+        "old_indices": [
+          30,
+          30
+        ],
+        "new_indices": [
+          30,
+          30
+        ],
+        "old": [
+          "随稿提供输入、完整统计输出/代码、详细方法、表S1、描述性存档HE/血压记录，以及RT-qPCR原始导出表和曲线图片。RT-qPCR导出表可复现所提供的Cq值；靶标扩增特异性仍未确认。完整验证记录及动物与样本身份仍不可得。"
+        ],
+        "new": [
+          "随稿提供生化处理值、RT-qPCR导出/曲线、统计输出/代码、完整方法、表S1/S2及描述性HE/血压存档。RT-qPCR特异性和组织荧光适用性仍未验证。动物—样本身份关联、加样记录、完整qPCR验证记录、伦理批件及获批方案目前不可提供。所报告的生物学n及靶标—内参配对依赖实验者确认，不能由六列数值独立重建。"
+        ]
+      },
+      {
+        "old_indices": [
+          44,
+          44
+        ],
+        "new_indices": [
+          44,
+          44
+        ],
+        "old": [
+          "图1. 区域延髓SOD活性（A）、MDA（B）及探针相关荧光（C）。柱为均值 ± 样本SD，点为每组6只独立大鼠。括线比较模型与伪手术或复位组；***P＜0.001（Welch方差分析后Games–Howell检验，每终点3项比较）。荧光为蛋白浓度归一化AU。伪手术/模型组第4周、复位组第8周取材。Sham为伪手术组，Rest.为复位组。完整输出见补充文件3。"
+        ],
+        "new": [
+          "图1. 区域延髓SOD活性（A）、MDA（B）及探针相关荧光（C）；均值 ± 样本SD，每组6个记录，据实验者确认来自不同大鼠，身份关联记录不可得。括线比较模型与伪手术或复位；***P＜0.001（Welch方差分析后Games–Howell检验，每终点3项比较）。C为蛋白浓度归一化、未经验证的辅助指数（AU），不是ROS浓度。伪手术/模型第4周，复位第8周。Sham为伪手术，Rest.为复位；完整输出见补充文件3。"
+        ]
+      },
+      {
+        "old_indices": [
+          47,
+          47
+        ],
+        "new_indices": [
+          47,
+          47
+        ],
+        "old": [
+          "图2. Nox1（A）/Nox4（B）相对转录本；均值 ± 样本SD及每组6只独立大鼠。各动物相对数量以β-actin和伪手术组算术均值归一化。括线比较模型与伪手术或复位组。星号表示对原面板全部18项比较作Holm校正的P值（ΔCq的Welch检验）：*P＜0.05，**P＜0.01，***P＜0.001。伪手术/模型组第4周、复位组第8周取材。Sham为伪手术组，Rest.为复位组。完整输出见补充文件4。"
+        ],
+        "new": [
+          "图2. 探索性Nox1（A）/Nox4（B）靶向归一化RT-qPCR估计；均值 ± 样本SD，每组6个记录，据实验者确认来自不同大鼠。β-actin配对依据实验者确认，相对数量除以伪手术组算术均值。特异性尚未确立，不能视为经验证的转录本丰度。括线比较模型与伪手术或复位；*P＜0.05，**P＜0.01，***P＜0.001，来自ΔCq的Welch检验及原面板18项比较的Holm校正。伪手术/模型第4周，复位第8周。Sham为伪手术，Rest.为复位；完整输出见补充文件4，更正说明见表S2。"
+        ]
+      }
+    ],
+    "Yuan_supplementary_information.docx": [
+      {
+        "old_indices": [
+          1,
+          1
+        ],
+        "new_indices": [
+          1,
+          1
+        ],
+        "old": [
+          "Regional medullary redox indices and Nox1/Nox4 mRNA expression in rats with atlantoaxial joint disorder"
+        ],
+        "new": [
+          "Regional medullary redox indices and exploratory RT-qPCR findings in rats with atlantoaxial joint disorder"
+        ]
+      },
+      {
+        "old_indices": [
+          4,
+          5
+        ],
+        "new_indices": [
+          4,
+          5
+        ],
+        "old": [
+          "Supplementary Data 1. Processed values for oxidative stress measurements in medullary tissue blocks containing the RVLM and adjacent tissue shown in Fig. 1. Record order does not represent animal identifiers or establish pairing across endpoints.",
+          "Supplementary Data 2. Animal-paired RT-qPCR Cq measurements and normalized relative expression values used in Fig. 2, including Nox1, Nox4, reference Cq values, ΔCq, source worksheet column labels, and relative expression normalized to the sham group. Column labels identify source records and are not original animal identifiers."
+        ],
+        "new": [
+          "Supplementary Data 1. Processed biochemical and auxiliary fluorescence values from medullary tissue blocks containing the RVLM and adjacent tissue (Fig. 1). Record order does not identify animals or establish pairing across endpoints. The historical field ROS denotes the unvalidated probe-associated fluorescence index, not absolute ROS concentration.",
+          "Supplementary Data 2. Target/reference Cq pairs and normalized RT-qPCR estimates used in Fig. 2. The historical column name normalized_expression denotes a Cq-derived assay estimate, not validated transcript abundance. Pairing follows investigator confirmation. Source worksheet columns are record positions, not original animal identifiers."
+        ]
+      },
+      {
+        "old_indices": [
+          26,
+          26
+        ],
+        "new_indices": [
+          26,
+          30
+        ],
+        "old": [
+          "Both groups were sampled at week 4, with 6 independent rats per group for each endpoint. Differences retain the original measurement units. Confidence intervals and P values were obtained from the three-group Games–Howell comparisons within each endpoint, without correction across endpoints. Fluorescence is reported in protein-normalized arbitrary units. These results describe group differences in regional tissue blocks and do not establish that NOX expression mediates blood pressure changes. Fluorescence is not an absolute ROS concentration. Full comparisons are provided in Supplementary File 3."
+        ],
+        "new": [
+          "Both groups were sampled at week 4, with six records per endpoint/group reported to represent different rats. Identity-linked records were unavailable. Units, confidence intervals and P values retain the original three-group Games–Howell comparisons within each endpoint, without correction across endpoints. Fluorescence is a protein-normalized auxiliary index, not absolute ROS concentration. These results do not establish NOX expression or mediation of blood-pressure changes. Full comparisons are in Supplementary File 3.",
+          "Supplementary Table S2",
+          "Plate annotation corrections, source-record linkage and unchanged calculations.",
+          "Basis: investigator confirmation following review of original sample-loading or laboratory records. Those supporting records are currently unavailable, so this table records the investigators' explanation rather than an independent reconstruction of animal identity. The original Plate and all source exports in Supplementary File 7 were not overwritten.",
+          "Cq Results already identifies B10-Ch5 as Nox1/Model and D12-Ch5 as Nox4/Sham-operated. The paired reference records and source summary cells shown here are the same ones used in Supplementary Data 2. Source columns D and F are record positions, not animal identifiers. ΔCq equals target minus reference Cq. The annotation explanation changes neither group assignment in the analysis, target/reference Cq pairing, the six included records/group, normalization, nor the 18-comparison Holm family. All 36 displayed target/reference pairs and all 126 original-panel Cq entries match the archived numerical sources. This numerical agreement does not verify biological independence or amplicon specificity."
+        ]
+      },
+      {
+        "old_indices": [
+          31,
+          31
+        ],
+        "new_indices": [
+          35,
+          35
+        ],
+        "old": [
+          "All animal procedures were approved by the Animal Ethics Committee of Anhui University of Chinese Medicine (approval no. AHUCM-rats-2022032). The approval covered the 60-rat parent experiment, model induction, foreign-body removal, and terminal sampling. Animal handling followed the Chinese Guidelines on the Humane Treatment of Laboratory Animals."
+        ],
+        "new": [
+          "The investigators reported approval by the Animal Ethics Committee of Anhui University of Chinese Medicine (AHUCM-rats-2022032), covering the 60-rat parent experiment, model induction, implant removal and terminal sampling. The original approval letter and approved protocol were unavailable for retrospective verification. Therefore, the retained materials cannot establish whether the performed procedures, welfare provisions and adverse-event management matched the approved protocol. No specific authorization to omit postoperative analgesia is documented."
+        ]
+      },
+      {
+        "old_indices": [
+          34,
+          34
+        ],
+        "new_indices": [
+          38,
+          38
+        ],
+        "old": [
+          "The implant was removed from restoration rats at week 4. Terminal sampling was at week 4 for sham and model rats and week 8 for restoration rats, without a time-matched second-surgery sham group. Each biochemical endpoint and RT-qPCR included 6 randomly selected independent rats per group, processed separately without cross-animal pooling. Target and reference Cq values were paired within each rat and measured once each. Original animal identifiers could not be matched to assay samples; numerical record order cannot establish pairing across assays or fully reconstruct premeasurement exclusions. The parent design allowed for preliminary estimates of 18% mortality and 17% implant loss to obtain at least 30 modeled rats. No single primary endpoint or formal outcome-based a priori sample-size calculation was specified."
+        ],
+        "new": [
+          "The implant was removed from restoration rats at week 4. Terminal sampling was at week 4 for sham and model rats and week 8 for restoration rats, without a time-matched second-surgery sham group. Investigators reported six different rats per endpoint/group, separate processing and no cross-animal pooling, and confirmed that target and reference Cq values in matching worksheet columns belonged to the same rat. Each was measured once. These are investigator-confirmed design details; animal–sample identity, sampling/subset allocation and loading records could not be retrieved. Six stored values, worksheet order and blank Replicate fields cannot independently demonstrate biological independence or same-rat pairing. Overlap between assays and complete premeasurement exclusions cannot be reconstructed. The reported parent-design rationale allowed for preliminary mortality and implant-loss estimates; no single primary endpoint or formal a priori outcome-based sample-size calculation was specified. No retrospective power calculation was constructed."
+        ]
+      },
+      {
+        "old_indices": [
+          36,
+          36
+        ],
+        "new_indices": [
+          40,
+          40
+        ],
+        "old": [
+          "The model was induced using the previously described procedure [1]. Rats were anesthetized with 2% inhaled isoflurane at a gas flow of 1 l/min. Anesthetic depth was monitored using respiratory rate and rhythm, the righting reflex, and the response to a noxious stimulus. After shaving and povidone-iodine disinfection, an anterior cervical incision was made, subcutaneous tissue and muscle were separated, and the trachea was displaced to the right to expose the left atlantoaxial joint. With the head rotated to the right, a disinfected S-shaped aluminum implant was inserted into the joint space, secured, and the incision closed. Penicillin sodium was administered intramuscularly at 400,000–800,000 units/kg once daily for 3 days. No postoperative analgesics were administered. Available records did not retain a written rationale or a specific ethics-committee opinion concerning the omission of postoperative analgesia. Food intake, activity, and the wound were checked at least daily for the first 3 postoperative days and 2–3 times per week thereafter. Nine rats died during or after model induction. Reported possible contributing factors were anesthetic overdose, cervical surgical injury, and postoperative infection; individual cause-of-death adjudication records were not retained."
+        ],
+        "new": [
+          "The model was induced using the previously described procedure [1]. Rats were anesthetized with 2% inhaled isoflurane at a gas flow of 1 l/min. Anesthetic depth was monitored using respiratory rate and rhythm, the righting reflex, and the response to a noxious stimulus. After shaving and povidone-iodine disinfection, an anterior cervical incision was made, subcutaneous tissue and muscle were separated, and the trachea was displaced to the right to expose the left atlantoaxial joint. With the head rotated to the right, a disinfected S-shaped aluminum implant was inserted into the joint space, secured, and the incision closed. Penicillin sodium was administered intramuscularly at 400,000–800,000 units/kg once daily for 3 days. No postoperative analgesics were administered. Available records did not retain a written rationale or a specific ethics-committee opinion concerning the omission of postoperative analgesia. Food intake, activity, and the wound were checked at least daily for the first 3 postoperative days and 2–3 times per week thereafter. Nine of the 50 animals undergoing model induction died (18%): six intraoperatively and three postoperatively. All 10 sham animals survived. Anesthetic overdose, cervical surgical injury and infection were reported as possible contributors, not adjudicated causes; individual death-investigation records were unavailable. Neither routine antibiotic use nor activity/wound observations establish adequate analgesia or a documented ethics exemption."
+        ]
+      },
+      {
+        "old_indices": [
+          43,
+          44
+        ],
+        "new_indices": [
+          47,
+          48
+        ],
+        "old": [
+          "Each medullary biochemical assay included 6 independent rats per group. Tissue was minced, ground in liquid nitrogen, lysed on ice in RIPA buffer containing 1 mmol/l PMSF, and centrifuged to collect the supernatant. Total protein concentration was measured using a BCA kit (Beyotime; cat. no. P0010). SOD activity was measured using a WST-1 assay (Nanjing Jiancheng Bioengineering Institute; cat. no. A001-3), with absorbance read at 450 nm. MDA was measured using a thiobarbituric acid (TBA) colorimetric assay (Nanjing Jiancheng Bioengineering Institute; cat. no. A003-1). The retained assay records specified absorbance measurement at 530 nm, whereas the kit manual recommended 532 nm. Both absorbance measurements used an RT-6000 microplate reader (Rayto).",
+          "ROS-associated fluorescence was measured using the proprietary green BBoxiProbe® O12 supplied with the BestBio BB-475015 kit, at excitation and emission wavelengths of 488 and 530 nm, respectively. The kit manual specifies fresh serum as the intended sample matrix; the kit was applied to medullary lysates in this study. Records validating its use in the tissue matrix or compatibility with the lysis buffer were unavailable. The fluorescence-reader model was not retained. This measurement was reported as a probe-associated fluorescence index, without assignment to a specific ROS species or absolute ROS concentration."
+        ],
+        "new": [
+          "Each medullary biochemical assay included six separately processed records per group, reported by the investigators to represent six different rats. Tissue was minced, ground in liquid nitrogen, lysed on ice in RIPA buffer containing 1 mmol/l PMSF, and centrifuged to collect the supernatant. Total protein concentration was measured using a BCA kit (Beyotime; cat. no. P0010). SOD activity was measured using a WST-1 assay (Nanjing Jiancheng Bioengineering Institute; cat. no. A001-3), with absorbance read at 450 nm. MDA was measured using a thiobarbituric acid (TBA) colorimetric assay (Nanjing Jiancheng Bioengineering Institute; cat. no. A003-1). The retained assay records specified absorbance measurement at 530 nm, whereas the kit manual recommended 532 nm. Both absorbance measurements used an RT-6000 microplate reader (Rayto).",
+          "Probe-associated fluorescence was measured using the proprietary green BBoxiProbe O12 supplied with BestBio BB-475015, at excitation/emission 488/530 nm. The kit manual specifies fresh serum; here it was applied to RIPA/PMSF medullary lysates. No retained validation established tissue-matrix compatibility, buffer effects, spike recovery or dilutional behavior. The fluorescence-reader model was not retained. The protein-concentration-normalized index is an auxiliary observation. Identical processing cannot exclude group-dependent matrix interference, so neither absolute ROS concentration nor quantitatively comparable tissue ROS levels, species or cellular sources are established."
+        ]
+      },
+      {
+        "old_indices": [
+          47,
+          48
+        ],
+        "new_indices": [
+          51,
+          52
+        ],
+        "old": [
+          "Reverse transcription quantitative PCR (RT-qPCR) analyses included 6 independent rats per group (n = 6). Each target and reference quantification cycle (Cq) was measured once per rat. Target and reference Cq values in the same worksheet column corresponded to the same animal and were paired within that animal. Samples were not pooled. Total RNA was extracted from medullary tissue blocks containing the RVLM using TRIzol reagent (Life Technologies; Thermo Fisher Scientific, Inc.; cat. no. 15596026). Genomic DNA was removed from 1 µg of RNA in a 10 µl reaction at 42°C for 2 min, followed by 1 min on ice. Reverse transcription was performed using PrimeScript RT reagent Kit with gDNA Eraser (Takara Bio, Inc.; cat. no. RR047A) in a 20 µl reaction at 37°C for 15 min followed by 85°C for 5 s. RT-qPCR used NovoStart SYBR qPCR SuperMix Plus (Novoprotein; cat. no. E096-01B) and a PikoReal 96 real-time PCR system (Thermo Fisher Scientific, Inc.). Each 10 µl reaction contained 5 µl of 2× SYBR mix, 1 µl each of forward and reverse primers (10 µmol/l), 1 µl of cDNA, and 2 µl of RNase-free water. Primer sequences were as follows: Nox1 forward, 5'-GCTCCAGACCTCCATTTG-3'; Nox1 reverse, 5'-CAGCCCCAACCAAGAAAC-3'; Nox4 forward, 5'-GGGTTAAACACCTCTGTC-3'; Nox4 reverse, 5'-GTAGTATTCTGGCCCTTG-3'; β-actin forward, 5'-CCCATCTATGAGGGTTACGC-3'; and β-actin reverse, 5'-TTTAATGTCACGCACGATTTC-3'. Expected amplicon lengths for Nox1, Nox4, and β-actin were 84, 95, and 150 bp, respectively. Cycling conditions were 95°C for 1 min followed by 40 cycles of 95°C for 20 s and 60°C for 1 min. Conversion to relative quantities assumed equal amplification efficiencies of approximately 100% for each target and β-actin [7]. Within-animal ΔCq was defined as target Cq minus the paired β-actin Cq. Relative quantity was calculated as Q = 2−ΔCq. For each gene, this quantity was divided by the arithmetic mean of the relative quantities from the 6 sham-operated rats, giving the sham-operated group an arithmetic mean of 1. Amplification efficiencies and reference-gene stability were not validated. Original instrument exports and curve images are provided in Supplementary File 7. The recorded protocol included a melting step from 60 to 95°C in 0.2°C increments. The current 36 Nox1/Nox4 target/reference pairs match the exported Cq results and result-analysis workbook exactly. Across the complete original panel, all 126 target/reference Cq measurements match the supplied result-analysis workbook. Group-only sample names and blank replicate fields do not independently establish animal identity or technical replication. Records of no-template controls (NTC), no-reverse-transcription controls (no-RT), standard-curve efficiency validation and reference-gene stability validation were not identified in the supplied files.",
+          "Source review identified plate/result annotation differences: Nox1 model well B10-Ch5 (Cq 29.82) and Nox4 sham well D12-Ch5 (Cq 34.69) were labelled Empty/[none] in the Plate worksheet but Unknown with numeric Cq values in Cq Results. After reviewing source records, the authors confirmed that these Plate entries were annotation errors: B10-Ch5 was a Nox1 model sample and D12-Ch5 a Nox4 sham sample. Original exports and Cq values were retained unchanged. The supporting loading/laboratory record was not included in the supplied archive, and native .ord files were not supplied. Target melt profiles were heterogeneous, with broad peaks, shoulders or additional peaks in the supplied images. Reported Tm values also varied, including Nox1 B10-Ch5 (78.59°C) and E11-Ch5 (75.76°C), and Nox4 D12-Ch5 (77.97°C) and F13-Ch5 (73.98°C). The software setting \"Max # of peaks = 1\" does not establish single-product amplification. Consequently, target specificity could not be confirmed. All six originally supplied records per group were retained without post hoc exclusion; transcript estimates and associated tests are exploratory and do not establish validated gene-specific quantification."
+        ],
+        "new": [
+          "Reverse transcription quantitative PCR (RT-qPCR) analyses retained six records per group (reported biological n = 6). Investigators confirmed six different rats, separate processing, no pooling, and one measurement of each target and β-actin reference per rat. They confirmed same-rat pairing for matching worksheet columns. Animal–sample, sampling/subset and loading records are unavailable for independent retrospective verification; neither group-only sample names nor six columns independently establish biological replication. Total RNA was extracted from medullary tissue blocks containing the RVLM using TRIzol reagent (Life Technologies; Thermo Fisher Scientific, Inc.; cat. no. 15596026). Genomic DNA was removed from 1 µg of RNA in a 10 µl reaction at 42°C for 2 min, followed by 1 min on ice. Reverse transcription was performed using PrimeScript RT reagent Kit with gDNA Eraser (Takara Bio, Inc.; cat. no. RR047A) in a 20 µl reaction at 37°C for 15 min followed by 85°C for 5 s. RT-qPCR used NovoStart SYBR qPCR SuperMix Plus (Novoprotein; cat. no. E096-01B) and a PikoReal 96 real-time PCR system (Thermo Fisher Scientific, Inc.). Each 10 µl reaction contained 5 µl of 2× SYBR mix, 1 µl each of forward and reverse primers (10 µmol/l), 1 µl of cDNA, and 2 µl of RNase-free water. Primer sequences were as follows: Nox1 forward, 5'-GCTCCAGACCTCCATTTG-3'; Nox1 reverse, 5'-CAGCCCCAACCAAGAAAC-3'; Nox4 forward, 5'-GGGTTAAACACCTCTGTC-3'; Nox4 reverse, 5'-GTAGTATTCTGGCCCTTG-3'; β-actin forward, 5'-CCCATCTATGAGGGTTACGC-3'; and β-actin reverse, 5'-TTTAATGTCACGCACGATTTC-3'. Expected amplicon lengths for Nox1, Nox4, and β-actin were 84, 95, and 150 bp, respectively. Cycling conditions were 95°C for 1 min followed by 40 cycles of 95°C for 20 s and 60°C for 1 min. Conversion to relative quantities assumed equal amplification efficiencies of approximately 100% for each target and β-actin [7]. Within-animal ΔCq was defined as target Cq minus the paired β-actin Cq. Relative quantity was calculated as Q = 2−ΔCq. For each gene, this quantity was divided by the arithmetic mean of the relative quantities from the 6 sham-operated rats, giving the sham-operated group an arithmetic mean of 1. Amplification efficiencies and reference-gene stability were not validated. Original instrument exports and curve images are provided in Supplementary File 7. The recorded protocol included a melting step from 60 to 95°C in 0.2°C increments. The current 36 Nox1/Nox4 target/reference pairs match the exported Cq results and result-analysis workbook exactly. Across the complete original panel, all 126 target/reference Cq measurements match the supplied result-analysis workbook. Group-only sample names and blank replicate fields do not independently establish animal identity or technical replication. Records of no-template controls (NTC), no-reverse-transcription controls (no-RT), standard-curve efficiency validation and reference-gene stability validation were not identified in the supplied files.",
+          "Two Plate annotation corrections are detailed in Supplementary Table S2. The investigators previously confirmed the sample identities after reviewing source records, but the supporting loading/laboratory records cannot now be supplied; native .ord files were not supplied. The original exports are preserved, including the discrepant Plate entries. Corrected interpretation follows the target/group assignments already present in Cq Results and the original analysis; no Cq, reference pairing, inclusion decision or statistical comparison was changed. Melt profiles remained heterogeneous, with broad peaks, shoulders or additional peaks. Reported Tm values included Nox1 B10-Ch5 78.59°C and E11-Ch5 75.76°C, and Nox4 D12-Ch5 77.97°C and F13-Ch5 73.98°C. The setting Max # of peaks = 1 is a reporting parameter, not evidence for one product. No retained product-identity evidence, such as electrophoretic or sequence confirmation, established single-product target specificity. Expected amplicon lengths are design information, not observed identity validation. All six original records/group were retained without post hoc exclusions as exploratory assay estimates; these cannot establish Nox1/Nox4 transcript upregulation."
+        ]
+      },
+      {
+        "old_indices": [
+          50,
+          51
+        ],
+        "new_indices": [
+          54,
+          55
+        ],
+        "old": [
+          "Statistical analyses used individual rats as experimental units and report mean ± sample SD. All six supplied values per group were included; no outliers were removed or missing values imputed. Repeated measurements did not increase biological n. Biochemical endpoints were compared using Welch’s one-way ANOVA and Games–Howell comparisons, with 95% confidence intervals. Shapiro–Wilk tests were diagnostic, with limited sensitivity at n = 6. Adjustment covered the three comparisons within each endpoint, not across the three biochemical endpoints. Tests were two-sided, with α = 0.05. Processed inputs, full outputs and software versions, and reproduction code are provided in Supplementary Data 1, File 3, and Appendix 1.",
+          "RT-qPCR inference used within-animal ΔCq values and independent-group Welch t tests. All 18 comparisons across the original six-target panel (AT1-R, Nox1, Nox4, RhoA, ROCK1, and ROCK2) formed one Holm correction family; correction was not restricted to the displayed genes. Supplementary Data 2, File 4, and Appendix 2 provide paired inputs, complete t statistics, degrees of freedom and exact P values, and reproducible code. Animal overlap across assays was not recoverable, so no cross-assay correlations were tested. Archived blood-pressure and H&E materials were displayed without new inferential tests. Model–sham comparisons use week-4 samples; comparisons involving restoration use week-8 samples."
+        ],
+        "new": [
+          "The rat was the intended experimental unit. Analyses treat the six records/group as independent rat observations on the investigators' reported design and use mean ± sample SD; biological identity cannot be retrospectively verified. All six supplied values per group were included; no outliers were removed or missing values imputed. Repeated measurements did not increase biological n. Biochemical endpoints were compared using Welch’s one-way ANOVA and Games–Howell comparisons, with 95% confidence intervals. Shapiro–Wilk tests were diagnostic, with limited sensitivity at n = 6. Adjustment covered the three comparisons within each endpoint, not across the three biochemical endpoints. Tests were two-sided, with α = 0.05. Processed inputs, full outputs and software versions, and reproduction code are provided in Supplementary Data 1, File 3, and Appendix 1.",
+          "RT-qPCR inference used target/reference ΔCq pairs, based on investigator-confirmed same-rat matching, and independent-group Welch t tests. These tests evaluate stored normalized estimates conditional on the reported design, not product identity or biological independence. All 18 comparisons across the original six-target panel (AT1-R, Nox1, Nox4, RhoA, ROCK1, and ROCK2) formed one Holm correction family; correction was not restricted to the displayed genes. Supplementary Data 2, File 4, and Appendix 2 provide paired inputs, complete t statistics, degrees of freedom and exact P values, and reproducible code. Animal overlap across assays was not recoverable, so no cross-assay correlations were tested. Archived blood-pressure and H&E materials were displayed without new inferential tests. Model–sham comparisons use week-4 samples; comparisons involving restoration use week-8 samples."
+        ]
+      },
+      {
+        "old_indices": [
+          54,
+          56
+        ],
+        "new_indices": [
+          58,
+          60
+        ],
+        "old": [
+          "Each biochemical endpoint included 6 independent rats per group. Across the three terminal cohorts, Welch's ANOVA identified differences in SOD activity, F(2, 9.816) = 91.626; MDA, F(2, 8.500) = 130.738; and probe-associated fluorescence, F(2, 7.804) = 314.907 (all P < 0.001). In the same-time week-4 comparison, model rats had lower SOD activity than sham rats (0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein), higher MDA (0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein), and higher probe-associated fluorescence (3295.6 ± 216.3 versus 1326.9 ± 50.6 AU; Fig. 1). All three model–sham Games–Howell-adjusted P values were <0.001. Model–sham mean differences and 95% confidence intervals are provided in Supplementary Table S1; complete three-group outputs are in Supplementary File 3.",
+          "Nox1 and Nox4 transcripts in the week-4 comparison",
+          "Animal-paired target and reference Cq measurements were available for 6 rats per group. Estimated Nox1 expression was higher in model rats than in sham rats (1.459 ± 0.156 versus 1.000 ± 0.134), as was Nox4 expression (2.902 ± 0.558 versus 1.000 ± 0.233; Fig. 2A and B). The corresponding Holm-adjusted P values were 0.0037 and 0.0001. These P values use one correction family comprising all 18 comparisons in the original six-target panel. Complete results are provided in Supplementary File 4."
+        ],
+        "new": [
+          "Each biochemical endpoint contained six records/group, reported to represent different rats. Across the three terminal cohorts, Welch's ANOVA identified differences in SOD activity, F(2, 9.816) = 91.626; MDA, F(2, 8.500) = 130.738; and probe-associated fluorescence, F(2, 7.804) = 314.907 (all P < 0.001). In the same-time week-4 comparison, model rats had lower SOD activity than sham rats (0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein), higher MDA (0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein), and higher probe-associated fluorescence (3295.6 ± 216.3 versus 1326.9 ± 50.6 AU; Fig. 1). All three model–sham Games–Howell-adjusted P values were <0.001. Model–sham mean differences and 95% confidence intervals are provided in Supplementary Table S1; complete three-group outputs are in Supplementary File 3.",
+          "Exploratory targeted RT-qPCR estimates in the week-4 comparison",
+          "The six source records/group retained investigator-confirmed target/reference pairing. Normalized Nox1-targeted estimates were 1.459 ± 0.156 in model versus 1.000 ± 0.134 in sham records; Nox4-targeted estimates were 2.902 ± 0.558 versus 1.000 ± 0.233 (Fig. 2). Holm-adjusted P values were 0.0037 and 0.0001, using all 18 original six-target comparisons. These are exploratory assay differences; unconfirmed specificity prevents their interpretation as validated gene-expression changes. Complete outputs are in Supplementary File 4."
+        ]
+      },
+      {
+        "old_indices": [
+          59,
+          59
+        ],
+        "new_indices": [
+          63,
+          63
+        ],
+        "old": [
+          "Estimated Nox1 and Nox4 expression in restoration rats was 1.180 ± 0.090 and 1.645 ± 0.227, respectively (Fig. 2; n = 6). Both were lower than in model rats, with Holm-adjusted P values of 0.0139 and 0.0037. Compared with sham rats, estimated Nox4 expression was higher (P = 0.0099), whereas the Nox1 difference did not meet the adjusted significance threshold (P = 0.0618). Nonsignificant SOD and Nox1 differences do not establish equivalence or normalization. Comparisons involving restoration rats span different terminal sampling times and cannot isolate an implant-removal effect."
+        ],
+        "new": [
+          "Normalized Nox1-targeted and Nox4-targeted estimates in restoration records were 1.180 ± 0.090 and 1.645 ± 0.227 (Fig. 2; six records/group). They were lower than model estimates, with Holm-adjusted P values of 0.0139 and 0.0037. Relative to sham, the Nox4-targeted estimate was higher (P = 0.0099), whereas the Nox1-targeted difference was nonsignificant (P = 0.0618). These estimates do not establish transcript abundance, equivalence or normalization. Week-8 restoration versus week-4 model comparisons cannot isolate an implant-removal effect."
+        ]
+      }
+    ],
+    "Yuan_cover_letter.docx": [
+      {
+        "old_indices": [
+          1,
+          1
+        ],
+        "new_indices": [
+          1,
+          1
+        ],
+        "old": [
+          "16 October 2026"
+        ],
+        "new": [
+          "17 October 2026"
+        ]
+      },
+      {
+        "old_indices": [
+          4,
+          9
+        ],
+        "new_indices": [
+          4,
+          9
+        ],
+        "old": [
+          "Please consider our manuscript, “Regional medullary redox indices and Nox1/Nox4 mRNA expression in rats with atlantoaxial joint disorder”, as an Short Communication in Physiological Research.",
+          "We report regional superoxide dismutase activity, malondialdehyde, probe-associated fluorescence and Nox1/Nox4 mRNA in ventrolateral medullary blocks containing the rostral ventrolateral medulla and adjacent tissue from male rats with atlantoaxial joint disorder. Each quantitative endpoint included six independent rats per group. The work provides exploratory biochemical and transcript observations relevant to pathological physiology.",
+          "The manuscript distinguishes the same-time model–sham comparison from the later restoration-group observations. Sampling-time differences, the absence of a second-surgery sham control, assay-validation and source-record limitations, and the omission of postoperative analgesia are disclosed. We do not claim a NOX-dependent sympathetic mechanism or an independent therapeutic effect of implant removal.",
+          "Blood-pressure observations from the source experiment were shared with the related 2026 Ang II/AT1-R report (doi: 10.47056/0365-9615-2026-181-5-546-550). The biochemical and Nox1/Nox4 transcript analyses presented here were not reported in that article. Archived blood-pressure and H&E materials are included descriptively. Available numerical inputs, statistical outputs and reproducible code accompany the manuscript.",
+          "The animal procedures were approved by the Animal Ethics Committee of Anhui University of Chinese Medicine (AHUCM-rats-2022032). All authors have approved the manuscript. The manuscript has not been published previously and is not under consideration elsewhere. The authors declare no competing interests. Actual AI-assisted preparation and analytical-code use are disclosed in the manuscript.",
+          "The main manuscript contains two quantitative figures. Detailed methods, complete statistics, Supplementary Table S1 and descriptive archived H&E/blood-pressure materials are supplied separately. We welcome editorial guidance on the format and placement of supplementary items."
+        ],
+        "new": [
+          "Please consider our manuscript, “Regional medullary redox indices and exploratory RT-qPCR findings in rats with atlantoaxial joint disorder”, as a Short Communication in Physiological Research.",
+          "We report regional SOD activity and MDA observations in medullary blocks containing the RVLM and adjacent tissue from male rats with atlantoaxial joint disorder. Auxiliary fluorescence and Nox1/Nox4-targeted RT-qPCR estimates are retained as exploratory assay observations. Their applicability and product specificity were not validated; we do not present these estimates as confirmed transcript abundance or a NOX-dependent mechanism.",
+          "The main manuscript contains two quantitative figures. Model–sham samples were collected at week 4, restoration samples at week 8, without a time-matched second-surgery control. Each endpoint contains six records reported to represent different rats; original identity-linked records are unavailable. Supplementary Table S2 documents two investigator-confirmed Plate annotation errors and why the existing Cq, reference pairing and statistics are unchanged.",
+          "Blood-pressure observations were shared with the related 2026 Ang II/AT1-R article (doi: 10.47056/0365-9615-2026-181-5-546-550). The present biochemical and targeted RT-qPCR observations were not reported there. Archived blood-pressure and H&E materials remain descriptive. Processed inputs, RT-qPCR exports and curves, numerical outputs and code are supplied. Detailed methods, Tables S1/S2 and other supplementary materials are separate; please advise on their format and placement.",
+          "Investigators report ethics approval AHUCM-rats-2022032, but the original approval letter and approved protocol cannot currently be supplied. Nine of 50 modeled rats died (18%). Postoperative analgesia was not administered, and no documented justification or specific authorization for its omission was retained. These unresolved welfare and documentation matters are explicitly disclosed; no retrospective exemption is asserted.",
+          "All authors have approved the manuscript. It has not been published previously and is not under consideration elsewhere. The authors declare no competing interests. Actual AI-assisted preparation and analytical-code use are disclosed in the manuscript."
+        ]
+      }
+    ]
+  },
+  "audit_metadata_follow_up": [
+    {
+      "file": "Yuan_fig1.svg",
+      "recorded": "f8f9a47223464bc3b67a4484b92a23b55a049aec9552b9d003d13055f170e375",
+      "actual": "54a3c25c19ded83db8af212cf41a06debcadd1c0080c97f354902bba91015485"
+    },
+    {
+      "file": "Yuan_fig1.pdf",
+      "recorded": "f5f2922db9e19327b303159c8259b063cd86eb389f44707c18df0f4ee0ec35db",
+      "actual": "56ff5f8ae5c3480947b00cefc4519e5bc63436a05286eab3f950842cdeec8947"
+    }
+  ],
+  "limits": "PASS means revision preservation, not resolution of specificity, biological independence, missing ethics documentation/analgesia authorization, or tissue assay validity. Source chronology was not modified or declared resolved.",
+  "SI_render_source_sha256": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
+  "visual_report": "/tmp/codex-physres-risk-revision-20261017/Supplementary_Visual_QA.json",
+  "core_metadata_repair": {
+    "Yuan.docx": {
+      "before_sha256": "9b8591f521bfa8a167c348c6a22ec810f9e28f09510c0c40bc39bcd614229573",
+      "after_sha256": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db",
+      "only_core_xml_changed": true,
+      "all_other_zip_entries_byte_identical": true
+    },
+    "Yuan_supplementary_information.docx": {
+      "before_sha256": "c58146aa16103794fd9e6713f2c1b6ee9bc38cf1ad424af199515e0fabef6a12",
+      "after_sha256": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
+      "only_core_xml_changed": true,
+      "all_other_zip_entries_byte_identical": true
+    },
+    "Yuan_cover_letter.docx": {
+      "before_sha256": "9afc308142e7e46a2888e7338b3663d2c6d01207f9c3294d4a738ae509dae29c",
+      "after_sha256": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58",
+      "only_core_xml_changed": true,
+      "all_other_zip_entries_byte_identical": true
+    }
+  },
+  "Chinese_font_fix_validation": {
+    "before_sha256": "6d5ac5a04e737a224d1fbe09c8c9449e5af832ea8250f591ceaaaea261983d56",
+    "after_sha256": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e",
+    "all_w_t_and_m_t_unchanged": true,
+    "native_math_XML_unchanged": true,
+    "embedded_media_unchanged": true,
+    "scope": "CJK font and paragraph spacing/title size correction only; content unchanged."
+  },
+  "audit_metadata_follow_up_resolved": "Figure 1 PDF/SVG output hashes synchronized with retained byte-identical formal figures."
+}

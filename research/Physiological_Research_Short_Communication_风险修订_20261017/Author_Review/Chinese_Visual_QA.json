@@ -1,0 +1,153 @@
+{
+  "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan_中文.docx",
+  "sha256": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e",
+  "render_directory": "/tmp/codex-physres-risk-revision-20261017/qa_zh_final_meta",
+  "renderer": "canonical render_docx.py using only bundled Python and bundled LibreOffice",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "page_count": 7,
+  "inspection": "All seven pages were visually inspected after CJK-font repair; final core-metadata-only edit was canonically re-rendered and all seven final PNG file hashes and pixels are identical to those fully reviewed pages.",
+  "inspected_pages": [
+    {
+      "page": 1,
+      "file": "page-1.png",
+      "result": "pass"
+    },
+    {
+      "page": 2,
+      "file": "page-2.png",
+      "result": "pass"
+    },
+    {
+      "page": 3,
+      "file": "page-3.png",
+      "result": "pass"
+    },
+    {
+      "page": 4,
+      "file": "page-4.png",
+      "result": "pass"
+    },
+    {
+      "page": 5,
+      "file": "page-5.png",
+      "result": "pass"
+    },
+    {
+      "page": 6,
+      "file": "page-6.png",
+      "result": "pass"
+    },
+    {
+      "page": 7,
+      "file": "page-7.png",
+      "result": "pass"
+    }
+  ],
+  "checks": {
+    "all_chinese_glyphs_readable_no_dropped_or_overlapping_characters": true,
+    "no_clipping_or_abnormal_stretched_gaps": true,
+    "no_orphan_heading_or_blank_terminal_page": true,
+    "title_fits_single_line_without_single_character_orphan": true,
+    "reported_ethics_and_unavailable_approval_files_explicit_pages1_2": true,
+    "no_postoperative_analgesia_and_no_retained_authorization_explicit": true,
+    "mortality_9_of_50_18percent_retained": true,
+    "n6_biological_source_and_target_reference_pairing_attributed_to_experimenter": true,
+    "source_loading_or_lab_records_currently_unavailable_not_claimed_verified": true,
+    "qpcr_exploratory_not_validated_transcript_abundance": true,
+    "week4_week8_and_four_reserve_animals_retained": true,
+    "o12_auxiliary_unvalidated_tissue_assay_limit_retained": true,
+    "native_equation_and_superscripts_uncropped_page2": true,
+    "exactly_two_embedded_main_figures": true,
+    "figure1_page6_and_full_caption_complete": true,
+    "figure2_page7_and_full_caption_complete": true,
+    "figure2_axis_normalized_rtqpcr_estimate_correct": true,
+    "core_title_and_subject_synchronized": true
+  },
+  "font_repair": {
+    "before_file": "/tmp/codex-physres-risk-revision-20261017/Chinese_Before_Font_Fix.docx",
+    "before_sha256": "6d5ac5a04e737a224d1fbe09c8c9449e5af832ea8250f591ceaaaea261983d56",
+    "after_file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan_中文.docx",
+    "after_sha256": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e",
+    "changes": [
+      "Explicit CJK font Songti SC in paragraph styles and CJK-bearing runs; Latin fonts unchanged",
+      "CJK run language set zh-CN",
+      "Title font size 16 pt to 15 pt to prevent the final character standing alone"
+    ],
+    "preservation_checks": {
+      "all_w_t_and_m_t_text_nodes_identical_across_every_xml_part": true,
+      "native_omml_formulas_canonical_xml_identical": true,
+      "all_embedded_media_bytes_identical": true
+    },
+    "text_nodes_count": 90,
+    "omml_count": 1,
+    "embedded_media_count": 2,
+    "no_fixed_line_spacing_applied": true,
+    "note": "Only approved font/layout repair; all scientific text, numbers, equations and figures unchanged.",
+    "performed_at": "2026-10-17T15:40:33.479429+00:00",
+    "title_original_font_sizes_pt": [
+      16.0
+    ],
+    "after_font_before_metadata_sha256": "4ebcf8cc4881b9aeddcbdd41ec41fe303fe8f31a474dc4203382cdc6ecc63de9",
+    "metadata_changes": {
+      "title": "寰枢关节紊乱大鼠区域延髓氧化还原指标及探索性RT-qPCR观察",
+      "subject": "Physiological Research Short Communication Chinese author copy",
+      "changed_zip_members": [
+        "docProps/core.xml"
+      ],
+      "document_styles_media_unchanged_by_metadata_patch": true
+    }
+  },
+  "preservation_checks": {
+    "all_w_t_and_m_t_text_nodes_identical_across_every_xml_part": true,
+    "native_omml_formulas_canonical_xml_identical": true,
+    "all_embedded_media_bytes_identical": true
+  },
+  "scope_note": "Approved font/layout repair only. Scientific text, numbers, native OMML and embedded pictures were proved unchanged; no scientific limitation was resolved by formatting. Formal PDF was not modified.",
+  "result": "pass",
+  "reviewed_at": "2026-10-17T15:48:02.152194+00:00",
+  "metadata_only_final_pass": {
+    "previous_visual_review_directory": "/tmp/codex-physres-risk-revision-20261017/qa_zh_final",
+    "changed_zip_members": [
+      "docProps/core.xml"
+    ],
+    "all_final_pages_png_hash_and_pixels_match_visual_reviewed_pages": true,
+    "page_comparison": [
+      {
+        "page": 1,
+        "png_file_sha256_identical": true,
+        "pixels_identical": true
+      },
+      {
+        "page": 2,
+        "png_file_sha256_identical": true,
+        "pixels_identical": true
+      },
+      {
+        "page": 3,
+        "png_file_sha256_identical": true,
+        "pixels_identical": true
+      },
+      {
+        "page": 4,
+        "png_file_sha256_identical": true,
+        "pixels_identical": true
+      },
+      {
+        "page": 5,
+        "png_file_sha256_identical": true,
+        "pixels_identical": true
+      },
+      {
+        "page": 6,
+        "png_file_sha256_identical": true,
+        "pixels_identical": true
+      },
+      {
+        "page": 7,
+        "png_file_sha256_identical": true,
+        "pixels_identical": true
+      }
+    ]
+  },
+  "status": "PASS_VISUAL_QA"
+}

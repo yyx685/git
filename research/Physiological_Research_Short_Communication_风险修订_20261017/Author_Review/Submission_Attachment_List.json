@@ -1,0 +1,124 @@
+{
+  "to": "physres@fgu.cas.cz",
+  "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
+  "sent": false,
+  "attachment_count": 20,
+  "total_bytes": 11725682,
+  "attachments": [
+    {
+      "file": "Yuan.docx",
+      "bytes": 779386,
+      "sha256": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db"
+    },
+    {
+      "file": "Yuan.pdf",
+      "bytes": 405262,
+      "sha256": "4a392733968ee13060b2461688219cd9923cb8a174a3fd6bde9229f393c36ff4"
+    },
+    {
+      "file": "Yuan_cover_letter.docx",
+      "bytes": 39309,
+      "sha256": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58"
+    },
+    {
+      "file": "Yuan_supplementary_information.docx",
+      "bytes": 5989417,
+      "sha256": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a"
+    },
+    {
+      "file": "Figures/Yuan_fig1.jpg",
+      "bytes": 636591,
+      "sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44"
+    },
+    {
+      "file": "Figures/Yuan_fig2.jpg",
+      "bytes": 453971,
+      "sha256": "38f157b5035e603fff6cb777f25b9b3dce68df3c0f0eaedc010facb64b7fb5b1"
+    },
+    {
+      "file": "Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "bytes": 4027,
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b"
+    },
+    {
+      "file": "Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "bytes": 4140,
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "file": "Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+      "bytes": 12845,
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb"
+    },
+    {
+      "file": "Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "bytes": 3290,
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb"
+    },
+    {
+      "file": "Supporting_Information/S3_Appendix_Plot_Archived_BP.py",
+      "bytes": 4547,
+      "sha256": "ed69ae97fbd3816302c7c9a91ba6a529c963bbe4aa9964748d3716b3aae18997"
+    },
+    {
+      "file": "Supporting_Information/S3_Data_Archived_BP_Recorded_Values.csv",
+      "bytes": 15415,
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf"
+    },
+    {
+      "file": "Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "bytes": 7982,
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18"
+    },
+    {
+      "file": "Supporting_Information/S4_Appendix_Plot_Main_Figures.py",
+      "bytes": 4231,
+      "sha256": "5a6e9c92554915469e7d589100f41fff18416af155fc055e508c38fc60b08b94"
+    },
+    {
+      "file": "Supporting_Information/S4_Data_Archived_BP_Entered_Summaries.csv",
+      "bytes": 2226,
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554"
+    },
+    {
+      "file": "Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "bytes": 129087,
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2"
+    },
+    {
+      "file": "Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
+      "bytes": 15741,
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d"
+    },
+    {
+      "file": "Supporting_Information/S6_File_HE_Supplied_Composite.jpg",
+      "bytes": 641860,
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468"
+    },
+    {
+      "file": "Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
+      "bytes": 8487,
+      "sha256": "f80b1c5a231dcb0b08091129ef6abcd89ed6d8c4d4325340653b7b1c2caf8046"
+    },
+    {
+      "file": "Supporting_Information/S7_File_RTqPCR_Original_Exports.zip",
+      "bytes": 2567868,
+      "sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
+    }
+  ],
+  "excluded": "Chinese author copy; author-review audits; Markdown notes; duplicate TIFF/PDF/SVG/PNG main-figure backups; supplementary TIFFs already embedded in supplementary Word. Prior source-figure archive remains in the preserved previous package.",
+  "checked_date": "2026-10-17",
+  "main_figures": [
+    "Figures/Yuan_fig1.jpg",
+    "Figures/Yuan_fig2.jpg"
+  ],
+  "HE_location": "Supplementary Fig. S1 in the supplementary Word document, with the supplied source composite in Supplementary File 6.",
+  "article_type": "Short Communication",
+  "supplementary_policy_note": "Official short-communication guide does not explicitly specify a supplementary-item exemption from the two figure/table limit. Separate supplementary placement is disclosed in the cover letter for editorial guidance.",
+  "new_RTqPCR_source_archive": "Supplementary File 7: 19 unmodified source files; native .ord files not supplied.",
+  "review_status": "Prepared for author review with unresolved validation and ethics documentation.",
+  "supplementary_tables": [
+    "S1: full statistics",
+    "S2: Plate annotation correction and preserved reference pairing"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_VISUAL_QA",
+  "document": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan_cover_letter.docx",
+  "docx_sha256": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58",
+  "page_count": 1,
+  "all_final_pages_inspected": true,
+  "rendered_at": "/tmp/codex-physres-risk-revision-20261017/qa_cover_final_meta",
+  "review": "Full page inspected at original render resolution. One-page letter, readable text, complete signature, no clipped text, overlap or orphan continuation.",
+  "rendered_pdf_sha256": "2f1cd9758d65c404d66bd203c9a5ff60171d1dfd876614654274863d2fa55ae1",
+  "core_metadata_repaired_without_body_change": true,
+  "final_render_pixels_identical_to_visually_inspected_prior_render": true,
+  "render_pdf_for_internal_QA_only": true
+}
