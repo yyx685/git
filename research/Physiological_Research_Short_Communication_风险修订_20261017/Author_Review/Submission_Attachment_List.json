@@ -3,17 +3,17 @@
   "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
   "sent": false,
   "attachment_count": 20,
-  "total_bytes": 11729917,
+  "total_bytes": 11729904,
   "attachments": [
     {
       "file": "Yuan.docx",
-      "bytes": 783760,
-      "sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582"
+      "bytes": 783757,
+      "sha256": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 405123,
-      "sha256": "86205f5cfb3c8d84e4c6de2aa3e71c9fb615083de1123ac0e754b783301cb95f"
+      "bytes": 405113,
+      "sha256": "5d3ac39c06100f1f8253afb0a8d6ad862b128532333bf411303501facfe8b59f"
     },
     {
       "file": "Yuan_cover_letter.docx",

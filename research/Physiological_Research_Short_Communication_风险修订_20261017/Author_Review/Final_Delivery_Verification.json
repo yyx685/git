@@ -40,7 +40,8 @@
     "submitted": false,
     "AI_disclosure_concise_and_actual_analysis_assistance_retained": false,
     "reference_informed_narrative_only_values_statistics_methods_preserved": true,
-    "AI_declaration_matches_author_requested_wording": true
+    "AI_declaration_matches_author_requested_wording": true,
+    "AI_declaration_punctuation_checking_comma_period_corrected": true
   },
   "notes": [
     "PASS refers only to document, rendering, numerical preservation and packaging checks. It is not a finding of experimental validity, ethical clearance or acceptance eligibility.",
@@ -55,6 +56,7 @@
     "The local .eml is unsent and is prepared for the user-specified corresponding-author address only.",
     "2026-10-19: Only the AI disclosure changed in English/Chinese. Main PDF and unsent email attachments were synchronized; no scientific or ethics gap was declared resolved.",
     "2026-10-19: Same-journal Short Communication used to improve narrative order and a bounded conclusion. Both revised main manuscripts passed final full-page visual QA; English PDF and 20 unsent MIME attachments synchronized. No new data or validation evidence was added.",
-    "Later 2026-10-19: Author requested literal replacement of the AI declaration. This replacement was synchronized in English/Chinese, PDF and unsent email. PASS remains document/layout/numerical-preservation QA only; it does not certify disclosure completeness. Prior analytical provenance records were retained."
+    "Later 2026-10-19: Author requested literal replacement of the AI declaration. This replacement was synchronized in English/Chinese, PDF and unsent email. PASS remains document/layout/numerical-preservation QA only; it does not certify disclosure completeness. Prior analytical provenance records were retained.",
+    "2026-10-19: Author requested checking,. -> checking. Only that comma was removed; all other wording retained. Final English pages reviewed and PDF/email synchronized. Other unresolved issues remain unchanged."
   ]
 }

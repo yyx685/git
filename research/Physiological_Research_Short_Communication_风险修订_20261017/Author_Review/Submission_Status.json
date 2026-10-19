@@ -8,6 +8,6 @@
   "mime_attachments_verified": 20,
   "email_sent": false,
   "delivery_channel_confirmed_by_user": "Deliver the complete unsent email file; retain wuzijian@ahtcm.edu.cn as sender; the author will send it.",
-  "last_update": "2026-10-19: Author-requested AI declaration wording synchronized in both manuscripts, English PDF and 20 unsent attachments. No scientific text or analysis changed.",
-  "new_email_sha256": "7d97628ad65dc5b14eedbf73f118f9180f14cf8f679bd1a12dc68fe5fab8deef"
+  "last_update": "2026-10-19: Removed only the comma from checking,. in the English declaration; final English PDF and 20 unsent attachments synchronized. Chinese copy and all other wording/data unchanged.",
+  "new_email_sha256": "0cc451c2a9b2afdf6e99ce2b002607166a0f16c53826df525e37ef355cf6efde"
 }

@@ -1,12 +1,12 @@
 {
   "status": "PASS - Layout and source conformity only; all seven final English pages visually inspected at original resolution.",
-  "scope": "Visual layout QA and literal conformity to user-supplied declaration. No journal disclosure compliance assessment.",
+  "scope": "Visual layout QA and conformity to user-requested punctuation-only correction; no journal disclosure compliance assessment.",
   "source": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.docx",
-  "source_sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
-  "docx_sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
+  "source_sha256": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d",
+  "docx_sha256": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d",
   "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.pdf",
-  "pdf_sha256": "86205f5cfb3c8d84e4c6de2aa3e71c9fb615083de1123ac0e754b783301cb95f",
-  "rendered_pdf": "/tmp/codex-physres-ai-user-wording-20261019/qa_en/Yuan.pdf",
+  "pdf_sha256": "5d3ac39c06100f1f8253afb0a8d6ad862b128532333bf411303501facfe8b59f",
+  "rendered_pdf": "/tmp/codex-physres-ai-punctuation-20261019/qa_en/Yuan.pdf",
   "all_pages_examined": [
     1,
     2,
@@ -20,10 +20,10 @@
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1015.12040/skills/documents/render_docx.py",
   "python": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
-  "ai_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking,. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+  "ai_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
   "ai_declaration_word_count": 26,
-  "matches_supplied_text_exactly": true,
-  "user_supplied_punctuation_preserved": true,
+  "matches_requested_text_exactly": true,
+  "checking_period_confirmed": true,
   "official_pdf_updated": true,
   "pages": [
     {
@@ -44,7 +44,7 @@
     {
       "page": 4,
       "status": "PASS",
-      "findings": "Concluding discussion, declarations and references fit cleanly. User-supplied 26-word AI declaration occupies lines 166-168 and matches literal source including checking,. punctuation."
+      "findings": "Concluding discussion, declarations and references fit cleanly. The 26-word AI declaration occupies lines 166-168, visibly ends first sentence with data checking. and matches requested text."
     },
     {
       "page": 5,

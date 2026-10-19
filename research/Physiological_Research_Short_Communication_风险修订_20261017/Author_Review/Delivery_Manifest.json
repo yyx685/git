@@ -14,6 +14,11 @@
       "sha256": "8ea21c39ffcc6231bdd750308f39c072c24ad18a5029b6375d4b28feebc0cbce"
     },
     {
+      "file": "Author_Review/AI_Punctuation_Edit_Record_20261019.json",
+      "bytes": 988,
+      "sha256": "d3b796b1b55e9c8069d98dae8cd007600c6da35c1cd7c21e7493ef5c80c0f4ed"
+    },
+    {
       "file": "Author_Review/AI_User_Wording_Edit_Record_20261019.json",
       "bytes": 1997,
       "sha256": "c3a0bb92024bccc0983266f1929f6082e9c3d400d7153a060b9bd8ca7d1e6782"
@@ -45,13 +50,13 @@
     },
     {
       "file": "Author_Review/Editorial_Revision_Record.json",
-      "bytes": 3914,
-      "sha256": "ef21583940315ac4311351d799a75e02399febbc2d1409ff4d2e29341d705321"
+      "bytes": 5089,
+      "sha256": "629dfd35dbe8500021724bba4b43bace197ed010cafc1e630585281f267d5aef"
     },
     {
       "file": "Author_Review/English_Visual_QA.json",
-      "bytes": 3145,
-      "sha256": "6f4dd0b424b9d01c1f9c5c5151f073cf6825fab7172deeee44a2b72499adb75c"
+      "bytes": 3149,
+      "sha256": "dc87533cd25e1316572e714b951bf6ed85553b5926289ebf09c5cc998f4539ae"
     },
     {
       "file": "Author_Review/Figure_Preparation_Audit.json",
@@ -60,8 +65,8 @@
     },
     {
       "file": "Author_Review/Final_Delivery_Verification.json",
-      "bytes": 4398,
-      "sha256": "fb96da5c073a7de7437bb4b1a89674c06fc6b21fbbd3ead055cc3853f90431b4"
+      "bytes": 4686,
+      "sha256": "4c87ccc4b76bd783946f332f3499ac6a71a82c3ad4fa976f2fe28df73e50ec21"
     },
     {
       "file": "Author_Review/Metadata_Repair.json",
@@ -95,18 +100,18 @@
     },
     {
       "file": "Author_Review/Scientific_Integrity_QA.json",
-      "bytes": 116638,
-      "sha256": "197f82fdefce7ca21cdb47fb9c2a0e0115d13a2ee3097bc32a77de90d9402d5c"
+      "bytes": 117889,
+      "sha256": "639aec5e71328b6dfd962d5f5e030904051fd9be3c406d81fe1798db384614bc"
     },
     {
       "file": "Author_Review/Submission_Attachment_List.json",
       "bytes": 4985,
-      "sha256": "db8a0eff0765cebb42dd01f65f516a79b53ca89463854dc05154f617a89f8e65"
+      "sha256": "453f9ef75bba1a0c975fd79701df5f868c6eab937e5acf5fad1f957a749d30e2"
     },
     {
       "file": "Author_Review/Submission_Status.json",
-      "bytes": 840,
-      "sha256": "d02662a0015d317794355f79b783e288ae531c2dd993b29f220dd8fa0b931b9c"
+      "bytes": 863,
+      "sha256": "b4f27336f071b1cf4cdf853db177f6d6494b9bc814808325e7c409007dd70f05"
     },
     {
       "file": "Author_Review/Supplementary_Visual_QA.json",
@@ -240,18 +245,18 @@
     },
     {
       "file": "Yuan.docx",
-      "bytes": 783760,
-      "sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582"
+      "bytes": 783757,
+      "sha256": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 405123,
-      "sha256": "86205f5cfb3c8d84e4c6de2aa3e71c9fb615083de1123ac0e754b783301cb95f"
+      "bytes": 405113,
+      "sha256": "5d3ac39c06100f1f8253afb0a8d6ad862b128532333bf411303501facfe8b59f"
     },
     {
       "file": "Yuan_Short_Communication_待发送邮件.eml",
-      "bytes": 16058692,
-      "sha256": "7d97628ad65dc5b14eedbf73f118f9180f14cf8f679bd1a12dc68fe5fab8deef"
+      "bytes": 16058676,
+      "sha256": "0cc451c2a9b2afdf6e99ce2b002607166a0f16c53826df525e37ef355cf6efde"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -270,8 +275,8 @@
     },
     {
       "file": "作者指定AI声明替换说明_20261019.md",
-      "bytes": 966,
-      "sha256": "cdd5a5d1cf82ab9cb70430d8fadfefe6b7b6ba7fef78556b78e93457d251da29"
+      "bytes": 1301,
+      "sha256": "a3293ef3d17c5e7bc8489164d588c6a63d83c1341fd1b0af5d7f86a67adf3a66"
     },
     {
       "file": "同刊短文参照说明_20261019.md",
@@ -285,13 +290,13 @@
     },
     {
       "file": "本轮六项风险修订说明.md",
-      "bytes": 7545,
-      "sha256": "a0cd58f988db759595f432cfee7c88c6d3572dff7c0ce7b4157e4667651d7ed3"
+      "bytes": 7880,
+      "sha256": "5df57eaa36b58aa96256eac20acb42bd48c7d5a69c781b09254bcb076b4fd659"
     }
   ],
   "excludes": [
     "Author_Review/Delivery_Manifest.json",
     ".DS_Store"
   ],
-  "scope_note": "Existing recorded paths plus author-requested AI wording record/note; user-extracted untracked source directories and system files excluded."
+  "scope_note": "Existing recorded paths plus punctuation-only edit record; untracked extracted source folders and system files excluded."
 }

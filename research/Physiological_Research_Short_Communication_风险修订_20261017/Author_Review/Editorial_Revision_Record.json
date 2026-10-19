@@ -63,9 +63,24 @@
   "latest_AI_declaration_change": {
     "scope": "Literal author-requested replacement; Chinese equivalent synchronized.",
     "words": 26,
-    "original_punctuation_preserved": true,
+    "original_punctuation_preserved": false,
     "preceding_AI_declaration_record_is_historical": true,
     "actual_prior_analysis_provenance_preserved_in_review_records": true,
+    "journal_disclosure_completeness_not_certified": true,
+    "punctuation_fix": "Author subsequently requested checking,. -> checking.; all other declaration wording retained."
+  },
+  "AI_punctuation_revision_20261019": {
+    "date": "2026-10-19",
+    "scope": "Single punctuation correction only: checking,. -> checking.",
+    "file": "Yuan.docx",
+    "before_sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
+    "after_sha256": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d",
+    "before_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking,. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+    "after_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+    "document_xml_exactly_one_comma_removed": true,
+    "all_other_zip_entries_byte_identical": true,
+    "scientific_content_data_statistics_figures_unchanged": true,
+    "Chinese_copy_unchanged": true,
     "journal_disclosure_completeness_not_certified": true
   }
 }

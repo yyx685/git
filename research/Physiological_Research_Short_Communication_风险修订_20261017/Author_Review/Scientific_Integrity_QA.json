@@ -3,7 +3,7 @@
   "date": "2026-10-17",
   "old_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
   "new_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017",
-  "scope": "Read-only preservation and evidence-boundary audit, no inferential statistics recomputed and no formal source modified. On 2026-10-19 only the AI disclosure was condensed; all other paragraphs, native equations and non-document XML entries were byte/canonical-identical to the checked source. No numerical or statistical reanalysis was performed in this disclosure edit. Subsequent same-journal reference review on 2026-10-19 changed the study-aim framing, findings-first results order, unmatched week-8 qualifier and bounded conclusion. Numerical results, methods, native equations, reference list, captions, source data and figure files were preserved. The concise English AI declaration was repaired for punctuation and kept consistent with the actual assistance scope already stated in Chinese. Later on 2026-10-19, only the AI declaration was replaced with the author-supplied wording. Scientific text, numerical results, methods, equations, data and figures were unchanged. Layout and packaging QA do not certify the completeness of this shorter disclosure; actual prior analytical assistance remains documented in the audit history.",
+  "scope": "Read-only preservation and evidence-boundary audit, no inferential statistics recomputed and no formal source modified. On 2026-10-19 only the AI disclosure was condensed; all other paragraphs, native equations and non-document XML entries were byte/canonical-identical to the checked source. No numerical or statistical reanalysis was performed in this disclosure edit. Subsequent same-journal reference review on 2026-10-19 changed the study-aim framing, findings-first results order, unmatched week-8 qualifier and bounded conclusion. Numerical results, methods, native equations, reference list, captions, source data and figure files were preserved. The concise English AI declaration was repaired for punctuation and kept consistent with the actual assistance scope already stated in Chinese. Later on 2026-10-19, only the AI declaration was replaced with the author-supplied wording. Scientific text, numerical results, methods, equations, data and figures were unchanged. Layout and packaging QA do not certify the completeness of this shorter disclosure; actual prior analytical assistance remains documented in the audit history. Subsequent punctuation-only correction on 2026-10-19 removed the comma in checking,. No other document XML bytes or source ZIP entries were changed; English PDF and unsent attachments synchronized.",
   "checks": {
     "Yuan.docx_native_OMML_unchanged": true,
     "Yuan_中文.docx_native_OMML_unchanged": true,
@@ -71,7 +71,7 @@
   },
   "all_scientific_checks_pass": true,
   "formal_DOCX_sha256": {
-    "Yuan.docx": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
+    "Yuan.docx": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d",
     "Yuan_中文.docx": "23aa64069ad448494d9ffd16406b6b2dc78994b034445e20d827003ef7bf6490",
     "Yuan_supplementary_information.docx": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
     "Yuan_cover_letter.docx": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58"
@@ -1036,5 +1036,19 @@
     "english_words": 2094,
     "summary_words": 131,
     "new_disclosure_words": 26
+  },
+  "AI_punctuation_revision_20261019": {
+    "date": "2026-10-19",
+    "scope": "Single punctuation correction only: checking,. -> checking.",
+    "file": "Yuan.docx",
+    "before_sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
+    "after_sha256": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d",
+    "before_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking,. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+    "after_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+    "document_xml_exactly_one_comma_removed": true,
+    "all_other_zip_entries_byte_identical": true,
+    "scientific_content_data_statistics_figures_unchanged": true,
+    "Chinese_copy_unchanged": true,
+    "journal_disclosure_completeness_not_certified": true
   }
 }
