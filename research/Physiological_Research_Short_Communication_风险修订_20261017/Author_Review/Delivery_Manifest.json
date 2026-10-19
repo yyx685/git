@@ -1,8 +1,18 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-19",
   "package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017",
   "source_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
   "files": [
+    {
+      "file": "AI披露简化说明_20261019.md",
+      "bytes": 1376,
+      "sha256": "91eff3bca8089886b15a15e0466d955cc8e052c9468bf1579283c456461a166b"
+    },
+    {
+      "file": "Author_Review/AI_Disclosure_Edit_Record_20261019.json",
+      "bytes": 2285,
+      "sha256": "8ea21c39ffcc6231bdd750308f39c072c24ad18a5029b6375d4b28feebc0cbce"
+    },
     {
       "file": "Author_Review/Author_Clarifications_20261016.json",
       "bytes": 1379,
@@ -20,8 +30,8 @@
     },
     {
       "file": "Author_Review/Chinese_Visual_QA.json",
-      "bytes": 5833,
-      "sha256": "bc4cc6b8a2d8728cb4a48196f623335c77ca56701a18d0c90d763f8a3cd63cb5"
+      "bytes": 2973,
+      "sha256": "52f343d64849e8b552dac09b5cd70d5eb2a775682409e10c99168888510c3dad"
     },
     {
       "file": "Author_Review/Cover_Visual_QA.json",
@@ -30,13 +40,13 @@
     },
     {
       "file": "Author_Review/Editorial_Revision_Record.json",
-      "bytes": 2521,
-      "sha256": "8d78628687745e8859662ecda02dd98b1d8a8506667cfe09f6a6fb6b45274743"
+      "bytes": 3032,
+      "sha256": "93bb163c005cb2caaffb0263453033c10156b64c5caa22ba28641a7529978b77"
     },
     {
       "file": "Author_Review/English_Visual_QA.json",
-      "bytes": 5846,
-      "sha256": "f1c3eb2bcc1337b16c8c454dd8411b9d8094d923bc83f76b8a22a3771bbcdabe"
+      "bytes": 3037,
+      "sha256": "e4fcc12915880edf44f780c8864aad098414eedc7a0690ba5837081eb25a8c1c"
     },
     {
       "file": "Author_Review/Figure_Preparation_Audit.json",
@@ -45,8 +55,8 @@
     },
     {
       "file": "Author_Review/Final_Delivery_Verification.json",
-      "bytes": 3405,
-      "sha256": "bb8c999837d4cda28d2578812485f38daa8ba15d13842a947143239d78e9ec7d"
+      "bytes": 3658,
+      "sha256": "002f4739bf7df63f507ba227fd5a5a333442cfd6419da25b9fc8cf9bb0a1b771"
     },
     {
       "file": "Author_Review/Metadata_Repair.json",
@@ -75,18 +85,18 @@
     },
     {
       "file": "Author_Review/Scientific_Integrity_QA.json",
-      "bytes": 97339,
-      "sha256": "f0a2cec000b70479ce171db957220e725b4ca494f9586cad6040114d1b29f4d4"
+      "bytes": 99972,
+      "sha256": "5f5c8f1d0c8060454979f457f4622549aade20b7c0510f05524fa87299babb84"
     },
     {
       "file": "Author_Review/Submission_Attachment_List.json",
       "bytes": 4985,
-      "sha256": "969d137883ea843ab0d3bbc2c8d15928eae5470e06a62cbd785aa36ba95604e4"
+      "sha256": "d16a7d01b70577956795a1dee7f85f51ce82e529a2be57ef87d1ffcf3cd60abc"
     },
     {
       "file": "Author_Review/Submission_Status.json",
-      "bytes": 816,
-      "sha256": "08f8ac8f600826590c2bf8ebed3e8fc18b358026e4b1a2fd8707341a647ecd70"
+      "bytes": 841,
+      "sha256": "17d9d0123d49b8a2556ab4fbcb6838aa6493a3cfa11c024c45e3111fb1dc3510"
     },
     {
       "file": "Author_Review/Supplementary_Visual_QA.json",
@@ -220,18 +230,18 @@
     },
     {
       "file": "Yuan.docx",
-      "bytes": 779386,
-      "sha256": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db"
+      "bytes": 779295,
+      "sha256": "211b481ef623dbbecd2b2849e7ae7bd9d3df66f37a4ca6c23e1803d49b991ea4"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 405262,
-      "sha256": "4a392733968ee13060b2461688219cd9923cb8a174a3fd6bde9229f393c36ff4"
+      "bytes": 404985,
+      "sha256": "b6cec2faab41ed6076df12f26c9765fd0593a4ed9a80e6aaf293142468861f62"
     },
     {
       "file": "Yuan_Short_Communication_待发送邮件.eml",
-      "bytes": 16052898,
-      "sha256": "68cb64abeb398f2c171058d710ad4d8e9af36f143825f1a45a63d0e3097015e2"
+      "bytes": 16052388,
+      "sha256": "39ec2ef2a238b0ff9b33228139bd5185b4989f7873628dbd46eb5787ee2cdf28"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -245,8 +255,8 @@
     },
     {
       "file": "Yuan_中文.docx",
-      "bytes": 779752,
-      "sha256": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e"
+      "bytes": 779665,
+      "sha256": "b4d676da3a92e8ee89730bec78580e958a23c2b77f918b0e6aa7dddaf0c60236"
     },
     {
       "file": "投稿邮件正文.txt",
@@ -255,12 +265,13 @@
     },
     {
       "file": "本轮六项风险修订说明.md",
-      "bytes": 6015,
-      "sha256": "1396000193168e319e6f0c63fb2d419a78c09a338c38114e45bf635529119f95"
+      "bytes": 6402,
+      "sha256": "116535036d5aca9f4a262eb61d11310013261812c37e8e37295d53398734cbd0"
     }
   ],
   "excludes": [
     "Author_Review/Delivery_Manifest.json",
     ".DS_Store"
-  ]
+  ],
+  "scope_note": "Existing manifest paths plus the two new AI-disclosure records only. User-extracted/untracked source directories and system files excluded."
 }

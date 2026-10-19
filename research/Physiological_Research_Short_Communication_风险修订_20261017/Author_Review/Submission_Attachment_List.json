@@ -3,17 +3,17 @@
   "sender": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
   "sent": false,
   "attachment_count": 20,
-  "total_bytes": 11725682,
+  "total_bytes": 11725314,
   "attachments": [
     {
       "file": "Yuan.docx",
-      "bytes": 779386,
-      "sha256": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db"
+      "bytes": 779295,
+      "sha256": "211b481ef623dbbecd2b2849e7ae7bd9d3df66f37a4ca6c23e1803d49b991ea4"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 405262,
-      "sha256": "4a392733968ee13060b2461688219cd9923cb8a174a3fd6bde9229f393c36ff4"
+      "bytes": 404985,
+      "sha256": "b6cec2faab41ed6076df12f26c9765fd0593a4ed9a80e6aaf293142468861f62"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -107,7 +107,7 @@
     }
   ],
   "excluded": "Chinese author copy; author-review audits; Markdown notes; duplicate TIFF/PDF/SVG/PNG main-figure backups; supplementary TIFFs already embedded in supplementary Word. Prior source-figure archive remains in the preserved previous package.",
-  "checked_date": "2026-10-17",
+  "checked_date": "2026-10-19",
   "main_figures": [
     "Figures/Yuan_fig1.jpg",
     "Figures/Yuan_fig2.jpg"

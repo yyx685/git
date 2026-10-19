@@ -3,7 +3,7 @@
   "date": "2026-10-17",
   "old_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
   "new_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017",
-  "scope": "Read-only preservation and evidence-boundary audit, no inferential statistics recomputed and no formal source modified.",
+  "scope": "Read-only preservation and evidence-boundary audit, no inferential statistics recomputed and no formal source modified. On 2026-10-19 only the AI disclosure was condensed; all other paragraphs, native equations and non-document XML entries were byte/canonical-identical to the checked source. No numerical or statistical reanalysis was performed in this disclosure edit.",
   "checks": {
     "Yuan.docx_native_OMML_unchanged": true,
     "Yuan_中文.docx_native_OMML_unchanged": true,
@@ -71,12 +71,12 @@
   },
   "all_scientific_checks_pass": true,
   "formal_DOCX_sha256": {
-    "Yuan.docx": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db",
-    "Yuan_中文.docx": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e",
+    "Yuan.docx": "211b481ef623dbbecd2b2849e7ae7bd9d3df66f37a4ca6c23e1803d49b991ea4",
+    "Yuan_中文.docx": "b4d676da3a92e8ee89730bec78580e958a23c2b77f918b0e6aa7dddaf0c60236",
     "Yuan_supplementary_information.docx": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
     "Yuan_cover_letter.docx": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58"
   },
-  "english_word_count": 2062,
+  "english_word_count": 2049,
   "summary_word_count": 131,
   "word_count_method": "Join w:t+m:t within direct body paragraphs, then whitespace split; includes front matter, summary, declarations, 8 references and figure legends.",
   "supporting_files": [
@@ -901,5 +901,33 @@
     "embedded_media_unchanged": true,
     "scope": "CJK font and paragraph spacing/title size correction only; content unchanged."
   },
-  "audit_metadata_follow_up_resolved": "Figure 1 PDF/SVG output hashes synchronized with retained byte-identical formal figures."
+  "audit_metadata_follow_up_resolved": "Figure 1 PDF/SVG output hashes synchronized with retained byte-identical formal figures.",
+  "AI_disclosure_only_revision_20261019": {
+    "date": "2026-10-19",
+    "scope": "Concise AI disclosure only; actual analytical assistance retained. Tool CLI version is not represented as a model version.",
+    "changes": {
+      "Yuan.docx": {
+        "before_sha256": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db",
+        "after_sha256": "211b481ef623dbbecd2b2849e7ae7bd9d3df66f37a4ca6c23e1803d49b991ea4",
+        "before_disclosure": "Codex (OpenAI; final-revision CLI 0.162.0-alpha.17.2, ChatGPT desktop 26.1007.30912; October 2026; underlying model identifier unarchived) assisted with editing, organization, methodological review, worksheet checking, statistical reanalysis and conventional analysis/plotting code. Authors verified the outputs and take responsibility. No experimental data or images were generated.",
+        "after_disclosure": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing, data checking, statistical reanalysis and plotting. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+        "only_direct_body_paragraph_changed": 32,
+        "all_other_paragraphs_and_formulas_unchanged": true,
+        "all_other_zip_entries_byte_identical": true
+      },
+      "Yuan_中文.docx": {
+        "before_sha256": "bbe80e3c81387b4845203eb45264f546f56e3d2efc81178df2c3297d23dad03e",
+        "after_sha256": "b4d676da3a92e8ee89730bec78580e958a23c2b77f918b0e6aa7dddaf0c60236",
+        "before_disclosure": "使用Codex（OpenAI；终稿修订时CLI版本0.162.0-alpha.17.2、ChatGPT桌面版26.1007.30912；2026年10月；未归档底层模型标识）辅助编辑、内容组织、方法学审阅、表格核查、统计重分析及常规分析/绘图代码。作者核验输出并承担责任。未生成实验数据或实验图像。",
+        "after_disclosure": "作者使用Codex（OpenAI；CLI版本0.162.0-alpha.17.2）辅助稿件编辑、数据核查、统计重分析和绘图。作者已审阅并核实相关输出，对最终稿件承担全部责任。",
+        "only_direct_body_paragraph_changed": 32,
+        "all_other_paragraphs_and_formulas_unchanged": true,
+        "all_other_zip_entries_byte_identical": true
+      }
+    },
+    "english_words": 2049,
+    "summary_words": 131,
+    "old_disclosure_words": 42,
+    "new_disclosure_words": 29
+  }
 }

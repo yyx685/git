@@ -1,111 +1,57 @@
 {
-  "status": "PASS_LAYOUT_WITH_SCIENTIFIC_AND_ETHICS_LIMITATIONS_RETAINED",
-  "docx_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.docx",
-  "docx_sha256": "4b04c0279fc55f2ba3334d784f99d2b07c0f250ec05a1690b8810ace655f31db",
-  "pdf_path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.pdf",
-  "pdf_sha256": "4a392733968ee13060b2461688219cd9923cb8a174a3fd6bde9229f393c36ff4",
-  "render_directory": "/tmp/codex-physres-risk-revision-20261017/qa_en_final_meta",
-  "pages": 7,
-  "reviewed_pages": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
-  ],
-  "image_review": "All seven complete page PNGs opened with view_image detail=original; separate Fig. 2 JPEG and single-page PDF render also opened and inspected. After core metadata repair, all seven final PNG hashes exactly matched the fully reviewed pages; visual QA therefore carries forward unchanged.",
-  "checks": {
-    "all_pages_readable_no_overlap_clipping_missing_glyphs": true,
-    "no_orphan_heading_or_final_blank_page": true,
-    "native_qPCR_formula_complete_page2": true,
-    "main_figures1_2_complete_with_captions_pages6_7": true,
-    "figure2_new_normalized_estimate_axis_clear": true,
-    "figure2_stars_nox1_two_one_nox4_three_two": true,
-    "week4_week4_week8_labels_consistent": true,
-    "figure2_JPEG_and_PDF_content_match_visually": true,
-    "reported_approval_and_missing_letter_protocol_disclosed": true,
-    "nine_of50_deaths18percent_and_noanalgesia_disclosed": true,
-    "no_written_justification_specific_authorization_retained_disclosed": true,
-    "reported_sampling_independence_and_missing_identity_records_qualified": true,
-    "qPCR_specificity_not_confirmed_and_quantities_exploratory": true,
-    "O12_fluorescence_auxiliary_unvalidated": true,
-    "same_time_SOD_MDA_emphasized_without_causal_claim": true
-  },
-  "separate_figures_reviewed": [
+  "status": "PASS - All 7 English pages inspected at original image detail; equation, 29-word AI declaration, and both figures render cleanly.",
+  "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.docx",
+  "docx_sha256": "211b481ef623dbbecd2b2849e7ae7bd9d3df66f37a4ca6c23e1803d49b991ea4",
+  "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.pdf",
+  "pdf_sha256": "b6cec2faab41ed6076df12f26c9765fd0593a4ed9a80e6aaf293142468861f62",
+  "rendered_pdf": "/tmp/codex-physres-ai-concise-20261019/qa_en/Yuan.pdf",
+  "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1015.12040/skills/documents/render_docx.py",
+  "python": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+  "ai_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing, data checking, statistical reanalysis and plotting. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+  "ai_declaration_word_count": 29,
+  "page_count": 7,
+  "inspection_detail": "original",
+  "pages": [
     {
-      "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Figures/Yuan_fig2.jpg",
-      "sha256": "38f157b5035e603fff6cb777f25b9b3dce68df3c0f0eaedc010facb64b7fb5b1",
-      "status": "PASS"
+      "page": 1,
+      "status": "PASS",
+      "checks": "Title, authors, affiliations, Summary, keywords and opening prose are readable; line numbers and footer aligned; no clipping or overlap."
     },
     {
-      "file": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Figures/Yuan_fig2.pdf",
-      "sha256": "2f93ea65008ed51a57d4443193f863185e1ffbb902bfeced1a7c2ebd37c41580",
-      "pages": 1,
-      "render_path": "/tmp/codex-physres-risk-revision-20261017/figure2_pdf.png",
-      "status": "PASS"
+      "page": 2,
+      "status": "PASS",
+      "checks": "Methods prose and native Q = 2^(-Delta Cq) formula render with legible exponent and Greek characters; no clipping or overlap."
+    },
+    {
+      "page": 3,
+      "status": "PASS",
+      "checks": "Statistics, result values, italic gene symbols and Greek characters render legibly; continuation and footer are clean; no clipping or overlap."
+    },
+    {
+      "page": 4,
+      "status": "PASS",
+      "checks": "Acknowledgments, Conflict of Interest, Author contributions, Data availability and 29-word AI declaration fit cleanly; AI declaration occupies lines 163-165 with no truncation; references begin cleanly."
+    },
+    {
+      "page": 5,
+      "status": "PASS",
+      "checks": "Remaining references render legibly and footer is clean; open space follows completed references before separately paginated figures."
+    },
+    {
+      "page": 6,
+      "status": "PASS",
+      "checks": "Figure 1 panels A-C are complete; axes, group labels, points, error bars and significance brackets are legible; caption is complete on same page; no cropping or overlap."
+    },
+    {
+      "page": 7,
+      "status": "PASS",
+      "checks": "Figure 2 panels A-B are complete; Nox1/Nox4 labels, axes, groups, points, error bars and significance brackets are legible; complete caption fits on same page; no cropping or overlap."
     }
   ],
-  "layout_notes": [
-    "Seven pages are intentional for the expanded transparent reporting: references 1–3 conclude page 4 and references 4–8 continue on page 5; figures occupy separate pages 6 and 7. This is not a one-reference orphan page.",
-    "Paragraph continuation at page boundaries is readable; all declaration headings remain attached to their text."
+  "formal_file_changes": [
+    "Yuan.pdf"
   ],
-  "notes": [
-    "This is visual/layout and wording QA, not independent validation of ethics approval, sample identities, assays or statistical independence.",
-    "Only the formal PDF was written by this agent; DOCX and underlying data untouched. No additional marker was run because root already completed the revision markers."
-  ],
-  "previous_docx_sha256": "9b8591f521bfa8a167c348c6a22ec810f9e28f09510c0c40bc39bcd614229573",
-  "previous_pdf_sha256": "62e2c576468593ee01a367bb0df536cfa44244144318db7d2e6eec4e26d71172",
-  "metadata_repair_verification": {
-    "change": "root corrected core title and subject metadata only; document content, images and equation unchanged per Metadata_Repair.json",
-    "evidence": "/tmp/codex-physres-risk-revision-20261017/Metadata_Repair.json",
-    "final_core_title": "Regional medullary redox indices and exploratory RT-qPCR findings in rats with atlantoaxial joint disorder",
-    "final_core_subject": "Physiological Research Short Communication",
-    "all_7_final_PNGs_hash_identical_to_full_visual_QA": true,
-    "page_comparisons": [
-      {
-        "page": 1,
-        "previous_png_sha256": "25a8b7ce11a836e46fed3664fd34f0d2755cd2d0dcfdfc2f89a96657586a69b8",
-        "final_png_sha256": "25a8b7ce11a836e46fed3664fd34f0d2755cd2d0dcfdfc2f89a96657586a69b8",
-        "identical": true
-      },
-      {
-        "page": 2,
-        "previous_png_sha256": "d1ff827f5027e5c80c175e3ab15db044b51cd6724f95dce042d91c6a948c6c38",
-        "final_png_sha256": "d1ff827f5027e5c80c175e3ab15db044b51cd6724f95dce042d91c6a948c6c38",
-        "identical": true
-      },
-      {
-        "page": 3,
-        "previous_png_sha256": "7a64a61bf32eb2d9d1a3415fa5a31ccec9af8571a28166db0b5009e870e29663",
-        "final_png_sha256": "7a64a61bf32eb2d9d1a3415fa5a31ccec9af8571a28166db0b5009e870e29663",
-        "identical": true
-      },
-      {
-        "page": 4,
-        "previous_png_sha256": "75e03ef1d72acacb3e1cb7c9a4219bb2c8251e299a116411554e3afff1e6e7b0",
-        "final_png_sha256": "75e03ef1d72acacb3e1cb7c9a4219bb2c8251e299a116411554e3afff1e6e7b0",
-        "identical": true
-      },
-      {
-        "page": 5,
-        "previous_png_sha256": "fb33b5dcb680594e1f6f1f04b98cd36937c2aad7557323f6d4dcf47f0474e30d",
-        "final_png_sha256": "fb33b5dcb680594e1f6f1f04b98cd36937c2aad7557323f6d4dcf47f0474e30d",
-        "identical": true
-      },
-      {
-        "page": 6,
-        "previous_png_sha256": "ed5affdf22de0fad19981c5166c9f6ae4c0c21d81b36aa57525492c894992945",
-        "final_png_sha256": "ed5affdf22de0fad19981c5166c9f6ae4c0c21d81b36aa57525492c894992945",
-        "identical": true
-      },
-      {
-        "page": 7,
-        "previous_png_sha256": "687af7831f100c545bf398762946508d64ab4924ecaedfa64c9ad8ef4f4122f8",
-        "final_png_sha256": "687af7831f100c545bf398762946508d64ab4924ecaedfa64c9ad8ef4f4122f8",
-        "identical": true
-      }
-    ]
-  }
+  "docx_unchanged": true,
+  "git_operations": false
 }

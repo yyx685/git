@@ -1,6 +1,6 @@
 {
   "article_type": "Short Communication",
-  "english_words_including_title_summary_declarations_references_captions_and_native_math": 2062,
+  "english_words_including_title_summary_declarations_references_captions_and_native_math": 2049,
   "summary_words": 131,
   "references": 8,
   "main_figures": 2,
@@ -42,7 +42,15 @@
     "gene_specificity_validated": false,
     "date_or_ethics_number_changed": false
   },
-  "revision_date": "2026-10-17",
+  "revision_date": "2026-10-19",
   "title": "Regional medullary redox indices and exploratory RT-qPCR findings in rats with atlantoaxial joint disorder",
-  "supplementary_native_tables": 2
+  "supplementary_native_tables": 2,
+  "AI_disclosure_revision": {
+    "date": "2026-10-19",
+    "old_declaration_words": 42,
+    "new_declaration_words": 29,
+    "change": "Condensed to two sentences; retained manuscript editing, data checks, statistical reanalysis/plotting and author verification/responsibility. Removed client-installation details, not analytical assistance.",
+    "declared_version_is": "Codex CLI software version, not an inferred underlying model version.",
+    "scientific_text_data_statistics_figures_changed": false
+  }
 }
