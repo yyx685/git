@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-19",
+  "archive": "Physiological_Research_Short_Communication_20261019.zip",
+  "archive_bytes": 22721841,
+  "archive_sha256": "05c58d1f72f119aeafe2454c22fad0a05c92d96c5e59f61be168f416860cf4f0",
+  "source_commit": "4e341c210c1d16ffd93efd86b90df41a6b6dd1b0",
+  "submission_attachment_count": 20,
+  "archive_entries": 25,
+  "all_source_and_mime_hashes_match": true,
+  "ZIP_CRC_and_all_entry_hashes_match": true,
+  "no_system_files_or_internal_review_records": true,
+  "main_manuscript_typo_fixed": true,
+  "mail_sent": false,
+  "copied_files_changed": false,
+  "files_in_archive": [
+    {
+      "file": "01_Submission_Attachments/Figures/Yuan_fig1.jpg",
+      "bytes": 636591,
+      "sha256": "ff122b3728133067abcaa7f7f157fe4603df7184e68c6499560f448b7c1daf44"
+    },
+    {
+      "file": "01_Submission_Attachments/Figures/Yuan_fig2.jpg",
+      "bytes": 453971,
+      "sha256": "38f157b5035e603fff6cb777f25b9b3dce68df3c0f0eaedc010facb64b7fb5b1"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S1_Appendix_Reproduce_RVLM_Statistics.py",
+      "bytes": 4027,
+      "sha256": "673e9965bbbb023a8bd0fa6a9d4888a21a473f6198ce6c2d3ac225a02c34570b"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "bytes": 4140,
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S2_Appendix_Reproduce_RTqPCR.py",
+      "bytes": 12845,
+      "sha256": "41f66e8a4a442c98eb524a52077710b137aa793c683a0e256ab737d68d4aa8eb"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "bytes": 3290,
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S3_Appendix_Plot_Archived_BP.py",
+      "bytes": 4547,
+      "sha256": "ed69ae97fbd3816302c7c9a91ba6a529c963bbe4aa9964748d3716b3aae18997"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S3_Data_Archived_BP_Recorded_Values.csv",
+      "bytes": 15415,
+      "sha256": "647214b43f438199a69f8f59837aa3e86f31aadaa3a596167f5128f8adf2cfaf"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "bytes": 7982,
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S4_Appendix_Plot_Main_Figures.py",
+      "bytes": 4231,
+      "sha256": "5a6e9c92554915469e7d589100f41fff18416af155fc055e508c38fc60b08b94"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S4_Data_Archived_BP_Entered_Summaries.csv",
+      "bytes": 2226,
+      "sha256": "7f045973dd7be7809d3492ffae78071817cb8f7bbaae82b4b6e930959c9a5554"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "bytes": 129087,
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S5_Appendix_Plot_Source_Style_Figures.py",
+      "bytes": 8487,
+      "sha256": "f80b1c5a231dcb0b08091129ef6abcd89ed6d8c4d4325340653b7b1c2caf8046"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S5_File_Archived_BP_Workbook.xlsx",
+      "bytes": 15741,
+      "sha256": "fe103414fb204806c16a0f06c034287af41652d9b5778acdc57a1f5394ee635d"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S6_File_HE_Supplied_Composite.jpg",
+      "bytes": 641860,
+      "sha256": "e06996d76f00ee2b9c000e9960922b4b7fd704aa6527bbf320397d65c2f27468"
+    },
+    {
+      "file": "01_Submission_Attachments/Supporting_Information/S7_File_RTqPCR_Original_Exports.zip",
+      "bytes": 2567868,
+      "sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
+    },
+    {
+      "file": "01_Submission_Attachments/Yuan.docx",
+      "bytes": 783757,
+      "sha256": "25c8a79a06dc84174da507a0ece0a2d4875c388e9e5a0414b8a9bf1b6fc6326d"
+    },
+    {
+      "file": "01_Submission_Attachments/Yuan.pdf",
+      "bytes": 405113,
+      "sha256": "5d3ac39c06100f1f8253afb0a8d6ad862b128532333bf411303501facfe8b59f"
+    },
+    {
+      "file": "01_Submission_Attachments/Yuan_cover_letter.docx",
+      "bytes": 39309,
+      "sha256": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58"
+    },
+    {
+      "file": "01_Submission_Attachments/Yuan_supplementary_information.docx",
+      "bytes": 5989417,
+      "sha256": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a"
+    },
+    {
+      "file": "02_Email_Draft/Yuan_Short_Communication_待发送邮件.eml",
+      "bytes": 16058676,
+      "sha256": "0cc451c2a9b2afdf6e99ce2b002607166a0f16c53826df525e37ef355cf6efde"
+    },
+    {
+      "file": "02_Email_Draft/投稿邮件正文.txt",
+      "bytes": 2477,
+      "sha256": "1a8fc3968180c7e40efc46ef7cda42edfcc294f0ae38f2dc9d7241d8822bc68f"
+    },
+    {
+      "file": "Package_Manifest.json",
+      "bytes": 11730,
+      "sha256": "c2f2a8f0c7d1c9cd510a076804d8104e4c8d3e6e50960b6133ddcf72074d02df"
+    },
+    {
+      "file": "使用说明.txt",
+      "bytes": 1504,
+      "sha256": "d570763af08b5221298b699c54006eb2a4ef00c21b0ccfbb95c2051be0917ce7"
+    },
+    {
+      "file": "附件清单.csv",
+      "bytes": 3662,
+      "sha256": "798835e4b2626847791d9e924947012a8b6fdc7f6749e47cd2bff39892d153fe"
+    }
+  ]
+}
