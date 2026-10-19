@@ -1,67 +1,75 @@
 {
   "status": "PASS — 全7页以原始分辨率逐页目视检查通过",
   "source_docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan_中文.docx",
-  "sha256": "c151ebd77e4ff0e743d6a0657b610b89a6d981e5496df29ff5abf8c9939d7e13",
+  "sha256": "23aa64069ad448494d9ffd16406b6b2dc78994b034445e20d827003ef7bf6490",
   "page_count": 7,
-  "render_directory": "/tmp/codex-physres-metformin-reference-20261019/qa_zh",
+  "render_directory": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh",
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1015.12040/skills/documents/render_docx.py",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
   "fontconfig_file": "/tmp/codex-physres-20261015/fontconfig/fonts.conf",
   "font_settings": "既有 Songti SC 设置保留；本次为只读QA。",
   "review_method": "canonical render后，7页PNG全部通过view_image detail original逐页目视检查。",
+  "scope": "仅检查最终渲染排版及字形完整性，不代表期刊AI披露合规认证。",
   "findings": [],
   "pages": [
     {
       "page": 1,
       "status": "PASS",
-      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-1.png",
+      "image": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/page-1.png",
+      "sha256": "b0f2fc7fb1bf6fe9f5ed5ef7ebf727d3f99b1261560da33d3a96804b6e86563b",
       "findings": [],
-      "conclusion": "标题、作者、摘要与修订引言清晰；中文、基因名及引文编号完整，无裁切、重叠或异常间距。"
+      "conclusion": "标题、作者、摘要及引言完整清晰；中文、基因名及引文编号无丢字，无裁切、重叠或异常间距。"
     },
     {
       "page": 2,
       "status": "PASS",
-      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-2.png",
+      "image": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/page-2.png",
+      "sha256": "8a483cd7e314a29edd864b65d28a2bc8bc2bdd6deb6beababa292fef55ae9d85",
       "findings": [],
-      "conclusion": "方法文字和内联公式完整；Q = 2 的负ΔCq上标、β、单位及中文均清晰，无丢字或上下裁切。"
+      "conclusion": "方法及内联公式完整；Q = 2 的负ΔCq上标、β、单位及中文清晰，无丢字或上下裁切。"
     },
     {
       "page": 3,
       "status": "PASS",
-      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-3.png",
+      "image": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/page-3.png",
+      "sha256": "847390af6923804d6eddf10642741c233d6b87afed7dbf088f57a1727e50eded",
       "findings": [],
-      "conclusion": "统计及结果文字完整；数值、±、希腊字母和检验符号清晰，无裁切、重叠或异常间距。"
+      "conclusion": "统计、结果与讨论文字完整；数值、±、希腊字母和检验符号清晰，无裁切、重叠或异常间距。"
     },
     {
       "page": 4,
       "status": "PASS",
-      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-4.png",
+      "image": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/page-4.png",
+      "sha256": "27af5bd227022258d275b900ca56951bffa05ba481c16ee5710c1abd7b22c9d3",
       "findings": [],
-      "conclusion": "讨论及作者声明文字完整；各节间距、行号及页码正常，中文无缺字或裁切。"
+      "conclusion": "讨论及作者声明完整；各节间距、行号及页码正常，中文无缺字或裁切。"
     },
     {
       "page": 5,
       "status": "PASS",
-      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-5.png",
+      "image": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/page-5.png",
+      "sha256": "dfdef7aa6193499147dc0278959020a7d5b3468a11677fe8c896eb3a4cc02f95",
       "findings": [],
-      "conclusion": "AI使用声明和8条参考文献完整；版本字符串、编号、英文换行及中文清晰，无重叠、裁切或异常间距。"
+      "conclusion": "修改后的AI使用声明清晰显示为两行，稿件编辑和数据核查及作者核实责任文字完整；8条参考文献排版完整，无溢出、重叠或裁切。"
     },
     {
       "page": 6,
       "status": "PASS",
-      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-6.png",
+      "image": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/page-6.png",
+      "sha256": "f2b52b6bed8112e17c5f690f2e1f917b5c857f67fa352804e433ed75928cb6f9",
       "findings": [],
       "conclusion": "图1三面板及完整图注清晰；坐标、显著性符号、数据点和中文无裁切，图文间距正常。"
     },
     {
       "page": 7,
       "status": "PASS",
-      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-7.png",
+      "image": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/page-7.png",
+      "sha256": "ea178a92d5e55c9aa158fe03c3165de63b4eaae13955d67f3afe514a37996208",
       "findings": [],
       "conclusion": "图2两面板及完整图注清晰；坐标、显著性符号、数据点、β及ΔCq无缺失或裁切，页内位置正常。"
     }
   ],
-  "internal_pdf": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/Yuan_中文.pdf",
-  "internal_pdf_sha256": "a8a95b11f0e7b990c818d936c592a4264d7d97879623b1b43c343f4fecaaabbd",
+  "internal_pdf": "/tmp/codex-physres-ai-user-wording-20261019/qa_zh/Yuan_中文.pdf",
+  "internal_pdf_sha256": "553f09e66c2513275f32f99c585750938a3e2b107d4014441b60691e91ea67af",
   "source_unchanged_after_qa": true
 }

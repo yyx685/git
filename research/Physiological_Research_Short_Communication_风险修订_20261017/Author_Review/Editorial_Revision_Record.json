@@ -1,6 +1,6 @@
 {
   "article_type": "Short Communication",
-  "english_words_including_title_summary_declarations_references_captions_and_native_math": 2097,
+  "english_words_including_title_summary_declarations_references_captions_and_native_math": 2094,
   "summary_words": 131,
   "references": 8,
   "main_figures": 2,
@@ -59,5 +59,13 @@
     "scope": "Reference-informed narrative edits only: study aim, findings-first results, unmatched week-8 qualifier and bounded conclusion. English declaration punctuation repaired and actual assistance scope kept consistent with the Chinese version and preceding checked declaration.",
     "data_statistics_figures_changed": false,
     "experimental_or_ethics_gaps_resolved": false
+  },
+  "latest_AI_declaration_change": {
+    "scope": "Literal author-requested replacement; Chinese equivalent synchronized.",
+    "words": 26,
+    "original_punctuation_preserved": true,
+    "preceding_AI_declaration_record_is_historical": true,
+    "actual_prior_analysis_provenance_preserved_in_review_records": true,
+    "journal_disclosure_completeness_not_certified": true
   }
 }

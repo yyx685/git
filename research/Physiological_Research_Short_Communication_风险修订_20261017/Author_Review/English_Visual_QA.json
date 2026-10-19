@@ -1,11 +1,12 @@
 {
-  "status": "PASS - All seven final English pages visually inspected at original resolution; clean layout, equation, both figures and corrected 29-word AI statement.",
+  "status": "PASS - Layout and source conformity only; all seven final English pages visually inspected at original resolution.",
+  "scope": "Visual layout QA and literal conformity to user-supplied declaration. No journal disclosure compliance assessment.",
   "source": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.docx",
-  "source_sha256": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986",
-  "docx_sha256": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986",
+  "source_sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
+  "docx_sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
   "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.pdf",
-  "pdf_sha256": "542c81a4697d070cfe5f7b9eb9298f8345d8d5a8cce04242548d8fecece63ba1",
-  "rendered_pdf": "/tmp/codex-physres-metformin-reference-20261019/qa_en_final/Yuan.pdf",
+  "pdf_sha256": "86205f5cfb3c8d84e4c6de2aa3e71c9fb615083de1123ac0e754b783301cb95f",
+  "rendered_pdf": "/tmp/codex-physres-ai-user-wording-20261019/qa_en/Yuan.pdf",
   "all_pages_examined": [
     1,
     2,
@@ -19,15 +20,16 @@
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1015.12040/skills/documents/render_docx.py",
   "python": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
-  "ai_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing, data checking, statistical reanalysis and plotting. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
-  "ai_declaration_word_count": 29,
-  "required_29_word_ai_statement_remains": true,
+  "ai_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking,. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+  "ai_declaration_word_count": 26,
+  "matches_supplied_text_exactly": true,
+  "user_supplied_punctuation_preserved": true,
   "official_pdf_updated": true,
   "pages": [
     {
       "page": 1,
       "status": "PASS",
-      "findings": "Title, authors, Summary and revised introductory prose fit cleanly; no clipping, overlap or footer collision."
+      "findings": "Title, authors, Summary and introductory prose fit cleanly; no clipping, overlap or footer collision."
     },
     {
       "page": 2,
@@ -37,12 +39,12 @@
     {
       "page": 3,
       "status": "PASS",
-      "findings": "Statistics, revised results prose and discussion render cleanly; numerical and Greek characters remain legible."
+      "findings": "Statistics, results prose and discussion render cleanly; numerical and Greek characters remain legible."
     },
     {
       "page": 4,
       "status": "PASS",
-      "findings": "Concluding discussion, declarations and references fit cleanly. Corrected 29-word AI declaration occupies lines 166-168, retains editing, data checking, statistical reanalysis and plotting scope, and has no punctuation defect."
+      "findings": "Concluding discussion, declarations and references fit cleanly. User-supplied 26-word AI declaration occupies lines 166-168 and matches literal source including checking,. punctuation."
     },
     {
       "page": 5,

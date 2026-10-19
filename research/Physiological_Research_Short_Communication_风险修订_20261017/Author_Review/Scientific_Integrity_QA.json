@@ -3,7 +3,7 @@
   "date": "2026-10-17",
   "old_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_投稿版_20261016",
   "new_package": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017",
-  "scope": "Read-only preservation and evidence-boundary audit, no inferential statistics recomputed and no formal source modified. On 2026-10-19 only the AI disclosure was condensed; all other paragraphs, native equations and non-document XML entries were byte/canonical-identical to the checked source. No numerical or statistical reanalysis was performed in this disclosure edit. Subsequent same-journal reference review on 2026-10-19 changed the study-aim framing, findings-first results order, unmatched week-8 qualifier and bounded conclusion. Numerical results, methods, native equations, reference list, captions, source data and figure files were preserved. The concise English AI declaration was repaired for punctuation and kept consistent with the actual assistance scope already stated in Chinese.",
+  "scope": "Read-only preservation and evidence-boundary audit, no inferential statistics recomputed and no formal source modified. On 2026-10-19 only the AI disclosure was condensed; all other paragraphs, native equations and non-document XML entries were byte/canonical-identical to the checked source. No numerical or statistical reanalysis was performed in this disclosure edit. Subsequent same-journal reference review on 2026-10-19 changed the study-aim framing, findings-first results order, unmatched week-8 qualifier and bounded conclusion. Numerical results, methods, native equations, reference list, captions, source data and figure files were preserved. The concise English AI declaration was repaired for punctuation and kept consistent with the actual assistance scope already stated in Chinese. Later on 2026-10-19, only the AI declaration was replaced with the author-supplied wording. Scientific text, numerical results, methods, equations, data and figures were unchanged. Layout and packaging QA do not certify the completeness of this shorter disclosure; actual prior analytical assistance remains documented in the audit history.",
   "checks": {
     "Yuan.docx_native_OMML_unchanged": true,
     "Yuan_中文.docx_native_OMML_unchanged": true,
@@ -71,12 +71,12 @@
   },
   "all_scientific_checks_pass": true,
   "formal_DOCX_sha256": {
-    "Yuan.docx": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986",
-    "Yuan_中文.docx": "c151ebd77e4ff0e743d6a0657b610b89a6d981e5496df29ff5abf8c9939d7e13",
+    "Yuan.docx": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
+    "Yuan_中文.docx": "23aa64069ad448494d9ffd16406b6b2dc78994b034445e20d827003ef7bf6490",
     "Yuan_supplementary_information.docx": "de6557a83ccb6806582b548c1c6097412e3b6f2ad5bcde0deef748f877c0cb0a",
     "Yuan_cover_letter.docx": "820dfd1e3d2bb4ec1062222bc5b37ca0a6a2f95afc4f0cb3e86ad11dfb8c3b58"
   },
-  "english_word_count": 2097,
+  "english_word_count": 2094,
   "summary_word_count": 131,
   "word_count_method": "Join w:t+m:t within direct body paragraphs, then whitespace split; includes front matter, summary, declarations, 8 references and figure legends.",
   "supporting_files": [
@@ -1006,5 +1006,35 @@
     "english_words": 2097,
     "summary_words": 131,
     "AI_disclosure_words": 29
+  },
+  "AI_user_wording_revision_20261019": {
+    "date": "2026-10-19",
+    "scope": "User-requested literal AI declaration replacement; no scientific text or analysis changed.",
+    "user_requested_english_punctuation_preserved": true,
+    "prior_analysis_and_plotting_provenance_not_deleted": true,
+    "journal_compliance_not_assessed_or_certified": true,
+    "changes": {
+      "Yuan.docx": {
+        "before_sha256": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986",
+        "after_sha256": "fdd2b1dfd5347091bfb8c3c715ef5f4323da7453c4502dd9500326d403e9c582",
+        "paragraph": 32,
+        "before_disclosure": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing, data checking, statistical reanalysis and plotting. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+        "after_disclosure": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking,. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
+        "all_other_paragraphs_and_formulas_unchanged": true,
+        "all_other_zip_entries_byte_identical": true
+      },
+      "Yuan_中文.docx": {
+        "before_sha256": "c151ebd77e4ff0e743d6a0657b610b89a6d981e5496df29ff5abf8c9939d7e13",
+        "after_sha256": "23aa64069ad448494d9ffd16406b6b2dc78994b034445e20d827003ef7bf6490",
+        "paragraph": 32,
+        "before_disclosure": "作者使用Codex（OpenAI；CLI版本0.162.0-alpha.17.2）辅助稿件编辑、数据核查、统计重分析和绘图。作者已审阅并核实相关输出，对最终稿件承担全部责任。",
+        "after_disclosure": "作者使用Codex（OpenAI；CLI版本0.162.0-alpha.17.2）辅助稿件编辑和数据核查。作者已审阅并核实相关输出，对最终稿件承担全部责任。",
+        "all_other_paragraphs_and_formulas_unchanged": true,
+        "all_other_zip_entries_byte_identical": true
+      }
+    },
+    "english_words": 2094,
+    "summary_words": 131,
+    "new_disclosure_words": 26
   }
 }
