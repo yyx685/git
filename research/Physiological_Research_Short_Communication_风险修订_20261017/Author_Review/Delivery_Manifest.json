@@ -5,8 +5,8 @@
   "files": [
     {
       "file": "AI披露简化说明_20261019.md",
-      "bytes": 1376,
-      "sha256": "91eff3bca8089886b15a15e0466d955cc8e052c9468bf1579283c456461a166b"
+      "bytes": 1483,
+      "sha256": "2e5bab15f3aa27d0c37f4ffec0789455cc8ab9fee45d23b0ea21ed9b32a02573"
     },
     {
       "file": "Author_Review/AI_Disclosure_Edit_Record_20261019.json",
@@ -30,8 +30,8 @@
     },
     {
       "file": "Author_Review/Chinese_Visual_QA.json",
-      "bytes": 2973,
-      "sha256": "52f343d64849e8b552dac09b5cd70d5eb2a775682409e10c99168888510c3dad"
+      "bytes": 3265,
+      "sha256": "6c1f5faf3f4b44a69d30a5ff5ca5826aaa20f76546a7fe22bf7a8076cf005b50"
     },
     {
       "file": "Author_Review/Cover_Visual_QA.json",
@@ -40,13 +40,13 @@
     },
     {
       "file": "Author_Review/Editorial_Revision_Record.json",
-      "bytes": 3032,
-      "sha256": "93bb163c005cb2caaffb0263453033c10156b64c5caa22ba28641a7529978b77"
+      "bytes": 3534,
+      "sha256": "117108a123153962525eca6c6df6251a91b8b96f7bafe958159d02fef5694b2e"
     },
     {
       "file": "Author_Review/English_Visual_QA.json",
-      "bytes": 3037,
-      "sha256": "e4fcc12915880edf44f780c8864aad098414eedc7a0690ba5837081eb25a8c1c"
+      "bytes": 3116,
+      "sha256": "2bdc0cd563f38710820330b63b1943f021353cd9f45dbe6e359ff1c3ccf9548a"
     },
     {
       "file": "Author_Review/Figure_Preparation_Audit.json",
@@ -55,8 +55,8 @@
     },
     {
       "file": "Author_Review/Final_Delivery_Verification.json",
-      "bytes": 3658,
-      "sha256": "002f4739bf7df63f507ba227fd5a5a333442cfd6419da25b9fc8cf9bb0a1b771"
+      "bytes": 4018,
+      "sha256": "a0321275e2fbaa41b718805a035695eb84f6dcc05aac75398a5ccc8d19e038fc"
     },
     {
       "file": "Author_Review/Metadata_Repair.json",
@@ -79,24 +79,29 @@
       "sha256": "fefa354b4e17886fbd370b01aba20766e41c44a81806d0ffb51a3c4e12f65e3c"
     },
     {
+      "file": "Author_Review/Reference_Narrative_Edit_Record_20261019.json",
+      "bytes": 13606,
+      "sha256": "73e573e077a014cc66604c6dd43354430be89b7236fe1e0116003f212ea8ad0f"
+    },
+    {
       "file": "Author_Review/SI_Cover_Metadata_Render_QA.json",
       "bytes": 187,
       "sha256": "f9c69bcda6f786c0341c9e056e122ec668341e32584296298fd6877902d40c16"
     },
     {
       "file": "Author_Review/Scientific_Integrity_QA.json",
-      "bytes": 99972,
-      "sha256": "5f5c8f1d0c8060454979f457f4622549aade20b7c0510f05524fa87299babb84"
+      "bytes": 114202,
+      "sha256": "9e7475929a33c1ced6bfb59d109f1a1af6eb9f99ce0b3a5535eeda6ed9274dc8"
     },
     {
       "file": "Author_Review/Submission_Attachment_List.json",
       "bytes": 4985,
-      "sha256": "d16a7d01b70577956795a1dee7f85f51ce82e529a2be57ef87d1ffcf3cd60abc"
+      "sha256": "2f1402d8eb2fbc8ad223f615951d41e2af3b9f358d8fb9562ef51b328a4a3748"
     },
     {
       "file": "Author_Review/Submission_Status.json",
-      "bytes": 841,
-      "sha256": "17d9d0123d49b8a2556ab4fbcb6838aa6493a3cfa11c024c45e3111fb1dc3510"
+      "bytes": 864,
+      "sha256": "6326415376f7d4cb6ced898830fddeed063eeb037e793dd72e2e3c2d88629dda"
     },
     {
       "file": "Author_Review/Supplementary_Visual_QA.json",
@@ -230,18 +235,18 @@
     },
     {
       "file": "Yuan.docx",
-      "bytes": 779295,
-      "sha256": "211b481ef623dbbecd2b2849e7ae7bd9d3df66f37a4ca6c23e1803d49b991ea4"
+      "bytes": 783770,
+      "sha256": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986"
     },
     {
       "file": "Yuan.pdf",
-      "bytes": 404985,
-      "sha256": "b6cec2faab41ed6076df12f26c9765fd0593a4ed9a80e6aaf293142468861f62"
+      "bytes": 405123,
+      "sha256": "542c81a4697d070cfe5f7b9eb9298f8345d8d5a8cce04242548d8fecece63ba1"
     },
     {
       "file": "Yuan_Short_Communication_待发送邮件.eml",
-      "bytes": 16052388,
-      "sha256": "39ec2ef2a238b0ff9b33228139bd5185b4989f7873628dbd46eb5787ee2cdf28"
+      "bytes": 16058704,
+      "sha256": "685efa215f216b777372b1c88cdb126bf7200a44bafe803b0c0a6dab619c520b"
     },
     {
       "file": "Yuan_cover_letter.docx",
@@ -255,8 +260,13 @@
     },
     {
       "file": "Yuan_中文.docx",
-      "bytes": 779665,
-      "sha256": "b4d676da3a92e8ee89730bec78580e958a23c2b77f918b0e6aa7dddaf0c60236"
+      "bytes": 779724,
+      "sha256": "c151ebd77e4ff0e743d6a0657b610b89a6d981e5496df29ff5abf8c9939d7e13"
+    },
+    {
+      "file": "同刊短文参照说明_20261019.md",
+      "bytes": 1855,
+      "sha256": "be8b0d2d4bf8aeb2bf4ec86035fb2900e1b948e6417e23b97e793b7587539055"
     },
     {
       "file": "投稿邮件正文.txt",
@@ -265,13 +275,13 @@
     },
     {
       "file": "本轮六项风险修订说明.md",
-      "bytes": 6402,
-      "sha256": "116535036d5aca9f4a262eb61d11310013261812c37e8e37295d53398734cbd0"
+      "bytes": 6966,
+      "sha256": "d451208fc0561062156ae5b76b99affc37ba7e16fe66dd7685d3606f3273f044"
     }
   ],
   "excludes": [
     "Author_Review/Delivery_Manifest.json",
     ".DS_Store"
   ],
-  "scope_note": "Existing manifest paths plus the two new AI-disclosure records only. User-extracted/untracked source directories and system files excluded."
+  "scope_note": "Existing manifest paths plus reference-review record and note only; user-extracted untracked source directories and system files excluded."
 }

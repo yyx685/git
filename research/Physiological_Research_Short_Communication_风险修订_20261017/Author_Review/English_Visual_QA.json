@@ -1,57 +1,68 @@
 {
-  "status": "PASS - All 7 English pages inspected at original image detail; equation, 29-word AI declaration, and both figures render cleanly.",
-  "docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.docx",
-  "docx_sha256": "211b481ef623dbbecd2b2849e7ae7bd9d3df66f37a4ca6c23e1803d49b991ea4",
+  "status": "PASS - All seven final English pages visually inspected at original resolution; clean layout, equation, both figures and corrected 29-word AI statement.",
+  "source": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.docx",
+  "source_sha256": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986",
+  "docx_sha256": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986",
   "pdf": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan.pdf",
-  "pdf_sha256": "b6cec2faab41ed6076df12f26c9765fd0593a4ed9a80e6aaf293142468861f62",
-  "rendered_pdf": "/tmp/codex-physres-ai-concise-20261019/qa_en/Yuan.pdf",
+  "pdf_sha256": "542c81a4697d070cfe5f7b9eb9298f8345d8d5a8cce04242548d8fecece63ba1",
+  "rendered_pdf": "/tmp/codex-physres-metformin-reference-20261019/qa_en_final/Yuan.pdf",
+  "all_pages_examined": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "inspection_detail": "original",
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1015.12040/skills/documents/render_docx.py",
   "python": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
   "ai_declaration": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing, data checking, statistical reanalysis and plotting. The authors reviewed and verified the outputs and take full responsibility for the final manuscript.",
   "ai_declaration_word_count": 29,
-  "page_count": 7,
-  "inspection_detail": "original",
+  "required_29_word_ai_statement_remains": true,
+  "official_pdf_updated": true,
   "pages": [
     {
       "page": 1,
       "status": "PASS",
-      "checks": "Title, authors, affiliations, Summary, keywords and opening prose are readable; line numbers and footer aligned; no clipping or overlap."
+      "findings": "Title, authors, Summary and revised introductory prose fit cleanly; no clipping, overlap or footer collision."
     },
     {
       "page": 2,
       "status": "PASS",
-      "checks": "Methods prose and native Q = 2^(-Delta Cq) formula render with legible exponent and Greek characters; no clipping or overlap."
+      "findings": "Methods and Q=2^(-Delta Cq) formula remain legible, with exponent and Greek symbols intact; no clipping or overlap."
     },
     {
       "page": 3,
       "status": "PASS",
-      "checks": "Statistics, result values, italic gene symbols and Greek characters render legibly; continuation and footer are clean; no clipping or overlap."
+      "findings": "Statistics, revised results prose and discussion render cleanly; numerical and Greek characters remain legible."
     },
     {
       "page": 4,
       "status": "PASS",
-      "checks": "Acknowledgments, Conflict of Interest, Author contributions, Data availability and 29-word AI declaration fit cleanly; AI declaration occupies lines 163-165 with no truncation; references begin cleanly."
+      "findings": "Concluding discussion, declarations and references fit cleanly. Corrected 29-word AI declaration occupies lines 166-168, retains editing, data checking, statistical reanalysis and plotting scope, and has no punctuation defect."
     },
     {
       "page": 5,
       "status": "PASS",
-      "checks": "Remaining references render legibly and footer is clean; open space follows completed references before separately paginated figures."
+      "findings": "References and footer render cleanly; intentional blank area before separately paginated figures."
     },
     {
       "page": 6,
       "status": "PASS",
-      "checks": "Figure 1 panels A-C are complete; axes, group labels, points, error bars and significance brackets are legible; caption is complete on same page; no cropping or overlap."
+      "findings": "Figure 1 panels A-C, axes, labels, data points, error bars, brackets and complete caption are intact on one page."
     },
     {
       "page": 7,
       "status": "PASS",
-      "checks": "Figure 2 panels A-B are complete; Nox1/Nox4 labels, axes, groups, points, error bars and significance brackets are legible; complete caption fits on same page; no cropping or overlap."
+      "findings": "Figure 2 panels A-B, Nox1/Nox4 labels, axes, data points, error bars, brackets and complete caption are intact on one page."
     }
   ],
-  "formal_file_changes": [
+  "docx_edited": false,
+  "formal_changes": [
     "Yuan.pdf"
   ],
-  "docx_unchanged": true,
   "git_operations": false
 }

@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-19",
+  "scope": "Reference-informed narrative edits only: study aim, findings-first results, unmatched week-8 qualifier and bounded conclusion. English declaration punctuation repaired and actual assistance scope kept consistent with the Chinese version and preceding checked declaration.",
+  "reference": {
+    "title": "Dose-Dependent Impact of Metformin on Osteoblast-Specific Biomarkers in Cultured Rat Primary Osteoblasts",
+    "citation": "Physiol. Res. 75:187-192,2026",
+    "doi": "10.33549/physiolres.935714",
+    "sha256": "74f9c20e70ffa4d8acbba484851112f7e8d7cde14598f5ff0fec9e97329818cc",
+    "pages_reviewed": 6,
+    "figures": 2,
+    "tables": 0,
+    "references": 22
+  },
+  "changes": {
+    "Yuan.docx": {
+      "before_sha256": "82f5e4d7567b4b28c093c64910629af5be1734dbac7efe9bb28b6d5158971f40",
+      "after_sha256": "26cccfd5acfcccdd1b08d31033368156e122f7dc786f397d3e51668d43a3b986",
+      "changed_paragraphs": [
+        13,
+        19,
+        20,
+        22,
+        32
+      ],
+      "before_text": {
+        "13": "A metallic implant in the rat atlantoaxial joint produces misalignment and blood-pressure elevation [1]. Oxidative stress is implicated in hypertension [2]; the rostral ventrolateral medulla (RVLM) regulates blood pressure [3], and experimental studies link regional redox disturbances to cardiovascular regulation [4,5]. We examined regional biochemical indices and exploratory Nox1/Nox4-targeted RT-qPCR estimates. Blood-pressure observations were shared with a related Ang II/AT1-R report [6], whereas the present biochemical and targeted RT-qPCR observations were not reported there.",
+        "19": "Across the terminal cohorts, Welch ANOVA gave F(2, 9.816) = 91.626 for SOD, F(2, 8.500) = 130.738 for MDA and F(2, 7.804) = 314.907 for fluorescence (all P < 0.001). In week-4 model versus sham records, SOD was 0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein, MDA 0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein, and fluorescence 3295.6 ± 216.3 versus 1326.9 ± 50.6 AU (Fig. 1; all Games–Howell-adjusted P < 0.001; Supplementary Table S1). Normalized Nox1-targeted assay estimates were 1.459 ± 0.156 versus 1.000 ± 0.134, and Nox4-targeted estimates 2.902 ± 0.558 versus 1.000 ± 0.233 (Fig. 2; Holm-adjusted P = 0.0037 and 0.0001).",
+        "20": "At the later restoration endpoint, SOD was 1.035 ± 0.101, MDA 0.213 ± 0.049 and fluorescence 2265.6 ± 131.6 in the same respective units; all differed from model values (adjusted P < 0.001). Relative to sham, MDA and fluorescence remained higher (P = 0.0033 and <0.001), whereas the SOD difference was nonsignificant (P = 0.2534). Restoration Nox1/Nox4-targeted estimates were 1.180 ± 0.090/1.645 ± 0.227, lower than model values (adjusted P = 0.0139/0.0037). Compared with sham, the Nox4-targeted estimate remained higher (P = 0.0099); the Nox1-targeted difference was nonsignificant (P = 0.0618). Nonsignificance does not establish equivalence or normalization. Full three-cohort statistics are supplied.",
+        "22": "Regional sampling and missing identity-linked records limit anatomical attribution and verification of biological replication. Later restoration observations confound implant removal with age, elapsed time, recovery and repeat anesthesia/surgery; common model origin does not remove this confounding. Omission of postoperative analgesia raises unresolved animal-welfare and pain/stress concerns. Disclosure cannot retrospectively establish that the procedures matched an approved protocol or that withholding analgesia was authorized. Small exploratory samples and male-only inclusion limit precision and generalizability. Same-time SOD/MDA observations deserve emphasis; causal or gene-expression conclusions require validated assays, traceable samples and time-matched controls.",
+        "32": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing and data checking,. The authors reviewed and verified the outputs and take full responsibility for the final manuscript."
+      },
+      "after_text": {
+        "13": "A metallic implant in the rat atlantoaxial joint produces misalignment and blood-pressure elevation [1]. Oxidative stress is implicated in hypertension [2]; the rostral ventrolateral medulla (RVLM) regulates blood pressure [3], and experimental studies link regional redox disturbances to cardiovascular regulation [4,5]. Here, we compared regional medullary SOD activity and MDA, with probe-associated fluorescence and Nox1/Nox4-targeted RT-qPCR estimates as exploratory measures. Interpretation emphasizes the concurrent week-4 model–sham comparison and treats the separate week-8 restoration cohort as a later observation. Blood-pressure observations were shared with a related Ang II/AT1-R report [6], whereas the present biochemical and targeted RT-qPCR observations were not reported there.",
+        "19": "At week 4, model records showed lower SOD activity and higher MDA and auxiliary fluorescence than concurrent sham records. SOD was 0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein, MDA 0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein, and fluorescence 3295.6 ± 216.3 versus 1326.9 ± 50.6 AU (Fig. 1; all Games–Howell-adjusted P < 0.001; Supplementary Table S1). Across the terminal cohorts, Welch ANOVA gave F(2, 9.816) = 91.626 for SOD, F(2, 8.500) = 130.738 for MDA and F(2, 7.804) = 314.907 for fluorescence (all P < 0.001). Normalized Nox1-targeted assay estimates were 1.459 ± 0.156 versus 1.000 ± 0.134, and Nox4-targeted estimates 2.902 ± 0.558 versus 1.000 ± 0.233 (Fig. 2; Holm-adjusted P = 0.0037 and 0.0001).",
+        "20": "At the later, unmatched week-8 restoration endpoint, SOD was 1.035 ± 0.101, MDA 0.213 ± 0.049 and fluorescence 2265.6 ± 131.6 in the same respective units; all differed from model values (adjusted P < 0.001). Relative to sham, MDA and fluorescence remained higher (P = 0.0033 and <0.001), whereas the SOD difference was nonsignificant (P = 0.2534). Restoration Nox1/Nox4-targeted estimates were 1.180 ± 0.090/1.645 ± 0.227, lower than model values (adjusted P = 0.0139/0.0037). Compared with sham, the Nox4-targeted estimate remained higher (P = 0.0099); the Nox1-targeted difference was nonsignificant (P = 0.0618). Nonsignificance does not establish equivalence or normalization. Full three-cohort statistics are supplied.",
+        "22": "Regional sampling and missing identity-linked records limit anatomical attribution and verification of biological replication. Later restoration observations confound implant removal with age, elapsed time, recovery and repeat anesthesia/surgery; common model origin does not remove this confounding. Omission of postoperative analgesia raises unresolved animal-welfare and pain/stress concerns. Disclosure cannot retrospectively establish that the procedures matched an approved protocol or that withholding analgesia was authorized. Small exploratory samples and male-only inclusion limit precision and generalizability. The concurrent week-4 SOD/MDA observations support a descriptive regional redox difference. Causal, RVLM-specific or gene-expression conclusions require validated assays, traceable samples and time-matched controls.",
+        "32": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript editing, data checking, statistical reanalysis and plotting. The authors reviewed and verified the outputs and take full responsibility for the final manuscript."
+      },
+      "all_other_paragraphs_byte_canonical_identical": true,
+      "all_other_zip_entries_identical": true,
+      "numerical_results_and_F_statistics_preserved": true,
+      "native_math_preserved": true,
+      "AI_disclosure_unchanged": false,
+      "AI_disclosure_repair": "Fixed comma-period typo in source and restored the concise 29-word disclosure already used in the Chinese text and preceding checked version; actual statistical-reanalysis/plotting assistance remains disclosed."
+    },
+    "Yuan_中文.docx": {
+      "before_sha256": "b4d676da3a92e8ee89730bec78580e958a23c2b77f918b0e6aa7dddaf0c60236",
+      "after_sha256": "c151ebd77e4ff0e743d6a0657b610b89a6d981e5496df29ff5abf8c9939d7e13",
+      "changed_paragraphs": [
+        13,
+        19,
+        20,
+        22
+      ],
+      "before_text": {
+        "13": "在大鼠寰枢关节植入金属异物可形成关节错位及血压升高模型[1]。氧化应激与高血压有关[2]；RVLM参与血压调节[3]，实验研究提示区域氧化还原紊乱与心血管调控相关[4,5]。本研究观察区域生化指标及探索性Nox1/Nox4靶向RT-qPCR估计。血压观察与相关Ang II/AT1-R论文共享[6]，而本稿生化及靶向RT-qPCR观察未在该文报告。",
+        "19": "在三个终末队列间，Welch方差分析的SOD为F(2, 9.816) = 91.626，MDA为F(2, 8.500) = 130.738，荧光为F(2, 7.804) = 314.907（P均＜0.001）。第4周模型与伪手术记录相比，SOD为0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白，MDA为0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白，荧光为3295.6 ± 216.3对1326.9 ± 50.6 AU（图1；Games–Howell校正后P均＜0.001；补充表S1）。归一化Nox1靶向检测估计为1.459 ± 0.156对1.000 ± 0.134，Nox4靶向估计为2.902 ± 0.558对1.000 ± 0.233（图2；Holm校正后P分别为0.0037和0.0001）。",
+        "20": "较晚复位终点，SOD为1.035 ± 0.101、MDA为0.213 ± 0.049、荧光为2265.6 ± 131.6，单位分别同前；与模型值均有差异（校正后P均＜0.001）。相对伪手术组，MDA及荧光仍较高（P分别为0.0033及＜0.001），SOD差异无统计学意义（P = 0.2534）。复位Nox1/Nox4靶向估计分别为1.180 ± 0.090/1.645 ± 0.227，低于模型值（校正后P分别为0.0139/0.0037）。相对伪手术组，Nox4靶向估计仍较高（P = 0.0099），Nox1靶向差异无统计学意义（P = 0.0618）。未显著不代表等效或恢复正常。随稿提供完整三队列统计。",
+        "22": "区域取材及身份关联记录缺失限制了解剖归属和生物学重复的复核。较晚复位观察混合了异物取出、年龄、时间进程、恢复及再次麻醉/手术的影响，共同造模来源不能消除这种混杂。未使用术后镇痛仍涉及未解决的动物福利及疼痛/应激问题；如实披露不能事后证明实际操作符合获批方案，或不镇痛获得了专项授权。探索性小样本和仅用雄性动物限制精度及推广性。应侧重同时间SOD/MDA描述性观察；因果或基因表达结论仍需经验证的检测、可追溯样本和时间匹配对照。"
+      },
+      "after_text": {
+        "13": "在大鼠寰枢关节植入金属异物可形成关节错位及血压升高模型[1]。氧化应激与高血压有关[2]；RVLM参与血压调节[3]，实验研究提示区域氧化还原紊乱与心血管调控相关[4,5]。本研究比较区域延髓SOD活性及MDA，并将探针相关荧光和Nox1/Nox4靶向RT-qPCR估计作为探索性指标。结果解释侧重第4周模型与伪手术的同期比较，另将第8周独立复位队列视为较晚时间点的观察。血压观察与相关Ang II/AT1-R论文共享[6]，而本稿生化及靶向RT-qPCR观察未在该文报告。",
+        "19": "第4周同期比较中，模型组较伪手术组SOD活性较低，MDA及辅助荧光较高。相应数值为：SOD为0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白，MDA为0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白，荧光为3295.6 ± 216.3对1326.9 ± 50.6 AU（图1；Games–Howell校正后P均＜0.001；补充表S1）。在三个终末队列间，Welch方差分析的SOD为F(2, 9.816) = 91.626，MDA为F(2, 8.500) = 130.738，荧光为F(2, 7.804) = 314.907（P均＜0.001）。归一化Nox1靶向检测估计为1.459 ± 0.156对1.000 ± 0.134，Nox4靶向估计为2.902 ± 0.558对1.000 ± 0.233（图2；Holm校正后P分别为0.0037和0.0001）。",
+        "20": "在较晚且时间不匹配的第8周复位终点，SOD为1.035 ± 0.101、MDA为0.213 ± 0.049、荧光为2265.6 ± 131.6，单位分别同前；与模型值均有差异（校正后P均＜0.001）。相对伪手术组，MDA及荧光仍较高（P分别为0.0033及＜0.001），SOD差异无统计学意义（P = 0.2534）。复位Nox1/Nox4靶向估计分别为1.180 ± 0.090/1.645 ± 0.227，低于模型值（校正后P分别为0.0139/0.0037）。相对伪手术组，Nox4靶向估计仍较高（P = 0.0099），Nox1靶向差异无统计学意义（P = 0.0618）。未显著不代表等效或恢复正常。随稿提供完整三队列统计。",
+        "22": "区域取材及身份关联记录缺失限制了解剖归属和生物学重复的复核。较晚复位观察混合了异物取出、年龄、时间进程、恢复及再次麻醉/手术的影响，共同造模来源不能消除这种混杂。未使用术后镇痛仍涉及未解决的动物福利及疼痛/应激问题；如实披露不能事后证明实际操作符合获批方案，或不镇痛获得了专项授权。探索性小样本和仅用雄性动物限制精度及推广性。第4周同期SOD/MDA观察支持区域氧化还原指标存在描述性差异；因果、RVLM特异或基因表达结论仍需经验证的检测、可追溯样本和时间匹配对照。"
+      },
+      "all_other_paragraphs_byte_canonical_identical": true,
+      "all_other_zip_entries_identical": true,
+      "numerical_results_and_F_statistics_preserved": true,
+      "native_math_preserved": true,
+      "AI_disclosure_unchanged": true
+    }
+  },
+  "english_words": 2097,
+  "summary_words": 131,
+  "AI_disclosure_words": 29
+}

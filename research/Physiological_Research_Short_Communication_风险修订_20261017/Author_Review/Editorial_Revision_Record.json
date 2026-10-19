@@ -1,6 +1,6 @@
 {
   "article_type": "Short Communication",
-  "english_words_including_title_summary_declarations_references_captions_and_native_math": 2049,
+  "english_words_including_title_summary_declarations_references_captions_and_native_math": 2097,
   "summary_words": 131,
   "references": 8,
   "main_figures": 2,
@@ -52,5 +52,12 @@
     "change": "Condensed to two sentences; retained manuscript editing, data checks, statistical reanalysis/plotting and author verification/responsibility. Removed client-installation details, not analytical assistance.",
     "declared_version_is": "Codex CLI software version, not an inferred underlying model version.",
     "scientific_text_data_statistics_figures_changed": false
+  },
+  "reference_narrative_revision": {
+    "date": "2026-10-19",
+    "reference_doi": "10.33549/physiolres.935714",
+    "scope": "Reference-informed narrative edits only: study aim, findings-first results, unmatched week-8 qualifier and bounded conclusion. English declaration punctuation repaired and actual assistance scope kept consistent with the Chinese version and preceding checked declaration.",
+    "data_statistics_figures_changed": false,
+    "experimental_or_ethics_gaps_resolved": false
   }
 }

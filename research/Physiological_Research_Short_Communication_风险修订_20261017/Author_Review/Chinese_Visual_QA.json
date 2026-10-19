@@ -1,59 +1,67 @@
 {
   "status": "PASS — 全7页以原始分辨率逐页目视检查通过",
   "source_docx": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Yuan_中文.docx",
-  "sha256": "b4d676da3a92e8ee89730bec78580e958a23c2b77f918b0e6aa7dddaf0c60236",
+  "sha256": "c151ebd77e4ff0e743d6a0657b610b89a6d981e5496df29ff5abf8c9939d7e13",
   "page_count": 7,
-  "render_directory": "/tmp/codex-physres-ai-concise-20261019/qa_zh",
+  "render_directory": "/tmp/codex-physres-metformin-reference-20261019/qa_zh",
   "renderer": "/Users/yyx/.codex/plugins/cache/openai-primary-runtime/documents/26.1015.12040/skills/documents/render_docx.py",
   "bundled_soffice": "/Users/yyx/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
   "fontconfig_file": "/tmp/codex-physres-20261015/fontconfig/fonts.conf",
-  "font_settings": "保留既有 Songti SC 字体设置；本次只读QA，未修改源DOCX。",
-  "review_method": "使用canonical renderer生成7页PNG，并逐页通过view_image detail original目视检查。",
+  "font_settings": "既有 Songti SC 设置保留；本次为只读QA。",
+  "review_method": "canonical render后，7页PNG全部通过view_image detail original逐页目视检查。",
+  "findings": [],
   "pages": [
     {
       "page": 1,
       "status": "PASS",
-      "image": "/tmp/codex-physres-ai-concise-20261019/qa_zh/page-1.png",
-      "conclusion": "标题、作者、摘要与正文清晰；中文无丢字，行号及页码位置正常，无裁切或重叠。"
+      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-1.png",
+      "findings": [],
+      "conclusion": "标题、作者、摘要与修订引言清晰；中文、基因名及引文编号完整，无裁切、重叠或异常间距。"
     },
     {
       "page": 2,
       "status": "PASS",
-      "image": "/tmp/codex-physres-ai-concise-20261019/qa_zh/page-2.png",
-      "conclusion": "方法文字及内联公式清晰；中英混排、数字和符号完整，行间距正常，无裁切或重叠。"
+      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-2.png",
+      "findings": [],
+      "conclusion": "方法文字和内联公式完整；Q = 2 的负ΔCq上标、β、单位及中文均清晰，无丢字或上下裁切。"
     },
     {
       "page": 3,
       "status": "PASS",
-      "image": "/tmp/codex-physres-ai-concise-20261019/qa_zh/page-3.png",
-      "conclusion": "统计、结果与讨论文字完整；上下标、希腊字母、斜体基因名及数字清晰，间距正常。"
+      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-3.png",
+      "findings": [],
+      "conclusion": "统计及结果文字完整；数值、±、希腊字母和检验符号清晰，无裁切、重叠或异常间距。"
     },
     {
       "page": 4,
       "status": "PASS",
-      "image": "/tmp/codex-physres-ai-concise-20261019/qa_zh/page-4.png",
-      "conclusion": "声明及作者信息排版完整；AI使用声明为两行，中文和版本字符串完整，无溢出、裁切或异常间距。"
+      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-4.png",
+      "findings": [],
+      "conclusion": "讨论及作者声明文字完整；各节间距、行号及页码正常，中文无缺字或裁切。"
     },
     {
       "page": 5,
       "status": "PASS",
-      "image": "/tmp/codex-physres-ai-concise-20261019/qa_zh/page-5.png",
-      "conclusion": "参考文献完整可读；编号、换行、行号及页码正常，无丢字、裁切或重叠。"
+      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-5.png",
+      "findings": [],
+      "conclusion": "AI使用声明和8条参考文献完整；版本字符串、编号、英文换行及中文清晰，无重叠、裁切或异常间距。"
     },
     {
       "page": 6,
       "status": "PASS",
-      "image": "/tmp/codex-physres-ai-concise-20261019/qa_zh/page-6.png",
-      "conclusion": "图1三面板、坐标、符号及图注完整清晰；图文间距正常，无裁切或重叠。"
+      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-6.png",
+      "findings": [],
+      "conclusion": "图1三面板及完整图注清晰；坐标、显著性符号、数据点和中文无裁切，图文间距正常。"
     },
     {
       "page": 7,
       "status": "PASS",
-      "image": "/tmp/codex-physres-ai-concise-20261019/qa_zh/page-7.png",
-      "conclusion": "图2两面板、坐标、符号及图注完整清晰；页内定位和间距正常，无裁切或重叠。"
+      "image": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/page-7.png",
+      "findings": [],
+      "conclusion": "图2两面板及完整图注清晰；坐标、显著性符号、数据点、β及ΔCq无缺失或裁切，页内位置正常。"
     }
   ],
-  "internal_pdf": "/tmp/codex-physres-ai-concise-20261019/qa_zh/Yuan_中文.pdf",
-  "internal_pdf_sha256": "13e4196bf688aa38f8d27d1b54e9154ba4b6c2abce17cbafe3afe0a0a14f3737",
+  "internal_pdf": "/tmp/codex-physres-metformin-reference-20261019/qa_zh/Yuan_中文.pdf",
+  "internal_pdf_sha256": "a8a95b11f0e7b990c818d936c592a4264d7d97879623b1b43c343f4fecaaabbd",
   "source_unchanged_after_qa": true
 }
