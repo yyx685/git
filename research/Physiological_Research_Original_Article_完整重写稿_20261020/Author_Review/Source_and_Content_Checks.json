@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "article_type": "Original Article",
   "journal": "Physiological Research",
-  "summary_words": 212,
+  "summary_words": 194,
   "running_title_characters": 49,
   "main_figures": 2,
   "references": 11,
@@ -82,21 +82,51 @@
   "review_status": "Complete new author-review draft; author review of this version remains necessary",
   "no_email_sent": true,
   "no_new_experiments_or_validation_claimed": true,
-  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3831,
+  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3235,
   "final_page_counts": {
-    "English": 13,
-    "Chinese": 12,
+    "English": 12,
+    "Chinese": 11,
     "Supplementary": 5
   },
   "numeric_statistics_reproduction_passed": true,
   "full_18_test_family_preserved": true,
   "visual_review": {
-    "English": "All 13 pages inspected; pages 1–11 pixel-identical to reviewed v2; final 12–13 reviewed after normalizing caption weight",
-    "Chinese": "All 12 final page images inspected",
-    "Supplementary": "All final pages inspected; two wrapped table headers fixed, primer sequences fit on single lines"
+    "English": "All 12 final page PNGs inspected; text, two figures and captions complete",
+    "Chinese": "All 11 final page PNGs inspected; Chinese and formula glyphs complete, figures and captions paired",
+    "Supplementary": "All 5 corrected final page PNGs inspected; five original tables and two embedded figures intact"
   },
   "journal_rules_checked": "Original Article max 5000 words, max 45 references, max 6 displays; summary max250, keywords max5, runningtitlemax60",
   "review_note": "This new version awaits author review and approval before submission; ORCID/Researcher IDs were not fabricated",
   "email_sent": false,
-  "source_documents_overwritten": false
+  "source_documents_overwritten": false,
+  "editorial_revision": {
+    "date": "2026-10-20",
+    "purpose": "Consolidate repeated qualifications while preserving material facts and uncertainty",
+    "before_words": 3831,
+    "after_words": 3235,
+    "all_result_number_tokens_unchanged": true,
+    "references_and_main_figure_legends_unchanged": true,
+    "five_supplementary_tables_unchanged": true,
+    "figure_and_numerical_file_checksums_unchanged": true,
+    "no_new_assay_validation_or_ethics_justification_claimed": true
+  },
+  "unchanged_figure_and_numerical_payload_sha256": {
+    "Figures/Yuan_fig1.jpg": "efd72afcdcbe2330971ad1f76f5d6aea266277605b4ef1ba1aba604b8c7cb98d",
+    "Figures/Yuan_fig1.png": "f7742d4aa1af34ce2d5ee98a179dd593d4e9bcf3efe356f8995e92aaedec988b",
+    "Figures/Yuan_fig1.svg": "28d0bb173544823a27efe62032324c9db263abd67100c2c4ab79a04dc63d4283",
+    "Figures/Yuan_fig2.jpg": "62b751b563f962ba249580117dc43d900870b9ee1de1458e0a6178b0e13d8ad2",
+    "Figures/Yuan_fig2.png": "51fc9eb7f36dde12eb7e68a20b4927e1f45bb5c17286684f4caff197f112d399",
+    "Figures/Yuan_fig2.svg": "db076a42c97149a6ee1aa8a5442cf47959604bd4e9d946e1ceaf476a1567ea94",
+    "Supporting_Information/Reproduce_Statistics.py": "32da0456502872be6421474de8ea25cb5d772d8a10e71cdf614e3d9b5a1ab4c9",
+    "Supporting_Information/Supplementary_Data_1_Biochemical_Values.csv": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+    "Supporting_Information/Supplementary_Data_2_Targeted_qPCR_Values.csv": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+    "Supporting_Information/Supplementary_Data_3_Original_qPCR_Panel.csv": "de53949c9b2f02e99ba6d11903849055162d7951d2f158201fb035b297f8a336",
+    "Supporting_Information/Supplementary_Fig_S1.jpg": "3506442388bcb2c31a20f1270c727483f3b05e5eb8909706293de7a5aa3c70bd",
+    "Supporting_Information/Supplementary_Fig_S1.png": "89c3d1120366c331987fe60d53642f0d1cea204fb2f957f74fdaad03a47d045b",
+    "Supporting_Information/Supplementary_Fig_S1.svg": "d89cec05985859a4ca1792319179e5d54cfa85e149bb33b9c1649ec867fa8734",
+    "Supporting_Information/Supplementary_Fig_S2_HE_Archived.jpg": "004dad6a9e98079cba3c0b41dcd135221048f79dca9242a9be74dc8cc4fa56fd",
+    "Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+    "Supporting_Information/Supplementary_File_1_Original_qPCR_Exports.zip": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3",
+    "Supporting_Information/Supplementary_Statistical_Results.json": "0deb1f7826d3aaeecfd2c10e1a2ca112adfdc9647de56908861cde6bbad0997c"
+  }
 }
