@@ -1,0 +1,76 @@
+{
+  "review_date": "2026-10-20",
+  "scope": "Read-only review of newly supplied initial draft; source preserved unchanged. No scientific rewriting, new experiment, inferential analysis or submission in this turn.",
+  "source_original_path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/antioxidant 0903(1).docx",
+  "archived_source": "antioxidant_0903_Original.docx",
+  "source_sha256": "fd921f9952a0a6aa1bd5863156560019d8877e50ed56adc289483bf240fef4ba",
+  "source_byte_identical_after_review": true,
+  "coverage": {
+    "paragraphs_read": 154,
+    "tables": 0,
+    "embedded_figures_viewed": 6,
+    "rendered_pages_all_visually_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "reference_numbers": 25,
+    "duplicate_pairs": [
+      [
+        9,
+        14
+      ],
+      [
+        10,
+        17
+      ]
+    ],
+    "targeted_reference_audit_not_full_reference_text_audit": true
+  },
+  "word_count_whitespace": {
+    "full_extracted_text": 3833,
+    "abstract": 262,
+    "introduction_through_conclusions_including_captions": 2547
+  },
+  "review_evidence_levels": {
+    "file_internal_observations": [
+      "P38 describes BP measurements only through week 4; P69/P71 claim within 8 weeks; Fig1 shows three group bars only.",
+      "P45 labels all SOD/MDA/ROS assays ELISA.",
+      "P75 serum n=10.",
+      "P89 tissue result paragraph repeats serum and incorrect Figure3A-C.",
+      "P51 statistical methods contain should were and unspecified alternative tests.",
+      "P49/P93/P95 claim WB quantification with n=3 although embedded image alone supplies only three representative lanes."
+    ],
+    "prior_investigator_confirmations_to_reconcile_not_new_independent_verification": [
+      "60-rat parent cohort with three 10-rat reported groups; four successful model animals reserved.",
+      "Sham/model terminal week4; separate restoration animals undergo implant removal at week4 and terminal week8.",
+      "Serum reportedly n=8; qPCR n=6 with target/reference same-column pairing; WB reportedly n=3.",
+      "Regional tissue includes RVLM and adjacent medulla.",
+      "Source animal/sample identity records, complete WB membranes and individual densitometry unavailable."
+    ]
+  },
+  "scientific_data_or_source_manuscript_changed": false,
+  "previous_submission_package_changed": false,
+  "email_sent": false,
+  "outputs": [
+    {
+      "file": "antioxidant_0903_Original.docx",
+      "bytes": 650236,
+      "sha256": "fd921f9952a0a6aa1bd5863156560019d8877e50ed56adc289483bf240fef4ba"
+    },
+    {
+      "file": "初稿评阅与修改路线.md",
+      "bytes": 11700,
+      "sha256": "31b8f80c24cd3a9f1a9f7795e0ad844654a05ba784a4a7d2e79c63ef1ac395ed"
+    }
+  ]
+}
