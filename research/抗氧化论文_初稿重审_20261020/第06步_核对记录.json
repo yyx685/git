@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-20",
+  "lesson": 6,
+  "scope": "Opening discussion of already-written regional biochemical observations; not complete paper discussion",
+  "paragraph": "本研究在第4周观察到，寰枢关节紊乱模型大鼠含RVLM及邻近延髓的组织SOD活性低于同期假手术组，TBA法测得的MDA相关读数较高。这些结果为进一步研究该模型的区域氧化还原变化提供了初步线索。第8周恢复队列的指标与第4周模型组不同；由于取材时点不同且缺少时间匹配的二次手术对照，这些差异不能单独归因于植入物移除。考虑到SOD检测条件验证不足及TBA法的特异性限制，上述观察仍需进一步验证，尚不足以确定ROS来源或NOX介导机制（Murphy等，2022）。",
+  "paragraph_characters": 227,
+  "source_evidence_records": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/抗氧化论文_初稿重审_20261020/第03步_核对记录.json",
+      "sha256": "4fe870413d0b07e723a2c686000488abed86a6f364de56c7afafc360a92a9af0"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/抗氧化论文_初稿重审_20261020/第04步_核对记录.json",
+      "sha256": "84b47ee91ab556f4916151142836c3be981bc4eab59ef63ff6fc717eb705a5af"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/抗氧化论文_初稿重审_20261020/第05步_核对记录.json",
+      "sha256": "c1803377d4f09f3fb8d97ebaa30bde99d4a700dbf0cb8b8e932a8df1eedb5f42"
+    }
+  ],
+  "external_reference": {
+    "authors": "Murphy MP et al.",
+    "year": 2022,
+    "title": "Guidelines for measuring reactive oxygen species and oxidative damage in cells and in vivo",
+    "doi": "10.1038/s42255-022-00591-z",
+    "journal_url": "https://www.nature.com/articles/s42255-022-00591-z",
+    "public_manuscript_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9711940/",
+    "use": "Detection interpretation, particularly TBA non-specificity; does not establish this rat model mechanism",
+    "access_note": "Direct PMC access challenged; indexed primary manuscript TBA paragraphs verified and journal metadata checked"
+  },
+  "no_new_statistical_testing": true,
+  "methods_and_results_in_working_draft_unchanged": true,
+  "independent_week4_week8_terminal_cohorts_preserved": true,
+  "does_not_claim_NOX_activity_or_specific_ROS_source": true,
+  "does_not_claim_restoration_causal_effect_or_equivalence": true,
+  "SOD_and_TBA_limits_preserved": true,
+  "original_docx_data_figures_submission_packages_unchanged": true,
+  "working_draft_before_sha256": "123ad9193d44723ab4076e6a6f57601075f1950f73141106ce50bbbce67a1599",
+  "working_draft_after_sha256": "bc24a43409fb69e88b60275367e2b6c3bae2570d0fa5221b807b938abadc40bd",
+  "next_task": "Explain NOX RT-qPCR/WB/activity evidence levels and work from existing records"
+}
