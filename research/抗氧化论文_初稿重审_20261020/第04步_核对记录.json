@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-20",
+  "lesson": 4,
+  "source_files": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "source_modified": false
+    }
+  ],
+  "summaries_verified": [
+    {
+      "endpoint": "SOD",
+      "group": "Sham-operated",
+      "records": 6,
+      "mean": 1.1218116789532617,
+      "sample_sd": 0.07219142132091602,
+      "mean_display": "1.122",
+      "sd_display": "0.072"
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Model",
+      "records": 6,
+      "mean": 0.5640206062256827,
+      "sample_sd": 0.07242676568621396,
+      "mean_display": "0.564",
+      "sd_display": "0.072"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Sham-operated",
+      "records": 6,
+      "mean": 0.09531269362219968,
+      "sample_sd": 0.017077404894084252,
+      "mean_display": "0.095",
+      "sd_display": "0.017"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Model",
+      "records": 6,
+      "mean": 0.34878755768534236,
+      "sample_sd": 0.03351995100609292,
+      "mean_display": "0.349",
+      "sd_display": "0.034"
+    }
+  ],
+  "pairwise_results_reused": [
+    {
+      "endpoint": "SOD",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": 0.557791072727579,
+      "CI95_low": 0.4433480251653253,
+      "CI95_high": 0.6722341202898328,
+      "q": 18.895295679929227,
+      "df": 9.999894070999474,
+      "p_adjusted": 2.892936645793043e-07,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": -0.2534748640631427,
+      "CI95_low": -0.298072294081184,
+      "CI95_high": -0.20887743404510134,
+      "q": 23.340641889213547,
+      "df": 7.431764632450646,
+      "p_adjusted": 1.0368106856395443e-06,
+      "n_1": 6,
+      "n_2": 6
+    }
+  ],
+  "omnibus_results_reused": [
+    {
+      "endpoint": "SOD",
+      "test": "Welch one-way ANOVA",
+      "F": 91.62611150437782,
+      "df1": 2,
+      "df2": 9.816358611262899,
+      "p": 4.466713517172705e-07,
+      "n_total": 18
+    },
+    {
+      "endpoint": "MDA",
+      "test": "Welch one-way ANOVA",
+      "F": 130.73770951254318,
+      "df1": 2,
+      "df2": 8.500092750959599,
+      "p": 4.138589367843851e-07,
+      "n_total": 18
+    }
+  ],
+  "multiple_testing_scope": "Three pairwise contrasts within each endpoint; no adjustment across endpoints",
+  "new_significance_testing": false,
+  "new_animal_ID_reconstruction": false,
+  "experimental_unit_basis": "Author-confirmed six independent rats per assay/group; records alone do not reconstruct animal-sample identity or cross-assay overlap",
+  "source_A_group": "Direct author confirmation in preceding turn: A is sham surgical exposure without implant, labelled normal in source sheet",
+  "SOD_recommendation_limit_retained": true,
+  "MDA_TBA_specificity_limit_retained": true,
+  "main_manuscript_changed": false,
+  "old_figures_changed": false,
+  "next_task": "Describe week-8 restoration cohort with explicit week-4 comparator and independent terminal samples",
+  "teaching_source": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf"
+}
