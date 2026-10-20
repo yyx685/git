@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "user_statement": "可以代表，本质上这是是同一个实验啊",
   "context": "Author corrects the categorical statement that thesis serum-method wavelengths cannot serve the current tissue methods",
-  "accepted_relationship": "Current manuscript and thesis originate from the same underlying experiment; the author states the thesis methods can serve as this manuscript method source",
+  "accepted_relationship": "Author confirms the thesis and current manuscript report the same experiment; all other experimental conditions and procedures are the same except the anesthetic. Explicitly documented corresponding thesis methods are accepted as the common method source.",
   "method_parameters_adopted_from_thesis_under_this_confirmation": {
     "SOD": {
       "incubation_temperature_C": 37,
@@ -31,7 +31,7 @@
     "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/91102_ZB16078_LW(1) - 副本.docx",
     "sha256": "6d42aa6f8db4cd5186b6f3e49786e7f5e94dbf1ac92ac86c02134f50d0db4474",
     "source_section": "3.3.2 血液SOD、MDA、ROS含量测定",
-    "relationship_provenance": "Direct author statement this turn; source section retained as labelled, not relabelled tissue instrument log"
+    "relationship_provenance": "Direct author statements in two consecutive turns, latest explicitly confirming all procedures are the same except the anesthetic; source section labels preserved."
   },
   "not_claimed": [
     "Independent tissue instrument log verified",
@@ -51,5 +51,27 @@
   "working_draft_results_unchanged": true,
   "removed_from_manuscript_body": "组织工作簿未记录实际读数波长；厂家建议值和学位论文血清方法的波长不能替代本批组织仪器记录。对应的加样、孵育、仪器设置和组织前处理还需与实际操作资料衔接。上述解释范围仅覆盖目前写入的两项组织检测，不代表已经完成整篇研究的全部方法、伦理及数据声明。",
   "work_before_sha256": "8ad0c74a2cbd078516df6f5872e71a5f01a8b3553290eee5cfa26414ba48c8f6",
-  "work_after_sha256": "dbb2238bbece2e2c0285ba3deeee1a0bf8c655eee5c1ff486858f5a58ddd2909"
+  "work_after_sha256": "dbb2238bbece2e2c0285ba3deeee1a0bf8c655eee5c1ff486858f5a58ddd2909",
+  "latest_author_clarification": "学位论文和这个是同一个实验，除了其麻醉剂不同，其他的都是一样的。",
+  "anesthesia_exception": {
+    "current_manuscript_anesthetic": "isoflurane inhalation",
+    "concentration_percent": 2,
+    "gas_flow_L_per_min": 1,
+    "procedures": [
+      "model induction",
+      "implant removal",
+      "terminal sampling"
+    ],
+    "basis": "Earlier direct author confirmation: 都采用2%异氟烷，1 L/min",
+    "thesis_alternative_anesthetic_not_adopted": true
+  },
+  "known_limits_not_changed_by_common_method_source": [
+    "Previously selected serum result dataset retained; no serum/tissue data substitution",
+    "Missing qPCR specificity/efficiency validation remains missing",
+    "No animal identity ledger or full WB membranes newly recovered",
+    "Independent week-4 and week-8 terminal cohorts and lack of matched controls retained"
+  ],
+  "latest_work_before_sha256": "dbb2238bbece2e2c0285ba3deeee1a0bf8c655eee5c1ff486858f5a58ddd2909",
+  "latest_work_after_sha256": "c642e1620522cd5b649175781589f7768decefa2204a746058c7f3e64257d816",
+  "original_work_before_after_hashes_retained_as_previous_revision": true
 }

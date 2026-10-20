@@ -593,6 +593,9 @@
     "MDA_readout_nm_adopted": 530,
     "historical_instrument_log_absence_does_not_preclude_reporting_author_confirmed_method": true,
     "independent_instrument_log_verification_not_claimed": true,
-    "manufacturer_MDA_recommendation_532_not_substituted_for_recorded_530": true
+    "manufacturer_MDA_recommendation_532_not_substituted_for_recorded_530": true,
+    "latest_author_clarification": "学位论文和这个是同一个实验，除了其麻醉剂不同，其他的都是一样的。",
+    "scope": "All corresponding experimental procedures are the same, with anesthesia as the author-confirmed exception",
+    "current_anesthesia": "Isoflurane 2%, gas flow 1 L/min for model induction, implant removal and terminal sampling"
   }
 }
