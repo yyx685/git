@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-20",
+  "source": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/0707.docx",
+  "source_sha256": "55303aea36338dfefa752d70c37d4c5d6050f99acb019b7e23b0988a259271b1",
+  "archive": "/Users/yyx/Desktop/git/git/research/抗氧化论文_初稿重审_20261020/0707_最早初稿原样归档.docx",
+  "archive_byte_identical": true,
+  "render_pages": 11,
+  "embedded_images": 5,
+  "numbered_experimental_figures": 4,
+  "additional_unnumbered_diagram": 1,
+  "no_word_tables": true,
+  "version_designation": "0707 earliest draft per author; 0903 later expanded version",
+  "same_embedded_figures": [
+    {
+      "0707_image": "image2.png",
+      "0903_image": "image2.png",
+      "identical": true
+    },
+    {
+      "0707_image": "image3.png",
+      "0903_image": "image5.png",
+      "identical": true
+    },
+    {
+      "0707_image": "image4.png",
+      "0903_image": "image6.png",
+      "identical": true
+    }
+  ],
+  "no_source_manuscript_edit": true,
+  "no_new_statistical_analysis": true,
+  "source_blocks": {
+    "aims": 16,
+    "bp_method_without_bp_results": 30,
+    "serum_method": 36,
+    "statistics_template": 42,
+    "serum_figure_n10": 54,
+    "wb_figure_n3": 60,
+    "qpcr_figure_n6": 67,
+    "local_assay_not_reported_limit": 78,
+    "mechanism_image": 79
+  },
+  "visual_qa": "All 11 pages inspected at original resolution by root (1–6) and delegated reviewer (7–11); all 5 images also inspected by root",
+  "next_lesson": "Animal group allocation and sampling times, then SOD/MDA methods/results"
+}
