@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "purpose": "First guided-writing lesson: question, endpoint meanings, evidence levels and a Chinese SOD/MDA results exercise.",
+  "statistical_analysis_recomputed": false,
+  "manuscript_or_figures_modified": false,
+  "independence_not_newly_verified": true,
+  "example_4_means_SD_and_pairwise_p_thresholds_match_existing_outputs": true,
+  "reading_QA": "PASS: numerical values, assay interpretation, timepoints and general-vs-current assay boundaries checked.",
+  "inputs": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/抗氧化论文_初稿重审_20261020/antioxidant_0903_Original.docx",
+      "sha256": "fd921f9952a0a6aa1bd5863156560019d8877e50ed56adc289483bf240fef4ba"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18"
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_新资料补充修订_20261014/Author_Review/MDA_Manual_Source_Audit.json",
+      "sha256": "0eee5be00241b2fdb546326fd270feccfc5dfc5ead874f20c58de5db3ab89da3"
+    }
+  ],
+  "lesson_file": "第01步_研究问题与指标说明.md",
+  "lesson_sha256": "6024cba3e51814723d3d394460771a832fcc69aac7ab529596eeabd4ca29a408",
+  "next_task": "Audit existing tissue SOD/MDA assay records, then write methods and corresponding results in Chinese followed by English."
+}
