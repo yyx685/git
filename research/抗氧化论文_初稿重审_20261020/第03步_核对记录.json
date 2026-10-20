@@ -1,0 +1,588 @@
+{
+  "date": "2026-10-20",
+  "lesson": 3,
+  "deliverable_scope": "Chinese methods and results teaching note; no manuscript or source edits",
+  "author_confirmation_A_group": {
+    "text": "是，A组就是假手术组，表内简称正常组",
+    "scope": "Actual surgical exposure without implant in tissue SOD/MDA A group",
+    "source": "Direct user reply in this turn"
+  },
+  "source_manifest": [
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-09/超氧化物歧化酶（SOD）.xls",
+      "sha256": "efbb326dab649a8f8ac7d05b5a4623f9ee6edd473fb482400ddf917264b91d96",
+      "bytes": 73728,
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Downloads/MMR_Figures_For_Author_Check/Oxidative_Verification/Input_Workbooks/MDA_RVLM.xlsx",
+      "sha256": "2fa4ba6e19c55c24cc3a9650d581165d89b965e41fa6c1df3e9f73bfb590b21d",
+      "bytes": 59716,
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/总超氧化物歧化酶（SOD）.pdf",
+      "sha256": "16f13ef36f448c49ad04ad2510981ac90e730ce31787a98ead342e655f67512d",
+      "bytes": 255660,
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/丙二醛（MDA）.pdf",
+      "sha256": "8ded4c0ab75771866509496eb075ea0c4d1d2bcd4ec265955cc691ca534beda5",
+      "bytes": 280482,
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "bytes": 4140,
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "bytes": 7982,
+      "source_modified": false
+    }
+  ],
+  "sod_workbook_check": {
+    "primary_workbook": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-09/超氧化物歧化酶（SOD）.xls",
+    "workbook_sha256": "efbb326dab649a8f8ac7d05b5a4623f9ee6edd473fb482400ddf917264b91d96",
+    "manual": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/总超氧化物歧化酶（SOD）.pdf",
+    "manual_sha256": "16f13ef36f448c49ad04ad2510981ac90e730ce31787a98ead342e655f67512d",
+    "workbook_cells": {
+      "sample_map": "Sheet1!B17:M18; P16:S19",
+      "sample_OD": "B5:M6",
+      "sample_blank_OD": "B11:M12",
+      "control_OD": "B4=0.6985",
+      "control_blank_OD": "C4=0.1858",
+      "protein_mg_per_mL": "B29:M30",
+      "inhibition": "B23:M24",
+      "activity_U_per_mg_protein": "B36:M37",
+      "formula_labels": "A41,A44"
+    },
+    "formula_inhibition": "I=1-(A_sample-A_sample_blank)/(A_control-A_control_blank)",
+    "formula_activity": "I/0.5*(0.24/0.02)/Cpr",
+    "formula_note": "Excel 100% evaluates to 1; I is fraction, not percentage-point value. The 0.24/0.02 factor is reaction-system/sample volume ratio, not evidence of a separately performed pre-dilution.",
+    "groups": "Source A normal, B model, C restoration, D SCG excision; authors confirmed A as sham in this paper. All four source groups have 6 records; paper analyses A/B/C only.",
+    "independent_animal_limit": "Source labels A-1 etc plus author confirmation; historical animal-to-sample ledger is unavailable. Worksheet itself does not reconstruct animal identity or overlap across endpoints.",
+    "manufacturer_recommended_conditions": {
+      "method": "WST-1",
+      "readout_nm": 450,
+      "readout_tolerance_nm": "450±10",
+      "sample_uL": 20,
+      "reaction_total_uL": 240,
+      "incubation": "37°C,20min",
+      "recommended_inhibition_fraction": [
+        0.4,
+        0.6
+      ],
+      "activity_U_definition": "enzyme amount producing 50% inhibition in this reaction system"
+    },
+    "actual_readout_nm_source_limit": "Workbook does not contain a wavelength field; 450 nm is supported by manufacturer manual and existing author-reported methods, not direct instrument export in this workbook.",
+    "recomputed_records": 18,
+    "all_recomputed_match_existing_csv": true,
+    "inhibition_ranges": {
+      "sham": [
+        0.7466354593329432,
+        0.8613224107665302
+      ],
+      "model": [
+        0.34035498342110404,
+        0.43943826799297847
+      ],
+      "restoration": [
+        0.6372147454651844,
+        0.7936415057538522
+      ]
+    },
+    "within_manufacturer_recommended_40to60_percent": {
+      "sham": 0,
+      "model": 4,
+      "restoration": 0,
+      "total": 4,
+      "of": 18
+    },
+    "interpretation_limit": "Do not assert all samples were within recommended range or that assay validity/linearity was proven. Retain values, disclose that recommended-range/parallel dilution validation is unavailable; do not retrospectively delete out-of-range observations or invent dilution."
+  },
+  "mda_workbook_check": {
+    "workbook_copy": "/Users/yyx/Downloads/MMR_Figures_For_Author_Check/Oxidative_Verification/Input_Workbooks/MDA_RVLM.xlsx",
+    "second_copy": "/Users/yyx/Desktop/MMR_Figures_For_Author_Check 2/Oxidative_Verification/Input_Workbooks/MDA_RVLM.xlsx",
+    "copy_sha256": "2fa4ba6e19c55c24cc3a9650d581165d89b965e41fa6c1df3e9f73bfb590b21d",
+    "second_sha256": "2fa4ba6e19c55c24cc3a9650d581165d89b965e41fa6c1df3e9f73bfb590b21d",
+    "matches_prior_01_MDA_record_sha256": true,
+    "source_recorded_original_basename": "01-MDA-.xlsx",
+    "worksheet": "Sheet1",
+    "range_notes": {
+      "observed_OD": "B5:M6",
+      "sample_labels": "B11:M12",
+      "blank_OD": "B4=0.0235",
+      "standard_OD": "C4=0.3858",
+      "protein_mg_per_mL": "B17:M18",
+      "cached_results": "B24:M25",
+      "group_map": "Q8:T11",
+      "formula_text": "A28"
+    },
+    "24_formula_results_match_cache": true,
+    "18_included_results_match_current_S1_csv": true,
+    "max_absolute_S1_difference": 0.0,
+    "groups": [
+      {
+        "group": "Sham-operated",
+        "worksheet_group": "正常",
+        "records": 6,
+        "mean": 0.09531269362219968,
+        "sample_SD": 0.017077404894084252
+      },
+      {
+        "group": "Model",
+        "worksheet_group": "模型",
+        "records": 6,
+        "mean": 0.34878755768534236,
+        "sample_SD": 0.03351995100609292
+      },
+      {
+        "group": "Restoration",
+        "worksheet_group": "复位",
+        "records": 6,
+        "mean": 0.21284911414320717,
+        "sample_SD": 0.049360043767017366
+      },
+      {
+        "group": "SCG excision",
+        "worksheet_group": "SCG切除组",
+        "records": 6,
+        "mean": 0.18807789051507132,
+        "sample_SD": 0.04736882505779375
+      }
+    ],
+    "records": [
+      {
+        "group_assumed_author_confirmed": "Sham-operated",
+        "worksheet_group": "正常",
+        "worksheet_sample_label": "A-1",
+        "OD_cell": "B5",
+        "OD": 0.0688,
+        "protein_cell": "B17",
+        "protein_mg_per_mL": 17.92,
+        "cached_cell": "B24",
+        "cached_value": 0.06977371751902527,
+        "formula": "=(B5-$B$4)/($C$4-$B$4)*10/B17",
+        "recalculated_value": 0.06977371751902527
+      },
+      {
+        "group_assumed_author_confirmed": "Sham-operated",
+        "worksheet_group": "正常",
+        "worksheet_sample_label": "A-2",
+        "OD_cell": "C5",
+        "OD": 0.0909,
+        "protein_cell": "C17",
+        "protein_mg_per_mL": 17.07,
+        "cached_cell": "C24",
+        "cached_value": 0.10898282000646459,
+        "formula": "=(C5-$B$4)/($C$4-$B$4)*10/C17",
+        "recalculated_value": 0.10898282000646459
+      },
+      {
+        "group_assumed_author_confirmed": "Sham-operated",
+        "worksheet_group": "正常",
+        "worksheet_sample_label": "A-3",
+        "OD_cell": "D5",
+        "OD": 0.0823,
+        "protein_cell": "D17",
+        "protein_mg_per_mL": 17.99,
+        "cached_cell": "D24",
+        "cached_value": 0.0902148079015284,
+        "formula": "=(D5-$B$4)/($C$4-$B$4)*10/D17",
+        "recalculated_value": 0.0902148079015284
+      },
+      {
+        "group_assumed_author_confirmed": "Sham-operated",
+        "worksheet_group": "正常",
+        "worksheet_sample_label": "A-4",
+        "OD_cell": "E5",
+        "OD": 0.0763,
+        "protein_cell": "E17",
+        "protein_mg_per_mL": 16.1,
+        "cached_cell": "E24",
+        "cached_value": 0.09051899270190625,
+        "formula": "=(E5-$B$4)/($C$4-$B$4)*10/E17",
+        "recalculated_value": 0.09051899270190625
+      },
+      {
+        "group_assumed_author_confirmed": "Sham-operated",
+        "worksheet_group": "正常",
+        "worksheet_sample_label": "A-5",
+        "OD_cell": "F5",
+        "OD": 0.0819,
+        "protein_cell": "F17",
+        "protein_mg_per_mL": 17.28,
+        "cached_cell": "F24",
+        "cached_value": 0.09328262847445845,
+        "formula": "=(F5-$B$4)/($C$4-$B$4)*10/F17",
+        "recalculated_value": 0.09328262847445845
+      },
+      {
+        "group_assumed_author_confirmed": "Sham-operated",
+        "worksheet_group": "正常",
+        "worksheet_sample_label": "A-6",
+        "OD_cell": "G5",
+        "OD": 0.0969,
+        "protein_cell": "G17",
+        "protein_mg_per_mL": 17.01,
+        "cached_cell": "G24",
+        "cached_value": 0.11910319512981517,
+        "formula": "=(G5-$B$4)/($C$4-$B$4)*10/G17",
+        "recalculated_value": 0.11910319512981517
+      },
+      {
+        "group_assumed_author_confirmed": "Model",
+        "worksheet_group": "模型",
+        "worksheet_sample_label": "B-1",
+        "OD_cell": "H5",
+        "OD": 0.2077,
+        "protein_cell": "H17",
+        "protein_mg_per_mL": 15.74,
+        "cached_cell": "H24",
+        "cached_value": 0.32301044330289924,
+        "formula": "=(H5-$B$4)/($C$4-$B$4)*10/H17",
+        "recalculated_value": 0.32301044330289924
+      },
+      {
+        "group_assumed_author_confirmed": "Model",
+        "worksheet_group": "模型",
+        "worksheet_sample_label": "B-2",
+        "OD_cell": "I5",
+        "OD": 0.2319,
+        "protein_cell": "I17",
+        "protein_mg_per_mL": 17.64,
+        "cached_cell": "I24",
+        "cached_value": 0.32608498363003313,
+        "formula": "=(I5-$B$4)/($C$4-$B$4)*10/I17",
+        "recalculated_value": 0.32608498363003313
+      },
+      {
+        "group_assumed_author_confirmed": "Model",
+        "worksheet_group": "模型",
+        "worksheet_sample_label": "B-3",
+        "OD_cell": "J5",
+        "OD": 0.2413,
+        "protein_cell": "J17",
+        "protein_mg_per_mL": 17.16,
+        "cached_cell": "J24",
+        "cached_value": 0.35032590925497353,
+        "formula": "=(J5-$B$4)/($C$4-$B$4)*10/J17",
+        "recalculated_value": 0.35032590925497353
+      },
+      {
+        "group_assumed_author_confirmed": "Model",
+        "worksheet_group": "模型",
+        "worksheet_sample_label": "B-4",
+        "OD_cell": "K5",
+        "OD": 0.249,
+        "protein_cell": "K17",
+        "protein_mg_per_mL": 17.43,
+        "cached_cell": "K24",
+        "cached_value": 0.3570925791411378,
+        "formula": "=(K5-$B$4)/($C$4-$B$4)*10/K17",
+        "recalculated_value": 0.3570925791411378
+      },
+      {
+        "group_assumed_author_confirmed": "Model",
+        "worksheet_group": "模型",
+        "worksheet_sample_label": "B-5",
+        "OD_cell": "L5",
+        "OD": 0.2977,
+        "protein_cell": "L17",
+        "protein_mg_per_mL": 18.43,
+        "cached_cell": "L24",
+        "cached_value": 0.41065184765625184,
+        "formula": "=(L5-$B$4)/($C$4-$B$4)*10/L17",
+        "recalculated_value": 0.41065184765625184
+      },
+      {
+        "group_assumed_author_confirmed": "Model",
+        "worksheet_group": "模型",
+        "worksheet_sample_label": "B-6",
+        "OD_cell": "M5",
+        "OD": 0.2226,
+        "protein_cell": "M17",
+        "protein_mg_per_mL": 16.88,
+        "cached_cell": "M24",
+        "cached_value": 0.32555958312675864,
+        "formula": "=(M5-$B$4)/($C$4-$B$4)*10/M17",
+        "recalculated_value": 0.32555958312675864
+      },
+      {
+        "group_assumed_author_confirmed": "Restoration",
+        "worksheet_group": "复位",
+        "worksheet_sample_label": "C-1",
+        "OD_cell": "B6",
+        "OD": 0.173,
+        "protein_cell": "B18",
+        "protein_mg_per_mL": 17.02,
+        "cached_cell": "B25",
+        "cached_value": 0.24244503957449035,
+        "formula": "=(B6-$B$4)/($C$4-$B$4)*10/B18",
+        "recalculated_value": 0.24244503957449035
+      },
+      {
+        "group_assumed_author_confirmed": "Restoration",
+        "worksheet_group": "复位",
+        "worksheet_sample_label": "C-2",
+        "OD_cell": "C6",
+        "OD": 0.1631,
+        "protein_cell": "C18",
+        "protein_mg_per_mL": 16.26,
+        "cached_cell": "C25",
+        "cached_value": 0.2369717321241664,
+        "formula": "=(C6-$B$4)/($C$4-$B$4)*10/C18",
+        "recalculated_value": 0.2369717321241664
+      },
+      {
+        "group_assumed_author_confirmed": "Restoration",
+        "worksheet_group": "复位",
+        "worksheet_sample_label": "C-3",
+        "OD_cell": "D6",
+        "OD": 0.1797,
+        "protein_cell": "D18",
+        "protein_mg_per_mL": 16.39,
+        "cached_cell": "D25",
+        "cached_value": 0.26304723550322606,
+        "formula": "=(D6-$B$4)/($C$4-$B$4)*10/D18",
+        "recalculated_value": 0.26304723550322606
+      },
+      {
+        "group_assumed_author_confirmed": "Restoration",
+        "worksheet_group": "复位",
+        "worksheet_sample_label": "C-4",
+        "OD_cell": "E6",
+        "OD": 0.1582,
+        "protein_cell": "E18",
+        "protein_mg_per_mL": 15.95,
+        "cached_cell": "E25",
+        "cached_value": 0.23309801451368267,
+        "formula": "=(E6-$B$4)/($C$4-$B$4)*10/E18",
+        "recalculated_value": 0.23309801451368267
+      },
+      {
+        "group_assumed_author_confirmed": "Restoration",
+        "worksheet_group": "复位",
+        "worksheet_sample_label": "C-5",
+        "OD_cell": "F6",
+        "OD": 0.1141,
+        "protein_cell": "F18",
+        "protein_mg_per_mL": 17.34,
+        "cached_cell": "F25",
+        "cached_value": 0.1442151116425528,
+        "formula": "=(F6-$B$4)/($C$4-$B$4)*10/F18",
+        "recalculated_value": 0.1442151116425528
+      },
+      {
+        "group_assumed_author_confirmed": "Restoration",
+        "worksheet_group": "复位",
+        "worksheet_sample_label": "C-6",
+        "OD_cell": "G6",
+        "OD": 0.1123,
+        "protein_cell": "G18",
+        "protein_mg_per_mL": 15.58,
+        "cached_cell": "G25",
+        "cached_value": 0.15731755150112478,
+        "formula": "=(G6-$B$4)/($C$4-$B$4)*10/G18",
+        "recalculated_value": 0.15731755150112478
+      },
+      {
+        "group_assumed_author_confirmed": "SCG excision",
+        "worksheet_group": "SCG切除组",
+        "worksheet_sample_label": "D-1",
+        "OD_cell": "H6",
+        "OD": 0.1422,
+        "protein_cell": "H18",
+        "protein_mg_per_mL": 16.14,
+        "cached_cell": "H25",
+        "cached_value": 0.20299196822175272,
+        "formula": "=(H6-$B$4)/($C$4-$B$4)*10/H18",
+        "recalculated_value": 0.20299196822175272
+      },
+      {
+        "group_assumed_author_confirmed": "SCG excision",
+        "worksheet_group": "SCG切除组",
+        "worksheet_sample_label": "D-2",
+        "OD_cell": "I6",
+        "OD": 0.1742,
+        "protein_cell": "I18",
+        "protein_mg_per_mL": 16.48,
+        "cached_cell": "I25",
+        "cached_value": 0.2523990470805453,
+        "formula": "=(I6-$B$4)/($C$4-$B$4)*10/I18",
+        "recalculated_value": 0.2523990470805453
+      },
+      {
+        "group_assumed_author_confirmed": "SCG excision",
+        "worksheet_group": "SCG切除组",
+        "worksheet_sample_label": "D-3",
+        "OD_cell": "J6",
+        "OD": 0.1108,
+        "protein_cell": "J18",
+        "protein_mg_per_mL": 17.67,
+        "cached_cell": "J25",
+        "cached_value": 0.13636702317349025,
+        "formula": "=(J6-$B$4)/($C$4-$B$4)*10/J18",
+        "recalculated_value": 0.13636702317349025
+      },
+      {
+        "group_assumed_author_confirmed": "SCG excision",
+        "worksheet_group": "SCG切除组",
+        "worksheet_sample_label": "D-4",
+        "OD_cell": "K6",
+        "OD": 0.1098,
+        "protein_cell": "K18",
+        "protein_mg_per_mL": 18.15,
+        "cached_cell": "K25",
+        "cached_value": 0.1312398823251206,
+        "formula": "=(K6-$B$4)/($C$4-$B$4)*10/K18",
+        "recalculated_value": 0.1312398823251206
+      },
+      {
+        "group_assumed_author_confirmed": "SCG excision",
+        "worksheet_group": "SCG切除组",
+        "worksheet_sample_label": "D-5",
+        "OD_cell": "L6",
+        "OD": 0.1419,
+        "protein_cell": "L18",
+        "protein_mg_per_mL": 17.52,
+        "cached_cell": "L25",
+        "cached_value": 0.18653024751807643,
+        "formula": "=(L6-$B$4)/($C$4-$B$4)*10/L18",
+        "recalculated_value": 0.18653024751807643
+      },
+      {
+        "group_assumed_author_confirmed": "SCG excision",
+        "worksheet_group": "SCG切除组",
+        "worksheet_sample_label": "D-6",
+        "OD_cell": "M6",
+        "OD": 0.1685,
+        "protein_cell": "M18",
+        "protein_mg_per_mL": 18.28,
+        "cached_cell": "M25",
+        "cached_value": 0.21893917477144265,
+        "formula": "=(M6-$B$4)/($C$4-$B$4)*10/M18",
+        "recalculated_value": 0.21893917477144265
+      }
+    ],
+    "wavelength_support": {
+      "workbook_wavelength": null,
+      "existing_MDA_audit_530nm": "Prior report/current manuscript recorded530nm; workbook does not state wavelength",
+      "thesis_source": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/91102_ZB16078_LW(1) - 副本.docx",
+      "thesis_xml_paragraph_index_zero_based": 831,
+      "thesis_text": "f.测定，用530 nm波长酶标仪读数。",
+      "thesis_scope": "serum-MDA method, not instrument-level record of current tissue assay",
+      "manufacturer_recommendation_nm": 532,
+      "equivalence_validated": false
+    },
+    "group_mapping_provenance": {
+      "worksheet_A": "正常",
+      "mapped_as": "Sham-operated",
+      "basis": "Existing Reproduction_Test_Record.json explicitly states group mapping confirmed by user; CSV source reconciliation maps A-1..A-6 to Sham-operated",
+      "independent_original_confirmation_found": false,
+      "not_inferred_from_current_manuscript_alone": true
+    },
+    "limits": [
+      "Renamed source copy verified byte-identical to prior SHA; original-named path not located",
+      "Workbook sample labels are not reconstructed animal IDs",
+      "Common reagent blank, no individual sample-control correction present",
+      "No measured wavelength, assay aliquot, tissue preparation dilution or instrument export metadata in workbook",
+      "Serum figure data not sourced by this tissue workbook"
+    ]
+  },
+  "rechecked_summary_values": [
+    {
+      "endpoint": "SOD",
+      "group": "Sham-operated",
+      "records": 6,
+      "mean": 1.1218116789532617,
+      "sample_sd": 0.07219142132091602
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Model",
+      "records": 6,
+      "mean": 0.5640206062256827,
+      "sample_sd": 0.07242676568621396
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Restoration",
+      "records": 6,
+      "mean": 1.0352066715663677,
+      "sample_sd": 0.10087853389934057
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Sham-operated",
+      "records": 6,
+      "mean": 0.09531269362219968,
+      "sample_sd": 0.017077404894084252
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Model",
+      "records": 6,
+      "mean": 0.34878755768534236,
+      "sample_sd": 0.03351995100609292
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Restoration",
+      "records": 6,
+      "mean": 0.21284911414320717,
+      "sample_sd": 0.049360043767017366
+    }
+  ],
+  "reused_posthoc_tests": [
+    {
+      "endpoint": "SOD",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": 0.557791072727579,
+      "CI95_low": 0.4433480251653253,
+      "CI95_high": 0.6722341202898328,
+      "q": 18.895295679929227,
+      "df": 9.999894070999474,
+      "p_adjusted": 2.892936645793043e-07,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": -0.2534748640631427,
+      "CI95_low": -0.298072294081184,
+      "CI95_high": -0.20887743404510134,
+      "q": 23.340641889213547,
+      "df": 7.431764632450646,
+      "p_adjusted": 1.0368106856395443e-06,
+      "n_1": 6,
+      "n_2": 6
+    }
+  ],
+  "new_significance_testing": false,
+  "new_SOD_observation": {
+    "within_recommended_range": 4,
+    "outside_recommended_range": 14,
+    "total": 18,
+    "recommendation_not_hard_validated_range": true,
+    "values_not_excluded_or_changed": true
+  },
+  "wavelength_clarification_supersedes_prior_generic_wording": {
+    "tissue_SOD_workbook_measured_nm": null,
+    "SOD_manual_nm": 450,
+    "tissue_MDA_workbook_measured_nm": null,
+    "MDA_manual_nm": 532,
+    "530nm_trace": "Thesis serum MDA method, not current tissue instrument setting proof",
+    "equivalence_530_532_verified": false
+  },
+  "biological_unit_basis": "Author confirmation of six animals per assay/group; missing historical animal-sample ledger and assay overlap not reconstructed",
+  "blood_serum_not_replaced_by_tissue_data": true
+}
