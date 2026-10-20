@@ -128,5 +128,17 @@
     "Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
     "Supporting_Information/Supplementary_File_1_Original_qPCR_Exports.zip": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3",
     "Supporting_Information/Supplementary_Statistical_Results.json": "0deb1f7826d3aaeecfd2c10e1a2ca112adfdc9647de56908861cde6bbad0997c"
+  },
+  "ai_declaration_revision": {
+    "date": "2026-10-20",
+    "requested_wording": "Codex (OpenAI; CLI 0.162.0-alpha.17.2) assisted with manuscript polishing, editing and data checking. The authors are responsible for reviewing and verifying the outputs and take full responsibility for the final manuscript.",
+    "changes": "drafting replaced by polishing; cover letter and packaged Chinese declaration synchronized",
+    "current_working_word_copies_preserved": true,
+    "packaged_chinese_body": "Last completed consolidated version retained; only AI declaration changed",
+    "english_and_chinese_page_counts": [
+      12,
+      11
+    ],
+    "visual_review": "English: all 12 pages inspected. Chinese: changed page 9 inspected; remaining 10 pages pixel-identical to the previously inspected complete version."
   }
 }
