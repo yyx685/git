@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Main Figure 3 representative Western blot panels",
+  "source_documents": [
+    {
+      "name": "实验报告(1).doc",
+      "source_path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/实验报告(1).doc",
+      "sha256": "00bf3a8bc445d618dbd4b64858be5b90dd2cafced5da8fa1461e9b032d602c1c"
+    },
+    {
+      "name": "wb条带(1).docx",
+      "source_path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/wb条带(1).docx",
+      "sha256": "ae1e82ffba458ec58b562540462afc7dd9b37937a5a22b80dfa7c54e2be17460"
+    }
+  ],
+  "panels": [
+    {
+      "protein": "β-actin",
+      "source_media": "word/media/image1.png",
+      "source_size": [
+        520,
+        78
+      ],
+      "sha256": "f73ae46d6e08239af953e1fa000d9a6ce21c0751d6e3ea6a141ee26ffc6e24e6",
+      "processing": "Embedded unchanged in SVG; uniform aspect-preserving display scaling only; no brightness, contrast, background or band edits"
+    },
+    {
+      "protein": "NOX1",
+      "source_media": "word/media/image3.png",
+      "source_size": [
+        520,
+        69
+      ],
+      "sha256": "75d17c89f1dd1467b5708fa8e8b7ac379bc2754ab4439ac00141a64141e925e5",
+      "processing": "Embedded unchanged in SVG; uniform aspect-preserving display scaling only; no brightness, contrast, background or band edits"
+    },
+    {
+      "protein": "NOX4",
+      "source_media": "word/media/image4.png",
+      "source_size": [
+        520,
+        61
+      ],
+      "sha256": "dd51de35b4d5e30f18050bab6be4992c1e8d97670c02bc372ae8728835e76a1d",
+      "processing": "Embedded unchanged in SVG; uniform aspect-preserving display scaling only; no brightness, contrast, background or band edits"
+    }
+  ],
+  "previous_bar_graphs_B_C_not_included": true,
+  "no_densitometry_or_statistical_results_created": true
+}

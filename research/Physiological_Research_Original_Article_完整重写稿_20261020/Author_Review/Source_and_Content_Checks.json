@@ -2,9 +2,9 @@
   "date": "2026-10-20",
   "article_type": "Original Article",
   "journal": "Physiological Research",
-  "summary_words": 194,
+  "summary_words": 204,
   "running_title_characters": 49,
-  "main_figures": 2,
+  "main_figures": 3,
   "references": 11,
   "numeric_checks": [
     {
@@ -82,19 +82,20 @@
   "review_status": "Complete new author-review draft; author review of this version remains necessary",
   "no_email_sent": true,
   "no_new_experiments_or_validation_claimed": true,
-  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3267,
+  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3523,
   "final_page_counts": {
-    "English": 12,
-    "Chinese": 11,
+    "English": 13,
+    "Chinese": 13,
     "Supplementary": 5
   },
   "numeric_statistics_reproduction_passed": true,
   "full_18_test_family_preserved": true,
   "visual_review": {
-    "English": "12 pages checked; first four pixel-identical to previous reviewed copy, changed pages 5–12 inspected",
-    "Chinese": "Consolidated reading copy re-rendered after removing an extra blank page before figures; all changed pages checked",
-    "Supplementary": "All five pages inspected; S4 data and reference pairings displayed, all other tables and two figures intact",
-    "Chinese_working_copy": "All twelve pages inspected; pre-existing author body edits retained"
+    "English": "All 13 pages checked; new WB method/result and figure complete, three figures with full legends",
+    "Chinese": "All 13 packaged reading-copy pages checked; no blank pages or clipping; WB n3 and quantitative endpoints n6 distinguished",
+    "Chinese_working_copy": "All 14 pages inspected; author formatting preserved; three figures and captions complete",
+    "Supplementary": "All five pages inspected; new WB source description and original five tables and two figures complete",
+    "Figure_3": "Source strips displayed unchanged with aspect-preserving layout; labels and weeks checked"
   },
   "journal_rules_checked": "Original Article max 5000 words, max 45 references, max 6 displays; summary max250, keywords max5, runningtitlemax60",
   "review_note": "This new version awaits author review and approval before submission; ORCID/Researcher IDs were not fabricated",
@@ -169,5 +170,32 @@
     "pre_existing_chinese_working_copy_body_edits_preserved": true,
     "packaged_chinese_copy": "Consolidated text with targeted changes only; figure pagination repaired",
     "working_chinese_page_count": 12
+  },
+  "representative_western_blot_addition": {
+    "date": "2026-10-20",
+    "figure": 3,
+    "animals_per_group": 3,
+    "displayed_lanes_per_group_per_target": 1,
+    "proteins": [
+      "β-actin",
+      "NOX1",
+      "NOX4"
+    ],
+    "quantitative_B_C_graphs_not_included": true,
+    "no_new_densitometry_or_P_values_created": true,
+    "previous_quantitative_results_and_figures_unchanged": true,
+    "all_five_supplementary_tables_unchanged": true,
+    "source_documents_in_supplementary_file_2": true,
+    "source_image_content_unchanged": true,
+    "main_methods_results_legend_and_data_statement_updated": true,
+    "pre_existing_chinese_working_body_edits_preserved": true,
+    "working_chinese_page_count": 14,
+    "source_provenance_file": "Western_Blot_Figure_Provenance.json"
+  },
+  "new_wb_files_sha256": {
+    "Figures/Yuan_fig3.svg": "348b9b89584a7b098724217954a392f1a63141579afd0ef4eda1964cec30aa2d",
+    "Figures/Yuan_fig3.png": "0ebc027ba15e6637de156c08226ebef7392977636b8ba3db8cc8264f9288ac75",
+    "Figures/Yuan_fig3.jpg": "393bb2930c54bc31e0fb9a7b10148e828331fce8bdb88746e2326401f6963bdd",
+    "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip": "9e8183e4b1d4a63f709bc72f30d093b842ed3f4eb2e118ee208e25d1692fe14b"
   }
 }
