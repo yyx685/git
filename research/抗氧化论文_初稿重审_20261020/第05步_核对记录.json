@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-20",
+  "lesson": 5,
+  "source_files": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S1_Data_RVLM_Processed_Values.csv",
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S3_File_RVLM_Statistical_Outputs.json",
+      "sha256": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+      "source_modified": false
+    }
+  ],
+  "summaries_verified": [
+    {
+      "endpoint": "SOD",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1.1218116789532617,
+      "sd": 0.07219142132091602,
+      "unit": "U/mg protein"
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.5640206062256827,
+      "sd": 0.07242676568621396,
+      "unit": "U/mg protein"
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 1.0352066715663677,
+      "sd": 0.10087853389934057,
+      "unit": "U/mg protein"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 0.09531269362219968,
+      "sd": 0.017077404894084252,
+      "unit": "nmol/mg protein"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.34878755768534236,
+      "sd": 0.03351995100609292,
+      "unit": "nmol/mg protein"
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 0.21284911414320715,
+      "sd": 0.04936004376701737,
+      "unit": "nmol/mg protein"
+    }
+  ],
+  "restoration_contrasts_reused": [
+    {
+      "endpoint": "SOD",
+      "group_1": "Sham-operated",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": 0.08660500738689403,
+      "CI95_low": -0.05462539362130925,
+      "CI95_high": 0.2278354083950973,
+      "q": 2.41847392620949,
+      "df": 9.057155649176499,
+      "p_adjusted": 0.25337169236579005,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "SOD",
+      "group_1": "Model",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": -0.47118606534068497,
+      "CI95_low": -0.6125286525819347,
+      "CI95_high": -0.3298434780994353,
+      "q": 13.1435019185081,
+      "df": 9.072563171498246,
+      "p_adjusted": 1.6581020619299558e-05,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group_1": "Sham-operated",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": -0.11753642052100746,
+      "CI95_low": -0.18241259090617834,
+      "CI95_high": -0.0526602501358366,
+      "q": 7.795370961537335,
+      "df": 6.180087655731379,
+      "p_adjusted": 0.0032977066081972817,
+      "n_1": 6,
+      "n_2": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group_1": "Model",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": 0.13593844354213522,
+      "CI95_low": 0.06764812323963047,
+      "CI95_high": 0.20422876384463995,
+      "q": 7.892377574504019,
+      "df": 8.802875832627201,
+      "p_adjusted": 0.0009643860810790716,
+      "n_1": 6,
+      "n_2": 6
+    }
+  ],
+  "new_significance_testing": false,
+  "multiple_testing_scope": "Three pairwise contrasts within each endpoint; no adjustment across endpoints",
+  "terminal_weeks": {
+    "sham": 4,
+    "model": 4,
+    "restoration": 8
+  },
+  "restoration_removal_week": 4,
+  "independent_terminal_cohorts": true,
+  "time_matched_second_surgery_sham": false,
+  "SOD_non_significant_does_not_establish_equivalence": true,
+  "MDA_restoration_above_sham": true,
+  "method_limits_preserved": [
+    "SOD recommended inhibition range / dilution verification",
+    "TBA non-specificity",
+    "animal-sample identity and cross-assay links",
+    "tissue wavelength not proved by manufacturer recommendations or serum thesis method"
+  ],
+  "biological_n_basis": "Author confirmation; six separate records per assay/group do not reconstruct historical animal IDs",
+  "manuscripts_and_old_package_untouched": true,
+  "new_assembled_working_draft": "中文工作稿_逐步累积.md",
+  "working_draft_not_complete_submission": true,
+  "next_task": "First discussion paragraph: observed regional biochemical phenotype, limited interpretation, and future testing"
+}
