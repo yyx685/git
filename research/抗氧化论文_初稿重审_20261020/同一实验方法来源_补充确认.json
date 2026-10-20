@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "user_statement": "可以代表，本质上这是是同一个实验啊",
+  "context": "Author corrects the categorical statement that thesis serum-method wavelengths cannot serve the current tissue methods",
+  "accepted_relationship": "Current manuscript and thesis originate from the same underlying experiment; the author states the thesis methods can serve as this manuscript method source",
+  "method_parameters_adopted_from_thesis_under_this_confirmation": {
+    "SOD": {
+      "incubation_temperature_C": 37,
+      "incubation_minutes": 20,
+      "readout_nm": 450,
+      "source_paragraphs_zero_based": [
+        790,
+        791
+      ]
+    },
+    "MDA": {
+      "water_bath_temperature_C": 95,
+      "water_bath_minutes": 40,
+      "postreaction_centrifugation_rpm": "3500–4000",
+      "postreaction_centrifugation_minutes": 10,
+      "readout_nm": 530,
+      "source_paragraphs_zero_based": [
+        829,
+        830,
+        831
+      ]
+    }
+  },
+  "instrument": "RT-6000, previously reported by author/instrument source",
+  "source_thesis": {
+    "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/temp/drag/91102_ZB16078_LW(1) - 副本.docx",
+    "sha256": "6d42aa6f8db4cd5186b6f3e49786e7f5e94dbf1ac92ac86c02134f50d0db4474",
+    "source_section": "3.3.2 血液SOD、MDA、ROS含量测定",
+    "relationship_provenance": "Direct author statement this turn; source section retained as labelled, not relabelled tissue instrument log"
+  },
+  "not_claimed": [
+    "Independent tissue instrument log verified",
+    "All serum and tissue pretreatment identical",
+    "Every manufacturer optional setting actually executed",
+    "530 and 532 nm experimentally shown equivalent",
+    "SOD dilution validation completed",
+    "Discordant serum result datasets merged",
+    "Animal identity ledger recovered",
+    "All ethics and data statements completed"
+  ],
+  "manufacturer_MDA_recommendation_nm": 532,
+  "SOD_recommendation_limit_retained": true,
+  "TBA_specificity_limit_retained": true,
+  "independent_terminal_times_limit_retained": true,
+  "raw_data_figures_original_docx_and_submission_packages_unchanged": true,
+  "working_draft_results_unchanged": true,
+  "removed_from_manuscript_body": "组织工作簿未记录实际读数波长；厂家建议值和学位论文血清方法的波长不能替代本批组织仪器记录。对应的加样、孵育、仪器设置和组织前处理还需与实际操作资料衔接。上述解释范围仅覆盖目前写入的两项组织检测，不代表已经完成整篇研究的全部方法、伦理及数据声明。",
+  "work_before_sha256": "8ad0c74a2cbd078516df6f5872e71a5f01a8b3553290eee5cfa26414ba48c8f6",
+  "work_after_sha256": "dbb2238bbece2e2c0285ba3deeee1a0bf8c655eee5c1ff486858f5a58ddd2909"
+}

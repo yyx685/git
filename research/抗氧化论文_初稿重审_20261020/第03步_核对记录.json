@@ -584,5 +584,15 @@
     "equivalence_530_532_verified": false
   },
   "biological_unit_basis": "Author confirmation of six animals per assay/group; missing historical animal-sample ledger and assay overlap not reconstructed",
-  "blood_serum_not_replaced_by_tissue_data": true
+  "blood_serum_not_replaced_by_tissue_data": true,
+  "subsequent_author_source_relationship_confirmation": {
+    "record": "同一实验方法来源_补充确认.json",
+    "statement": "可以代表，本质上这是是同一个实验啊",
+    "accepted_methods_source": true,
+    "SOD_readout_nm_adopted": 450,
+    "MDA_readout_nm_adopted": 530,
+    "historical_instrument_log_absence_does_not_preclude_reporting_author_confirmed_method": true,
+    "independent_instrument_log_verification_not_claimed": true,
+    "manufacturer_MDA_recommendation_532_not_substituted_for_recorded_530": true
+  }
 }
