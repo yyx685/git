@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-20",
+  "lesson": 2,
+  "scope": "Chinese methods teaching draft; no formal manuscript edit",
+  "counts": {
+    "parent": 60,
+    "initial_sham": 10,
+    "initial_model": 50,
+    "deaths_during_modeling": 6,
+    "deaths_after_modeling": 3,
+    "survivors": 41,
+    "implant_lost": 7,
+    "implant_retained": 34,
+    "later_model": 10,
+    "later_restoration": 10,
+    "later_scg": 10,
+    "reserve": 4
+  },
+  "arithmetic_checks": {
+    "initial_allocation": true,
+    "model_survival": true,
+    "implant_status": true,
+    "later_flow": true
+  },
+  "terminal_times_weeks": {
+    "sham": 4,
+    "model": 4,
+    "restoration": 8
+  },
+  "implant_removal_week_restoration": 4,
+  "independent_terminal_cohorts": true,
+  "all_retained_animals_assumed_successful": false,
+  "allocated_n_not_assumed_analyzed_n": true,
+  "reserve_disposition_not_invented": true,
+  "animal_sample_links_recovered": false,
+  "evidence_basis": "Previously checked source material and subsequent author confirmations, not newly recovered individual records",
+  "teaching_draft": "本研究动物来源于初始纳入60只雄性Wistar大鼠的基础实验。采用随机数字法将10只分配至假手术组，50只用于造模。造模过程中死亡6只，其后死亡3只，存活41只；其中7只植入物脱落，34只植入物在位。经影像学和血压评估后，从造模成功的大鼠中选取30只，采用随机数字法分配至模型组、恢复组和颈上神经节切除组，每组10只；其余4只留作备用。本稿报告假手术组、模型组和恢复组，每组初始分配10只。\n\n假手术组仅接受手术暴露，不植入异物；模型组接受寰枢关节异物植入。假手术组与模型组于首次手术后第4周终末取材；恢复组于第4周取出植入物，继续饲养至第8周终末取材。模型组与恢复组为不同动物组成的独立终末取材队列。各项检测的实际样本量分别报告。",
+  "reporting_guideline": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000411"
+}
