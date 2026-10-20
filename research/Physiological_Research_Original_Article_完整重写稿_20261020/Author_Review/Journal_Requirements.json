@@ -1,0 +1,19 @@
+{
+  "verified_date": "2026-10-20",
+  "journal": "Physiological Research",
+  "article_type": "Original Article",
+  "official_guidelines": "https://www.biomed.cas.cz/physiolres/instructions.htm",
+  "downloaded_guideline_sha256": "d2dcee69fbd4d374d0da46cec571f3e1e8ff5fac77521e2816899055b4589b07",
+  "word_limit": 5000,
+  "word_scope": "title page, abstract, main body including references",
+  "abstract_limit": 250,
+  "max_references": 45,
+  "max_figures_tables": 6,
+  "max_keywords": 5,
+  "running_title_max_characters": 60,
+  "independent_JPG_figures": true,
+  "complete_PDF_and_Word": true,
+  "reference_DOI_omitted_per_guide": true,
+  "reference_authors": "all authors listed; guide contains inconsistent examples but all-author lists retain full attribution",
+  "SCIE_institutional_source": "https://fgu.cas.cz/2026/07/o-40-nahoru-casopis-physiological-research-posilil-pozici-v-zebricku-fyziologickych-casopisu-a-postoupil-do-druheho-kvartilu/"
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-20",
+  "article_type": "Original Article",
+  "journal": "Physiological Research",
+  "summary_words": 212,
+  "running_title_characters": 49,
+  "main_figures": 2,
+  "references": 11,
+  "numeric_checks": [
+    {
+      "endpoint": "SOD",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1.1218116789532617,
+      "sd": 0.07219142132091602
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.5640206062256827,
+      "sd": 0.07242676568621396
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 1.0352066715663677,
+      "sd": 0.10087853389934057
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 0.09531269362219968,
+      "sd": 0.017077404894084252
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Model",
+      "n": 6,
+      "mean": 0.34878755768534236,
+      "sd": 0.03351995100609292
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 0.21284911414320715,
+      "sd": 0.04936004376701737
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1326.8795309027612,
+      "sd": 50.63510193522331
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Model",
+      "n": 6,
+      "mean": 3295.6354464370706,
+      "sd": 216.34383161640545
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 2265.5739870857415,
+      "sd": 131.60487928777005
+    }
+  ],
+  "unmodified_source_checksums": {
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S1_Data_RVLM_Processed_Values.csv": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S3_File_RVLM_Statistical_Outputs.json": "9bb95570766d209455f2587cbb3dc83f9db829a1d38d52069ce21cf20cdbeb18",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S1_Fig_HE_Illustrative_Images.tif": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S7_File_RTqPCR_Original_Exports.zip": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
+  },
+  "review_status": "Complete new author-review draft; author review of this version remains necessary",
+  "no_email_sent": true,
+  "no_new_experiments_or_validation_claimed": true,
+  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3831,
+  "final_page_counts": {
+    "English": 13,
+    "Chinese": 12,
+    "Supplementary": 5
+  },
+  "numeric_statistics_reproduction_passed": true,
+  "full_18_test_family_preserved": true,
+  "visual_review": {
+    "English": "All 13 pages inspected; pages 1–11 pixel-identical to reviewed v2; final 12–13 reviewed after normalizing caption weight",
+    "Chinese": "All 12 final page images inspected",
+    "Supplementary": "All final pages inspected; two wrapped table headers fixed, primer sequences fit on single lines"
+  },
+  "journal_rules_checked": "Original Article max 5000 words, max 45 references, max 6 displays; summary max250, keywords max5, runningtitlemax60",
+  "review_note": "This new version awaits author review and approval before submission; ORCID/Researcher IDs were not fabricated",
+  "email_sent": false,
+  "source_documents_overwritten": false
+}

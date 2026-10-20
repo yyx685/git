@@ -1,0 +1,837 @@
+{
+  "biochemical": {
+    "software": {
+      "Python": "3.12.14",
+      "NumPy": "2.3.5",
+      "SciPy": "1.17.0"
+    },
+    "source": "S1_Data_RVLM_Processed_Values.csv",
+    "scope": "Processed RVLM values for the three declared groups only",
+    "experimental_unit": "Rat; six independent animals per endpoint/group confirmed by investigators, historical identity ledger unavailable",
+    "animal_identifiers": "Observation order is not an animal identifier; cross-assay overlap was not recoverable",
+    "multiple_testing": "Three pairwise contrasts within each endpoint; no adjustment across endpoints",
+    "confidence_intervals": "95% Games-Howell intervals within each endpoint",
+    "summaries": [
+      {
+        "endpoint": "SOD",
+        "group": "Sham-operated",
+        "n": 6,
+        "mean": 1.1218116789532617,
+        "sd": 0.07219142132091602,
+        "unit": "U/mg protein"
+      },
+      {
+        "endpoint": "SOD",
+        "group": "Model",
+        "n": 6,
+        "mean": 0.5640206062256827,
+        "sd": 0.07242676568621396,
+        "unit": "U/mg protein"
+      },
+      {
+        "endpoint": "SOD",
+        "group": "Restoration",
+        "n": 6,
+        "mean": 1.0352066715663677,
+        "sd": 0.10087853389934057,
+        "unit": "U/mg protein"
+      },
+      {
+        "endpoint": "MDA",
+        "group": "Sham-operated",
+        "n": 6,
+        "mean": 0.09531269362219968,
+        "sd": 0.017077404894084252,
+        "unit": "nmol/mg protein"
+      },
+      {
+        "endpoint": "MDA",
+        "group": "Model",
+        "n": 6,
+        "mean": 0.34878755768534236,
+        "sd": 0.03351995100609292,
+        "unit": "nmol/mg protein"
+      },
+      {
+        "endpoint": "MDA",
+        "group": "Restoration",
+        "n": 6,
+        "mean": 0.21284911414320715,
+        "sd": 0.04936004376701737,
+        "unit": "nmol/mg protein"
+      },
+      {
+        "endpoint": "ROS",
+        "group": "Sham-operated",
+        "n": 6,
+        "mean": 1326.8795309027612,
+        "sd": 50.63510193522331,
+        "unit": "arbitrary protein-normalized fluorescence units"
+      },
+      {
+        "endpoint": "ROS",
+        "group": "Model",
+        "n": 6,
+        "mean": 3295.6354464370706,
+        "sd": 216.34383161640545,
+        "unit": "arbitrary protein-normalized fluorescence units"
+      },
+      {
+        "endpoint": "ROS",
+        "group": "Restoration",
+        "n": 6,
+        "mean": 2265.5739870857415,
+        "sd": 131.60487928777005,
+        "unit": "arbitrary protein-normalized fluorescence units"
+      }
+    ],
+    "omnibus": [
+      {
+        "endpoint": "SOD",
+        "test": "Welch one-way ANOVA",
+        "F": 91.62611150437782,
+        "df1": 2,
+        "df2": 9.816358611262899,
+        "p": 4.466713517172705e-07,
+        "n_total": 18
+      },
+      {
+        "endpoint": "MDA",
+        "test": "Welch one-way ANOVA",
+        "F": 130.73770951254318,
+        "df1": 2,
+        "df2": 8.500092750959599,
+        "p": 4.138589367843851e-07,
+        "n_total": 18
+      },
+      {
+        "endpoint": "ROS",
+        "test": "Welch one-way ANOVA",
+        "F": 314.9069730380623,
+        "df1": 2,
+        "df2": 7.8044737075054424,
+        "p": 3.4520369989142784e-08,
+        "n_total": 18
+      }
+    ],
+    "posthoc": [
+      {
+        "endpoint": "SOD",
+        "group_1": "Sham-operated",
+        "group_2": "Model",
+        "difference_group_1_minus_group_2": 0.557791072727579,
+        "CI95_low": 0.4433480251653253,
+        "CI95_high": 0.6722341202898328,
+        "q": 18.895295679929227,
+        "df": 9.999894070999474,
+        "p_adjusted": 2.892936645793043e-07,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "SOD",
+        "group_1": "Sham-operated",
+        "group_2": "Restoration",
+        "difference_group_1_minus_group_2": 0.08660500738689403,
+        "CI95_low": -0.05462539362130925,
+        "CI95_high": 0.2278354083950973,
+        "q": 2.41847392620949,
+        "df": 9.057155649176499,
+        "p_adjusted": 0.25337169236579005,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "SOD",
+        "group_1": "Model",
+        "group_2": "Restoration",
+        "difference_group_1_minus_group_2": -0.47118606534068497,
+        "CI95_low": -0.6125286525819347,
+        "CI95_high": -0.3298434780994353,
+        "q": 13.1435019185081,
+        "df": 9.072563171498246,
+        "p_adjusted": 1.6581020619299558e-05,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "MDA",
+        "group_1": "Sham-operated",
+        "group_2": "Model",
+        "difference_group_1_minus_group_2": -0.2534748640631427,
+        "CI95_low": -0.298072294081184,
+        "CI95_high": -0.20887743404510134,
+        "q": 23.340641889213547,
+        "df": 7.431764632450646,
+        "p_adjusted": 1.0368106856395443e-06,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "MDA",
+        "group_1": "Sham-operated",
+        "group_2": "Restoration",
+        "difference_group_1_minus_group_2": -0.11753642052100746,
+        "CI95_low": -0.18241259090617834,
+        "CI95_high": -0.0526602501358366,
+        "q": 7.795370961537335,
+        "df": 6.180087655731379,
+        "p_adjusted": 0.0032977066081972817,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "MDA",
+        "group_1": "Model",
+        "group_2": "Restoration",
+        "difference_group_1_minus_group_2": 0.13593844354213522,
+        "CI95_low": 0.06764812323963047,
+        "CI95_high": 0.20422876384463995,
+        "q": 7.892377574504019,
+        "df": 8.802875832627201,
+        "p_adjusted": 0.0009643860810790716,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "ROS",
+        "group_1": "Sham-operated",
+        "group_2": "Model",
+        "difference_group_1_minus_group_2": -1968.7559155343095,
+        "CI95_low": -2253.791659889321,
+        "CI95_high": -1683.7201711792977,
+        "q": 30.69426500100466,
+        "df": 5.54615144691895,
+        "p_adjusted": 3.4320801671761103e-06,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "ROS",
+        "group_1": "Sham-operated",
+        "group_2": "Restoration",
+        "difference_group_1_minus_group_2": -938.6944561829803,
+        "CI95_low": -1111.8178206166967,
+        "CI95_high": -765.5710917492639,
+        "q": 23.0603366848782,
+        "df": 6.448588747918607,
+        "p_adjusted": 4.408931782551306e-06,
+        "n_1": 6,
+        "n_2": 6
+      },
+      {
+        "endpoint": "ROS",
+        "group_1": "Model",
+        "group_2": "Restoration",
+        "difference_group_1_minus_group_2": 1030.0614593513292,
+        "CI95_low": 736.5621614308754,
+        "CI95_high": 1323.560757271783,
+        "q": 14.090998633249585,
+        "df": 8.254766686780398,
+        "p_adjusted": 1.8344142835746702e-05,
+        "n_1": 6,
+        "n_2": 6
+      }
+    ],
+    "assumptions": [
+      {
+        "endpoint": "SOD",
+        "group": "Sham-operated",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.8850424407788284,
+        "p": 0.2930213472144467
+      },
+      {
+        "endpoint": "SOD",
+        "group": "Model",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.9772416189532314,
+        "p": 0.9370537969115509
+      },
+      {
+        "endpoint": "SOD",
+        "group": "Restoration",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.8241534468882437,
+        "p": 0.09583341848933678
+      },
+      {
+        "endpoint": "MDA",
+        "group": "Sham-operated",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.9505313292979479,
+        "p": 0.7445831192030662
+      },
+      {
+        "endpoint": "MDA",
+        "group": "Model",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.8072245223328649,
+        "p": 0.0681940309117622
+      },
+      {
+        "endpoint": "MDA",
+        "group": "Restoration",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.8314830749919416,
+        "p": 0.11064021893618914
+      },
+      {
+        "endpoint": "ROS",
+        "group": "Sham-operated",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.8837874158391598,
+        "p": 0.28690459764714504
+      },
+      {
+        "endpoint": "ROS",
+        "group": "Model",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.8336714131219047,
+        "p": 0.11543832843620977
+      },
+      {
+        "endpoint": "ROS",
+        "group": "Restoration",
+        "test": "Shapiro-Wilk",
+        "statistic": 0.9124380215216585,
+        "p": 0.4526289666150175
+      }
+    ],
+    "fluorescence_unit_note": "Numerical index values unchanged. Exact sample/reaction volumes are not documented here; AU/mg protein is not asserted."
+  },
+  "qPCR": {
+    "methods": {
+      "reference_gene": "β-actin",
+      "animal_delta_ct": "target Ct - β-actin Ct from the same animal/column",
+      "assumed_amplification_efficiency": "100% for each target and reference (E=2); unverified assumption",
+      "animal_relative_quantity_Q": "2^(-animal ΔCt)",
+      "calibrator": "arithmetic mean Q in the six sham animals, calculated separately for each gene",
+      "animal_fold": "animal Q / arithmetic mean Q of sham group; sham-group arithmetic mean fold equals 1",
+      "descriptive_reporting": "animal fold arithmetic mean ± sample SD (ddof=1), n=6 biological animals per group",
+      "inferential_scale": "animal ΔCt",
+      "primary_tests": "independent-group, two-sided Welch t tests for model vs sham, reset vs sham, and reset vs model, separately for each of six genes",
+      "multiplicity": "single Holm step-down family across all 18 primary pairwise tests; alpha=0.05",
+      "confidence_intervals": "two-sided 95% Welch intervals for ΔCt mean differences, unadjusted for multiplicity; expression ratio intervals obtained by monotone transformation 2^(-ΔCt difference)",
+      "effect_size_definition": "2^(-difference of group mean ΔCt) is a geometric expression ratio; also report ratio of arithmetic mean Q/fold. These two summaries need not be identical.",
+      "diagnostics": "Shapiro-Wilk within each group/endpoint and median-centered Levene per endpoint, diagnostic only; not used to switch tests mechanically. n=6 gives limited normality-diagnostic power.",
+      "secondary_test": "gene-wise Welch ANOVA on ΔCt, presented as unadjusted secondary diagnostics; not pooled across genes."
+    },
+    "comparisons": [
+      {
+        "gene": "AT1-R",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "comparison": "Model vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.6266666666666652,
+        "standard_error_of_difference": 0.23668075075463493,
+        "t_statistic": -6.872830432894045,
+        "degrees_of_freedom": 7.353147076164709,
+        "p_raw": 0.00018943288059886212,
+        "delta_ct_difference_CI95_unadjusted": [
+          -2.1809247450654383,
+          -1.072408588267892
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 3.0879869734486682,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          2.1029413116526143,
+          4.53444111604569
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 2.9757448677150697,
+        "arithmetic_fold_mean_numerator": 2.9757448677150697,
+        "arithmetic_fold_mean_denominator": 1.0000000000000002,
+        "p_holm_18_test_family": 0.0024626274477852076,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "AT1-R",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "comparison": "Restoration vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.8499999999999979,
+        "standard_error_of_difference": 0.24110855093366798,
+        "t_statistic": -3.5253830555094816,
+        "degrees_of_freedom": 7.731048527930202,
+        "p_raw": 0.008223111578699475,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.4093821661739279,
+          -0.2906178338260679
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.8025009252216577,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.2231639852462162,
+          2.6562338530355967
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 1.7420823779095584,
+        "arithmetic_fold_mean_numerator": 1.7420823779095584,
+        "arithmetic_fold_mean_denominator": 1.0000000000000002,
+        "p_holm_18_test_family": 0.024669334736098426,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "AT1-R",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "comparison": "Restoration vs Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.7766666666666673,
+        "standard_error_of_difference": 0.15660282387123264,
+        "t_statistic": 4.959467827382761,
+        "degrees_of_freedom": 9.926136352522745,
+        "p_raw": 0.00058325149828434,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.42738155511612097,
+          1.1259517782172135
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5837139018784856,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.45819963730965335,
+          0.743610189756534
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 0.5854273317615495,
+        "arithmetic_fold_mean_numerator": 1.7420823779095584,
+        "arithmetic_fold_mean_denominator": 2.9757448677150697,
+        "p_holm_18_test_family": 0.00466601198627472,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox1",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "comparison": "Model vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.5500000000000007,
+        "standard_error_of_difference": 0.10183319694480776,
+        "t_statistic": -5.400989230438218,
+        "degrees_of_freedom": 9.163409762296084,
+        "p_raw": 0.000406600320882398,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.7797380050916953,
+          -0.3202619949083061
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.464085695945626,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.2485572676031385,
+          1.7168190684497526
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 1.4590993753794586,
+        "arithmetic_fold_mean_numerator": 1.4590993753794583,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 0.0037132651528660066,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "comparison": "Restoration vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.24666666666666615,
+        "standard_error_of_difference": 0.09374314789774119,
+        "t_statistic": -2.63130343068637,
+        "degrees_of_freedom": 7.764314468863857,
+        "p_raw": 0.030900127165819365,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.46398628393749,
+          -0.02934704939584229
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.1864626349084866,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.0205501294961352,
+          1.3793478079601962
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 1.1800044318122989,
+        "arithmetic_fold_mean_numerator": 1.1800044318122989,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 0.06180025433163873,
+        "significant_at_holm_0_05": false
+      },
+      {
+        "gene": "Nox1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "comparison": "Restoration vs Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.30333333333333456,
+        "standard_error_of_difference": 0.07519604008486383,
+        "t_statistic": 4.033900362186657,
+        "degrees_of_freedom": 9.273867363095714,
+        "p_raw": 0.0027796840432579456,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.13399074559881466,
+          0.4726759210678545
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.8103778612099424,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.7206267337912853,
+          0.9113071263456676
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 0.8087210862559809,
+        "arithmetic_fold_mean_numerator": 1.1800044318122989,
+        "arithmetic_fold_mean_denominator": 1.4590993753794583,
+        "p_holm_18_test_family": 0.013898420216289727,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox4",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "comparison": "Model vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.5450000000000017,
+        "standard_error_of_difference": 0.1797730050183662,
+        "t_statistic": -8.594171298644973,
+        "degrees_of_freedom": 9.871199667257784,
+        "p_raw": 6.814739369078998e-06,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.9462687973733597,
+          -1.1437312026266437
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.918040688480354,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          2.209517262516283,
+          3.8537655279188607
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 2.902300965578845,
+        "arithmetic_fold_mean_numerator": 2.902300965578845,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 0.00010222109053618496,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox4",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "comparison": "Restoration vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.7383333333333333,
+        "standard_error_of_difference": 0.15608580261438854,
+        "t_statistic": -4.7303042363013175,
+        "degrees_of_freedom": 8.139642371649964,
+        "p_raw": 0.0014138277512050575,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.0971958294003867,
+          -0.37947083726627984
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.6682474901395274,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.3008646268380348,
+          2.1393845531194833
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 1.6446561723154238,
+        "arithmetic_fold_mean_numerator": 1.6446561723154243,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 0.009896794258435402,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "Nox4",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "comparison": "Restoration vs Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.8066666666666684,
+        "standard_error_of_difference": 0.14377451481786008,
+        "t_statistic": 5.610637376788157,
+        "degrees_of_freedom": 8.709891781256463,
+        "p_raw": 0.00037132651528660066,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.4797672572302515,
+          1.1335660761030852
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5717012434834522,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.4557877083980616,
+          0.717093299749712
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 0.5666731988932125,
+        "arithmetic_fold_mean_numerator": 1.6446561723154243,
+        "arithmetic_fold_mean_denominator": 2.902300965578845,
+        "p_holm_18_test_family": 0.0037132651528660066,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "RhoA",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "comparison": "Model vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.5666666666666664,
+        "standard_error_of_difference": 0.07712183723030556,
+        "t_statistic": -7.347681111051006,
+        "degrees_of_freedom": 9.841192479625917,
+        "p_raw": 2.6846083336049148e-05,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.7388814412030816,
+          -0.3944518921302512
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.481097552286564,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.3144432827948787,
+          1.668881410177646
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 1.4796439206823293,
+        "arithmetic_fold_mean_numerator": 1.4796439206823289,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 0.00037584516670468806,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "RhoA",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "comparison": "Restoration vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.3116666666666674,
+        "standard_error_of_difference": 0.06074079719961237,
+        "t_statistic": -5.1310927915950435,
+        "degrees_of_freedom": 5.99765785681433,
+        "p_raw": 0.0021572124104184387,
+        "delta_ct_difference_CI95_unadjusted": [
+          -0.46030811346582756,
+          -0.16302521986750731
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.2411406940043308,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.1196324608678498,
+          1.3758356211997758
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 1.2366760847520288,
+        "arithmetic_fold_mean_numerator": 1.2366760847520288,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 0.012943274462510632,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "RhoA",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "comparison": "Restoration vs Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.254999999999999,
+        "standard_error_of_difference": 0.05416538460021208,
+        "t_statistic": 4.707803736318353,
+        "degrees_of_freedom": 6.279432644170195,
+        "p_raw": 0.0029250227683994046,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.12387870015210711,
+          0.3861212998478909
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.8379871346679492,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.7651840465668553,
+          0.917717039475215
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 0.8357930360581233,
+        "arithmetic_fold_mean_numerator": 1.2366760847520288,
+        "arithmetic_fold_mean_denominator": 1.4796439206823289,
+        "p_holm_18_test_family": 0.013898420216289727,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK1",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "comparison": "Model vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.8850000000000007,
+        "standard_error_of_difference": 0.12204052150367478,
+        "t_statistic": -15.445689487185952,
+        "degrees_of_freedom": 6.033941284456664,
+        "p_raw": 4.4352725635613866e-06,
+        "delta_ct_difference_CI95_unadjusted": [
+          -2.183215690244159,
+          -1.5867843097558425
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 3.693529242917581,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          3.0037907383216758,
+          4.541647357202279
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 3.7446696767769803,
+        "arithmetic_fold_mean_numerator": 3.7446696767769807,
+        "arithmetic_fold_mean_denominator": 1.0000000000000002,
+        "p_holm_18_test_family": 7.096436101698218e-05,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "comparison": "Restoration vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -0.9116666666666662,
+        "standard_error_of_difference": 0.049199141817266825,
+        "t_statistic": -18.530133514375848,
+        "degrees_of_freedom": 9.736331325524292,
+        "p_raw": 6.45221709682362e-09,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.021692921382373,
+          -0.8016404119509593
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 1.8812175112725753,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.7430819662038706,
+          2.0303000050111604
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 1.8803680551413622,
+        "arithmetic_fold_mean_numerator": 1.8803680551413622,
+        "arithmetic_fold_mean_denominator": 1.0000000000000002,
+        "p_holm_18_test_family": 1.1613990774282516e-07,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK1",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "comparison": "Restoration vs Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.9733333333333345,
+        "standard_error_of_difference": 0.12039748982248587,
+        "t_statistic": 8.08433244553867,
+        "degrees_of_freedom": 5.745642803300849,
+        "p_raw": 0.0002389203556481727,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.6755408276842165,
+          1.2711258389824525
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.5093279049786458,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.41433631020968015,
+          0.6260974681621705
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 0.5021452404207214,
+        "arithmetic_fold_mean_numerator": 1.8803680551413622,
+        "arithmetic_fold_mean_denominator": 3.7446696767769807,
+        "p_holm_18_test_family": 0.0028670442677780723,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK2",
+        "numerator_group": "Model",
+        "denominator_group": "Sham-operated",
+        "comparison": "Model vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.5183333333333344,
+        "standard_error_of_difference": 0.11796656776863168,
+        "t_statistic": -12.870878267063325,
+        "degrees_of_freedom": 8.187665083190012,
+        "p_raw": 1.0185302550438863e-06,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.7892832379778532,
+          -1.2473834286888157
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.8645992689156636,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          2.374104483191439,
+          3.45643126895627
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 2.8428793378404715,
+        "arithmetic_fold_mean_numerator": 2.842879337840472,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 1.7315014335746067e-05,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK2",
+        "numerator_group": "Restoration",
+        "denominator_group": "Sham-operated",
+        "comparison": "Restoration vs Sham-operated",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": -1.0933333333333337,
+        "standard_error_of_difference": 0.18426731789561734,
+        "t_statistic": -5.933408842216278,
+        "degrees_of_freedom": 8.636541172897816,
+        "p_raw": 0.00025854211940903095,
+        "delta_ct_difference_CI95_unadjusted": [
+          -1.5128644238807532,
+          -0.6738022427859143
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 2.1336644858907157,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          1.5952717929798759,
+          2.853760818930697
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 2.163376120246753,
+        "arithmetic_fold_mean_numerator": 2.163376120246753,
+        "arithmetic_fold_mean_denominator": 1.0,
+        "p_holm_18_test_family": 0.0028670442677780723,
+        "significant_at_holm_0_05": true
+      },
+      {
+        "gene": "ROCK2",
+        "numerator_group": "Restoration",
+        "denominator_group": "Model",
+        "comparison": "Restoration vs Model",
+        "n_numerator": 6,
+        "n_denominator": 6,
+        "delta_ct_difference": 0.4250000000000007,
+        "standard_error_of_difference": 0.1655512676551354,
+        "t_statistic": 2.5671805841156736,
+        "degrees_of_freedom": 6.516543195708527,
+        "p_raw": 0.0395153992102046,
+        "delta_ct_difference_CI95_unadjusted": [
+          0.027568338313717022,
+          0.8224316616862843
+        ],
+        "geometric_expression_ratio_2_power_negative_delta_ct_difference": 0.7448387315613507,
+        "geometric_expression_ratio_CI95_unadjusted": [
+          0.5654880092226485,
+          0.9810725019555413
+        ],
+        "direction_note": "ΔCt difference = numerator group minus denominator group; negative difference corresponds to higher expression. Expression ratio is numerator/denominator.",
+        "arithmetic_mean_expression_ratio": 0.7609806337718548,
+        "arithmetic_fold_mean_numerator": 2.163376120246753,
+        "arithmetic_fold_mean_denominator": 2.842879337840472,
+        "p_holm_18_test_family": 0.06180025433163873,
+        "significant_at_holm_0_05": false
+      }
+    ],
+    "normalization": "Q = 2^(-delta Cq); each Q divided by arithmetic mean Q of six sham samples for that target",
+    "current_qualification": "Original curves are available; target specificity is not confirmed. Efficiencies and reference stability were not validated. Two Plate annotations were explained as errors by investigators; no numerical values or pairings changed. Animal identity ledger and source loading records are unavailable."
+  },
+  "displayed_endpoints": [
+    "SOD",
+    "MDA",
+    "Nox1-targeted assay",
+    "Nox4-targeted assay"
+  ],
+  "auxiliary_endpoint": "O12 probe-associated fluorescence, not validated for tissue/RIPA matrix",
+  "date": "2026-10-20"
+}
