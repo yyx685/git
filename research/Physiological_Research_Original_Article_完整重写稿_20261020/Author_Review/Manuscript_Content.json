@@ -59,7 +59,7 @@
           "heading": "Exploratory targeted RT qPCR",
           "paragraphs": [
             "RNA was extracted using TRIzol, and reverse transcription used PrimeScript RT reagent Kit with gDNA Eraser (RR047A). SYBR reactions were run on a PikoReal 96 system. The program comprised 95°C for 1 min and 40 cycles of 95°C for 20 s and 60°C for 1 min, followed by melting analysis from 60°C to 95°C in 0.2°C increments. Primer sequences, expected product lengths and reaction composition are given in the Supplementary Information. Each target and β-actin reference was measured once per sample, without technical replication.",
-            "Within-sample ΔCq was target Cq minus paired β-actin Cq. Relative quantity was calculated as 2 raised to −ΔCq and divided by the arithmetic mean quantity of the six sham samples for that assay. Equal, approximately 100% amplification efficiencies were assumed; efficiencies and reference-gene stability were not validated, and NTC/no-RT records were unavailable. Heterogeneous melt profiles and absent product-identity evidence left specificity unconfirmed [10]; results were retained as exploratory normalized assay estimates. Investigator-confirmed explanations for two plate annotations, B10-Ch5 and D12-Ch5, are detailed in Supplementary Table S4. Original exports, numerical assignments and pairings were preserved."
+            "Within-sample ΔCq was target Cq minus paired β-actin Cq. Relative quantity was calculated as 2 raised to −ΔCq and divided by the arithmetic mean quantity of the six sham samples for that assay. Equal, approximately 100% amplification efficiencies were assumed; efficiencies and reference-gene stability were not validated, and NTC/no-RT records were unavailable. Heterogeneous melt profiles and absent product-identity evidence left specificity unconfirmed [10]; results were retained as exploratory normalized assay estimates. Both B10-Ch5 (Nox1, model; Cq 29.82) and D12-Ch5 (Nox4, sham-operated; Cq 34.69) had numerical Cq values in the original Cq Results exports and were included in the analysis. Author-confirmed plate annotation corrections are documented in Supplementary Table S4. Cq values, sample assignments, reference pairings and statistical results were unchanged; original exports were preserved."
           ]
         },
         {
@@ -128,7 +128,7 @@
     {
       "heading": "Data availability",
       "paragraphs": [
-        "Processed biochemical values, paired target/reference Cq values, statistical results and available original qPCR exports accompany this article. Detailed assay qualifications and the two plate-annotation explanations are in the Supplementary Information. The historical animal–sample ledger and cross-assay linkage were not recoverable; biological replication and same-animal target/reference pairing were confirmed by the investigators. Observation indices are source positions, not animal identifiers."
+        "Processed biochemical values, paired target/reference Cq values, statistical results and available original qPCR exports accompany this article. Detailed assay qualifications and documentation of the plate annotation corrections are in the Supplementary Information. The historical animal–sample ledger and cross-assay linkage were not recoverable; biological replication and same-animal target/reference pairing were confirmed by the investigators. Observation indices are source positions, not animal identifiers."
       ]
     },
     {

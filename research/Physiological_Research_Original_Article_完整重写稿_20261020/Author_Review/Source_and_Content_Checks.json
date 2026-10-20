@@ -82,7 +82,7 @@
   "review_status": "Complete new author-review draft; author review of this version remains necessary",
   "no_email_sent": true,
   "no_new_experiments_or_validation_claimed": true,
-  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3235,
+  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3267,
   "final_page_counts": {
     "English": 12,
     "Chinese": 11,
@@ -91,9 +91,10 @@
   "numeric_statistics_reproduction_passed": true,
   "full_18_test_family_preserved": true,
   "visual_review": {
-    "English": "All 12 final page PNGs inspected; text, two figures and captions complete",
-    "Chinese": "All 11 final page PNGs inspected; Chinese and formula glyphs complete, figures and captions paired",
-    "Supplementary": "All 5 corrected final page PNGs inspected; five original tables and two embedded figures intact"
+    "English": "12 pages checked; first four pixel-identical to previous reviewed copy, changed pages 5–12 inspected",
+    "Chinese": "Consolidated reading copy re-rendered after removing an extra blank page before figures; all changed pages checked",
+    "Supplementary": "All five pages inspected; S4 data and reference pairings displayed, all other tables and two figures intact",
+    "Chinese_working_copy": "All twelve pages inspected; pre-existing author body edits retained"
   },
   "journal_rules_checked": "Original Article max 5000 words, max 45 references, max 6 displays; summary max250, keywords max5, runningtitlemax60",
   "review_note": "This new version awaits author review and approval before submission; ORCID/Researcher IDs were not fabricated",
@@ -140,5 +141,33 @@
       11
     ],
     "visual_review": "English: all 12 pages inspected. Chinese: changed page 9 inspected; remaining 10 pages pixel-identical to the previously inspected complete version."
+  },
+  "two_well_annotation_clarification": {
+    "date": "2026-10-20",
+    "B10-Ch5": {
+      "target": "Nox1",
+      "group": "Model",
+      "Cq": 29.82,
+      "reference_well": "B07-Ch5",
+      "reference_Cq": 16.22,
+      "delta_Cq": 13.6
+    },
+    "D12-Ch5": {
+      "target": "Nox4",
+      "group": "Sham-operated",
+      "Cq": 34.69,
+      "reference_well": "D06-Ch5",
+      "reference_Cq": 16.37,
+      "delta_Cq": 18.32
+    },
+    "both_numerical_Cq_records_present_and_included": true,
+    "changes": "Methods and S4 explicitly report numerical Cq records; Plate differences described as author-confirmed annotation corrections",
+    "Quantity_separate_from_Cq": true,
+    "numerical_inputs_pairings_statistics_figures_unchanged": true,
+    "other_supplementary_tables_unchanged": true,
+    "original_exports_unchanged": true,
+    "pre_existing_chinese_working_copy_body_edits_preserved": true,
+    "packaged_chinese_copy": "Consolidated text with targeted changes only; figure pagination repaired",
+    "working_chinese_page_count": 12
   }
 }
