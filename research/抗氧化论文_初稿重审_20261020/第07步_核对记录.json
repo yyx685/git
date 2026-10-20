@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-20",
+  "lesson": 7,
+  "scope": "Explain RNA, protein and NOX enzyme activity; add rationale and interpretation boundaries, not quantitative NOX results yet",
+  "source_files": [
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S2_Data_RTqPCR_Animal_Paired_Values.csv",
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Supporting_Information/S4_File_RTqPCR_Statistical_Outputs.json",
+      "sha256": "1dd6c25a62df99a4c72089e336154529b9599f0d0f6c40612b9c3911d7d6f5c2",
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Author_Review/RTqPCR_Source_Audit.json",
+      "sha256": "fefa354b4e17886fbd370b01aba20766e41c44a81806d0ffb51a3c4e12f65e3c",
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Short_Communication_风险修订_20261017/Author_Review/RTqPCR_Curve_Visual_Audit.json",
+      "sha256": "1f4cc9ff4b6f4af68430394993f8f9a4b25ff3d5f85d159c62169f185d1bde59",
+      "source_modified": false
+    },
+    {
+      "path": "/Users/yyx/Desktop/git/git/research/PLOS_ONE_新资料补充修订_20261014/Author_Review/Reports_Source_Audit.json",
+      "sha256": "78ef96fe1fadbf3d5296bf0766f0d634c4ea8fd421b7c0a34a4d1e3936715f8d",
+      "source_modified": false
+    }
+  ],
+  "checked_qPCR_records": 36,
+  "normalization_check": "Same-column author-confirmed target/Actb Cq -> delta_Cq -> Q=2^-delta_Cq -> divide by arithmetic mean sham Q; all CSV values and six summary rows agree",
+  "summary_values_for_next_lesson": [
+    {
+      "target": "Nox1",
+      "group": "Sham-operated",
+      "records": 6,
+      "mean": 1.0,
+      "sample_sd": 0.13372303808076616,
+      "calibrator_mean_Q": 6.130568614697139e-05
+    },
+    {
+      "target": "Nox1",
+      "group": "Model",
+      "records": 6,
+      "mean": 1.4590993753794583,
+      "sample_sd": 0.15585825718632776,
+      "calibrator_mean_Q": 6.130568614697139e-05
+    },
+    {
+      "target": "Nox1",
+      "group": "Restoration",
+      "records": 6,
+      "mean": 1.1800044318122989,
+      "sample_sd": 0.08953992487365975,
+      "calibrator_mean_Q": 6.130568614697139e-05
+    },
+    {
+      "target": "Nox4",
+      "group": "Sham-operated",
+      "records": 6,
+      "mean": 1.0,
+      "sample_sd": 0.2333515455474482,
+      "calibrator_mean_Q": 2.4593769811614232e-06
+    },
+    {
+      "target": "Nox4",
+      "group": "Model",
+      "records": 6,
+      "mean": 2.902300965578845,
+      "sample_sd": 0.5581211787769389,
+      "calibrator_mean_Q": 2.4593769811614232e-06
+    },
+    {
+      "target": "Nox4",
+      "group": "Restoration",
+      "records": 6,
+      "mean": 1.6446561723154243,
+      "sample_sd": 0.22739297758675475,
+      "calibrator_mean_Q": 2.4593769811614232e-06
+    }
+  ],
+  "existing_comparisons_not_recomputed": [
+    {
+      "target": "Nox1",
+      "comparison": "Model vs Sham-operated",
+      "p_holm_18": 0.0037132651528660066
+    },
+    {
+      "target": "Nox1",
+      "comparison": "Restoration vs Sham-operated",
+      "p_holm_18": 0.06180025433163873
+    },
+    {
+      "target": "Nox1",
+      "comparison": "Restoration vs Model",
+      "p_holm_18": 0.013898420216289727
+    },
+    {
+      "target": "Nox4",
+      "comparison": "Model vs Sham-operated",
+      "p_holm_18": 0.00010222109053618496
+    },
+    {
+      "target": "Nox4",
+      "comparison": "Restoration vs Sham-operated",
+      "p_holm_18": 0.009896794258435402
+    },
+    {
+      "target": "Nox4",
+      "comparison": "Restoration vs Model",
+      "p_holm_18": 0.0037132651528660066
+    }
+  ],
+  "testing_scale": "delta_Cq",
+  "multiple_testing": "Single Holm family of all original six targets x three independent-group contrasts = 18 tests",
+  "new_inferential_tests": false,
+  "current_qPCR_status": {
+    "amplification_and_melting_exports_available": true,
+    "melting_specificity_unconfirmed": true,
+    "NTC_noRT_efficiency_reference_stability_validation_not_found": true,
+    "technical_repeats_per_sample": 1,
+    "independent_animals_per_group_author_confirmed": 6,
+    "same_column_target_reference_pairing_author_confirmed": true,
+    "animal_sample_ledger_reconstructed": false,
+    "plate_annotation_corrections": [
+      {
+        "well": "B10-Ch5",
+        "actual_sample_author_confirmed": "Nox1 Model",
+        "Cq": 29.82,
+        "original_plate_label": "Empty/[none]",
+        "basis": "Author reports reviewing original loading table or institution record",
+        "supporting_record_available_for_independent_review": false
+      },
+      {
+        "well": "D12-Ch5",
+        "actual_sample_author_confirmed": "Nox4 Sham",
+        "Cq": 34.69,
+        "original_plate_label": "Empty/[none]",
+        "basis": "Author reports reviewing original loading table or institution record",
+        "supporting_record_available_for_independent_review": false
+      }
+    ],
+    "annotation_correction_changed_numeric_analysis": false
+  },
+  "historical_audit_limitations_not_adopted_as_current_status": [
+    "Amplification/melting curves unavailable",
+    "Two plate-well identities remain unresolved"
+  ],
+  "WB_status": {
+    "n_per_group_author_reported": 3,
+    "representative_cropped_bands_available": true,
+    "uncropped_membranes_available": false,
+    "animal_level_densitometry_available": false,
+    "no_reconstructed_quantitative_protein_result": true
+  },
+  "NOX_specific_activity_data_present_in_this_manuscript": false,
+  "original_manuscripts_figures_and_submission_packages_unchanged": true,
+  "working_draft_methods_and_results_unchanged": true,
+  "new_working_draft_paragraph": "NOX1和NOX4属于参与ROS生成的NADPH氧化酶家族，因此本研究进一步开展Nox1/Nox4靶向RT-qPCR及WB检测，以探索延髓区域氧化还原变化的分子线索（Helmcke等，2009）。两项检测分别涉及RNA层面的估计和蛋白相关条带，不直接测定NOX酶活。本批qPCR的目标产物特异性尚未确认，现有WB资料也不足以重建逐动物蛋白定量，故目前不能据此确定NOX1/NOX4表达上调、酶活增强或其对区域生化差异的贡献。",
+  "external_sources": [
+    {
+      "doi": "10.1089/ars.2008.2383",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19061439/",
+      "use": "General NOX biology; HEK293 expression study, not evidence of this rat regional mechanism",
+      "read_scope": "PubMed abstract and bibliographic record"
+    },
+    {
+      "doi": "10.1093/clinchem/hvaf043",
+      "url": "https://www.gene-quantification.eu/bustin-et-al-miqe-2.0-clinical-chemistry-2025.pdf",
+      "use": "Assay specificity, melting interpretation and quantification/control validation",
+      "read_scope": "Relevant original manuscript sections including melting-curve page"
+    }
+  ],
+  "next_task": "Explain Cq, reference Actb and delta_Cq using one existing measurement before adding numerical exploratory qPCR results"
+}
