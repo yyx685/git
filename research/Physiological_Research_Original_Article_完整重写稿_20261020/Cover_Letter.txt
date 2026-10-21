@@ -1,14 +1,14 @@
 Dear Editors,
 
-Please consider our manuscript, “Regional medullary redox profiles in rats with atlantoaxial joint disorder,” as an Original Article in Physiological Research.
+Please consider our manuscript, “Regional medullary redox profiles in rats with atlantoaxial joint disorder,” for publication as an Original Article in Physiological Research.
 
-The study characterizes regional medullary biochemistry in a rat model previously associated with elevated blood pressure. The concurrent week-4 comparison showed lower superoxide dismutase activity and a higher thiobarbituric-acid-derived malondialdehyde-related signal in model than sham-operated animals. A separately allocated cohort was sampled at week 8 after implant removal. Nox1/Nox4-targeted RT-qPCR estimates are reported as exploratory observations, with their assay qualifications stated explicitly. The original Western blot analysis showed higher NOX1/NOX4 protein signals in model than sham-operated animals; the original summary graphs and significance annotations are retained. The study addresses pathological physiology and regional biochemistry, within the journal’s scope.
+We examined medullary biochemistry in a rat model previously associated with elevated blood pressure. At week 4, model rats had lower superoxide dismutase activity and a higher thiobarbituric-acid-derived malondialdehyde-related signal than sham rats. Western blotting showed higher NOX1/NOX4 protein signals in model rats, and Nox1/Nox4-targeted RT-qPCR quantities are reported as exploratory findings. A separate restoration group was sampled at week 8 after implant removal at week 4. The study addresses regional biochemical changes in an experimental model and fits the journal's scope in pathological physiology.
 
-The manuscript distinguishes the concurrent comparison from the unmatched later cohort and does not claim a specific implant-removal effect or an established NOX-mediated mechanism. Blood-pressure observations from the underlying experimental program were also used in a related Ang II/AT1-R report, which is cited and disclosed. Those shared pressure observations are not presented here as new quantitative efficacy results. The manuscript reports the actual perioperative procedures, including the omission of postoperative analgesia, and explains the relevant limitations.
+We distinguish the week-4 comparison from the later restoration group. The sampling design does not establish an implant-removal effect, and the assays do not establish a NOX-mediated mechanism. Blood-pressure observations from the same experimental series were used in a related Ang II/AT1-R report, which is cited; those observations are not presented here as new quantitative results. The manuscript describes the actual perioperative procedures, including the omission of postoperative analgesia, and discusses the associated limitations. The Western blot summary data and significance annotations reproduce the original analysis and were not independently recalculated for this report.
 
-This manuscript is not under consideration by another journal. Available numerical inputs, statistical results, qPCR exports, Western blot source documents and supplementary methodological information accompany the manuscript. We include an AI-use declaration that describes assistance with polishing, editing and data checking; responsibility for the article rests with the authors.
+This manuscript is not under consideration elsewhere. Available numerical inputs, statistical outputs, qPCR exports, Western blot source documents and supplementary methods accompany the article. An AI-use declaration describes assistance with manuscript polishing, editing and data checking. The authors are responsible for reviewing and verifying the outputs and take full responsibility for the final manuscript.
 
-Thank you for considering this work.
+Thank you for considering our manuscript.
 
 Sincerely,
 Zijian Wu
