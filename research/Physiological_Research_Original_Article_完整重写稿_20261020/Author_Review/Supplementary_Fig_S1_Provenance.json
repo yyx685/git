@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-21",
+  "source_sha256": {
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Data_1_Biochemical_Values.csv": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Statistical_Results.json": "0deb1f7826d3aaeecfd2c10e1a2ca112adfdc9647de56908861cde6bbad0997c",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Figures/Figures_1_2_Data_For_Prism.pzfx": "fbe679d4886b14d7abdd687ad7c233d1bc4096eacc4a7632e8c9fb90999d6096"
+  },
+  "source_files_unchanged": true,
+  "endpoint_source_label": "ROS",
+  "display_title": "Auxiliary probe-associated fluorescence",
+  "display_y_axis": "Protein-normalized fluorescence (arbitrary units)",
+  "interpretation": "Auxiliary fluorescence index; not absolute ROS concentration, a ROS species, or a cellular source",
+  "values_by_source_group": {
+    "Sham-operated": [
+      1263.392857142857,
+      1381.8980667838312,
+      1268.5936631461925,
+      1326.7080745341614,
+      1352.4305555555554,
+      1368.2539682539682
+    ],
+    "Model": [
+      3696.569250317662,
+      3105.2154195011335,
+      3228.146853146853,
+      3198.6230636833047,
+      3167.7699403147044,
+      3377.488151658768
+    ],
+    "Restoration": [
+      2078.084606345476,
+      2255.9040590405903,
+      2142.0378279438683,
+      2370.2821316614422,
+      2343.540945790081,
+      2403.594351732991
+    ]
+  },
+  "plot_column_labels": [
+    "Sham (Week 4)",
+    "Model (Week 4)",
+    "Restoration (Week 8)"
+  ],
+  "records_per_group": 6,
+  "row_positions_are_animal_identifiers": false,
+  "means_and_sample_SD_from_existing_statistics": [
+    {
+      "endpoint": "ROS",
+      "group": "Sham-operated",
+      "n": 6,
+      "mean": 1326.8795309027612,
+      "sd": 50.63510193522331,
+      "unit": "arbitrary protein-normalized fluorescence units"
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Model",
+      "n": 6,
+      "mean": 3295.6354464370706,
+      "sd": 216.34383161640545,
+      "unit": "arbitrary protein-normalized fluorescence units"
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Restoration",
+      "n": 6,
+      "mean": 2265.5739870857415,
+      "sd": 131.60487928777005,
+      "unit": "arbitrary protein-normalized fluorescence units"
+    }
+  ],
+  "descriptive_reconciliation_only": true,
+  "Games_Howell_comparisons_from_existing_statistics": [
+    {
+      "endpoint": "ROS",
+      "group_1": "Sham-operated",
+      "group_2": "Model",
+      "difference_group_1_minus_group_2": -1968.7559155343095,
+      "CI95_low": -2253.791659889321,
+      "CI95_high": -1683.7201711792977,
+      "q": 30.69426500100466,
+      "df": 5.54615144691895,
+      "p_adjusted": 3.4320801671761103e-06,
+      "n_1": 6,
+      "n_2": 6,
+      "star_symbol": "***"
+    },
+    {
+      "endpoint": "ROS",
+      "group_1": "Sham-operated",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": -938.6944561829803,
+      "CI95_low": -1111.8178206166967,
+      "CI95_high": -765.5710917492639,
+      "q": 23.0603366848782,
+      "df": 6.448588747918607,
+      "p_adjusted": 4.408931782551306e-06,
+      "n_1": 6,
+      "n_2": 6,
+      "star_symbol": "***"
+    },
+    {
+      "endpoint": "ROS",
+      "group_1": "Model",
+      "group_2": "Restoration",
+      "difference_group_1_minus_group_2": 1030.0614593513292,
+      "CI95_low": 736.5621614308754,
+      "CI95_high": 1323.560757271783,
+      "q": 14.090998633249585,
+      "df": 8.254766686780398,
+      "p_adjusted": 1.8344142835746702e-05,
+      "n_1": 6,
+      "n_2": 6,
+      "star_symbol": "***"
+    }
+  ],
+  "inferential_tests_recomputed": false,
+  "multiple_testing_scope_unchanged": "Three pairwise contrasts within this endpoint; no adjustment across endpoints",
+  "pzfx": {
+    "path": "/tmp/codex-prism-s1-20261021/S1_Data.pzfx",
+    "root": "GraphPadPrismFile",
+    "PrismXMLVersion": "5.00",
+    "namespace": null,
+    "tables": 1,
+    "data_values": 18,
+    "numeric_XML_roundtrip_equal": true,
+    "native_example": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Figures/Figures_1_2_Data_For_Prism.pzfx",
+    "contains_binary_template_or_analysis": false,
+    "native_Prism_UI_opening": "To be verified by root agent"
+  },
+  "rendering": {
+    "application": "GraphPad Prism 11.1.0 (218)",
+    "native_graph": "Supplementary_Fig_S1_Prism11.prism",
+    "native_export": "S1_Prism_Base 1.svg",
+    "native_export_sha256": "d1c2f357afc4dd484190048ce029126316c0ab3eff230ee18e84a22c5df54707",
+    "graph": "Column bars, mean with SD, no individual points",
+    "axis_limits": [
+      0,
+      6000
+    ],
+    "colors": [
+      "#000000",
+      "#a0a0a4",
+      "#808080"
+    ],
+    "comparison_annotation": "Three brackets and *** were added as a separate SVG layer using the previously calculated Games–Howell-adjusted P values; original Prism shapes/text/bars/errors unchanged",
+    "no_new_statistical_inference": true,
+    "plot_centers": [
+      108.69843,
+      186.286,
+      263.8736
+    ],
+    "plot_y0": 260.58092999999997,
+    "plot_y6000": 30.093099999999993,
+    "outer_white_margin_pt": 12,
+    "exported_chart_shapes_preserved": true,
+    "final_svg_viewbox": [
+      0,
+      0,
+      348,
+      381
+    ],
+    "final_raster_resolution_dpi": 600
+  },
+  "native_prism_data_exactly_match_source_18_values": true,
+  "file_sha256": {
+    "Supporting_Information/Supplementary_Fig_S1.svg": "64f7e7db7abb5a0c6456317ec6d464cdfcfb8fe89bacd6147e9d61cc322b6430",
+    "Supporting_Information/Supplementary_Fig_S1.png": "d646743ae90cea449641364dfe55fd02831803ab58abed06bc6917d74350bab2",
+    "Supporting_Information/Supplementary_Fig_S1.jpg": "f75cb73f6fd490b5dfce21de260b3df1f3d33a3321a15560b7a14991af3d8b0d",
+    "Supporting_Information/Supplementary_Fig_S1_Prism11.prism": "180272c3f059265fc2ac91053432bcbd7627071393c67012d51d3d5988eb0ca0",
+    "Author_Review/Supplementary_Fig_S1_Prism_Export.svg": "d1c2f357afc4dd484190048ce029126316c0ab3eff230ee18e84a22c5df54707"
+  }
+}

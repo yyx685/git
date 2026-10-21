@@ -94,7 +94,7 @@
     "English": "All 13 pages inspected; original full WB A/B/C and matching caption included, two updated bar figures complete",
     "Chinese": "All 13 packaged reading-copy pages inspected; sample sizes and panels match the English version",
     "Chinese_working_copy": "All 14 pages inspected; author formatting preserved",
-    "Supplementary": "All 6 pages inspected; five original tables and two supplementary figures complete",
+    "Supplementary": "Six pages checked; updated S1 bar chart and caption complete on page 5, five tables and HE figure unchanged",
     "Figures_1_2": "Both full-resolution PNGs inspected; labels, SDs, significance-family mappings and 4/8-week labels checked",
     "Figure_3": "Complete original composite retained; lossless source pixel comparison passed"
   },
@@ -240,5 +240,28 @@
     "Figures/Yuan_fig3.png": "e63b0b41c8699b80a3f82f5d7b77fe74c0eee9d317500d87b193ddf1fcd667b8",
     "Figures/Yuan_fig3.jpg": "96566d086664c1ebe990895050c41e557e9a709e33b9a7a6866b1d60d9f2148e",
     "Figures/Yuan_fig3.svg": "5a032376b54e02178b8983e493414d6450b54ea04ab0b5e351a5593131fdc020"
+  },
+  "last_updated": "2026-10-21",
+  "supplementary_figure_S1_Prism_redraw": {
+    "date": "2026-10-21",
+    "software": "GraphPad Prism 11.1.0 (218)",
+    "native_project": "Supporting_Information/Supplementary_Fig_S1_Prism11.prism",
+    "native_graph_contains_all_18_source_values": true,
+    "n_per_group": 6,
+    "display": "Black and gray mean bars with sample SD",
+    "processing": "Prism native chart export; comparison brackets and *** added as separate SVG layer from existing Games–Howell-adjusted P values; uniform 12pt white border added",
+    "no_new_inference_or_source_data_changes": true,
+    "time_labels": "Sham and model Week 4; restoration Week 8",
+    "all_three_existing_comparisons": "***P < 0.001",
+    "auxiliary_assay_qualification_retained": true,
+    "main_manuscript_and_three_main_figures_unchanged": true,
+    "supplementary_tables_and_HE_unchanged": true,
+    "native_and_final_provenance": "Author_Review/Supplementary_Fig_S1_Provenance.json",
+    "raster_dpi": 600,
+    "final_image_size": [
+      2900,
+      3175
+    ],
+    "visual_review": "All six pages checked; five unchanged pages reused by exact PNG comparison; changed page 5 inspected and caption/image complete"
   }
 }
