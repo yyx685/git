@@ -1,0 +1,204 @@
+{
+  "source_sha256_before": {
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Data_1_Biochemical_Values.csv": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Data_2_Targeted_qPCR_Values.csv": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Statistical_Results.json": "0deb1f7826d3aaeecfd2c10e1a2ca112adfdc9647de56908861cde6bbad0997c"
+  },
+  "source_sha256_after": {
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Data_1_Biochemical_Values.csv": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Data_2_Targeted_qPCR_Values.csv": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+    "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Statistical_Results.json": "0deb1f7826d3aaeecfd2c10e1a2ca112adfdc9647de56908861cde6bbad0997c"
+  },
+  "source_files_unchanged": true,
+  "descriptive_summary": {
+    "SOD": [
+      {
+        "group": "Sham-operated",
+        "n": 6,
+        "mean": 1.1218116789532617,
+        "sample_SD": 0.07219142132091602
+      },
+      {
+        "group": "Model",
+        "n": 6,
+        "mean": 0.5640206062256827,
+        "sample_SD": 0.07242676568621396
+      },
+      {
+        "group": "Restoration",
+        "n": 6,
+        "mean": 1.0352066715663677,
+        "sample_SD": 0.10087853389934057
+      }
+    ],
+    "MDA": [
+      {
+        "group": "Sham-operated",
+        "n": 6,
+        "mean": 0.09531269362219968,
+        "sample_SD": 0.017077404894084252
+      },
+      {
+        "group": "Model",
+        "n": 6,
+        "mean": 0.34878755768534236,
+        "sample_SD": 0.03351995100609292
+      },
+      {
+        "group": "Restoration",
+        "n": 6,
+        "mean": 0.21284911414320715,
+        "sample_SD": 0.04936004376701737
+      }
+    ],
+    "Nox1": [
+      {
+        "group": "Sham-operated",
+        "n": 6,
+        "mean": 1.0,
+        "sample_SD": 0.13372303808076616
+      },
+      {
+        "group": "Model",
+        "n": 6,
+        "mean": 1.4590993753794583,
+        "sample_SD": 0.15585825718632776
+      },
+      {
+        "group": "Restoration",
+        "n": 6,
+        "mean": 1.1800044318122989,
+        "sample_SD": 0.08953992487365975
+      }
+    ],
+    "Nox4": [
+      {
+        "group": "Sham-operated",
+        "n": 6,
+        "mean": 1.0,
+        "sample_SD": 0.2333515455474482
+      },
+      {
+        "group": "Model",
+        "n": 6,
+        "mean": 2.902300965578845,
+        "sample_SD": 0.5581211787769389
+      },
+      {
+        "group": "Restoration",
+        "n": 6,
+        "mean": 1.6446561723154243,
+        "sample_SD": 0.22739297758675475
+      }
+    ]
+  },
+  "annotation_map": {
+    "SOD": [
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Model",
+        "adjusted_P_from_existing_JSON": 2.892936645793043e-07,
+        "symbol": "***"
+      },
+      {
+        "group_1": "Model",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 1.6581020619299558e-05,
+        "symbol": "***"
+      },
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 0.25337169236579005,
+        "symbol": "ns"
+      }
+    ],
+    "MDA": [
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Model",
+        "adjusted_P_from_existing_JSON": 1.0368106856395443e-06,
+        "symbol": "***"
+      },
+      {
+        "group_1": "Model",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 0.0009643860810790716,
+        "symbol": "***"
+      },
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 0.0032977066081972817,
+        "symbol": "**"
+      }
+    ],
+    "Nox1": [
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Model",
+        "adjusted_P_from_existing_JSON": 0.0037132651528660066,
+        "symbol": "**"
+      },
+      {
+        "group_1": "Model",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 0.013898420216289727,
+        "symbol": "*"
+      },
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 0.06180025433163873,
+        "symbol": "ns"
+      }
+    ],
+    "Nox4": [
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Model",
+        "adjusted_P_from_existing_JSON": 0.00010222109053618496,
+        "symbol": "***"
+      },
+      {
+        "group_1": "Model",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 0.0037132651528660066,
+        "symbol": "**"
+      },
+      {
+        "group_1": "Sham-operated",
+        "group_2": "Restoration",
+        "adjusted_P_from_existing_JSON": 0.009896794258435402,
+        "symbol": "**"
+      }
+    ]
+  },
+  "inference_recomputed": false,
+  "statistics_source_only": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Statistical_Results.json",
+  "qPCR_correction_family_retained": "Holm across original 18 tests",
+  "biochemical_correction_family_retained": "Games–Howell three comparisons per endpoint",
+  "raw_individual_points_displayed": false,
+  "bar_colors": [
+    "#000000",
+    "#b0b0b0",
+    "#737373"
+  ],
+  "mean_and_sample_SD": true,
+  "PZFX": {
+    "path": "Figures/Figures_1_2_Data_For_Prism.pzfx",
+    "tables": 4,
+    "columns_each": 3,
+    "records_per_column": 6,
+    "plotted_values": 72,
+    "XML_roundtrip_matches_source": true,
+    "native_Prism_opening_verified": true,
+    "contains_analysis_or_graph_binary": "Native application-generated compatibility template; no analyses or graphs in this data-only project",
+    "Prism_version": "11.1.0 (218)",
+    "native_application_reexport": true,
+    "native_export_72_values_match_within_15_significant_digit_serialization": true,
+    "native_export_max_absolute_serialization_difference": 4.884981308350689e-15
+  },
+  "Prism_native_workbook": "Figures/Figures_1_2_Data_For_Prism.prism",
+  "final_plot_rendering": "Matplotlib; native Prism used for data import and compatibility verification, not claimed as renderer of the final annotated figures"
+}

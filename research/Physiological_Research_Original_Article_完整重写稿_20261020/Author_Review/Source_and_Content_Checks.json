@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "article_type": "Original Article",
   "journal": "Physiological Research",
-  "summary_words": 204,
+  "summary_words": 216,
   "running_title_characters": 49,
   "main_figures": 3,
   "references": 11,
@@ -82,20 +82,21 @@
   "review_status": "Complete new author-review draft; author review of this version remains necessary",
   "no_email_sent": true,
   "no_new_experiments_or_validation_claimed": true,
-  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3523,
+  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3766,
   "final_page_counts": {
     "English": 13,
     "Chinese": 13,
-    "Supplementary": 5
+    "Supplementary": 6
   },
   "numeric_statistics_reproduction_passed": true,
   "full_18_test_family_preserved": true,
   "visual_review": {
-    "English": "All 13 pages checked; new WB method/result and figure complete, three figures with full legends",
-    "Chinese": "All 13 packaged reading-copy pages checked; no blank pages or clipping; WB n3 and quantitative endpoints n6 distinguished",
-    "Chinese_working_copy": "All 14 pages inspected; author formatting preserved; three figures and captions complete",
-    "Supplementary": "All five pages inspected; new WB source description and original five tables and two figures complete",
-    "Figure_3": "Source strips displayed unchanged with aspect-preserving layout; labels and weeks checked"
+    "English": "All 13 pages inspected; original full WB A/B/C and matching caption included, two updated bar figures complete",
+    "Chinese": "All 13 packaged reading-copy pages inspected; sample sizes and panels match the English version",
+    "Chinese_working_copy": "All 14 pages inspected; author formatting preserved",
+    "Supplementary": "All 6 pages inspected; five original tables and two supplementary figures complete",
+    "Figures_1_2": "Both full-resolution PNGs inspected; labels, SDs, significance-family mappings and 4/8-week labels checked",
+    "Figure_3": "Complete original composite retained; lossless source pixel comparison passed"
   },
   "journal_rules_checked": "Original Article max 5000 words, max 45 references, max 6 displays; summary max250, keywords max5, runningtitlemax60",
   "review_note": "This new version awaits author review and approval before submission; ORCID/Researcher IDs were not fabricated",
@@ -190,12 +191,54 @@
     "main_methods_results_legend_and_data_statement_updated": true,
     "pre_existing_chinese_working_body_edits_preserved": true,
     "working_chinese_page_count": 14,
-    "source_provenance_file": "Western_Blot_Figure_Provenance.json"
+    "source_provenance_file": "Western_Blot_Figure_Provenance.json",
+    "status": "Superseded by complete original A/B/C figure at author request on 2026-10-21"
   },
   "new_wb_files_sha256": {
-    "Figures/Yuan_fig3.svg": "348b9b89584a7b098724217954a392f1a63141579afd0ef4eda1964cec30aa2d",
-    "Figures/Yuan_fig3.png": "0ebc027ba15e6637de156c08226ebef7392977636b8ba3db8cc8264f9288ac75",
-    "Figures/Yuan_fig3.jpg": "393bb2930c54bc31e0fb9a7b10148e828331fce8bdb88746e2326401f6963bdd",
-    "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip": "9e8183e4b1d4a63f709bc72f30d093b842ed3f4eb2e118ee208e25d1692fe14b"
+    "Figures/Yuan_fig3.svg": "5a032376b54e02178b8983e493414d6450b54ea04ab0b5e351a5593131fdc020",
+    "Figures/Yuan_fig3.png": "e63b0b41c8699b80a3f82f5d7b77fe74c0eee9d317500d87b193ddf1fcd667b8",
+    "Figures/Yuan_fig3.jpg": "96566d086664c1ebe990895050c41e557e9a709e33b9a7a6866b1d60d9f2148e",
+    "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip": "cff963b129e3c745f18503a753e504802574b703f8881104f6d52a904caa46f8"
+  },
+  "western_blot_complete_figure_restoration": {
+    "date": "2026-10-21",
+    "figure": 3,
+    "panels": [
+      "A representative blots",
+      "B original NOX4 summary",
+      "C original NOX1 summary"
+    ],
+    "n_per_group": 3,
+    "error_type": "SD from original manuscript",
+    "author_confirms_underlying_data_retained": true,
+    "original_figure_pixels_preserved": true,
+    "no_new_densitometry_or_P_values_created": true,
+    "posthoc_test_not_named_in_source": true,
+    "related_methods_results_abstract_discussion_legend_and_data_statement_synchronized": true
+  },
+  "quantitative_figure_style_update": {
+    "date": "2026-10-21",
+    "figures": [
+      1,
+      2
+    ],
+    "display": "black/light-gray/dark-gray bars with sample SD and original comparison-family significance symbols",
+    "points_displayed": false,
+    "n_per_group": 6,
+    "all_original_values_and_statistical_outputs_unchanged": true,
+    "all_five_supplementary_tables_unchanged": true,
+    "prism_data_file": "Figures/Figures_1_2_Data_For_Prism.pzfx",
+    "audit": "Plot_Style_and_Data_Verification.json"
+  },
+  "figure_files_sha256": {
+    "Figures/Yuan_fig1.png": "e999261b461cb5627733507795388386d0be15235553d4e1f11d70f19194c9e3",
+    "Figures/Yuan_fig1.jpg": "bc58a8140b8595732d0389b643be6999ffd79787c6236756e87e1950e5f0bc9a",
+    "Figures/Yuan_fig1.svg": "acd2fd8948b087be7711d07bbfe2691172052bc450d68e294a45fbd0bb3d74e2",
+    "Figures/Yuan_fig2.png": "225e8835e5c79858cef2705ecd0b4a516e4c271f0aa96a8ae34313e43e83af38",
+    "Figures/Yuan_fig2.jpg": "159053114618a2d972d0d2edbc69f5c81557a4cd95357b5320fcb21ea3c02206",
+    "Figures/Yuan_fig2.svg": "1eef5f039305587c2d2865d639d7af04441f74255e54021b227a8be9bc7eb2e4",
+    "Figures/Yuan_fig3.png": "e63b0b41c8699b80a3f82f5d7b77fe74c0eee9d317500d87b193ddf1fcd667b8",
+    "Figures/Yuan_fig3.jpg": "96566d086664c1ebe990895050c41e557e9a709e33b9a7a6866b1d60d9f2148e",
+    "Figures/Yuan_fig3.svg": "5a032376b54e02178b8983e493414d6450b54ea04ab0b5e351a5593131fdc020"
   }
 }

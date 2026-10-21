@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "purpose": "Main Figure 3 representative Western blot panels",
+  "purpose": "Main Figure 3 complete original Western blot composite, panels A, B and C",
   "source_documents": [
     {
       "name": "实验报告(1).doc",
@@ -15,36 +15,37 @@
   ],
   "panels": [
     {
-      "protein": "β-actin",
-      "source_media": "word/media/image1.png",
-      "source_size": [
-        520,
-        78
-      ],
-      "sha256": "f73ae46d6e08239af953e1fa000d9a6ce21c0751d6e3ea6a141ee26ffc6e24e6",
-      "processing": "Embedded unchanged in SVG; uniform aspect-preserving display scaling only; no brightness, contrast, background or band edits"
+      "panel": "A",
+      "content": "Representative β-actin, NOX1, NOX4 immunoblots"
     },
     {
-      "protein": "NOX1",
-      "source_media": "word/media/image3.png",
-      "source_size": [
-        520,
-        69
-      ],
-      "sha256": "75d17c89f1dd1467b5708fa8e8b7ac379bc2754ab4439ac00141a64141e925e5",
-      "processing": "Embedded unchanged in SVG; uniform aspect-preserving display scaling only; no brightness, contrast, background or band edits"
+      "panel": "B",
+      "content": "Original NOX4 densitometric summary, mean ± SD, n=3/group",
+      "significance": {
+        "Sham–Model": "***",
+        "Model–Restoration": "**"
+      }
     },
     {
-      "protein": "NOX4",
-      "source_media": "word/media/image4.png",
-      "source_size": [
-        520,
-        61
-      ],
-      "sha256": "dd51de35b4d5e30f18050bab6be4992c1e8d97670c02bc372ae8728835e76a1d",
-      "processing": "Embedded unchanged in SVG; uniform aspect-preserving display scaling only; no brightness, contrast, background or band edits"
+      "panel": "C",
+      "content": "Original NOX1 densitometric summary, mean ± SD, n=3/group",
+      "significance": {
+        "Sham–Model": "***",
+        "Model–Restoration": "*"
+      }
     }
   ],
-  "previous_bar_graphs_B_C_not_included": true,
-  "no_densitometry_or_statistical_results_created": true
+  "previous_bar_graphs_B_C_not_included": false,
+  "no_densitometry_or_statistical_results_created": true,
+  "complete_composite_source": {
+    "source_path": "/Users/yyx/Desktop/PLOS_ONE_投稿准备包_含核实标记/Author_Review/Original_Figures/Figure_5_Original.tiff",
+    "sha256": "f812636f9abb3162b2b285fff6192bdf07b1e6de7f405632132fc550673cde0b",
+    "size": [
+      3030,
+      1984
+    ],
+    "processing": "Entire original image retained; TIFF converted to lossless PNG and high-quality JPEG. No band, bar, error-bar, significance-annotation, brightness or contrast edits."
+  },
+  "author_confirmation": "2026-10-20: author confirms underlying data exist and requests complete original figure be included; no new densitometry or tests were derived from image pixels.",
+  "statistical_provenance": "Original supplied manuscript reports one-way ANOVA and unspecified post hoc comparisons, n=3, mean ± SD. Original graph annotations retained. Not independently recomputed as part of the SOD/MDA/qPCR analyses."
 }

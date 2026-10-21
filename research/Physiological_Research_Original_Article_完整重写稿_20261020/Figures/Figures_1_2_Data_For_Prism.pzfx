@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><GraphPadPrismFile PrismXMLVersion="5.00">
+<Created>
+<OriginalVersion CreatedByProgram="GraphPad Prism" CreatedByVersion="11.1.0.218" Login="yyx" DateTime="2026-10-21T14:38:51+08:00"></OriginalVersion>
+</Created>
+<InfoSequence>
+<Ref ID="Info0" Selected="1"></Ref>
+</InfoSequence>
+<Info ID="Info0">
+<Title>Figure plotting data</Title>
+<Notes></Notes>
+<Constant><Name>Experiment Date</Name><Value>2026-10-21</Value></Constant>
+</Info>
+
+<TableSequence Selected="1">
+<Ref ID="Table0" Selected="1"></Ref>
+<Ref ID="Table1"></Ref>
+<Ref ID="Table2"></Ref>
+<Ref ID="Table3"></Ref>
+</TableSequence>
+<Table ID="Table0" XFormat="none" TableType="OneWay" EVFormat="AsteriskAfterNumber">
+<Title>SOD: U/mg protein</Title>
+<YColumn Width="153" Decimals="6" Subcolumns="1">
+<Title>Sham-operated (Week 4)</Title>
+<Subcolumn>
+<d>0.999958204463763</d>
+<d>1.0749802126171</d>
+<d>1.1490682522733</d>
+<d>1.20167618272282</d>
+<d>1.15293760700431</d>
+<d>1.15224961463828</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="102" Decimals="6" Subcolumns="1">
+<Title>Model (Week 4)</Title>
+<Subcolumn>
+<d>0.670045643699586</d>
+<d>0.463068004654563</d>
+<d>0.577226557331882</d>
+<d>0.568016444277486</d>
+<d>0.506209029659138</d>
+<d>0.599557957731441</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="131" Decimals="6" Subcolumns="1">
+<Title>Restoration (Week 8)</Title>
+<Subcolumn>
+<d>1.11911845699721</d>
+<d>1.02316295251893</d>
+<d>0.93307833381113</d>
+<d>1.1214096127637</d>
+<d>0.897075864731326</d>
+<d>1.11739480857591</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table1" XFormat="none" TableType="OneWay" EVFormat="AsteriskAfterNumber">
+<Title>MDA: TBA-related nmol/mg protein</Title>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Sham-operated (Week 4)</Title>
+<Subcolumn>
+<d>0.0697737175190253</d>
+<d>0.108982820006465</d>
+<d>0.0902148079015284</d>
+<d>0.0905189927019062</d>
+<d>0.0932826284744585</d>
+<d>0.119103195129815</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Model (Week 4)</Title>
+<Subcolumn>
+<d>0.323010443302899</d>
+<d>0.326084983630033</d>
+<d>0.350325909254974</d>
+<d>0.357092579141138</d>
+<d>0.410651847656252</d>
+<d>0.325559583126759</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Restoration (Week 8)</Title>
+<Subcolumn>
+<d>0.24244503957449</d>
+<d>0.236971732124166</d>
+<d>0.263047235503226</d>
+<d>0.233098014513683</d>
+<d>0.144215111642553</d>
+<d>0.157317551501125</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table2" XFormat="none" TableType="OneWay" EVFormat="AsteriskAfterNumber">
+<Title>Nox1: normalized targeted assay estimate</Title>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Sham-operated (Week 4)</Title>
+<Subcolumn>
+<d>1.12788469223506</d>
+<d>1.08193931599731</d>
+<d>0.825659922288695</d>
+<d>1.08946479906807</d>
+<d>1.03786556512354</d>
+<d>0.83718570528732</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Model (Week 4)</Title>
+<Subcolumn>
+<d>1.38858893774245</d>
+<d>1.31368518270981</d>
+<d>1.35061790021716</d>
+<d>1.45762497464268</d>
+<d>1.49860439050934</d>
+<d>1.74547486645531</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Restoration (Week 8)</Title>
+<Subcolumn>
+<d>1.25146642251666</d>
+<d>1.24282191249273</d>
+<d>1.1436293758018</d>
+<d>1.27776239230491</d>
+<d>1.1046731609126</d>
+<d>1.05967332684509</d>
+</Subcolumn>
+</YColumn>
+</Table>
+<Table ID="Table3" XFormat="none" TableType="OneWay" EVFormat="AsteriskAfterNumber">
+<Title>Nox4: normalized targeted assay estimate</Title>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Sham-operated (Week 4)</Title>
+<Subcolumn>
+<d>0.825463126580167</d>
+<d>0.854573020872885</d>
+<d>0.759580975125271</d>
+<d>1.24252568639257</d>
+<d>1.32250729152865</d>
+<d>0.995349899500454</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Model (Week 4)</Title>
+<Subcolumn>
+<d>3.39468021532728</d>
+<d>2.13357921644551</d>
+<d>3.49011766645376</d>
+<d>3.05945711447954</d>
+<d>3.01733666429461</d>
+<d>2.31863491647237</d>
+</Subcolumn>
+</YColumn>
+<YColumn Width="81" Decimals="6" Subcolumns="1">
+<Title>Restoration (Week 8)</Title>
+<Subcolumn>
+<d>1.62819746357341</d>
+<d>1.94973178954371</d>
+<d>1.8964162712267</d>
+<d>1.51916195025054</d>
+<d>1.43721477964909</d>
+<d>1.43721477964909</d>
+</Subcolumn>
+</YColumn>
+</Table>
+
+<!--Analyses, graphs and layouts as compressed binary. Don&apos;t edit this part of the file.-->
+
+<Template dt:dt="bin.base64" xmlns:dt="urn:schemas-microsoft-com:datatypes">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
+dg==</Template></GraphPadPrismFile>
