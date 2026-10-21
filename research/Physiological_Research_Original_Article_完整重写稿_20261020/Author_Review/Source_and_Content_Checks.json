@@ -91,12 +91,12 @@
   "numeric_statistics_reproduction_passed": true,
   "full_18_test_family_preserved": true,
   "visual_review": {
-    "English": "All 13 pages inspected; original full WB A/B/C and matching caption included, two updated bar figures complete",
-    "Chinese": "All 13 packaged reading-copy pages inspected; sample sizes and panels match the English version",
-    "Chinese_working_copy": "All 14 pages inspected; author formatting preserved",
+    "English": "Pages 1–12 exact PNG match to previously inspected version; revised Figure 3 and full caption inspected on page 13.",
+    "Chinese": "Pages 1–12 exact PNG match; revised Figure 3 and full caption inspected on page 13.",
+    "Chinese_working_copy": "Pages 1–13 exact PNG match; revised Figure 3 and full caption inspected on page 14; author body/formatting preserved.",
     "Supplementary": "Six pages checked; updated S1 bar chart and caption complete on page 5, five tables and HE figure unchanged",
     "Figures_1_2": "Both full-resolution PNGs inspected; labels, SDs, significance-family mappings and 4/8-week labels checked",
-    "Figure_3": "Complete original composite retained; lossless source pixel comparison passed"
+    "Figure_3": "A image and six bar crops preserved; all original upper error endpoints, comparison identities and stars retained. New vector caps/shafts/brackets/labels inspected at full figure and page scales."
   },
   "journal_rules_checked": "Original Article max 5000 words, max 45 references, max 6 displays; summary max250, keywords max5, runningtitlemax60",
   "review_note": "This new version awaits author review and approval before submission; ORCID/Researcher IDs were not fabricated",
@@ -195,10 +195,10 @@
     "status": "Superseded by complete original A/B/C figure at author request on 2026-10-21"
   },
   "new_wb_files_sha256": {
-    "Figures/Yuan_fig3.svg": "5a032376b54e02178b8983e493414d6450b54ea04ab0b5e351a5593131fdc020",
-    "Figures/Yuan_fig3.png": "e63b0b41c8699b80a3f82f5d7b77fe74c0eee9d317500d87b193ddf1fcd667b8",
-    "Figures/Yuan_fig3.jpg": "96566d086664c1ebe990895050c41e557e9a709e33b9a7a6866b1d60d9f2148e",
-    "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip": "cff963b129e3c745f18503a753e504802574b703f8881104f6d52a904caa46f8"
+    "Figures/Yuan_fig3.svg": "c3a947da4338f35e14275c8c814bd792082fb237116ca438a259df445cf49e03",
+    "Figures/Yuan_fig3.png": "e406bb4bc3efdfcc261f7309f047c24d213d279c2b018e10b5253b413031f92b",
+    "Figures/Yuan_fig3.jpg": "fc9d5995e858d08a23b11b22d55010ad29586856a3fe0873fc351369015b986e",
+    "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip": "813a9995911892a77a184d8d7879c1417735ca603003b1bc99fb9917e7803e88"
   },
   "western_blot_complete_figure_restoration": {
     "date": "2026-10-21",
@@ -214,7 +214,8 @@
     "original_figure_pixels_preserved": true,
     "no_new_densitometry_or_P_values_created": true,
     "posthoc_test_not_named_in_source": true,
-    "related_methods_results_abstract_discussion_legend_and_data_statement_synchronized": true
+    "related_methods_results_abstract_discussion_legend_and_data_statement_synchronized": true,
+    "status": "Historical addition; layout superseded by western_blot_layout_revision, with scientific graph content retained."
   },
   "quantitative_figure_style_update": {
     "date": "2026-10-21",
@@ -237,9 +238,9 @@
     "Figures/Yuan_fig2.png": "225e8835e5c79858cef2705ecd0b4a516e4c271f0aa96a8ae34313e43e83af38",
     "Figures/Yuan_fig2.jpg": "159053114618a2d972d0d2edbc69f5c81557a4cd95357b5320fcb21ea3c02206",
     "Figures/Yuan_fig2.svg": "1eef5f039305587c2d2865d639d7af04441f74255e54021b227a8be9bc7eb2e4",
-    "Figures/Yuan_fig3.png": "e63b0b41c8699b80a3f82f5d7b77fe74c0eee9d317500d87b193ddf1fcd667b8",
-    "Figures/Yuan_fig3.jpg": "96566d086664c1ebe990895050c41e557e9a709e33b9a7a6866b1d60d9f2148e",
-    "Figures/Yuan_fig3.svg": "5a032376b54e02178b8983e493414d6450b54ea04ab0b5e351a5593131fdc020"
+    "Figures/Yuan_fig3.png": "e406bb4bc3efdfcc261f7309f047c24d213d279c2b018e10b5253b413031f92b",
+    "Figures/Yuan_fig3.jpg": "fc9d5995e858d08a23b11b22d55010ad29586856a3fe0873fc351369015b986e",
+    "Figures/Yuan_fig3.svg": "c3a947da4338f35e14275c8c814bd792082fb237116ca438a259df445cf49e03"
   },
   "last_updated": "2026-10-21",
   "supplementary_figure_S1_Prism_redraw": {
@@ -263,5 +264,24 @@
       3175
     ],
     "visual_review": "All six pages checked; five unchanged pages reused by exact PNG comparison; changed page 5 inspected and caption/image complete"
+  },
+  "western_blot_layout_revision": {
+    "date": "2026-10-21",
+    "no_new_densitometry_or_P_values_created": true,
+    "error_bar_endpoint_positions_retained": true,
+    "star_counts_and_comparison_identities_retained": true,
+    "source_TIFFs_archived_unmodified": true,
+    "figure_files_sha256": {
+      "Figures/Yuan_fig3.svg": "c3a947da4338f35e14275c8c814bd792082fb237116ca438a259df445cf49e03",
+      "Figures/Yuan_fig3.png": "e406bb4bc3efdfcc261f7309f047c24d213d279c2b018e10b5253b413031f92b",
+      "Figures/Yuan_fig3.jpg": "fc9d5995e858d08a23b11b22d55010ad29586856a3fe0873fc351369015b986e"
+    },
+    "main_text_and_captions_unchanged": true,
+    "current_visual_review": "Passed: complete image inspected, English p13, packaged Chinese p13 and working Chinese p14 inspected; all other pages byte-identical PNGs to previously verified render. No clipping or overlap.",
+    "independent_final_page_counts": {
+      "English": 13,
+      "packaged_Chinese": 13,
+      "working_Chinese": 14
+    }
   }
 }

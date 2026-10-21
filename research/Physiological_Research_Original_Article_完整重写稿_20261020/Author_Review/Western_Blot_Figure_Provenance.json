@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "purpose": "Main Figure 3 complete original Western blot composite, panels A, B and C",
+  "purpose": "Figure 3 faithful layout recomposition with original blot and bar-image content",
   "source_documents": [
     {
       "name": "实验报告(1).doc",
@@ -44,8 +44,130 @@
       3030,
       1984
     ],
-    "processing": "Entire original image retained; TIFF converted to lossless PNG and high-quality JPEG. No band, bar, error-bar, significance-annotation, brightness or contrast edits."
+    "processing": "Panel A cropped as a whole (20,620,1110,1360), without altering blot pixels; panel B and C use separately supplied original TIFF bar images. Supersedes the previous whole-composite conversion."
   },
   "author_confirmation": "2026-10-20: author confirms underlying data exist and requests complete original figure be included; no new densitometry or tests were derived from image pixels.",
-  "statistical_provenance": "Original supplied manuscript reports one-way ANOVA and unspecified post hoc comparisons, n=3, mean ± SD. Original graph annotations retained. Not independently recomputed as part of the SOD/MDA/qPCR analyses."
+  "statistical_provenance": "Original supplied manuscript reports one-way ANOVA and unspecified post hoc comparisons, n=3, mean ± SD. Original graph annotations retained. Not independently recomputed as part of the SOD/MDA/qPCR analyses.",
+  "last_updated": "2026-10-21",
+  "layout_revision": {
+    "author_instruction": "Keep original bars; unify layout; restyle error bars and significance annotations",
+    "method": "Layout-only SVG composition, not a Prism numerical replot. Original bar rectangles retained as raster crops. Error-bar shafts and upper caps traced at the original pixel endpoints; no lower error bars were added. Axes and labels typeset from the original 0.0–1.0 scale. Comparison lines repositioned and restyled as brackets; star counts retained.",
+    "panel_A_pixels_unchanged": true,
+    "no_scientific_values_inferred_from_pixels": true,
+    "no_statistical_recomputation": true,
+    "time_labels": [
+      "Week 4",
+      "Week 4",
+      "Week 8"
+    ],
+    "source_chart_files": [
+      {
+        "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-09/数据 3.tif",
+        "sha256": "afa5a70d553db51af87968b263ed327851c9d6d53e4225f488308604e08d6eb7"
+      },
+      {
+        "path": "/Users/yyx/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_2mc0h9mfx53o22_0cab/msg/file/2026-09/数据 2.tif",
+        "sha256": "5a5791d8443a1b71d476aa77d301ae17c8a3c90fbcbf6c2b6f7643e7cc1f8a85"
+      }
+    ],
+    "geometry": [
+      {
+        "panel": "B",
+        "target": "NOX4",
+        "file": "数据 3.png",
+        "axis_top": 101.5,
+        "baseline": 923.5,
+        "bar_tops": [
+          637,
+          248,
+          477
+        ],
+        "error_tops": [
+          592,
+          213,
+          434
+        ],
+        "xoffset": 0,
+        "stars": [
+          "***",
+          "**"
+        ],
+        "bar_crops_x": [
+          [
+            349,
+            503
+          ],
+          [
+            581,
+            736
+          ],
+          [
+            813,
+            968
+          ]
+        ],
+        "x_centers_source_pixels": [
+          426,
+          658,
+          890
+        ],
+        "output_axes_top": 895,
+        "output_axes_bottom": 1535,
+        "x_scale": 0.78,
+        "y_scale": 0.7785888077858881,
+        "no_pixel_coordinates_converted_to_measurement_values": true
+      },
+      {
+        "panel": "C",
+        "target": "NOX1",
+        "file": "数据 2.png",
+        "axis_top": 99.5,
+        "baseline": 921,
+        "bar_tops": [
+          705,
+          274,
+          467
+        ],
+        "error_tops": [
+          632,
+          224,
+          421
+        ],
+        "xoffset": 950,
+        "stars": [
+          "***",
+          "*"
+        ],
+        "bar_crops_x": [
+          [
+            349,
+            503
+          ],
+          [
+            581,
+            736
+          ],
+          [
+            813,
+            968
+          ]
+        ],
+        "x_centers_source_pixels": [
+          426,
+          658,
+          890
+        ],
+        "output_axes_top": 895,
+        "output_axes_bottom": 1535,
+        "x_scale": 0.78,
+        "y_scale": 0.7790626902008521,
+        "no_pixel_coordinates_converted_to_measurement_values": true
+      }
+    ]
+  },
+  "output_sha256": {
+    "Figures/Yuan_fig3.svg": "c3a947da4338f35e14275c8c814bd792082fb237116ca438a259df445cf49e03",
+    "Figures/Yuan_fig3.png": "e406bb4bc3efdfcc261f7309f047c24d213d279c2b018e10b5253b413031f92b",
+    "Figures/Yuan_fig3.jpg": "fc9d5995e858d08a23b11b22d55010ad29586856a3fe0873fc351369015b986e"
+  }
 }
