@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-22",
+  "changes": {
+    "English": [
+      {
+        "paragraph": 11,
+        "before": "Atlantoaxial joint disorder has been associated with elevated blood pressure in rats, but accompanying changes in medullary redox biochemistry are poorly characterized. We measured superoxide dismutase (SOD) activity, thiobarbituric acid (TBA)-derived malondialdehyde (MDA)-related signals and exploratory Nox1/Nox4-targeted RT-qPCR quantities. Male Wistar rats underwent sham exposure or atlantoaxial implantation. Sham and model groups were sampled at week 4. A separate restoration group underwent implant removal at week 4 and sampling at week 8. Tissue blocks contained the rostral ventrolateral medulla and adjacent medulla. Each biochemical and RT-qPCR assay used six independently processed rats per group; Western blotting used three. At week 4, SOD activity was lower in model than sham rats (0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein), whereas the MDA-related signal was higher (0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein; both adjusted P < 0.001). Nox1/Nox4-targeted quantities were also higher, but unconfirmed product specificity prevented their interpretation as transcript abundance. NOX1/NOX4 protein signals were higher in model than sham rats. At week 8, SOD activity in restoration rats was 1.035 ± 0.101 U/mg protein and the MDA-related signal was 0.213 ± 0.049 nmol/mg protein. These findings indicate altered regional medullary biochemistry in the model. Differences in sampling time prevent attribution of the later findings to implant removal, and the results do not establish a NOX-mediated mechanism.",
+        "after": "Atlantoaxial joint disorder has been associated with elevated blood pressure in rats, but accompanying changes in medullary redox biochemistry are poorly characterized. We measured superoxide dismutase (SOD) activity, thiobarbituric acid (TBA)-derived malondialdehyde (MDA)-related signals and Nox1/Nox4-targeted RT-qPCR quantities. Male Wistar rats underwent sham exposure or atlantoaxial implantation. Sham and model groups were sampled at week 4. A separate restoration group underwent implant removal at week 4 and sampling at week 8. Tissue blocks contained the rostral ventrolateral medulla and adjacent medulla. Each biochemical and RT-qPCR assay used six independently processed rats per group; Western blotting used three. At week 4, SOD activity was lower in model than sham rats (0.564 ± 0.072 versus 1.122 ± 0.072 U/mg protein), whereas the MDA-related signal was higher (0.349 ± 0.034 versus 0.095 ± 0.017 nmol/mg protein; both adjusted P < 0.001). Nox1/Nox4-targeted quantities were also higher, but unconfirmed product specificity prevented their interpretation as transcript abundance. NOX1/NOX4 protein signals were higher in model than sham rats. At week 8, SOD activity in restoration rats was 1.035 ± 0.101 U/mg protein and the MDA-related signal was 0.213 ± 0.049 nmol/mg protein. These findings indicate altered regional medullary biochemistry in the model. Differences in sampling time prevent attribution of the later findings to implant removal, and the results do not establish a NOX-mediated mechanism."
+      },
+      {
+        "paragraph": 17,
+        "before": "We therefore measured SOD activity and MDA-related signals in medullary tissue containing the RVLM, assessed NOX1 and NOX4 by Western blotting, and performed exploratory Nox1/Nox4-targeted RT-qPCR. We compared model and sham rats sampled at week 4 and separately examined a restoration group sampled at week 8, four weeks after implant removal.",
+        "after": "We therefore measured SOD activity and MDA-related signals in medullary tissue containing the RVLM, assessed NOX1 and NOX4 by Western blotting, and performed RT-qPCR targeting Nox1 and Nox4. We compared model and sham rats sampled at week 4 and separately examined a restoration group sampled at week 8, four weeks after implant removal."
+      },
+      {
+        "paragraph": 20,
+        "before": "The animal experiment was approved by the Animal Ethics Committee of Anhui University of Chinese Medicine (AHUCM-rats-2022032). The original approval letter and approved protocol could not be retrieved. Male Wistar rats, approximately 12 weeks old and weighing approximately 250 g, were obtained from the Laboratory Animal Center of Anhui Medical University. They were housed individually at 22 ± 1°C and 60% relative humidity under a 12 h light/12 h dark cycle, with free access to food and water. Rats were acclimatized for 1 week before the experiment. Environmental enrichment was not documented. Male rats were used to maintain consistency with the earlier model study.",
+        "after": "The animal experiment was approved by the Animal Ethics Committee of Anhui University of Chinese Medicine (AHUCM-rats-2022032). Male Wistar rats, approximately 12 weeks old and weighing approximately 250 g, were obtained from the Laboratory Animal Center of Anhui Medical University. They were housed individually at 22 ± 1°C and 60% relative humidity under a 12 h light/12 h dark cycle, with free access to food and water. Rats were acclimatized for 1 week before the experiment. Environmental enrichment was not documented. Male rats were used to maintain consistency with the earlier model study."
+      },
+      {
+        "paragraph": 22,
+        "before": "This was an exploratory study, with no outcome-based a priori sample-size calculation or prespecified single primary endpoint. Blinding was not documented. Sham and model rats underwent terminal sampling at week 4. Restoration rats were allocated separately from the successfully modeled animals, underwent implant removal at week 4 and were sampled at week 8. There was no time-matched model group or second-surgery sham group at week 8.",
+        "after": "No outcome-based a priori sample-size calculation was performed, and no single primary endpoint was prespecified. Blinding was not documented. Sham and model rats underwent terminal sampling at week 4. Restoration rats were allocated separately from the successfully modeled animals, underwent implant removal at week 4 and were sampled at week 8. There was no time-matched model group or second-surgery sham group at week 8."
+      },
+      {
+        "paragraph": 30,
+        "before": "Exploratory RT-qPCR",
+        "after": "RT-qPCR"
+      },
+      {
+        "paragraph": 32,
+        "before": "For each sample, ΔCq was calculated as target Cq minus the paired β-actin Cq. Relative quantity was calculated as 2 raised to −ΔCq and divided by the arithmetic mean quantity of the six sham samples for that assay. The calculation assumed equal amplification efficiencies of approximately 100%. Amplification efficiency and reference-gene stability were not validated, and NTC/no-RT records were unavailable. Melt profiles were heterogeneous and product identity was not verified, leaving target specificity unconfirmed [10]. Results are therefore reported as exploratory normalized assay quantities. B10-Ch5 (Nox1, model; Cq 29.82) and D12-Ch5 (Nox4, sham-operated; Cq 34.69) both had numerical Cq values in the original Cq Results exports and were included in the analysis. Investigator-confirmed plate annotation corrections are described in Supplementary Table S4. These corrections did not alter Cq values, sample assignments, reference pairings or statistical results; the original exports were preserved.",
+        "after": "For each sample, ΔCq was calculated as target Cq minus the paired β-actin Cq. Relative quantity was calculated as 2 raised to −ΔCq and divided by the arithmetic mean quantity of the six sham samples for that assay. The calculation assumed equal amplification efficiencies of approximately 100%. Amplification efficiency and reference-gene stability were not validated, and NTC/no-RT records were unavailable. Melt profiles were heterogeneous and product identity was not verified, leaving target specificity unconfirmed [10]. The normalized quantities are therefore reported as assay results rather than verified measures of target transcript abundance. B10-Ch5 (Nox1, model; Cq 29.82) and D12-Ch5 (Nox4, sham-operated; Cq 34.69) both had numerical Cq values in the original Cq Results exports and were included in the analysis. Investigator-confirmed plate annotation corrections are described in Supplementary Table S4. These corrections did not alter Cq values, sample assignments, reference pairings or statistical results; the original exports were preserved."
+      },
+      {
+        "paragraph": 83,
+        "before": "Fig. 2. Exploratory normalized Nox1-targeted (A) and Nox4-targeted (B) RT-qPCR quantities. Bars show mean ± sample SD (n = 6/group). Quantities were normalized to the arithmetic mean quantity of the sham samples; individual sham values were not set to 1. Comparisons used two-sided Welch t tests on ΔCq, with Holm correction across the original family of 18 comparisons: *P < 0.05, **P < 0.01, ***P < 0.001; ns, P ≥ 0.05. Target specificity and amplification efficiency were not established. Sham and model rats were sampled at week 4, and restoration rats at week 8.",
+        "after": "Fig. 2. Normalized Nox1-targeted (A) and Nox4-targeted (B) RT-qPCR quantities. Bars show mean ± sample SD (n = 6/group). Quantities were normalized to the arithmetic mean quantity of the sham samples; individual sham values were not set to 1. Comparisons used two-sided Welch t tests on ΔCq, with Holm correction across the original family of 18 comparisons: *P < 0.05, **P < 0.01, ***P < 0.001; ns, P ≥ 0.05. Target specificity and amplification efficiency were not established. Sham and model rats were sampled at week 4, and restoration rats at week 8."
+      }
+    ],
+    "Chinese_working": [
+      {
+        "paragraph": 12,
+        "before": "寰枢关节紊乱与大鼠模型中的血压升高有关，但其延髓区域生化表型尚未得到充分描述。本研究检测超氧化物歧化酶（SOD）活性及硫代巴比妥酸（TBA）法获得的丙二醛（MDA）相关信号，并将Nox1/Nox4靶向RT-qPCR作为探索性检测。雄性Wistar大鼠接受假手术暴露或寰枢关节植入手术。假手术组和模型组于第4周取材；独立的恢复队列于第4周取出植入物，并于第8周取材。SOD、MDA和RT-qPCR检测均纳入每组6只大鼠独立处理的样本；WB每组使用3只大鼠。组织块包含头端延髓腹外侧区（RVLM）及邻近延髓。第4周，模型组SOD活性低于假手术组（0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白），MDA相关信号高于假手术组（0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白；两项校正后P均＜0.001）。模型组Nox1/Nox4靶向检测的归一化估计值较高，但产物特异性尚未确认，不能据此判断转录本丰度。WB显示模型组NOX1/NOX4蛋白信号高于假手术组。第8周，恢复队列SOD及MDA相关指标分别为1.035 ± 0.101和0.213 ± 0.049。由于取材时间不同，且缺少匹配的二次手术对照，这些较晚时间点的观察不能分离植入物取出的特异性效应。同期比较显示，该模型伴随延髓区域生化指标差异。检测方法验证不足及未使用术后镇痛限制了机制解释。",
+        "after": "寰枢关节紊乱与大鼠模型中的血压升高有关，但其延髓区域生化表型尚未得到充分描述。本研究检测超氧化物歧化酶（SOD）活性及硫代巴比妥酸（TBA）法获得的丙二醛（MDA）相关信号，并将Nox1/Nox4靶向RT-qPCR用于检测相关扩增信号。雄性Wistar大鼠接受假手术暴露或寰枢关节植入手术。假手术组和模型组于第4周取材；独立的恢复队列于第4周取出植入物，并于第8周取材。SOD、MDA和RT-qPCR检测均纳入每组6只大鼠独立处理的样本；WB每组使用3只大鼠。组织块包含头端延髓腹外侧区（RVLM）及邻近延髓。第4周，模型组SOD活性低于假手术组（0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白），MDA相关信号高于假手术组（0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白；两项校正后P均＜0.001）。模型组Nox1/Nox4靶向检测的归一化估计值较高，但产物特异性尚未确认，不能据此判断转录本丰度。WB显示模型组NOX1/NOX4蛋白信号高于假手术组。第8周，恢复队列SOD及MDA相关指标分别为1.035 ± 0.101和0.213 ± 0.049。由于取材时间不同，且缺少匹配的二次手术对照，这些较晚时间点的观察不能分离植入物取出的特异性效应。同期比较显示，该模型伴随延髓区域生化指标差异。检测方法验证不足及未使用术后镇痛限制了机制解释。"
+      },
+      {
+        "paragraph": 18,
+        "before": "首先值得明确的问题是，该模型是否存在可检测的区域生化表型。为此，本研究在包含RVLM及邻近延髓的组织中检测SOD活性和TBA法MDA相关信号。两项指标分别反映抗氧化活性及氧化相关生化读数，同时其解释应受到检测化学特性的限制[9]。Nox1/Nox4靶向RT-qPCR作为探索性分子检测。本报告重点关注第4周模型组与同期假手术组的比较。植入物取出后于第8周取材的独立队列提供较晚时间点的观察，但不能确立取出植入物的特异性效应。实验前未指定单一主要终点。",
+        "after": "首先值得明确的问题是，该模型是否存在可检测的区域生化表型。为此，本研究在包含RVLM及邻近延髓的组织中检测SOD活性和TBA法MDA相关信号。两项指标分别反映抗氧化活性及氧化相关生化读数，同时其解释应受到检测化学特性的限制[9]。Nox1/Nox4靶向RT-qPCR用于比较各组的归一化检测量。本报告重点关注第4周模型组与同期假手术组的比较。植入物取出后于第8周取材的独立队列提供较晚时间点的观察，但不能确立取出植入物的特异性效应。实验前未指定单一主要终点。"
+      },
+      {
+        "paragraph": 23,
+        "before": "本研究采用探索性设计，未按特定结局进行事前样本量计算，也未预先指定单一主要终点。未进行事后功效计算。盲法执行情况无记录。假手术组和模型组于第4周终末取材。恢复组从造模成功的动物中独立分配，第4周取出植入物，第8周取材。因此，终末组织比较涉及不同动物，且未设置第8周时间匹配的持续模型队列或二次手术假手术队列。",
+        "after": "本研究未按特定结局进行事前样本量计算，也未预先指定单一主要终点。未进行事后功效计算。盲法执行情况无记录。假手术组和模型组于第4周终末取材。恢复组从造模成功的动物中独立分配，第4周取出植入物，第8周取材。因此，终末组织比较涉及不同动物，且未设置第8周时间匹配的持续模型队列或二次手术假手术队列。"
+      },
+      {
+        "paragraph": 31,
+        "before": "探索性靶向RT-qPCR",
+        "after": "RT-qPCR检测"
+      },
+      {
+        "paragraph": 33,
+        "before": "样本内ΔCq定义为靶标Cq减去其配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。该归一化方法假设扩增效率相近且接近100%，但实验中未验证这一假设。内参基因稳定性未验证，且无模板对照（NTC）及无逆转录对照（no-RT）的记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此靶标特异性尚未确认[10]。B10-Ch5（模型组Nox1，Cq＝29.82）和D12-Ch5（假手术组Nox4，Cq＝34.69）在原始Cq Results导出中均有数值，且均已纳入分析。经作者确认的板图注释更正见补充表S4。Cq数值、样本分组、内参配对及统计结果均保持不变，原始导出文件予以保留。结果以探索性的归一化检测估计值报告。",
+        "after": "样本内ΔCq定义为靶标Cq减去其配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。该归一化方法假设扩增效率相近且接近100%，但实验中未验证这一假设。内参基因稳定性未验证，且无模板对照（NTC）及无逆转录对照（no-RT）的记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此靶标特异性尚未确认[10]。B10-Ch5（模型组Nox1，Cq＝29.82）和D12-Ch5（假手术组Nox4，Cq＝34.69）在原始Cq Results导出中均有数值，且均已纳入分析。经作者确认的板图注释更正见补充表S4。Cq数值、样本分组、内参配对及统计结果均保持不变，原始导出文件予以保留。结果以归一化检测量报告，不直接视为转录本丰度。"
+      },
+      {
+        "paragraph": 42,
+        "before": "探索性分子检测观察",
+        "after": "Nox1和Nox4靶向RT-qPCR检测结果"
+      },
+      {
+        "paragraph": 53,
+        "before": "探索性qPCR差异为后续分子研究提出了问题，尚不能回答氧化酶功能是否改变。NOX1和NOX4的激活要求及定位不同[8]，RNA层面的估计值不能替代酶活性。此外，在一种血管实验条件下，NOX4曾显示保护作用[11]，说明不能跨组织地将较高的NOX相关信号一概归为致病性变化。本批资料中，产物特异性尚未确认，扩增效率采用假定值，且只使用了一个未经验证的内参基因。这些限制使本研究不能确立基因表达上调的结论。现有资料也未提供NOX酶活性测定或亚型特异性干预，不能将靶向检测结果与生化差异直接联系起来。 原始WB分析支持NOX1/NOX4蛋白信号存在差异（图3）。蛋白丰度较高不能据此确立酶活性增加或其对区域生化表型的因果作用。",
+        "after": "qPCR检测值的差异不能直接说明氧化酶功能发生改变。NOX1和NOX4的激活要求及定位不同[8]，RNA层面的估计值不能替代酶活性。此外，在一种血管实验条件下，NOX4曾显示保护作用[11]，说明不能跨组织地将较高的NOX相关信号一概归为致病性变化。本批资料中，产物特异性尚未确认，扩增效率采用假定值，且只使用了一个未经验证的内参基因。这些限制使本研究不能确立基因表达上调的结论。现有资料也未提供NOX酶活性测定或亚型特异性干预，不能将靶向检测结果与生化差异直接联系起来。 原始WB分析支持NOX1/NOX4蛋白信号存在差异（图3）。蛋白丰度较高不能据此确立酶活性增加或其对区域生化表型的因果作用。"
+      },
+      {
+        "paragraph": 66,
+        "before": "处理后的生化数值、配对的靶标与内参Cq数值、统计结果及现有qPCR原始导出文件随文提供。补充材料列明检测限制及两处板图注释更正；两孔均有Cq数值并已纳入分析。动物身份及跨检测关联记录无法恢复；所报告的生物学重复及配对关系依赖实验者确认。现有存档中未保留伦理批准原件及获批方案。本研究不声称已建立跨检测的逐动物对应关系。WB源图及配套实验报告见补充文件2。实验者确认保留了源灰度定量数据。图3B、C再现原始汇总分析，本报告未对其独立重新计算。",
+        "after": "处理后的生化数值、配对的靶标与内参Cq数值、统计结果及现有qPCR原始导出文件随文提供。补充材料列明检测限制及两处板图注释更正；两孔均有Cq数值并已纳入分析。动物身份及跨检测关联记录无法恢复；所报告的生物学重复及配对关系依赖实验者确认。本研究不声称已建立跨检测的逐动物对应关系。WB源图及配套实验报告见补充文件2。实验者确认保留了源灰度定量数据。图3B、C再现原始汇总分析，本报告未对其独立重新计算。"
+      },
+      {
+        "paragraph": 86,
+        "before": "图2. Nox1靶向（A）及Nox4靶向（B）RT-qPCR的探索性归一化检测估计值。柱及误差线表示均值±样本标准差（每组n＝6）。相对量按假手术样本相对量的算术均值归一化，未将每个假手术样本数值都设为1。统计在ΔCq尺度上采用双侧Welch t检验，对原始18次比较组成的检验族进行Holm校正：*P＜0.05，**P＜0.01，***P＜0.001；ns，P≥0.05。靶标特异性及扩增效率尚未确立。假手术/模型组于第4周取材，恢复组于第8周取材。",
+        "after": "图2. Nox1靶向（A）及Nox4靶向（B）RT-qPCR的归一化检测量。柱及误差线表示均值±样本标准差（每组n＝6）。相对量按假手术样本相对量的算术均值归一化，未将每个假手术样本数值都设为1。统计在ΔCq尺度上采用双侧Welch t检验，对原始18次比较组成的检验族进行Holm校正：*P＜0.05，**P＜0.01，***P＜0.001；ns，P≥0.05。靶标特异性及扩增效率尚未确立。假手术/模型组于第4周取材，恢复组于第8周取材。"
+      }
+    ],
+    "Chinese_packaged": [
+      {
+        "paragraph": 12,
+        "before": "寰枢关节紊乱与大鼠模型中的血压升高有关，但其延髓区域生化表型尚未得到充分描述。本研究检测超氧化物歧化酶（SOD）活性及硫代巴比妥酸（TBA）法获得的丙二醛（MDA）相关信号，并将Nox1/Nox4靶向RT-qPCR作为探索性检测。雄性Wistar大鼠接受假手术暴露或寰枢关节植入手术。假手术组和模型组于第4周取材；独立的恢复队列于第4周取出植入物，并于第8周取材。SOD、MDA和RT-qPCR检测均纳入每组6只大鼠独立处理的样本；WB每组使用3只大鼠。组织块包含头端延髓腹外侧区及邻近延髓。第4周，模型组SOD活性低于假手术组（0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白），MDA相关信号高于假手术组（0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白；两项校正后P均＜0.001）。归一化Nox1/Nox4靶向检测估计值也较高，但产物特异性尚未确认，不能据此判断转录本丰度。WB显示模型组NOX1/NOX4蛋白信号高于假手术组。第8周，恢复队列SOD及MDA相关指标分别为1.035 ± 0.101和0.213 ± 0.049。同期比较支持存在描述性的区域生化差异。时间不匹配的较晚队列及探索性qPCR结果不能确立植入物取出效应或NOX介导机制。",
+        "after": "寰枢关节紊乱与大鼠模型中的血压升高有关，但其延髓区域生化表型尚未得到充分描述。本研究检测超氧化物歧化酶（SOD）活性及硫代巴比妥酸（TBA）法获得的丙二醛（MDA）相关信号，并将Nox1/Nox4靶向RT-qPCR用于检测相关扩增信号。雄性Wistar大鼠接受假手术暴露或寰枢关节植入手术。假手术组和模型组于第4周取材；独立的恢复队列于第4周取出植入物，并于第8周取材。SOD、MDA和RT-qPCR检测均纳入每组6只大鼠独立处理的样本；WB每组使用3只大鼠。组织块包含头端延髓腹外侧区及邻近延髓。第4周，模型组SOD活性低于假手术组（0.564 ± 0.072对1.122 ± 0.072 U/mg蛋白），MDA相关信号高于假手术组（0.349 ± 0.034对0.095 ± 0.017 nmol/mg蛋白；两项校正后P均＜0.001）。归一化Nox1/Nox4靶向检测估计值也较高，但产物特异性尚未确认，不能据此判断转录本丰度。WB显示模型组NOX1/NOX4蛋白信号高于假手术组。第8周，恢复队列SOD及MDA相关指标分别为1.035 ± 0.101和0.213 ± 0.049。同期比较支持存在描述性的区域生化差异。不同取材时间的恢复组结果及靶向qPCR检测值不能确立植入物取出效应或NOX介导机制。"
+      },
+      {
+        "paragraph": 18,
+        "before": "本研究在包含RVLM及邻近延髓的组织中检测SOD活性及MDA相关信号，并将Nox1/Nox4靶向RT-qPCR作为探索性分子检测。本报告重点关注第4周模型组与同期假手术组的比较，另行描述取出植入物后于第8周取材的独立队列。该设计用于描述区域表型，并为后续机制研究提供观察依据。",
+        "after": "本研究在包含RVLM及邻近延髓的组织中检测SOD活性及MDA相关信号，并将Nox1/Nox4靶向RT-qPCR用于比较各组的归一化检测量。本报告重点关注第4周模型组与同期假手术组的比较，另行描述取出植入物后于第8周取材的独立队列。该设计用于描述区域表型，并为后续机制研究提供观察依据。"
+      },
+      {
+        "paragraph": 21,
+        "before": "基础实验经安徽中医药大学动物伦理委员会批准（AHUCM-rats-2022032）；伦理批准原件及获批方案现已无法获得。雄性Wistar大鼠约12周龄、体重约250 g，购自安徽医科大学实验动物中心。大鼠单笼饲养，环境温度22 ± 1℃，相对湿度60%，光照周期为12 h光照/12 h黑暗，可自由摄食饮水。适应性饲养1周。环境丰富化措施未见记录。选用雄性大鼠与既往模型研究保持一致。",
+        "after": "基础实验经安徽中医药大学动物伦理委员会批准（AHUCM-rats-2022032）。雄性Wistar大鼠约12周龄、体重约250 g，购自安徽医科大学实验动物中心。大鼠单笼饲养，环境温度22 ± 1℃，相对湿度60%，光照周期为12 h光照/12 h黑暗，可自由摄食饮水。适应性饲养1周。环境丰富化措施未见记录。选用雄性大鼠与既往模型研究保持一致。"
+      },
+      {
+        "paragraph": 23,
+        "before": "本研究采用探索性设计，未按特定结局进行事前样本量计算，也未预先指定单一主要终点。盲法执行情况无记录。假手术组和模型组于第4周终末取材。恢复组从造模成功的动物中独立分配，第4周取出植入物，第8周取材。未设置第8周时间匹配的持续模型队列或二次手术假手术队列。",
+        "after": "本研究未按特定结局进行事前样本量计算，也未预先指定单一主要终点。盲法执行情况无记录。假手术组和模型组于第4周终末取材。恢复组从造模成功的动物中独立分配，第4周取出植入物，第8周取材。未设置第8周时间匹配的持续模型队列或二次手术假手术队列。"
+      },
+      {
+        "paragraph": 31,
+        "before": "探索性靶向RT-qPCR",
+        "after": "RT-qPCR检测"
+      },
+      {
+        "paragraph": 33,
+        "before": "样本内ΔCq为靶标Cq减去配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。扩增效率假设相近且接近100%；扩增效率及内参基因稳定性未验证，NTC/no-RT记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此特异性尚未确认[10]；结果作为探索性归一化检测估计值保留。B10-Ch5（模型组Nox1，Cq＝29.82）和D12-Ch5（假手术组Nox4，Cq＝34.69）在原始Cq Results导出中均有数值，且均已纳入分析。经作者确认的板图注释更正见补充表S4。Cq数值、样本分组、内参配对及统计结果均保持不变，原始导出文件予以保留。",
+        "after": "样本内ΔCq为靶标Cq减去配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。扩增效率假设相近且接近100%；扩增效率及内参基因稳定性未验证，NTC/no-RT记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此特异性尚未确认[10]；结果以归一化检测量报告，不直接视为转录本丰度。B10-Ch5（模型组Nox1，Cq＝29.82）和D12-Ch5（假手术组Nox4，Cq＝34.69）在原始Cq Results导出中均有数值，且均已纳入分析。经作者确认的板图注释更正见补充表S4。Cq数值、样本分组、内参配对及统计结果均保持不变，原始导出文件予以保留。"
+      },
+      {
+        "paragraph": 42,
+        "before": "探索性分子检测观察",
+        "after": "Nox1和Nox4靶向RT-qPCR检测结果"
+      },
+      {
+        "paragraph": 53,
+        "before": "靶向qPCR差异仍属探索性结果。NOX1和NOX4的激活要求及定位不同[8]，且NOX4曾在一种血管实验条件下显示保护作用[11]，因而其功能解释取决于具体背景。产物特异性尚未确认、扩增效率采用假定值、单一内参未经验证，以及缺少技术重复和留存的NTC/no-RT记录，使本研究不能确立Nox1/Nox4上调的结论。现有资料未提供NOX酶活性测定或亚型特异性干预，不能将这些检测与区域生化表型直接联系起来。数据支持继续研究这些候选分子，但不能确定ROS来源或NOX–交感神经–血压通路。 原始WB分析支持NOX1/NOX4蛋白信号存在差异（图3）。蛋白丰度较高不能据此确立酶活性增加或其对区域生化表型的因果作用。",
+        "after": "靶向qPCR检测值存在组间差异，但不能据此直接判断转录本丰度。NOX1和NOX4的激活要求及定位不同[8]，且NOX4曾在一种血管实验条件下显示保护作用[11]，因而其功能解释取决于具体背景。产物特异性尚未确认、扩增效率采用假定值、单一内参未经验证，以及缺少技术重复和留存的NTC/no-RT记录，使本研究不能确立Nox1/Nox4上调的结论。现有资料未提供NOX酶活性测定或亚型特异性干预，不能将这些检测与区域生化表型直接联系起来。数据支持继续研究这些候选分子，但不能确定ROS来源或NOX–交感神经–血压通路。 原始WB分析支持NOX1/NOX4蛋白信号存在差异（图3）。蛋白丰度较高不能据此确立酶活性增加或其对区域生化表型的因果作用。"
+      },
+      {
+        "paragraph": 56,
+        "before": "综上，第4周寰枢关节紊乱大鼠的延髓区域SOD活性低于同期假手术大鼠，MDA相关TBA信号较高。这些发现描述了一种探索性的区域生化表型。较晚时间点的恢复观察及靶向qPCR估计值不能确立植入物取出效应或NOX介导机制。",
+        "after": "综上，第4周寰枢关节紊乱大鼠的延髓区域SOD活性低于同期假手术大鼠，MDA相关TBA信号较高。这些结果表明该模型伴随延髓区域生化指标差异。较晚时间点的恢复观察及靶向qPCR估计值不能确立植入物取出效应或NOX介导机制。"
+      },
+      {
+        "paragraph": 84,
+        "before": "图2. Nox1靶向（A）及Nox4靶向（B）RT-qPCR的探索性归一化检测估计值。柱及误差线表示均值±样本标准差（每组n＝6）。相对量按假手术样本相对量的算术均值归一化，未将每个假手术样本数值都设为1。统计在ΔCq尺度上采用双侧Welch t检验，对原始18次比较组成的检验族进行Holm校正：*P＜0.05，**P＜0.01，***P＜0.001；ns，P≥0.05。靶标特异性及扩增效率尚未确立。假手术/模型组于第4周取材，恢复组于第8周取材。",
+        "after": "图2. Nox1靶向（A）及Nox4靶向（B）RT-qPCR的归一化检测量。柱及误差线表示均值±样本标准差（每组n＝6）。相对量按假手术样本相对量的算术均值归一化，未将每个假手术样本数值都设为1。统计在ΔCq尺度上采用双侧Welch t检验，对原始18次比较组成的检验族进行Holm校正：*P＜0.05，**P＜0.01，***P＜0.001；ns，P≥0.05。靶标特异性及扩增效率尚未确立。假手术/模型组于第4周取材，恢复组于第8周取材。"
+      }
+    ],
+    "Supplement": [
+      {
+        "paragraph": 30,
+        "before": "Ethical approval (AHUCM-rats-2022032), the unavailability of the original approval documents and the omission of postoperative analgesia are reported in the main Methods. Six deaths occurred intraoperatively and three postoperatively, for a total of nine. Individual cause-of-death assessments and time-linked intervention records could not be recovered.",
+        "after": "Ethical approval (AHUCM-rats-2022032) and the omission of postoperative analgesia are reported in the main Methods. Six deaths occurred intraoperatively and three postoperatively, for a total of nine. Individual cause-of-death assessments and time-linked intervention records could not be recovered."
+      }
+    ]
+  },
+  "English_words": 3858,
+  "summary_words": 219,
+  "ethics_record_clarification": "Author says original ethics documents are not currently at hand; no assertion of permanent loss or irretrievability. Institutional approval and approval number remain reported.",
+  "numbers_media_tables_and_AI_wording_unchanged": true,
+  "validation_limits_preserved": true,
+  "independent_wording_review": "Reviewed for preserved uncertainty and natural wording",
+  "visual_review": "All changed pages inspected: English 2–13, Chinese packaged 2/3/5/6/8/9/10/12, Chinese working 2/3/4/5/7/8/9/10/13, supplement 5. Remaining pages match earlier inspected PNGs exactly. No clipping, missing glyphs or overlap.",
+  "all_numeric_tokens_in_changed_paragraphs_preserved": true,
+  "final_page_counts": {
+    "English": 13,
+    "Chinese_packaged": 13,
+    "Chinese_working": 14,
+    "Supplement": 6
+  },
+  "final_output_sha256": {
+    "Yuan.docx": "2f58b45588956b14d9ac7f810cfbc99a2884933b1056d4dfdb5d2835f7387176",
+    "Yuan.pdf": "a4a3d4576e320e30d8b60db6b80ebf7abe1f41208f8928f7753539c7c9c6f78b",
+    "中文对照稿.docx": "dc9649f81215382371c94bea415e786aef029bf460984e44ac64f8a2443766d5",
+    "Supplementary_Information.docx": "a4676b52616d2d78def598e5c90828cf70c1d5a3b55c499ca8eff2d3aa5f5fbb",
+    "Cover_Letter.txt": "0ecc238f062964faf670c6c785d95e417975c30ec739d0e49c105a31c56a95ce"
+  }
+}

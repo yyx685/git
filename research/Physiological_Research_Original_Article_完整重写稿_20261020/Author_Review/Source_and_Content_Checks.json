@@ -2,7 +2,7 @@
   "date": "2026-10-20",
   "article_type": "Original Article",
   "journal": "Physiological Research",
-  "summary_words": 220,
+  "summary_words": 219,
   "running_title_characters": 49,
   "main_figures": 3,
   "references": 11,
@@ -82,7 +82,7 @@
   "review_status": "Complete new author-review draft; author review of this version remains necessary",
   "no_email_sent": true,
   "no_new_experiments_or_validation_claimed": true,
-  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3864,
+  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3858,
   "final_page_counts": {
     "English": 13,
     "Chinese": 13,
@@ -299,5 +299,15 @@
     "visual_review": "Passed: all 13 main and 6 supplementary pages visually inspected. After minor wording and header/footer fixes, unchanged pages verified by exact PNG match and every changed region re-inspected. Figures and all five supplementary tables unchanged; no clipping, missing glyphs or overlap.",
     "header_footer_line_numbers_suppressed": true,
     "numeric_result_tokens_preserved": true
+  },
+  "direct_wording_revision_20261022": {
+    "date": "2026-10-22",
+    "English_words": 3858,
+    "summary_words": 219,
+    "ethics_record_clarification": "Author says original ethics documents are not currently at hand; no assertion of permanent loss or irretrievability. Institutional approval and approval number remain reported.",
+    "numbers_media_tables_and_AI_wording_unchanged": true,
+    "validation_limits_preserved": true,
+    "visual_review": "All changed pages inspected: English 2–13, Chinese packaged 2/3/5/6/8/9/10/12, Chinese working 2/3/4/5/7/8/9/10/13, supplement 5. Remaining pages match earlier inspected PNGs exactly. No clipping, missing glyphs or overlap.",
+    "all_numeric_tokens_preserved": true
   }
 }
