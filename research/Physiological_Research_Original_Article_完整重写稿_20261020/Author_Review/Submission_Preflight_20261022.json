@@ -41,7 +41,7 @@
     "Supporting_Information/Supplementary_Data_2_Targeted_qPCR_Values.csv": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
     "Supporting_Information/Supplementary_Data_3_Original_qPCR_Panel.csv": "de53949c9b2f02e99ba6d11903849055162d7951d2f158201fb035b297f8a336",
     "Supporting_Information/Supplementary_Fig_S1.jpg": "f75cb73f6fd490b5dfce21de260b3df1f3d33a3321a15560b7a14991af3d8b0d",
-    "Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+    "Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif": "b094528625c8dbe6513b91470759ba61fbf8811856335f1136737dd67d138145",
     "Supporting_Information/Supplementary_File_1_Original_qPCR_Exports.zip": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3",
     "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip": "813a9995911892a77a184d8d7879c1417735ca603003b1bc99fb9917e7803e88",
     "Supporting_Information/Supplementary_Statistical_Results.json": "2204da918eebdfa952aaeb523ea5167b1997386fb488e16e6d87d4f6cb12ffad",
@@ -61,5 +61,19 @@
     "02_Author_Reading/选刊与稿件说明.md"
   ],
   "Chinese_working_copy_unrelated_changes_preserved": true,
-  "email_sent": false
+  "email_sent": false,
+  "HE_transport_copy": {
+    "compression": "lossless Adobe Deflate",
+    "original_archive_preserved": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif",
+    "original_bytes": 11238496,
+    "transport_bytes": 8363370,
+    "dimensions": [
+      5335,
+      1229
+    ],
+    "decoded_pixel_sha256": "c1e19708b2877b2ea33295544f377f907c632ea0cc249e26cf8e3b7e28d7eb6a",
+    "pixels_identical": true
+  },
+  "author_submission_decision": "Author chose to proceed with submission now; substantive ethics/method questions were not represented as resolved.",
+  "email_prepared": "Yuan_Original_Article_待发送邮件_20261022.eml"
 }

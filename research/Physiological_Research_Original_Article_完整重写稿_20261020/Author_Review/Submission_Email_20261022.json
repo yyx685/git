@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-22",
+  "from": "Zijian Wu <wuzijian@ahtcm.edu.cn>",
+  "to": "physres@fgu.cas.cz",
+  "subject": "Original Article submission: Regional medullary redox profiles in rats with atlantoaxial joint disorder",
+  "draft_header": "1",
+  "body_matches_approved_cover": true,
+  "attachments": [
+    {
+      "filename": "Supplementary_Information.docx",
+      "relative_source": "Supplementary_Information.docx",
+      "bytes": 1729742,
+      "sha256": "ca64eb672ff4e7fb0f3716bc5cf658b8344447d141f02c26117dfa6cc7a4f1f9"
+    },
+    {
+      "filename": "Reproduce_Statistics.py",
+      "relative_source": "Supporting_Information/Reproduce_Statistics.py",
+      "bytes": 4369,
+      "sha256": "32da0456502872be6421474de8ea25cb5d772d8a10e71cdf614e3d9b5a1ab4c9"
+    },
+    {
+      "filename": "Supplementary_Data_1_Biochemical_Values.csv",
+      "relative_source": "Supporting_Information/Supplementary_Data_1_Biochemical_Values.csv",
+      "bytes": 4140,
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "filename": "Supplementary_Data_2_Targeted_qPCR_Values.csv",
+      "relative_source": "Supporting_Information/Supplementary_Data_2_Targeted_qPCR_Values.csv",
+      "bytes": 3290,
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb"
+    },
+    {
+      "filename": "Supplementary_Data_3_Original_qPCR_Panel.csv",
+      "relative_source": "Supporting_Information/Supplementary_Data_3_Original_qPCR_Panel.csv",
+      "bytes": 9388,
+      "sha256": "de53949c9b2f02e99ba6d11903849055162d7951d2f158201fb035b297f8a336"
+    },
+    {
+      "filename": "Supplementary_Fig_S1.jpg",
+      "relative_source": "Supporting_Information/Supplementary_Fig_S1.jpg",
+      "bytes": 458852,
+      "sha256": "f75cb73f6fd490b5dfce21de260b3df1f3d33a3321a15560b7a14991af3d8b0d"
+    },
+    {
+      "filename": "Supplementary_Fig_S2_HE_Archived.tif",
+      "relative_source": "Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif",
+      "bytes": 8363370,
+      "sha256": "b094528625c8dbe6513b91470759ba61fbf8811856335f1136737dd67d138145"
+    },
+    {
+      "filename": "Supplementary_File_1_Original_qPCR_Exports.zip",
+      "relative_source": "Supporting_Information/Supplementary_File_1_Original_qPCR_Exports.zip",
+      "bytes": 2567868,
+      "sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
+    },
+    {
+      "filename": "Supplementary_File_2_Western_Blot_Source.zip",
+      "relative_source": "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip",
+      "bytes": 738344,
+      "sha256": "813a9995911892a77a184d8d7879c1417735ca603003b1bc99fb9917e7803e88"
+    },
+    {
+      "filename": "Supplementary_Statistical_Results.json",
+      "relative_source": "Supporting_Information/Supplementary_Statistical_Results.json",
+      "bytes": 34100,
+      "sha256": "2204da918eebdfa952aaeb523ea5167b1997386fb488e16e6d87d4f6cb12ffad"
+    },
+    {
+      "filename": "Yuan.docx",
+      "relative_source": "Yuan.docx",
+      "bytes": 1054349,
+      "sha256": "ebc36a083ce4754508d3fb97ce58df8137ae1ddc4a3cec001a701b39831f9538"
+    },
+    {
+      "filename": "Yuan.pdf",
+      "relative_source": "Yuan.pdf",
+      "bytes": 535457,
+      "sha256": "0c5b55670995dce14808a0c29c3f401a07f3a4595f1f2b3b1f5f09b54c2dcbef"
+    },
+    {
+      "filename": "Yuan_fig1.jpg",
+      "relative_source": "Yuan_fig1.jpg",
+      "bytes": 298724,
+      "sha256": "bc58a8140b8595732d0389b643be6999ffd79787c6236756e87e1950e5f0bc9a"
+    },
+    {
+      "filename": "Yuan_fig2.jpg",
+      "relative_source": "Yuan_fig2.jpg",
+      "bytes": 321032,
+      "sha256": "159053114618a2d972d0d2edbc69f5c81557a4cd95357b5320fcb21ea3c02206"
+    },
+    {
+      "filename": "Yuan_fig3.jpg",
+      "relative_source": "Yuan_fig3.jpg",
+      "bytes": 701068,
+      "sha256": "fc9d5995e858d08a23b11b22d55010ad29586856a3fe0873fc351369015b986e"
+    }
+  ],
+  "attachment_count": 15,
+  "eml_bytes": 23027869,
+  "email_sent": false,
+  "delivery_arrangement": "User previously chose delivery as an unsent email file for sending from Zijian Wu institutional account.",
+  "HE_lossless_transport": {
+    "compression": "lossless Adobe Deflate",
+    "original_archive_preserved": "/Users/yyx/Desktop/git/git/research/Physiological_Research_Original_Article_完整重写稿_20261020/Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif",
+    "original_bytes": 11238496,
+    "transport_bytes": 8363370,
+    "dimensions": [
+      5335,
+      1229
+    ],
+    "decoded_pixel_sha256": "c1e19708b2877b2ea33295544f377f907c632ea0cc249e26cf8e3b7e28d7eb6a",
+    "pixels_identical": true
+  },
+  "independent_review": "Passed: recipient/sender, unsent flag, exact cover body, all 15 decoded attachment hashes, MIME defects, and lossless HE pixel equality."
+}
