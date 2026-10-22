@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-22",
+  "author_instruction": "Delete red text in both supplied documents; synchronize corresponding materials and improve flow.",
+  "sources": [
+    "Original_Article_完整稿与附件 5/02_Author_Reading/中文对照稿.docx",
+    "/Users/yyx/Desktop/Supplementary_Information_1_3_translate_20261022090647.docx"
+  ],
+  "main_changes": [
+    {
+      "location": "Methods/Model induction and perioperative care P1",
+      "before": "Model induction, implant removal and terminal sampling were performed under 2% inhaled isoflurane at a gas flow of 1 l/min. Anesthetic depth was monitored by respiration and reflex responses. Penicillin sodium was given intramuscularly at 400,000–800,000 units/kg once daily for 3 days after surgery. No postoperative analgesics were administered, and a specific written rationale or authorization for their omission was not retained. Food intake, activity and wounds were checked daily for the first 3 postoperative days and 2–3 times weekly thereafter. Anesthesia-related complications, surgical injury and infection were reported as possible causes of death, but individual cause-of-death records were unavailable.",
+      "after": "Model induction, implant removal and terminal sampling were performed under 2% inhaled isoflurane at a gas flow of 1 l/min. Anesthetic depth was monitored by respiration and reflex responses. Penicillin sodium was given intramuscularly at 400,000–800,000 units/kg once daily for 3 days after surgery. No postoperative analgesics were administered, and a specific written rationale or authorization for their omission was not retained. Food intake, activity and wounds were checked daily for the first 3 postoperative days and 2–3 times weekly thereafter. Anesthesia-related complications, surgical injury and infection were reported as possible causes of death."
+    },
+    {
+      "location": "Methods/RT-qPCR P1",
+      "before": "For each sample, ΔCq was calculated as target Cq minus the paired β-actin Cq. Relative quantity was calculated as 2 raised to −ΔCq and divided by the arithmetic mean quantity of the six sham samples for that assay. The calculation assumed equal amplification efficiencies of approximately 100%. Amplification efficiency and reference-gene stability were not validated, and NTC/no-RT records were unavailable. Melt profiles were heterogeneous and product identity was not verified, leaving target specificity unconfirmed [10]. The normalized quantities are therefore reported as assay results rather than verified measures of target transcript abundance. B10-Ch5 (Nox1, model; Cq 29.82) and D12-Ch5 (Nox4, sham-operated; Cq 34.69) both had numerical Cq values in the original Cq Results exports and were included in the analysis. Investigator-confirmed plate annotation corrections are described in Supplementary Table S4. These corrections did not alter Cq values, sample assignments, reference pairings or statistical results; the original exports were preserved.",
+      "after": "For each sample, ΔCq was calculated as target Cq minus the paired β-actin Cq. Relative quantity was calculated as 2 raised to −ΔCq and divided by the arithmetic mean quantity of the six sham samples for that assay. The calculation assumed equal amplification efficiencies of approximately 100%. Amplification efficiency and reference-gene stability were not validated, and NTC/no-RT records were unavailable. Melt profiles were heterogeneous and product identity was not verified, leaving target specificity unconfirmed [10]. The normalized quantities are therefore reported as assay results rather than verified measures of target transcript abundance."
+    },
+    {
+      "location": "Methods/Statistical analysis P0",
+      "before": "The rat was the experimental unit. SOD, MDA, fluorescence and RT-qPCR data are presented as mean ± sample SD, with six samples per group for each assay. All values in the supplied biochemical and RT-qPCR datasets were analyzed, without outlier removal or imputation. Biochemical data were compared by Welch one-way ANOVA followed by Games–Howell tests, with 95% confidence intervals. The three pairwise comparisons within each endpoint were adjusted; no adjustment was made across endpoints. RT-qPCR comparisons used two-sided Welch t tests on ΔCq, with Holm correction across the 18 comparisons in the original six-target, three-contrast family. Only Nox1 and Nox4 are presented here. The original Western blot analysis reported mean ± SD (n = 3 rats/group), one-way ANOVA and post hoc comparisons; the post hoc test was not specified. The original summary data and significance annotations are reproduced without independent reanalysis. P < 0.05 was considered statistically significant. Comparisons involving restoration rats were between independent terminal groups. Cross-assay correlations were not calculated because overlap between the assay samples could not be reconstructed.",
+      "after": "The rat was the experimental unit. SOD, MDA, fluorescence and RT-qPCR data are presented as mean ± sample SD, with six samples per group for each assay. All values in the supplied biochemical and RT-qPCR datasets were analyzed, without outlier removal or imputation. Biochemical data were compared by Welch one-way ANOVA followed by Games–Howell tests, with 95% confidence intervals. The three pairwise comparisons within each endpoint were adjusted; no adjustment was made across endpoints. RT-qPCR comparisons used two-sided Welch t tests on ΔCq, with Holm correction across the 18 comparisons in the original six-target, three-contrast family. Only Nox1 and Nox4 are presented here. The original Western blot analysis reported mean ± SD (n = 3 rats/group), one-way ANOVA and post hoc comparisons. The original summary data and significance annotations are reproduced without independent reanalysis. P < 0.05 was considered statistically significant. Comparisons involving restoration rats were between independent terminal groups. Cross-assay correlations were not calculated because overlap between the assay samples could not be reconstructed."
+    },
+    {
+      "location": "Discussion P2",
+      "before": "Several assay limitations affect the biochemical interpretation. Fourteen of the 18 SOD inhibition values were outside the manufacturer's suggested 40–60% interval for pilot optimization, and dilution-validation records were unavailable. The recommended interval does not itself define an absolute validity threshold, but the lack of dilution validation limits quantitative interpretation. TBA-derived chromogens are not specific to MDA [9]; the higher signal therefore cannot, by itself, establish lipid injury. The supplementary O12 fluorescence assay was not validated for the tissue matrix or RIPA buffer. Protein normalization and identical processing across groups do not exclude these sources of measurement bias.",
+      "after": "Several assay limitations affect the biochemical interpretation. Fourteen of the 18 SOD inhibition values were outside the manufacturer's suggested 40–60% interval for pilot optimization. This interval is not an absolute validity threshold, but the SOD estimates should be interpreted cautiously. TBA-derived chromogens are not specific to MDA [9]; the higher signal therefore cannot, by itself, establish lipid injury. The supplementary O12 fluorescence assay was not validated for the tissue matrix or RIPA buffer. Protein normalization and identical processing across groups do not exclude these sources of measurement bias."
+    },
+    {
+      "location": "Data availability P0",
+      "before": "Processed biochemical values, paired target/reference Cq values, statistical outputs and available original qPCR exports are provided with the article. Assay limitations and plate annotation corrections are described in the Supplementary Information. The animal–sample ledger and records linking samples across assays could not be recovered. Biological replication and within-animal target/reference pairing were confirmed by the investigators; observation indices identify positions in the source files, not individual animals. Western blot source images and the laboratory report are provided in Supplementary File 2. The investigators confirmed that the original densitometry data are retained. Figure 3B,C present the original summary analysis, which was not independently recalculated for this report. Blood-pressure observations from the same experimental series were used in the related Ang II/AT1-R report [2] and are not presented here as new results.",
+      "after": "Processed biochemical values, paired target/reference Cq values, statistical outputs and available original qPCR exports are provided with the article. Assay procedures and limitations are described in the Supplementary Information. The animal–sample ledger and records linking samples across assays could not be recovered. Biological replication and within-animal target/reference pairing were confirmed by the investigators; observation indices identify positions in the source files, not individual animals. Western blot source images and the laboratory report are provided in Supplementary File 2. The investigators confirmed that the original densitometry data are retained. Figure 3B,C present the original summary analysis, which was not independently recalculated for this report. Blood-pressure observations from the same experimental series were used in the related Ang II/AT1-R report [2] and are not presented here as new results."
+    },
+    {
+      "location": "Fig 3",
+      "before": "Fig. 3. Western blot analysis of regional medullary NOX1 and NOX4. (A) Representative β-actin, NOX1 and NOX4 blots, with one lane per group. Lanes from left to right represent sham, model and restoration rats. β-actin is shown as the loading reference. Molecular-mass labels follow the source figure: β-actin, 42 kDa; NOX1, 62 kDa; NOX4, 64 kDa. (B) NOX4 and (C) NOX1 summary data from the original analysis. Bars show mean ± SD (n = 3 rats/group). Brackets indicate the original pairwise comparisons: ***P < 0.001 for model versus sham rats for both proteins; **P < 0.01 for restoration versus model rats for NOX4; *P < 0.05 for restoration versus model rats for NOX1. The original analysis used one-way ANOVA and post hoc comparisons; the post hoc test was not specified. Sham and model rats were sampled at week 4, and restoration rats at week 8. These comparisons do not isolate an effect of implant removal.",
+      "after": "Fig. 3. Western blot analysis of regional medullary NOX1 and NOX4. (A) Representative β-actin, NOX1 and NOX4 blots, with one lane per group. Lanes from left to right represent sham, model and restoration rats. β-actin is shown as the loading reference. Molecular-mass labels follow the source figure: β-actin, 42 kDa; NOX1, 62 kDa; NOX4, 64 kDa. (B) NOX4 and (C) NOX1 summary data from the original analysis. Bars show mean ± SD (n = 3 rats/group). Brackets indicate the original pairwise comparisons: ***P < 0.001 for model versus sham rats for both proteins; **P < 0.01 for restoration versus model rats for NOX4; *P < 0.05 for restoration versus model rats for NOX1. Sham and model rats were sampled at week 4, and restoration rats at week 8. These comparisons do not isolate an effect of implant removal."
+    }
+  ],
+  "Chinese_changes": {
+    "working": [
+      {
+        "paragraph": 26,
+        "before": "造模、植入物取出及终末取样均采用2%异氟烷吸入麻醉，气体流量为1 L/min。通过呼吸及反射反应监测麻醉深度。术后肌内注射青霉素钠400,000–800,000单位/kg，每日1次，连续3天。未使用术后镇痛药物，且未留存省略镇痛的特定书面理由或授权。术后前3天每日检查摄食、活动及伤口情况，此后每周检查2–3次。9只死亡动物的潜在相关因素包括麻醉相关并发症、手术损伤及感染，但现存记录未对各动物死因作出判定。",
+        "after": "造模、植入物取出及终末取样均采用2%异氟烷吸入麻醉，气体流量为1 L/min。通过呼吸及反射反应监测麻醉深度。术后肌内注射青霉素钠400,000–800,000单位/kg，每日1次，连续3天。未使用术后镇痛药物，且未留存省略镇痛的特定书面理由或授权。术后前3天每日检查摄食、活动及伤口情况，此后每周检查2–3次。9只死亡动物的潜在相关因素包括麻醉相关并发症、手术损伤及感染。"
+      },
+      {
+        "paragraph": 33,
+        "before": "样本内ΔCq定义为靶标Cq减去其配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。该归一化方法假设扩增效率相近且接近100%，但实验中未验证这一假设。内参基因稳定性未验证，且无模板对照（NTC）及无逆转录对照（no-RT）的记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此靶标特异性尚未确认[10]。B10-Ch5（模型组Nox1，Cq＝29.82）和D12-Ch5（假手术组Nox4，Cq＝34.69）在原始Cq Results导出中均有数值，且均已纳入分析。经作者确认的板图注释更正见补充表S4。Cq数值、样本分组、内参配对及统计结果均保持不变，原始导出文件予以保留。结果以归一化检测量报告，不直接视为转录本丰度。",
+        "after": "样本内ΔCq定义为靶标Cq减去其配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。该归一化方法假设扩增效率相近且接近100%，但实验中未验证这一假设。内参基因稳定性未验证，且无模板对照（NTC）及无逆转录对照（no-RT）的记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此靶标特异性尚未确认[10]。结果以归一化检测量报告，不直接视为转录本丰度。"
+      },
+      {
+        "paragraph": 37,
+        "before": "以大鼠为实验单位。定量结果以均值±样本标准差表示，SOD、MDA、辅助荧光及RT-qPCR检测每组均为6份样本。WB原始结果以均值±标准差表示（每组3只大鼠），采用原先报告的单因素方差分析及事后比较；存档描述未注明具体事后检验名称。原始WB汇总图及显著性标记予以保留，未采用本次SOD、MDA或RT-qPCR方法重新分析。生化及RT-qPCR分析纳入全部已提供数值，不剔除异常值，不插补缺失值。生化指标采用Welch单因素方差分析及Games–Howell检验，报告95%置信区间；各指标内部的3次两两比较进行校正，不进行跨指标校正。RT-qPCR推断在ΔCq尺度上采用双侧Welch t检验，对原始6个靶标、3组间对比形成的全部18次比较统一进行Holm校正。虽然仅展示Nox1和Nox4，仍保留完整的校正范围。以P＜0.05为统计学显著性阈值。涉及恢复组的比较明确视为不同终末时间点之间的比较，不视为配对变化。由于不同检测的样本重叠情况无法重建，未开展跨检测相关分析。",
+        "after": "以大鼠为实验单位。定量结果以均值±样本标准差表示，SOD、MDA、辅助荧光及RT-qPCR检测每组均为6份样本。WB原始结果以均值±标准差表示（每组3只大鼠），采用原先报告的单因素方差分析及事后比较。原始WB汇总图及显著性标记予以保留，未采用本次SOD、MDA或RT-qPCR方法重新分析。生化及RT-qPCR分析纳入全部已提供数值，不剔除异常值，不插补缺失值。生化指标采用Welch单因素方差分析及Games–Howell检验，报告95%置信区间；各指标内部的3次两两比较进行校正，不进行跨指标校正。RT-qPCR推断在ΔCq尺度上采用双侧Welch t检验，对原始6个靶标、3组间对比形成的全部18次比较统一进行Holm校正。虽然仅展示Nox1和Nox4，仍保留完整的校正范围。以P＜0.05为统计学显著性阈值。涉及恢复组的比较明确视为不同终末时间点之间的比较，不视为配对变化。由于不同检测的样本重叠情况无法重建，未开展跨检测相关分析。"
+      },
+      {
+        "paragraph": 56,
+        "before": "若干检测和设计限制影响了推断强度。18个SOD抑制率数值中有14个位于厂家建议的40%–60%预实验优化区间之外，且无法获得相应稀释验证记录。该建议不是经证实的硬性有效性界限，但定量解释仍需谨慎。qPCR每份样本只测定1次，缺少留存的NTC/no-RT记录及完整验证。虽然实验者确认了动物样本的独立性及靶标与内参的配对关系，但历史动物—样本对应记录及不同检测之间的样本重叠情况无法恢复。样本量较小、仅纳入雄性及盲法无记录，进一步限制了精确度、推广性及偏倚评估。这些属于现有证据的限制，不能据此删除不便解释的观察值。",
+        "after": "若干检测和设计限制影响了推断强度。18个SOD抑制率数值中有14个位于厂家建议的40%–60%预实验优化区间之外。该建议不是经证实的硬性有效性界限，但定量解释仍需谨慎。qPCR每份样本只测定1次，缺少留存的NTC/no-RT记录及完整验证。虽然实验者确认了动物样本的独立性及靶标与内参的配对关系，但历史动物—样本对应记录及不同检测之间的样本重叠情况无法恢复。样本量较小、仅纳入雄性及盲法无记录，进一步限制了精确度、推广性及偏倚评估。这些属于现有证据的限制，不能据此删除不便解释的观察值。"
+      },
+      {
+        "paragraph": 66,
+        "before": "处理后的生化数值、配对的靶标与内参Cq数值、统计结果及现有qPCR原始导出文件随文提供。补充材料列明检测限制及两处板图注释更正；两孔均有Cq数值并已纳入分析。动物身份及跨检测关联记录无法恢复；所报告的生物学重复及配对关系依赖实验者确认。本研究不声称已建立跨检测的逐动物对应关系。WB源图及配套实验报告见补充文件2。实验者确认保留了源灰度定量数据。图3B、C再现原始汇总分析，本报告未对其独立重新计算。",
+        "after": "处理后的生化数值、配对的靶标与内参Cq数值、统计结果及现有qPCR原始导出文件随文提供。补充材料列明检测流程及解释范围。动物身份及跨检测关联记录无法恢复；所报告的生物学重复及配对关系依赖实验者确认。本研究不声称已建立跨检测的逐动物对应关系。WB源图及配套实验报告见补充文件2。实验者确认保留了源灰度定量数据。图3B、C再现原始汇总分析，本报告未对其独立重新计算。"
+      },
+      {
+        "paragraph": 89,
+        "before": "图3. 延髓区域NOX1和NOX4的WB分析。（A）β-actin、NOX1和NOX4的代表性条带，每组展示1条泳道，从左至右依次为假手术组、模型组和恢复组；β-actin作为上样参照。分子量标签沿用提供的原图：β-actin为42 kDa、NOX1为62 kDa、NOX4为64 kDa。（B）NOX4及（C）NOX1汇总图再现原始分析。柱及误差线表示均值±标准差（每组3只大鼠）。括号沿用原始两两比较：两种蛋白的模型组与假手术组比较均为***P＜0.001；NOX4恢复组与模型组比较为**P＜0.01；NOX1恢复组与模型组比较为*P＜0.05。原始分析报告单因素方差分析及事后比较，未注明具体事后检验名称。假手术组和模型组于第4周取材，恢复组于第8周取材；这些比较不能分离植入物取出的特异性效应。",
+        "after": "图3. 延髓区域NOX1和NOX4的WB分析。（A）β-actin、NOX1和NOX4的代表性条带，每组展示1条泳道，从左至右依次为假手术组、模型组和恢复组；β-actin作为上样参照。分子量标签沿用提供的原图：β-actin为42 kDa、NOX1为62 kDa、NOX4为64 kDa。（B）NOX4及（C）NOX1汇总图再现原始分析。柱及误差线表示均值±标准差（每组3只大鼠）。括号沿用原始两两比较：两种蛋白的模型组与假手术组比较均为***P＜0.001；NOX4恢复组与模型组比较为**P＜0.01；NOX1恢复组与模型组比较为*P＜0.05。假手术组和模型组于第4周取材，恢复组于第8周取材；这些比较不能分离植入物取出的特异性效应。"
+      }
+    ],
+    "packaged": [
+      {
+        "paragraph": 26,
+        "before": "造模、植入物取出及终末取样均采用2%异氟烷吸入麻醉，气体流量为1 L/min。通过呼吸及反射反应监测麻醉深度。术后肌内注射青霉素钠400,000–800,000单位/kg，每日1次，连续3天。未使用术后镇痛药物；未留存省略镇痛的特定书面理由或授权。术后前3天每日检查摄食、活动及伤口情况，此后每周检查2–3次。麻醉相关并发症、手术损伤及感染被报告为死亡的可能相关因素，但无逐动物死因判定记录。",
+        "after": "造模、植入物取出及终末取样均采用2%异氟烷吸入麻醉，气体流量为1 L/min。通过呼吸及反射反应监测麻醉深度。术后肌内注射青霉素钠400,000–800,000单位/kg，每日1次，连续3天。未使用术后镇痛药物；未留存省略镇痛的特定书面理由或授权。术后前3天每日检查摄食、活动及伤口情况，此后每周检查2–3次。麻醉相关并发症、手术损伤及感染被报告为死亡的可能相关因素。"
+      },
+      {
+        "paragraph": 33,
+        "before": "样本内ΔCq为靶标Cq减去配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。扩增效率假设相近且接近100%；扩增效率及内参基因稳定性未验证，NTC/no-RT记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此特异性尚未确认[10]；结果以归一化检测量报告，不直接视为转录本丰度。B10-Ch5（模型组Nox1，Cq＝29.82）和D12-Ch5（假手术组Nox4，Cq＝34.69）在原始Cq Results导出中均有数值，且均已纳入分析。经作者确认的板图注释更正见补充表S4。Cq数值、样本分组、内参配对及统计结果均保持不变，原始导出文件予以保留。",
+        "after": "样本内ΔCq为靶标Cq减去配对β-actin Cq。相对量按2^(−ΔCq)计算，再除以该检测中6份假手术样本相对量的算术均值。扩增效率假设相近且接近100%；扩增效率及内参基因稳定性未验证，NTC/no-RT记录不可获得。熔解曲线形态不一致，且缺少产物身份验证证据，因此特异性尚未确认[10]；结果以归一化检测量报告，不直接视为转录本丰度。"
+      },
+      {
+        "paragraph": 37,
+        "before": "以大鼠为实验单位。定量结果以均值±样本标准差表示，SOD、MDA、辅助荧光及RT-qPCR检测每组均为6份样本。WB原始结果以均值±标准差表示（每组3只大鼠），采用原先报告的单因素方差分析及事后比较；存档描述未注明具体事后检验名称。原始WB汇总图及显著性标记予以保留，未采用本次SOD、MDA或RT-qPCR方法重新分析。生化及RT-qPCR分析纳入全部已提供数值，不剔除异常值，不插补缺失值。生化指标采用Welch单因素方差分析及Games–Howell检验，报告95%置信区间；各指标内部的3次比较进行校正，不进行跨指标校正。RT-qPCR推断在ΔCq尺度上采用双侧Welch t检验，对原始6个靶标、3组间对比形成的全部18次比较统一进行Holm校正；仅展示Nox1和Nox4。以P＜0.05为统计学显著性阈值。涉及恢复组的比较针对独立终末队列。由于不同检测的样本重叠情况无法恢复，未开展跨检测相关分析。",
+        "after": "以大鼠为实验单位。定量结果以均值±样本标准差表示，SOD、MDA、辅助荧光及RT-qPCR检测每组均为6份样本。WB原始结果以均值±标准差表示（每组3只大鼠），采用原先报告的单因素方差分析及事后比较。原始WB汇总图及显著性标记予以保留，未采用本次SOD、MDA或RT-qPCR方法重新分析。生化及RT-qPCR分析纳入全部已提供数值，不剔除异常值，不插补缺失值。生化指标采用Welch单因素方差分析及Games–Howell检验，报告95%置信区间；各指标内部的3次比较进行校正，不进行跨指标校正。RT-qPCR推断在ΔCq尺度上采用双侧Welch t检验，对原始6个靶标、3组间对比形成的全部18次比较统一进行Holm校正；仅展示Nox1和Nox4。以P＜0.05为统计学显著性阈值。涉及恢复组的比较针对独立终末队列。由于不同检测的样本重叠情况无法恢复，未开展跨检测相关分析。"
+      },
+      {
+        "paragraph": 52,
+        "before": "检测特性限制了生化结果解释。18个SOD抑制率数值中有14个位于厂家建议的40%–60%预实验优化区间之外，相应稀释验证记录无法获得。该建议不是经证实的硬性有效性界限，但定量解释仍需谨慎。TBA反应形成的显色产物并非MDA所特有[9]，因此该信号不能独立确立脂质损伤。补充材料中的O12指数也缺少组织基质及缓冲液兼容性验证。蛋白归一化及统一处理流程不能解决这些检测特有的不确定性。",
+        "after": "检测特性限制了生化结果解释。18个SOD抑制率数值中有14个位于厂家建议的40%–60%预实验优化区间之外。该建议不是经证实的硬性有效性界限，但定量解释仍需谨慎。TBA反应形成的显色产物并非MDA所特有[9]，因此该信号不能独立确立脂质损伤。补充材料中的O12指数也缺少组织基质及缓冲液兼容性验证。蛋白归一化及统一处理流程不能解决这些检测特有的不确定性。"
+      },
+      {
+        "paragraph": 64,
+        "before": "处理后的生化数值、配对的靶标与内参Cq数值、统计结果及现有qPCR原始导出文件随文提供。详细检测限制及两处板图注释更正见补充材料；两孔均有Cq数值并已纳入分析。历史动物—样本对应记录及跨检测关联无法恢复；生物学重复及来自同一动物的靶标与内参配对关系由实验者确认。观察值索引仅表示来源位置，并非动物身份编号。WB源图及配套实验报告见补充文件2。实验者确认保留了源灰度定量数据。图3B、C再现原始汇总分析，本报告未对其独立重新计算。",
+        "after": "处理后的生化数值、配对的靶标与内参Cq数值、统计结果及现有qPCR原始导出文件随文提供。详细检测流程及解释范围见补充材料。历史动物—样本对应记录及跨检测关联无法恢复；生物学重复及来自同一动物的靶标与内参配对关系由实验者确认。观察值索引仅表示来源位置，并非动物身份编号。WB源图及配套实验报告见补充文件2。实验者确认保留了源灰度定量数据。图3B、C再现原始汇总分析，本报告未对其独立重新计算。"
+      },
+      {
+        "paragraph": 87,
+        "before": "图3. 延髓区域NOX1和NOX4的WB分析。（A）β-actin、NOX1和NOX4的代表性条带，每组展示1条泳道，从左至右依次为假手术组、模型组和恢复组；β-actin作为上样参照。分子量标签沿用提供的原图：β-actin为42 kDa、NOX1为62 kDa、NOX4为64 kDa。（B）NOX4及（C）NOX1汇总图再现原始分析。柱及误差线表示均值±标准差（每组3只大鼠）。括号沿用原始两两比较：两种蛋白的模型组与假手术组比较均为***P＜0.001；NOX4恢复组与模型组比较为**P＜0.01；NOX1恢复组与模型组比较为*P＜0.05。原始分析报告单因素方差分析及事后比较，未注明具体事后检验名称。假手术组和模型组于第4周取材，恢复组于第8周取材；这些比较不能分离植入物取出的特异性效应。",
+        "after": "图3. 延髓区域NOX1和NOX4的WB分析。（A）β-actin、NOX1和NOX4的代表性条带，每组展示1条泳道，从左至右依次为假手术组、模型组和恢复组；β-actin作为上样参照。分子量标签沿用提供的原图：β-actin为42 kDa、NOX1为62 kDa、NOX4为64 kDa。（B）NOX4及（C）NOX1汇总图再现原始分析。柱及误差线表示均值±标准差（每组3只大鼠）。括号沿用原始两两比较：两种蛋白的模型组与假手术组比较均为***P＜0.001；NOX4恢复组与模型组比较为**P＜0.01；NOX1恢复组与模型组比较为*P＜0.05。假手术组和模型组于第4周取材，恢复组于第8周取材；这些比较不能分离植入物取出的特异性效应。"
+      }
+    ]
+  },
+  "supplement_changes": [
+    {
+      "paragraph_before_deletion": 4,
+      "before": "This supplement describes assay procedures, calculations, qPCR plate annotation corrections and supplementary observations. The manuscript and underlying thesis concern the same experiment and share the corresponding procedures, except for anesthesia. Isoflurane was used for the experiments reported here.",
+      "after": "This supplement describes assay procedures, calculations and supplementary observations."
+    },
+    {
+      "paragraph_before_deletion": 7,
+      "before": "SOD activity was calculated as follows: inhibition fraction = 1 − (sample absorbance − sample blank)/(control absorbance − control blank); activity = inhibition fraction/0.5 × (0.24/0.02)/protein concentration in mg/ml. The ratio 0.24/0.02 represents the reaction-to-sample volume ratio, not an additional predilution. Reactions contained 20 μl sample, 20 μl enzyme solution and 200 μl substrate, were incubated at 37°C for 20 min and were read at 450 nm. Fourteen of the 18 inhibition values were outside the manufacturer's suggested 40–60% interval for pilot optimization. A dilution-validation series was not available. This interval was not treated as a proven validity threshold, and no observations were excluded on this basis.",
+      "after": "SOD activity was calculated as follows: inhibition fraction = 1 − (sample absorbance − sample blank)/(control absorbance − control blank); activity = inhibition fraction/0.5 × (0.24/0.02)/protein concentration in mg/ml. The ratio 0.24/0.02 represents the reaction-to-sample volume ratio, not an additional predilution. Reactions contained 20 μl sample, 20 μl enzyme solution and 200 μl substrate, were incubated at 37°C for 20 min and were read at 450 nm. Fourteen of the 18 inhibition values were outside the manufacturer's suggested 40–60% interval for pilot optimization. This interval was not treated as a proven validity threshold, and no observations were excluded on this basis."
+    },
+    {
+      "paragraph_before_deletion": 24,
+      "before": "Table S5 Full original qPCR comparison family",
+      "after": "Table S4 Full original qPCR comparison family"
+    },
+    {
+      "paragraph_before_deletion": 28,
+      "before": "Supplementary File 2 contains the Western blot laboratory report, source Word document, original composite figure and separately supplied chart TIFFs. These source files are provided without alteration. Main Figure 3 combines the original β-actin, NOX1 and NOX4 strip images (A) with the NOX4 (B) and NOX1 (C) summary graphs. Layout, labels and annotation line styles were reformatted; blot content, bar heights, displayed error ranges and star counts were retained. The source report describes ImageJ analysis, with β-actin shown as a loading reference. Three rats per group were used, and results were reported as mean ± SD, as confirmed by the investigators. One representative lane is shown per group. The investigators confirmed that the original densitometry data are retained. The summary analysis was not independently recalculated for this report. The archived methods describe one-way ANOVA and post hoc comparisons but do not identify the specific post hoc test. The original pairwise results were retained: model versus sham, P < 0.001 for both proteins; restoration versus model, P < 0.01 for NOX4 and P < 0.05 for NOX1.",
+      "after": "Supplementary File 2 contains the Western blot laboratory report, source Word document, original composite figure and separately supplied chart TIFFs. These source files are provided without alteration. Main Figure 3 combines the original β-actin, NOX1 and NOX4 strip images (A) with the NOX4 (B) and NOX1 (C) summary graphs. Layout, labels and annotation line styles were reformatted; blot content, bar heights, displayed error ranges and star counts were retained. The source report describes ImageJ analysis, with β-actin shown as a loading reference. Three rats per group were used, and results were reported as mean ± SD, as confirmed by the investigators. One representative lane is shown per group. The investigators confirmed that the original densitometry data are retained. The summary analysis was not independently recalculated for this report. The archived methods describe one-way ANOVA and post hoc comparisons. The original pairwise results were retained: model versus sham, P < 0.001 for both proteins; restoration versus model, P < 0.01 for NOX4 and P < 0.05 for NOX1."
+    },
+    {
+      "paragraph_before_deletion": 30,
+      "before": "Ethical approval (AHUCM-rats-2022032) and the omission of postoperative analgesia are reported in the main Methods. Six deaths occurred intraoperatively and three postoperatively, for a total of nine. Individual cause-of-death assessments and time-linked intervention records could not be recovered.",
+      "after": "Ethical approval (AHUCM-rats-2022032) and the omission of postoperative analgesia are reported in the main Methods. Six deaths occurred intraoperatively and three postoperatively, for a total of nine."
+    }
+  ],
+  "removed_table": "Original S4 two-well annotation table; original S5 renumbered S4.",
+  "remaining_tables": 4,
+  "underlying_values_exports_statistics_figures_unchanged": true,
+  "main_words": 3760,
+  "summary_words": 219,
+  "visual_review": "Passed. English changed pages 4–13, Chinese packaged changed pages 4–10/13, Chinese working changed pages 4–11/14 and all supplementary pages inspected. Remaining main pages exact PNG matches to previously inspected versions. English S2 and Chinese S1 pagination repaired; changed final pages re-inspected. No clipping or orphan captions.",
+  "page_counts": {
+    "English": 13,
+    "Chinese_packaged": 13,
+    "Chinese_working": 14,
+    "Supplementary_English": 6,
+    "Supplementary_Chinese": 7
+  },
+  "remaining_table_data_exactly_preserved": true,
+  "main_results_summary_references_and_AI_declaration_unchanged": true,
+  "Chinese_supplement_translation_corrected": true,
+  "final_output_sha256": {
+    "Yuan.docx": "d6da4ee86b610821bf4d991bf6f3426f5110c8590b1b9536c5d6de92ab4a8b2e",
+    "Yuan.pdf": "c5afcb2c4f0114a8dff052fe1b6ca2aebf6af9c86b3a3d89f4a93571c46a4beb",
+    "Supplementary_Information.docx": "ca64eb672ff4e7fb0f3716bc5cf658b8344447d141f02c26117dfa6cc7a4f1f9",
+    "Supplementary_Information_中文对照稿.docx": "26a6742746c25168e59353333e9e3cc3af97874940a1aab9588205f267f832a2",
+    "中文对照稿.docx": "a24af998dc7679c809d9e7eedfb88094f6822390cdbe8b5bcb07f986ca221b65"
+  }
+}

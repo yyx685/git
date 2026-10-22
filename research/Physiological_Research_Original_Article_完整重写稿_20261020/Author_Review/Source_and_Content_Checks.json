@@ -82,21 +82,23 @@
   "review_status": "Complete new author-review draft; author review of this version remains necessary",
   "no_email_sent": true,
   "no_new_experiments_or_validation_claimed": true,
-  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3858,
+  "word_count_all_main_paragraphs_including_title_summary_references_and_legends": 3760,
   "final_page_counts": {
     "English": 13,
     "Chinese": 13,
-    "Supplementary": 6
+    "Supplementary": 6,
+    "Supplementary_Chinese": 7
   },
   "numeric_statistics_reproduction_passed": true,
   "full_18_test_family_preserved": true,
   "visual_review": {
-    "English": "Language-polished 13 pages inspected, final changed regions rechecked; all three unchanged figures complete with edited captions. Header/footer line-number artifacts removed; body numbering retained.",
+    "English": "All 13 pages checked; deleted red-text passages and corresponding references removed, other results and figures unchanged.",
     "Chinese": "Pages 1–12 exact PNG match; revised Figure 3 and full caption inspected on page 13.",
     "Chinese_working_copy": "Pages 1–13 exact PNG match; revised Figure 3 and full caption inspected on page 14; author body/formatting preserved.",
-    "Supplementary": "Language-polished six pages inspected; five tables and two figures unchanged; final method heading and captions inspected.",
+    "Supplementary": "Four remaining tables checked; original S5 renumbered S4, original S4 removed. Both figures and captions grouped on pages 5/6.",
     "Figures_1_2": "Both full-resolution PNGs inspected; labels, SDs, significance-family mappings and 4/8-week labels checked",
-    "Figure_3": "A image and six bar crops preserved; all original upper error endpoints, comparison identities and stars retained. New vector caps/shafts/brackets/labels inspected at full figure and page scales."
+    "Figure_3": "A image and six bar crops preserved; all original upper error endpoints, comparison identities and stars retained. New vector caps/shafts/brackets/labels inspected at full figure and page scales.",
+    "Supplementary_Chinese": "All seven pages checked; translation corrected and both figures with full captions together on page 7."
   },
   "journal_rules_checked": "Original Article max 5000 words, max 45 references, max 6 displays; summary max250, keywords max5, runningtitlemax60",
   "review_note": "This new version awaits author review and approval before submission; ORCID/Researcher IDs were not fabricated",
@@ -309,5 +311,22 @@
     "validation_limits_preserved": true,
     "visual_review": "All changed pages inspected: English 2–13, Chinese packaged 2/3/5/6/8/9/10/12, Chinese working 2/3/4/5/7/8/9/10/13, supplement 5. Remaining pages match earlier inspected PNGs exactly. No clipping, missing glyphs or overlap.",
     "all_numeric_tokens_preserved": true
+  },
+  "red_text_deletion_20261022": {
+    "date": "2026-10-22",
+    "author_instruction": "Delete red text in both supplied documents; synchronize corresponding materials and improve flow.",
+    "removed_table": "Original S4 two-well annotation table; original S5 renumbered S4.",
+    "remaining_tables": 4,
+    "underlying_values_exports_statistics_figures_unchanged": true,
+    "main_words": 3760,
+    "summary_words": 219,
+    "visual_review": "Passed. English changed pages 4–13, Chinese packaged changed pages 4–10/13, Chinese working changed pages 4–11/14 and all supplementary pages inspected. Remaining main pages exact PNG matches to previously inspected versions. English S2 and Chinese S1 pagination repaired; changed final pages re-inspected. No clipping or orphan captions.",
+    "page_counts": {
+      "English": 13,
+      "Chinese_packaged": 13,
+      "Chinese_working": 14,
+      "Supplementary_English": 6,
+      "Supplementary_Chinese": 7
+    }
   }
 }
