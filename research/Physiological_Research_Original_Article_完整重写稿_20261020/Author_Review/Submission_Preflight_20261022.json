@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-22",
+  "journal": "Physiological Research",
+  "article_type": "Original Article",
+  "official_guidelines": "https://www.biomed.cas.cz/physiolres/instructions.htm",
+  "metrics": {
+    "main_words": 3714,
+    "summary_words": 219,
+    "main_pages": 13,
+    "changed_paragraphs": [
+      20,
+      65,
+      67,
+      75,
+      76,
+      77
+    ]
+  },
+  "statistical_reproduction": {
+    "GH_comparisons_checked": 9,
+    "qPCR_Holm_comparisons_checked": 18,
+    "Welch_omnibus_checked": 3,
+    "status": "passed; no numerical or figure changes"
+  },
+  "references": "11 metadata records checked; 4 author lists truncated to first 7 + et al.",
+  "visual_review": {
+    "English": "All 13 pages viewed after final changes",
+    "Chinese_packaged": "Changed pages 3,9,10 viewed; all remaining pages identical to previously inspected PNGs",
+    "Chinese_working": "Changed pages 3,4,10,11 viewed; all remaining pages identical",
+    "Supplement": "All 6 current pages verified by audit agent; current file SHA matches previous final render"
+  },
+  "animal_guideline_basis": "Author confirmed Anhui University of Chinese Medicine institutional rules; NIH/European adherence was not asserted.",
+  "ethics_policy_compatibility": "Not established solely by this file review; corresponding author/institution should resolve against journal policy and actual omission of analgesia.",
+  "formal_file_count": 16,
+  "attachment_count_if_cover_in_email_body": 15,
+  "formal_file_sha256": {
+    "Cover_Letter.txt": "5d2b5a16c4851118818b56d0a4276f37f16279ce96fda4feb5312c185184a689",
+    "Supplementary_Information.docx": "ca64eb672ff4e7fb0f3716bc5cf658b8344447d141f02c26117dfa6cc7a4f1f9",
+    "Supporting_Information/Reproduce_Statistics.py": "32da0456502872be6421474de8ea25cb5d772d8a10e71cdf614e3d9b5a1ab4c9",
+    "Supporting_Information/Supplementary_Data_1_Biochemical_Values.csv": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31",
+    "Supporting_Information/Supplementary_Data_2_Targeted_qPCR_Values.csv": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb",
+    "Supporting_Information/Supplementary_Data_3_Original_qPCR_Panel.csv": "de53949c9b2f02e99ba6d11903849055162d7951d2f158201fb035b297f8a336",
+    "Supporting_Information/Supplementary_Fig_S1.jpg": "f75cb73f6fd490b5dfce21de260b3df1f3d33a3321a15560b7a14991af3d8b0d",
+    "Supporting_Information/Supplementary_Fig_S2_HE_Archived.tif": "7b1919c4519827d5cbdfef481cf07309c1c183a19962356ee6f3e9d0c38d57dc",
+    "Supporting_Information/Supplementary_File_1_Original_qPCR_Exports.zip": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3",
+    "Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip": "813a9995911892a77a184d8d7879c1417735ca603003b1bc99fb9917e7803e88",
+    "Supporting_Information/Supplementary_Statistical_Results.json": "2204da918eebdfa952aaeb523ea5167b1997386fb488e16e6d87d4f6cb12ffad",
+    "Yuan.docx": "ebc36a083ce4754508d3fb97ce58df8137ae1ddc4a3cec001a701b39831f9538",
+    "Yuan.pdf": "0c5b55670995dce14808a0c29c3f401a07f3a4595f1f2b3b1f5f09b54c2dcbef",
+    "Yuan_fig1.jpg": "bc58a8140b8595732d0389b643be6999ffd79787c6236756e87e1950e5f0bc9a",
+    "Yuan_fig2.jpg": "159053114618a2d972d0d2edbc69f5c81557a4cd95357b5320fcb21ea3c02206",
+    "Yuan_fig3.jpg": "fc9d5995e858d08a23b11b22d55010ad29586856a3fe0873fc351369015b986e"
+  },
+  "work_zip_members": 25,
+  "work_zip_changed_existing_members": [
+    "01_English_Manuscript/Cover_Letter.txt",
+    "01_English_Manuscript/Supporting_Information/Supplementary_Statistical_Results.json",
+    "01_English_Manuscript/Yuan.docx",
+    "01_English_Manuscript/Yuan.pdf",
+    "02_Author_Reading/中文对照稿.docx",
+    "02_Author_Reading/选刊与稿件说明.md"
+  ],
+  "Chinese_working_copy_unrelated_changes_preserved": true,
+  "email_sent": false
+}
