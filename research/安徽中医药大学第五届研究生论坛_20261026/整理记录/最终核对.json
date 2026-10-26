@@ -1,0 +1,22 @@
+{
+  "pages": 8,
+  "word_has_two_figures": true,
+  "true_footnote": true,
+  "references_fresh_page": true,
+  "no_track_changes_comments_placeholders": true,
+  "source_unchanged": true,
+  "preserve_only_package_parts_unchanged": true,
+  "visual_pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "final_render": "/tmp/codex-forum-20261026/final-render",
+  "pages3_8_byte_identical_to_reviewed_iteration1": true,
+  "known_values_present_in_pdf": true
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "path": "报送说明.md",
+    "bytes": 2002,
+    "sha256": "39b0d5a35476300e118442865212d5b66988d05236a7ef9a4da70be191329575"
+  },
+  {
+    "path": "整理记录/字数核对.json",
+    "bytes": 348,
+    "sha256": "0aaddd1b6bb28ee7a69d8a9a3f29dd349a8041738334d3835f9aabc3080898c6"
+  },
+  {
+    "path": "整理记录/排版执行约定.md",
+    "bytes": 2880,
+    "sha256": "0325618c4b160790b7db5fc767102c09514bef8e7b6e3e092a7220fdd5bd4094"
+  },
+  {
+    "path": "整理记录/插图/图1.jpg",
+    "bytes": 298724,
+    "sha256": "bc58a8140b8595732d0389b643be6999ffd79787c6236756e87e1950e5f0bc9a"
+  },
+  {
+    "path": "整理记录/插图/图2.jpg",
+    "bytes": 701068,
+    "sha256": "fc9d5995e858d08a23b11b22d55010ad29586856a3fe0873fc351369015b986e"
+  },
+  {
+    "path": "整理记录/文稿生成记录.py",
+    "bytes": 14652,
+    "sha256": "2ac4d645e81b7932d9dd862ae9c62dd18796b9ae74f3d7241cda70160d92601b"
+  },
+  {
+    "path": "整理记录/最终核对.json",
+    "bytes": 479,
+    "sha256": "614d2ea31c5aab752454af0f339d7cebfc40188faac1216a46586844ded3ac30"
+  },
+  {
+    "path": "整理记录/来源/附件1论文投稿格式规范.docx",
+    "bytes": 147815,
+    "sha256": "43a1f65266e9d122c32c01caa0df84ffa7b78c47b64f2470d2d31e776ed6b20d"
+  },
+  {
+    "path": "整理记录/模板包结构核对.json",
+    "bytes": 4598,
+    "sha256": "1399954b87aea055e99d8f0429eb399ebbe6ad9864f03af58d72ed28042050a9"
+  },
+  {
+    "path": "整理记录/论坛稿.md",
+    "bytes": 14655,
+    "sha256": "db0191ac5efb86c26b2e83720dd7c25a1b1e147444ea92ca67fea9c27300c3fb"
+  },
+  {
+    "path": "整理记录/论坛稿内容.json",
+    "bytes": 16043,
+    "sha256": "13ea070e5d2682940381b8759bcc0bd6877e6358627eaff4a3c6c74bf135af33"
+  },
+  {
+    "path": "硕士－针灸推拿学院－针灸推拿学－袁英祥－2025203212013.docx",
+    "bytes": 787896,
+    "sha256": "b7a32e423e03bb1fecba8bfd47ef2edb1c4d6c03ee84d9a0973876c837a38b19"
+  },
+  {
+    "path": "硕士－针灸推拿学院－针灸推拿学－袁英祥－2025203212013.pdf",
+    "bytes": 657073,
+    "sha256": "344c3920a8cd9440fa48a80b55ddbecb51525548a17220a037e3bfcf6a79ca77"
+  }
+]
