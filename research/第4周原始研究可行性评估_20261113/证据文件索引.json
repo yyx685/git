@@ -1,0 +1,144 @@
+{
+  "assessment_date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "scope": "Read-only evidence assessment for a possible exploratory week-4 manuscript. No new statistical tests, no changes to source files, and no claim of submission readiness.",
+  "files": [
+    {
+      "role": "editorial_comments",
+      "path": "/Users/yyx/Desktop/副本Editorial_Comments_936006.docx",
+      "size_bytes": 16785,
+      "sha256": "b6b1f8cea031bcc0dbf45030b3b6aacf0b08c1b24058e19ee1c2019d7df824e4"
+    },
+    {
+      "role": "submitted_manuscript",
+      "path": "/Users/yyx/Desktop/正式投稿文件_20261022/Yuan.docx",
+      "size_bytes": 1255929,
+      "sha256": "314eeb13fc1bfac82577753bd122612d679437b8b59cbf5bc06be34c0d87abd4"
+    },
+    {
+      "role": "submitted_supplement",
+      "path": "/Users/yyx/Desktop/正式投稿文件_20261022/Supplementary_Information.docx",
+      "size_bytes": 1729742,
+      "sha256": "ca64eb672ff4e7fb0f3716bc5cf658b8344447d141f02c26117dfa6cc7a4f1f9"
+    },
+    {
+      "role": "biochemical_processed_values",
+      "path": "/Users/yyx/Desktop/正式投稿文件_20261022/Supporting_Information/Supplementary_Data_1_Biochemical_Values.csv",
+      "size_bytes": 4140,
+      "sha256": "748211e87b8659ec3f75f96420375a499c1b8c2d24cfa5c702e4beee0c44dd31"
+    },
+    {
+      "role": "targeted_qpcr_values",
+      "path": "/Users/yyx/Desktop/正式投稿文件_20261022/Supporting_Information/Supplementary_Data_2_Targeted_qPCR_Values.csv",
+      "size_bytes": 3290,
+      "sha256": "4f70f41179bcc41c2a6a14e689dc2415dba59970aee75060f675e46d1e80d9eb"
+    },
+    {
+      "role": "full_qpcr_panel",
+      "path": "/Users/yyx/Desktop/正式投稿文件_20261022/Supporting_Information/Supplementary_Data_3_Original_qPCR_Panel.csv",
+      "size_bytes": 9388,
+      "sha256": "de53949c9b2f02e99ba6d11903849055162d7951d2f158201fb035b297f8a336"
+    },
+    {
+      "role": "qpcr_original_exports",
+      "path": "/Users/yyx/Desktop/正式投稿文件_20261022/Supporting_Information/Supplementary_File_1_Original_qPCR_Exports.zip",
+      "size_bytes": 2567868,
+      "sha256": "4907ae76f950b6bd7c9f15b00bb30daa37fc31b182cdb0c1f7658ab6084a14d3"
+    },
+    {
+      "role": "western_blot_source",
+      "path": "/Users/yyx/Desktop/正式投稿文件_20261022/Supporting_Information/Supplementary_File_2_Western_Blot_Source.zip",
+      "size_bytes": 738344,
+      "sha256": "813a9995911892a77a184d8d7879c1417735ca603003b1bc99fb9917e7803e88"
+    },
+    {
+      "role": "sod_workbook_copy",
+      "path": "/Users/yyx/Downloads/MMR_Figures_For_Author_Check/Oxidative_Verification/Input_Workbooks/SOD_RVLM.xls",
+      "size_bytes": 73728,
+      "sha256": "efbb326dab649a8f8ac7d05b5a4623f9ee6edd473fb482400ddf917264b91d96"
+    },
+    {
+      "role": "mda_workbook_copy",
+      "path": "/Users/yyx/Downloads/MMR_Figures_For_Author_Check/Oxidative_Verification/Input_Workbooks/MDA_RVLM.xlsx",
+      "size_bytes": 59716,
+      "sha256": "2fa4ba6e19c55c24cc3a9650d581165d89b965e41fa6c1df3e9f73bfb590b21d"
+    },
+    {
+      "role": "related_published_article",
+      "path": "/Users/yyx/Desktop/2026Expression of AngII and AT1-R IN PVLM 546-550.pdf",
+      "size_bytes": 1240585,
+      "sha256": "1e614040c2bd5e1c1aaf5814096e3e22ea35f8fa3164c91c2a9611965b0ec4d7"
+    },
+    {
+      "role": "prior_biochemical_audit",
+      "path": "/Users/yyx/Desktop/git/git/research/抗氧化论文_初稿重审_20261020/第03步_SOD和MDA的方法与结果.md",
+      "size_bytes": 9724,
+      "sha256": "b9b97ce7a643aadbcf1cf5e4466b7bd46497f974e626a20867efad182d9fddb0"
+    }
+  ],
+  "biochemical_processed_record_counts": [
+    {
+      "endpoint": "MDA",
+      "group": "Model",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Restoration",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "MDA",
+      "group": "Sham-operated",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Model",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Restoration",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "ROS",
+      "group": "Sham-operated",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Model",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Restoration",
+      "record_count_not_verified_animal_n": 6
+    },
+    {
+      "endpoint": "SOD",
+      "group": "Sham-operated",
+      "record_count_not_verified_animal_n": 6
+    }
+  ],
+  "verified_against_prior_audit": {
+    "sod_copy_sha256_matches": true,
+    "mda_copy_sha256_matches": true
+  },
+  "pending_checks": [
+    "Confirm actual collection times and reconcile current 4/4/8 description with the related published article summary and animal counts.",
+    "Confirm real ethics approval dates and coverage; clarify qPCR instrument/export timestamps without equating them to animal-experiment dates.",
+    "Verify within-assay biological provenance, independence and group assignment separately from cross-assay matching.",
+    "Obtain actual retained animal-level WB densitometry and image/lane/exposure records.",
+    "Obtain kit-specific historical instructions and available SOD validation records; assess whether traceable retained materials are suitable for new validation."
+  ],
+  "official_reference_urls": [
+    "https://arriveguidelines.org/arrive-guidelines/study-design/1a/explanation",
+    "https://arriveguidelines.org/arrive-guidelines/inclusion-and-exclusion-criteria/3a/explanation",
+    "https://arriveguidelines.org/arrive-guidelines/ethical-statement/14/explanation",
+    "https://arriveguidelines.org/arrive-guidelines/animal-care-and-monitoring/16a/explanation",
+    "https://doi.org/10.1093/clinchem/hvaf043"
+  ]
+}
